@@ -7,7 +7,7 @@ export const AboutFR: IAbout = {
     description: [
         {
             title: "À Propos de Nous",
-            description: "CHORN a lancé son site web en mars 2023 pour suivre les dernières informations sur les technologies en évolution rapide d'aujourd'hui, le développement de logiciels, les technologies de l'information pour diverses industries de domaines d'affaires, et les actualités intéressantes."
+            description: "Depuis 2001, CHORN est spécialisé dans l’ingénierie logicielle et matérielle pour la production de masse de semi-conducteurs et d’équipements électroniques. En 2012, nous avons élargi notre expertise au développement de plateformes numériques, incluant des solutions web et mobiles, en tirant parti des technologies, frameworks et langages de programmation modernes. En mars 2023, nous avons lancé notre site web afin de partager des analyses sur les dernières avancées en matière de technologie, de développement logiciel, de solutions informatiques pour divers secteurs et sur les tendances technologiques émergentes."
         },
         {
             title: "Expertise",
@@ -21,7 +21,7 @@ export const AboutFR: IAbout = {
     stacks: [
         {
             title: "Développement logiciel et intégration de systèmes d'entreprise",
-            description: "Fournir un développement logiciel de bout en bout et une intégration des systèmes d’entreprise, adaptés aux start-ups en forte croissance et aux entreprises digital-first. En exploitant des frameworks modernes, nous construisons des systèmes Front-end et Back-end évolutifs tout en intégrant des plateformes critiques telles que ERP, intégration SAP, SAP ABAP, CRM, MES et e-commerce. Nos solutions améliorent le flux de données interfonctionnel et l’automatisation opérationnelle grâce à une architecture API robuste, WebService (REST/SOAP) et intégration AI-LLM."
+            description: "Fournir un développement logiciel de bout en bout et une intégration des systèmes d’entreprise, adaptés aux start-ups en forte croissance et aux entreprises digital-first. En exploitant des frameworks modernes, nous construisons des systèmes Front-end et Back-end évolutifs tout en intégrant des plateformes critiques telles que SAP ERP, S/4HANA, CRM, MES et e-commerce. Nos solutions améliorent le flux de données interfonctionnel et l’automatisation opérationnelle grâce à une architecture API robuste, WebService (REST/SOAP) et intégration AI-LLM."
         },
         {
             title: "Analyse de Système et Support Technique",

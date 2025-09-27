@@ -33,24 +33,28 @@ const nextConfig = {
         }]
     },
 
-    // async rewrites() {
-        // ****
-        // Use rewrite for OpenGraph images only
-        // ****
+    images: {
+        domains: ["scdn.line-apps.com"], // 👈 Add this line
+    },
 
-        // Backup for DigitalOcean Space Images
-        // return [{
-        //     source: '/images/technical-expertise/cloud-devops/Kubernetes.webp',
-        //     destination: 'https://cdn.chorn.in.th/public/technical-expertise/devops/framework/kube-qrcode-1200.webp',
-        // }, {
-        //     source: '/images/:path*', destination: 'https://cdn.chorn.in.th/public/:path*'
-        // }, {
-        //     source: '/images-ai/:path*', destination: 'https://cdn.chorn.in.th/public/ai/:path*'
-        // }, {
-        //     source: '/chorn-images/:path*', destination: 'https://cdn.chorn.in.th/public/:path*'
-        // }, {
-        //     source: '/obsolete-images/:path*', destination: 'https://cdn.chorn.in.th/obsolete/:path*'
-        // },];
+    // async rewrites() {
+    // ****
+    // Use rewrite for OpenGraph images only
+    // ****
+
+    // Backup for DigitalOcean Space Images
+    // return [{
+    //     source: '/images/technical-expertise/cloud-devops/Kubernetes.webp',
+    //     destination: 'https://cdn.chorn.in.th/public/technical-expertise/devops/framework/kube-qrcode-1200.webp',
+    // }, {
+    //     source: '/images/:path*', destination: 'https://cdn.chorn.in.th/public/:path*'
+    // }, {
+    //     source: '/images-ai/:path*', destination: 'https://cdn.chorn.in.th/public/ai/:path*'
+    // }, {
+    //     source: '/chorn-images/:path*', destination: 'https://cdn.chorn.in.th/public/:path*'
+    // }, {
+    //     source: '/obsolete-images/:path*', destination: 'https://cdn.chorn.in.th/obsolete/:path*'
+    // },];
     // },
 
     async redirects() {

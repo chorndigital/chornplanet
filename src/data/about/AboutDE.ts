@@ -7,7 +7,7 @@ export const AboutDE: IAbout = {
     description: [
         {
             title: "Über Uns",
-            description: "CHORN startete seine Website im März 2023, um die neuesten Informationen über die sich schnell verändernden Technologien von heute, Softwareentwicklung, Informationstechnologie für verschiedene Geschäftsdomänen und interessante Nachrichten zu verfolgen."
+            description: "Seit 2001 ist CHORN auf Software- und Hardware-Engineering für die Serienfertigung von Halbleitern und Elektronik spezialisiert. Im Jahr 2012 erweiterten wir unser Tätigkeitsfeld auf die Entwicklung digitaler Plattformen, einschließlich Web- und Mobile-Lösungen, unter Einsatz moderner Technologien, Frameworks und Programmiersprachen. Im März 2023 starteten wir unsere Website, um Einblicke in die neuesten Entwicklungen in Technologie, Softwareentwicklung, IT-Lösungen für verschiedene Branchen und weitere Technologietrends zu teilen."
         },
         {
             title: "Fachwissen",
@@ -21,7 +21,7 @@ export const AboutDE: IAbout = {
     stacks: [
         {
             title: "Softwareudvikling og integration af virksomhedssystemer",
-            description: "Bereitstellung von End-to-End-Softwareentwicklung und Unternehmenssystemintegration, maßgeschneidert für schnell wachsende Start-ups und digital-first Unternehmen. Unter Einsatz moderner Frameworks entwickeln wir skalierbare Frontend- und Backend-Systeme und integrieren gleichzeitig kritische Plattformen wie ERP, SAP-Integration, SAP ABAP, CRM, MES und E-Commerce. Unsere Lösungen verbessern den funktionsübergreifenden Datenfluss und die betriebliche Automatisierung durch robuste API-Architektur, WebService (REST/SOAP) und AI-LLM-Integration."
+            description: "Bereitstellung von End-to-End-Softwareentwicklung und Unternehmenssystemintegration, maßgeschneidert für schnell wachsende Start-ups und digital-first Unternehmen. Unter Einsatz moderner Frameworks entwickeln wir skalierbare Frontend- und Backend-Systeme und integrieren gleichzeitig kritische Plattformen wie SAP ERP, S/4HANA, CRM, MES und E-Commerce. Unsere Lösungen verbessern den funktionsübergreifenden Datenfluss und die betriebliche Automatisierung durch robuste API-Architektur, WebService (REST/SOAP) und AI-LLM-Integration."
         },
         {
             title: "Systemanalyse und Technischer Support",

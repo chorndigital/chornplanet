@@ -7,7 +7,7 @@ export const AboutZH: IAbout = {
     description: [
         {
             title: "关于我们",
-            description: "CHORN 于2023年3月推出其网站，以跟踪当今快速变化的技术、软件开发、各种商业领域行业的信息技术以及有趣新闻的最新信息。"
+            description: "自2001年以来，CHORN专注于半导体和电子产品的大规模生产中的软件与硬件工程。2012年，我们拓展至数字平台开发，包括网页和移动端解决方案，并充分利用现代技术、框架和编程语言。2023年3月，我们正式上线网站，以分享在科技、软件开发、各行业IT解决方案以及其他技术趋势方面的最新见解。"
         },
         {
             title: "专业知识",
@@ -21,7 +21,7 @@ export const AboutZH: IAbout = {
     stacks: [
         {
             title: "软件开发与企业系统集成",
-            description: "为高速成长的初创公司和数字优先型企业提供端到端的软件开发和企业系统集成。利用现代框架，我们构建可扩展的Front-end和Back-end系统，同时集成ERP、SAP integration、SAP ABAP、CRM、MES和电子商务等关键平台。我们的解决方案通过强大的API架构、WebService（REST/SOAP）以及AI-LLM集成，提升跨职能数据流和业务自动化能力。"
+            description: "为高速成长的初创公司和数字优先型企业提供端到端的软件开发和企业系统集成。利用现代框架，我们构建可扩展的Front-end和Back-end系统，同时集成SAP ERP、S/4HANA、CRM、MES和电子商务等关键平台。我们的解决方案通过强大的API架构、WebService（REST/SOAP）以及AI-LLM集成，提升跨职能数据流和业务自动化能力。"
         },
         {
             title: "系统分析和技术支持",

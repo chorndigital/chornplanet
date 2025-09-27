@@ -7,9 +7,8 @@ export const AboutEN: IAbout = {
     subTitle: "Technology Innovation for Business Success",
     description: [
         {
-            title: "About Us",
-            description: "CHORN launched its website in March 2023 to follow the latest information about rapidly changing technology today, software development, information technology for various business domain industries, and interesting news."
-
+            title: "Manufacturing Experience",
+            description: "Since 2001, CHORN has specialized in software and hardware engineering for high-volume semiconductor and electronics manufacturing. In 2012, we expanded into digital platform development, including web and mobile solutions, leveraging modern technologies, frameworks, and programming languages. In March 2023, we launched our website to share insights on the latest advancements in technology, software development, IT solutions across diverse industries, and other tech trends."
         },
         {
             title: "Expertise",
@@ -23,7 +22,7 @@ export const AboutEN: IAbout = {
     stacks: [
         {
             title: "Software Development and Enterprise System Integration",
-            description: "Provide end-to-end software development and enterprise system integration tailored for fast-growing startups and digital-first enterprises. Leveraging modern frameworks, we build scalable Front-end and Back-end systems while integrating critical platforms like ERP, SAP integration,  SAP ABAP, CRM, MES, and e-commerce. Our solutions enhance cross-functional data flow and operational automation through robust API architecture, WebService (REST/SOAP), and AI-LLM integration."
+            description: "Provide end-to-end software development and enterprise system integration tailored for fast-growing startups and digital-first enterprises. Leveraging modern frameworks, we build scalable Front-end and Back-end systems while integrating critical platforms like SAP ERP, S/4HANA, CRM, MES, and e-commerce. Our solutions enhance cross-functional data flow and operational automation through robust API architecture, WebService (REST/SOAP), and AI-LLM integration."
         },
         {
             title: "System Analysis and Technical Support",

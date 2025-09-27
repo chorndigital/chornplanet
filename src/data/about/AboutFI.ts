@@ -7,7 +7,7 @@ export const AboutFI: IAbout = {
     description: [
         {
             title: "Meistä",
-            description: "CHORN julkaisi verkkosivustonsa maaliskuussa 2023 seuratakseen uusimpia tietoja nykypäivän nopeasti muuttuvasta teknologiasta, ohjelmistokehityksestä, eri liiketoiminta-alojen tietotekniikasta sekä mielenkiintoisista uutisista."
+            description: "Vuodesta 2001 lähtien CHORN on erikoistunut ohjelmisto- ja laitteistosuunnitteluun puolijohteiden ja elektroniikan suurivolyymiseen valmistukseen. Vuonna 2012 laajensimme toimintaamme digitaalisten alustojen kehittämiseen, mukaan lukien web- ja mobiiliratkaisut, hyödyntäen moderneja teknologioita, kehyksiä ja ohjelmointikieliä. Maaliskuussa 2023 lanseerasimme verkkosivustomme jakaaksemme näkemyksiä uusimmista edistysaskeleista teknologiassa, ohjelmistokehityksessä, IT-ratkaisuissa eri toimialoilla sekä muista teknologiatrendeistä."
         },
         {
             title: "Asiantuntemus",
@@ -21,7 +21,7 @@ export const AboutFI: IAbout = {
     stacks: [
         {
             title: "Ohjelmistokehitys ja yritysjärjestelmien integrointi",
-            description: "Tarjoamme end-to-end-ohjelmistokehitystä ja yritysjärjestelmien integrointia, jotka on räätälöity nopeasti kasvaville startupeille ja digital-first-yrityksille. Hyödyntämällä moderneja kehyksiä rakennamme skaalautuvia Front-end- ja Back-end-järjestelmiä sekä integroimme kriittisiä alustoja, kuten ERP, SAP-integraatio, SAP ABAP, CRM, MES ja verkkokauppa. Ratkaisumme parantavat poikkitoiminnallista tiedonkulkua ja toiminnan automaatiota vahvan API-arkkitehtuurin, WebService (REST/SOAP) ja AI-LLM-integraation avulla."
+            description: "Tarjoamme end-to-end-ohjelmistokehitystä ja yritysjärjestelmien integrointia, jotka on räätälöity nopeasti kasvaville startupeille ja digital-first-yrityksille. Hyödyntämällä moderneja kehyksiä rakennamme skaalautuvia Front-end- ja Back-end-järjestelmiä sekä integroimme kriittisiä alustoja, kuten SAP ERP, S/4HANA, CRM, MES ja verkkokauppa. Ratkaisumme parantavat poikkitoiminnallista tiedonkulkua ja toiminnan automaatiota vahvan API-arkkitehtuurin, WebService (REST/SOAP) ja AI-LLM-integraation avulla."
         },
         {
             title: "Järjestelmäanalyysi ja Tekninen Tuki",

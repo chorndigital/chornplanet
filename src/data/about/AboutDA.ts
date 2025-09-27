@@ -7,7 +7,7 @@ export const AboutDA: IAbout = {
     description: [
         {
             title: "Om Os",
-            description: "CHORN lancerede sin hjemmeside i marts 2023 for at følge de seneste oplysninger om nutidens hurtigt skiftende teknologi, softwareudvikling, informationsteknologi til forskellige forretningsdomæneindustrier og interessante nyheder."
+            description: "Siden 2001 har CHORN specialiseret sig i software- og hardwareteknik til højvolumenproduktion af halvledere og elektronik. I 2012 udvidede vi til digital platformudvikling, herunder web- og mobil­løsninger, ved at udnytte moderne teknologier, frameworks og programmeringssprog. I marts 2023 lancerede vi vores hjemmeside for at dele indsigter i de nyeste fremskridt inden for teknologi, softwareudvikling, IT-løsninger på tværs af forskellige brancher samt andre teknologitendenser."
         },
         {
             title: "Ekspertise",
@@ -21,7 +21,7 @@ export const AboutDA: IAbout = {
     stacks: [
         {
             title: "Softwareudviklingsteknologi og virksomhedssystemintegration",
-            description: "Lever end-to-end softwareudvikling og integration af virksomhedssystemer skræddersyet til hurtigt voksende startups og digital-first virksomheder. Ved at udnytte moderne frameworks bygger vi skalerbare Front-end- og Back-end-systemer, samtidig med at vi integrerer kritiske platforme som ERP, SAP-integration, SAP ABAP, CRM, MES og e-handel. Vores løsninger forbedrer tværfunktionel dataflow og driftsautomatisering gennem robust API-arkitektur, WebService (REST/SOAP) og AI-LLM-integration."
+            description: "Lever end-to-end softwareudvikling og integration af virksomhedssystemer skræddersyet til hurtigt voksende startups og digital-first virksomheder. Ved at udnytte moderne frameworks bygger vi skalerbare Front-end- og Back-end-systemer, samtidig med at vi integrerer kritiske platforme som SAP ERP, S/4HANA, CRM, MES og e-handel. Vores løsninger forbedrer tværfunktionel dataflow og driftsautomatisering gennem robust API-arkitektur, WebService (REST/SOAP) og AI-LLM-integration."
         },
         {
             title: "Systemanalyse og Teknisk Support",

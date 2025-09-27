@@ -7,7 +7,7 @@ export const AboutNL: IAbout = {
     description: [
         {
             title: "Over Ons",
-            description: "CHORN lanceerde zijn website in maart 2023 om de nieuwste informatie over de snel veranderende technologie van vandaag, softwareontwikkeling, informatietechnologie voor verschillende bedrijfsdomeinen en interessant nieuws te volgen."
+            description: "Sinds 2001 is CHORN gespecialiseerd in software- en hardware-engineering voor de grootschalige productie van halfgeleiders en elektronica. In 2012 breidden we uit naar de ontwikkeling van digitale platforms, waaronder web- en mobiele oplossingen, waarbij we moderne technologieën, frameworks en programmeertalen inzetten. In maart 2023 lanceerden we onze website om inzichten te delen over de nieuwste ontwikkelingen op het gebied van technologie, softwareontwikkeling, IT-oplossingen voor diverse sectoren en andere technologische trends."
         },
         {
             title: "Expertise",
@@ -21,7 +21,7 @@ export const AboutNL: IAbout = {
     stacks: [
         {
             title: "Softwareontwikkeling en integratie van bedrijfssystemen",
-            description: "Wij bieden end-to-end softwareontwikkeling en integratie van bedrijfssystemen, op maat gemaakt voor snelgroeiende start-ups en digital-first ondernemingen. Met behulp van moderne frameworks bouwen wij schaalbare Front-end- en Back-end-systemen, terwijl wij kritieke platforms zoals ERP, SAP integration, SAP ABAP, CRM, MES en e-commerce integreren. Onze oplossingen verbeteren de cross-functionele gegevensstroom en operationele automatisering via een robuuste API-architectuur, WebService (REST/SOAP) en AI-LLM-integratie."
+            description: "Wij bieden end-to-end softwareontwikkeling en integratie van bedrijfssystemen, op maat gemaakt voor snelgroeiende start-ups en digital-first ondernemingen. Met behulp van moderne frameworks bouwen wij schaalbare Front-end- en Back-end-systemen, terwijl wij kritieke platforms zoals SAP ERP, S/4HANA, CRM, MES en e-commerce integreren. Onze oplossingen verbeteren de cross-functionele gegevensstroom en operationele automatisering via een robuuste API-architectuur, WebService (REST/SOAP) en AI-LLM-integratie."
         },
         {
             title: "Systeemanalyse en Technische Ondersteuning",
