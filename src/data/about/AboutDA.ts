@@ -7,7 +7,7 @@ export const AboutDA: IAbout = {
     description: [
         {
             title: "Om Os",
-            description: "Siden 2001 har CHORN specialiseret sig i software- og hardwareteknik til højtvolumen elektronikproduktion med dokumenteret ekspertise i Manufacturing Execution Systems (MES), der understøtter forsendelser på op til 10 millioner enheder pr. måned. Siden 2012 har vi udvidet vores kompetencer inden for udvikling af digitale platforme og leveret skalerbare web- og mobil­løsninger baseret på moderne teknologier, frameworks og programmeringssprog, med erfaring i at skalere platforme til at understøtte millioner af brugere. I marts 2023 lancerede vi vores officielle hjemmeside som en del af vores løbende engagement i innovation og i at være på forkant med en hurtigt udviklende teknologilandskab."
+            description: "Siden 2001 har CHORN specialiseret sig i software- og hardwareteknik til højtvolumen elektronikproduktion med dokumenteret ekspertise i Manufacturing Execution Systems (MES), der understøtter forsendelser på op til 10 millioner enheder pr. måned. Siden 2012 har vi udvidet vores kompetencer inden for udvikling af digitale platforme og leveret skalerbare web- og mobilløsninger baseret på moderne teknologier, frameworks og programmeringssprog, med erfaring i at skalere platforme til at understøtte millioner af besøgende pr. måned. I marts 2023 lancerede vi vores officielle hjemmeside som en del af vores løbende engagement i innovation og i at være på forkant med et hurtigt udviklende teknologilandskab."
         },
         {
             title: "Ekspertise",

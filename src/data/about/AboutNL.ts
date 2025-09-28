@@ -7,7 +7,7 @@ export const AboutNL: IAbout = {
     description: [
         {
             title: "Over Ons",
-            description: "Sinds 2001 is CHORN gespecialiseerd in software- en hardware-engineering voor grootschalige elektronica­productie, met bewezen expertise in manufacturing execution systems (MES) die leveringen tot 10 miljoen eenheden per maand ondersteunen. Sinds 2012 hebben wij onze capaciteiten uitgebreid naar digitale platformontwikkeling en leveren wij schaalbare web- en mobiele oplossingen, gebouwd met moderne technologieën, frameworks en programmeertalen, met ervaring in het opschalen van platforms voor miljoenen gebruikers. In maart 2023 hebben wij onze officiële website gelanceerd, als onderdeel van onze voortdurende toewijding aan innovatie en aan het vooroplopen in een snel evoluerend technologisch landschap."
+            description: "Sinds 2001 is CHORN gespecialiseerd in software- en hardware-engineering voor grootschalige elektronica­productie, met bewezen expertise in manufacturing execution systems (MES) die leveringen tot 10 miljoen eenheden per maand ondersteunen. Sinds 2012 hebben wij onze capaciteiten uitgebreid naar digitale platformontwikkeling en leveren wij schaalbare web- en mobiele oplossingen, gebouwd met moderne technologieën, frameworks en programmeertalen, met ervaring in het opschalen van platforms om miljoenen bezoekers per maand te ondersteunen. In maart 2023 hebben wij onze officiële website gelanceerd, als onderdeel van onze voortdurende toewijding aan innovatie en aan het vooroplopen in een snel evoluerend technologisch landschap."
         },
         {
             title: "Expertise",

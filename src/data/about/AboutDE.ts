@@ -7,7 +7,7 @@ export const AboutDE: IAbout = {
     description: [
         {
             title: "Über Uns",
-            description: "Seit 2001 ist CHORN auf Software- und Hardware-Engineering für die Elektronikfertigung in großen Stückzahlen spezialisiert und verfügt über ausgewiesene Expertise in Manufacturing Execution Systems (MES), die Lieferungen von bis zu 10 Millionen Einheiten pro Monat unterstützen. Seit 2012 haben wir unsere Kompetenzen auf die Entwicklung digitaler Plattformen ausgeweitet und skalierbare Web- und Mobile-Lösungen entwickelt, die auf modernen Technologien, Frameworks und Programmiersprachen basieren, mit Erfahrung in der Skalierung für Millionen von Nutzern. Im März 2023 haben wir unsere offizielle Website gestartet – als Teil unseres kontinuierlichen Engagements für Innovation und um dem schnellen technologischen Wandel einen Schritt voraus zu bleiben."
+            description: "Seit 2001 ist CHORN auf Software- und Hardware-Engineering für die Elektronikfertigung in großen Stückzahlen spezialisiert und verfügt über ausgewiesene Expertise in Manufacturing Execution Systems (MES), die Lieferungen von bis zu 10 Millionen Einheiten pro Monat unterstützen. Seit 2012 haben wir unsere Kompetenzen auf die Entwicklung digitaler Plattformen ausgeweitet und skalierbare Web- und Mobile-Lösungen entwickelt, die auf modernen Technologien, Frameworks und Programmiersprachen basieren, mit Erfahrung in der Skalierung von Plattformen zur Unterstützung von Millionen Besuchern pro Monat. Im März 2023 haben wir unsere offizielle Website gestartet – als Teil unseres kontinuierlichen Engagements für Innovation und um dem schnellen technologischen Wandel einen Schritt voraus zu bleiben."
         },
         {
             title: "Fachwissen",
