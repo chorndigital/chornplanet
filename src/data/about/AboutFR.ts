@@ -6,8 +6,16 @@ export const AboutFR: IAbout = {
     subTitle: "Innovation technologique pour le succès des entreprises",
     description: [
         {
-            title: "À Propos de Nous",
-            description: "Depuis 2001, CHORN est spécialisé dans l’ingénierie logicielle et matérielle pour la production électronique à grande échelle, avec une expertise reconnue dans les systèmes d’exécution de la production (MES) permettant de gérer jusqu’à 10 millions d’unités expédiées par mois. Depuis 2012, nous avons élargi nos compétences au développement de plateformes numériques, en proposant des solutions web et mobiles évolutives reposant sur des technologies, frameworks et langages de programmation modernes, avec une expérience avérée dans la mise à l’échelle pour prendre en charge des millions de visiteurs par mois. En mars 2023, nous avons lancé notre site officiel, illustrant notre engagement continu en faveur de l’innovation et de l’anticipation dans un paysage technologique en constante évolution."
+            "title": "Manufacturing Execution Systems (MES)",
+            "description": "Depuis 2001, CHORN est spécialisé dans l’ingénierie logicielle et matérielle pour la fabrication électronique à grande échelle, avec une expertise dans les Manufacturing Execution Systems (MES) permettant de produire plus de 10 millions d’unités par mois avec efficacité et fiabilité."
+        },
+        {
+            "title": "Développement de plateformes digitales",
+            "description": "Depuis 2012, les capacités ont été étendues au développement de plateformes digitales, fournissant des solutions web et mobiles évolutives basées sur des technologies et frameworks modernes. Les plateformes ont été réussies à supporter des millions de visiteurs mensuels, y compris des projets avec SAP ERP et S/4HANA pour le développement, la mise en œuvre et la configuration de systèmes d’entreprise."
+        },
+        {
+            "title": "Lancement du site officiel",
+            "description": "En mars 2023, le site officiel a été lancé, reflétant un engagement pour l’innovation continue et le maintien d’une position de leader dans un paysage technologique en constante évolution."
         },
         {
             title: "Expertise",

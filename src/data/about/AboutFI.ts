@@ -6,8 +6,16 @@ export const AboutFI: IAbout = {
     subTitle: "Teknologinen innovaatio liiketoiminnan menestykseen",
     description: [
         {
-            title: "Meistä",
-            description: "Vuodesta 2001 lähtien CHORN on erikoistunut ohjelmisto- ja laitteistotekniikkaan suurivolyymisessä elektroniikkavalmistuksessa, ja sillä on vahvaa osaamista Manufacturing Execution Systems (MES) -ratkaisuissa, jotka tukevat jopa 10 miljoonan yksikön kuukausittaista toimitusta. Vuodesta 2012 alkaen olemme laajentaneet osaamistamme digitaalisten alustojen kehittämiseen ja toimittaneet skaalautuvia web- ja mobiiliratkaisuja hyödyntäen moderneja teknologioita, kehyksiä ja ohjelmointikieliä, sekä hankkineet kokemusta alustojen skaalaamisesta miljoonien kuukausittaisten kävijöiden tukemiseen. Maaliskuussa 2023 lanseerasimme virallisen verkkosivustomme osana jatkuvaa sitoutumistamme innovaatioihin ja pysyäksemme askeleen edellä nopeasti kehittyvässä teknologiaympäristössä."
+            "title": "Manufacturing Execution Systems (MES)",
+            "description": "Vuodesta 2001 lähtien CHORN on erikoistunut ohjelmisto- ja laitteisto­suunnitteluun korkean volyymin elektroniikkatuotannossa, ja sillä on asiantuntemusta Manufacturing Execution Systems (MES) -ratkaisuissa, jotka mahdollistavat tuotannon skaalaamisen yli 10 miljoonaan yksikköön kuukaudessa tehokkaasti ja luotettavasti."
+        },
+        {
+            "title": "Digitaalisten alustojen kehitys",
+            "description": "Vuodesta 2012 lähtien osaamista on laajennettu digitaalisten alustojen kehitykseen, tuottaen skaalautuvia web- ja mobiiliratkaisuja moderneilla teknologioilla ja kehyksillä. Alustoja on onnistuneesti skaalattu tukemaan miljoonia kuukausittaisia kävijöitä, mukaan lukien projektit SAP ERP:n ja S/4HANA:n kanssa yritysjärjestelmien kehittämiseen, toteutukseen ja konfigurointiin."
+        },
+        {
+            "title": "Virallisen verkkosivuston lanseeraus",
+            "description": "Maaliskuussa 2023 virallinen verkkosivusto lanseerattiin, mikä heijastaa sitoutumista jatkuvaan innovaatioon ja johtavan aseman ylläpitämistä nopeasti muuttuvassa teknologiaympäristössä."
         },
         {
             title: "Asiantuntemus",

@@ -6,8 +6,16 @@ export const AboutNL: IAbout = {
     subTitle: "Technologische innovatie voor zakelijk succes",
     description: [
         {
-            title: "Over Ons",
-            description: "Sinds 2001 is CHORN gespecialiseerd in software- en hardware-engineering voor grootschalige elektronica­productie, met bewezen expertise in manufacturing execution systems (MES) die leveringen tot 10 miljoen eenheden per maand ondersteunen. Sinds 2012 hebben wij onze capaciteiten uitgebreid naar digitale platformontwikkeling en leveren wij schaalbare web- en mobiele oplossingen, gebouwd met moderne technologieën, frameworks en programmeertalen, met ervaring in het opschalen van platforms om miljoenen bezoekers per maand te ondersteunen. In maart 2023 hebben wij onze officiële website gelanceerd, als onderdeel van onze voortdurende toewijding aan innovatie en aan het vooroplopen in een snel evoluerend technologisch landschap."
+            "title": "Manufacturing Execution Systems (MES)",
+            "description": "Sinds 2001 is CHORN gespecialiseerd in software- en hardware-engineering voor elektronica­productie op grote schaal, met expertise in Manufacturing Execution Systems (MES) die productieschaling tot meer dan 10 miljoen eenheden per maand mogelijk maakt met efficiëntie en betrouwbaarheid."
+        },
+        {
+            "title": "Ontwikkeling van digitale platforms",
+            "description": "Sinds 2012 zijn de capaciteiten uitgebreid naar digitale platformontwikkeling, met de levering van schaalbare web- en mobiele oplossingen op basis van moderne technologieën en frameworks. Platforms zijn met succes opgeschaald om miljoenen maandelijkse bezoekers te ondersteunen, inclusief projecten met SAP ERP en S/4HANA voor ontwikkeling, implementatie en configuratie van enterprise-systemen."
+        },
+        {
+            "title": "Lancering officiële website",
+            "description": "In maart 2023 werd de officiële website gelanceerd, wat het engagement voor continue innovatie en het behouden van een leidende positie in een voortdurend evoluerend technologisch landschap weerspiegelt."
         },
         {
             title: "Expertise",

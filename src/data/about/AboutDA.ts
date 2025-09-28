@@ -6,8 +6,16 @@ export const AboutDA: IAbout = {
     subTitle: "Teknologisk innovation for forretningssucces",
     description: [
         {
-            title: "Om Os",
-            description: "Siden 2001 har CHORN specialiseret sig i software- og hardwareteknik til højtvolumen elektronikproduktion med dokumenteret ekspertise i Manufacturing Execution Systems (MES), der understøtter forsendelser på op til 10 millioner enheder pr. måned. Siden 2012 har vi udvidet vores kompetencer inden for udvikling af digitale platforme og leveret skalerbare web- og mobilløsninger baseret på moderne teknologier, frameworks og programmeringssprog, med erfaring i at skalere platforme til at understøtte millioner af besøgende pr. måned. I marts 2023 lancerede vi vores officielle hjemmeside som en del af vores løbende engagement i innovation og i at være på forkant med et hurtigt udviklende teknologilandskab."
+            "title": "Manufacturing Execution Systems (MES)",
+            "description": "Siden 2001 har CHORN specialiseret sig i software- og hardwareudvikling til elektronikproduktion i stor skala, med ekspertise i Manufacturing Execution Systems (MES), der muliggør produktion i skala på over 10 millioner enheder pr. måned med effektivitet og pålidelighed."
+        },
+        {
+            "title": "Digital Platformudvikling",
+            "description": "Siden 2012 er kapaciteter blevet udvidet til digital platformudvikling, hvor der leveres skalerbare web- og mobil­løsninger baseret på moderne teknologier og frameworks. Platforme er med succes skaleret til at understøtte millioner af månedlige besøgende, herunder projekter med SAP ERP og S/4HANA til enterprise systemudvikling, implementering og konfiguration."
+        },
+        {
+            "title": "Lancering af officiel hjemmeside",
+            "description": "I marts 2023 blev den officielle hjemmeside lanceret, hvilket afspejler et engagement i kontinuerlig innovation og opretholdelse af en ledende position i et hastigt skiftende teknologilandskab."
         },
         {
             title: "Ekspertise",

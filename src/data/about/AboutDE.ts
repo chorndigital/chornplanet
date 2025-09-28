@@ -6,8 +6,16 @@ export const AboutDE: IAbout = {
     subTitle: "Technologische Innovation für Geschäftserfolg",
     description: [
         {
-            title: "Über Uns",
-            description: "Seit 2001 ist CHORN auf Software- und Hardware-Engineering für die Elektronikfertigung in großen Stückzahlen spezialisiert und verfügt über ausgewiesene Expertise in Manufacturing Execution Systems (MES), die Lieferungen von bis zu 10 Millionen Einheiten pro Monat unterstützen. Seit 2012 haben wir unsere Kompetenzen auf die Entwicklung digitaler Plattformen ausgeweitet und skalierbare Web- und Mobile-Lösungen entwickelt, die auf modernen Technologien, Frameworks und Programmiersprachen basieren, mit Erfahrung in der Skalierung von Plattformen zur Unterstützung von Millionen Besuchern pro Monat. Im März 2023 haben wir unsere offizielle Website gestartet – als Teil unseres kontinuierlichen Engagements für Innovation und um dem schnellen technologischen Wandel einen Schritt voraus zu bleiben."
+            "title": "Manufacturing Execution Systems (MES)",
+            "description": "Seit 2001 ist CHORN auf Software- und Hardwareentwicklung für die großvolumige Elektronikfertigung spezialisiert, mit Expertise in Manufacturing Execution Systems (MES), die eine Produktionsskalierung auf über 10 Millionen Einheiten pro Monat mit Effizienz und Zuverlässigkeit ermöglicht."
+        },
+        {
+            "title": "Entwicklung digitaler Plattformen",
+            "description": "Seit 2012 wurden die Fähigkeiten auf die Entwicklung digitaler Plattformen ausgeweitet, mit der Bereitstellung skalierbarer Web- und Mobile-Lösungen auf Basis moderner Technologien und Frameworks. Plattformen wurden erfolgreich skaliert, um Millionen monatlicher Besucher zu unterstützen, einschließlich Projekte mit SAP ERP und S/4HANA für die Entwicklung, Implementierung und Konfiguration von Enterprise-Systemen."
+        },
+        {
+            "title": "Launch der offiziellen Website",
+            "description": "Im März 2023 wurde die offizielle Website gestartet, was das Engagement für kontinuierliche Innovation und die Sicherung einer führenden Position in einem sich ständig weiterentwickelnden Technologiemarkt widerspiegelt."
         },
         {
             title: "Fachwissen",

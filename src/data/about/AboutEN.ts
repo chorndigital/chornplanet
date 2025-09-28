@@ -7,8 +7,16 @@ export const AboutEN: IAbout = {
     subTitle: "Technology Innovation for Business Success",
     description: [
         {
-            title: "Introduction",
-            description: "Since 2001, CHORN has specialized in software and hardware engineering for high-volume electronics manufacturing, with proven expertise in manufacturing execution systems (MES) supporting shipments of up to 10 million units per month. Since 2012, we have expanded capabilities into digital platform development, delivering scalable web and mobile solutions built on modern technologies, frameworks, and programming languages, with experience scaling platforms to support millions of visitors per month. In March 2023, we launched our official website as part of our ongoing commitment to innovation and to staying ahead in a rapidly evolving technology landscape."
+            title: "Manufacturing Execution Systems (MES)",
+            description: "Since 2001, CHORN has specialized in software and hardware engineering for high-volume electronics manufacturing, with expertise in Manufacturing Execution Systems (MES) enabling production scaling to over 10 million units per month with efficiency and reliability."
+        },
+        {
+            title: "Digital Platform Development",
+            description: "Since 2012, capabilities have expanded into digital platform development, delivering scalable web and mobile solutions built on modern technologies and frameworks. Platforms have been successfully scaled to support millions of monthly visitors, including projects with SAP ERP and S/4HANA for enterprise system development, implementation, and configuration."
+        },
+        {
+            title: "Launch Official Website",
+            description: "In March 2023, the official website was launched, reflecting a commitment to continuous innovation and maintaining a leadership position in an ever-evolving technology landscape."
         },
         {
             title: "Expertise",
