@@ -7,7 +7,7 @@ export const AboutFR: IAbout = {
     description: [
         {
             title: "À Propos de Nous",
-            description: "Depuis 2001, CHORN est spécialisé dans l’ingénierie logicielle et matérielle pour la production de masse de semi-conducteurs et d’équipements électroniques. En 2012, nous avons élargi notre expertise au développement de plateformes numériques, incluant des solutions web et mobiles, en tirant parti des technologies, frameworks et langages de programmation modernes. En mars 2023, nous avons lancé notre site web afin de partager des analyses sur les dernières avancées en matière de technologie, de développement logiciel, de solutions informatiques pour divers secteurs et sur les tendances technologiques émergentes."
+            description: "Depuis 2001, CHORN est spécialisé dans l’ingénierie logicielle et matérielle pour la production électronique à grande échelle, avec une expertise reconnue dans les systèmes d’exécution de la production (MES) permettant de gérer jusqu’à 10 millions d’unités expédiées par mois. Depuis 2012, nous avons élargi nos compétences au développement de plateformes numériques, en proposant des solutions web et mobiles évolutives reposant sur des technologies, frameworks et langages de programmation modernes, avec une expérience avérée dans la mise à l’échelle pour des millions d’utilisateurs. En mars 2023, nous avons lancé notre site officiel, illustrant notre engagement continu en faveur de l’innovation et de l’anticipation dans un paysage technologique en constante évolution."
         },
         {
             title: "Expertise",

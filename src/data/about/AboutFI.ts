@@ -7,7 +7,7 @@ export const AboutFI: IAbout = {
     description: [
         {
             title: "Meistä",
-            description: "Vuodesta 2001 lähtien CHORN on erikoistunut ohjelmisto- ja laitteistosuunnitteluun puolijohteiden ja elektroniikan suurivolyymiseen valmistukseen. Vuonna 2012 laajensimme toimintaamme digitaalisten alustojen kehittämiseen, mukaan lukien web- ja mobiiliratkaisut, hyödyntäen moderneja teknologioita, kehyksiä ja ohjelmointikieliä. Maaliskuussa 2023 lanseerasimme verkkosivustomme jakaaksemme näkemyksiä uusimmista edistysaskeleista teknologiassa, ohjelmistokehityksessä, IT-ratkaisuissa eri toimialoilla sekä muista teknologiatrendeistä."
+            description: "Vuodesta 2001 lähtien CHORN on erikoistunut ohjelmisto- ja laitteistotekniikkaan suurivolyymisessä elektroniikkavalmistuksessa, ja sillä on vahvaa osaamista Manufacturing Execution Systems (MES) -ratkaisuissa, jotka tukevat jopa 10 miljoonan yksikön kuukausittaista toimitusta. Vuodesta 2012 alkaen olemme laajentaneet osaamistamme digitaalisten alustojen kehittämiseen ja toimittaneet skaalautuvia web- ja mobiiliratkaisuja hyödyntäen moderneja teknologioita, kehyksiä ja ohjelmointikieliä, sekä hankkineet kokemusta alustojen skaalaamisesta miljoonien käyttäjien tukemiseen. Maaliskuussa 2023 lanseerasimme virallisen verkkosivustomme osana jatkuvaa sitoutumistamme innovaatioihin ja pysyäksemme askeleen edellä nopeasti kehittyvässä teknologiaympäristössä."
         },
         {
             title: "Asiantuntemus",

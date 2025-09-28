@@ -7,8 +7,8 @@ export const AboutEN: IAbout = {
     subTitle: "Technology Innovation for Business Success",
     description: [
         {
-            title: "Manufacturing Experience",
-            description: "Since 2001, CHORN has specialized in software and hardware engineering for high-volume semiconductor and electronics manufacturing. In 2012, we expanded into digital platform development, including web and mobile solutions, leveraging modern technologies, frameworks, and programming languages. In March 2023, we launched our website to share insights on the latest advancements in technology, software development, IT solutions across diverse industries, and other tech trends."
+            title: "Introduction",
+            description: "Since 2001, CHORN has specialized in software and hardware engineering for high-volume electronics manufacturing, with proven expertise in manufacturing execution systems (MES) supporting shipments of up to 10 million units per month. Since 2012, we have expanded capabilities into digital platform development, delivering scalable web and mobile solutions built on modern technologies, frameworks, and programming languages, with experience scaling platforms to support millions of users. In March 2023, we launched our official website as part of our ongoing commitment to innovation and to staying ahead in a rapidly evolving technology landscape."
         },
         {
             title: "Expertise",
