@@ -18,10 +18,6 @@ export const AboutNL: IAbout = {
             "description": "In maart 2023 werd de officiële website gelanceerd, wat het engagement voor continue innovatie en het behouden van een leidende positie in een voortdurend evoluerend technologisch landschap weerspiegelt."
         },
         {
-            title: "Expertise",
-            description: "Voortdurend toegewijd aan het ontwikkelen van kennis op het gebied van software-engineering en IT, inclusief deelname aan wereldwijde platforms om te helpen bij het trainen van AI en het creëren van Generatieve AI. Regelmatig uitbreiden van kennis en expertise in gerelateerde gebieden zoals systeemarchitectuur, gegevensanalyse, webapplicatieontwikkeling, softwaretesten en cloudcomputing."
-        },
-        {
             title: "Locatie en Werkvorm",
             description: "Ontwikkelt software via remote, hybride en kantoorwerk in Chiang Mai, Bangkok en internationaal. Creëert proof of concept (PoC) applicaties, minimaal levensvatbare producten (MVP), helpt bij het analyseren van systeemvereisten en verbetert bestaande systemen om te reageren op veranderende zakelijke behoeften."
         }

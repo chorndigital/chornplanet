@@ -19,10 +19,6 @@ export const AboutEN: IAbout = {
             description: "In March 2023, the official website was launched, reflecting a commitment to continuous innovation and maintaining a leadership position in an ever-evolving technology landscape."
         },
         {
-            title: "Expertise",
-            description: "Continuously committed to developing software engineering and IT knowledge, including participating in global platforms to help train AI and create Generative AI. Regularly extending knowledge and expertise in related areas such as system architecture, data analysis, web application development, software testing, and cloud computing."
-        },
-        {
             title: "Software Development Solutions",
             description: "Develops software through remote, hybrid, and office work in Chiang Mai, Bangkok, and internationally. Creates proof of concept (PoC) applications, minimum viable products (MVP), helps analyze system requirements, and improves existing systems to respond to changing business needs."
         }

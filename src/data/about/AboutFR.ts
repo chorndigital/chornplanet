@@ -18,10 +18,6 @@ export const AboutFR: IAbout = {
             "description": "En mars 2023, le site officiel a été lancé, reflétant un engagement pour l’innovation continue et le maintien d’une position de leader dans un paysage technologique en constante évolution."
         },
         {
-            title: "Expertise",
-            description: "Engagé continuellement dans le développement des connaissances en ingénierie logicielle et en informatique, notamment en participant à des plateformes mondiales pour aider à former l'IA et à créer de l'IA générative. Extension régulière des connaissances et de l'expertise dans des domaines connexes tels que l'architecture système, l'analyse de données, le développement d'applications web, les tests logiciels et l'informatique en nuage."
-        },
-        {
             title: "Lieu et Format de Travail",
             description: "Développe des logiciels via le travail à distance, hybride et en bureau à Chiang Mai, Bangkok et à l'international. Crée des applications de preuve de concept (PoC), des produits minimum viables (MVP), aide à analyser les exigences système et améliore les systèmes existants pour répondre aux besoins commerciaux changeants."
         }

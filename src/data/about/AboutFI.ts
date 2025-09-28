@@ -18,10 +18,6 @@ export const AboutFI: IAbout = {
             "description": "Maaliskuussa 2023 virallinen verkkosivusto lanseerattiin, mikä heijastaa sitoutumista jatkuvaan innovaatioon ja johtavan aseman ylläpitämistä nopeasti muuttuvassa teknologiaympäristössä."
         },
         {
-            title: "Asiantuntemus",
-            description: "Jatkuvasti sitoutunut kehittämään ohjelmistotuotannon ja IT-alan osaamista, mukaan lukien osallistuminen maailmanlaajuisiin alustoihin auttaakseen tekoälyn kouluttamisessa ja generatiivisen tekoälyn luomisessa. Laajentaa säännöllisesti tietämystä ja asiantuntemusta liittyvillä alueilla, kuten järjestelmäarkkitehtuuri, data-analyysi, verkkosovelluskehitys, ohjelmistotestaus ja pilvipalvelut."
-        },
-        {
             title: "Sijainti ja Työmuoto",
             description: "Kehittää ohjelmistoja etä-, hybridi- ja toimistotyön kautta Chiang Maissa, Bangkokissa ja kansainvälisesti. Luo proof of concept (PoC) -sovelluksia, pienimpiä toimivia tuotteita (MVP), auttaa analysoimaan järjestelmävaatimuksia ja parantaa olemassa olevia järjestelmiä vastaamaan muuttuviin liiketoimintatarpeisiin."
         }

@@ -18,10 +18,6 @@ export const AboutDA: IAbout = {
             "description": "I marts 2023 blev den officielle hjemmeside lanceret, hvilket afspejler et engagement i kontinuerlig innovation og opretholdelse af en ledende position i et hastigt skiftende teknologilandskab."
         },
         {
-            title: "Ekspertise",
-            description: "Kontinuerligt engageret i at udvikle viden inden for softwareudvikling og IT, herunder deltagelse i globale platforme for at hjælpe med at træne AI og skabe Generativ AI. Udvider regelmæssigt viden og ekspertise inden for relaterede områder såsom systemarkitektur, dataanalyse, webudvikling, softwaretest og cloud computing."
-        },
-        {
             title: "Placering og Arbejdsform",
             description: "Udvikler software gennem fjernarbejde, hybrid og kontorarbejde i Chiang Mai, Bangkok og internationalt. Skaber proof of concept (PoC) applikationer, minimum levedygtige produkter (MVP), hjælper med at analysere systemkrav og forbedrer eksisterende systemer for at imødekomme skiftende forretningsbehov."
         }

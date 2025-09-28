@@ -18,10 +18,6 @@ export const AboutDE: IAbout = {
             "description": "Im März 2023 wurde die offizielle Website gestartet, was das Engagement für kontinuierliche Innovation und die Sicherung einer führenden Position in einem sich ständig weiterentwickelnden Technologiemarkt widerspiegelt."
         },
         {
-            title: "Fachwissen",
-            description: "Kontinuierliches Engagement für die Entwicklung von Wissen in Softwareentwicklung und IT, einschließlich der Teilnahme an globalen Plattformen zur Unterstützung beim Training von KI und der Erstellung von Generativer KI. Regelmäßige Erweiterung von Wissen und Expertise in verwandten Bereichen wie Systemarchitektur, Datenanalyse, Webentwicklung, Softwaretests und Cloud-Computing."
-        },
-        {
             title: "Standort und Arbeitsform",
             description: "Entwickelt Software durch Remote-, Hybrid- und Büroarbeit in Chiang Mai, Bangkok und international. Erstellt Proof-of-Concept (PoC)-Anwendungen, minimale funktionsfähige Produkte (MVP), hilft bei der Analyse von Systemanforderungen und verbessert bestehende Systeme, um auf sich ändernde Geschäftsanforderungen zu reagieren."
         }
