@@ -6,12 +6,12 @@ export const AboutFI: IAbout = {
     subTitle: "Teknologinen innovaatio liiketoiminnan menestykseen",
     description: [
         {
-            "title": "Manufacturing Execution Systems (MES)",
-            "description": "Vuodesta 2001 lähtien CHORN on erikoistunut ohjelmisto- ja laitteisto­suunnitteluun korkean volyymin elektroniikkatuotannossa, ja sillä on asiantuntemusta Manufacturing Execution Systems (MES) -ratkaisuissa, jotka mahdollistavat tuotannon skaalaamisen yli 10 miljoonaan yksikköön kuukaudessa tehokkaasti ja luotettavasti."
+            title: "Manufacturing Execution Systems (MES)",
+            description: "Vuodesta 2001 lähtien CHORN on erikoistunut ohjelmisto- ja laitteisto­suunnitteluun korkean volyymin elektroniikkatuotannossa, ja sillä on asiantuntemusta Manufacturing Execution Systems (MES) -ratkaisuissa, jotka mahdollistavat tuotannon skaalaamisen yli 10 miljoonaan yksikköön kuukaudessa tehokkaasti ja luotettavasti."
         },
         {
-            "title": "Digitaalisten alustojen kehitys",
-            "description": "Vuodesta 2012 lähtien osaamista on laajennettu digitaalisten alustojen kehitykseen, tuottaen skaalautuvia web- ja mobiiliratkaisuja moderneilla teknologioilla ja kehyksillä. Alustoja on onnistuneesti skaalattu tukemaan miljoonia kuukausittaisia kävijöitä, mukaan lukien projektit SAP ERP:n ja S/4HANA:n kanssa yritysjärjestelmien kehittämiseen, toteutukseen ja konfigurointiin."
+            title: "Digitaalisten alustojen kehitys",
+            description: "Vuodesta 2012 lähtien osaamisalueet ovat laajentuneet digitaalisten alustojen kehittämiseen, tarjoten skaalautuvia verkko- ja mobiiliratkaisuja, jotka on rakennettu moderneilla teknologioilla ja kehyksillä. Alustoja on onnistuneesti skaalattu tukemaan miljoonia kuukausittaisia käyttäjiä, mukaan lukien hankkeet, joissa on hyödynnetty SAP ERP:tä ja S/4HANA:a yritysjärjestelmien kehittämiseen, käyttöönottoon ja konfigurointiin."
         },
         {
             title: "Sijainti ja Työmuoto",

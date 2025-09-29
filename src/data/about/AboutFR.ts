@@ -6,12 +6,12 @@ export const AboutFR: IAbout = {
     subTitle: "Innovation technologique pour le succès des entreprises",
     description: [
         {
-            "title": "Manufacturing Execution Systems (MES)",
-            "description": "Depuis 2001, CHORN est spécialisé dans l’ingénierie logicielle et matérielle pour la fabrication électronique à grande échelle, avec une expertise dans les Manufacturing Execution Systems (MES) permettant de produire plus de 10 millions d’unités par mois avec efficacité et fiabilité."
+            title: "Manufacturing Execution Systems (MES)",
+            description: "Depuis 2001, CHORN est spécialisé dans l’ingénierie logicielle et matérielle pour la fabrication électronique à grande échelle, avec une expertise dans les Manufacturing Execution Systems (MES) permettant de produire plus de 10 millions d’unités par mois avec efficacité et fiabilité."
         },
         {
-            "title": "Développement de plateformes digitales",
-            "description": "Depuis 2012, les capacités ont été étendues au développement de plateformes digitales, fournissant des solutions web et mobiles évolutives basées sur des technologies et frameworks modernes. Les plateformes ont été réussies à supporter des millions de visiteurs mensuels, y compris des projets avec SAP ERP et S/4HANA pour le développement, la mise en œuvre et la configuration de systèmes d’entreprise."
+            title: "Développement de plateformes digitales",
+            description: "Depuis 2012, les capacités se sont étendues au développement de plateformes numériques, offrant des solutions web et mobiles évolutives basées sur des technologies et des frameworks modernes. Les plateformes ont été mises à l’échelle avec succès pour prendre en charge des millions d’utilisateurs mensuels, y compris des projets impliquant SAP ERP et S/4HANA pour le développement, la mise en œuvre et la configuration de systèmes d’entreprise."
         },
         {
             title: "Lieu et Format de Travail",

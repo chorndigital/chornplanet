@@ -12,7 +12,7 @@ export const AboutEN: IAbout = {
         },
         {
             title: "Digital Platform Development",
-            description: "Since 2012, capabilities have expanded into digital platform development, delivering scalable web and mobile solutions built on modern technologies and frameworks. Platforms have been successfully scaled to support millions of monthly visitors, including projects involving SAP ERP and S/4HANA for enterprise system development, implementation, and configuration."
+            description: "Since 2012, capabilities have expanded into digital platform development, delivering scalable web and mobile solutions built on modern technologies and frameworks. Platforms have been successfully scaled to support millions of monthly users, including projects involving SAP ERP and S/4HANA for enterprise system development, implementation, and configuration."
         },
         {
             title: "Software Development Solutions",
