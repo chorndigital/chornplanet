@@ -11,7 +11,7 @@ export const AboutFI: IAbout = {
         },
         {
             title: "Digitaalisten alustojen kehitys",
-            description: "Vuodesta 2012 lähtien osaamisalueet ovat laajentuneet digitaalisten alustojen kehittämiseen, tarjoten skaalautuvia verkko- ja mobiiliratkaisuja, jotka on rakennettu moderneilla teknologioilla ja kehyksillä. Alustoja on onnistuneesti skaalattu tukemaan miljoonia kuukausittaisia käyttäjiä, mukaan lukien hankkeet, joissa on hyödynnetty SAP ERP:tä ja S/4HANA:a yritysjärjestelmien kehittämiseen, käyttöönottoon ja konfigurointiin."
+            description: "Vuodesta 2012 lähtien CHORN on laajentanut osaamistaan digitaalisten alustojen kehittämiseen, luoden skaalautuvia verkko- ja mobiiliratkaisuja modernien teknologioiden ja kehysten pohjalta vastatakseen kasvaviin käyttäjien tarpeisiin. Yritys on onnistunut skaalausarkkitehtuurissa tukemaan miljoonia kuukausittaisia käyttäjiä, mukaan lukien hankkeet, jotka liittyvät SAP ERP:hen ja S/4HANA:an yritysjärjestelmien kehittämistä, käyttöönottoa ja konfigurointia varten."
         },
         {
             title: "Sijainti ja Työmuoto",

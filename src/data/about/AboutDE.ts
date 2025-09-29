@@ -11,7 +11,7 @@ export const AboutDE: IAbout = {
         },
         {
             title: "Entwicklung digitaler Plattformen",
-            description: "Seit 2012 wurden die Kompetenzen auf die Entwicklung digitaler Plattformen ausgeweitet, wobei skalierbare Web- und Mobil­lösungen auf Basis moderner Technologien und Frameworks bereitgestellt werden. Plattformen wurden erfolgreich skaliert, um Millionen monatlicher Nutzer zu unterstützen, einschließlich Projekten mit SAP ERP und S/4HANA für die Entwicklung, Implementierung und Konfiguration von Unternehmenssystemen."
+            description: "Seit 2012 erweitert CHORN seine Expertise in der Entwicklung digitaler Plattformen und erstellt skalierbare Web- und Mobil­lösungen auf Basis moderner Technologien und Frameworks, um den wachsenden Anforderungen der Nutzer gerecht zu werden. Erfolgreich in der skalierbaren Architektur zur Unterstützung von Millionen monatlicher Nutzer, einschließlich Projekten mit SAP ERP und S/4HANA für die Entwicklung, Implementierung und Konfiguration von Unternehmenssystemen."
         },
         {
             title: "Standort und Arbeitsform",
