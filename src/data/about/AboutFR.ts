@@ -7,7 +7,7 @@ export const AboutFR: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "Depuis 2001, CHORN est spécialisé dans l’ingénierie logicielle et matérielle pour la fabrication électronique à grande échelle, avec une expertise dans les Manufacturing Execution Systems (MES) permettant de produire plus de 10 millions d’unités par mois avec efficacité et fiabilité."
+            description: "Depuis 2001, CHORN s’est spécialisé dans l’ingénierie logicielle et matérielle pour la fabrication électronique à grand volume, avec une expertise en Manufacturing Execution Systems (MES) permettant de faire évoluer la production à plus de 10 millions d’unités par mois avec efficacité et fiabilité."
         },
         {
             title: "Développement de plateformes digitales",

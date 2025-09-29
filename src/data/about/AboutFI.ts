@@ -7,7 +7,7 @@ export const AboutFI: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "Vuodesta 2001 lähtien CHORN on erikoistunut ohjelmisto- ja laitteisto­suunnitteluun korkean volyymin elektroniikkatuotannossa, ja sillä on asiantuntemusta Manufacturing Execution Systems (MES) -ratkaisuissa, jotka mahdollistavat tuotannon skaalaamisen yli 10 miljoonaan yksikköön kuukaudessa tehokkaasti ja luotettavasti."
+            description: "Vuodesta 2001 lähtien CHORN on erikoistunut ohjelmisto- ja laitteistosuunnitteluun suurivolyymisessa elektroniikan valmistuksessa, ja sen asiantuntemus Manufacturing Execution Systems (MES) -järjestelmissä mahdollistaa tuotannon skaalaamisen yli 10 miljoonaan yksikköön kuukaudessa tehokkaasti ja luotettavasti."
         },
         {
             title: "Digitaalisten alustojen kehitys",

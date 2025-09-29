@@ -7,7 +7,7 @@ export const AboutZH: IAbout = {
     description: [
         {
             title: "制造执行系统 (MES)",
-            description: "自2001年以来，CHORN专注于高产量电子制造的软件和硬件工程，具备制造执行系统(MES)的专业知识，实现月产量超过1000万台的高效可靠生产。"
+            description: "自2001年起，CHORN专注于面向大规模电子制造的软件和硬件工程，并在制造执行系统（MES）方面拥有专业知识，使生产能够高效、可靠地扩展至每月超过1000万台。"
         },
         {
             title: "数字平台开发",
