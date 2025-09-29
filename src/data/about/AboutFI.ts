@@ -14,10 +14,6 @@ export const AboutFI: IAbout = {
             "description": "Vuodesta 2012 lähtien osaamista on laajennettu digitaalisten alustojen kehitykseen, tuottaen skaalautuvia web- ja mobiiliratkaisuja moderneilla teknologioilla ja kehyksillä. Alustoja on onnistuneesti skaalattu tukemaan miljoonia kuukausittaisia kävijöitä, mukaan lukien projektit SAP ERP:n ja S/4HANA:n kanssa yritysjärjestelmien kehittämiseen, toteutukseen ja konfigurointiin."
         },
         {
-            "title": "Virallisen verkkosivuston lanseeraus",
-            "description": "Maaliskuussa 2023 virallinen verkkosivusto lanseerattiin, mikä heijastaa sitoutumista jatkuvaan innovaatioon ja johtavan aseman ylläpitämistä nopeasti muuttuvassa teknologiaympäristössä."
-        },
-        {
             title: "Sijainti ja Työmuoto",
             description: "Kehittää ohjelmistoja etä-, hybridi- ja toimistotyön kautta Chiang Maissa, Bangkokissa ja kansainvälisesti. Luo proof of concept (PoC) -sovelluksia, pienimpiä toimivia tuotteita (MVP), auttaa analysoimaan järjestelmävaatimuksia ja parantaa olemassa olevia järjestelmiä vastaamaan muuttuviin liiketoimintatarpeisiin."
         }

@@ -14,10 +14,6 @@ export const AboutDE: IAbout = {
             "description": "Seit 2012 wurden die Fähigkeiten auf die Entwicklung digitaler Plattformen ausgeweitet, mit der Bereitstellung skalierbarer Web- und Mobile-Lösungen auf Basis moderner Technologien und Frameworks. Plattformen wurden erfolgreich skaliert, um Millionen monatlicher Besucher zu unterstützen, einschließlich Projekte mit SAP ERP und S/4HANA für die Entwicklung, Implementierung und Konfiguration von Enterprise-Systemen."
         },
         {
-            "title": "Launch der offiziellen Website",
-            "description": "Im März 2023 wurde die offizielle Website gestartet, was das Engagement für kontinuierliche Innovation und die Sicherung einer führenden Position in einem sich ständig weiterentwickelnden Technologiemarkt widerspiegelt."
-        },
-        {
             title: "Standort und Arbeitsform",
             description: "Entwickelt Software durch Remote-, Hybrid- und Büroarbeit in Chiang Mai, Bangkok und international. Erstellt Proof-of-Concept (PoC)-Anwendungen, minimale funktionsfähige Produkte (MVP), hilft bei der Analyse von Systemanforderungen und verbessert bestehende Systeme, um auf sich ändernde Geschäftsanforderungen zu reagieren."
         }

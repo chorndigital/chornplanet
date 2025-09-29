@@ -14,10 +14,6 @@ export const AboutFR: IAbout = {
             "description": "Depuis 2012, les capacités ont été étendues au développement de plateformes digitales, fournissant des solutions web et mobiles évolutives basées sur des technologies et frameworks modernes. Les plateformes ont été réussies à supporter des millions de visiteurs mensuels, y compris des projets avec SAP ERP et S/4HANA pour le développement, la mise en œuvre et la configuration de systèmes d’entreprise."
         },
         {
-            "title": "Lancement du site officiel",
-            "description": "En mars 2023, le site officiel a été lancé, reflétant un engagement pour l’innovation continue et le maintien d’une position de leader dans un paysage technologique en constante évolution."
-        },
-        {
             title: "Lieu et Format de Travail",
             description: "Développe des logiciels via le travail à distance, hybride et en bureau à Chiang Mai, Bangkok et à l'international. Crée des applications de preuve de concept (PoC), des produits minimum viables (MVP), aide à analyser les exigences système et améliore les systèmes existants pour répondre aux besoins commerciaux changeants."
         }

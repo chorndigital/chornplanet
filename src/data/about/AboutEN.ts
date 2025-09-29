@@ -12,11 +12,7 @@ export const AboutEN: IAbout = {
         },
         {
             title: "Digital Platform Development",
-            description: "Since 2012, capabilities have expanded into digital platform development, delivering scalable web and mobile solutions built on modern technologies and frameworks. Platforms have been successfully scaled to support millions of monthly visitors, including projects with SAP ERP and S/4HANA for enterprise system development, implementation, and configuration."
-        },
-        {
-            title: "Launch Official Website",
-            description: "In March 2023, the official website was launched, reflecting a commitment to continuous innovation and maintaining a leadership position in an ever-evolving technology landscape."
+            description: "Since 2012, capabilities have expanded into digital platform development, delivering scalable web and mobile solutions built on modern technologies and frameworks. Platforms have been successfully scaled to support millions of monthly visitors, including projects involving SAP ERP and S/4HANA for enterprise system development, implementation, and configuration."
         },
         {
             title: "Software Development Solutions",

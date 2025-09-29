@@ -14,10 +14,6 @@ export const AboutNL: IAbout = {
             "description": "Sinds 2012 zijn de capaciteiten uitgebreid naar digitale platformontwikkeling, met de levering van schaalbare web- en mobiele oplossingen op basis van moderne technologieën en frameworks. Platforms zijn met succes opgeschaald om miljoenen maandelijkse bezoekers te ondersteunen, inclusief projecten met SAP ERP en S/4HANA voor ontwikkeling, implementatie en configuratie van enterprise-systemen."
         },
         {
-            "title": "Lancering officiële website",
-            "description": "In maart 2023 werd de officiële website gelanceerd, wat het engagement voor continue innovatie en het behouden van een leidende positie in een voortdurend evoluerend technologisch landschap weerspiegelt."
-        },
-        {
             title: "Locatie en Werkvorm",
             description: "Ontwikkelt software via remote, hybride en kantoorwerk in Chiang Mai, Bangkok en internationaal. Creëert proof of concept (PoC) applicaties, minimaal levensvatbare producten (MVP), helpt bij het analyseren van systeemvereisten en verbetert bestaande systemen om te reageren op veranderende zakelijke behoeften."
         }
