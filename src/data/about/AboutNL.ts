@@ -21,7 +21,7 @@ export const AboutNL: IAbout = {
     stacks: [
         {
             title: "Softwareontwikkeling en integratie van bedrijfssystemen",
-            description: "Wij bieden end-to-end softwareontwikkeling en integratie van bedrijfssystemen, op maat gemaakt voor snelgroeiende start-ups en digital-first ondernemingen. Met behulp van moderne frameworks bouwen wij schaalbare Front-end- en Back-end-systemen, terwijl wij kritieke platforms zoals SAP ERP, S/4HANA, CRM, MES en e-commerce integreren. Onze oplossingen verbeteren de cross-functionele gegevensstroom en operationele automatisering via een robuuste API-architectuur, WebService (REST/SOAP) en AI-LLM-integratie."
+            description: "Wij bieden end-to-end softwareontwikkeling en systeemintegratie voor ondernemingen, afgestemd op snelgroeiende startups en digital-first bedrijven. Met moderne frameworks bouwen wij schaalbare front-end en back-end systemen, terwijl wij cruciale platforms zoals SAP ERP, S/4HANA, ABAP, CRM, MES en e-commerce implementeren, configureren en integreren."
         },
         {
             title: "Systeemanalyse en Technische Ondersteuning",

@@ -21,7 +21,7 @@ export const AboutFR: IAbout = {
     stacks: [
         {
             title: "Développement logiciel et intégration de systèmes d'entreprise",
-            description: "Fournir un développement logiciel de bout en bout et une intégration des systèmes d’entreprise, adaptés aux start-ups en forte croissance et aux entreprises digital-first. En exploitant des frameworks modernes, nous construisons des systèmes Front-end et Back-end évolutifs tout en intégrant des plateformes critiques telles que SAP ERP, S/4HANA, CRM, MES et e-commerce. Nos solutions améliorent le flux de données interfonctionnel et l’automatisation opérationnelle grâce à une architecture API robuste, WebService (REST/SOAP) et intégration AI-LLM."
+            description: "Nous fournissons un développement logiciel de bout en bout et une intégration des systèmes d’entreprise adaptés aux start-ups en forte croissance et aux entreprises digital-first. En tirant parti des frameworks modernes, nous construisons des systèmes front-end et back-end évolutifs tout en mettant en œuvre, configurant et intégrant des plateformes critiques telles que SAP ERP, S/4HANA, ABAP, CRM, MES et le e-commerce."
         },
         {
             title: "Analyse de Système et Support Technique",

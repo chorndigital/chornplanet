@@ -21,7 +21,7 @@ export const AboutZH: IAbout = {
     stacks: [
         {
             title: "软件开发与企业系统集成",
-            description: "为高速成长的初创公司和数字优先型企业提供端到端的软件开发和企业系统集成。利用现代框架，我们构建可扩展的Front-end和Back-end系统，同时集成SAP ERP、S/4HANA、CRM、MES和电子商务等关键平台。我们的解决方案通过强大的API架构、WebService（REST/SOAP）以及AI-LLM集成，提升跨职能数据流和业务自动化能力。"
+            description: "我们为快速成长的初创企业和数字化优先企业提供端到端的软件开发和企业系统集成服务。利用现代框架，我们构建可扩展的前端和后端系统，同时实施、配置并集成 SAP ERP、S/4HANA、ABAP、CRM、MES 和电子商务等关键平台。"
         },
         {
             title: "系统分析和技术支持",

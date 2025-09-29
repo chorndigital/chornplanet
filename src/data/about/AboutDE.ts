@@ -21,7 +21,7 @@ export const AboutDE: IAbout = {
     stacks: [
         {
             title: "Softwareudvikling og integration af virksomhedssystemer",
-            description: "Bereitstellung von End-to-End-Softwareentwicklung und Unternehmenssystemintegration, maßgeschneidert für schnell wachsende Start-ups und digital-first Unternehmen. Unter Einsatz moderner Frameworks entwickeln wir skalierbare Frontend- und Backend-Systeme und integrieren gleichzeitig kritische Plattformen wie SAP ERP, S/4HANA, CRM, MES und E-Commerce. Unsere Lösungen verbessern den funktionsübergreifenden Datenfluss und die betriebliche Automatisierung durch robuste API-Architektur, WebService (REST/SOAP) und AI-LLM-Integration."
+            description: "Wir bieten End-to-End-Softwareentwicklung und Unternehmenssystemintegration, maßgeschneidert für schnell wachsende Startups und Digital-First-Unternehmen. Mit modernen Frameworks entwickeln wir skalierbare Frontend- und Backend-Systeme und übernehmen die Implementierung, Konfiguration und Integration von wichtigen Plattformen wie SAP ERP, S/4HANA, ABAP, CRM, MES und E-Commerce."
         },
         {
             title: "Systemanalyse und Technischer Support",

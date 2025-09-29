@@ -22,7 +22,7 @@ export const AboutEN: IAbout = {
     stacks: [
         {
             title: "Software Development and Enterprise System Integration",
-            description: "Provide end-to-end software development and enterprise system integration tailored for fast-growing startups and digital-first enterprises. Leveraging modern frameworks, we build scalable Front-end and Back-end systems while integrating critical platforms like SAP ERP, S/4HANA, CRM, MES, and e-commerce. Our solutions enhance cross-functional data flow and operational automation through robust API architecture, WebService (REST/SOAP), and AI-LLM integration."
+            description: "We provide end-to-end software development and enterprise system integration tailored for fast-growing startups and digital-first enterprises. Leveraging modern frameworks, we build scalable front-end and back-end systems while implementing, configuring, and integrating critical platforms such as SAP ERP, S/4HANA, ABAP, CRM, MES, and e-commerce."
         },
         {
             title: "System Analysis and Technical Support",
