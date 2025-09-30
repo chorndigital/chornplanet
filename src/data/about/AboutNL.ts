@@ -7,11 +7,11 @@ export const AboutNL: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "Sinds 2001 is CHORN gespecialiseerd in software- en hardware-engineering voor grootschalige elektronica­productie, met expertise in Manufacturing Execution Systems (MES) die het mogelijk maken de productie op te schalen tot meer dan 10 miljoen eenheden per maand met efficiëntie en betrouwbaarheid."
+            description: "Gestart in 2001 heeft CHORN expertise in software- en hardware­engineering voor grootschalige elektronica­productie, met specialisatie in manufacturing execution systems. Heeft projecten geleid die toezicht houden op een geautomatiseerde productiecapaciteit van meer dan 10 miljoen eenheden per maand, met voortdurende verbeteringen in systeemefficiëntie en betrouwbaarheid."
         },
         {
             title: "Ontwikkeling van digitale platforms",
-            description: "Sinds 2012 breidt CHORN zijn expertise uit in de ontwikkeling van digitale platforms en creëert het schaalbare web- en mobiele oplossingen op basis van moderne technologieën en frameworks om te voldoen aan de groeiende vraag van gebruikers. Het bedrijf is succesvol geweest in het schalen van architecturen om miljoenen maandelijkse gebruikers te ondersteunen, waaronder projecten met SAP ERP en S/4HANA voor de ontwikkeling, implementatie en configuratie van bedrijfssystemen."
+            description: "Sinds 2012 heeft CHORN zijn expertise in de ontwikkeling van digitale platforms uitgebreid en schaalbare web- en mobiele oplossingen gecreëerd, gebouwd op moderne technologieën, frameworks en clouds­ystemen om te voldoen aan de groeiende behoeften van gebruikers. Het architectuurontwerp is schaalbaar en ondersteunt miljoenen maandelijkse gebruikers, inclusief projecten met betrekking tot SAP ERP en S/4HANA voor de ontwikkeling van bedrijfs­systemen."
         },
         {
             title: "Locatie en Werkvorm",

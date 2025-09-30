@@ -7,11 +7,11 @@ export const AboutDE: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "Seit 2001 hat sich CHORN auf Software- und Hardwareentwicklung für die Elektronikfertigung in großen Stückzahlen spezialisiert, mit Expertise in Manufacturing Execution Systems (MES), die eine Produktionsskalierung auf über 10 Millionen Einheiten pro Monat mit Effizienz und Zuverlässigkeit ermöglichen."
+            description: "Gestartet im Jahr 2001 verfügt CHORN über Expertise in Software- und Hardware­engineering für die Elektronik­fertigung in großen Stückzahlen, mit Spezialisierung auf Manufacturing Execution Systems. Hat Projekte geleitet, die eine automatisierte Produktionskapazität von mehr als 10 Millionen Einheiten pro Monat überwachen, mit kontinuierlichen Verbesserungen der Systemeffizienz und Zuverlässigkeit."
         },
         {
             title: "Entwicklung digitaler Plattformen",
-            description: "Seit 2012 erweitert CHORN seine Expertise in der Entwicklung digitaler Plattformen und erstellt skalierbare Web- und Mobil­lösungen auf Basis moderner Technologien und Frameworks, um den wachsenden Anforderungen der Nutzer gerecht zu werden. Erfolgreich in der skalierbaren Architektur zur Unterstützung von Millionen monatlicher Nutzer, einschließlich Projekten mit SAP ERP und S/4HANA für die Entwicklung, Implementierung und Konfiguration von Unternehmenssystemen."
+            description: "Seit 2012 hat CHORN seine Expertise in der Entwicklung digitaler Plattformen ausgebaut und skalierbare Web- und Mobil­lösungen entwickelt, die auf modernen Technologien, Frameworks und Cloud­systemen basieren, um den wachsenden Anforderungen der Nutzer gerecht zu werden. Das Architekturdesign ist skalierbar und unterstützt Millionen von monatlichen Nutzern, einschließlich Projekten im Zusammenhang mit SAP ERP und S/4HANA für die Entwicklung von Unternehmenssystemen."
         },
         {
             title: "Standort und Arbeitsform",

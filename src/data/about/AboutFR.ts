@@ -7,11 +7,11 @@ export const AboutFR: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "Depuis 2001, CHORN s’est spécialisé dans l’ingénierie logicielle et matérielle pour la fabrication électronique à grand volume, avec une expertise en Manufacturing Execution Systems (MES) permettant de faire évoluer la production à plus de 10 millions d’unités par mois avec efficacité et fiabilité."
+            description: "Commencé en 2001, CHORN possède une expertise en ingénierie logicielle et matérielle pour la fabrication électronique à grand volume, avec une spécialisation dans les systèmes d’exécution de la production. A dirigé des projets supervisant une capacité de production automatisée de plus de 10 millions d’unités par mois, avec des améliorations continues de l’efficacité et de la fiabilité du système."
         },
         {
             title: "Développement de plateformes digitales",
-            description: "Depuis 2012, CHORN développe son expertise dans la création de plateformes numériques, en concevant des solutions web et mobiles évolutives basées sur des technologies et des frameworks modernes afin de répondre aux besoins croissants des utilisateurs. L’entreprise a réussi à mettre en place des architectures évolutives capables de prendre en charge des millions d’utilisateurs mensuels, y compris des projets impliquant SAP ERP et S/4HANA pour le développement, le déploiement et la configuration de systèmes d’entreprise."
+            description: "Depuis 2012, CHORN a élargi son expertise dans le développement de plateformes numériques, créant des solutions web et mobiles évolutives basées sur des technologies modernes, des frameworks et des systèmes cloud pour répondre aux besoins croissants des utilisateurs. La conception de l’architecture est évolutive et prend en charge des millions d’utilisateurs mensuels, y compris des projets liés à SAP ERP et S/4HANA pour le développement de systèmes d’entreprise."
         },
         {
             title: "Lieu et Format de Travail",
