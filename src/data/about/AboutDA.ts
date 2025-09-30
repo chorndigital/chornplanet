@@ -11,7 +11,7 @@ export const AboutDA: IAbout = {
         },
         {
             title: "Digital Platformudvikling",
-            description: "Siden 2012 har CHORN udvidet sin ekspertise inden for udvikling af digitale platforme og skabt skalerbare web- og mobil­løsninger bygget på moderne teknologier, frameworks og cloud­systemer for at imødekomme brugernes voksende behov. Arkitekturdesignet er skalerbart og understøtter millioner af månedlige brugere, herunder projekter relateret til SAP ERP og S/4HANA til udvikling af virksomhedssystemer."
+            description: "Senere i 2012 CHORN udvidet sin ekspertise inden for udvikling af digitale platforme og skabt skalerbare web- og mobil­løsninger bygget på moderne teknologier, frameworks og cloud­systemer for at imødekomme brugernes voksende behov. Arkitekturdesignet er skalerbart og understøtter millioner af månedlige brugere, herunder projekter relateret til SAP ERP og S/4HANA til udvikling af virksomhedssystemer."
         },
         {
             title: "Placering og Arbejdsform",
