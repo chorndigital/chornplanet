@@ -89,6 +89,7 @@ export interface IImageUrl {
         business: IImageUnit,
         rec: {
             sm: IImageUnit,
+            md: IImageUnit,
             lg: IImageUnit,
         },
         line: {

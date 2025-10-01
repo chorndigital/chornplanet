@@ -538,6 +538,10 @@ export const ImageUrl: IImageUrl = {
                 title: "CHORN's rectangle logo sm-size",
                 path: IMAGE_PATH + "/logo-2025plus/chorn-logo-rec-sm-2025plus.png"
             },
+            md: {
+                title: "CHORN's rectangle logo md-size",
+                path: IMAGE_PATH + "/logo-2025plus/chorn-logo-rec-md-2025plus.png"
+            },
             lg: {
                 title: "CHORN's rectangle logo lg-size",
                 path: IMAGE_PATH + "/logo-2025plus/chorn-logo-rec-lg-2025plus.png"
