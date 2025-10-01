@@ -7,7 +7,7 @@ export const AboutDA: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "Startet i 2001 har CHORN ekspertise inden for software- og hardware­engineering til elektronikproduktion i stor skala, med speciale i produktions­styringssystemer. Har ledet projekter, der overvåger automatiseret produktionskapacitet på mere end 10 millioner enheder pr. måned, med løbende forbedringer af systemeffektivitet og pålidelighed."
+            description: "CHORN startede i 2001 og har ekspertise inden for software- og hardwareteknik til elektronikproduktion i høj volumen, med speciale i produktionsstyringssystemer. Har ledet projekter med automatiseret produktionskapacitet på mere end 10 millioner enheder pr. måned, med løbende forbedringer af systemeffektivitet og pålidelighed."
         },
         {
             title: "Digital Platformudvikling",

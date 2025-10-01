@@ -7,7 +7,7 @@ export const AboutEN: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "Started in 2001, CHORN has expertise in software and hardware engineering for high-volume electronics manufacturing, with specialization in manufacturing execution systems. Led projects overseeing automated production capacity of more than 10 million units per month, with continuous improvements in system efficiency and reliability."
+            description: "CHORN started in 2001, has expertise in software and hardware engineering for high-volume electronics manufacturing, with a specialization in manufacturing execution systems. Led projects overseeing automated production capacity of more than 10 million units per month, with continuous improvements in system efficiency and reliability."
         },
         {
             title: "Digital Platform Development",
