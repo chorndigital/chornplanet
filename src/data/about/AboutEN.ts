@@ -11,7 +11,7 @@ export const AboutEN: IAbout = {
         },
         {
             title: "Digital Platform Development",
-            description: "Later in 2012, CHORN has expanded its expertise in digital platform development, creating scalable web and mobile solutions built on modern technologies, frameworks, and cloud systems to meet the growing needs of users. The architecture design is scalable and supports millions of users, including projects related to SAP ERP and S/4HANA for enterprise system development."
+            description: "在 2012 年后，CHORN 扩展了其在数字平台开发方面的专业能力，利用现代技术、框架和云系统创建可扩展的网页和移动解决方案，以满足用户日益增长的需求。其架构设计具备可扩展性，能够支持数百万用户，并涵盖与 SAP ERP、ECC6 和 S/4HANA 相关的企业系统开发项目。"
         },
         {
             title: "Software Development Solutions",
