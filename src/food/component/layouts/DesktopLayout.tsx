@@ -14,8 +14,8 @@ export default function DesktopLayout({children}: { children: React.ReactNode })
                     <div className="logo">
                         <Link href="/" className="">
                             <Image
-                                src={ImageUrl.logo.whiteRec.sm.path}
-                                alt={ImageUrl.logo.whiteRec.sm.title}
+                                src={ImageUrl.logo.rec.sm.path}
+                                alt={ImageUrl.logo.rec.sm.title}
                                 width={100}
                                 height={50}
                             />
