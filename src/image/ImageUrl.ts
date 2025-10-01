@@ -519,38 +519,28 @@ export const ImageUrl: IImageUrl = {
     logo: {
         lg: {
             title: "CHORN's logo lg-size",
-            path: IMAGE_PATH + "/logo-2025/chorn-logo-2025-circle-lg.png"
+            path: IMAGE_PATH + "/logo-2025plus/chorn-logo-circle-lg-2025plus.png"
         },
         md: {
             title: "CHORN's logo md-size",
-            path: IMAGE_PATH + "/logo-2025/chorn-logo-2025-circle-md.png"
+            path: IMAGE_PATH + "/logo-2025plus/chorn-logo-circle-md-2025plus.png"
         },
         sm: {
             title: "CHORN's logo sm-size",
-            path: IMAGE_PATH + "/logo-2025/chorn-logo-2025-circle-sm.png"
+            path: IMAGE_PATH + "/logo-2025plus/chorn-logo-circle-sm-2025plus.png"
         },
         business: {
             title: "CHORN's business logo",
-            path: IMAGE_PATH + "/logo-2025/chorn-logo-2025-circle-md.png"
+            path: IMAGE_PATH + "/logo-2025plus/chorn-logo-circle-md-2025plus.png"
         },
         rec: {
             sm: {
                 title: "CHORN's rectangle logo sm-size",
-                path: IMAGE_PATH + "/logo-2025/chorn-logo-2025-rec-sm.png"
+                path: IMAGE_PATH + "/logo-2025plus/chorn-logo-rec-sm-2025plus.png"
             },
             lg: {
                 title: "CHORN's rectangle logo lg-size",
-                path: IMAGE_PATH + "/logo-2025/chorn-logo-2025-rec-lg.png"
-            },
-        },
-        whiteRec: {
-            sm: {
-                title: "CHORN's rectangle logo sm-size",
-                path: IMAGE_PATH + "/logo-2025/chorn-logo-2025-rec-white-sm.png"
-            },
-            lg: {
-                title: "CHORN's rectangle logo lg-size",
-                path: IMAGE_PATH + "/logo-2025/chorn-logo-2025-rec-white-lg.png"
+                path: IMAGE_PATH + "/logo-2025plus/chorn-logo-rec-lg-2025plus.png"
             },
         },
         line: {
