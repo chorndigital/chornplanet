@@ -7,7 +7,7 @@ export const AboutFI: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN aloitti vuonna 2001 ja omaa asiantuntemusta ohjelmisto- ja laitteistosuunnittelussa suuren volyymin elektroniikkavalmistusta varten, erikoisalana tuotannonohjausjärjestelmät. On johtanut projekteja, joissa on hallittu yli 10 miljoonan yksikön kuukausittaista automaattista tuotantokapasiteettia, jatkuvasti parantaen järjestelmän tehokkuutta ja luotettavuutta."
+            description: "Vuonna 2001 perustettu CHORN omaa asiantuntemusta ohjelmisto- ja laitteistosuunnittelussa suurivolyymiseen elektroniikkavalmistukseen, laite-ohjelmistosuunnittelussa yhdessä T&K-insinööritiimien kanssa ja on erikoistunut tuotannonohjausjärjestelmiin. Johti projekteja, joissa hallittiin yli 10 miljoonan yksikön kuukausittaista automatisoitua tuotantokapasiteettia, tiimien välistä yhteistyötä sekä järjestelmien tehokkuuden, luotettavuuden ja tuotteen laadun jatkuvaa parantamista."
         },
         {
             title: "Digitaalisten alustojen kehitys",
