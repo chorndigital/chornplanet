@@ -7,11 +7,11 @@ export const AboutFR: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "Fondée en 2001, CHORN possède une expertise en ingénierie logicielle et matérielle pour la fabrication électronique à grand volume, en conception matériel-logiciel-mécanique avec des équipes d’ingénierie R&D, avec une spécialisation dans les systèmes d’exécution de fabrication. A dirigé des projets supervisant une capacité de production automatisée de plus de 10 millions d’unités par mois, une collaboration interfonctionnelle d’équipes, ainsi que des améliorations continues en efficacité, fiabilité et qualité des produits."
+            description: "Fondée en 2001, CHORN possède une expertise en informatique, ingénierie logicielle et matérielle pour la production électronique de grande série, conception matériel-logiciel-mécanique avec des équipes d’ingénierie R&D, spécialisée dans les systèmes d’exécution de fabrication. A dirigé des projets avec une capacité de production automatisée de plus de 10 millions d’unités par mois, favorisant la collaboration interfonctionnelle des équipes et des améliorations continues en efficacité des systèmes, fiabilité et qualité des produits."
         },
         {
             title: "Développement de plateformes digitales",
-            description: "Plus tard en 2012, CHORN a élargi son expertise dans le développement de plateformes numériques, créant des solutions web et mobiles évolutives basées sur des technologies modernes, des frameworks et des systèmes cloud pour répondre aux besoins croissants des utilisateurs. La conception de l’architecture est évolutive et prend en charge des millions d’utilisateurs, y compris des projets liés à SAP ERP et S/4HANA pour le développement de systèmes d’entreprise."
+            description: "En 2012, CHORN a commencé à élargir son expertise en informatique et en développement logiciel dans le domaine du développement de plateformes numériques, en créant des solutions web et mobiles évolutives, basées sur des technologies modernes, des frameworks et des systèmes cloud afin de répondre aux besoins croissants des utilisateurs. La conception de l’architecture est évolutive et prend en charge des millions d’utilisateurs, y compris des projets liés à SAP ERP et S/4HANA pour le développement de systèmes d’entreprise."
         },
         {
             title: "Lieu et Format de Travail",

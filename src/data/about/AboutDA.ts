@@ -7,11 +7,11 @@ export const AboutDA: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN, der startede i 2001, har ekspertise inden for software- og hardwareudvikling til elektronikproduktion i høj volumen, hardware-software-mekanisk design sammen med F&U-ingeniørteams, med speciale i produktionsstyringssystemer. Har ledet projekter, der har overvåget automatiseret produktionskapacitet på mere end 10 millioner enheder pr. måned, tværfunktionelt teamsamarbejde samt løbende forbedringer af systemeffektivitet, pålidelighed og produktkvalitet."
+            description: "CHORN, der startede i 2001, har ekspertise inden for IT, software- og hardwareudvikling til elektronikproduktion i høj volumen, hardware-software-mekanisk design sammen med F&U-ingeniørteams, med speciale i produktionsstyringssystemer. Har ledet projekter, der har overvåget automatiseret produktionskapacitet på mere end 10 millioner enheder pr. måned, tværfunktionelt teamsamarbejde samt løbende forbedringer af systemeffektivitet, pålidelighed og produktkvalitet."
         },
         {
             title: "Digital Platformudvikling",
-            description: "Senere i 2012 udvidede CHORN sin ekspertise inden for udvikling af digitale platforme og skabte skalerbare web- og mobil­ løsninger baseret på moderne teknologier, frameworks og cloud-systemer for at imødekomme brugernes stigende behov. Arkitekturdesignet er skalerbart og understøtter millioner af brugere, herunder projekter relateret til SAP ERP og S/4HANA til udvikling af virksomhedssystemer."
+            description: "Senere i 2012 begyndte CHORN at udvide sin IT- og softwareudviklingsekspertise inden for digital platformudvikling, ved at skabe skalerbare web- og mobil-løsninger baseret på moderne teknologier, frameworks og cloud-systemer for at imødekomme brugernes stigende behov. Arkitekturdesignet er skalerbart og understøtter millioner af brugere, herunder projekter relateret til SAP ERP og S/4HANA til udvikling af virksomhedssystemer."
         },
         {
             title: "Placering og Arbejdsform",

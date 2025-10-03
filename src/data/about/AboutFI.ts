@@ -7,11 +7,11 @@ export const AboutFI: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "Vuonna 2001 perustettu CHORN omaa asiantuntemusta ohjelmisto- ja laitteistosuunnittelussa suurivolyymiseen elektroniikkavalmistukseen, laite-ohjelmisto-mekaanisessa suunnittelussa yhdessä T&K-insinööritiimien kanssa ja on erikoistunut tuotannonohjausjärjestelmiin. Johti projekteja, joissa hallittiin yli 10 miljoonan yksikön kuukausittaista automatisoitua tuotantokapasiteettia, tiimien välistä yhteistyötä sekä järjestelmien tehokkuuden, luotettavuuden ja tuotteen laadun jatkuvaa parantamista."
+            description: "CHORN perustettiin vuonna 2001, ja sillä on asiantuntemusta IT-, ohjelmisto- ja laitteistotekniikassa suurivolyymiseen elektroniikkavalmistukseen, laite-ohjelmisto-mekaanisessa suunnittelussa yhdessä T&K-insinööritiimien kanssa, erikoistuen valmistuksen ohjausjärjestelmiin. Johti projekteja, joissa automatisoitu tuotantokapasiteetti ylitti 10 miljoonaa yksikköä kuukaudessa, edisti monialaista tiimiyhteistyötä sekä jatkuvia parannuksia järjestelmän tehokkuudessa, luotettavuudessa ja tuotteen laadussa."
         },
         {
             title: "Digitaalisten alustojen kehitys",
-            description: "Vuoden 2012 loppupuolella laajensi CHORN osaamistaan digitaalisten alustojen kehittämisessä ja loi skaalautuvia verkko- ja mobiiliratkaisuja, jotka perustuvat moderneihin teknologioihin, kehyksiin ja pilvijärjestelmiin vastaamaan käyttäjien kasvaviin tarpeisiin. Arkkitehtuurin suunnittelu on skaalautuvaa ja tukee miljoonia käyttäjiä, mukaan lukien SAP ERP- ja S/4HANA-hankkeet yritysjärjestelmien kehittämistä varten."
+            description: "Vuonna 2012 CHORN alkoi laajentaa IT- ja ohjelmistokehitysosaamistaan digitaalisten alustojen kehittämisessä, luoden skaalautuvia verkko- ja mobiiliratkaisuja modernien teknologioiden, kehysten ja pilvijärjestelmien pohjalta vastatakseen käyttäjien kasvaviin tarpeisiin. Arkkitehtuurisuunnittelu on skaalautuvaa ja tukee miljoonia käyttäjiä, mukaan lukien hankkeet, jotka liittyvät SAP ERP:ään ja S/4HANA:aan yritysjärjestelmien kehittämiseksi."
         },
         {
             title: "Sijainti ja Työmuoto",

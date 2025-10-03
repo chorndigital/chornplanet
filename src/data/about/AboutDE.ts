@@ -7,11 +7,11 @@ export const AboutDE: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN, gegründet im Jahr 2001, verfügt über Expertise in Software- und Hardwareentwicklung für die Serienfertigung von Elektronik, Hardware-Software-Mechanik-Design zusammen mit F&E-Ingenieurteams und ist auf Fertigungsleitsysteme spezialisiert. Leitete Projekte mit einer automatisierten Produktionskapazität von über 10 Millionen Einheiten pro Monat, interdisziplinärer Teamzusammenarbeit sowie kontinuierlichen Verbesserungen in Systemeffizienz, Zuverlässigkeit und Produktqualität."
+            description: "CHORN, gegründet im Jahr 2001, verfügt über Expertise in IT, Software- und Hardwareentwicklung für die Serienfertigung von Elektronik, Hardware-Software-Mechanik-Design zusammen mit F&E-Ingenieurteams und ist auf Fertigungsleitsysteme spezialisiert. Leitete Projekte mit einer automatisierten Produktionskapazität von über 10 Millionen Einheiten pro Monat, interdisziplinärer Teamzusammenarbeit sowie kontinuierlichen Verbesserungen in Systemeffizienz, Zuverlässigkeit und Produktqualität."
         },
         {
             title: "Entwicklung digitaler Plattformen",
-            description: "Später im Jahr 2012 erweiterte CHORN seine Expertise in der Entwicklung digitaler Plattformen und schuf skalierbare Web- und Mobil­lösungen, die auf modernen Technologien, Frameworks und Cloud-Systemen basieren, um den wachsenden Bedürfnissen der Nutzer gerecht zu werden. Das Architekturdesign ist skalierbar und unterstützt Millionen von Nutzern, einschließlich Projekten im Zusammenhang mit SAP ERP und S/4HANA für die Entwicklung von Unternehmenssystemen."
+            description: "Später im Jahr 2012 begann CHORN, seine IT- und Softwareentwicklungsexpertise im Bereich der digitalen Plattformentwicklung auszubauen, indem skalierbare Web- und Mobile-Lösungen auf Basis moderner Technologien, Frameworks und Cloud-Systeme entwickelt wurden, um den wachsenden Anforderungen der Nutzer gerecht zu werden. Das Architekturdesign ist skalierbar und unterstützt Millionen von Nutzern, einschließlich Projekten im Zusammenhang mit SAP ERP und S/4HANA für die Entwicklung von Unternehmenssystemen."
         },
         {
             title: "Standort und Arbeitsform",

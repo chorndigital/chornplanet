@@ -7,11 +7,11 @@ export const AboutEN: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN started in 2001, has expertise in software and hardware engineering for high-volume electronics manufacturing, hardware-software-mechanical design together with R&D engineering teams, with a specialization in manufacturing execution systems. Led projects overseeing automated production capacity of more than 10 million units per month, cross-functional team collaboration, with continuous improvements in system efficiency, reliability, and product quality."
+            description: "CHORN started in 2001, has expertise in IT, software, and hardware engineering for high-volume electronics manufacturing, hardware-software-mechanical design together with R&D engineering teams, with a specialization in manufacturing execution systems. Led projects overseeing automated production capacity of more than 10 million units per month, cross-functional team collaboration, with continuous improvements in system efficiency, reliability, and product quality."
         },
         {
             title: "Digital Platform Development",
-            description: "Later in 2012, CHORN has expanded its expertise in digital platform development, creating scalable web and mobile solutions built on modern technologies, frameworks, and cloud systems to meet the growing needs of users. The architecture design is scalable and supports millions of users, including projects related to SAP ERP and S/4HANA for enterprise system development."
+            description: "Later in 2012, CHORN began expanding its IT and software development expertise in digital platform development, creating scalable web and mobile solutions built on modern technologies, frameworks, and cloud systems to meet the growing needs of users. The architecture design is scalable and supports millions of users, including projects related to SAP ERP and S/4HANA for enterprise system development."
         },
         {
             title: "Software Development Solutions",
