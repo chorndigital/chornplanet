@@ -11,7 +11,7 @@ export const AboutFR: IAbout = {
         },
         {
             title: "Développement de plateformes digitales",
-            description: "En 2012, CHORN a commencé à élargir son expertise en informatique et en développement logiciel dans le domaine du développement de plateformes numériques, en créant des solutions web et mobiles évolutives, basées sur des technologies modernes, des frameworks et des systèmes cloud afin de répondre aux besoins croissants des utilisateurs. La conception de l’architecture est évolutive et prend en charge des millions d’utilisateurs, y compris des projets liés à SAP ERP et S/4HANA pour le développement de systèmes d’entreprise."
+            description: "En 2012, CHORN a commencé à élargir son expertise en informatique et en développement logiciel dans le domaine du développement de plateformes numériques, en créant des solutions web et mobiles évolutives, basées sur des technologies modernes, des frameworks et des systèmes cloud afin de répondre aux besoins croissants des utilisateurs. La conception de l’architecture est évolutive et prend en charge des millions d’utilisateurs, y compris des projets liés à CRM, SAP ERP et S/4HANA pour le développement de systèmes d’entreprise."
         },
         {
             title: "AI-Power",

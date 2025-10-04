@@ -11,7 +11,7 @@ export const AboutNL: IAbout = {
         },
         {
             title: "Ontwikkeling van digitale platforms",
-            description: "Later in 2012 begon CHORN zijn IT- en softwareontwikkelingsexpertise uit te breiden naar digitale platformontwikkeling, waarbij schaalbare web- en mobiele oplossingen werden gecreëerd op basis van moderne technologieën, frameworks en cloudsystemen om aan de groeiende behoeften van gebruikers te voldoen. Het architectuurontwerp is schaalbaar en ondersteunt miljoenen gebruikers, inclusief projecten gerelateerd aan SAP ERP en S/4HANA voor de ontwikkeling van ondernemingssystemen."
+            description: "Later in 2012 begon CHORN zijn IT- en softwareontwikkelingsexpertise uit te breiden naar digitale platformontwikkeling, waarbij schaalbare web- en mobiele oplossingen werden gecreëerd op basis van moderne technologieën, frameworks en cloudsystemen om aan de groeiende behoeften van gebruikers te voldoen. Het architectuurontwerp is schaalbaar en ondersteunt miljoenen gebruikers, inclusief projecten gerelateerd aan CRM, SAP ERP en S/4HANA voor de ontwikkeling van ondernemingssystemen."
         },
         {
             title: "AI-Power",
