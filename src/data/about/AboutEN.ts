@@ -14,6 +14,10 @@ export const AboutEN: IAbout = {
             description: "Later in 2012, CHORN began expanding its IT and software development expertise in digital platform development, creating scalable web and mobile solutions built on modern technologies, frameworks, and cloud systems to meet the growing needs of users. The architecture design is scalable and supports millions of users, including projects related to SAP ERP and S/4HANA for enterprise system development."
         },
         {
+            title: "AI-Power",
+            description: "The digital landscape shifted dramatically after the launch of ChatGPT and the OpenAI platform in late 2022. Since March 2023, CHORN has been pioneering AI-LLM and AI agent development, leveraging AI to enhance digital platform efficiency and accelerate software development performance."
+        },
+        {
             title: "Software Development Solutions",
             description: "Develops software through remote, hybrid, and office work in Chiang Mai, Bangkok, and internationally. Creates proof of concept (PoC) applications, minimum viable products (MVP), helps analyze system requirements, and improves existing systems to respond to changing business needs."
         }

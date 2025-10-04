@@ -14,6 +14,10 @@ export const AboutFI: IAbout = {
             description: "Vuonna 2012 CHORN alkoi laajentaa IT- ja ohjelmistokehitysosaamistaan digitaalisten alustojen kehittämisessä, luoden skaalautuvia verkko- ja mobiiliratkaisuja modernien teknologioiden, kehysten ja pilvijärjestelmien pohjalta vastatakseen käyttäjien kasvaviin tarpeisiin. Arkkitehtuurisuunnittelu on skaalautuvaa ja tukee miljoonia käyttäjiä, mukaan lukien hankkeet, jotka liittyvät SAP ERP:ään ja S/4HANA:aan yritysjärjestelmien kehittämiseksi."
         },
         {
+            title: "AI-Power",
+            description: "Digitaalinen maisema muuttui merkittävästi ChatGPT:n ja OpenAI-alustan julkaisun jälkeen vuoden 2022 lopussa. Maaliskuusta 2023 lähtien CHORN on ollut edelläkävijä AI-LLM- ja AI-agenttikehityksessä, hyödyntäen tekoälyä digitaalisten alustojen tehokkuuden parantamiseen ja ohjelmistokehityksen vauhdittamiseen."
+        },
+        {
             title: "Sijainti ja Työmuoto",
             description: "Kehittää ohjelmistoja etä-, hybridi- ja toimistotyön kautta Chiang Maissa, Bangkokissa ja kansainvälisesti. Luo proof of concept (PoC) -sovelluksia, pienimpiä toimivia tuotteita (MVP), auttaa analysoimaan järjestelmävaatimuksia ja parantaa olemassa olevia järjestelmiä vastaamaan muuttuviin liiketoimintatarpeisiin."
         }

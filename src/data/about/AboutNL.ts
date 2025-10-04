@@ -14,6 +14,10 @@ export const AboutNL: IAbout = {
             description: "Later in 2012 begon CHORN zijn IT- en softwareontwikkelingsexpertise uit te breiden naar digitale platformontwikkeling, waarbij schaalbare web- en mobiele oplossingen werden gecreëerd op basis van moderne technologieën, frameworks en cloudsystemen om aan de groeiende behoeften van gebruikers te voldoen. Het architectuurontwerp is schaalbaar en ondersteunt miljoenen gebruikers, inclusief projecten gerelateerd aan SAP ERP en S/4HANA voor de ontwikkeling van ondernemingssystemen."
         },
         {
+            title: "AI-Power",
+            description: "Het digitale landschap veranderde ingrijpend na de lancering van ChatGPT en het OpenAI-platform eind 2022. Sinds maart 2023 loopt CHORN voorop in de ontwikkeling van AI-LLM’s en AI-agenten en benut het AI om de efficiëntie van digitale platforms te vergroten en de prestaties van softwareontwikkeling te versnellen."
+        },
+        {
             title: "Locatie en Werkvorm",
             description: "Ontwikkelt software via remote, hybride en kantoorwerk in Chiang Mai, Bangkok en internationaal. Creëert proof of concept (PoC) applicaties, minimaal levensvatbare producten (MVP), helpt bij het analyseren van systeemvereisten en verbetert bestaande systemen om te reageren op veranderende zakelijke behoeften."
         }
