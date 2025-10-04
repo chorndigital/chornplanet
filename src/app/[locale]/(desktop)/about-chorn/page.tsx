@@ -26,10 +26,10 @@ export default async function Page() {
             <AboutContent lang={lang}/>
             <AiSolutionsMain lang={lang}/>
             <CloudInfraPageMain lang={lang}/>
-            <Web3PageMain lang={lang}/>
             <HomeBackEndContainer lang={lang} isRemoveTopSpace={true}/>
             <HomeFrontEndContainer lang={lang}/>
             <AiFahLandingPage lang={lang}/>
+            <Web3PageMain lang={lang}/>
 
             <SchemaMarkupServicePage
                 name="About Us | CHORN - Custom Software Development Experts"
