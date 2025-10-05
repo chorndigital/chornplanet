@@ -7,11 +7,11 @@ export const AboutFR: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "Fondée en 2001, CHORN possède une expertise en informatique, ingénierie logicielle et matérielle pour la production électronique de grande série, conception matériel-logiciel-mécanique avec des équipes d’ingénierie R&D, spécialisée dans les systèmes d’exécution de fabrication. A dirigé des projets avec une capacité de production automatisée de plus de 10 millions d’unités par mois, favorisant la collaboration interfonctionnelle des équipes et des améliorations continues en efficacité des systèmes, fiabilité et qualité des produits."
+            description: "CHORN, fondée en 2001, possède une expertise en IT, software et hardware engineering pour la production électronique de grande série, hardware-software-mechanical design avec des R&D engineering teams, spécialisée dans les manufacturing execution systems, équipements industriels, instruments de précision, protocoles industriels, custom hardware/software et IoT. A dirigé des projets supervisant une capacité de production automatisée de plus de 10 millions d’unités par mois, la collaboration d’équipes transverses, et des améliorations continues en efficacité des systèmes, fiabilité et qualité des produits."
         },
         {
             title: "Développement de plateformes digitales",
-            description: "En 2012, CHORN a commencé à élargir son expertise en informatique et en développement logiciel dans le domaine du développement de plateformes numériques, en créant des solutions web et mobiles évolutives, basées sur des technologies modernes, des frameworks et des systèmes cloud afin de répondre aux besoins croissants des utilisateurs. La conception de l’architecture est évolutive et prend en charge des millions d’utilisateurs, y compris des projets liés à CRM, SAP ERP et S/4HANA pour le développement de systèmes d’entreprise."
+            description: "En 2012, CHORN a commencé à élargir son expertise en IT et en développement logiciel dans le domaine du développement de plateformes numériques, en créant des solutions web et mobiles évolutives, construites sur des technologies modernes, frameworks et cloud systems afin de répondre aux besoins croissants des utilisateurs. La conception de l’architecture est évolutive et prend en charge des millions d’utilisateurs, y compris des projets liés à eCommerce, Real Estate, Pre-sale, CRM, SAP ERP et S/4HANA pour le développement de systèmes d’entreprise."
         },
         {
             title: "AI-Power",

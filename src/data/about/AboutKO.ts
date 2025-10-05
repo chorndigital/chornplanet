@@ -7,11 +7,11 @@ export const AboutKO: IAbout = {
     description: [
         {
             title: "제조 실행 시스템 (MES)",
-            description: "CHORN은 2001년에 설립되어 IT, 소프트웨어, 하드웨어 공학 분야에서 대량 전자 제조를 위한 전문성을 보유하고 있으며, R&D 엔지니어링 팀과 함께 하드웨어-소프트웨어-기계 설계를 수행하며 제조 실행 시스템에 특화되어 있습니다. 월 1천만 대 이상의 자동화된 생산 능력을 관리하는 프로젝트를 주도하였으며, 부서 간 협업을 통해 시스템 효율성, 신뢰성, 제품 품질에서 지속적인 개선을 이루었습니다."
+            description: "CHORN은 2001년에 설립되어 IT, 소프트웨어, 하드웨어 엔지니어링 분야에서 대량 전자 제조에 대한 전문성을 보유하고 있으며, R&D engineering teams와 함께 hardware-software-mechanical design을 수행하며, manufacturing execution systems, industrial-grade equipment, precision instruments, industrial protocols, custom hardware/software 및 IoT에 특화되어 있습니다. 월 1천만 대 이상의 자동화된 생산 능력을 감독하는 프로젝트를 주도하였으며, 크로스펑셔널 팀 협업과 시스템 효율성, 신뢰성 및 제품 품질의 지속적인 개선을 추진했습니다."
         },
         {
             title: "디지털 플랫폼 개발",
-            description: "2012년 이후 CHORN은 IT 및 소프트웨어 개발 전문성을 디지털 플랫폼 개발로 확장하기 시작했으며, 최신 기술, 프레임워크 및 클라우드 시스템을 기반으로 확장 가능한 웹 및 모바일 솔루션을 구축하여 사용자들의 증가하는 요구를 충족시켰습니다. 아키텍처 설계는 확장 가능하며 수백만 명의 사용자를 지원하고, CRM, SAP ERP 및 S/4HANA와 관련된 기업 시스템 개발 프로젝트도 포함합니다."
+            description: "2012년 이후 CHORN은 IT 및 소프트웨어 개발 전문성을 digital platform development로 확장하기 시작했으며, 최신 technologies, frameworks 및 cloud systems을 기반으로 한 확장 가능한 웹 및 모바일 솔루션을 구축하여 사용자들의 증가하는 요구를 충족시켰습니다. 아키텍처 설계는 확장 가능하며 수백만 명의 사용자를 지원하고, eCommerce, Real Estate, Pre-sale, CRM, SAP ERP 및 S/4HANA와 관련된 enterprise system development 프로젝트도 포함합니다."
         },
         {
             title: "AI-Power",

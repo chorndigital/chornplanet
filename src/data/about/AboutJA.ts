@@ -7,11 +7,11 @@ export const AboutJA: IAbout = {
     description: [
         {
             title: "製造実行システム (MES)",
-            description: "CHORNは2001年に設立され、IT、ソフトウェア、ハードウェア工学において大規模電子機器製造の専門知識を有し、研究開発エンジニアチームと共にハード・ソフト・メカニカル設計を行い、製造実行システムに特化しています。月間1,000万台以上の自動化生産能力を監督するプロジェクトを主導し、部門横断的なチームコラボレーション、システム効率、信頼性、製品品質における継続的な改善を推進しました。"
+            description: "CHORNは2001年に設立され、IT、ソフトウェア、ハードウェアエンジニアリングにおいて大規模電子製造の専門知識を有し、R&D engineering teamsと共にhardware-software-mechanical designを行い、manufacturing execution systems、industrial-grade equipment、precision instruments、industrial protocols、custom hardware/software、IoTに特化しています。月間1,000万台以上の自動化生産能力を監督するプロジェクトを主導し、クロスファンクショナルなチームコラボレーションを推進し、システム効率、信頼性、製品品質における継続的な改善を実現しました。"
         },
         {
             title: "デジタルプラットフォーム開発",
-            description: "2012年以降、CHORNはITおよびソフトウェア開発の専門性を拡大し、デジタルプラットフォーム開発に取り組み、最新の技術、フレームワーク、クラウドシステムを活用したスケーラブルなWebおよびモバイルソリューションを構築し、ユーザーの増大するニーズに応えてきました。アーキテクチャ設計はスケーラブルであり、数百万人のユーザーをサポートし、企業システム開発のためのCRM, SAP ERPおよびS/4HANAに関連するプロジェクトも含まれています。"
+            description: "2012年以降、CHORNはITおよびソフトウェア開発の専門性を拡大し、digital platform developmentに取り組み、最新のtechnologies、frameworks、cloud systemsを基盤としたスケーラブルなWebおよびモバイルソリューションを構築し、ユーザーの増大するニーズに応えてきました。アーキテクチャ設計はスケーラブルであり、数百万人のユーザーをサポートし、eCommerce、Real Estate、Pre-sale、CRM、SAP ERP、S/4HANAに関連するenterprise system developmentのプロジェクトも含まれています。"
         },
         {
             title: "AI-Power",

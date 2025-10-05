@@ -7,11 +7,11 @@ export const AboutNL: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN, opgericht in 2001, heeft expertise in IT, software- en hardware-engineering voor grootschalige elektronica-productie, hardware-software-mechanisch ontwerp samen met R&D-ingenieursteams, met specialisatie in manufacturing execution systems. Leidde projecten met geautomatiseerde productiecapaciteit van meer dan 10 miljoen eenheden per maand, interdisciplinaire team samenwerking, en continue verbeteringen in systeemefficiëntie, betrouwbaarheid en productkwaliteit."
+            description: "CHORN, opgericht in 2001, heeft expertise in IT, software en hardware engineering voor grootschalige elektronica-productie, hardware-software-mechanical design samen met R&D engineering teams, met specialisatie in manufacturing execution systems, industrial-grade equipment, precisie-instrumenten, industriële protocollen, custom hardware/software en IoT. Leidde projecten met geautomatiseerde productiecapaciteit van meer dan 10 miljoen eenheden per maand, cross-functionele team samenwerking en voortdurende verbeteringen in systeemefficiëntie, betrouwbaarheid en productkwaliteit."
         },
         {
             title: "Ontwikkeling van digitale platforms",
-            description: "Later in 2012 begon CHORN zijn IT- en softwareontwikkelingsexpertise uit te breiden naar digitale platformontwikkeling, waarbij schaalbare web- en mobiele oplossingen werden gecreëerd op basis van moderne technologieën, frameworks en cloudsystemen om aan de groeiende behoeften van gebruikers te voldoen. Het architectuurontwerp is schaalbaar en ondersteunt miljoenen gebruikers, inclusief projecten gerelateerd aan CRM, SAP ERP en S/4HANA voor de ontwikkeling van ondernemingssystemen."
+            description: "Later in 2012 begon CHORN zijn IT- en softwareontwikkelingsexpertise uit te breiden naar digital platform development, waarbij schaalbare web- en mobiele oplossingen werden gecreëerd op basis van moderne technologies, frameworks en cloud systems om aan de groeiende behoeften van gebruikers te voldoen. Het architectuurontwerp is schaalbaar en ondersteunt miljoenen gebruikers, inclusief projecten gerelateerd aan eCommerce, Real Estate, Pre-sale, CRM, SAP ERP en S/4HANA voor enterprise system development."
         },
         {
             title: "AI-Power",
