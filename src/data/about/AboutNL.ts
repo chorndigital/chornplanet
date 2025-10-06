@@ -51,18 +51,9 @@ export const AboutNL: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "Personeelszaken",
-                span: "(voor HR-gerelateerde vragen, werving en aanwerving)",
-                email: "hr@chorn.in.th"
-            },
-            {
                 title: "Algemene vragen",
                 span: "(Strategische samenwerkingen)",
-                officePhone: "Kantoor telefoon: +66 (52) 000 548",
-                mobilePhone: "Mobiele telefoon: +66 (64) 918 1998",
-                locations: {
-                    office: "Kantoor: 405/112 Moo 3, San Na Meng Subdistrict, San Sai District, Chiang Mai 50210, Thailand"
-                }
+                mobilePhone: "Mobiele telefoon: +66 (64) 918 1998"
             },
             {
                 title: "Plaatsen in de buurt",

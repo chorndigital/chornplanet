@@ -51,18 +51,9 @@ export const AboutJA: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "人事部",
-                span: "（人事関連のお問い合わせ、採用、雇用について）",
-                email: "hr@chorn.in.th"
-            },
-            {
                 title: "一般のお問い合わせ",
                 span: "（戦略的パートナーシップ）",
-                officePhone: "オフィスの電話：+66 (52) 000 548",
-                mobilePhone: "携帯電話：+66 (64) 918 1998",
-                locations: {
-                    office: "オフィス：405/112 ムー3、サンナメン・サブディストリクト、サンサーイ・ディストリクト、チェンマイ 50210、タイ"
-                }
+                mobilePhone: "携帯電話：+66 (64) 918 1998"
             },
             {
                 title: "近くの場所",

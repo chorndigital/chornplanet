@@ -51,18 +51,9 @@ export const AboutFI: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "Henkilöstöosasto",
-                span: "(HR-aiheisiin kyselyihin, rekrytointiin ja palkkaukseen liittyen)",
-                email: "hr@chorn.in.th"
-            },
-            {
                 title: "Yleiset tiedustelut",
                 span: "(Strategiset yhteistyöt)",
-                officePhone: "Toimistopuhelin: +66 (52) 000 548",
-                mobilePhone: "Matkapuhelin: +66 (64) 918 1998",
-                locations: {
-                    office: "Toimisto: 405/112 Moo 3, San Na Mengin osa-alue, San Sain piiri, Chiang Mai 50210, Thaimaa"
-                }
+                mobilePhone: "Matkapuhelin: +66 (64) 918 1998"
             },
             {
                 title: "Lähistön paikat",
@@ -72,7 +63,6 @@ export const AboutFI: IAbout = {
                 nearbyUniversity2: "Chiang Mai -yliopisto - 29 minuuttia",
                 nearbyAirport: "Chiang Main kansainvälinen lentoasema - 30 minuuttia"
             }
-
         ]
     }
 };

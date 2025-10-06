@@ -51,18 +51,9 @@ export const AboutDA: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "HR-afdeling",
-                span: "(for henvendelser vedrørende HR, rekruttering og ansættelse)",
-                email: "hr@chorn.in.th"
-            },
-            {
                 title: "Generelle henvendelser",
                 span: "(Strategiske partnerskaber)",
-                officePhone: "Kontortelefon: +66 (52) 000 548",
-                mobilePhone: "Mobiltelefon: +66 (64) 918 1998",
-                locations: {
-                    office: "Kontor: 405/112 Moo 3, San Na Meng Subdistrikt, San Sai Distrikt, Chiang Mai 50210, Thailand",
-                }
+                mobilePhone: "Mobiltelefon: +66 (64) 918 1998"
             },
             {
                 title: "Nærliggende steder",

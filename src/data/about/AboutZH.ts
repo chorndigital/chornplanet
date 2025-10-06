@@ -51,18 +51,9 @@ export const AboutZH: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "人力资源部",
-                span: "（关于人力资源、招聘和雇佣的相关咨询）",
-                email: "hr@chorn.in.th"
-            },
-            {
                 title: "一般咨询",
                 span: "（战略合作）",
-                officePhone: "办公室电话：+66 (52) 000 548",
                 mobilePhone: "移动电话：+66 (64) 918 1998",
-                locations: {
-                    office: "办公室：泰国清迈府善赛县善纳孟分区 Moo 3，405/112，邮编50210"
-                }
             },
             {
                 title: "附近地点",
