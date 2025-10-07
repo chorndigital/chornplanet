@@ -11,7 +11,7 @@ export default function AboutLeft({lang}: { lang: string }) {
 
             <div className="single-footer-widget about-bottom-image">
                 <BottomImageLeft/>
-                <BottomImageRight/>
+                {/*<BottomImageRight/>*/}
             </div>
         </div>
     )

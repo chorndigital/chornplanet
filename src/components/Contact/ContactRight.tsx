@@ -9,7 +9,8 @@ import {
     FaPhone,
     FaPlaneDeparture,
     FaShoppingBag,
-    FaUniversity
+    FaUniversity,
+    FaWhatsapp
 } from "react-icons/fa";
 import {Contact2025} from "@/data/contact/Contact2025";
 
@@ -58,7 +59,7 @@ export default function ContactRight({lang}: { lang: string }) {
                                         <div className="item">
                                             <div className="icon-container">
                                                 <div className="icon">
-                                                    <FaMobileAlt/>
+                                                    <FaWhatsapp/>
                                                 </div>
                                             </div>
                                             <div className="label">

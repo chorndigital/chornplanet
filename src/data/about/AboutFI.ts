@@ -53,7 +53,7 @@ export const AboutFI: IAbout = {
             {
                 title: "Yleiset tiedustelut",
                 span: "(Strategiset yhteistyöt)",
-                mobilePhone: "Matkapuhelin: +66 (64) 918 1998"
+                mobilePhone: "WhatsApp: +66 (64) 918 1998"
             },
             {
                 title: "Lähistön paikat",

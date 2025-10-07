@@ -53,7 +53,7 @@ export const AboutNL: IAbout = {
             {
                 title: "Algemene vragen",
                 span: "(Strategische samenwerkingen)",
-                mobilePhone: "Mobiele telefoon: +66 (64) 918 1998"
+                mobilePhone: "WhatsApp: +66 (64) 918 1998"
             },
             {
                 title: "Plaatsen in de buurt",

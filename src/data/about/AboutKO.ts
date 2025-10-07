@@ -53,7 +53,7 @@ export const AboutKO: IAbout = {
             {
                 title: "일반 문의",
                 span: "(전략적 파트너십)",
-                mobilePhone: "휴대폰: +66 (64) 918 1998"
+                mobilePhone: "WhatsApp: +66 (64) 918 1998"
             },
             {
                 title: "주변 장소",

@@ -53,7 +53,7 @@ export const AboutJA: IAbout = {
             {
                 title: "一般のお問い合わせ",
                 span: "（戦略的パートナーシップ）",
-                mobilePhone: "携帯電話：+66 (64) 918 1998"
+                mobilePhone: "WhatsApp: +66 (64) 918 1998"
             },
             {
                 title: "近くの場所",

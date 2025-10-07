@@ -53,7 +53,7 @@ export const AboutTH: IAbout = {
             {
                 title: "สอบถามทั่วไป",
                 span: "(ความร่วมมือเชิงกลยุทธ์)",
-                mobilePhone: "เบอร์มือถือ: 064-918 1998",
+                mobilePhone: "WhatsApp: 064-918 1998",
             },
             {
                 title: "สถานที่ใกล้เคียง",

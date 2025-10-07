@@ -53,7 +53,7 @@ export const AboutZH: IAbout = {
             {
                 title: "一般咨询",
                 span: "（战略合作）",
-                mobilePhone: "移动电话：+66 (64) 918 1998",
+                mobilePhone: "WhatsApp: +66 (64) 918 1998",
             },
             {
                 title: "附近地点",

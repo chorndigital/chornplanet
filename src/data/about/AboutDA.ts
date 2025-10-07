@@ -53,7 +53,7 @@ export const AboutDA: IAbout = {
             {
                 title: "Generelle henvendelser",
                 span: "(Strategiske partnerskaber)",
-                mobilePhone: "Mobiltelefon: +66 (64) 918 1998"
+                mobilePhone: "WhatsApp: +66 (64) 918 1998"
             },
             {
                 title: "Nærliggende steder",
