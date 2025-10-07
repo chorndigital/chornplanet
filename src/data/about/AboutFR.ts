@@ -7,11 +7,11 @@ export const AboutFR: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN, fondée en 2001, possède une expertise en IT, software et hardware engineering pour la production électronique de grande série, hardware-software-mechanical design avec des R&D engineering teams, spécialisée dans les manufacturing execution systems, équipements industriels, instruments de précision, protocoles industriels, custom hardware/software et IoT. A dirigé des projets supervisant une capacité de production automatisée de plus de 10 millions d’unités par mois, la collaboration d’équipes transverses, et des améliorations continues en efficacité des systèmes, fiabilité et qualité des produits."
+            description: "CHORN, fondée en 2001, possède une expertise en IT, software et hardware engineering pour la production électronique de grande série, hardware-software-mechanical design avec des R&D engineering teams, spécialisée dans les manufacturing execution systems, équipements industriels, instruments de précision, protocoles industriels,et  custom hardware/software. A dirigé des projets supervisant une capacité de production automatisée de plus de 10 millions d’unités par mois, la collaboration d’équipes transverses, et des améliorations continues en efficacité des systèmes, fiabilité et qualité des produits."
         },
         {
             title: "Développement de plateformes digitales",
-            description: "En 2012, CHORN a commencé à élargir son expertise en IT et en développement logiciel dans le domaine du développement de plateformes numériques, en créant des solutions web et mobiles évolutives, construites sur des technologies modernes, frameworks et cloud systems afin de répondre aux besoins croissants des utilisateurs. La conception de l’architecture est évolutive et prend en charge des millions d’utilisateurs, y compris des projets liés à eCommerce, Real Estate, Pre-sale, CRM, SAP ERP et S/4HANA pour le développement de systèmes d’entreprise."
+            description: "Plus tard en 2012, CHORN a commencé à étendre son expertise en développement logiciel au développement de plateformes numériques, créant des solutions web et mobiles évolutives basées sur des technologies, des frameworks et des systèmes cloud modernes afin de répondre aux besoins croissants des utilisateurs. La conception de l’architecture est évolutive et prend en charge les utilisateurs finaux, y compris les projets liés au e-commerce, à l’immobilier, à la prévente, au CRM, à SAP ERP et à S/4HANA pour le développement de systèmes d’entreprise."
         },
         {
             title: "AI-Power",

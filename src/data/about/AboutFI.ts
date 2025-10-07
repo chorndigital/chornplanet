@@ -7,11 +7,11 @@ export const AboutFI: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN perustettiin vuonna 2001, ja sillä on asiantuntemusta IT-, ohjelmisto- ja laitteistotekniikassa suurivolyymiseen elektroniikkavalmistukseen, hardware-software-mechanical design yhdessä R&D engineering teams kanssa, erikoistuen manufacturing execution systems, teollisuusluokan laitteisiin, tarkkuusinstrumentteihin, teollisuusprotokolliin, custom hardware/software sekä IoT:hen. Johti projekteja, joissa automatisoitu tuotantokapasiteetti ylitti 10 miljoonaa yksikköä kuukaudessa, monialaista tiimiyhteistyötä sekä jatkuvia parannuksia järjestelmän tehokkuudessa, luotettavuudessa ja tuotteen laadussa."
+            description: "CHORN perustettiin vuonna 2001, ja sillä on asiantuntemusta IT-, ohjelmisto- ja laitteistotekniikassa suurivolyymiseen elektroniikkavalmistukseen, hardware-software-mechanical design yhdessä R&D engineering teams kanssa, erikoistuen manufacturing execution systems, teollisuusluokan laitteisiin, tarkkuusinstrumentteihin, teollisuusprotokolliin, sekä custom hardware/software :hen. Johti projekteja, joissa automatisoitu tuotantokapasiteetti ylitti 10 miljoonaa yksikköä kuukaudessa, monialaista tiimiyhteistyötä sekä jatkuvia parannuksia järjestelmän tehokkuudessa, luotettavuudessa ja tuotteen laadussa."
         },
         {
             title: "Digitaalisten alustojen kehitys",
-            description: "Vuonna 2012 CHORN alkoi laajentaa IT- ja ohjelmistokehitysosaamistaan digitaalisten alustojen kehittämiseen, luoden skaalautuvia web- ja mobiiliratkaisuja modernien teknologioiden, frameworks ja cloud systems pohjalta vastatakseen käyttäjien kasvaviin tarpeisiin. Arkkitehtuurisuunnittelu on skaalautuvaa ja tukee miljoonia käyttäjiä, mukaan lukien hankkeet, jotka liittyvät eCommerceen, Real Estateen, Pre-saleen, CRM:ään, SAP ERP:ään ja S/4HANAan yritysjärjestelmien kehittämiseksi."
+            description: "Vuonna 2012 CHORN alkoi laajentaa ohjelmistokehitysosaamistaan digitaalisten alustojen kehittämiseen luomalla skaalautuvia verkko- ja mobiiliratkaisuja, jotka perustuvat moderneihin teknologioihin, kehyksiin ja pilvijärjestelmiin käyttäjien kasvavien tarpeiden täyttämiseksi. Arkkitehtuurin suunnittelu on skaalautuvaa ja tukee loppukäyttäjiä, mukaan lukien hankkeet, jotka liittyvät verkkokauppaan, kiinteistöihin, ennakkomyyntiin, CRM:ään, SAP ERP:ään ja S/4HANA:an yritysjärjestelmien kehittämiseksi."
         },
         {
             title: "AI-Power",

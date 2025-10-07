@@ -7,11 +7,11 @@ export const AboutDA: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN startede i 2001, har ekspertise inden for IT, software og hardware engineering til højtvolumen elektronikfremstilling, hardware-software-mekanisk design sammen med R&D engineering teams, med specialisering i manufacturing execution systems, industrielt udstyr, præcisionsinstrumenter, industrielle protokoller, custom hardware/software og IoT. Har ledet projekter med automatiseret produktionskapacitet på over 10 millioner enheder pr. måned, tværfunktionelt teamsamarbejde, med løbende forbedringer i systemeffektivitet, pålidelighed og produktkvalitet."
+            description: "CHORN startede i 2001, har ekspertise inden for IT, software og hardware engineering til højtvolumen elektronikfremstilling, hardware-software-mekanisk design sammen med R&D engineering teams, med specialisering i manufacturing execution systems, industrielt udstyr, præcisionsinstrumenter, industrielle protokoller, og custom hardware/software. Har ledet projekter med automatiseret produktionskapacitet på over 10 millioner enheder pr. måned, tværfunktionelt teamsamarbejde, med løbende forbedringer i systemeffektivitet, pålidelighed og produktkvalitet."
         },
         {
             title: "Digital Platformudvikling",
-            description: "Senere i 2012 begyndte CHORN at udvide sin IT- og softwareudviklingsekspertise inden for digital platformudvikling, og skabte skalerbare web- og mobile løsninger bygget på moderne teknologier, frameworks og cloud systems for at imødekomme brugernes stigende behov. Arkitekturdesignet er skalerbart og understøtter millioner af brugere, herunder projekter relateret til eCommerce, Real Estate, Pre-sale, CRM, SAP ERP og S/4HANA til udvikling af virksomhedssystemer."
+            description: "Senere i 2012 begyndte CHORN at udvide sin ekspertise inden for softwareudvikling til digital platformudvikling og skabte skalerbare web- og mobil­løsninger bygget på moderne teknologier, frameworks og cloudsystemer for at imødekomme brugernes stigende behov. Arkitekturdesignet er skalerbart og understøtter slutbrugere, herunder projekter relateret til e-handel, ejendom, forhåndssalg, CRM, SAP ERP og S/4HANA til udvikling af virksomhedssystemer."
         },
         {
             title: "AI-Power",

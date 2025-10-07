@@ -7,11 +7,11 @@ export const AboutTH: IAbout = {
     description: [
         {
             title: "ระบบการดำเนินงานการผลิต (MES)",
-            description: "CHORN เริ่มต้นในปี พ.ศ.2544 มีความเชี่ยวชาญด้าน IT, software และ hardware engineering สำหรับการผลิตอิเล็กทรอนิกส์ปริมาณสูง, hardware-software-mechanical design ร่วมกับ R&D engineering teams โดยมีความเชี่ยวชาญเฉพาะด้าน manufacturing execution systems, industrial-grade equipment, precision instruments, industrial protocols, custom hardware/software และ IoT เป็นผู้นำโครงการที่ควบคุมกำลังการผลิตอัตโนมัติมากกว่า 10 ล้านหน่วยต่อเดือน, การทำงานร่วมกันของทีม cross-functional และการปรับปรุงอย่างต่อเนื่องในด้านประสิทธิภาพระบบ, ความน่าเชื่อถือ และคุณภาพผลิตภัณฑ์"
+            description: "CHORN เริ่มต้นในปี พ.ศ.2544 มีความเชี่ยวชาญด้าน IT, software และ hardware engineering สำหรับการผลิตอิเล็กทรอนิกส์ปริมาณสูง, hardware-software-mechanical design ร่วมกับ R&D engineering teams โดยมีความเชี่ยวชาญเฉพาะด้าน manufacturing execution systems, industrial-grade equipment, precision instruments, industrial protocols, และ custom hardware/software เป็นผู้นำโครงการที่ควบคุมกำลังการผลิตอัตโนมัติมากกว่า 10 ล้านหน่วยต่อเดือน, การทำงานร่วมกันของทีม cross-functional และการปรับปรุงอย่างต่อเนื่องในด้านประสิทธิภาพระบบ, ความน่าเชื่อถือ และคุณภาพผลิตภัณฑ์"
         },
         {
             title: "การพัฒนาแพลตฟอร์มดิจิทัล",
-            description: "ต่อมาในปี พ.ศ.2555 CHORN เริ่มขยายความเชี่ยวชาญด้าน IT และ software development ใน digital platform development โดยการสร้าง scalable web และ mobile solutions ที่พัฒนาบน modern technologies, frameworks และ cloud systems เพื่อตอบสนองความต้องการที่เพิ่มขึ้นของผู้ใช้ การออกแบบสถาปัตยกรรมมีความสามารถในการขยายและรองรับผู้ใช้หลายล้านคน รวมถึงโครงการที่เกี่ยวข้องกับ eCommerce, Real Estate, Pre-sale, CRM, SAP ERP และ S/4HANA สำหรับ enterprise system development"
+            description: "ต่อมาในปี พ.ศ.2555 CHORN เริ่มขยายความเชี่ยวชาญด้าน software development ใน digital platform development โดยการสร้าง scalable web และ mobile solutions ที่พัฒนาบน modern technologies, frameworks และ cloud systems เพื่อตอบสนองความต้องการที่เพิ่มขึ้นของผู้ใช้ การออกแบบสถาปัตยกรรมมีความสามารถในการขยายและรองรับผู้ใช้หลายล้านคน รวมถึงโครงการที่เกี่ยวข้องกับ eCommerce, Real Estate, Pre-sale, CRM, SAP ERP และ S/4HANA สำหรับ enterprise system development"
         },
         {
             title: "AI-Power",

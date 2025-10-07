@@ -7,11 +7,11 @@ export const AboutEN: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN started in 2001, has expertise in IT, software, and hardware engineering for high-volume electronics manufacturing, hardware-software-mechanical design together with R&D engineering teams, with a specialization in manufacturing execution systems, industrial-grade equipment, precision instruments, industrial protocols, custom hardware/software, and IoT. Led projects overseeing automated production capacity of more than 10 million units per month, cross-functional team collaboration, with continuous improvements in system efficiency, reliability, and product quality."
+            description: "CHORN started in 2001, has expertise in IT, software, and hardware engineering for high-volume electronics manufacturing, hardware-software-mechanical design together with R&D engineering teams, with a specialization in manufacturing execution systems, industrial-grade equipment, precision instruments, industrial protocols, and custom hardware/software. Led projects overseeing automated production capacity of more than 10 million units per month, cross-functional team collaboration, with continuous improvements in system efficiency, reliability, and product quality."
         },
         {
             title: "Digital Platform Development",
-            description: "Later in 2012, CHORN began expanding its IT and software development expertise in digital platform development, creating scalable web and mobile solutions built on modern technologies, frameworks, and cloud systems to meet the growing needs of users. The architecture design is scalable and supports millions of users, including projects related to eCommerce, Real Estate, Pre-sale, CRM, SAP ERP, and S/4HANA for enterprise system development."
+            description: "Later in 2012, CHORN began expanding its software development expertise in digital platform development, creating scalable web and mobile solutions built on modern technologies, frameworks, and cloud systems to meet the growing needs of users. The architecture design is scalable and supports end users, including projects related to eCommerce, Real Estate, Pre-sale, CRM, SAP ERP, and S/4HANA for enterprise system development."
         },
         {
             title: "AI-Power",
