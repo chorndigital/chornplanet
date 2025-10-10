@@ -7,7 +7,7 @@ export const AboutJA: IAbout = {
     description: [
         {
             title: "製造実行システム (MES)",
-            description: "CHORNは2001年に設立され、IT、ソフトウェア、ハードウェアエンジニアリングにおいて大規模電子製造の専門知識を有し、R&D engineering teamsと共にhardware-software-mechanical designを行い、manufacturing execution systems、industrial-grade equipment、precision instruments、industrial protocols、custom hardware/softwareに特化しています。月間1,000万台以上の自動化生産能力を監督するプロジェクトを主導し、クロスファンクショナルなチームコラボレーションを推進し、システム効率、信頼性、製品品質における継続的な改善を実現しました。"
+            description: "CHORNは2001年に設立され、IT、software、hardware engineeringにおける豊富な専門知識を持ち、高量電子機器製造、hardware-software-mechanical design、R&D engineering teamsとの協働を行っています。manufacturing execution systems、産業用グレード機器、精密計測機器、産業用プロトコル、custom hardware/softwareに特化しています。月間1,000万ユニット以上の自動生産能力を監督するプロジェクトを主導し、クロスファンクショナルチームの協働を通じて、システム効率、信頼性、製品品質の継続的な改善、さらにcustomer relationship management (CRM) による顧客満足度とコミュニケーションの向上に注力しています。"
         },
         {
             title: "デジタルプラットフォーム開発",

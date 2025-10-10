@@ -7,7 +7,7 @@ export const AboutZH: IAbout = {
     description: [
         {
             title: "制造执行系统 (MES)",
-            description: "CHORN成立于2001年，拥有IT、软件和硬件工程方面的专业知识，专注于大规模电子制造，R&D engineering teams合作进行hardware-software-mechanical design，专业领域包括manufacturing execution systems、industrial-grade equipment、precision instruments、industrial protocols、和custom hardware/software。主导项目实现了每月超过1000万台的自动化生产能力，跨职能团队协作，并在系统效率、可靠性和产品质量方面持续改进。"
+            description: "CHORN成立于2001年，专注于IT、software和hardware engineering，在大规模电子制造、hardware-software-mechanical design以及与R&D engineering teams合作方面拥有丰富经验，专业领域包括manufacturing execution systems、工业级设备、精密仪器、工业协议以及custom hardware/software。主导项目监督每月超过一千万台的自动化生产能力，推动跨职能团队协作，不断提升系统效率、可靠性和产品质量，同时在customer relationship management (CRM)方面专注于客户满意度与沟通。"
         },
         {
             title: "数字平台开发",

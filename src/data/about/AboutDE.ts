@@ -7,7 +7,7 @@ export const AboutDE: IAbout = {
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN wurde 2001 gegründet, verfügt über Expertise in IT, Software- und Hardware-Engineering für die Serienfertigung von Elektronik, Hardware-Software-Mechanical Design zusammen mit R&D Engineering Teams, mit Spezialisierung auf Manufacturing Execution Systems, Industrieanlagen, Präzisionsinstrumente, industrielle Protokolle, und Custom Hardware/Software. Leitete Projekte mit einer automatisierten Produktionskapazität von über 10 Millionen Einheiten pro Monat, funktionsübergreifender Teamarbeit und kontinuierlichen Verbesserungen in Systemeffizienz, Zuverlässigkeit und Produktqualität."
+            description: "CHORN wurde 2001 gegründet und verfügt über Expertise in IT, Software und Hardware Engineering für die Serienfertigung von Elektronik, Hardware-Software-Mechanik-Design zusammen mit R&D Engineering Teams, mit Spezialisierung auf Manufacturing Execution Systems, industrietaugliche Ausrüstung, Präzisionsinstrumente, Industrieprotokolle und kundenspezifische Hardware/Software. Leitete Projekte mit einer automatisierten Produktionskapazität von über 10 Millionen Einheiten pro Monat, funktionsübergreifende Teamzusammenarbeit, mit kontinuierlichen Verbesserungen in Systemeffizienz, Zuverlässigkeit und Produktqualität sowie Customer Relationship Management (CRM), mit Fokus auf Kundenzufriedenheit und Kommunikation."
         },
         {
             title: "Entwicklung digitaler Plattformen",

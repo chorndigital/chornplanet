@@ -7,7 +7,7 @@ export const AboutTH: IAbout = {
     description: [
         {
             title: "ระบบการดำเนินงานการผลิต (MES)",
-            description: "CHORN เริ่มต้นในปี พ.ศ.2544 มีความเชี่ยวชาญด้าน IT, software และ hardware engineering สำหรับการผลิตอิเล็กทรอนิกส์ปริมาณสูง, hardware-software-mechanical design ร่วมกับ R&D engineering teams โดยมีความเชี่ยวชาญเฉพาะด้าน manufacturing execution systems, industrial-grade equipment, precision instruments, industrial protocols, และ custom hardware/software เป็นผู้นำโครงการที่ควบคุมกำลังการผลิตอัตโนมัติมากกว่า 10 ล้านหน่วยต่อเดือน, การทำงานร่วมกันของทีม cross-functional และการปรับปรุงอย่างต่อเนื่องในด้านประสิทธิภาพระบบ, ความน่าเชื่อถือ และคุณภาพผลิตภัณฑ์"
+            description: "CHORN เริ่มต้นในปี พ.ศ.2554 มีความเชี่ยวชาญด้าน IT, software และ hardware engineering สำหรับการผลิตอุปกรณ์อิเล็กทรอนิกส์ปริมาณมาก, hardware-software-mechanical design ร่วมกับทีม R&D engineering โดยมีความเชี่ยวชาญใน manufacturing execution systems, อุปกรณ์อุตสาหกรรม, เครื่องมือความแม่นยำสูง, โปรโตคอลอุตสาหกรรม และ custom hardware/software. ได้เป็นผู้นำโครงการที่ดูแลกำลังการผลิตอัตโนมัติกว่า 10 ล้านยูนิตต่อเดือน, การทำงานร่วมกันระหว่างทีมต่างฟังก์ชัน, พร้อมการปรับปรุงอย่างต่อเนื่องในด้านประสิทธิภาพของระบบ, ความเชื่อถือได้ และคุณภาพของผลิตภัณฑ์ รวมถึง customer relationship management (CRM) โดยมุ่งเน้นความพึงพอใจและการสื่อสารกับลูกค้า."
         },
         {
             title: "การพัฒนาแพลตฟอร์มดิจิทัล",
