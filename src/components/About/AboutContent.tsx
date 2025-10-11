@@ -10,7 +10,8 @@ export default function AboutContent({lang}: { lang: string }) {
             <div className="about-area pb-70">
                 <div className="container">
                     <h1>{InfoTranslation[lang].About.title}</h1>
-                    <div className="row">
+                    <strong>{InfoTranslation[lang].About.subTitle}</strong>
+                    <div className="row pt-2">
                         <AboutLeft lang={lang}/>
                         <AboutRight lang={lang}/>
                     </div>

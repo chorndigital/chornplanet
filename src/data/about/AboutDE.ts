@@ -1,25 +1,25 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutDE: IAbout = {
-    title: "Über uns",
-    span: "Umfassende Systemanalyse und Softwareentwicklung",
-    subTitle: "Technologische Innovation für Geschäftserfolg",
-    description: [
+    "title": "Über",
+    "span": "Technologische Innovation für Geschäftserfolg",
+    "subTitle": "CHORN – CEO | CTO Consultant — Unterstützung von Gründern beim Skalieren von Technologie, Teams und Strategie",
+    "description": [
         {
-            title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN wurde 2001 gegründet und verfügt über Expertise in IT, Software und Hardware Engineering für die Serienfertigung von Elektronik, Hardware-Software-Mechanik-Design zusammen mit R&D Engineering Teams, mit Spezialisierung auf Manufacturing Execution Systems, industrietaugliche Ausrüstung, Präzisionsinstrumente, Industrieprotokolle und kundenspezifische Hardware/Software. Leitete Projekte mit einer automatisierten Produktionskapazität von über 10 Millionen Einheiten pro Monat, funktionsübergreifende Teamzusammenarbeit, mit kontinuierlichen Verbesserungen in Systemeffizienz, Zuverlässigkeit und Produktqualität sowie Customer Relationship Management (CRM), mit Fokus auf Kundenzufriedenheit und Kommunikation."
+            "title": "Manufacturing Execution Systems (MES)",
+            "description": "CHORN begann im Jahr 2001 und basiert auf umfassender Expertise in IT, Software- und Hardware-Engineering für die Elektronikfertigung in großen Stückzahlen. Die Arbeit umfasste das integrierte Design von Hardware, Software und Mechanik in Zusammenarbeit mit F&E-Teams. Zu den Spezialgebieten gehören Manufacturing Execution Systems (MES), Industrieanlagen, Präzisionsinstrumente, Industrieprotokolle und kundenspezifische Hardware-/Software-Integration. Projekte erreichten automatisierte Produktionskapazitäten von über 10 Millionen Einheiten pro Monat mit Fokus auf Effizienz, Zuverlässigkeit und Produktqualität durch kontinuierliche Verbesserungen und effektive Kundenkommunikation."
         },
         {
-            title: "Entwicklung digitaler Plattformen",
-            description: "Später im Jahr 2012 begann CHORN, seine Softwareentwicklungskompetenz auf die Entwicklung digitaler Plattformen auszuweiten und skalierbare Web- und Mobil­lösungen zu erstellen, die auf modernen Technologien, Frameworks und Cloud-Systemen basieren, um den wachsenden Bedürfnissen der Nutzer gerecht zu werden. Das Architekturdesign ist skalierbar und unterstützt Endbenutzer, einschließlich Projekte im Zusammenhang mit E-Commerce, Immobilien, Vorverkauf, CRM, SAP ERP und S/4HANA für die Entwicklung von Unternehmenssystemen."
+            "title": "Digital Platform Development",
+            "description": "Im Jahr 2012 erweiterte CHORN seine Tätigkeit auf die Entwicklung digitaler Plattformen, mit dem Ziel, skalierbare Web- und Mobilanwendungen zu schaffen, die auf modernen Frameworks und Cloud-Architekturen basieren. Die Entwicklungsarbeit unterstützt Benutzer in verschiedenen Branchen wie E-Commerce, Immobilien, Pre-Sales, CRM sowie Unternehmenssysteme wie SAP ERP und S/4HANA. Jede Lösung wird mit skalierbarer Architektur und Anpassungsfähigkeit entwickelt, um sich an die sich verändernden Geschäftsanforderungen anzupassen."
         },
         {
-            title: "AI-Power",
-            description: "Die digitale Landschaft veränderte sich grundlegend nach dem Start von ChatGPT und der OpenAI-Plattform Ende 2022. Seit März 2023 ist CHORN Vorreiter in der Entwicklung von AI-LLMs und AI-Agenten und nutzt KI, um die Effizienz digitaler Plattformen zu steigern und die Softwareentwicklungsleistung zu beschleunigen."
+            "title": "AI-Powered Innovation",
+            "description": "Die digitale Landschaft veränderte sich erheblich nach der Einführung von ChatGPT und der OpenAI-Plattform Ende 2022. Seit März 2023 konzentriert sich CHORN auf KI-gesteuerte Entwicklung, indem Large Language Models (LLMs) und intelligente AI-Agents integriert werden, um die Leistungsfähigkeit digitaler Plattformen zu verbessern. Dieser Ansatz beschleunigt die Softwareentwicklung, steigert die Effizienz und führt neue Ebenen der Automatisierung und Intelligenz in moderne digitale Systeme ein."
         },
         {
-            title: "Standort und Arbeitsform",
-            description: "Entwickelt Software durch Remote-, Hybrid- und Büroarbeit in Chiang Mai, Bangkok und international. Erstellt Proof-of-Concept (PoC)-Anwendungen, minimale funktionsfähige Produkte (MVP), hilft bei der Analyse von Systemanforderungen und verbessert bestehende Systeme, um auf sich ändernde Geschäftsanforderungen zu reagieren."
+            "title": "System Development Solutions",
+            "description": "CHORN bietet flexible Systementwicklungslösungen durch Remote-, Hybrid- und Vor-Ort-Zusammenarbeit in Chiang Mai, Bangkok und internationalen Projekten. Die Arbeit umfasst die Erstellung von Proof of Concept (PoC)- und Minimum Viable Product (MVP)-Anwendungen, Systemanalysen und die Verbesserung bestehender Plattformen, um sich an dynamische Geschäfts- und Technologieanforderungen anzupassen."
         }
     ],
     stacks: [

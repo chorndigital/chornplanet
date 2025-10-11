@@ -1,25 +1,25 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutDA: IAbout = {
-    title: "Om",
-    span: "Omfattende systemanalyse og softwareudvikling",
-    subTitle: "Teknologisk innovation for forretningssucces",
-    description: [
+    "title": "Om",
+    "span": "Teknologisk innovation for forretningssucces",
+    "subTitle": "CHORN – CEO | CTO Consultant — Hjælper grundlæggere med at skalere teknologi, teams og strategi",
+    "description": [
         {
-            title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN startede i 2001 og har ekspertise inden for IT, software og hardware engineering til højvolumen elektronikproduktion, hardware-software-mekanisk design sammen med R&D engineering teams, med specialisering i manufacturing execution systems, industriel-grade udstyr, præcisionsinstrumenter, industrielle protokoller og custom hardware/software. Ledede projekter, der overvågede automatiseret produktionskapacitet på mere end 10 millioner enheder pr. måned, tværfunktionelt teamsamarbejde, med løbende forbedringer i systemeffektivitet, pålidelighed og produktkvalitet, samt customer relationship management (CRM), med fokus på kundetilfredshed og kommunikation."
+            "title": "Manufacturing Execution Systems (MES)",
+            "description": "CHORN begyndte i 2001, baseret på dyb ekspertise inden for IT, software og hardware engineering til elektronikproduktion i stor skala. Arbejdet omfattede integreret design af hardware, software og mekanik i samarbejde med R&D-ingeniørteams. Specialiserede områder omfatter Manufacturing Execution Systems (MES), industrigrad-udstyr, præcisionsinstrumenter, industrielle protokoller og skræddersyet hardware/software-integration. Projekter har opnået automatiseret produktionskapacitet på over 10 millioner enheder pr. måned med fokus på effektivitet, pålidelighed og produktkvalitet gennem løbende forbedringer og effektiv kundekommunikation."
         },
         {
-            title: "Digital Platformudvikling",
-            description: "Senere i 2012 begyndte CHORN at udvide sin ekspertise inden for softwareudvikling til digital platformudvikling og skabte skalerbare web- og mobil­løsninger bygget på moderne teknologier, frameworks og cloudsystemer for at imødekomme brugernes stigende behov. Arkitekturdesignet er skalerbart og understøtter slutbrugere, herunder projekter relateret til e-handel, ejendom, forhåndssalg, CRM, SAP ERP og S/4HANA til udvikling af virksomhedssystemer."
+            "title": "Digital Platform Development",
+            "description": "I 2012 udvidede CHORN til udvikling af digitale platforme med fokus på at skabe skalerbare web- og mobilapplikationer baseret på moderne frameworks og cloud-arkitekturer. Udviklingsarbejdet understøtter brugere på tværs af brancher såsom e-handel, ejendom, pre-sale, CRM og virksomhedssystemer som SAP ERP og S/4HANA. Hver løsning er designet med skalerbar arkitektur og fleksibilitet til at imødekomme skiftende forretningsbehov."
         },
         {
-            title: "AI-Power",
-            description: "Det digitale landskab ændrede sig dramatisk efter lanceringen af ChatGPT og OpenAI-platformen i slutningen af 2022. Siden marts 2023 har CHORN været pioner inden for AI-LLM og AI-agentudvikling og udnyttet AI til at forbedre effektiviteten af digitale platforme og accelerere softwareudviklingsydelsen."
+            "title": "AI-Powered Innovation",
+            "description": "Det digitale landskab ændrede sig markant efter introduktionen af ChatGPT og OpenAI-platformen i slutningen af 2022. Siden marts 2023 har CHORN fokuseret på AI-drevet udvikling ved at integrere Large Language Models (LLMs) og intelligente AI-agenter for at forbedre digitale platformes ydeevne. Denne tilgang fremskynder softwareudvikling, forbedrer effektivitet og introducerer nye niveauer af automatisering og intelligens i moderne digitale systemer."
         },
         {
-            title: "Placering og Arbejdsform",
-            description: "Udvikler software gennem fjernarbejde, hybrid og kontorarbejde i Chiang Mai, Bangkok og internationalt. Skaber proof of concept (PoC) applikationer, minimum levedygtige produkter (MVP), hjælper med at analysere systemkrav og forbedrer eksisterende systemer for at imødekomme skiftende forretningsbehov."
+            "title": "System Development Solutions",
+            "description": "CHORN leverer fleksible systemudviklingsløsninger gennem fjern-, hybrid- og on-site samarbejde i Chiang Mai, Bangkok og internationale projekter. Arbejdet omfatter udvikling af Proof of Concept (PoC) og Minimum Viable Product (MVP), systemanalyse og forbedring af eksisterende platforme for at tilpasse sig dynamiske forretnings- og teknologikrav."
         }
     ],
     stacks: [

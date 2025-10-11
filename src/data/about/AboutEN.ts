@@ -2,24 +2,24 @@ import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutEN: IAbout = {
     title: "About",
-    span: "Comprehensive System Analysis and Software Development",
-    subTitle: "Technology Innovation for Business Success",
+    span: "Technology Innovation for Business Success",
+    subTitle: "CHORN - CEO | CTO Consultant — Helping Founders Scale Technology, Teams, and Strategy",
     description: [
         {
             title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN started in 2001, has expertise in IT, software, and hardware engineering for high-volume electronics manufacturing, hardware-software-mechanical design together with R&D engineering teams, with a specialization in manufacturing execution systems, industrial-grade equipment, precision instruments, industrial protocols, and custom hardware/software. Led projects overseeing automated production capacity of more than 10 million units per month, cross-functional team collaboration, with continuous improvements in system efficiency, reliability, and product quality, as well as customer relationship management (CRM), focusing on customer satisfaction and communication."
+            description: "CHORN began in 2001, built on deep expertise in IT, software, and hardware engineering for high-volume electronics manufacturing. The work spanned end-to-end hardware, software, and mechanical design in collaboration with R&D engineering teams. Areas of specialization include manufacturing execution systems (MES), industrial-grade equipment, precision instruments, industrial protocols, and custom hardware/software integration. Projects achieved automated production capacities exceeding 10 million units per month, emphasizing efficiency, reliability, and product quality through continuous improvement and effective customer communication."
         },
         {
             title: "Digital Platform Development",
-            description: "Later in 2012, CHORN began expanding its software development expertise in digital platform development, creating scalable web and mobile solutions built on modern technologies, frameworks, and cloud systems to meet the growing needs of users. The architecture design is scalable and supports end users, including projects related to eCommerce, Real Estate, Pre-sale, CRM, SAP ERP, and S/4HANA for enterprise system development."
+            description: "In 2012, CHORN expanded into digital platform development, creating scalable web and mobile applications built on modern frameworks and cloud architectures. The development work supports users across diverse industries such as e-commerce, real estate, pre-sales, CRM, and enterprise systems including SAP ERP and S/4HANA. Each solution is designed with scalable architecture and adaptability to meet evolving business demands."
         },
         {
-            title: "AI-Power",
-            description: "The digital landscape shifted dramatically after the launch of ChatGPT and the OpenAI platform in late 2022. Since March 2023, CHORN has been pioneering AI-LLM and AI agent development, leveraging AI to enhance digital platform efficiency and accelerate software development performance."
+            title: "AI-Powered Innovation",
+            description: "The digital landscape changed significantly after the introduction of ChatGPT and the OpenAI platform in late 2022. Since March 2023, CHORN has focused on AI-driven development, integrating large language models (LLMs) and intelligent AI agents to enhance digital platform capabilities. This approach accelerates software development, improves efficiency, and introduces new levels of automation and intelligence for modern digital systems."
         },
         {
-            title: "Software Development Solutions",
-            description: "Develops software through remote, hybrid, and office work in Chiang Mai, Bangkok, and internationally. Creates proof of concept (PoC) applications, minimum viable products (MVP), helps analyze system requirements, and improves existing systems to respond to changing business needs."
+            title: "System Development Solutions",
+            description: "CHORN provides flexible system development solutions through remote, hybrid, and on-site collaboration in Chiang Mai, Bangkok, and international projects. The work includes creating Proof of Concept (PoC) and Minimum Viable Product (MVP) applications, performing system analysis, and improving existing platforms to align with dynamic business and technology requirements."
         }
     ],
     stacks: [

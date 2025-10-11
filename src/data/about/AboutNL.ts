@@ -1,25 +1,25 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutNL: IAbout = {
-    title: "Over",
-    span: "Uitgebreide systeemanalyse en softwareontwikkeling",
-    subTitle: "Technologische innovatie voor zakelijk succes",
-    description: [
+    "title": "Over",
+    "span": "Technologische innovatie voor zakelijk succes",
+    "subTitle": "CHORN – CEO | CTO Consultant — Helpt oprichters bij het opschalen van technologie, teams en strategie",
+    "description": [
         {
-            title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN, opgericht in 2001, heeft expertise in IT, software en hardware engineering voor grootschalige elektronica productie, hardware-software-mechanical design in samenwerking met R&D engineering teams, gespecialiseerd in manufacturing execution systems, industriële apparatuur, precisie-instrumenten, industriële protocollen en custom hardware/software. Leidde projecten met een geautomatiseerde productiecapaciteit van meer dan 10 miljoen eenheden per maand, cross-functionele team samenwerking, met continue verbeteringen in systeemefficiëntie, betrouwbaarheid en productkwaliteit, evenals customer relationship management (CRM), gericht op klanttevredenheid en communicatie."
+            "title": "Manufacturing Execution Systems (MES)",
+            "description": "CHORN begon in 2001 en is gebaseerd op diepgaande expertise in IT, software en hardware engineering voor grootschalige elektronica-productie. Het werk omvatte geïntegreerd ontwerp van hardware, software en mechanica in samenwerking met R&D-teams. Specialisatiegebieden zijn Manufacturing Execution Systems (MES), industriële apparatuur, precisie-instrumenten, industriële protocollen en maatwerk hardware/software-integratie. Projecten bereikten geautomatiseerde productiecijfers van meer dan 10 miljoen eenheden per maand, met focus op efficiëntie, betrouwbaarheid en productkwaliteit door continue verbetering en effectieve klantcommunicatie."
         },
         {
-            title: "Ontwikkeling van digitale platforms",
-            description: "Later in 2012 begon CHORN zijn expertise in softwareontwikkeling uit te breiden naar digitale platformontwikkeling en creëerde schaalbare web- en mobiele oplossingen gebouwd op moderne technologieën, frameworks en cloudsystemen om aan de groeiende behoeften van gebruikers te voldoen. Het architectuurontwerp is schaalbaar en ondersteunt eindgebruikers, waaronder projecten met betrekking tot e-commerce, vastgoed, presales, CRM, SAP ERP en S/4HANA voor de ontwikkeling van bedrijfssystemen."
+            "title": "Digital Platform Development",
+            "description": "In 2012 breidde CHORN uit naar digitale platformontwikkeling, met als doel schaalbare web- en mobiele applicaties te creëren op basis van moderne frameworks en cloudarchitecturen. De ontwikkeling ondersteunt gebruikers in diverse sectoren zoals e-commerce, vastgoed, pre-sale, CRM en enterprise-systemen zoals SAP ERP en S/4HANA. Elke oplossing is ontworpen met schaalbare architectuur en aanpasbaarheid om te voldoen aan veranderende zakelijke behoeften."
         },
         {
-            title: "AI-Power",
-            description: "Het digitale landschap veranderde ingrijpend na de lancering van ChatGPT en het OpenAI-platform eind 2022. Sinds maart 2023 loopt CHORN voorop in de ontwikkeling van AI-LLM’s en AI-agenten en benut het AI om de efficiëntie van digitale platforms te vergroten en de prestaties van softwareontwikkeling te versnellen."
+            "title": "AI-Powered Innovation",
+            "description": "Het digitale landschap veranderde aanzienlijk na de introductie van ChatGPT en het OpenAI-platform eind 2022. Sinds maart 2023 richt CHORN zich op AI-gedreven ontwikkeling door Large Language Models (LLMs) en intelligente AI-agents te integreren om de prestaties van digitale platforms te verbeteren. Deze aanpak versnelt softwareontwikkeling, verhoogt efficiëntie en introduceert nieuwe niveaus van automatisering en intelligentie in moderne digitale systemen."
         },
         {
-            title: "Locatie en Werkvorm",
-            description: "Ontwikkelt software via remote, hybride en kantoorwerk in Chiang Mai, Bangkok en internationaal. Creëert proof of concept (PoC) applicaties, minimaal levensvatbare producten (MVP), helpt bij het analyseren van systeemvereisten en verbetert bestaande systemen om te reageren op veranderende zakelijke behoeften."
+            "title": "System Development Solutions",
+            "description": "CHORN biedt flexibele systeemontwikkelingsoplossingen via remote, hybride en on-site samenwerking in Chiang Mai, Bangkok en internationale projecten. Werk omvat Proof of Concept (PoC) en Minimum Viable Product (MVP)-applicaties, systeemanalyses en verbeteringen van bestaande platforms om te voldoen aan dynamische zakelijke en technologische eisen."
         }
     ],
     stacks: [

@@ -1,25 +1,25 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutZH: IAbout = {
-    title: "关于",
-    span: "全面的系统分析和软件开发",
-    subTitle: "业务成功的技术创新",
-    description: [
+    "title": "关于",
+    "span": "推动业务成功的技术创新",
+    "subTitle": "CHORN – CEO | CTO Consultant — 帮助创始人扩展技术、团队和战略",
+    "description": [
         {
-            title: "制造执行系统 (MES)",
-            description: "CHORN成立于2001年，专注于IT、software和hardware engineering，在大规模电子制造、hardware-software-mechanical design以及与R&D engineering teams合作方面拥有丰富经验，专业领域包括manufacturing execution systems、工业级设备、精密仪器、工业协议以及custom hardware/software。主导项目监督每月超过一千万台的自动化生产能力，推动跨职能团队协作，不断提升系统效率、可靠性和产品质量，同时在customer relationship management (CRM)方面专注于客户满意度与沟通。"
+            "title": "Manufacturing Execution Systems (MES)",
+            "description": "CHORN始于2001年，基于在大规模电子制造领域的IT、软件和硬件工程深厚专业知识。工作涉及与研发团队合作进行硬件、软件和机械的集成设计。专业领域包括Manufacturing Execution Systems (MES)、工业设备、精密仪器、工业协议以及定制硬件/软件集成。项目实现了每月超过1000万台的自动化生产能力，强调通过持续改进和高效客户沟通提高效率、可靠性和产品质量。"
         },
         {
-            title: "数字平台开发",
-            description: "2012年后期，CHORN开始扩展其在数字平台开发方面的软件开发专业知识，基于现代技术、框架和云系统创建可扩展的网页和移动解决方案，以满足用户不断增长的需求。架构设计具有可扩展性，并支持终端用户，包括与电子商务、房地产、预售、CRM、SAP ERP 和 S/4HANA 相关的企业系统开发项目。"
+            "title": "Digital Platform Development",
+            "description": "2012年，CHORN拓展至数字平台开发，旨在基于现代框架和云架构构建可扩展的Web和移动应用。开发工作支持多个行业的用户，如电子商务、房地产、预售、CRM以及企业系统如SAP ERP和S/4HANA。每个解决方案均设计为具有可扩展架构和适应性，以满足不断变化的业务需求。"
         },
         {
-            title: "AI-Power",
-            description: "自 2022 年底 ChatGPT 和 OpenAI 平台发布以来，数字格局发生了巨大变化。自 2023 年 3 月起，CHORN 一直在引领 AI-LLM 和 AI 智能体的开发，利用人工智能提升数字平台的效率，并加速软件开发性能。"
+            "title": "AI-Powered Innovation",
+            "description": "自2022年底ChatGPT及OpenAI平台推出以来，数字化环境发生了显著变化。自2023年3月起，CHORN专注于AI驱动开发，整合Large Language Models (LLMs)及智能AI代理以增强数字平台功能。这种方法加速软件开发，提高效率，并为现代数字系统带来新的自动化和智能水平。"
         },
         {
-            title: "工作地点和形式",
-            description: "通过远程、混合和办公室工作在清迈、曼谷和国际上开发软件。创建概念验证（PoC）应用程序、最小可行产品（MVP），帮助分析系统需求，并改进现有系统以响应不断变化的业务需求。"
+            "title": "System Development Solutions",
+            "description": "CHORN通过远程、混合和现场协作在清迈、曼谷及国际项目中提供灵活的系统开发解决方案。工作内容包括创建概念验证（PoC）和最小可行产品（MVP）应用程序、系统分析及现有平台改进，以应对动态的业务和技术需求。"
         }
     ],
     stacks: [
