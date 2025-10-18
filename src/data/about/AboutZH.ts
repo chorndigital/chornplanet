@@ -6,6 +6,10 @@ export const AboutZH: IAbout = {
     "subTitle": "CHORN – CEO | CTO Consultant — 帮助创始人扩展技术、团队和战略",
     "description": [
         {
+            "title": "System Development Solutions",
+            "description": "CHORN通过远程、混合和现场协作在清迈、曼谷及国际项目中提供灵活的系统开发解决方案。工作内容包括创建概念验证（PoC）和最小可行产品（MVP）应用程序、系统分析及现有平台改进，以应对动态的业务和技术需求。"
+        },
+        {
             "title": "Manufacturing Execution Systems (MES)",
             "description": "CHORN始于2001年，基于在大规模电子制造领域的IT、软件和硬件工程深厚专业知识。工作涉及与研发团队合作进行硬件、软件和机械的集成设计。专业领域包括Manufacturing Execution Systems (MES)、工业设备、精密仪器、工业协议以及定制硬件/软件集成。项目实现了每月超过1000万台的自动化生产能力，强调通过持续改进和高效客户沟通提高效率、可靠性和产品质量。"
         },
@@ -16,10 +20,6 @@ export const AboutZH: IAbout = {
         {
             "title": "AI-Powered Innovation",
             "description": "自2022年底ChatGPT及OpenAI平台推出以来，数字化环境发生了显著变化。自2023年3月起，CHORN专注于AI驱动开发，整合Large Language Models (LLMs)及智能AI代理以增强数字平台功能。这种方法加速软件开发，提高效率，并为现代数字系统带来新的自动化和智能水平。"
-        },
-        {
-            "title": "System Development Solutions",
-            "description": "CHORN通过远程、混合和现场协作在清迈、曼谷及国际项目中提供灵活的系统开发解决方案。工作内容包括创建概念验证（PoC）和最小可行产品（MVP）应用程序、系统分析及现有平台改进，以应对动态的业务和技术需求。"
         }
     ],
     stacks: [

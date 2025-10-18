@@ -6,6 +6,10 @@ export const AboutFR: IAbout = {
     "subTitle": "CHORN – CEO | CTO Consultant — Aider les fondateurs à développer la technologie, les équipes et la stratégie",
     "description": [
         {
+            "title": "Solutions de développement système",
+            "description": "CHORN propose des solutions de développement système flexibles via des collaborations à distance, hybrides et sur site à Chiang Mai, Bangkok et sur des projets internationaux. Le travail comprend la création d’applications Proof of Concept (PoC) et Minimum Viable Product (MVP), l’analyse de systèmes et l’amélioration de plateformes existantes pour répondre aux exigences dynamiques des entreprises et des technologies."
+        },
+        {
             "title": "Manufacturing Execution Systems (MES)",
             "description": "CHORN a commencé en 2001 et repose sur une expertise approfondie en informatique, en ingénierie logicielle et matérielle pour la fabrication électronique à grand volume. Le travail impliquait la conception intégrée du matériel, du logiciel et de la mécanique en collaboration avec des équipes R&D. Les domaines d'expertise incluent les Manufacturing Execution Systems (MES), les équipements industriels, les instruments de précision, les protocoles industriels et l'intégration matérielle/logicielle sur mesure. Les projets ont atteint une capacité de production automatisée de plus de 10 millions d’unités par mois, avec un accent sur l’efficacité, la fiabilité et la qualité des produits grâce à l’amélioration continue et à une communication client efficace."
         },
@@ -16,10 +20,6 @@ export const AboutFR: IAbout = {
         {
             "title": "Innovation alimentée par l'IA",
             "description": "Le paysage numérique a considérablement évolué après le lancement de ChatGPT et de la plateforme OpenAI fin 2022. Depuis mars 2023, CHORN se concentre sur le développement piloté par l’IA, intégrant les Large Language Models (LLM) et des agents d’IA intelligents pour renforcer les capacités des plateformes numériques. Cette approche accélère le développement logiciel, améliore l’efficacité et introduit de nouveaux niveaux d’automatisation et d’intelligence dans les systèmes numériques modernes."
-        },
-        {
-            "title": "Solutions de développement système",
-            "description": "CHORN propose des solutions de développement système flexibles via des collaborations à distance, hybrides et sur site à Chiang Mai, Bangkok et sur des projets internationaux. Le travail comprend la création d’applications Proof of Concept (PoC) et Minimum Viable Product (MVP), l’analyse de systèmes et l’amélioration de plateformes existantes pour répondre aux exigences dynamiques des entreprises et des technologies."
         }
     ],
     stacks: [

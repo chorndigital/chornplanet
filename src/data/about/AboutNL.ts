@@ -6,6 +6,10 @@ export const AboutNL: IAbout = {
     "subTitle": "CHORN – CEO | CTO Consultant — Helpt oprichters bij het opschalen van technologie, teams en strategie",
     "description": [
         {
+            "title": "System Development Solutions",
+            "description": "CHORN biedt flexibele systeemontwikkelingsoplossingen via remote, hybride en on-site samenwerking in Chiang Mai, Bangkok en internationale projecten. Werk omvat Proof of Concept (PoC) en Minimum Viable Product (MVP)-applicaties, systeemanalyses en verbeteringen van bestaande platforms om te voldoen aan dynamische zakelijke en technologische eisen."
+        },
+        {
             "title": "Manufacturing Execution Systems (MES)",
             "description": "CHORN begon in 2001 en is gebaseerd op diepgaande expertise in IT, software en hardware engineering voor grootschalige elektronica-productie. Het werk omvatte geïntegreerd ontwerp van hardware, software en mechanica in samenwerking met R&D-teams. Specialisatiegebieden zijn Manufacturing Execution Systems (MES), industriële apparatuur, precisie-instrumenten, industriële protocollen en maatwerk hardware/software-integratie. Projecten bereikten geautomatiseerde productiecijfers van meer dan 10 miljoen eenheden per maand, met focus op efficiëntie, betrouwbaarheid en productkwaliteit door continue verbetering en effectieve klantcommunicatie."
         },
@@ -16,10 +20,6 @@ export const AboutNL: IAbout = {
         {
             "title": "AI-Powered Innovation",
             "description": "Het digitale landschap veranderde aanzienlijk na de introductie van ChatGPT en het OpenAI-platform eind 2022. Sinds maart 2023 richt CHORN zich op AI-gedreven ontwikkeling door Large Language Models (LLMs) en intelligente AI-agents te integreren om de prestaties van digitale platforms te verbeteren. Deze aanpak versnelt softwareontwikkeling, verhoogt efficiëntie en introduceert nieuwe niveaus van automatisering en intelligentie in moderne digitale systemen."
-        },
-        {
-            "title": "System Development Solutions",
-            "description": "CHORN biedt flexibele systeemontwikkelingsoplossingen via remote, hybride en on-site samenwerking in Chiang Mai, Bangkok en internationale projecten. Werk omvat Proof of Concept (PoC) en Minimum Viable Product (MVP)-applicaties, systeemanalyses en verbeteringen van bestaande platforms om te voldoen aan dynamische zakelijke en technologische eisen."
         }
     ],
     stacks: [

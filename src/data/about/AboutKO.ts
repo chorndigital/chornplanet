@@ -6,6 +6,10 @@ export const AboutKO: IAbout = {
     "subTitle": "CHORN – CEO | CTO Consultant — 창업자가 기술, 팀, 전략을 확장하도록 지원",
     "description": [
         {
+            "title": "System Development Solutions",
+            "description": "CHORN은 치앙마이, 방콕 및 국제 프로젝트에서 원격, 하이브리드 및 현장 협업을 통한 유연한 시스템 개발 솔루션을 제공합니다. 작업에는 Proof of Concept (PoC) 및 Minimum Viable Product (MVP) 애플리케이션 개발, 시스템 분석, 기존 플랫폼 개선이 포함되며, 변화하는 비즈니스 및 기술 요구 사항에 대응합니다."
+        },
+        {
             "title": "Manufacturing Execution Systems (MES)",
             "description": "CHORN은 2001년에 시작되었으며, 대규모 전자 제조를 위한 IT, 소프트웨어 및 하드웨어 엔지니어링 분야에서 깊은 전문성을 기반으로 합니다. 연구 개발(R&D) 팀과 협력하여 하드웨어, 소프트웨어, 기계 설계를 통합적으로 수행하였습니다. 전문 분야에는 Manufacturing Execution Systems (MES), 산업 장비, 정밀 기기, 산업 프로토콜, 맞춤형 하드웨어/소프트웨어 통합이 포함됩니다. 프로젝트는 월 1,000만 개 이상의 자동화 생산 능력을 달성했으며, 효율성, 신뢰성 및 제품 품질 향상에 중점을 두고 지속적인 개선과 효과적인 고객 커뮤니케이션을 수행하였습니다."
         },
@@ -16,10 +20,6 @@ export const AboutKO: IAbout = {
         {
             "title": "AI-Powered Innovation",
             "description": "디지털 환경은 2022년 말 ChatGPT 및 OpenAI 플랫폼 출범 이후 크게 변화했습니다. 2023년 3월 이후, CHORN은 AI 기반 개발에 집중하여 Large Language Models (LLMs) 및 지능형 AI 에이전트를 통합하여 디지털 플랫폼 성능을 향상시키고 있습니다. 이 접근 방식은 소프트웨어 개발 속도를 높이고 효율성을 개선하며 현대 디지털 시스템에 새로운 수준의 자동화와 지능을 제공합니다."
-        },
-        {
-            "title": "System Development Solutions",
-            "description": "CHORN은 치앙마이, 방콕 및 국제 프로젝트에서 원격, 하이브리드 및 현장 협업을 통한 유연한 시스템 개발 솔루션을 제공합니다. 작업에는 Proof of Concept (PoC) 및 Minimum Viable Product (MVP) 애플리케이션 개발, 시스템 분석, 기존 플랫폼 개선이 포함되며, 변화하는 비즈니스 및 기술 요구 사항에 대응합니다."
         }
     ],
     stacks: [
