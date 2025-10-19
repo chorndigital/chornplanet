@@ -6,8 +6,12 @@ export const AboutZH: IAbout = {
     "subTitle": "CHORN – CEO | CTO Consultant — 帮助创始人扩展技术、团队和战略",
     "description": [
         {
-            "title": "System Development Solutions",
-            "description": "CHORN通过远程、混合和现场协作在清迈、曼谷及国际项目中提供灵活的系统开发解决方案。工作内容包括创建概念验证（PoC）和最小可行产品（MVP）应用程序、系统分析及现有平台改进，以应对动态的业务和技术需求。"
+            "title": "系统开发解决方案 (System Development Solutions)",
+            "description": "CHORN 通过在清迈和曼谷的远程(Remote)、混合(Hybrid)以及现场(On-site)协作，提供灵活的系统开发解决方案。工作内容包括创建 Proof of Concept (PoC) 和 Minimum Viable Product (MVP) 应用程序，执行系统分析(System Analysis)，并改进现有平台以满足不断变化的业务和技术需求。"
+        },
+        {
+            "title": "当前重点：AI 驱动的创新 (AI-Powered Innovation)",
+            "description": "目前，CHORN 专注于 AI 驱动的开发(AI-Driven Development)，通过整合 Large Language Models (LLMs) 和智能 AI Agents 来增强数字平台的能力。这种方法加速了软件开发，提高了效率，并引入了新的自动化和智能化水平——反映了自 2022 年底 OpenAI 平台推出以来数字领域的重大变革。"
         },
         {
             "title": "Manufacturing Execution Systems (MES)",
@@ -16,10 +20,6 @@ export const AboutZH: IAbout = {
         {
             "title": "Digital Platform Development",
             "description": "2012年，CHORN拓展至数字平台开发，旨在基于现代框架和云架构构建可扩展的Web和移动应用。开发工作支持多个行业的用户，如电子商务、房地产、预售、CRM以及企业系统如SAP ERP和S/4HANA。每个解决方案均设计为具有可扩展架构和适应性，以满足不断变化的业务需求。"
-        },
-        {
-            "title": "AI-Powered Innovation",
-            "description": "自2022年底ChatGPT及OpenAI平台推出以来，数字化环境发生了显著变化。自2023年3月起，CHORN专注于AI驱动开发，整合Large Language Models (LLMs)及智能AI代理以增强数字平台功能。这种方法加速软件开发，提高效率，并为现代数字系统带来新的自动化和智能水平。"
         }
     ],
     stacks: [

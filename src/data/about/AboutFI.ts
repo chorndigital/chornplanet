@@ -6,8 +6,12 @@ export const AboutFI: IAbout = {
     "subTitle": "CHORN – CEO | CTO Consultant — Auttaa perustajia skaalaamaan teknologiaa, tiimejä ja strategiaa",
     "description": [
         {
-            "title": "System Development Solutions",
-            "description": "CHORN tarjoaa joustavia järjestelmäkehitysratkaisuja etä-, hybridi- ja paikan päällä tapahtuvan yhteistyön kautta Chiang Maissa, Bangkokissa ja kansainvälisissä projekteissa. Työ sisältää Proof of Concept (PoC) ja Minimum Viable Product (MVP) -sovellusten luomisen, järjestelmäanalyysin ja olemassa olevien alustojen kehittämisen vastaamaan dynaamisia liiketoiminta- ja teknologisia tarpeita."
+            "title": "Järjestelmäkehitysratkaisut (System Development Solutions)",
+            "description": "CHORN tarjoaa joustavia järjestelmäkehitysratkaisuja etä-, hybridi- ja on-site-yhteistyön kautta Chiang Maissa ja Bangkokissa. Työ sisältää Proof of Concept (PoC) ja Minimum Viable Product (MVP) sovellusten kehittämistä, järjestelmäanalyysin suorittamista ja olemassa olevien alustojen parantamista vastaamaan kehittyviä liiketoiminta- ja teknologisia tarpeita."
+        },
+        {
+            "title": "Nykyinen painopiste: tekoälyn ohjaama innovaatio (AI-Powered Innovation)",
+            "description": "Nykyään CHORN keskittyy tekoälypohjaiseen kehitykseen, jossa yhdistetään Large Language Models (LLMs) ja älykkäät AI-agentit digitaalisten alustojen kyvykkyyden vahvistamiseksi. Tämä lähestymistapa nopeuttaa ohjelmistokehitystä, parantaa tehokkuutta ja tuo uusia tasoja automaatioon ja älykkyyteen — heijastaen suurta muutosta digitaalisessa maisemassa OpenAI-alustan julkaisun jälkeen vuoden 2022 lopussa."
         },
         {
             "title": "Manufacturing Execution Systems (MES)",
@@ -16,10 +20,6 @@ export const AboutFI: IAbout = {
         {
             "title": "Digital Platform Development",
             "description": "Vuonna 2012 CHORN laajensi toimintaansa digitaalisten alustojen kehittämiseen, tavoitteena rakentaa skaalautuvia web- ja mobiilisovelluksia nykyaikaisten kehysten ja pilviarkkitehtuurien avulla. Kehitystyö tukee käyttäjiä eri toimialoilla, kuten verkkokaupassa, kiinteistöissä, myynnin esivaiheissa, CRM:ssä sekä yritysjärjestelmissä, kuten SAP ERP ja S/4HANA. Jokainen ratkaisu suunnitellaan skaalautuvalla arkkitehtuurilla ja mukautuvuudella liiketoiminnan muuttuviin tarpeisiin."
-        },
-        {
-            "title": "AI-Powered Innovation",
-            "description": "Digitaalinen maisema muuttui merkittävästi ChatGPT:n ja OpenAI-alustan käyttöönoton jälkeen vuoden 2022 lopussa. Maaliskuusta 2023 lähtien CHORN on keskittynyt tekoälypohjaiseen kehitykseen, integroimalla Large Language Models (LLM) ja älykkäät AI-agentit parantaakseen digitaalisten alustojen suorituskykyä. Tämä lähestymistapa nopeuttaa ohjelmistokehitystä, lisää tehokkuutta ja tuo automaation ja älykkyyden uudelle tasolle moderneissa digitaalisissa järjestelmissä."
         }
     ],
     stacks: [

@@ -6,8 +6,12 @@ export const AboutNL: IAbout = {
     "subTitle": "CHORN – CEO | CTO Consultant — Helpt oprichters bij het opschalen van technologie, teams en strategie",
     "description": [
         {
-            "title": "System Development Solutions",
-            "description": "CHORN biedt flexibele systeemontwikkelingsoplossingen via remote, hybride en on-site samenwerking in Chiang Mai, Bangkok en internationale projecten. Werk omvat Proof of Concept (PoC) en Minimum Viable Product (MVP)-applicaties, systeemanalyses en verbeteringen van bestaande platforms om te voldoen aan dynamische zakelijke en technologische eisen."
+            "title": "Systeemontwikkelingsoplossingen (System Development Solutions)",
+            "description": "CHORN levert flexibele systeemontwikkelingsoplossingen via samenwerking op afstand (Remote), hybride en on-site in Chiang Mai en Bangkok. Het werk omvat het creëren van Proof of Concept (PoC) en Minimum Viable Product (MVP) applicaties, het uitvoeren van systeemanalyses en het verbeteren van bestaande platforms om aan de evoluerende zakelijke en technologische vereisten te voldoen."
+        },
+        {
+            "title": "Huidige focus: AI-gedreven innovatie (AI-Powered Innovation)",
+            "description": "Tegenwoordig richt CHORN zich op AI-gedreven ontwikkeling, waarbij Large Language Models (LLMs) en intelligente AI-agents worden geïntegreerd om de mogelijkheden van digitale platforms te versterken. Deze aanpak versnelt softwareontwikkeling, verbetert de efficiëntie en introduceert nieuwe niveaus van automatisering en intelligentie — wat de grote verschuiving in het digitale landschap weerspiegelt na de lancering van het OpenAI-platform eind 2022."
         },
         {
             "title": "Manufacturing Execution Systems (MES)",
@@ -16,10 +20,6 @@ export const AboutNL: IAbout = {
         {
             "title": "Digital Platform Development",
             "description": "In 2012 breidde CHORN uit naar digitale platformontwikkeling, met als doel schaalbare web- en mobiele applicaties te creëren op basis van moderne frameworks en cloudarchitecturen. De ontwikkeling ondersteunt gebruikers in diverse sectoren zoals e-commerce, vastgoed, pre-sale, CRM en enterprise-systemen zoals SAP ERP en S/4HANA. Elke oplossing is ontworpen met schaalbare architectuur en aanpasbaarheid om te voldoen aan veranderende zakelijke behoeften."
-        },
-        {
-            "title": "AI-Powered Innovation",
-            "description": "Het digitale landschap veranderde aanzienlijk na de introductie van ChatGPT en het OpenAI-platform eind 2022. Sinds maart 2023 richt CHORN zich op AI-gedreven ontwikkeling door Large Language Models (LLMs) en intelligente AI-agents te integreren om de prestaties van digitale platforms te verbeteren. Deze aanpak versnelt softwareontwikkeling, verhoogt efficiëntie en introduceert nieuwe niveaus van automatisering en intelligentie in moderne digitale systemen."
         }
     ],
     stacks: [

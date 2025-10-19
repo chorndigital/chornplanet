@@ -6,8 +6,12 @@ export const AboutEN: IAbout = {
     subTitle: "CHORN - CEO | CTO Consultant — Helping Founders Scale Technology, Teams, and Strategy",
     description: [
         {
-            title: "System Development Solutions",
-            description: "CHORN provides flexible system development solutions through remote, hybrid, and on-site collaboration in Chiang Mai, Bangkok, and international projects. The work includes creating Proof of Concept (PoC) and Minimum Viable Product (MVP) applications, performing system analysis, and improving existing platforms to align with dynamic business and technology requirements."
+            "title": "System Development Solutions",
+            "description": "CHORN delivers flexible system development solutions through remote, hybrid, and on-site collaboration in Chiang Mai and Bangkok. The work includes creating Proof of Concept (PoC) and Minimum Viable Product (MVP) applications, conducting system analysis, and enhancing existing platforms to align with evolving business and technology requirements."
+        },
+        {
+            "title": "Today, Focus on AI-Powered Innovation",
+            "description": "Today, CHORN focuses on AI-driven development, integrating Large Language Models (LLMs) and intelligent AI agents to strengthen digital platform capabilities. This direction accelerates software development, enhances efficiency, and introduces new levels of automation and intelligence—reflecting the major shift in the digital landscape following the launch of the OpenAI platform in late 2022."
         },
         {
             title: "Manufacturing Execution Systems (MES)",
@@ -16,10 +20,6 @@ export const AboutEN: IAbout = {
         {
             title: "Digital Platform Development",
             description: "In 2012, CHORN expanded into digital platform development, creating scalable web and mobile applications built on modern frameworks and cloud architectures. The development work supports users across diverse industries such as e-commerce, real estate, pre-sales, CRM, and enterprise systems including SAP ERP and S/4HANA. Each solution is designed with scalable architecture and adaptability to meet evolving business demands."
-        },
-        {
-            title: "AI-Powered Innovation",
-            description: "The digital landscape changed significantly after the introduction of ChatGPT and the OpenAI platform in late 2022. Since March 2023, CHORN has focused on AI-driven development, integrating large language models (LLMs) and intelligent AI agents to enhance digital platform capabilities. This approach accelerates software development, improves efficiency, and introduces new levels of automation and intelligence for modern digital systems."
         }
     ],
     stacks: [

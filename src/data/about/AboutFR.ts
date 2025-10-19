@@ -6,8 +6,12 @@ export const AboutFR: IAbout = {
     "subTitle": "CHORN – CEO | CTO Consultant — Aider les fondateurs à développer la technologie, les équipes et la stratégie",
     "description": [
         {
-            "title": "Solutions de développement système",
-            "description": "CHORN propose des solutions de développement système flexibles via des collaborations à distance, hybrides et sur site à Chiang Mai, Bangkok et sur des projets internationaux. Le travail comprend la création d’applications Proof of Concept (PoC) et Minimum Viable Product (MVP), l’analyse de systèmes et l’amélioration de plateformes existantes pour répondre aux exigences dynamiques des entreprises et des technologies."
+            "title": "Solutions de développement de systèmes (System Development Solutions)",
+            "description": "CHORN propose des solutions de développement de systèmes flexibles grâce à une collaboration à distance, hybride et sur site à Chiang Mai et à Bangkok. Le travail comprend la création d'applications Proof of Concept (PoC) et Minimum Viable Product (MVP), la réalisation d'analyses de systèmes et l'amélioration des plateformes existantes afin de répondre aux besoins commerciaux et technologiques en constante évolution."
+        },
+        {
+            "title": "Focus actuel : innovation alimentée par l’IA (AI-Powered Innovation)",
+            "description": "Aujourd’hui, CHORN se concentre sur le développement piloté par l’IA, en intégrant les Large Language Models (LLMs) et des agents d’IA intelligents pour renforcer les capacités des plateformes numériques. Cette approche accélère le développement logiciel, améliore l’efficacité et introduit de nouveaux niveaux d’automatisation et d’intelligence — reflétant le changement majeur du paysage numérique après le lancement de la plateforme OpenAI fin 2022."
         },
         {
             "title": "Manufacturing Execution Systems (MES)",
@@ -16,10 +20,6 @@ export const AboutFR: IAbout = {
         {
             "title": "Développement de plateformes numériques",
             "description": "En 2012, CHORN a élargi ses activités au développement de plateformes numériques, visant à créer des applications Web et mobiles évolutives basées sur des frameworks modernes et des architectures cloud. Le développement soutient les utilisateurs dans divers secteurs tels que le commerce électronique, l’immobilier, la prévente, le CRM et les systèmes d’entreprise comme SAP ERP et S/4HANA. Chaque solution est conçue avec une architecture évolutive et une adaptabilité pour s'ajuster aux besoins commerciaux changeants."
-        },
-        {
-            "title": "Innovation alimentée par l'IA",
-            "description": "Le paysage numérique a considérablement évolué après le lancement de ChatGPT et de la plateforme OpenAI fin 2022. Depuis mars 2023, CHORN se concentre sur le développement piloté par l’IA, intégrant les Large Language Models (LLM) et des agents d’IA intelligents pour renforcer les capacités des plateformes numériques. Cette approche accélère le développement logiciel, améliore l’efficacité et introduit de nouveaux niveaux d’automatisation et d’intelligence dans les systèmes numériques modernes."
         }
     ],
     stacks: [

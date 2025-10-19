@@ -6,8 +6,12 @@ export const AboutKO: IAbout = {
     "subTitle": "CHORN – CEO | CTO Consultant — 창업자가 기술, 팀, 전략을 확장하도록 지원",
     "description": [
         {
-            "title": "System Development Solutions",
-            "description": "CHORN은 치앙마이, 방콕 및 국제 프로젝트에서 원격, 하이브리드 및 현장 협업을 통한 유연한 시스템 개발 솔루션을 제공합니다. 작업에는 Proof of Concept (PoC) 및 Minimum Viable Product (MVP) 애플리케이션 개발, 시스템 분석, 기존 플랫폼 개선이 포함되며, 변화하는 비즈니스 및 기술 요구 사항에 대응합니다."
+            "title": "시스템 개발 솔루션 (System Development Solutions)",
+            "description": "CHORN은 치앙마이와 방콕에서 원격(Remote), 하이브리드(Hybrid), 온사이트(On-site) 협업을 통해 유연한 시스템 개발 솔루션을 제공합니다. 주요 업무에는 Proof of Concept (PoC) 및 Minimum Viable Product (MVP) 애플리케이션 개발, 시스템 분석(System Analysis) 수행, 그리고 기존 플랫폼을 개선하여 변화하는 비즈니스 및 기술 요구 사항에 부합하도록 하는 것이 포함됩니다."
+        },
+        {
+            "title": "현재 중점: AI 기반 혁신 (AI-Powered Innovation)",
+            "description": "현재 CHORN은 AI 기반 개발(AI-Driven Development)에 집중하고 있으며, Large Language Models (LLMs)와 지능형 AI 에이전트를 통합하여 디지털 플랫폼의 역량을 강화하고 있습니다. 이 접근 방식은 소프트웨어 개발 속도를 높이고 효율성을 향상시키며, 자동화와 지능의 새로운 수준을 도입합니다 — 이는 2022년 말 OpenAI 플랫폼 출시 이후 디지털 환경의 주요 변화를 반영한 것입니다."
         },
         {
             "title": "Manufacturing Execution Systems (MES)",
@@ -16,10 +20,6 @@ export const AboutKO: IAbout = {
         {
             "title": "Digital Platform Development",
             "description": "2012년 CHORN은 디지털 플랫폼 개발로 확장하여 최신 프레임워크와 클라우드 아키텍처를 기반으로 확장 가능한 웹 및 모바일 애플리케이션을 구축했습니다. 개발 작업은 전자 상거래, 부동산, 프리세일, CRM 및 SAP ERP와 S/4HANA 같은 엔터프라이즈 시스템을 포함한 다양한 산업 분야의 사용자 지원을 목표로 합니다. 모든 솔루션은 확장 가능한 아키텍처와 변화하는 비즈니스 요구에 맞춘 적응성을 갖도록 설계되었습니다."
-        },
-        {
-            "title": "AI-Powered Innovation",
-            "description": "디지털 환경은 2022년 말 ChatGPT 및 OpenAI 플랫폼 출범 이후 크게 변화했습니다. 2023년 3월 이후, CHORN은 AI 기반 개발에 집중하여 Large Language Models (LLMs) 및 지능형 AI 에이전트를 통합하여 디지털 플랫폼 성능을 향상시키고 있습니다. 이 접근 방식은 소프트웨어 개발 속도를 높이고 효율성을 개선하며 현대 디지털 시스템에 새로운 수준의 자동화와 지능을 제공합니다."
         }
     ],
     stacks: [
