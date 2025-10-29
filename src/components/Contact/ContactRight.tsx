@@ -55,20 +55,6 @@ export default function ContactRight({lang}: { lang: string }) {
                                     }
 
                                     {
-                                        item.mobilePhone &&
-                                        <div className="item">
-                                            <div className="icon-container">
-                                                <div className="icon">
-                                                    <FaWhatsapp/>
-                                                </div>
-                                            </div>
-                                            <div className="label">
-                                                {item.mobilePhone}
-                                            </div>
-                                        </div>
-                                    }
-
-                                    {
                                         item.locations &&
                                         <div className="item">
                                             <div className="icon-container">
