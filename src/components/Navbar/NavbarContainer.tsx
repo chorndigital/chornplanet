@@ -16,8 +16,8 @@ export default function NavbarContainer({lang}: { lang: string }) {
                             <Image
                                 src={ImageUrl.logo.rec.md.path}
                                 alt={ImageUrl.logo.rec.md.title}
-                                width={500}
-                                height={250}
+                                width={200}
+                                height={100}
                             />
                         </Link>
 
