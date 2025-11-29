@@ -106,7 +106,7 @@ export const ServicePackagesFI: IServicePackages = {
         plans: [
             {
                 name: "Premium-innovaatiopaketti",
-                price: "USD 6,900 / month",
+                price: "USD 5,900 / month",
                 schedule: "Ma–Pe, 8:30–17:30 (Kokoaikainen, omistautunut)",
                 highlight: "Omistautunut tuki ei-blockchain-projekteille – ihanteellinen MVP:ille, järjestelmäpäivityksille ja skaalautuville ratkaisuille.",
                 features: [
@@ -119,7 +119,7 @@ export const ServicePackagesFI: IServicePackages = {
             },
             {
                 name: "Web3-ydinpaketti",
-                price: "USD 6,900 / month",
+                price: "USD 5,900 / month",
                 schedule: "Ma–Pe, 8:30–17:30 (Kokoaikainen, omistautunut)",
                 highlight: "Täysi blockchain-kehitys Web3-integraatiolla, mukaan lukien tokenomics ja älysopimukset.",
                 features: [

@@ -106,7 +106,7 @@ export const ServicePackagesDE: IServicePackages = {
         plans: [
             {
                 name: "Premium-Innovationsplan",
-                price: "USD 6,900 / Monat",
+                price: "USD 5,900 / Monat",
                 schedule: "Mo–Fr, 8:30–17:30 (Vollzeit, dediziert oder dauerhaft)",
                 highlight: "Exklusiver Vollzeitsupport für Nicht-Blockchain-Projekte, einschließlich MVPs, System-Upgrades und Skalierung.",
                 features: [
@@ -119,7 +119,7 @@ export const ServicePackagesDE: IServicePackages = {
             },
             {
                 name: "Web3-Kernplan",
-                price: "USD 6,900 / Monat",
+                price: "USD 5,900 / Monat",
                 schedule: "Mo–Fr, 8:30–17:30 (Vollzeit, dediziert oder dauerhaft)",
                 highlight: "End-to-End Blockchain-Entwicklung mit vollständiger Web3-Integration, einschließlich Tokenomics und Smart Contracts.",
                 features: [
