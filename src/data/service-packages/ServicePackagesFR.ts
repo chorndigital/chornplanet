@@ -129,19 +129,6 @@ export const ServicePackagesFR: IServicePackages = {
                     "Fonctionnalités tokens : airdrops, préventes, systèmes de récompense"
                 ],
                 link: "service-packages/"
-            },
-            {
-                name: "Plan d’Évolution NFT",
-                price: "USD 6,900 / month",
-                schedule: "Lun–Ven, 8h30–17h30 (Temps plein, dédié)",
-                highlight: "Développement NFT moderne et modernisation des smart contracts existants.",
-                features: [
-                    "Création et refonte de projets NFT modernes",
-                    "Smart contracts en Solidity",
-                    "Intégration avec Next.js, React, Node.js",
-                    "Support des standards ERC721, ERC1155 et des marketplaces"
-                ],
-                link: "service-packages/"
             }
         ]
     },

@@ -129,19 +129,6 @@ export const ServicePackagesZH: IServicePackages = {
                     "Token 机制设计：空投、预售、奖励系统"
                 ],
                 link: "service-packages/"
-            },
-            {
-                name: "NFT演进计划",
-                price: "USD 6,900 / month",
-                schedule: "周一至周五，8:30–17:30（全职专属支持）",
-                highlight: "专注于 NFT 相关开发，包括新项目构建与旧合约的现代化升级。",
-                features: [
-                    "现代 NFT 应用开发及旧版合约升级",
-                    "基于 Solidity 的智能合约创建或重构",
-                    "支持主流前端/后端框架集成：Next.js、React、Node.js",
-                    "支持 NFT 标准（ERC721、ERC1155）及主流市场"
-                ],
-                link: "service-packages/"
             }
         ]
     },

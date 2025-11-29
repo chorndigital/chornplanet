@@ -129,19 +129,6 @@ export const ServicePackagesFI: IServicePackages = {
                     "Token-mekaniikat: airdropit, ennakkomyynnit, palkkiojärjestelmät"
                 ],
                 link: "service-packages/"
-            },
-            {
-                name: "NFT-kehityspaketti",
-                price: "USD 6,900 / month",
-                schedule: "Ma–Pe, 8:30–17:30 (Kokoaikainen, omistautunut)",
-                highlight: "NFT-kehitykseen keskittynyt ratkaisu – sekä uusien että legacy-sopimusten modernisointi.",
-                features: [
-                    "Moderni NFT-kehitys ja olemassa olevien älysopimusten uudistus",
-                    "Solidity-pohjaiset älysopimukset",
-                    "Next.js, React, Node.js -integraatio",
-                    "Tuki ERC721-, ERC1155-standardeille ja markkinapaikoille"
-                ],
-                link: "service-packages/"
             }
         ]
     }

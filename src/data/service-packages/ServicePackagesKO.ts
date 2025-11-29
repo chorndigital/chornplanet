@@ -129,19 +129,6 @@ export const ServicePackagesKO: IServicePackages = {
                     "에어드롭, 프리세일, 보상 시스템 등 토큰 메커니즘"
                 ],
                 link: "service-packages/"
-            },
-            {
-                name: "NFT 진화 플랜",
-                price: "USD 6,900 / month",
-                schedule: "월–금, 오전 8:30 – 오후 5:30 (전담 풀타임)",
-                highlight: "최신 NFT 개발 및 레거시 계약 현대화를 위한 전담 개발 서비스.",
-                features: [
-                    "최신 NFT 개발 및 기존 NFT 스마트 계약 개선",
-                    "Solidity 기반 스마트 계약 설계 및 재구성",
-                    "Next.js, React, Node.js 등 주요 프레임워크 통합",
-                    "ERC721, ERC1155 등 NFT 표준 및 마켓플레이스 지원"
-                ],
-                link: "service-packages/"
             }
         ]
     },

@@ -129,19 +129,6 @@ export const ServicePackagesJA: IServicePackages = {
                     "エアドロップ、プレセール、報酬設計などのトークンメカニズム"
                 ],
                 link: "service-packages/"
-            },
-            {
-                name: "NFT進化プラン",
-                price: "USD 6,900 / month",
-                schedule: "月〜金, 8:30〜17:30（フルタイム・専任）",
-                highlight: "最新のNFT開発と既存スマートコントラクトの近代化にフォーカスした専門的支援。",
-                features: [
-                    "モダンなNFT開発とレガシーNFT契約のアップグレード",
-                    "Solidityベースのスマートコントラクト開発・改修",
-                    "Next.js、React、Node.jsとの統合サポート",
-                    "ERC721、ERC1155などの標準規格と主要マーケットプレイスに対応"
-                ],
-                link: "service-packages/"
             }
         ]
     },

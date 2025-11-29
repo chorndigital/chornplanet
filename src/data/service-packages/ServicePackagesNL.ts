@@ -129,19 +129,6 @@ export const ServicePackagesNL: IServicePackages = {
                     "Tokenmechanismen zoals airdrops, presales en reward systems"
                 ],
                 link: "service-packages/"
-            },
-            {
-                name: "NFT Evolutieplan",
-                price: "USD 6,900 / month",
-                schedule: "Ma–Vr, 8:30–17:30 (Fulltime, toegewijd)",
-                highlight: "Gespecialiseerde NFT-ontwikkeling en modernisering van bestaande contracten.",
-                features: [
-                    "Moderne NFT-oplossingen en upgrades van legacy contracten",
-                    "Ontwikkeling of refactoring van Solidity-gebaseerde smart contracts",
-                    "Integratie met frontend/backend frameworks: Next.js, React, Node.js",
-                    "Ondersteuning voor NFT-standaarden (ERC721, ERC1155) en marktplaatsen"
-                ],
-                link: "service-packages/"
             }
         ]
     },

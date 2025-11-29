@@ -128,19 +128,6 @@ export const ServicePackagesDA: IServicePackages = {
                     "Token-mekanik som airdrops, presales og belønningssystemer"
                 ],
                 link: "service-packages/"
-            },
-            {
-                name: "NFT Evolutionsplan",
-                price: "USD 6,900 / month",
-                schedule: "Man–Fre, 8:30–17:30 (Fuldtid, dedikeret)",
-                highlight: "Specialiseret i NFT-løsninger – både nye produkter og modernisering af eksisterende smart contracts.",
-                features: [
-                    "NFT-udvikling og opdatering af eksisterende kontrakter",
-                    "Smart contract-udvikling med Solidity",
-                    "Integration med Next.js, React, Node.js m.m.",
-                    "Support for ERC721, ERC1155 og markedsplads-integration"
-                ],
-                link: "service-packages/"
             }
         ]
     },
