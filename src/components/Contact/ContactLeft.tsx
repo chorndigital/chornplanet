@@ -4,7 +4,7 @@ import BottomImageLeft from "@/components/About/BottomImage/BottomImageLeft";
 
 export default function ContactLeft({lang}: { lang: string }) {
     return (
-        <div className="col-lg-4">
+        <div className="col-lg-4 contact-col-left">
 
             <div className="about-image-warp contact-map-wrapper">
                 <iframe

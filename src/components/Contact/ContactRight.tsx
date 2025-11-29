@@ -16,7 +16,7 @@ import {Contact2025} from "@/data/contact/Contact2025";
 
 export default function ContactRight({lang}: { lang: string }) {
     return (
-        <div className="col-lg-8">
+        <div className="col-lg-8 contact-col-right">
             <div className="about-content about-contact">
 
                 <div className="roles">

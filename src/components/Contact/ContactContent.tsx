@@ -16,6 +16,7 @@ export default function ContactContent({lang}: { lang: string }) {
                         <ContactRight lang={lang}/>
                     </div>
                 </div>
+
                 <ContactGalleryBottom/>
             </div>
 

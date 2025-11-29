@@ -813,6 +813,22 @@
   }
 }
 
+.contact-col-left {
+  width: 100%;
+
+  @media (min-width: 1360px) {
+    width: 65%;
+  }
+}
+
+.contact-col-right {
+  width: 100%;
+
+  @media (min-width: 1360px) {
+    width: 35%;
+  }
+}
+
 // Framework List Sidebar
 .framework-list {
   display: block;
