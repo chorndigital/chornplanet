@@ -51,11 +51,6 @@ export const AboutDA: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "Generelle henvendelser",
-                span: "(Strategiske partnerskaber)",
-                mobilePhone: "WhatsApp: +66 (64) 918 1998"
-            },
-            {
                 title: "Nærliggende steder",
                 span: "",
                 nearbyShopping: "Central Festival Chiang Mai - 20 minutter",

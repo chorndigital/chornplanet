@@ -51,11 +51,6 @@ export const AboutDE: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "Allgemeine Anfragen",
-                span: "(Strategische Kooperationen)",
-                mobilePhone: "WhatsApp: +66 (64) 918 1998"
-            },
-            {
                 title: "Orte in der Nähe",
                 span: "",
                 nearbyShopping: "Central Festival Chiang Mai - 20 Minuten",

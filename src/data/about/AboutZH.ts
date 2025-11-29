@@ -51,11 +51,6 @@ export const AboutZH: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "一般咨询",
-                span: "（战略合作）",
-                mobilePhone: "WhatsApp: +66 (64) 918 1998",
-            },
-            {
                 title: "附近地点",
                 span: "",
                 nearbyShopping: "清迈中央百货节 - 20分钟",

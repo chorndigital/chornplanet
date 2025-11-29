@@ -22,19 +22,26 @@ export const FooterTH: IFooter = {
     },
     socialLinks: [
         {
-            label: "GitHub",
-            link: "https://github.com/chorn-digital",
-            icon: "bx bxl-github hover-rotate",
-            iconClass: "facebook",
-            ariaLabel: "ติดตามเราบน GitHub"
-        },
-        {
             label: "LinkedIn",
             link: "https://www.linkedin.com/company/chorn",
             icon: "bx bxl-linkedin hover-rotate",
             iconClass: "linkedin",
             ariaLabel: "เชื่อมต่อกับเราบน LinkedIn"
-        }
+        },
+        {
+            label: "GitHub",
+            link: "https://github.com/chorn-digital",
+            icon: "bx bxl-github hover-rotate",
+            iconClass: "facebook",
+            ariaLabel: "Follow us on GitHub"
+        },
+        {
+            label: "Facebook",
+            link: "https://www.facebook.com/chorndigital",
+            icon: "bx bxl-facebook hover-rotate",
+            iconClass: "facebook",
+            ariaLabel: "Follow us on GitHub"
+        },
     ],
     importantLinks: [
         {

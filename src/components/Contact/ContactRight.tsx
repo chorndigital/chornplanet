@@ -18,13 +18,12 @@ export default function ContactRight({lang}: { lang: string }) {
     return (
         <div className="col-lg-8">
             <div className="about-content about-contact">
-                {/*{InfoTranslation[lang].About.contact.description}*/}
 
                 <div className="roles">
                     {InfoTranslation[lang].About.contact.roles.map((item, index) => {
                         return (
                             <div key={index} className="role">
-                                <h3>{item.title}<span>{item.span}</span></h3>
+                                <h3>{item.title}</h3>
                                 <>
                                     {
                                         item.email &&

@@ -51,11 +51,6 @@ export const AboutJA: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "一般のお問い合わせ",
-                span: "（戦略的パートナーシップ）",
-                mobilePhone: "WhatsApp: +66 (64) 918 1998"
-            },
-            {
                 title: "近くの場所",
                 span: "",
                 nearbyShopping: "セントラルフェスティバル・チェンマイ - 20分",

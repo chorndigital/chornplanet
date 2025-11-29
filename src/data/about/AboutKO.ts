@@ -51,11 +51,6 @@ export const AboutKO: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "일반 문의",
-                span: "(전략적 파트너십)",
-                mobilePhone: "WhatsApp: +66 (64) 918 1998"
-            },
-            {
                 title: "주변 장소",
                 span: "",
                 nearbyShopping: "센트럴 페스티벌 치앙마이 - 20분",

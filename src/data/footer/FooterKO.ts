@@ -22,19 +22,26 @@ export const FooterKO: IFooter = {
     },
     socialLinks: [
         {
-            label: "GitHub",
-            link: "https://github.com/chorn-digital",
-            icon: "bx bxl-github hover-rotate",
-            iconClass: "facebook",
-            ariaLabel: "GitHub에서 팔로우하기"
-        },
-        {
             label: "Linked",
             link: "https://www.linkedin.com/company/chorn",
             icon: "bx bxl-linkedin hover-rotate",
             iconClass: "linkedin",
             ariaLabel: "LinkedIn에서 연결하기"
-        }
+        },
+        {
+            label: "GitHub",
+            link: "https://github.com/chorn-digital",
+            icon: "bx bxl-github hover-rotate",
+            iconClass: "facebook",
+            ariaLabel: "Follow us on GitHub"
+        },
+        {
+            label: "Facebook",
+            link: "https://www.facebook.com/chorndigital",
+            icon: "bx bxl-facebook hover-rotate",
+            iconClass: "facebook",
+            ariaLabel: "Follow us on GitHub"
+        },
     ],
     importantLinks: [
         {

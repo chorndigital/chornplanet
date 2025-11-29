@@ -22,6 +22,13 @@ export const FooterEN: IFooter = {
     },
     socialLinks: [
         {
+            label: "Linked",
+            link: "https://www.linkedin.com/company/chorn",
+            icon: "bx bxl-linkedin hover-rotate",
+            iconClass: "linkedin",
+            ariaLabel: "Connect with us on LinkedIn"
+        },
+        {
             label: "GitHub",
             link: "https://github.com/chorn-digital",
             icon: "bx bxl-github hover-rotate",
@@ -29,12 +36,12 @@ export const FooterEN: IFooter = {
             ariaLabel: "Follow us on GitHub"
         },
         {
-            label: "Linked",
-            link: "https://www.linkedin.com/company/chorn",
-            icon: "bx bxl-linkedin hover-rotate",
-            iconClass: "linkedin",
-            ariaLabel: "Connect with us on LinkedIn"
-        }
+            label: "Facebook",
+            link: "https://www.facebook.com/chorndigital",
+            icon: "bx bxl-facebook hover-rotate",
+            iconClass: "facebook",
+            ariaLabel: "Follow us on GitHub"
+        },
     ],
     importantLinks: [
         {

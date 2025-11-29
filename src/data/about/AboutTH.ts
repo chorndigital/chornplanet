@@ -51,11 +51,6 @@ export const AboutTH: IAbout = {
                 email: "cto@chorn.in.th"
             },
             {
-                title: "สอบถามทั่วไป",
-                span: "(ความร่วมมือเชิงกลยุทธ์)",
-                mobilePhone: "WhatsApp: 064-918 1998",
-            },
-            {
                 title: "สถานที่ใกล้เคียง",
                 span: "",
                 nearbyShopping: "เซ็นทรัลเฟสติวัลเชียงใหม่ 20 นาที",
