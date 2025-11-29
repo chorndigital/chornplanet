@@ -46,8 +46,8 @@ export const FooterTH: IFooter = {
             link: "/contact"
         },
         {
-            label: "ความเชี่ยวชาญเทคนิค",
-            link: "/technical-expertise/web-development"
+            label: "แพ็คเกจบริการ",
+            link: "/service-packages"
         },
         {
             label: "เงื่อนไขการให้บริการ",

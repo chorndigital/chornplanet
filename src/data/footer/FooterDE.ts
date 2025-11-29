@@ -46,8 +46,8 @@ export const FooterDE: IFooter = {
             "link": "/contact"
         },
         {
-            label: "Technische Expertise",
-            link: "/technical-expertise/web-development"
+            label: "Servicepakete",
+            link: "/service-packages",
         },
         {
             label: "Nutzungsbedingungen",

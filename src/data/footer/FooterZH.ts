@@ -46,8 +46,8 @@ export const FooterZH: IFooter = {
             "link": "/contact"
         },
         {
-            label: "技术专长",
-            link: "/technical-expertise/web-development"
+            label: "服务套餐",
+            link: "/service-packages",
         },
         {
             label: "服务条款",

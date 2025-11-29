@@ -87,7 +87,7 @@ export const ServicePackagesKO: IServicePackages = {
             },
             {
                 name: "블록체인 개척자 플랜",
-                price: "USD 4,000 / 월",
+                price: "USD 3,000 / 월",
                 schedule: "월–금, 08:30–17:30 (풀타임, 시간 공유)",
                 highlight: "Web3, NFT, Ethereum 기반 프로젝트를 처음 시작하거나 실험하는 팀을 위한 블록체인 입문 패키지입니다.",
                 features: [
@@ -119,7 +119,7 @@ export const ServicePackagesKO: IServicePackages = {
             },
             {
                 name: "Web3 핵심 플랜",
-                price: "USD 7,900 / month",
+                price: "USD 6,900 / month",
                 schedule: "월–금, 오전 8:30 – 오후 5:30 (전담 풀타임)",
                 highlight: "토크노믹스와 스마트 계약 개발을 포함한 완전한 Web3 통합 블록체인 개발.",
                 features: [
@@ -132,7 +132,7 @@ export const ServicePackagesKO: IServicePackages = {
             },
             {
                 name: "NFT 진화 플랜",
-                price: "USD 7,900 / month",
+                price: "USD 6,900 / month",
                 schedule: "월–금, 오전 8:30 – 오후 5:30 (전담 풀타임)",
                 highlight: "최신 NFT 개발 및 레거시 계약 현대화를 위한 전담 개발 서비스.",
                 features: [

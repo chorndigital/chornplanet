@@ -86,7 +86,7 @@ export const ServicePackagesDA: IServicePackages = {
             },
             {
                 name: "Blockchain Pionérplan",
-                price: "USD 4,000 / måned",
+                price: "USD 3,000 / måned",
                 schedule: "Man–Fre, 8:30–17:30 (fuldtid, delt)",
                 highlight: "Professionel indgang til blockchain-innovation — ideel til Web3-prototyper, NFT-værktøjer og Ethereum-baserede platforme.",
                 features: [
@@ -118,7 +118,7 @@ export const ServicePackagesDA: IServicePackages = {
             },
             {
                 name: "Web3 Kerneplan",
-                price: "USD 7,900 / month",
+                price: "USD 6,900 / month",
                 schedule: "Man–Fre, 8:30–17:30 (Fuldtid, dedikeret)",
                 highlight: "Komplet blockchain-løsning med Web3-integration – herunder smart contracts og token design.",
                 features: [
@@ -131,7 +131,7 @@ export const ServicePackagesDA: IServicePackages = {
             },
             {
                 name: "NFT Evolutionsplan",
-                price: "USD 7,900 / month",
+                price: "USD 6,900 / month",
                 schedule: "Man–Fre, 8:30–17:30 (Fuldtid, dedikeret)",
                 highlight: "Specialiseret i NFT-løsninger – både nye produkter og modernisering af eksisterende smart contracts.",
                 features: [

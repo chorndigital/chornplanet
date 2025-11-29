@@ -46,8 +46,8 @@ export const FooterDA: IFooter = {
             "link": "/contact"
         },
         {
-            label: "Teknisk ekspertise",
-            link: "/technical-expertise/web-development"
+            label: "Servicepakker",
+            link: "/service-packages",
         },
         {
             label: "Servicevilkår",

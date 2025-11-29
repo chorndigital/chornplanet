@@ -87,7 +87,7 @@ export const ServicePackagesDE: IServicePackages = {
             },
             {
                 name: "Blockchain-Pionierplan",
-                price: "USD 4,000 / Monat",
+                price: "USD 3,000 / Monat",
                 schedule: "Mo–Fr, 8:30–17:30 Uhr (geteilt, Vollzeit)",
                 highlight: "Professioneller Einstieg in Blockchain-Innovationen – ideal für Web3-Prototypen, NFT-Utilities und Ethereum-basierte Plattformen.",
                 features: [
@@ -119,7 +119,7 @@ export const ServicePackagesDE: IServicePackages = {
             },
             {
                 name: "Web3-Kernplan",
-                price: "USD 7,900 / Monat",
+                price: "USD 6,900 / Monat",
                 schedule: "Mo–Fr, 8:30–17:30 (Vollzeit, dediziert oder dauerhaft)",
                 highlight: "End-to-End Blockchain-Entwicklung mit vollständiger Web3-Integration, einschließlich Tokenomics und Smart Contracts.",
                 features: [
@@ -132,7 +132,7 @@ export const ServicePackagesDE: IServicePackages = {
             },
             {
                 name: "NFT-Evolutionsplan",
-                price: "USD 7,900 / Monat",
+                price: "USD 6,900 / Monat",
                 schedule: "Mo–Fr, 8:30–17:30 (Vollzeit, dediziert oder dauerhaft)",
                 highlight: "NFT-fokussierte Entwicklung, einschließlich Neubauten und Modernisierung bestehender Verträge.",
                 features: [

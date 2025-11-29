@@ -46,8 +46,8 @@ export const FooterKO: IFooter = {
             "link": "/contact"
         },
         {
-            label: "기술 전문성",
-            link: "/technical-expertise/web-development"
+            label: "서비스 패키지",
+            link: "/service-packages",
         },
         {
             label: "백엔드 개발",

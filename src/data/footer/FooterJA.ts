@@ -46,8 +46,8 @@ export const FooterJA: IFooter = {
             "link": "/contact"
         },
         {
-            label: "技術専門知識",
-            link: "/technical-expertise/web-development"
+            label: "サービスパッケージ",
+            link: "/service-packages",
         },
         {
             label: "利用規約",
