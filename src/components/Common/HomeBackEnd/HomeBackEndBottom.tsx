@@ -36,7 +36,7 @@ export default function HomeBackEndBottom({lang}: { lang: string }) {
                     <ul className="ul-image-container">
                         {ImageUrl.gallery.slides.slice(0, 2).map((image: any, index: any) => (
                             <li key={index}>
-                                <Link href={"/" + lang + "/images/gallery"}>
+                                <Link href={"/" + lang + "/gallery"}>
                                     <div className="li-image-container">
                                         <div className="li-image">
                                             <Image
