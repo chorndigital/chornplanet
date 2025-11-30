@@ -30,9 +30,9 @@ export const FooterNL: IFooter = {
         },
         {
             label: "GitHub",
-            link: "https://github.com/chorn-digital",
+            link: "https://github.com/chorndigital",
             icon: "bx bxl-github hover-rotate",
-            iconClass: "facebook",
+            iconClass: "github",
             ariaLabel: "Follow us on GitHub"
         },
         {

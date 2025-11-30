@@ -29,7 +29,7 @@ export const Contact2025: IContact = {
         icon: "bx bxl-github",
         label: "GitHub",
         isLink: true,
-        link: "https://github.com/chorn-digital",
+        link: "https://github.com/chorndigital",
         linkText: "CHORN Digital",
         button: ""
     },

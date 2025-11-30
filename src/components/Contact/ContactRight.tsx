@@ -130,6 +130,67 @@ export default function ContactRight({lang}: { lang: string }) {
                         )
                     })}
                 </div>
+
+                <div className="contact-social-container">
+                    <h3>Social & GitHub</h3>
+
+                    {/* LinkedIn */}
+                    <div className="contact-social-item">
+                        <div className="about-icon-symbol">
+                            <a href="https://www.linkedin.com/company/chorn"
+                               className="linkedin"
+                               target="_blank"
+                            >
+                                <i className="bx bxl-linkedin hover-rotate"/>
+                            </a>
+                        </div>
+                        <div className="linkedin-text">
+                            <a href="https://www.linkedin.com/company/chorn"
+                               target="_blank"
+                            >
+                                www.linkedin.com/company/chorn
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Facebook */}
+                    <div className="contact-social-item">
+                        <div className="about-icon-symbol">
+                            <a href="https://www.facebook.com/chorndigital"
+                               className="facebook"
+                               target="_blank"
+                            >
+                                <i className="bx bxl-facebook hover-rotate"/>
+                            </a>
+                        </div>
+                        <div className="linkedin-text">
+                            <a href="https://www.facebook.com/chorndigital"
+                               target="_blank"
+                            >
+                                facebook.com/chorndigital
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* GitHub */}
+                    <div className="contact-social-item">
+                        <div className="about-icon-symbol">
+                            <a href="https://github.com/chorndigital/"
+                               className="github"
+                               target="_blank"
+                            >
+                                <i className="bx bxl-github hover-rotate"/>
+                            </a>
+                        </div>
+                        <div className="linkedin-text">
+                            <a href="https://github.com/chorndigital/"
+                               target="_blank"
+                            >
+                                github.com/chorndigital
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -58,7 +58,7 @@ export const AboutEN: IAbout = {
                 nearbyUniversity1: "Maejo University - 22 minutes",
                 nearbyUniversity2: "Chiang Mai University - 29 minutes",
                 nearbyAirport: "Chiang Mai International Airport - 30 minutes",
-            },
+            }
         ]
     }
 };

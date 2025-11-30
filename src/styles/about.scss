@@ -20,18 +20,18 @@
       .about-icon-symbol {
         display: inline-block;
 
+        /* LinkedIn button */
         a.linkedin {
+          width: 30px;
           padding: 5px 8px;
-          background-color: #007bb5;
-          border-color: #007bb5;
+          background-color: #0077B5; /* LinkedIn official blue */
+          border-color: #0077B5;
           color: #ffffff;
         }
 
-        a.whatsapp {
-          padding: 5px 8px;
-          background-color: #0cc143;
-          border-color: #0cc143;
-          color: #ffffff;
+        a.linkedin:hover {
+          background-color: #005983; /* darker shade on hover */
+          border-color: #005983;
         }
       }
 
@@ -146,28 +146,24 @@
       }
 
       .item {
-        margin-bottom: 2px;
+        margin-bottom: 5px;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: left;
 
         .icon-container {
+          width: 32px;
 
           .icon {
-            font-weight: 600;
             padding: 5px 8px;
-            width: 30px;
             display: flex;
             align-items: center;
             gap: 0;
 
-            background: linear-gradient(to right, #06c755, #06c755);
+            background-color: #06c755;
+            border-color: #06c755;
             color: white;
-
-            &.nearby {
-              background: linear-gradient(to right, #0f91ff, #0f91ff);
-            }
           }
         }
 
@@ -181,6 +177,96 @@
             color: #fd9b5f;
           }
         }
+      }
+    }
+  }
+
+  .contact-social-container {
+    h3 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+
+      span {
+        font-size: 1rem;
+        text-transform: unset;
+        display: unset;
+        margin-left: 10px;
+        font-weight: normal;
+        color: #333333;
+      }
+    }
+
+    .contact-social-item {
+      display: flex;
+      margin-bottom: 10px;
+
+      .about-icon-symbol {
+        display: inline-block;
+
+        /* LinkedIn button */
+        a.linkedin {
+          width: 30px;
+          padding: 5px 8px;
+          background-color: #0077B5; /* LinkedIn official blue */
+          border-color: #0077B5;
+          color: #ffffff;
+        }
+
+        a.linkedin:hover {
+          background-color: #005983; /* darker shade on hover */
+          border-color: #005983;
+        }
+
+        /* Facebook button */
+        a.facebook {
+          width: 30px;
+          padding: 5px 8px;
+          background-color: #1877F2; /* Official Facebook blue */
+          border-color: #1877F2;
+          color: #ffffff;
+        }
+
+        a.facebook:hover {
+          background-color: #166FE5;
+          border-color: #166FE5;
+        }
+
+        /* GitHub button */
+        a.github {
+          width: 30px;
+          padding: 5px 8px;
+          background-color: #000000; /* GitHub black */
+          border-color: #000000;
+          color: #ffffff;
+        }
+
+        a.github:hover {
+          background-color: #333333; /* slightly lighter on hover */
+          border-color: #333333;
+        }
+
+        /* WhatsApp button */
+        a.whatsapp {
+          width: 30px;
+          padding: 5px 8px;
+          background-color: #25D366; /* Official WhatsApp green */
+          border-color: #25D366;
+          color: #ffffff;
+        }
+
+        a.whatsapp:hover {
+          background-color: #1DA851; /* Slightly darker green on hover */
+          border-color: #1DA851;
+        }
+      }
+
+      .linkedin-text {
+        padding-left: 10px;
+      }
+
+      .linkedin-text a:hover {
+        color: #fd9b5f;
       }
     }
   }
