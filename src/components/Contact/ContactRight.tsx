@@ -137,7 +137,7 @@ export default function ContactRight({lang}: { lang: string }) {
                     {/* LinkedIn */}
                     <div className="contact-social-item">
                         <div className="about-icon-symbol">
-                            <a href="https://www.linkedin.com/company/chorn"
+                            <a href="https://www.linkedin.com/in/khachornchit"
                                className="linkedin"
                                target="_blank"
                             >
@@ -145,10 +145,10 @@ export default function ContactRight({lang}: { lang: string }) {
                             </a>
                         </div>
                         <div className="linkedin-text">
-                            <a href="https://www.linkedin.com/company/chorn"
+                            <a href="https://www.linkedin.com/in/khachornchit"
                                target="_blank"
                             >
-                                www.linkedin.com/company/chorn
+                                www.linkedin.com
                             </a>
                         </div>
                     </div>
