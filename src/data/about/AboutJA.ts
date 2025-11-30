@@ -39,15 +39,16 @@ export const AboutJA: IAbout = {
     contact: {
         title: "ビジネスのお問い合わせ・パートナーシップ",
         description: "創業者仲間、CEO、CTO、プロダクトリーダーからの歓迎の連絡。",
+        header: "連絡先情報",
         roles: [
             {
                 title: "Project Manager",
-                span: "（クライアントプロジェクトの調整）",
+                span: "クライアントプロジェクトの調整",
                 email: "pm@chorn.in.th"
             },
             {
-                title: "Chief Technology Officer",
-                span: "（技術提携や統合に関して）",
+                title: "CEO | CTO Consultant",
+                span: "創業者の技術・チーム・戦略のスケールを支援します",
                 email: "cto@chorn.in.th"
             },
             {

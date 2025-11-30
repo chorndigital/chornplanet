@@ -39,15 +39,16 @@ export const AboutKO: IAbout = {
     contact: {
         title: "비즈니스 문의 및 파트너십",
         description: "공동 창업자, CEO, CTO 및 제품 리더의 환영 연락입니다.",
+        header: "연락처 정보",
         roles: [
             {
                 title: "Project Manager",
-                span: "(클라이언트 프로젝트 조율)",
+                span: "클라이언트 프로젝트 조율",
                 email: "pm@chorn.in.th"
             },
             {
-                title: "Chief Technology Officer",
-                span: "(기술 제휴 또는 통합 관련)",
+                title: "CEO | CTO Consultant",
+                span: "창업가가 기술, 팀, 전략을 확장할 수 있도록 지원합니다",
                 email: "cto@chorn.in.th"
             },
             {

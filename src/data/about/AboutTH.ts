@@ -39,15 +39,16 @@ export const AboutTH: IAbout = {
     contact: {
         title: "ติดต่อธุรกิจและความร่วมมือ",
         description: "ยินดีต้อนรับการติดต่อจากผู้ก่อตั้ง CEO, CTO และผู้นำด้านผลิตภัณฑ์",
+        header: "ข้อมูลการติดต่อ",
         roles: [
             {
                 title: "Project Manager",
-                span: "(ประสานงานโครงการกับลูกค้า)",
+                span: "ประสานงานโครงการกับลูกค้า",
                 email: "pm@chorn.in.th"
             },
             {
-                title: "Chief Technology Officer",
-                span: "(สำหรับความร่วมมือด้านเทคโนโลยีหรือการเชื่อมต่อระบบ)",
+                title: "CEO | CTO Consultant",
+                span: "ช่วยผู้ก่อตั้งในการขยายเทคโนโลยี ทีม และกลยุทธ์",
                 email: "cto@chorn.in.th"
             },
             {

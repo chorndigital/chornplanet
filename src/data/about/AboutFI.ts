@@ -39,15 +39,16 @@ export const AboutFI: IAbout = {
     contact: {
         title: "Liiketoimintakyselyt ja yhteistyömahdollisuudet",
         description: "Tervetullut yhteydenotto muilta perustajilta, toimitusjohtajilta, teknologiajohtajilta ja tuotejohtajilta.",
+        header: "Yhteystiedot",
         roles: [
             {
                 title: "Project Manager",
-                span: "(asiakasprojektien koordinointiin)",
+                span: "asiakasprojektien koordinointiin",
                 email: "pm@chorn.in.th"
             },
             {
-                title: "Chief Technology Officer",
-                span: "(teknisiin kumppanuuksiin tai integraatioihin)",
+                title: "CEO | CTO Consultant",
+                span: "Autan perustajia skaalaamaan teknologiaa, tiimejä ja strategiaa",
                 email: "cto@chorn.in.th"
             },
             {

@@ -39,15 +39,16 @@ export const AboutZH: IAbout = {
     contact: {
         title: "商务咨询与合作",
         description: "来自联合创始人、CEO、CTO 和产品负责人的欢迎联系。",
+        header: "联系信息",
         roles: [
             {
                 title: "项目经理",
-                span: "（客户项目协调）",
+                span: "客户项目协调",
                 email: "pm@chorn.in.th"
             },
             {
-                title: "首席技术官",
-                span: "（技术合作或系统集成）",
+                title: "CEO | CTO Consultant",
+                span: "帮助创业者扩大技术、团队和战略",
                 email: "cto@chorn.in.th"
             },
             {

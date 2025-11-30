@@ -39,15 +39,16 @@ export const AboutDA: IAbout = {
     contact: {
         title: "Forretningshenvendelser og partnerskaber",
         description: "Velkommen kontakt fra medstiftere, CEO, CTO og produktledere.",
+        header: "Kontaktinformation",
         roles: [
             {
                 title: "Project Manager",
-                span: "(for koordinering af kundeprojekter)",
+                span: "koordinering af kundeprojekter",
                 email: "pm@chorn.in.th"
             },
             {
-                title: "Chief Technology Officer",
-                span: "(for tekniske partnerskaber eller integrationer)",
+                title: "CEO | CTO Consultant",
+                span: "Hjælper iværksættere med at skalere teknologi, teams og strategier",
                 email: "cto@chorn.in.th"
             },
             {

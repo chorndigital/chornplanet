@@ -1,4 +1,3 @@
-import {Contact2025} from "@/data/contact/Contact2025";
 import React from "react";
 
 export default function BottomImageLeft() {

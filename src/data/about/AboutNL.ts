@@ -39,15 +39,16 @@ export const AboutNL: IAbout = {
     contact: {
         title: "Zakelijke aanvragen & samenwerkingen",
         description: "Welkomstcontact van medeoprichters, CEO's, CTO's en productleiders.",
+        header: "Contactgegevens",
         roles: [
             {
                 title: "Project Manager",
-                span: "(voor coördinatie van klantprojecten)",
+                span: "voor coördinatie van klantprojecten",
                 email: "pm@chorn.in.th"
             },
             {
-                title: "Chief Technology Officer",
-                span: "(voor technische samenwerkingen of integraties)",
+                title: "CEO | CTO Consultant",
+                span: "Helpt oprichters bij het opschalen van technologie, teams en strategie",
                 email: "cto@chorn.in.th"
             },
             {
