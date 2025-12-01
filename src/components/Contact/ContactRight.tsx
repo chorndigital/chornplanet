@@ -18,8 +18,6 @@ export default function ContactRight({lang}: { lang: string }) {
     return (
         <div className="col-lg-8 contact-col-right">
             <div className="about-content about-contact">
-                <h2>{InfoTranslation[lang].About.contact.header}</h2>
-
                 <div className="roles">
                     {InfoTranslation[lang].About.contact.roles.map((item, index) => {
                         return (
@@ -167,7 +165,7 @@ export default function ContactRight({lang}: { lang: string }) {
                             <a href="https://www.facebook.com/chorndigital"
                                target="_blank"
                             >
-                                facebook.com/chorndigital
+                                www.facebook.com/chorndigital
                             </a>
                         </div>
                     </div>
@@ -186,7 +184,7 @@ export default function ContactRight({lang}: { lang: string }) {
                             <a href="https://github.com/chorndigital/"
                                target="_blank"
                             >
-                                github.com/chorndigital
+                                www.github.com/chorndigital
                             </a>
                         </div>
                     </div>

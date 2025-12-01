@@ -1,6 +1,6 @@
 import "@/styles/about.scss"
 import React from "react";
-import BottomImageLeft from "@/components/About/BottomImage/BottomImageLeft";
+import BottomImageLeft from "@/components/Contact/BottomImage/BottomImageLeft";
 
 export default function ContactLeft({lang}: { lang: string }) {
     return (

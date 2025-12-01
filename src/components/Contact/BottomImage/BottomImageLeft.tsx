@@ -1,22 +1,29 @@
 import React from "react";
+import Image from "next/image";
+import {ImageUrl} from "@/image/ImageUrl";
 
 export default function BottomImageLeft() {
     return (
         <div className="social left">
             <div className="left-row">
                 <div className="about-icon-symbol">
-                    <a href="https://www.linkedin.com/in/khachornchit"
-                       className="linkedin"
+                    <a href="https://chorn.in.th"
+                       className="chorn"
                        target="_blank"
                     >
-                        <i className="bx bxl-linkedin hover-rotate"/>
+                        <Image
+                            src={ImageUrl.logo.rec.sm.path}
+                            alt={ImageUrl.logo.rec.sm.title}
+                            width={30}
+                            height={30}
+                        />
                     </a>
                 </div>
-                <div className="linkedin-text">
-                    <a href="https://www.linkedin.com/in/khachornchit"
+                <div className="chorn-text">
+                    <a href="https://chorn.in.th"
                        target="_blank"
                     >
-                        www.linkedin.com
+                        www.chorn.in.th
                     </a>
                 </div>
             </div>

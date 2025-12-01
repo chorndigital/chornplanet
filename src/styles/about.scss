@@ -33,13 +33,32 @@
           background-color: #005983; /* darker shade on hover */
           border-color: #005983;
         }
+
+        /* CHORN button */
+        a.chorn {
+          width: 30px;
+          padding: 5px 8px;
+          background-color: #25D366; /* Official WhatsApp green */
+          border-color: #25D366;
+          color: #ffffff;
+
+          img {
+            width: 30px;
+          }
+        }
+
+        a.chorn:hover {
+          background-color: #1DA851; /* Slightly darker green on hover */
+          border-color: #1DA851;
+        }
       }
 
-      .linkedin-text {
+      .chorn-text {
+        color: #1DA851;
         padding-left: 10px;
       }
 
-      .linkedin-text a:hover {
+      .chorn-text a:hover {
         color: #fd9b5f;
       }
 
@@ -86,11 +105,18 @@
           color: #ffffff;
         }
 
-        a.whatsapp {
+        /* CHORN button */
+        a.chorn {
+          width: 30px;
           padding: 5px 8px;
-          background-color: #0cc143;
-          border-color: #0cc143;
+          background-color: #25D366; /* Official WhatsApp green */
+          border-color: #25D366;
           color: #ffffff;
+        }
+
+        a.chorn:hover {
+          background-color: #1DA851; /* Slightly darker green on hover */
+          border-color: #1DA851;
         }
       }
 
@@ -246,8 +272,8 @@
           border-color: #333333;
         }
 
-        /* WhatsApp button */
-        a.whatsapp {
+        /* CHORN button */
+        a.chorn {
           width: 30px;
           padding: 5px 8px;
           background-color: #25D366; /* Official WhatsApp green */
@@ -255,7 +281,7 @@
           color: #ffffff;
         }
 
-        a.whatsapp:hover {
+        a.chorn:hover {
           background-color: #1DA851; /* Slightly darker green on hover */
           border-color: #1DA851;
         }
