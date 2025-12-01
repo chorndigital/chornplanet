@@ -9,7 +9,7 @@ export default function BottomImageLeft() {
                 <div className="about-icon-symbol">
                     <a href="https://chorn.in.th"
                        className="chorn"
-                       target="_blank"
+                       target="_self"
                     >
                         <Image
                             src={ImageUrl.logo.rec.sm.path}
@@ -21,7 +21,7 @@ export default function BottomImageLeft() {
                 </div>
                 <div className="chorn-text">
                     <a href="https://chorn.in.th"
-                       target="_blank"
+                       target="_self"
                     >
                         www.chorn.in.th
                     </a>
