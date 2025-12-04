@@ -34,7 +34,13 @@ const nextConfig = {
     },
 
     images: {
-        domains: ["scdn.line-apps.com"], // 👈 Add this line
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "scdn.line-apps.com",
+            },
+        ],
+        qualities: [80]
     },
 
     // async rewrites() {
