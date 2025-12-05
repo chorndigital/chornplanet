@@ -12,9 +12,6 @@ const CloudInfraModuleRight: React.FC<{ lang: string }> = ({lang}) => {
                     alt={image.title}
                     width={100}
                     height={100}
-                    quality={100}
-                    priority={false}
-                    loading={"lazy"}
                 />
             ))}
         </div>
