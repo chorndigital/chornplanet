@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="GitLab DevOps Services | CHORN"
                 description="CHORN provides GitLab-based DevOps services for continuous integration, automation, and version control solutions."
-                url="https://chorn.in.th/technical-expertise/cloud-devops/gitlab/"
+                url="https://chorndigital.com/technical-expertise/cloud-devops/gitlab/"
             />
         </>
     );

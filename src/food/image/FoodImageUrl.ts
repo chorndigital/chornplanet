@@ -1,6 +1,6 @@
 import {IFoodImageUrl} from "@/food/image/model/IFoodImageUrl";
 
-const CDN_IMAGE_FOOD = process.env.CDN_IMAGE_FOOD || "https://cdn.chorn.in.th/food-drink";
+const CDN_IMAGE_FOOD = process.env.CDN_IMAGE_FOOD || "https://cdn.chorndigital.com/food-drink";
 
 export const FoodImageUrl: IFoodImageUrl = {
     topMenu: [

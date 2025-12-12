@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Kubernetes DevOps Services | CHORN"
                 description="CHORN provides Kubernetes-based DevOps services for automating deployment, scaling, and management of containerized applications."
-                url="https://chorn.in.th/technical-expertise/cloud-devops/kubernetes/"
+                url="https://chorndigital.com/technical-expertise/cloud-devops/kubernetes/"
             />
         </>
     )

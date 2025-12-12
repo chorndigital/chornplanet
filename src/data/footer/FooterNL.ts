@@ -2,8 +2,8 @@ import { IFooter } from "@/data/footer/model/IFooter";
 
 export const FooterNL: IFooter = {
     title: "CHORN",
-    link: "https://chorn.in.th/",
-    www: "www.chorn.in.th",
+    link: "https://chorndigital.com/",
+    www: "www.chorndigital.com",
     description: "CHORN volgt de nieuwste informatie over de snel veranderende technologie van vandaag, softwareontwikkeling, informatietechnologie voor verschillende bedrijfsdomeinen en interessant nieuws.",
     importantTitle: "Belangrijke links",
     featureTitle: "Technische expertise",

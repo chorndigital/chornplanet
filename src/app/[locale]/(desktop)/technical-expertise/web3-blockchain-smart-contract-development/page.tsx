@@ -25,7 +25,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Web3 Blockchain Smart Contract Development | CHORN | Custom Blockchain Solutions"
                 description="Discover CHORN’s expertise in Web3 blockchain and smart contract development. CHORN build decentralized applications (DApps) using Solidity, Ethereum, Polygon, and integrate with technologies like Hardhat, Ganache, and MetaMask."
-                url="https://chorn.in.th/technical-expertise/web3-blockchain-smart-contract-development/"
+                url="https://chorndigital.com/technical-expertise/web3-blockchain-smart-contract-development/"
             />
         </>
     );

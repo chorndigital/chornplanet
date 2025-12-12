@@ -27,9 +27,9 @@ export default async function Home() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "CHORN | AI & Software Solutions",
-        "logo": "https://chorn.in.th/images/logo-2025/chorn-logo-2025-circle-md.png",
-        "@id": "https://chorn.in.th",
-        "url": "https://chorn.in.th",
+        "logo": "https://chorndigital.com/images/logo-2025/chorn-logo-2025-circle-md.png",
+        "@id": "https://chorndigital.com",
+        "url": "https://chorndigital.com",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+66 (0)52 000 548",

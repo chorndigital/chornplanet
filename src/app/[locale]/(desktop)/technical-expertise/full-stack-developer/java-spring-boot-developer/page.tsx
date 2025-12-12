@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Java Spring Boot Full Stack Development | CHORN"
                 description="CHORN offers Java Spring Boot full stack development services to build robust and scalable enterprise applications."
-                url="https://chorn.in.th/technical-expertise/full-stack-developer/java-spring-boot-developer/"
+                url="https://chorndigital.com/technical-expertise/full-stack-developer/java-spring-boot-developer/"
             />
         </>
     )

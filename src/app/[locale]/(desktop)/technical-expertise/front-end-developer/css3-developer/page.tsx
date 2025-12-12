@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="CSS3 Development Services | CHORN"
                 description="Enhance your web applications with CHORN’s CSS3 development services for modern and visually appealing designs."
-                url="https://chorn.in.th/technical-expertise/front-end-developer/css3-developer/"
+                url="https://chorndigital.com/technical-expertise/front-end-developer/css3-developer/"
             />
         </>
     );

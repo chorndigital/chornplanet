@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Go Full Stack Development | CHORN"
                 description="CHORN offers Go full stack development services for building efficient and scalable web applications."
-                url="https://chorn.in.th/technical-expertise/full-stack-developer/go-developer/"
+                url="https://chorndigital.com/technical-expertise/full-stack-developer/go-developer/"
             />
         </>
     )

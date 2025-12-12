@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Angular Development Services | CHORN"
                 description="Expert Angular development services by CHORN. Build dynamic, scalable, and high-performance web applications using Angular."
-                url="https://chorn.in.th/technical-expertise/front-end-developer/angular-developer/"
+                url="https://chorndigital.com/technical-expertise/front-end-developer/angular-developer/"
             />
         </>
     );

@@ -40,7 +40,7 @@ import {Metadata} from "next";
 const dm_sans = DM_Sans({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://chorn.in.th"),
+    metadataBase: new URL("https://chorndigital.com"),
 }
 
 export default async function RootLayout({children,}: Readonly<{ children: React.ReactNode; }>) {

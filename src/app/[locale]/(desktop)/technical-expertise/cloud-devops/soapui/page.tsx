@@ -25,7 +25,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="SoapUI Testing Services | CHORN"
                 description="CHORN provides expert SoapUI testing services to ensure your web services and APIs are thoroughly tested and reliable."
-                url="https://chorn.in.th/technical-expertise/cloud-devops/soapui/"
+                url="https://chorndigital.com/technical-expertise/cloud-devops/soapui/"
             />
         </>
     )

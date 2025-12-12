@@ -21,7 +21,7 @@ const nextConfig = {
 
     // images: {
     //     unoptimized: true, remotePatterns: [{
-    //         protocol: 'https', hostname: 'cdn.chorn.in.th', pathname: '/**',
+    //         protocol: 'https', hostname: 'cdn.chorndigital.com', pathname: '/**',
     //     },], minimumCacheTTL: 31536000,
     // },
 
@@ -51,15 +51,15 @@ const nextConfig = {
     // Backup for DigitalOcean Space Images
     // return [{
     //     source: '/images/technical-expertise/cloud-devops/Kubernetes.webp',
-    //     destination: 'https://cdn.chorn.in.th/public/technical-expertise/devops/framework/kube-qrcode-1200.webp',
+    //     destination: 'https://cdn.chorndigital.com/public/technical-expertise/devops/framework/kube-qrcode-1200.webp',
     // }, {
-    //     source: '/images/:path*', destination: 'https://cdn.chorn.in.th/public/:path*'
+    //     source: '/images/:path*', destination: 'https://cdn.chorndigital.com/public/:path*'
     // }, {
-    //     source: '/images-ai/:path*', destination: 'https://cdn.chorn.in.th/public/ai/:path*'
+    //     source: '/images-ai/:path*', destination: 'https://cdn.chorndigital.com/public/ai/:path*'
     // }, {
-    //     source: '/chorn-images/:path*', destination: 'https://cdn.chorn.in.th/public/:path*'
+    //     source: '/chorn-images/:path*', destination: 'https://cdn.chorndigital.com/public/:path*'
     // }, {
-    //     source: '/obsolete-images/:path*', destination: 'https://cdn.chorn.in.th/obsolete/:path*'
+    //     source: '/obsolete-images/:path*', destination: 'https://cdn.chorndigital.com/obsolete/:path*'
     // },];
     // },
 

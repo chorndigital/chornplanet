@@ -25,7 +25,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="DevOps & Testing Services | CHORN"
                 description="CHORN offers expert DevOps and testing services to streamline your software development process. Ensure high performance and quality with our continuous integration, automated testing, and cloud-based solutions."
-                url="https://chorn.in.th/technical-expertise/cloud-devops/"
+                url="https://chorndigital.com/technical-expertise/cloud-devops/"
             />
         </>
     )

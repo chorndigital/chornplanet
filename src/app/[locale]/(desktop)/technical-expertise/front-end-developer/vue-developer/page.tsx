@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Vue.js Development Services | CHORN"
                 description="CHORN specializes in Vue.js development to create interactive and scalable web applications."
-                url="https://chorn.in.th/technical-expertise/front-end-developer/vue-developer/"
+                url="https://chorndigital.com/technical-expertise/front-end-developer/vue-developer/"
             />
         </>
     )

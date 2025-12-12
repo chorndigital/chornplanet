@@ -5,7 +5,7 @@ import {NextResponse} from "next/server";
 import {UrlImageMaps} from "@/lib/UrlImageMaps";
 import {IImagePath} from "@/lib/model/IImagePath";
 
-const baseUrl = "https://chorn.in.th";
+const baseUrl = "https://chorndigital.com";
 
 function getImageUrls(images: IImagePath[]) {
     return images.map((image: IImagePath) =>

@@ -26,7 +26,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Cloud Solution Architecture & Systems Analysis | CHORN | AWS, Azure, GCP, DigitalOcean"
                 description="CHORN delivers expert cloud solution architecture and system analysis services. We optimize cloud infrastructures across AWS, Azure, GCP, and DigitalOcean, ensuring performance, scalability, and cost-efficiency."
-                url="https://chorn.in.th/technical-expertise/cloud-solution-architecture-systems-analysis/"
+                url="https://chorndigital.com/technical-expertise/cloud-solution-architecture-systems-analysis/"
             />
         </>
     )

@@ -1,6 +1,6 @@
 import {IImageUrl} from "@/image/model/IImageUrl";
 
-const IMAGE_CDN = process.env.CDN_IMAGE || "https://cdn.chorn.in.th/public";
+const IMAGE_CDN = process.env.CDN_IMAGE || "https://cdn.chorndigital.com/public";
 const IMAGE_INTERNAL = "/images";
 export const IMAGE_PATH = IMAGE_INTERNAL;
 
