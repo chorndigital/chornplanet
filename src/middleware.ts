@@ -21,6 +21,7 @@ export function middleware(req: NextRequest) {
         pathname.startsWith('/fonts') ||
         pathname.startsWith('/api/sitemap') ||
         pathname.startsWith('/api/openai') ||
+        pathname === '/googleaa85449beb5ca13c.html' ||
         pathname === '/favicon.ico' ||
         pathname === '/robots.txt'
     ) {
