@@ -1,25 +1,25 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutFI: IAbout = {
-    "title": "Tietoja",
+    title: "Tietoja",
     "span": "Teknologista innovointia liiketoiminnan menestykseen",
     "subTitle": "CHORN – CEO | CTO Consultant — Auttaa perustajia skaalaamaan teknologiaa, tiimejä ja strategiaa",
-    "description": [
+    description: [
         {
-            "title": "Järjestelmäkehitysratkaisut (System Development Solutions)",
-            "description": "CHORN tarjoaa joustavia järjestelmäkehitysratkaisuja etä-, hybridi- ja on-site-yhteistyön kautta Chiang Maissa ja Bangkokissa. Työ sisältää Proof of Concept (PoC) ja Minimum Viable Product (MVP) sovellusten kehittämistä, järjestelmäanalyysin suorittamista ja olemassa olevien alustojen parantamista vastaamaan kehittyviä liiketoiminta- ja teknologisia tarpeita."
+            title: "Järjestelmäkehitysratkaisut (System Development Solutions)",
+            description: "CHORN tarjoaa joustavia järjestelmäkehitysratkaisuja etä-, hybridi- ja paikan päällä tapahtuvan yhteistyön kautta Chiang Maissa ja Bangkokissa. Työ kattaa Proof of Concept (PoC) - ja Minimum Viable Product (MVP) -sovellusten kehittämisen, ratkaisuarkkitehtuurin, skaalauksen, järjestelmäanalyysit sekä olemassa olevien alustojen kehittämisen vastaamaan muuttuvia liiketoiminta- ja teknologiavaatimuksia."
         },
         {
-            "title": "Nykyinen painopiste: tekoälyn ohjaama innovaatio (AI-Powered Innovation)",
-            "description": "Nykyään CHORN keskittyy tekoälypohjaiseen kehitykseen, jossa yhdistetään Large Language Models (LLMs) ja älykkäät AI-agentit digitaalisten alustojen kyvykkyyden vahvistamiseksi. Tämä lähestymistapa nopeuttaa ohjelmistokehitystä, parantaa tehokkuutta ja tuo uusia tasoja automaatioon ja älykkyyteen — heijastaen suurta muutosta digitaalisessa maisemassa OpenAI-alustan julkaisun jälkeen vuoden 2022 lopussa."
+            title: "Nykyinen painopiste: tekoälyn ohjaama innovaatio (AI-Powered Innovation)",
+            description: "Nykyään CHORN keskittyy tekoälypohjaiseen kehitykseen, jossa yhdistetään Large Language Models (LLMs) ja älykkäät AI-agentit digitaalisten alustojen kyvykkyyden vahvistamiseksi. Tämä lähestymistapa nopeuttaa ohjelmistokehitystä, parantaa tehokkuutta ja tuo uusia tasoja automaatioon ja älykkyyteen — heijastaen suurta muutosta digitaalisessa maisemassa OpenAI-alustan julkaisun jälkeen vuoden 2022 lopussa."
         },
         {
-            "title": "Manufacturing Execution Systems (MES)",
-            "description": "CHORN aloitti vuonna 2001 ja perustuu laajaan asiantuntemukseen IT-, ohjelmisto- ja laiteinsinööriratkaisuista suurivolyymisessa elektroniikan valmistuksessa. Työ sisälsi integroidun laitteisto-, ohjelmisto- ja mekaanisen suunnittelun yhteistyössä tutkimus- ja kehitystiimien kanssa. Erikoisalueisiin kuuluvat Manufacturing Execution Systems (MES), teollisuuslaitteet, tarkkuusinstrumentit, teollisuusprotokollat sekä mukautettu laitteisto-/ohjelmistointegraatio. Projektit saavuttivat yli 10 miljoonan yksikön kuukausituotantokapasiteetin, keskittyen tehokkuuteen, luotettavuuteen ja tuotteen laatuun jatkuvan parantamisen ja tehokkaan asiakasviestinnän kautta."
+            title: "Manufacturing Execution Systems (MES)",
+            description: "CHORN aloitti vuonna 2001 ja perustuu laajaan asiantuntemukseen IT-, ohjelmisto- ja laiteinsinööriratkaisuista suurivolyymisessa elektroniikan valmistuksessa. Työ sisälsi integroidun laitteisto-, ohjelmisto- ja mekaanisen suunnittelun yhteistyössä tutkimus- ja kehitystiimien kanssa. Erikoisalueisiin kuuluvat Manufacturing Execution Systems (MES), teollisuuslaitteet, tarkkuusinstrumentit, teollisuusprotokollat sekä mukautettu laitteisto-/ohjelmistointegraatio. Projektit saavuttivat yli 10 miljoonan yksikön kuukausituotantokapasiteetin, keskittyen tehokkuuteen, luotettavuuteen ja tuotteen laatuun jatkuvan parantamisen ja tehokkaan asiakasviestinnän kautta."
         },
         {
-            "title": "Digital Platform Development",
-            "description": "Vuonna 2012 CHORN laajensi toimintaansa digitaalisten alustojen kehittämiseen, tavoitteena rakentaa skaalautuvia web- ja mobiilisovelluksia nykyaikaisten kehysten ja pilviarkkitehtuurien avulla. Kehitystyö tukee käyttäjiä eri toimialoilla, kuten verkkokaupassa, kiinteistöissä, myynnin esivaiheissa, CRM:ssä sekä yritysjärjestelmissä, kuten SAP ERP ja S/4HANA. Jokainen ratkaisu suunnitellaan skaalautuvalla arkkitehtuurilla ja mukautuvuudella liiketoiminnan muuttuviin tarpeisiin."
+            title: "Digital Platform Development",
+            description: "Vuonna 2012 CHORN laajensi toimintaansa digitaalisten alustojen kehittämiseen, tavoitteena rakentaa skaalautuvia web- ja mobiilisovelluksia nykyaikaisten kehysten ja pilviarkkitehtuurien avulla. Kehitystyö tukee käyttäjiä eri toimialoilla, kuten verkkokaupassa, kiinteistöissä, myynnin esivaiheissa, CRM, Web3, Blockchain:ssä sekä yritysjärjestelmissä, kuten SAP ERP ja S/4HANA. Jokainen ratkaisu suunnitellaan skaalautuvalla arkkitehtuurilla ja mukautuvuudella liiketoiminnan muuttuviin tarpeisiin."
         }
     ],
     stacks: [

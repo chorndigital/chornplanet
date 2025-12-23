@@ -1,25 +1,25 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutFR: IAbout = {
-    "title": "À propos",
+    title: "À propos",
     "span": "Innovation technologique pour la réussite des entreprises",
     "subTitle": "CHORN – CEO | CTO Consultant — Aider les fondateurs à développer la technologie, les équipes et la stratégie",
-    "description": [
+    description: [
         {
-            "title": "Solutions de développement de systèmes (System Development Solutions)",
-            "description": "CHORN propose des solutions de développement de systèmes flexibles grâce à une collaboration à distance, hybride et sur site à Chiang Mai et à Bangkok. Le travail comprend la création d'applications Proof of Concept (PoC) et Minimum Viable Product (MVP), la réalisation d'analyses de systèmes et l'amélioration des plateformes existantes afin de répondre aux besoins commerciaux et technologiques en constante évolution."
+            title: "Solutions de développement de systèmes (System Development Solutions)",
+            description: "CHORN propose des solutions de développement de systèmes flexibles grâce à une collaboration à distance, hybride et sur site à Chiang Mai et Bangkok. Les travaux incluent la création de Proof of Concept (PoC), d’applications Minimum Viable Product (MVP), l’architecture de solutions, la mise à l’échelle, l’analyse des systèmes ainsi que l’évolution des plateformes existantes afin de répondre aux exigences métier et technologiques en constante évolution."
         },
         {
-            "title": "Focus actuel : innovation alimentée par l’IA (AI-Powered Innovation)",
-            "description": "Aujourd’hui, CHORN se concentre sur le développement piloté par l’IA, en intégrant les Large Language Models (LLMs) et des agents d’IA intelligents pour renforcer les capacités des plateformes numériques. Cette approche accélère le développement logiciel, améliore l’efficacité et introduit de nouveaux niveaux d’automatisation et d’intelligence — reflétant le changement majeur du paysage numérique après le lancement de la plateforme OpenAI fin 2022."
+            title: "Focus actuel : innovation alimentée par l’IA (AI-Powered Innovation)",
+            description: "Aujourd’hui, CHORN se concentre sur le développement piloté par l’IA, en intégrant les Large Language Models (LLMs) et des agents d’IA intelligents pour renforcer les capacités des plateformes numériques. Cette approche accélère le développement logiciel, améliore l’efficacité et introduit de nouveaux niveaux d’automatisation et d’intelligence — reflétant le changement majeur du paysage numérique après le lancement de la plateforme OpenAI fin 2022."
         },
         {
-            "title": "Manufacturing Execution Systems (MES)",
-            "description": "CHORN a commencé en 2001 et repose sur une expertise approfondie en informatique, en ingénierie logicielle et matérielle pour la fabrication électronique à grand volume. Le travail impliquait la conception intégrée du matériel, du logiciel et de la mécanique en collaboration avec des équipes R&D. Les domaines d'expertise incluent les Manufacturing Execution Systems (MES), les équipements industriels, les instruments de précision, les protocoles industriels et l'intégration matérielle/logicielle sur mesure. Les projets ont atteint une capacité de production automatisée de plus de 10 millions d’unités par mois, avec un accent sur l’efficacité, la fiabilité et la qualité des produits grâce à l’amélioration continue et à une communication client efficace."
+            title: "Manufacturing Execution Systems (MES)",
+            description: "CHORN a commencé en 2001 et repose sur une expertise approfondie en informatique, en ingénierie logicielle et matérielle pour la fabrication électronique à grand volume. Le travail impliquait la conception intégrée du matériel, du logiciel et de la mécanique en collaboration avec des équipes R&D. Les domaines d'expertise incluent les Manufacturing Execution Systems (MES), les équipements industriels, les instruments de précision, les protocoles industriels et l'intégration matérielle/logicielle sur mesure. Les projets ont atteint une capacité de production automatisée de plus de 10 millions d’unités par mois, avec un accent sur l’efficacité, la fiabilité et la qualité des produits grâce à l’amélioration continue et à une communication client efficace."
         },
         {
-            "title": "Développement de plateformes numériques",
-            "description": "En 2012, CHORN a élargi ses activités au développement de plateformes numériques, visant à créer des applications Web et mobiles évolutives basées sur des frameworks modernes et des architectures cloud. Le développement soutient les utilisateurs dans divers secteurs tels que le commerce électronique, l’immobilier, la prévente, le CRM et les systèmes d’entreprise comme SAP ERP et S/4HANA. Chaque solution est conçue avec une architecture évolutive et une adaptabilité pour s'ajuster aux besoins commerciaux changeants."
+            title: "Développement de plateformes numériques",
+            description: "En 2012, CHORN a élargi ses activités au développement de plateformes numériques, visant à créer des applications Web et mobiles évolutives basées sur des frameworks modernes et des architectures cloud. Le développement soutient les utilisateurs dans divers secteurs tels que le commerce électronique, l’immobilier, la prévente, le CRM, Web3, Blockchain et les systèmes d’entreprise comme SAP ERP et S/4HANA. Chaque solution est conçue avec une architecture évolutive et une adaptabilité pour s'ajuster aux besoins commerciaux changeants."
         }
     ],
     stacks: [

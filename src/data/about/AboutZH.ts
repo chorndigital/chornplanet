@@ -1,25 +1,25 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutZH: IAbout = {
-    "title": "关于",
+    title: "关于",
     "span": "推动业务成功的技术创新",
     "subTitle": "CHORN – CEO | CTO Consultant — 帮助创始人扩展技术、团队和战略",
-    "description": [
+    description: [
         {
-            "title": "系统开发解决方案 (System Development Solutions)",
-            "description": "CHORN 通过在清迈和曼谷的远程(Remote)、混合(Hybrid)以及现场(On-site)协作，提供灵活的系统开发解决方案。工作内容包括创建 Proof of Concept (PoC) 和 Minimum Viable Product (MVP) 应用程序，执行系统分析(System Analysis)，并改进现有平台以满足不断变化的业务和技术需求。"
+            title: "系统开发解决方案 (System Development Solutions)",
+            description: "CHORN 通过在清迈和曼谷开展远程、混合及驻场协作，提供灵活的系统开发解决方案。服务内容包括 Proof of Concept（PoC）和 Minimum Viable Product（MVP）应用开发、解决方案架构设计、系统扩展、系统分析，以及对现有平台的持续优化，以满足不断演进的业务与技术需求。"
         },
         {
-            "title": "当前重点：AI 驱动的创新 (AI-Powered Innovation)",
-            "description": "目前，CHORN 专注于 AI 驱动的开发(AI-Driven Development)，通过整合 Large Language Models (LLMs) 和智能 AI Agents 来增强数字平台的能力。这种方法加速了软件开发，提高了效率，并引入了新的自动化和智能化水平——反映了自 2022 年底 OpenAI 平台推出以来数字领域的重大变革。"
+            title: "当前重点：AI 驱动的创新 (AI-Powered Innovation)",
+            description: "目前，CHORN 专注于 AI 驱动的开发(AI-Driven Development)，通过整合 Large Language Models (LLMs) 和智能 AI Agents 来增强数字平台的能力。这种方法加速了软件开发，提高了效率，并引入了新的自动化和智能化水平——反映了自 2022 年底 OpenAI 平台推出以来数字领域的重大变革。"
         },
         {
-            "title": "Manufacturing Execution Systems (MES)",
-            "description": "CHORN始于2001年，基于在大规模电子制造领域的IT、软件和硬件工程深厚专业知识。工作涉及与研发团队合作进行硬件、软件和机械的集成设计。专业领域包括Manufacturing Execution Systems (MES)、工业设备、精密仪器、工业协议以及定制硬件/软件集成。项目实现了每月超过1000万台的自动化生产能力，强调通过持续改进和高效客户沟通提高效率、可靠性和产品质量。"
+            title: "Manufacturing Execution Systems (MES)",
+            description: "CHORN始于2001年，基于在大规模电子制造领域的IT、软件和硬件工程深厚专业知识。工作涉及与研发团队合作进行硬件、软件和机械的集成设计。专业领域包括Manufacturing Execution Systems (MES)、工业设备、精密仪器、工业协议以及定制硬件/软件集成。项目实现了每月超过1000万台的自动化生产能力，强调通过持续改进和高效客户沟通提高效率、可靠性和产品质量。"
         },
         {
-            "title": "Digital Platform Development",
-            "description": "2012年，CHORN拓展至数字平台开发，旨在基于现代框架和云架构构建可扩展的Web和移动应用。开发工作支持多个行业的用户，如电子商务、房地产、预售、CRM以及企业系统如SAP ERP和S/4HANA。每个解决方案均设计为具有可扩展架构和适应性，以满足不断变化的业务需求。"
+            title: "Digital Platform Development",
+            description: "2012年，CHORN拓展至数字平台开发，旨在基于现代框架和云架构构建可扩展的Web和移动应用。开发工作支持多个行业的用户，如电子商务、房地产、预售、CRM、Web3、Blockchain、以及企业系统如SAP ERP和S/4HANA。每个解决方案均设计为具有可扩展架构和适应性，以满足不断变化的业务需求。"
         }
     ],
     stacks: [

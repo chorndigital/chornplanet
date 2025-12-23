@@ -1,25 +1,25 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutDE: IAbout = {
-    "title": "Über",
+    title: "Über",
     "span": "Technologische Innovation für Geschäftserfolg",
     "subTitle": "CHORN – CEO | CTO Consultant — Unterstützung von Gründern beim Skalieren von Technologie, Teams und Strategie",
-    "description": [
+    description: [
         {
-            "title": "Systementwicklungslösungen (System Development Solutions)",
-            "description": "CHORN bietet flexible Systementwicklungslösungen durch Remote-, Hybrid- und On-Site-Zusammenarbeit in Chiang Mai und Bangkok. Die Arbeit umfasst die Erstellung von Proof of Concept (PoC) und Minimum Viable Product (MVP) Anwendungen, die Durchführung von Systemanalysen und die Verbesserung bestehender Plattformen, um sich an die sich entwickelnden Geschäfts- und Technologieanforderungen anzupassen."
+            title: "Systementwicklungslösungen (System Development Solutions)",
+            description: "CHORN bietet flexible Systementwicklungs­lösungen durch Remote-, Hybrid- und Vor-Ort-Zusammenarbeit in Chiang Mai und Bangkok. Das Leistungsspektrum umfasst die Entwicklung von Proof of Concept (PoC) und Minimum Viable Product (MVP)-Anwendungen, Lösungsarchitektur, Skalierung, Systemanalysen sowie die Weiterentwicklung bestehender Plattformen zur Anpassung an sich wandelnde geschäftliche und technologische Anforderungen."
         },
         {
-            "title": "Heutiger Fokus: KI-gesteuerte Innovation (AI-Powered Innovation)",
-            "description": "Heute konzentriert sich CHORN auf KI-gesteuerte Entwicklung, die Large Language Models (LLMs) und intelligente KI-Agenten integriert, um die Fähigkeiten digitaler Plattformen zu stärken. Dieser Ansatz beschleunigt die Softwareentwicklung, verbessert die Effizienz und führt neue Ebenen der Automatisierung und Intelligenz ein — was den bedeutenden Wandel in der digitalen Landschaft nach dem Start der OpenAI-Plattform Ende 2022 widerspiegelt."
+            title: "Heutiger Fokus: KI-gesteuerte Innovation (AI-Powered Innovation)",
+            description: "Heute konzentriert sich CHORN auf KI-gesteuerte Entwicklung, die Large Language Models (LLMs) und intelligente KI-Agenten integriert, um die Fähigkeiten digitaler Plattformen zu stärken. Dieser Ansatz beschleunigt die Softwareentwicklung, verbessert die Effizienz und führt neue Ebenen der Automatisierung und Intelligenz ein — was den bedeutenden Wandel in der digitalen Landschaft nach dem Start der OpenAI-Plattform Ende 2022 widerspiegelt."
         },
         {
-            "title": "Manufacturing Execution Systems (MES)",
-            "description": "CHORN begann im Jahr 2001 und basiert auf umfassender Expertise in IT, Software- und Hardware-Engineering für die Elektronikfertigung in großen Stückzahlen. Die Arbeit umfasste das integrierte Design von Hardware, Software und Mechanik in Zusammenarbeit mit F&E-Teams. Zu den Spezialgebieten gehören Manufacturing Execution Systems (MES), Industrieanlagen, Präzisionsinstrumente, Industrieprotokolle und kundenspezifische Hardware-/Software-Integration. Projekte erreichten automatisierte Produktionskapazitäten von über 10 Millionen Einheiten pro Monat mit Fokus auf Effizienz, Zuverlässigkeit und Produktqualität durch kontinuierliche Verbesserungen und effektive Kundenkommunikation."
+            title: "Manufacturing Execution Systems (MES)",
+            description: "CHORN begann im Jahr 2001 und basiert auf umfassender Expertise in IT, Software- und Hardware-Engineering für die Elektronikfertigung in großen Stückzahlen. Die Arbeit umfasste das integrierte Design von Hardware, Software und Mechanik in Zusammenarbeit mit F&E-Teams. Zu den Spezialgebieten gehören Manufacturing Execution Systems (MES), Industrieanlagen, Präzisionsinstrumente, Industrieprotokolle und kundenspezifische Hardware-/Software-Integration. Projekte erreichten automatisierte Produktionskapazitäten von über 10 Millionen Einheiten pro Monat mit Fokus auf Effizienz, Zuverlässigkeit und Produktqualität durch kontinuierliche Verbesserungen und effektive Kundenkommunikation."
         },
         {
-            "title": "Digital Platform Development",
-            "description": "Im Jahr 2012 erweiterte CHORN seine Tätigkeit auf die Entwicklung digitaler Plattformen, mit dem Ziel, skalierbare Web- und Mobilanwendungen zu schaffen, die auf modernen Frameworks und Cloud-Architekturen basieren. Die Entwicklungsarbeit unterstützt Benutzer in verschiedenen Branchen wie E-Commerce, Immobilien, Pre-Sales, CRM sowie Unternehmenssysteme wie SAP ERP und S/4HANA. Jede Lösung wird mit skalierbarer Architektur und Anpassungsfähigkeit entwickelt, um sich an die sich verändernden Geschäftsanforderungen anzupassen."
+            title: "Digital Platform Development",
+            description: "Im Jahr 2012 erweiterte CHORN seine Tätigkeit auf die Entwicklung digitaler Plattformen, mit dem Ziel, skalierbare Web- und Mobilanwendungen zu schaffen, die auf modernen Frameworks und Cloud-Architekturen basieren. Die Entwicklungsarbeit unterstützt Benutzer in verschiedenen Branchen wie E-Commerce, Immobilien, Pre-Sales, CRM, Web3, Blockchain sowie Unternehmenssysteme wie SAP ERP und S/4HANA. Jede Lösung wird mit skalierbarer Architektur und Anpassungsfähigkeit entwickelt, um sich an die sich verändernden Geschäftsanforderungen anzupassen."
         }
     ],
     stacks: [

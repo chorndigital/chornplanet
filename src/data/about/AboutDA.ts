@@ -1,25 +1,25 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutDA: IAbout = {
-    "title": "Om",
+    title: "Om",
     "span": "Teknologisk innovation for forretningssucces",
     "subTitle": "CHORN – CEO | CTO Consultant — Hjælper grundlæggere med at skalere teknologi, teams og strategi",
-    "description": [
+    description: [
         {
-            "title": "Systemudviklingsløsninger (System Development Solutions)",
-            "description": "CHORN leverer fleksible systemudviklingsløsninger gennem fjern-, hybrid- og on-site-samarbejde i Chiang Mai og Bangkok. Arbejdet omfatter udvikling af Proof of Concept (PoC) og Minimum Viable Product (MVP) applikationer, udførelse af systemanalyse og forbedring af eksisterende platforme for at tilpasse sig de stadigt udviklende forretnings- og teknologikrav."
+            title: "Systemudviklingsløsninger (System Development Solutions)",
+            description: "CHORN leverer fleksible løsninger inden for systemudvikling gennem remote, hybrid og on-site samarbejde i Chiang Mai og Bangkok. Arbejdet omfatter udvikling af Proof of Concept (PoC), Minimum Viable Product (MVP)-applikationer, løsningsarkitektur, skalering, gennemførelse af systemanalyser samt videreudvikling af eksisterende platforme for at imødekomme ændrede forretnings- og teknologikrav."
         },
         {
-            "title": "Fokus i dag: AI-drevet innovation (AI-Powered Innovation)",
-            "description": "I dag fokuserer CHORN på AI-drevet udvikling, hvor Large Language Models (LLMs) og intelligente AI-agenter integreres for at styrke digitale platformes kapaciteter. Denne tilgang fremskynder softwareudvikling, øger effektiviteten og introducerer nye niveauer af automatisering og intelligens — hvilket afspejler det store skift i den digitale verden efter lanceringen af OpenAI-platformen i slutningen af 2022."
+            title: "Fokus i dag: AI-drevet innovation (AI-Powered Innovation)",
+            description: "I dag fokuserer CHORN på AI-drevet udvikling, hvor Large Language Models (LLMs) og intelligente AI-agenter integreres for at styrke digitale platformes kapaciteter. Denne tilgang fremskynder softwareudvikling, øger effektiviteten og introducerer nye niveauer af automatisering og intelligens — hvilket afspejler det store skift i den digitale verden efter lanceringen af OpenAI-platformen i slutningen af 2022."
         },
         {
-            "title": "Manufacturing Execution Systems (MES)",
-            "description": "CHORN begyndte i 2001, baseret på dyb ekspertise inden for IT, software og hardware engineering til elektronikproduktion i stor skala. Arbejdet omfattede integreret design af hardware, software og mekanik i samarbejde med R&D-ingeniørteams. Specialiserede områder omfatter Manufacturing Execution Systems (MES), industrigrad-udstyr, præcisionsinstrumenter, industrielle protokoller og skræddersyet hardware/software-integration. Projekter har opnået automatiseret produktionskapacitet på over 10 millioner enheder pr. måned med fokus på effektivitet, pålidelighed og produktkvalitet gennem løbende forbedringer og effektiv kundekommunikation."
+            title: "Manufacturing Execution Systems (MES)",
+            description: "CHORN begyndte i 2001, baseret på dyb ekspertise inden for IT, software og hardware engineering til elektronikproduktion i stor skala. Arbejdet omfattede integreret design af hardware, software og mekanik i samarbejde med R&D-ingeniørteams. Specialiserede områder omfatter Manufacturing Execution Systems (MES), industrigrad-udstyr, præcisionsinstrumenter, industrielle protokoller og skræddersyet hardware/software-integration. Projekter har opnået automatiseret produktionskapacitet på over 10 millioner enheder pr. måned med fokus på effektivitet, pålidelighed og produktkvalitet gennem løbende forbedringer og effektiv kundekommunikation."
         },
         {
-            "title": "Digital Platform Development",
-            "description": "I 2012 udvidede CHORN til udvikling af digitale platforme med fokus på at skabe skalerbare web- og mobilapplikationer baseret på moderne frameworks og cloud-arkitekturer. Udviklingsarbejdet understøtter brugere på tværs af brancher såsom e-handel, ejendom, pre-sale, CRM og virksomhedssystemer som SAP ERP og S/4HANA. Hver løsning er designet med skalerbar arkitektur og fleksibilitet til at imødekomme skiftende forretningsbehov."
+            title: "Digital Platform Development",
+            description: "I 2012 udvidede CHORN til udvikling af digitale platforme med fokus på at skabe skalerbare web- og mobilapplikationer baseret på moderne frameworks og cloud-arkitekturer. Udviklingsarbejdet understøtter brugere på tværs af brancher såsom e-handel, ejendom, pre-sale, CRM, Web3, Blockchain og virksomhedssystemer som SAP ERP og S/4HANA. Hver løsning er designet med skalerbar arkitektur og fleksibilitet til at imødekomme skiftende forretningsbehov."
         }
     ],
     stacks: [
