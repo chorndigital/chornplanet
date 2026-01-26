@@ -1,5 +1,5 @@
 import React from "react";
-import {IPolicyContent} from "@/data/policy/model/IPolicyContent";
+import {IPolicyContent} from "@/data/policy/model/IPolicy";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import type {Metadata} from "next";
 import {headers} from "next/headers";
@@ -14,35 +14,29 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const privacyPolicy = InfoTranslation[lang].PrivacyPolicy
 
     return (
-        <>
-            <div className="privacy-policy-area ptb-100">
-                <div className="container">
-                    <h1>{InfoTranslation[lang].PrivacyPolicy.title}</h1>
-                    <div className="privacy-content">
-                        {InfoTranslation[lang].PrivacyPolicy.list.map((item: IPolicyContent, iItem: number) => (
-                            <div key={iItem} className="addition-ptb-20">
-                                {item.description != undefined && (
-                                    <p dangerouslySetInnerHTML={{__html: item.description}}/>
-                                )}
+        <div className="terms-of-service-area smart-container-top">
+            <div className="container">
+                <h1>{privacyPolicy.title}</h1>
+                <h2>{privacyPolicy.subTitle}</h2>
+                <p>{privacyPolicy.description}</p>
 
-                                {item.isDetailed &&
-                                    item.details?.map((detail: IPolicyContent, iDetail) => (
-                                        <div key={iDetail} className="addition-ptb-20">
-                                            <h4>{detail.title}</h4>
-
-                                            {detail.description != undefined && (
-                                                <p dangerouslySetInnerHTML={{__html: detail.description}}/>
-                                            )}
-                                        </div>
-                                    ))
-                                }
-                            </div>
-                        ))}
-                    </div>
+                <div className="smart-privacy-container">
+                    {privacyPolicy.contents.map((content: IPolicyContent, index: number) => (
+                        <div key={index} className="smart-privacy-item">
+                            <h3>{content.title}</h3>
+                            {content.details && content.details.map((detail, index: number) => (
+                                <div key={index} className="smart-privacy-bullet">
+                                    <p className="title" dangerouslySetInnerHTML={{__html: detail.title}}/>
+                                    <p dangerouslySetInnerHTML={{__html: detail.description}}/>
+                                </div>
+                            ))}
+                        </div>
+                    ))}
                 </div>
             </div>
-        </>
+        </div>
     );
 }

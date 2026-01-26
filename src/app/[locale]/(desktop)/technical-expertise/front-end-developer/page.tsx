@@ -18,15 +18,15 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <FrontEndPageMain lang={lang}/>
             <CloudExperience lang={lang}/>
             <HomeFeatureMain lang={lang}/>
             <SchemaMarkupServicePage
                 name="Frontend Development Services | CHORN"
                 description="CHORN provides expert frontend development services, specializing in modern frameworks like Next.js, React, Angular, Vue, HTML5, and CSS3. Build responsive and scalable websites with cutting-edge technologies."
-                url="https://chorndigital.com/technical-expertise/front-end-developer/"
+                url="https://chorndigital.com/en/technical-expertise/front-end-developer/"
             />
-        </>
+        </div>
     );
 };

@@ -45,20 +45,12 @@ export const FooterDA: IFooter = {
     ],
     importantLinks: [
         {
-            "label": "Om",
-            "link": "/about-chorn"
+            label: "Om",
+            link: "/about-chorn"
         },
         {
-            "label": "Kontakt",
-            "link": "/contact"
-        },
-        {
-            label: "Servicepakker",
-            link: "/service-packages",
-        },
-        {
-            label: "Servicevilkår",
-            link: "/terms-of-service"
+            label: "Kontakt",
+            link: "/contact"
         },
         {
             label: "Privatlivspolitik",
@@ -67,7 +59,11 @@ export const FooterDA: IFooter = {
         {
             label: "Arbejdspladspolitik",
             link: "/workplace-policy"
-        }
+        },
+        {
+            label: "Kontakt",
+            link: "/contact/",
+        },
     ],
     featuredLinks: [
         {

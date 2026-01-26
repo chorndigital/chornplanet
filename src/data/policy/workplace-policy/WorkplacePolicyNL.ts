@@ -2,9 +2,9 @@ import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const WorkplacePolicyNL: IPolicy = {
     title: "Werkplekbeleid",
-    subtitle: "",
+    subTitle: "",
     description: "",
-    list: [
+    contents: [
         {
             title: "Werkmodellen",
             description: "CHORN past zich aan verschillende werkmodellen aan, waaronder werken op afstand, op kantoor en hybride werken, afgestemd op de specifieke behoeften van elk project. Deze aanpak zorgt voor naadloze communicatie en efficiëntie.",

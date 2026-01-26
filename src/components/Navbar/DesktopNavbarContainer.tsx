@@ -6,7 +6,7 @@ import React from "react";
 import {useMobileMenuVisible} from "@/provider/hooks/hookStateApp";
 import {usePathname} from "next/navigation";
 import Link from "next/link";
-import {IsActiveNavbar1} from "@/lib/utils";
+import {IsActiveNavbar} from "@/lib/utils";
 import clsx from "clsx";
 
 export default function DesktopNavbarContainer({lang}: { lang: string }) {
@@ -23,11 +23,11 @@ export default function DesktopNavbarContainer({lang}: { lang: string }) {
                 <div className="nav-line1-container">
                     {InfoTranslation[lang].Navbar.map(
                         (navbar: INavbar, index) => {
-                            const isActiveNavbar1 = IsActiveNavbar1(pathname, lang, navbar)
+                            const isActiveNavbar = IsActiveNavbar(pathname, navbar)
                             return (
-                                <Link key={index} href={"/" + lang + "/" + navbar.link}>
+                                <Link key={index} href={"/" + lang + navbar.link}>
                                     <div key={index} className={clsx("nav-line1-item", {
-                                        "active": isActiveNavbar1
+                                        "active": isActiveNavbar
                                     })}>
                                         {navbar.label}
                                     </div>

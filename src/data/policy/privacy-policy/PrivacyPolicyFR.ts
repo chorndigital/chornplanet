@@ -1,71 +1,74 @@
-import { IPolicy } from "@/data/policy/model/IPolicy";
+import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const PrivacyPolicyFR: IPolicy = {
     title: "Politique de Confidentialité",
-    subtitle: "",
-    description: "",
-    list: [
-        {
-            title: "Introduction",
-            description: "CHORN respecte votre vie privée et s'engage à protéger vos informations personnelles. Cette politique de confidentialité explique comment les informations peuvent être traitées lors de l'utilisation du site Web de CHORN, en particulier concernant l'utilisation des cookies à des fins d'analyse.",
-            isDetailed: false,
-        },
+    subTitle: "Introduction",
+    description:
+        "CHORN Digital respecte la protection de la vie privée et applique, par principe, une approche fondée sur la minimisation des données. La présente politique de confidentialité explique la manière dont les informations sont traitées dans le cadre de l’utilisation du site web de CHORN Digital, y compris l’utilisation limitée et fondée sur le consentement des cookies à des fins analytiques. Le site ne collecte pas de données à caractère personnel par défaut.",
+    contents: [
         {
             title: "1. Informations Collectées",
-            description: "Les informations personnelles ne sont pas collectées directement auprès des visiteurs sauf s'ils consentent à l'utilisation des cookies à des fins d'analyse. Lorsque les cookies sont activés, des informations non identifiables personnellement telles que le comportement de navigation, les pages consultées et les interactions avec le site peuvent être collectées via des outils tiers comme Google Analytics.",
-            isDetailed: false,
+            details: [
+                {
+                    title: "1.1 Données à Caractère Personnel",
+                    description:
+                        "CHORN Digital ne collecte pas, en principe, de données à caractère personnel concernant les visiteurs. L’accès et l’utilisation du site ne nécessitent pas la fourniture d’informations personnelles telles que le nom, les coordonnées ou tout autre identifiant. Lorsque des cookies analytiques sont activés avec le consentement de l’utilisateur, seules des données d’utilisation anonymisées et agrégées sont traitées."
+                }
+            ]
         },
         {
             title: "2. Cookies",
             description: "",
-            isDetailed: true,
             details: [
                 {
                     title: "2.1 Utilisation des Cookies",
-                    description: "Le site Web de CHORN utilise des cookies, mais uniquement si le consentement est donné via le module de consentement aux cookies. Les cookies sont de petits fichiers texte stockés sur votre appareil qui aident à analyser le trafic du site et à améliorer l'expérience utilisateur."
+                    description:
+                        "Le site utilise des cookies uniquement lorsque l’utilisateur a donné son consentement explicite via le module de consentement aux cookies. Les cookies sont de petits fichiers texte stockés sur l’appareil de l’utilisateur et servent exclusivement à soutenir une compréhension analytique de base de l’utilisation et des performances du site."
                 },
                 {
-                    title: "2.2 Google Analytics",
-                    description: "Une fois les cookies acceptés, des données anonymisées sur l'utilisation du site Web sont collectées via Google Analytics. Ces données incluent le nombre de visiteurs, le comportement de navigation et les pages populaires, aidant ainsi à optimiser les performances du site Web. Aucune information personnellement identifiable n'est collectée."
+                    title: "2.2 Services d’Analyse",
+                    description:
+                        "Lorsque le consentement est accordé, des données d’utilisation anonymisées peuvent être collectées par l’intermédiaire de services d’analyse fournis par des tiers, tels que Google Analytics. Ces données peuvent inclure des informations générales telles que les pages consultées, les schémas de navigation et des statistiques d’utilisation agrégées. CHORN Digital n’utilise pas ces données à des fins de profilage, de marketing ou de suivi inter-sites, et ne collecte pas intentionnellement de données permettant d’identifier les utilisateurs."
                 },
                 {
-                    title: "2.3 Vos Choix",
-                    description: "Vous pouvez contrôler l'utilisation des cookies en acceptant ou en refusant via le module de consentement aux cookies. Les paramètres des cookies peuvent également être gérés via votre navigateur. Notez que le refus des cookies peut limiter certaines fonctionnalités du site Web."
+                    title: "2.3 Choix de l’Utilisateur",
+                    description:
+                        "L’utilisateur peut accepter ou refuser les cookies à tout moment via le module de consentement aux cookies. Les paramètres des cookies peuvent également être gérés à partir des paramètres du navigateur. Le refus des cookies n’empêche pas l’accès au site, mais peut limiter la collecte de données d’utilisation agrégées destinées à l’amélioration du site."
                 }
             ]
         },
         {
             title: "3. Sécurité des Données",
             description: "",
-            isDetailed: true,
             details: [
                 {
                     title: "3.1 Mesures de Sécurité",
-                    description: "Des mesures de sécurité raisonnables sont mises en place pour protéger les informations non personnelles collectées via les cookies et garantir l'intégrité du site Web de CHORN. Aucune information personnelle n'est collectée ou stockée sans consentement."
+                    description:
+                        "Des mesures techniques et organisationnelles appropriées sont mises en œuvre afin de protéger les données anonymisées et non personnelles traitées dans le cadre de l’utilisation du site. CHORN Digital ne conserve pas de données à caractère personnel, sauf si cela est nécessaire et fondé sur le consentement explicite de l’utilisateur."
                 }
             ]
         },
         {
-            title: "4. Liens vers des Sites Tiers",
+            title: "4. Liens vers des Tiers",
             description: "",
-            isDetailed: true,
             details: [
                 {
-                    title: "4.1 Liens Externes",
-                    description: "Le site Web de CHORN peut inclure des liens vers des sites Web tiers. Veuillez noter que CHORN n'est pas responsable des pratiques de confidentialité ou du contenu de ces sites tiers. Il est recommandé de consulter les politiques de confidentialité des sites externes visités."
+                    title: "4.1 Sites Externes",
+                    description:
+                        "Le site peut contenir des liens vers des sites web externes ou appartenant à des tiers. CHORN Digital n’est pas responsable des pratiques en matière de confidentialité, des politiques ou du contenu de ces sites. Les utilisateurs sont invités à consulter les politiques de confidentialité des sites externes qu’ils choisissent de visiter."
                 }
             ]
         },
         {
             title: "5. Modifications de la Politique de Confidentialité",
             description: "",
-            isDetailed: true,
             details: [
                 {
-                    title: "5.1 Modifications",
-                    description: "Cette politique de confidentialité peut être mise à jour périodiquement. Les modifications prennent effet immédiatement après leur publication sur cette page. L'utilisation continue du site Web après les mises à jour constitue une acceptation de la politique de confidentialité révisée."
+                    title: "5.1 Mises à Jour de la Politique",
+                    description:
+                        "La présente politique de confidentialité peut être mise à jour périodiquement afin de refléter les évolutions légales ou les pratiques du site. Toute modification prend effet dès sa publication sur cette page. La poursuite de l’utilisation du site après la publication des modifications vaut prise de connaissance de la politique de confidentialité mise à jour."
                 }
             ]
         }
-    ],
+    ]
 };

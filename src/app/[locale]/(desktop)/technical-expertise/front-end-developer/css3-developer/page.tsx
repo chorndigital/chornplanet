@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsCss3 lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="CSS3 Development Services | CHORN"
                 description="Enhance your web applications with CHORN’s CSS3 development services for modern and visually appealing designs."
-                url="https://chorndigital.com/technical-expertise/front-end-developer/css3-developer/"
+                url="https://chorndigital.com/en/technical-expertise/front-end-developer/css3-developer/"
             />
-        </>
+        </div>
     );
 }

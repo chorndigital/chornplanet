@@ -20,7 +20,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Service Packages | Full-Time, Web3, NFT & Urgent Software Support"
                 description="Explore flexible service packages including full-time, shared-time, Web3, NFT development, and urgent bug fixing — tailored to your business goals."
-                url="https://chorndigital.com/service-packages/"
+                url="https://chorndigital.com/en/service-packages/"
             />
         </>
     );

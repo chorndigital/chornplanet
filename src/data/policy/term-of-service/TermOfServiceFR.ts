@@ -1,36 +1,48 @@
 import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const TermOfServiceFR: IPolicy = {
-    title: "Conditions d'utilisation",
-    subtitle: "",
-    description: "",
-    list: [
+    title: "Conditions d’Utilisation",
+    subTitle: "Bienvenue sur le site web de CHORN Digital",
+    description:
+        "Les présentes conditions d’utilisation (\"Conditions\") régissent l’accès et l’utilisation de ce site web (\"Site\"). En accédant au Site ou en l’utilisant, vous reconnaissez avoir lu, compris et accepté d’être lié par les présentes Conditions. Si vous n’acceptez pas ces Conditions, vous devez cesser toute utilisation du Site.",
+    contents: [
         {
-            title: "Bienvenue sur le site CHORN",
-            description: "Ces Conditions d'utilisation (\"Conditions\") régissent l'utilisation de ce site web (\"Site\"). En accédant ou en utilisant le Site, vous acceptez de vous conformer à ces Conditions. Si vous n'acceptez pas ces Conditions, veuillez cesser d'utiliser le Site."
+            title: "1. Utilisation du Site",
+            description:
+                "1.1 CHORN Digital fournit des informations relatives à l’expertise technique, aux cadres conceptuels, aux méthodologies de conception et à la compréhension systémique exclusivement à des fins d’information générale et d’illustration. Le contenu de ce Site ne constitue pas un conseil juridique, financier, technique, réglementaire ou professionnel et ne doit pas être utilisé comme base de décision sans vérification indépendante et consultation de professionnels compétents."
         },
         {
-            title: "1. Utilisation du site",
-            description: "1.1 CHORN fournit un aperçu de l'expertise technique à des fins d'information uniquement. Les informations de ce site ne doivent pas être utilisées à des fins de référence ou à d'autres fins sans autorisation."
+            title: "2. Propriété Intellectuelle",
+            description:
+                "2.1 L’ensemble du contenu du Site, y compris, sans s’y limiter, les textes, graphiques, logos, images, schémas, visualisations et supports conceptuels, est la propriété de CHORN Digital ou fait l’objet d’une licence accordée à CHORN Digital, et est protégé par les lois applicables en matière de propriété intellectuelle.",
+            expand:
+                "2.2 Aucun contenu du Site ne peut être copié, reproduit, distribué, modifié, publié ou utilisé de quelque manière que ce soit, en tout ou en partie, sans l’autorisation écrite préalable de CHORN Digital, sauf si une telle utilisation est expressément autorisée par la législation applicable."
         },
         {
-            title: "2. Propriété intellectuelle",
-            description: "2.1 Tout le contenu du site, y compris les textes, graphiques, logos et images, est la propriété de CHORN ou de ses fournisseurs de contenu et est protégé par les lois sur la propriété intellectuelle.",
-            expand: "2.2 Le contenu du site ne peut être reproduit, distribué, modifié ou utilisé de toute autre manière sans l'autorisation écrite expresse de CHORN."
+            title: "3. Exclusion de Garanties",
+            description:
+                "3.1 Le Site et son contenu sont fournis « en l’état » et « selon disponibilité ». CHORN Digital ne donne aucune déclaration ni garantie, expresse ou implicite, concernant le fonctionnement, la disponibilité, l’exactitude, l’exhaustivité ou la fiabilité du Site ou de son contenu.",
+            expand:
+                "3.2 CHORN Digital ne garantit pas que le Site sera ininterrompu, sécurisé, exempt d’erreurs, de virus ou d’autres composants potentiellement nuisibles."
         },
         {
-            title: "3. Clause de non-responsabilité",
-            description: "3.1 Le site est fourni \"en l'état\" et \"tel que disponible\". Aucune déclaration ou garantie, expresse ou implicite, n'est faite concernant le fonctionnement du site ou les informations, contenus ou matériaux qu'il contient.",
-            expand: "3.2 Il n'existe aucune garantie que le site sera ininterrompu, exempt d'erreurs ou sécurisé contre les composants nuisibles."
+            title: "4. Limitation de Responsabilité",
+            description:
+                "4.1 Dans les limites autorisées par la législation applicable, CHORN Digital ne saurait être tenu responsable de toute perte, dommage ou dépense résultant de l’accès au Site, de son utilisation ou de la confiance accordée à son contenu, ou en lien avec ceux-ci.",
+            expand:
+                "4.2 Cette limitation de responsabilité s’applique à toutes les formes de responsabilité, y compris les dommages directs, indirects, accessoires, consécutifs, spéciaux ou punitifs, même si CHORN Digital a été informé de la possibilité de tels dommages."
         },
         {
-            title: "4. Limitation de responsabilité",
-            description: "4.1 Dans la mesure maximale permise par la loi, CHORN décline toute responsabilité pour toute perte ou dommage résultant de l'utilisation du site.",
-            expand: "4.2 CHORN ne sera pas responsable des dommages directs, indirects, accessoires, spéciaux ou consécutifs résultant de l'utilisation ou de l'incapacité d'utiliser le site."
+            title: "5. Contenu Conceptuel, Généré par l’IA et Orienté vers l’Avenir",
+            description:
+                "5.1 Certains contenus du Site, y compris des images, visualisations, scénarios et éléments descriptifs, peuvent être générés, assistés ou améliorés par des systèmes d’intelligence artificielle (IA) et sont présentés uniquement à titre conceptuel, exploratoire ou illustratif.",
+            expand:
+                "5.2 Ces contenus ne constituent en aucun cas des promesses, garanties, engagements ou prévisions concernant des développements, mises en œuvre, performances ou résultats futurs. Ils ont pour seul objectif de démontrer des capacités analytiques, des méthodologies de conception et une compréhension systémique. CHORN Digital s’inscrit dans le principe directeur selon lequel les futurs sont conçus, évalués et gouvernés, et non commercialisés ou promis."
         },
         {
-            title: "5. Modifications des Conditions",
-            description: "5.1 Ces Conditions peuvent être modifiées à tout moment. Les modifications prennent effet immédiatement après leur publication sur le site. La poursuite de l'utilisation du site après les modifications constitue une acceptation des Conditions mises à jour."
+            title: "6. Modifications des Conditions",
+            description:
+                "6.1 CHORN Digital se réserve le droit de modifier ou de mettre à jour les présentes Conditions à tout moment. Toute modification prendra effet dès sa publication sur le Site. La poursuite de l’utilisation du Site après la publication de telles modifications vaut acceptation des Conditions révisées."
         }
-    ],
+    ]
 };

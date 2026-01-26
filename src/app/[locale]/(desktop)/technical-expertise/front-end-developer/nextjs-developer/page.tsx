@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsNextJS lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Next.js Development Services | CHORN"
                 description="Expert Next.js development services by CHORN. Enhance your web applications with scalable and high-performance solutions using Next.js."
-                url="https://chorndigital.com/technical-expertise/front-end-developer/nextjs-developer"
+                url="https://chorndigital.com/en/technical-expertise/front-end-developer/nextjs-developer"
             />
-        </>
+        </div>
     );
 }

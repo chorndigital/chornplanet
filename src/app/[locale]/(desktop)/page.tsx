@@ -13,6 +13,7 @@ import {headers} from "next/headers";
 import AiPloyLandingPage from "@/components/AiCompanions/Main/AiPloyLandingPage";
 import AiSolutionsMain from "@/components/AiSolutions/AiSolutionsMain";
 import Web3PageMain from "@/components/Services/web3-blockchain-development/Web3PageMain";
+import HomeSlideFull from "@/components/Home/HomeSlideFull";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -59,7 +60,7 @@ export default async function Home() {
 
     return (
         <>
-            <HomeWorkspace lang={lang}/>
+            <HomeSlideFull lang={lang}/>
             <HomeFeatureMain lang={lang} isTopSpace={true}/>
             <CloudExperience lang={lang} isHome={true}/>
             <HomeFrontEndContainer lang={lang}/>

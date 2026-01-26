@@ -24,7 +24,7 @@ export default function MenuContainer({lang}: { lang: string }) {
                             key={index}
                             lang={lang}
                             pathname={pathname}
-                            navbar1={navbar}
+                            navbar={navbar}
                         />
                 )}
             </ul>

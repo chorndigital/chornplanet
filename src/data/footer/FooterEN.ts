@@ -53,10 +53,6 @@ export const FooterEN: IFooter = {
             link: "/contact"
         },
         {
-            label: "Service Packages",
-            link: "/service-packages"
-        },
-        {
             label: "Terms of services",
             link: "/terms-of-service"
         },
@@ -67,7 +63,11 @@ export const FooterEN: IFooter = {
         {
             label: "Workplace Policy",
             link: "/workplace-policy"
-        }
+        },
+        {
+            label: "Contact",
+            link: "/contact/",
+        },
     ],
     featuredLinks: [
         {

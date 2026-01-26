@@ -1,8 +1,18 @@
-import {IPolicyContent} from "@/data/policy/model/IPolicyContent";
-
 export interface IPolicy {
     title: string
-    subtitle: string
+    subTitle: string
     description: string
-    list: IPolicyContent[]
+    contents: IPolicyContent[]
+}
+
+export interface IPolicyContent {
+    title: string,
+    description?: string
+    expand?: string,
+    details?: IPolicyDetail[]
+}
+
+export interface IPolicyDetail {
+    title: string,
+    description: string,
 }

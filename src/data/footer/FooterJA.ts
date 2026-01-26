@@ -45,16 +45,12 @@ export const FooterJA: IFooter = {
     ],
     importantLinks: [
         {
-            "label": "会社情報",
-            "link": "/about-chorn"
+            label: "会社情報",
+            link: "/about-chorn"
         },
         {
-            "label": "お問い合わせ",
-            "link": "/contact"
-        },
-        {
-            label: "サービスパッケージ",
-            link: "/service-packages",
+            label: "お問い合わせ",
+            link: "/contact"
         },
         {
             label: "利用規約",
@@ -67,7 +63,11 @@ export const FooterJA: IFooter = {
         {
             label: "職場ポリシー",
             link: "/workplace-policy"
-        }
+        },
+        {
+            label: "お問い合わせ",
+            link: "/contact/",
+        },
     ],
     featuredLinks: [
         {

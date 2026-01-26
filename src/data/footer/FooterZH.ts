@@ -45,16 +45,12 @@ export const FooterZH: IFooter = {
     ],
     importantLinks: [
         {
-            "label": "关于我们",
-            "link": "/about-chorn"
+            label: "关于我们",
+            link: "/about-chorn"
         },
         {
-            "label": "联系我们",
-            "link": "/contact"
-        },
-        {
-            label: "服务套餐",
-            link: "/service-packages",
+            label: "联系我们",
+            link: "/contact"
         },
         {
             label: "服务条款",
@@ -67,7 +63,11 @@ export const FooterZH: IFooter = {
         {
             label: "工作场所政策",
             link: "/workplace-policy"
-        }
+        },
+        {
+            label: "联系我们",
+            link: "/contact/",
+        },
     ],
     featuredLinks: [
         {

@@ -1,0 +1,93 @@
+.smart-container-top {
+  margin-top: 30px;
+}
+
+.vision-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+}
+
+/* Clickable card */
+.vision-card {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover (desktop only) */
+.vision-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Image wrapper */
+.vision-image-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Image */
+.vision-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+/* Zoom image on hover */
+.vision-card:hover .vision-image {
+  transform: scale(1.05);
+}
+
+/* Text box */
+.vision-text-box {
+  margin-top: 12px;
+}
+
+.vision-text-box p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vision-text-box strong {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.vision-text-box span {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .vision-bottom-container {
+    gap: 16px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .vision-bottom-container {
+    flex-direction: column;
+  }
+}
+
+.neo-image-container {
+  margin-bottom: 5px;
+}
+
+.neo-tag {
+  color: #808080;
+  margin-bottom: 10px;
+
+  &.slide {
+
+  }
+}

@@ -2,9 +2,9 @@ import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const WorkplacePolicyFI: IPolicy = {
     title: "Työpaikkakäytäntö",
-    subtitle: "",
+    subTitle: "",
     description: "",
-    list: [
+    contents: [
         {
             title: "Työmallit",
             description: "CHORN mukautuu erilaisiin työskentelymalleihin, mukaan lukien etätyö, toimistotyö ja hybridityö, räätälöiden ne kunkin projektin erityistarpeisiin. Tämä lähestymistapa varmistaa sujuvan viestinnän ja tehokkuuden.",

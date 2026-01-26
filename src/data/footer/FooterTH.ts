@@ -53,10 +53,6 @@ export const FooterTH: IFooter = {
             link: "/contact"
         },
         {
-            label: "แพ็คเกจบริการ",
-            link: "/service-packages"
-        },
-        {
             label: "เงื่อนไขการให้บริการ",
             link: "/terms-of-service"
         },
@@ -67,7 +63,11 @@ export const FooterTH: IFooter = {
         {
             label: "นโยบายสถานที่ทำงาน",
             link: "/workplace-policy"
-        }
+        },
+        {
+            label: "ติดต่อ",
+            link: "/contact/",
+        },
     ],
     featuredLinks: [
         {

@@ -2,9 +2,9 @@ import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const WorkplacePolicyJA: IPolicy = {
     title: "職場ポリシー",
-    subtitle: "",
+    subTitle: "",
     description: "",
-    list: [
+    contents: [
         {
             title: "働き方モデル",
             description: "CHORNは、リモートワーク、オフィス勤務、ハイブリッドなど、さまざまな勤務形態に適応し、各プロジェクトの特定のニーズに合わせて調整します。このアプローチにより、円滑なコミュニケーションと効率性が確保されます。",

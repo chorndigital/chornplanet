@@ -2,9 +2,9 @@ import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const WorkplacePolicyKO: IPolicy = {
     title: "직장 정책",
-    subtitle: "",
+    subTitle: "",
     description: "",
-    list: [
+    contents: [
         {
             title: "근무 모델",
             description: "CHORN은 원격 근무, 사무실 근무 및 하이브리드 근무를 포함한 다양한 업무 방식을 지원하며, 각 프로젝트의 특정 요구 사항에 맞게 조정됩니다. 이 접근 방식은 원활한 커뮤니케이션과 효율성을 보장합니다.",

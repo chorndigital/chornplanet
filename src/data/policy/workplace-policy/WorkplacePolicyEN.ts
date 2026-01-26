@@ -2,9 +2,9 @@ import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const WorkplacePolicyEN: IPolicy = {
     title: "Workplace Policy",
-    subtitle: "",
+    subTitle: "",
     description: "",
-    list: [
+    contents: [
         {
             title: "Work Models",
             description: "CHORN adapts to various work models, including remote, in-office, and hybrid setups, tailoring them to the specific needs of each project. This approach ensures seamless communication and efficiency.",

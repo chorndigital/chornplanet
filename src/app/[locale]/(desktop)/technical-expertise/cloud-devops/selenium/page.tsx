@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsSelenium lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Selenium Testing Services | CHORN"
                 description="CHORN offers comprehensive Selenium testing services to ensure the quality and performance of your applications through automated testing."
-                url="https://chorndigital.com/technical-expertise/cloud-devops/selenium/"
+                url="https://chorndigital.com/en/technical-expertise/cloud-devops/selenium/"
             />
-        </>
+        </div>
     )
 }

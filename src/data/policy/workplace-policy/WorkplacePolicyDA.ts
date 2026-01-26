@@ -2,9 +2,9 @@ import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const WorkplacePolicyDA: IPolicy = {
     title: "Arbejdsplads Politik",
-    subtitle: "",
+    subTitle: "",
     description: "",
-    list: [
+    contents: [
         {
             title: "Arbejdsmodeller",
             description: "CHORN tilpasser sig forskellige arbejdsmodeller, herunder fjernarbejde, kontorarbejde og hybridmodeller, skræddersyet til de specifikke behov i hvert projekt. Denne tilgang sikrer problemfri kommunikation og effektivitet.",

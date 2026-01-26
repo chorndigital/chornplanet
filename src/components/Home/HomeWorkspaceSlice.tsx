@@ -1,3 +1,5 @@
+// src/components/Home/HomeWorkspaceSlice.tsx
+
 "use client"
 
 import {Autoplay, FreeMode, Navigation} from "swiper/modules";

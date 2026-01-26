@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsVue lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Vue.js Development Services | CHORN"
                 description="CHORN specializes in Vue.js development to create interactive and scalable web applications."
-                url="https://chorndigital.com/technical-expertise/front-end-developer/vue-developer/"
+                url="https://chorndigital.com/en/technical-expertise/front-end-developer/vue-developer/"
             />
-        </>
+        </div>
     )
 }

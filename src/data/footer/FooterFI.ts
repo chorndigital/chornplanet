@@ -45,16 +45,12 @@ export const FooterFI: IFooter = {
     ],
     importantLinks: [
         {
-            "label": "Tietoa",
-            "link": "/about-chorn"
+            label: "Tietoa",
+            link: "/about-chorn"
         },
         {
-            "label": "Yhteystiedot",
-            "link": "/contact"
-        },
-        {
-            label: "Palvelupaketit",
-            link: "/service-packages",
+            label: "Yhteystiedot",
+            link: "/contact"
         },
         {
             label: "Käyttöehdot",
@@ -67,7 +63,11 @@ export const FooterFI: IFooter = {
         {
             label: "Työpaikkakäytäntö",
             link: "/workplace-policy"
-        }
+        },
+        {
+            label: "Yhteystiedot",
+            link: "/contact/",
+        },
     ],
     featuredLinks: [
         {
@@ -87,7 +87,7 @@ export const FooterFI: IFooter = {
             link: "/technical-expertise/cloud-devops/"
         },
         {
-            label:  "LLM-AI LINE-integraatio",
+            label: "LLM-AI LINE-integraatio",
             link: "/ai-companions/fah/",
         },
         {

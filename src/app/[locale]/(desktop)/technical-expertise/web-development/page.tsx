@@ -5,6 +5,7 @@ import {SchemaMarkupServicePage} from "@/components/GoogleSchemaMarkup/SchemaMar
 import WebDevelopmentPageMain from "@/components/Services/WebDevelopment/WebDevelopmentPageMain";
 import {headers} from "next/headers";
 import {MetadataWebDevelopment} from "@/metadata/main/MetadataWebDevelopment";
+import HomeFeatureMain from "@/components/Features/HomeFeatureMain";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -17,14 +18,15 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
+            <HomeFeatureMain lang={lang} isHideTopTitle={true}/>
             <WebDevelopmentPageMain lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Web Development Services | CHORN | Custom Software & Technology Solutions"
                 description="Explore CHORN's web development services, including expertise in Next.js, React, Angular, Vue, and more. CHORN offers tailored solutions for businesses across various domains such as Digital Marketing, Blockchain, E-Commerce, and more."
-                url="https://chorndigital.com/technical-expertise/web-development/"
+                url="https://chorndigital.com/en/technical-expertise/web-development/"
             />
-        </>
+        </div>
     );
 }

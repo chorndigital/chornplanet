@@ -30,7 +30,7 @@ export const Contact2025: IContact = {
         label: "GitHub",
         isLink: true,
         link: "https://github.com/chorndigital",
-        linkText: "CHORN Digital",
+        linkText: "GitHub CHORN Digital",
         button: ""
     },
     linkedin: {
@@ -38,15 +38,15 @@ export const Contact2025: IContact = {
         label: "LinkedIn",
         isLink: true,
         link: "https://www.linkedin.com/company/chorn",
-        linkText: "CHORN LinkedIn",
+        linkText: "LinkedIn CHORN Digital",
         button: ""
     },
     line: {
         icon: "",
         label: "Line OA",
         isLink: false,
-        link: "https://line.me/R/ti/p/@813hbixu",
-        linkText: "Line OA Development",
+        link: "https://lin.ee/YYn0ZYW",
+        linkText: "Line - CHORN Digital",
         button: "https://scdn.line-apps.com/n/line_add_friends/btn/en.png",
     },
     contacts: [

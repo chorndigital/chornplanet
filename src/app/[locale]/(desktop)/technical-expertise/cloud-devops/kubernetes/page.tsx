@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsKubernetes lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Kubernetes DevOps Services | CHORN"
                 description="CHORN provides Kubernetes-based DevOps services for automating deployment, scaling, and management of containerized applications."
-                url="https://chorndigital.com/technical-expertise/cloud-devops/kubernetes/"
+                url="https://chorndigital.com/en/technical-expertise/cloud-devops/kubernetes/"
             />
-        </>
+        </div>
     )
 }

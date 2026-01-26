@@ -2,9 +2,9 @@ import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const WorkplacePolicyDE: IPolicy = {
     title: "Arbeitsplatzrichtlinie",
-    subtitle: "",
+    subTitle: "",
     description: "",
-    list: [
+    contents: [
         {
             title: "Arbeitsmodelle",
             description: "CHORN passt sich verschiedenen Arbeitsmodellen an, einschließlich Remote-, Büro- und Hybridarbeit, und richtet sie auf die spezifischen Anforderungen jedes Projekts aus. Dieser Ansatz gewährleistet eine nahtlose Kommunikation und Effizienz.",

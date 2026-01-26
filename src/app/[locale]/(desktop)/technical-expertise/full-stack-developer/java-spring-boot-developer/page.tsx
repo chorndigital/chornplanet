@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsJava lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Java Spring Boot Full Stack Development | CHORN"
                 description="CHORN offers Java Spring Boot full stack development services to build robust and scalable enterprise applications."
-                url="https://chorndigital.com/technical-expertise/full-stack-developer/java-spring-boot-developer/"
+                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/java-spring-boot-developer/"
             />
-        </>
+        </div>
     )
 }

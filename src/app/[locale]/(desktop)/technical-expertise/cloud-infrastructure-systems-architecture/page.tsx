@@ -19,15 +19,15 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <CloudInfraPageMain lang={lang}/>
             <CloudExperience lang={lang}/>
             <HomeFeatureMain lang={lang}/>
             <SchemaMarkupServicePage
                 name="Cloud Solution Architecture & Systems Analysis | CHORN | AWS, Azure, GCP, DigitalOcean"
                 description="CHORN delivers expert cloud solution architecture and system analysis services. We optimize cloud infrastructures across AWS, Azure, GCP, and DigitalOcean, ensuring performance, scalability, and cost-efficiency."
-                url="https://chorndigital.com/technical-expertise/cloud-solution-architecture-systems-analysis/"
+                url="https://chorndigital.com/en/technical-expertise/cloud-solution-architecture-systems-analysis/"
             />
-        </>
+        </div>
     )
 }

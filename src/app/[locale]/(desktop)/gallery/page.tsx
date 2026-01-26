@@ -20,12 +20,12 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <GalleryPageMain lang={lang}/>
             <GalleryModuleBottom/>
             <CloudExperience lang={lang}/>
             <AiAomLandingPage lang={lang}/>
             <HomeFeatureMain lang={lang} isTopSpace={true} isHideTopTitle={true}/>
-        </>
+        </div>
     );
 }

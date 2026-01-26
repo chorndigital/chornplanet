@@ -22,7 +22,7 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <AboutContent lang={lang}/>
             <AiSolutionsMain lang={lang}/>
             <CloudInfraPageMain lang={lang}/>
@@ -34,8 +34,8 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="About Us | CHORN - Custom Software Development Experts"
                 description="Discover CHORN's innovative custom software development solutions and how we empower industries with cutting-edge technology."
-                url="https://chorndigital.com/about-chorn/"
+                url="https://chorndigital.com/en/about-chorn/"
             />
-        </>
+        </div>
     );
 }

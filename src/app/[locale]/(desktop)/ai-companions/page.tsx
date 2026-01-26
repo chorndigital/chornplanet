@@ -17,10 +17,10 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <AiCompanionsPage lang={lang}/>
             <AiFahLandingPage lang={lang}/>
             <HomeFeatureMain lang={lang} isHideTopTitle={true}/>
-        </>
+        </div>
     );
 }

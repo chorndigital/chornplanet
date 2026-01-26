@@ -1,5 +1,5 @@
 import React from "react";
-import {IPolicyContent} from "@/data/policy/model/IPolicyContent";
+import {IPolicyContent} from "@/data/policy/model/IPolicy";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import type {Metadata} from "next";
 import {headers} from "next/headers";
@@ -16,21 +16,19 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
-            <div className="privacy-policy-area ptb-100">
-                <div className="container">
-                    <h1>{InfoTranslation[lang].WorkplacePolicy.title}</h1>
-                    <div className="privacy-content">
-                        {InfoTranslation[lang].WorkplacePolicy.list.map((item: IPolicyContent, index: number) => (
-                            <div key={index} className="addition-ptb-20">
-                                {item.description != undefined && (
-                                    <p dangerouslySetInnerHTML={{__html: item.description}}/>
-                                )}
-                            </div>
-                        ))}
-                    </div>
+        <div className="privacy-policy-area ptb-100">
+            <div className="container">
+                <h1>{InfoTranslation[lang].WorkplacePolicy.title}</h1>
+                <div className="privacy-content">
+                    {InfoTranslation[lang].WorkplacePolicy.contents.map((item: IPolicyContent, index: number) => (
+                        <div key={index} className="addition-ptb-20">
+                            {item.description != undefined && (
+                                <p dangerouslySetInnerHTML={{__html: item.description}}/>
+                            )}
+                        </div>
+                    ))}
                 </div>
             </div>
-        </>
+        </div>
     );
 }

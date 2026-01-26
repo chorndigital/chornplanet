@@ -45,16 +45,12 @@ export const FooterKO: IFooter = {
     ],
     importantLinks: [
         {
-            "label": "회사 소개",
-            "link": "/about-chorn"
+            label: "회사 소개",
+            link: "/about-chorn"
         },
         {
-            "label": "문의하기",
-            "link": "/contact"
-        },
-        {
-            label: "서비스 패키지",
-            link: "/service-packages",
+            label: "문의하기",
+            link: "/contact"
         },
         {
             label: "백엔드 개발",
@@ -67,7 +63,11 @@ export const FooterKO: IFooter = {
         {
             label: "직장 정책",
             link: "/workplace-policy"
-        }
+        },
+        {
+            label: "연락처",
+            link: "/contact/",
+        },
     ],
     featuredLinks: [
         {

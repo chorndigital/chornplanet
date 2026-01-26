@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsDocker lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Docker DevOps Services | CHORN"
                 description="CHORN offers Docker-based DevOps services for efficient containerization and scalable application deployment."
-                url="https://chorndigital.com/technical-expertise/cloud-devops/docker/"
+                url="https://chorndigital.com/en/technical-expertise/cloud-devops/docker/"
             />
-        </>
+        </div>
     );
 }

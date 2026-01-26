@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsPhp lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="PHP Full Stack Development | CHORN"
                 description="CHORN offers PHP full stack development services for building dynamic and scalable web applications."
-                url="https://chorndigital.com/technical-expertise/full-stack-developer/php-developer/"
+                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/php-developer/"
             />
-        </>
+        </div>
     );
 }

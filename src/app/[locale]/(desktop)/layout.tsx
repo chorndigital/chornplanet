@@ -3,7 +3,7 @@
 // Tailwind first (important for avoiding overrides)
 // import "@/styles/tailwind.scss";
 
-// Fundamental css
+// SCSS Fundamental
 import "@/styles/globals.scss"
 import "@/styles/bootstrap.min.css";
 import "@/styles/animate.css";
@@ -14,7 +14,7 @@ import "swiper/css";
 import "swiper/css/bundle";
 import {SpeedInsights} from "@vercel/speed-insights/next"
 
-// Custom scss, CSS
+// SCSS Custom
 import "@/styles/style.scss";
 import "@/styles/responsive.scss";
 import "@/styles/addition.scss";
@@ -24,6 +24,13 @@ import "@/styles/x-navbar-language.scss";
 import "@/styles/x-color-style.scss";
 import "@/styles/x-icon.scss";
 
+// SCSS Smart mobility
+import "@/styles/smart-bottom.scss";
+import "@/styles/smart-right.scss";
+import "@/styles/home-slide-full.scss";
+import "@/styles/smart-privacy.scss";
+
+// React and components
 import {DM_Sans} from "next/font/google";
 import GoTop from "@/components/Layouts/GoTop";
 import React from "react";

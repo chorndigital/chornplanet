@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsGoLang lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Go Full Stack Development | CHORN"
                 description="CHORN offers Go full stack development services for building efficient and scalable web applications."
-                url="https://chorndigital.com/technical-expertise/full-stack-developer/go-developer/"
+                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/go-developer/"
             />
-        </>
+        </div>
     )
 }

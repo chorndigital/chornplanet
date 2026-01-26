@@ -8,9 +8,9 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <PageBanner pageTitle="Mobile App Development"/>
             <HomeFeatureMain lang={lang}/>
-        </>
+        </div>
     );
 };

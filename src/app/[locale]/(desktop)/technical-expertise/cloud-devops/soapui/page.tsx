@@ -18,15 +18,15 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsSoapUI lang={lang}/>
             <CloudExperience lang={lang}/>
             <FooterMain lang={lang}/>
             <SchemaMarkupServicePage
                 name="SoapUI Testing Services | CHORN"
                 description="CHORN provides expert SoapUI testing services to ensure your web services and APIs are thoroughly tested and reliable."
-                url="https://chorndigital.com/technical-expertise/cloud-devops/soapui/"
+                url="https://chorndigital.com/en/technical-expertise/cloud-devops/soapui/"
             />
-        </>
+        </div>
     )
 }

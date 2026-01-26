@@ -2,9 +2,9 @@ import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const WorkplacePolicyZH: IPolicy = {
     title: "工作场所政策",
-    subtitle: "",
+    subTitle: "",
     description: "",
-    list: [
+    contents: [
         {
             title: "工作模式",
             description: "CHORN 适应各种工作模式，包括远程办公、办公室办公和混合办公，并根据每个项目的具体需求进行调整。这种方法确保了顺畅的沟通和高效的工作。",

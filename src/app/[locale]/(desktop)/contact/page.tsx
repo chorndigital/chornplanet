@@ -16,13 +16,13 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ContactContent lang={lang}/>
             <SchemaMarkupServicePage
                 name="Contact | CHORN - Software Development, AI Integration, Web3, and Blockchain"
                 description="Discover CHORN's innovative custom software development solutions and how we empower industries with cutting-edge technology."
-                url="https://chorndigital.com/contact/"
+                url="https://chorndigital.com/en/contact/"
             />
-        </>
+        </div>
     );
 }

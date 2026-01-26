@@ -1,24 +1,23 @@
 import {IAiDetail} from "@/data/ai/model/IAiDetail";
-import {IMAGE_PATH} from "@/image/ImageUrl";
 
 export const AiPloyEnglish: IAiDetail = {
     name: 'Ploy',
     category: 'Students LINE Friend',
-    thumbnail: IMAGE_PATH + '/ai/ai-companions/ai-ploy-thumbnail.webp',
+    thumbnail: '/images/ai/ai-companions/ai-ploy-thumbnail.webp',
 
     pages: {
         home: {
             link: '/',
             image: {
                 title: 'พลอย เพื่อนคุยเอไอ',
-                path: IMAGE_PATH + '/ai/fah/fah-003.png',
+                path: '/images/ai/fah/fah-003.png',
             }
         },
         landing: {
             link: '/ai-companions/ploy',
             image: {
                 title: 'พลอย เพื่อนคุยเอไอ',
-                path: IMAGE_PATH + '/ai/ai-ploy-details.png',
+                path: '/images/ai/ai-ploy-details.png',
             }
         }
     },

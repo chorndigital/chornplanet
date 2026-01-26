@@ -18,14 +18,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsTypeScript lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="TypeScript | CHORN - Custom Software Development Experts"
                 description="Learn how CHORN leverages TypeScript to build scalable, robust, and efficient custom software solutions for businesses across industries."
-                url="https://chorndigital.com/technical-expertise/full-stack-developer/typescript-javascript-developer/"
+                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/typescript-javascript-developer/"
             />
-        </>
+        </div>
     );
 }

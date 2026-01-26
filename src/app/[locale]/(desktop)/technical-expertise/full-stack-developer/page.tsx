@@ -18,15 +18,15 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <FullStackPageMain lang={lang}/>
             <CloudExperience lang={lang}/>
             <HomeFeatureMain lang={lang}/>
             <SchemaMarkupServicePage
                 name="Back-End & API Development Services | CHORN"
                 description="CHORN offers expert Back-End & API Development services utilizing modern technologies like Node.js, Java Spring Boot, .NET Core, Go, Python, and PHP. Build scalable and robust web applications with our custom software solutions."
-                url="https://chorndigital.com/technical-expertise/full-stack-developer/"
+                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/"
             />
-        </>
+        </div>
     );
 }

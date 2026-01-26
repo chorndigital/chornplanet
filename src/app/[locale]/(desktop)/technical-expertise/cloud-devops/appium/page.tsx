@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsAppium lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Appium Testing Services | CHORN"
                 description="CHORN offers Appium testing services for automated mobile app testing across multiple platforms to ensure high-quality performance."
-                url="https://chorndigital.com/technical-expertise/cloud-devops/appium/"
+                url="https://chorndigital.com/en/technical-expertise/cloud-devops/appium/"
             />
-        </>
+        </div>
     );
 }

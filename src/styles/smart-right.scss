@@ -1,0 +1,114 @@
+/* Smart Right Sidebar Container */
+.smart-right-container {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Responsive margin handling already validated earlier */
+@media (min-width: 992px) {
+  .smart-right-container {
+    margin-left: 10px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  .smart-right-container {
+    margin-left: 0;
+    border-radius: 0; /* optional, matches full-width containers */
+  }
+}
+
+/* List reset */
+.smart-right-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/* List item */
+.smart-right-item {
+  margin-bottom: 15px !important;
+  border-bottom: 1px solid #eeeeee;
+  position: relative;
+  color: #6b6b84;
+  font-weight: 500;
+  font-size: 15px;
+  padding-bottom: 15px;
+
+  &:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.smart-right-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+// Image Wrapper
+.smart-right-image-wrapper {
+  position: relative;
+  width: 100%;
+  transition: transform 0.35s ease;
+  will-change: transform;
+}
+
+.smart-right-item:hover .smart-right-image-wrapper {
+  transform: scale(1.03) translateY(-2px);
+}
+
+.smart-right-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.smart-right-image-wrapper:hover img {
+  transform: translateY(-4px);
+}
+
+// Caption (Title Only)
+.smart-right-caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  padding: 10px 14px;
+  background: linear-gradient(
+                  to top,
+                  rgba(0, 0, 0, 0.65),
+                  rgba(0, 0, 0, 0)
+  );
+}
+
+/* Title */
+.smart-right-caption strong {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+
+  /* UX safety: limit to 2 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .smart-right-image-wrapper {
+    transition: none;
+    transform: none !important;
+  }
+}
+
+

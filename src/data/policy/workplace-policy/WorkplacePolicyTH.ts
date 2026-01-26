@@ -2,9 +2,9 @@ import {IPolicy} from "@/data/policy/model/IPolicy";
 
 export const WorkplacePolicyTH: IPolicy = {
     title: "นโยบายสถานที่ทำงาน",
-    subtitle: "",
+    subTitle: "",
     description: "",
-    list: [
+    contents: [
         {
             title: "รูปแบบการทำงาน",
             description: "CHORN ปรับตัวเพื่อรองรับการทำงานหลายรูปแบบเช่น ทำงานระยะไกล ในสำนักงาน และแบบผสมผสาน โดยปรับให้เข้ากับความต้องการเฉพาะของแต่ละโครงการ แนวทางนี้ช่วยให้มั่นใจได้ถึงการสื่อสารที่ราบรื่น ประสิทธิภาพ"

@@ -45,16 +45,12 @@ export const FooterFR: IFooter = {
     ],
     importantLinks: [
         {
-            "label": "À propos",
-            "link": "/about-chorn"
+            label: "À propos",
+            link: "/about-chorn"
         },
         {
-            "label": "Contact",
-            "link": "/contact"
-        },
-        {
-            label: "Forfaits de service",
-            link: "/service-packages",
+            label: "Contact",
+            link: "/contact"
         },
         {
             label: "Conditions d'utilisation",
@@ -67,7 +63,11 @@ export const FooterFR: IFooter = {
         {
             label: "Politique sur le lieu de travail",
             link: "/workplace-policy"
-        }
+        },
+        {
+            label: "Contact",
+            link: "/contact/",
+        },
     ],
     featuredLinks: [
         {

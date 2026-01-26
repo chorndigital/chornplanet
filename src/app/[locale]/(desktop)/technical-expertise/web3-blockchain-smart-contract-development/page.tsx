@@ -18,15 +18,15 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <Web3PageMain lang={lang}/>
             <CloudExperience lang={lang}/>
             <HomeFeatureMain lang={lang}/>
             <SchemaMarkupServicePage
                 name="Web3 Blockchain Smart Contract Development | CHORN | Custom Blockchain Solutions"
                 description="Discover CHORN’s expertise in Web3 blockchain and smart contract development. CHORN build decentralized applications (DApps) using Solidity, Ethereum, Polygon, and integrate with technologies like Hardhat, Ganache, and MetaMask."
-                url="https://chorndigital.com/technical-expertise/web3-blockchain-smart-contract-development/"
+                url="https://chorndigital.com/en/technical-expertise/web3-blockchain-smart-contract-development/"
             />
-        </>
+        </div>
     );
 }

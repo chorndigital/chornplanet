@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsAngular lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Angular Development Services | CHORN"
                 description="Expert Angular development services by CHORN. Build dynamic, scalable, and high-performance web applications using Angular."
-                url="https://chorndigital.com/technical-expertise/front-end-developer/angular-developer/"
+                url="https://chorndigital.com/en/technical-expertise/front-end-developer/angular-developer/"
             />
-        </>
+        </div>
     );
 }

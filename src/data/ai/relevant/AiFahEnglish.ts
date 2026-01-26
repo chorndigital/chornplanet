@@ -1,24 +1,23 @@
 import {IAiDetail} from "@/data/ai/model/IAiDetail";
-import {IMAGE_PATH} from "@/image/ImageUrl";
 
 export const AiFahEnglish: IAiDetail = {
     name: 'Fah',
     category: 'Thai LINE Friend',
-    thumbnail: IMAGE_PATH + '/ai/ai-companions/ai-fah-thumbnail.webp',
+    thumbnail: '/images/ai/ai-companions/ai-fah-thumbnail.webp',
 
     pages: {
         home: {
             link: '/',
             image: {
                 title: 'น้องฟ้า เพื่อนคุยเอไอ',
-                path: IMAGE_PATH + '/ai/fah/fah-003.png',
+                path: '/images/ai/fah/fah-003.png',
             }
         },
         landing: {
             link: '/ai-companions/fah',
             image: {
                 title: 'น้องฟ้า เพื่อนคุยเอไอ',
-                path: IMAGE_PATH + '/ai/ai-fah-details.png',
+                path: '/images/ai/ai-fah-details.png',
             }
         }
     },

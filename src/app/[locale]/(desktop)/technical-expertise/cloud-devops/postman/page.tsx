@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsPostman lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Postman API Testing Services | CHORN"
                 description="CHORN provides API testing services using Postman to ensure the reliability and performance of your web services."
-                url="https://chorndigital.com/technical-expertise/cloud-devops/postman/"
+                url="https://chorndigital.com/en/technical-expertise/cloud-devops/postman/"
             />
-        </>
+        </div>
     )
 }

@@ -626,7 +626,7 @@
   list-style: none;
 
   .feature-item {
-    margin-bottom: 20px;
+    //margin-bottom: 20px;
 
     .feature-icon-container {
       display: flex;
@@ -636,14 +636,14 @@
 
       .feature-icon {
         display: inline-block;
-        height: 30px;
-        width: 30px;
-        line-height: 30px;
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
 
         background: #06c755;
         color: #fff;
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
         border-radius: 30px;
         margin-right: 30px;
         transition: .5s;
@@ -661,8 +661,13 @@
     }
 
     .feature-content {
+      line-height: 1.6rem;
+
       .feature-description {
-        margin-top: 8px;
+      }
+
+      .feature-description-vertiport {
+        margin-bottom: 0;
       }
     }
 
@@ -1364,7 +1369,7 @@
   list-style: none;
 
   .feature-item {
-    margin-bottom: 8px;
+    //margin-bottom: 8px;
 
     .feature-icon-container {
       display: flex;
@@ -1396,6 +1401,7 @@
         position: relative;
         display: inline-block;
         color: inherit;
+        line-height: 2rem;
       }
 
       .feature-title::after {

@@ -12,3 +12,8 @@ export interface INavbar {
     isDevOps?: boolean;
     submenu: INavbar[];
 }
+
+export interface INavbarGroup {
+    group: string;
+    firstPathname: string;
+}

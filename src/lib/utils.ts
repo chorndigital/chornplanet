@@ -1,41 +1,19 @@
 import {INavbar} from "@/data/navbar/model/INavbar";
+import {NavbarGroups} from "@/data/navbar/common/NavbarGroups"
 
 export function sanitizeUUID(text: string): string {
     return text.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
 }
 
-export function IsActiveNavbar1(pathname: string, lang: string, navbar1: INavbar, isFromNavbar2?: boolean) {
+export function IsActiveNavbar(pathname: string, navbar: INavbar): boolean {
+    const pathnames = pathname.split("/");
+    const firstPathname = pathnames[2] ?? "";
 
-    if (isFromNavbar2) {
-        const group2 = "/" + pathname.split('/')[2] + "/"
-        return navbar1.group == group2
-    }
+    const matchedGroup = NavbarGroups.find(
+        (item) => item.firstPathname === firstPathname
+    )?.group ?? "Home";
 
-    if (navbar1.activeLinks) {
-        const isActive = navbar1.activeLinks.some(link => pathname.includes(link));
-        if (isActive) {
-            return true
-        }
-    }
-
-    const link = '/' + lang + navbar1.link
-    return pathname == link
-}
-
-export function IsActiveNavbar2(pathname: string, lang: string, navbar2: INavbar, isFromNavbar3?: boolean): boolean {
-
-    if (isFromNavbar3) {
-        const group3 = "/" + pathname.split('/')[2] + "/" + pathname.split('/')[3] + "/"
-        return navbar2.link == group3
-    }
-
-    const link = '/' + lang + navbar2.link
-    return pathname == link
-}
-
-export function IsActiveNavbar3(pathname: string, lang: string, navbar3: INavbar): boolean {
-    const link = '/' + lang + navbar3.link
-    return pathname == link
+    return navbar.group === matchedGroup;
 }
 
 export function publishTime() {

@@ -45,16 +45,12 @@ export const FooterDE: IFooter = {
     ],
     importantLinks: [
         {
-            "label": "Über uns",
-            "link": "/about-chorn"
+            label: "Über uns",
+            link: "/about-chorn"
         },
         {
-            "label": "Kontakt",
-            "link": "/contact"
-        },
-        {
-            label: "Servicepakete",
-            link: "/service-packages",
+            label: "Kontakt",
+            link: "/contact"
         },
         {
             label: "Nutzungsbedingungen",
@@ -67,7 +63,11 @@ export const FooterDE: IFooter = {
         {
             label: "Arbeitsplatzrichtlinie",
             link: "/workplace-policy"
-        }
+        },
+        {
+            label: "Kontakt",
+            link: "/contact/",
+        },
     ],
     featuredLinks: [
         {

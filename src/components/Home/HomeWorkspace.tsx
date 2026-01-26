@@ -1,3 +1,5 @@
+// src/components/Home/HomeWorkspace.tsx
+
 import React from "react";
 import {MainShape} from "@/components/Shape/MainShape";
 import HomeWorkspaceSlice from "@/components/Home/HomeWorkspaceSlice";

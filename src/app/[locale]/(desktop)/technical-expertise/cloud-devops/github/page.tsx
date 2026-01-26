@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsGitHub lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="GitHub DevOps Services | CHORN"
                 description="CHORN offers DevOps services integrating GitHub for version control, continuous integration, and automated workflows."
-                url="https://chorndigital.com/technical-expertise/cloud-devops/github/"
+                url="https://chorndigital.com/en/technical-expertise/cloud-devops/github/"
             />
-        </>
+        </div>
     );
 }

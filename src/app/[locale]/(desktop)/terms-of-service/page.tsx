@@ -1,5 +1,5 @@
 import React from "react";
-import {IPolicyContent} from "@/data/policy/model/IPolicyContent";
+import {IPolicyContent} from "@/data/policy/model/IPolicy";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import type {Metadata} from "next";
 import {headers} from "next/headers";
@@ -14,28 +14,31 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function TermsOfService() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const termOfService = InfoTranslation[lang].TermOfService
 
     return (
-        <>
-            <div className="terms-of-service-area ptb-100">
-                <div className="container">
-                    <h1>{InfoTranslation[lang].TermOfService.title}</h1>
-                    <div className="privacy-content">
-                        {InfoTranslation[lang].TermOfService.list.map((item: IPolicyContent, index: number) => (
-                            <div key={index} className="addition-ptb-20">
+        <div className="terms-of-service-area smart-container-top">
+            <div className="container">
+                <h1>{termOfService.title}</h1>
+                <h2>{termOfService.subTitle}</h2>
+                <p>{termOfService.description}</p>
 
+                <div className="smart-privacy-container">
+                    {termOfService.contents.map((item: IPolicyContent, index: number) => (
+                        <div key={index} className="smart-privacy-item">
+                            <h3>{item.title}</h3>
+                            <div key={index} className="smart-privacy-bullet">
                                 {item.description != undefined && (
                                     <p dangerouslySetInnerHTML={{__html: item.description}}/>
                                 )}
-
                                 {item.expand != undefined && (
                                     <p dangerouslySetInnerHTML={{__html: item.expand}}/>
                                 )}
                             </div>
-                        ))}
-                    </div>
+                        </div>
+                    ))}
                 </div>
             </div>
-        </>
+        </div>
     );
 }

@@ -18,15 +18,15 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsJenkins lang={lang}/>
             <CloudExperience lang={lang}/>
             <FooterMain lang={lang}/>
             <SchemaMarkupServicePage
                 name="Jenkins DevOps Services | CHORN"
                 description="CHORN offers Jenkins-based DevOps services for automating builds, testing, and deployment in your development pipeline."
-                url="https://chorndigital.com/technical-expertise/cloud-devops/jenkins/"
+                url="https://chorndigital.com/en/technical-expertise/cloud-devops/jenkins/"
             />
-        </>
+        </div>
     )
 }

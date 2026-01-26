@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsReact lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="React Development Services | CHORN"
                 description="CHORN provides top-tier React development services. Build dynamic and responsive user interfaces with React."
-                url="https://chorndigital.com/technical-expertise/front-end-developer/react-developer/"
+                url="https://chorndigital.com/en/technical-expertise/front-end-developer/react-developer/"
             />
-        </>
+        </div>
     );
 }

@@ -17,14 +17,14 @@ export default async function Page() {
     const lang = headers15.get('x-locale') || 'en';
 
     return (
-        <>
+        <div className="smart-container-top">
             <ServicesDetailsPython lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Python Full Stack Development | CHORN"
                 description="CHORN offers Python full stack development services to build dynamic and scalable web applications."
-                url="https://chorndigital.com/technical-expertise/full-stack-developer/python-developer/"
+                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/python-developer/"
             />
-        </>
+        </div>
     );
 }
