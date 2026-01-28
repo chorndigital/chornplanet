@@ -8,10 +8,11 @@ import {IImagePath} from "@/lib/model/IImagePath";
 const baseUrl = "https://chorndigital.com";
 
 function getImageUrls(images: IImagePath[]) {
-    return images.map((image: IImagePath) =>
-        `<image:image>
-            <image:loc>${image.path}</image:loc>
-        </image:image>`
+    return images.map((image: IImagePath) => (
+            `<image:image>
+                 <image:loc>${baseUrl}${image.path}</image:loc>
+            </image:image>`
+        )
     )
 }
 
