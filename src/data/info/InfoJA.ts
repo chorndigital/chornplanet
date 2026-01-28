@@ -1,6 +1,5 @@
 import {IInfo} from "@/data/info/model/IInfo";
 import {Recommend2025} from "@/data/recommend/Recommend2025";
-import {Contact2025} from "@/data/contact/Contact2025";
 import {LanguageOptions} from "@/data/translate/LanguageOptions";
 import {AboutJA} from "@/data/about/AboutJA";
 import {GalleryJA} from "@/data/gallery/GalleryJA";
@@ -23,6 +22,7 @@ import {TransformBusinessJA} from "@/data/transform-business/TransformBusinessJA
 import {AiFahCoverJA} from "@/data/ai/fah-cover/AiFahCoverJA";
 import {AiCompanionJA} from "@/data/ai/companions/AiCompanionJA";
 import {ServicePackagesJA} from "@/data/service-packages/ServicePackagesJA";
+import {ContactFR} from "../contact/ContactFR";
 
 export const InfoJA: IInfo = {
     AiCompanions: AiCompanionJA,
@@ -46,7 +46,7 @@ export const InfoJA: IInfo = {
     TermOfService: TermOfServiceJA,
     WorkplacePolicy: WorkplacePolicyJA,
 
-    Contact: Contact2025,
+    Contact: ContactFR,
     Consent: ConsentJA,
 
     Gallery: GalleryJA,

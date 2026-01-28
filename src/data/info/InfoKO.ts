@@ -1,6 +1,5 @@
 import {IInfo} from "@/data/info/model/IInfo";
 import {Recommend2025} from "@/data/recommend/Recommend2025";
-import {Contact2025} from "@/data/contact/Contact2025";
 import {LanguageOptions} from "@/data/translate/LanguageOptions";
 import {AiCompanionKO} from "@/data/ai/companions/AiCompanionKO";
 import {ServiceKO} from "@/data/service/ServiceKO";
@@ -23,6 +22,7 @@ import {CloudSolutionKO} from "@/data/cloud-solutions/CloudSolutionKO";
 import {TransformBusinessKO} from "@/data/transform-business/TransformBusinessKO";
 import {AiFahCoverKO} from "@/data/ai/fah-cover/AiFahCoverKO";
 import {ServicePackagesKO} from "@/data/service-packages/ServicePackagesKO";
+import {ContactKO} from "../contact/ContactKO";
 
 export const InfoKO: IInfo = {
     AiCompanions: AiCompanionKO,
@@ -46,7 +46,7 @@ export const InfoKO: IInfo = {
     TermOfService: TermOfServiceKO,
     WorkplacePolicy: WorkplacePolicyKO,
 
-    Contact: Contact2025,
+    Contact: ContactKO,
     Consent: ConsentKO,
 
     Gallery: GalleryKO,

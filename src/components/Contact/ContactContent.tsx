@@ -10,7 +10,7 @@ export default function ContactContent({lang}: { lang: string }) {
         <>
             <div className="about-area pb-70">
                 <div className="container">
-                    <h1>{InfoTranslation[lang].About.contact.title}</h1>
+                    <h1>{InfoTranslation[lang].Contact.contactInfo.title}</h1>
                     <div className="row">
                         <ContactLeft lang={lang}/>
                         <ContactRight lang={lang}/>

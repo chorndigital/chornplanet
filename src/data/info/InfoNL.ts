@@ -1,6 +1,5 @@
 import {IInfo} from "@/data/info/model/IInfo";
 import {Recommend2025} from "@/data/recommend/Recommend2025";
-import {Contact2025} from "@/data/contact/Contact2025";
 import {LanguageOptions} from "@/data/translate/LanguageOptions";
 import {AboutNL} from "@/data/about/AboutNL";
 import {GalleryNL} from "@/data/gallery/GalleryNL";
@@ -23,6 +22,7 @@ import {TransformBusinessNL} from "@/data/transform-business/TransformBusinessNL
 import {AiFahCoverNL} from "@/data/ai/fah-cover/AiFahCoverNL";
 import {AiCompanionNL} from "@/data/ai/companions/AiCompanionNL";
 import {ServicePackagesNL} from "@/data/service-packages/ServicePackagesNL";
+import {ContactNL} from "../contact/ContactNL";
 
 export const InfoNL: IInfo = {
     AiCompanions: AiCompanionNL,
@@ -46,7 +46,7 @@ export const InfoNL: IInfo = {
     TermOfService: TermOfServiceNL,
     WorkplacePolicy: WorkplacePolicyNL,
 
-    Contact: Contact2025,
+    Contact: ContactNL,
     Consent: ConsentNL,
 
     Gallery: GalleryNL,

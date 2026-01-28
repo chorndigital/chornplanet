@@ -1,64 +1,53 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutNL: IAbout = {
-    title: "Over",
-    "span": "Technologische innovatie voor zakelijk succes",
-    "subTitle": "CHORN – CEO | CTO Consultant — Helpt oprichters bij het opschalen van technologie, teams en strategie",
+    title: "Over ons",
+    span: "Ontwerp van toekomstige mobiliteits- en slimme stadssystemen",
+    subTitle: "CHORN Digital — Toekomstige mobiliteits- en slimme stadssystemen | Verbonden systemen & vroege IoT",
+
     description: [
         {
-            title: "Systeemontwikkelingsoplossingen (System Development Solutions)",
-            description: "CHORN levert flexibele oplossingen voor systeemontwikkeling via remote, hybride en on-site samenwerking in Chiang Mai en Bangkok. De werkzaamheden omvatten het ontwikkelen van Proof of Concept (PoC) en Minimum Viable Product (MVP)-applicaties, solution architectuur, opschaling, het uitvoeren van systeemanalyse en het doorontwikkelen van bestaande platformen om te voldoen aan veranderende bedrijfs- en technologische eisen."
+            title: "Toekomstige mobiliteits- en slimme stadssystemen",
+            description:
+                "CHORN Digital ontwerpt illustratieve, niet-bindende scenario’s en conceptuele architecturen die verkennen hoe toekomstige mobiliteits- en slimme stadssystemen zich zouden kunnen ontwikkelen. Dit werk ondersteunt strategische reflectie, beleidsdialoog en langetermijninvesteringsdiscussies, zonder verplichtingen met betrekking tot implementatie of uitrol te impliceren."
         },
         {
-            title: "Huidige focus: AI-gedreven innovatie (AI-Powered Innovation)",
-            description: "Tegenwoordig richt CHORN zich op AI-gedreven ontwikkeling, waarbij Large Language Models (LLMs) en intelligente AI-agents worden geïntegreerd om de mogelijkheden van digitale platforms te versterken. Deze aanpak versnelt softwareontwikkeling, verbetert de efficiëntie en introduceert nieuwe niveaus van automatisering en intelligentie — wat de grote verschuiving in het digitale landschap weerspiegelt na de lancering van het OpenAI-platform eind 2022."
+            title: "AI-ondersteund slim voedselsysteem (lopend)",
+            description:
+                "CHORN Digital ontwikkelt actief een AI-ondersteund slim voedselsysteem dat een architectuur van verbonden systemen, NLP-gebaseerde bestelstromen en automatisering van backend-workflows integreert. Het platform fungeert als basis voor vroege IoT- en AI-integratie en dient als referentie voor toekomstige schaalbare implementaties."
         },
         {
-            title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN begon in 2001 en is gebaseerd op diepgaande expertise in IT, software en hardware engineering voor grootschalige elektronica-productie. Het werk omvatte geïntegreerd ontwerp van hardware, software en mechanica in samenwerking met R&D-teams. Specialisatiegebieden zijn Manufacturing Execution Systems (MES), industriële apparatuur, precisie-instrumenten, industriële protocollen en maatwerk hardware/software-integratie. Projecten bereikten geautomatiseerde productiecijfers van meer dan 10 miljoen eenheden per maand, met focus op efficiëntie, betrouwbaarheid en productkwaliteit door continue verbetering en effectieve klantcommunicatie."
+            title: "Verbonden systemen & vroege IoT-platformen",
+            description:
+                "Parallel hieraan omvat het huidige werk het ontwerp van fundamenten voor verbonden systemen en vroege IoT-platformen, geïnformeerd door reële technische randvoorwaarden. Deze inspanningen onderzoeken hoe fysieke systemen en digitale diensten kunnen samenwerken wanneer governance, financiering en gereedheid op elkaar zijn afgestemd."
         },
         {
-            title: "Digital Platform Development",
-            description: "In 2012 breidde CHORN uit naar digitale platformontwikkeling, met als doel schaalbare web- en mobiele applicaties te creëren op basis van moderne frameworks en cloudarchitecturen. De ontwikkeling ondersteunt gebruikers in diverse sectoren zoals e-commerce, vastgoed, pre-sale, CRM, Web3, Blockchain en enterprise-systemen zoals SAP ERP en S/4HANA. Elke oplossing is ontworpen met schaalbare architectuur en aanpasbaarheid om te voldoen aan veranderende zakelijke behoeften."
+            title: "Industrieel-technische basis",
+            description:
+                "Het werk is gebaseerd op eerdere ervaring met grootschalige, industrieel hoogwaardige apparatuur- en elektronica­productie van meer dan 10 miljoen eenheden per maand, evenals ervaring in oplossingsarchitectuur voor websites met hoge verkeersvolumes. Deze basis benadrukt systeem­betrouwbaarheid, lifecycle-discipline en architecturale haalbaarheid, en vormt een solide fundament voor verbonden en IoT-geschikte systemen."
+        },
+        {
+            title: "Systeemontwerp & digitale platformen",
+            description:
+                "CHORN Digital beschikt daarnaast over ervaring in systeemarchitectuur, frontend- en backendontwikkeling, cloudarchitectuur en automatisering van digitale platformen, waardoor zowel conceptuele als lopende projecten verankerd blijven in technische realiteit en operationele randvoorwaarden."
         }
     ],
+
     stacks: [
         {
-            title: "Softwareontwikkeling en integratie van bedrijfssystemen",
-            description: "Wij bieden end-to-end softwareontwikkeling en systeemintegratie voor ondernemingen, afgestemd op snelgroeiende startups en digital-first bedrijven. Met moderne frameworks bouwen wij schaalbare front-end en back-end systemen, terwijl wij cruciale platforms zoals SAP ERP, S/4HANA, ABAP, CRM, MES en e-commerce implementeren, configureren en integreren."
+            title: "Conceptuele architectuur & systeemontwerp",
+            description:
+                "Scenario-gedreven systeemontwerp, conceptuele architectuur en platformfundamenten voor toekomstige mobiliteit, slimme stadsinfrastructuur en verbonden systemen."
         },
         {
-            title: "Systeemanalyse en Technische Ondersteuning",
-            description: "Diepgaande systeemanalyse en technische aanbevelingen ter verbetering van kritieke applicaties en systemen. Zorgt voor betrouwbaarheid, kwaliteitscontrole, softwaretesten en implementatie van moderne technologieën voor continue bedrijfsvoering en verbetering."
+            title: "Verbonden systemen & vroege IoT",
+            description:
+                "Ontwerp en ontwikkeling van architecturen voor verbonden systemen en vroege IoT-platformen, met zowel actieve projecten als verkennende systeemconcepten."
         },
         {
-            title: "Agile Softwareontwikkeling en Coördinatie van Business Teams",
-            description: "Agile softwareontwikkeling met coördinatie van business teams. Nauwe samenwerking met binnen- en buitenlandse teams, interne en externe klanten, zakelijke gebruikers. Werkmethoden omvatten agile, waterval en hybride benaderingen."
+            title: "Software- & cloudarchitectuur",
+            description:
+                "Frontend- en backendontwerp, cloudarchitectuur, NLP-integratie en workflowautomatisering ter ondersteuning van schaalbare en goed bestuurde digitale platformen."
         }
-    ],
-    contact: {
-        title: "Zakelijke aanvragen & samenwerkingen",
-        description: "Welkomstcontact van medeoprichters, CEO's, CTO's en productleiders.",
-        header: "Contactgegevens",
-        roles: [
-            {
-                title: "Project Manager",
-                span: "voor coördinatie van klantprojecten",
-                email: "pm@chorn.in.th"
-            },
-            {
-                title: "CEO | CTO Consultant",
-                span: "Helpt oprichters bij het opschalen van technologie, teams en strategie",
-                email: "cto@chorn.in.th"
-            },
-            {
-                title: "Plaatsen in de buurt",
-                span: "",
-                nearbyShopping: "Central Festival Chiang Mai - 20 minuten",
-                nearbyUniversity1: "Maejo Universiteit - 22 minuten",
-                nearbyUniversity2: "Chiang Mai Universiteit - 29 minuten",
-                nearbyAirport: "Chiang Mai Internationale Luchthaven - 30 minuten"
-            }
-        ]
-    }
+    ]
 };

@@ -1,6 +1,5 @@
 import {IInfo} from "@/data/info/model/IInfo";
 import {Recommend2025} from "@/data/recommend/Recommend2025";
-import {Contact2025} from "@/data/contact/Contact2025";
 import {LanguageOptions} from "@/data/translate/LanguageOptions";
 import {AiCompanionFI} from "@/data/ai/companions/AiCompanionFI";
 import {ServiceFI} from "@/data/service/ServiceFI";
@@ -23,6 +22,7 @@ import {TransformBusinessFI} from "@/data/transform-business/TransformBusinessFI
 import {AiFahCoverFI} from "@/data/ai/fah-cover/AiFahCoverFI";
 import {ConsentFI} from "@/data/consent/ConsentFI";
 import {ServicePackagesFI} from "@/data/service-packages/ServicePackagesFI";
+import {ContactFI} from "../contact/ContactFI";
 
 export const InfoFI: IInfo = {
     AiCompanions: AiCompanionFI,
@@ -46,7 +46,7 @@ export const InfoFI: IInfo = {
     TermOfService: TermOfServiceFI,
     WorkplacePolicy: WorkplacePolicyFI,
 
-    Contact: Contact2025,
+    Contact: ContactFI,
     Consent: ConsentFI,
 
     Gallery: GalleryFI,

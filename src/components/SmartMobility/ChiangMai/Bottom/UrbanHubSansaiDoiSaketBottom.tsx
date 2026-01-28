@@ -2,11 +2,11 @@ import Image from "next/image";
 import React from "react";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
-import {Contact2025} from "@/data/contact/Contact2025";
+import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 
 export default function UrbanHubSansaiDoiSaketBottom({lang}: { lang: string }) {
     const urbanHub = SmartMobility[lang].chiangMai.urbanHub
-    const contact = Contact2025
+    const contact = InfoTranslation[lang].Contact
 
     return (
         <>

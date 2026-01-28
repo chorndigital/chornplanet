@@ -1,6 +1,3 @@
-import {IAboutContent} from "@/data/about/model/IAboutContent";
-import {IAboutRole} from "@/data/about/model/IAboutRole";
-
 export interface IAbout {
     title: string,
     span: string,
@@ -8,11 +5,9 @@ export interface IAbout {
 
     description: IAboutContent[],
     stacks: IAboutContent[],
+}
 
-    contact: {
-        title: string,
-        description: string,
-        header: string,
-        roles: IAboutRole[],
-    }
+export interface IAboutContent {
+    title: string;
+    description: string;
 }

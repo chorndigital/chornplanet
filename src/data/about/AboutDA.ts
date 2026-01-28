@@ -2,63 +2,52 @@ import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutDA: IAbout = {
     title: "Om",
-    "span": "Teknologisk innovation for forretningssucces",
-    "subTitle": "CHORN – CEO | CTO Consultant — Hjælper grundlæggere med at skalere teknologi, teams og strategi",
+    span: "Design af Fremtidens Mobilitet og Smarte Bysystemer",
+    subTitle: "CHORN Digital — Fremtidens Mobilitet og Smarte Bysystemer | Forbundne Systemer og Tidlige IoT-platforme",
+
     description: [
         {
-            title: "Systemudviklingsløsninger (System Development Solutions)",
-            description: "CHORN leverer fleksible løsninger inden for systemudvikling gennem remote, hybrid og on-site samarbejde i Chiang Mai og Bangkok. Arbejdet omfatter udvikling af Proof of Concept (PoC), Minimum Viable Product (MVP)-applikationer, løsningsarkitektur, skalering, gennemførelse af systemanalyser samt videreudvikling af eksisterende platforme for at imødekomme ændrede forretnings- og teknologikrav."
+            title: "Fremtidens Mobilitet og Smarte Bysystemer",
+            description:
+                "CHORN Digital udvikler illustrative, ikke-bindende scenarier og konceptuelle arkitekturer, der undersøger, hvordan fremtidens mobilitet og smarte bysystemer kan udvikle sig. Arbejdet understøtter strategisk tænkning, politisk dialog og langsigtede investeringsdrøftelser uden at indebære implementerings- eller udrulningsforpligtelser."
         },
         {
-            title: "Fokus i dag: AI-drevet innovation (AI-Powered Innovation)",
-            description: "I dag fokuserer CHORN på AI-drevet udvikling, hvor Large Language Models (LLMs) og intelligente AI-agenter integreres for at styrke digitale platformes kapaciteter. Denne tilgang fremskynder softwareudvikling, øger effektiviteten og introducerer nye niveauer af automatisering og intelligens — hvilket afspejler det store skift i den digitale verden efter lanceringen af OpenAI-platformen i slutningen af 2022."
+            title: "AI-Understøttet Smart Fødevaresystem (Igangværende)",
+            description:
+                "CHORN Digital udvikler aktivt et AI-understøttet smart fødevaresystem, der integrerer forbundet systemarkitektur, NLP-baserede bestillingsflows og automatisering af backend-arbejdsgange. Platformen fungerer som et fundament for tidlig integration af IoT og AI og anvendes som reference for fremtidig skalerbar udvikling."
         },
         {
-            title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN begyndte i 2001, baseret på dyb ekspertise inden for IT, software og hardware engineering til elektronikproduktion i stor skala. Arbejdet omfattede integreret design af hardware, software og mekanik i samarbejde med R&D-ingeniørteams. Specialiserede områder omfatter Manufacturing Execution Systems (MES), industrigrad-udstyr, præcisionsinstrumenter, industrielle protokoller og skræddersyet hardware/software-integration. Projekter har opnået automatiseret produktionskapacitet på over 10 millioner enheder pr. måned med fokus på effektivitet, pålidelighed og produktkvalitet gennem løbende forbedringer og effektiv kundekommunikation."
+            title: "Forbundne Systemer og Tidlige IoT-platforme",
+            description:
+                "Parallelt omfatter det aktuelle arbejde design af grundlæggende arkitekturer for forbundne systemer og tidlige IoT-platforme, informeret af praktiske ingeniørmæssige begrænsninger. Disse initiativer undersøger, hvordan fysiske systemer og digitale tjenester kan samvirke, når rammer for governance, finansiering og parathed er til stede."
         },
         {
-            title: "Digital Platform Development",
-            description: "I 2012 udvidede CHORN til udvikling af digitale platforme med fokus på at skabe skalerbare web- og mobilapplikationer baseret på moderne frameworks og cloud-arkitekturer. Udviklingsarbejdet understøtter brugere på tværs af brancher såsom e-handel, ejendom, pre-sale, CRM, Web3, Blockchain og virksomhedssystemer som SAP ERP og S/4HANA. Hver løsning er designet med skalerbar arkitektur og fleksibilitet til at imødekomme skiftende forretningsbehov."
+            title: "Industriel Ingeniørmæssig Grundlag",
+            description:
+                "Arbejdet er baseret på tidligere erfaring med storstilet, industrielt udstyr og elektronikproduktion, der overstiger 10 millioner enheder pr. måned, samt erfaring med løsningsarkitektur for digitale platforme med høj trafik. Denne baggrund lægger vægt på systempålidelighed, livscyklusstyring og arkitektonisk realisme og udgør et solidt fundament for forbundne og IoT-klare systemer."
+        },
+        {
+            title: "Systemdesign og Digitale Platforme",
+            description:
+                "CHORN Digital har desuden erfaring med systemarkitektur, frontend- og backend-udvikling, cloud-arkitektur og automatisering, hvilket sikrer, at både konceptuelle og igangværende projekter forbliver teknisk realistiske og operationelt afstemte."
         }
     ],
+
     stacks: [
         {
-            title: "Softwareudviklingsteknologi og virksomhedssystemintegration",
-            description: "Vi leverer end-to-end softwareudvikling og virksomhedssystemintegration skræddersyet til hurtigt voksende startups og digital-first virksomheder. Med moderne frameworks bygger vi skalerbare front-end og back-end systemer, samtidig med at vi implementerer, konfigurerer og integrerer kritiske platforme såsom SAP ERP, S/4HANA, ABAP, CRM, MES og e-handel."
+            title: "Konceptarkitektur og Systemdesign",
+            description:
+                "Scenarie-baseret systemdesign, konceptuel arkitektur og platformfundamenter for fremtidens mobilitet, smarte byinfrastrukturer og forbundne systemer."
         },
         {
-            title: "Systemanalyse og Teknisk Support",
-            description: "Dybdegående systemanalyse og tekniske anbefalinger til forbedring af kritiske applikationer og systemer. Sikrer pålidelighed, kvalitetskontrol, softwaretest og implementering af moderne teknologier til kontinuerlig forretningsdrift og forbedring."
+            title: "Forbundne Systemer og Tidlig IoT",
+            description:
+                "Design og udvikling af arkitekturer for forbundne systemer og tidlige IoT-platforme, der spænder over både igangværende projekter og konceptuelle undersøgelser."
         },
         {
-            title: "Agil Softwareudvikling og Forretningsteamkoordinering",
-            description: "Agil softwareudvikling med forretningsteamkoordinering. Tæt samarbejde med indenlandske og internationale teams, interne og eksterne kunder, forretningsbrugere. Arbejdsmetoder omfatter agile, vandfalds- og hybride tilgange."
+            title: "Software- og Cloud-arkitektur",
+            description:
+                "Frontend- og backend-systemdesign, cloud-arkitektur, NLP-integration og automatisering af arbejdsgange, der understøtter skalerbare og veldrevne digitale platforme."
         }
-    ],
-    contact: {
-        title: "Forretningshenvendelser og partnerskaber",
-        description: "Velkommen kontakt fra medstiftere, CEO, CTO og produktledere.",
-        header: "Kontaktinformation",
-        roles: [
-            {
-                title: "Project Manager",
-                span: "koordinering af kundeprojekter",
-                email: "pm@chorn.in.th"
-            },
-            {
-                title: "CEO | CTO Consultant",
-                span: "Hjælper iværksættere med at skalere teknologi, teams og strategier",
-                email: "cto@chorn.in.th"
-            },
-            {
-                title: "Nærliggende steder",
-                span: "",
-                nearbyShopping: "Central Festival Chiang Mai - 20 minutter",
-                nearbyUniversity1: "Maejo Universitet - 22 minutter",
-                nearbyUniversity2: "Chiang Mai Universitet - 29 minutter",
-                nearbyAirport: "Chiang Mai Internationale Lufthavn - 30 minutter"
-            }
-        ]
-    }
+    ]
 };

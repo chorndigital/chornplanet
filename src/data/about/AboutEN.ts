@@ -2,63 +2,52 @@ import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutEN: IAbout = {
     title: "About",
-    span: "Technology Innovation for Business Success",
-    subTitle: "CHORN - CEO | CTO Consultant — Helping Founders Scale Technology, Teams, and Strategy",
+    span: "Designing Future Mobility & Smart City Systems",
+    subTitle: "CHORN Digital — Future Mobility & Smart City Systems | Connected Systems & Early IoT",
+
     description: [
         {
-            title: "System Development Solutions",
-            description: "CHORN delivers flexible system development solutions through remote, hybrid, and on-site collaboration in Chiang Mai and Bangkok. The work includes creating Proof of Concept (PoC), Minimum Viable Product (MVP) applications, solution architecture, scaling, conducting system analysis, and enhancing existing platforms to align with evolving business and technology requirements."
+            title: "Future Mobility & Smart City Systems",
+            description:
+                "CHORN Digital designs illustrative, non-binding scenarios and concept architectures exploring how future mobility and smart city systems could evolve. This work supports strategic thinking, policy dialogue, and long-term investment discussion without implying deployment or implementation commitments."
         },
         {
-            title: "Today, Focus on AI-Powered Innovation",
-            description: "Today, CHORN focuses on AI-driven development, integrating Large Language Models (LLMs) and intelligent AI agents to strengthen digital platform capabilities. This direction accelerates software development, enhances efficiency, and introduces new levels of automation and intelligence—reflecting the major shift in the digital landscape following the launch of the OpenAI platform in late 2022."
+            title: "AI-Enabled Smart Food System (Ongoing)",
+            description:
+                "CHORN Digital is actively developing an AI-enabled smart food system, integrating connected-system architecture, NLP-based ordering flows, and backend workflow automation. The platform serves as a foundation for early-stage IoT and AI integration, informing future scalable deployments."
         },
         {
-            title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN began in 2001, built on deep expertise in IT, software, and hardware engineering for high-volume electronics manufacturing. The work spanned end-to-end hardware, software, and mechanical design in collaboration with R&D engineering teams. Areas of specialization include manufacturing execution systems (MES), industrial-grade equipment, precision instruments, industrial protocols, and custom hardware/software integration. Projects achieved automated production capacities exceeding 10 million units per month, emphasizing efficiency, reliability, and product quality through continuous improvement and effective customer communication."
+            title: "Connected Systems & Early IoT Platforms",
+            description:
+                "In parallel, current work includes the design of connected-system foundations and early-stage IoT platforms, informed by real-world engineering constraints. These efforts explore how physical systems and digital services may interoperate when governance, funding, and readiness align."
         },
         {
-            title: "Digital Platform Development",
-            description: "In 2012, CHORN expanded into digital platform development, creating scalable web and mobile applications built on modern frameworks and cloud architectures. The development work supports users across diverse industries such as e-commerce, real estate, pre-sales, CRM, Web3, Blockchain, and enterprise systems including SAP ERP and S/4HANA. Each solution is designed with scalable architecture and adaptability to meet evolving business demands."
+            title: "Industry-Grade Engineering Foundation",
+            description:
+                "The work is informed by prior experience with large-scale, industry-grade equipment and electronics manufacturing, exceeding 10 million units per month, and solution architecture experience with high-traffic website. This background emphasizes system reliability, lifecycle discipline, and architectural feasibility, forming a strong base for connected and IoT-enabled systems."
+        },
+        {
+            title: "System Design & Digital Platforms",
+            description:
+                "CHORN Digital also brings experience in system architecture, frontend and backend development, cloud architecture, and automation across digital platforms, ensuring that both conceptual and active projects remain grounded in technical realism and operational constraints."
         }
     ],
+
     stacks: [
         {
-            title: "Software Development and Enterprise System Integration",
-            description: "We provide end-to-end software development and enterprise system integration tailored for fast-growing startups and digital-first enterprises. Leveraging modern frameworks, we build scalable front-end and back-end systems while implementing, configuring, and integrating critical platforms such as SAP ERP, S/4HANA, ABAP, CRM, MES, and e-commerce."
+            title: "Concept Architecture & System Design",
+            description:
+                "Scenario-driven system design, concept architecture, and platform foundations for future mobility, smart city infrastructure, and connected systems."
         },
         {
-            title: "System Analysis and Technical Support",
-            description: "In-depth system analysis and technical recommendations enhance mission-critical applications and systems. Ensures reliability, quality control, software testing, and implementation of modern technologies for continuous business operation and improvement."
+            title: "Connected Systems & Early IoT",
+            description:
+                "Design and development of connected-system architectures and early IoT platforms, spanning active projects and exploratory system concepts."
         },
         {
-            title: "Agile Software Development and Business Team Coordination",
-            description: "Agile software development with business team coordination. Close collaboration with domestic and international teams, internal and external clients, business users. Work methodologies include agile, waterfall, and hybrid approaches."
+            title: "Software & Cloud Architecture",
+            description:
+                "Frontend and backend system design, cloud architecture, NLP integration, and workflow automation supporting scalable, well-governed digital platforms."
         }
-    ],
-    contact: {
-        title: "Business Inquiries & Collaborations",
-        description: "Welcome contact from fellow founders, CEO, CTO, and product leaders.",
-        header: "Contact Information",
-        roles: [
-            {
-                title: "Project Manager",
-                span: "Client project coordination",
-                email: "pm@chorn.in.th"
-            },
-            {
-                title: "CEO | CTO Consultant",
-                span: "Helping Founders Scale Technology, Teams, and Strategy",
-                email: "cto@chorn.in.th"
-            },
-            {
-                title: "Nearby places",
-                span: "",
-                nearbyShopping: "Central Festival Chiang Mai - 20 minutes",
-                nearbyUniversity1: "Maejo University - 22 minutes",
-                nearbyUniversity2: "Chiang Mai University - 29 minutes",
-                nearbyAirport: "Chiang Mai International Airport - 30 minutes",
-            }
-        ]
-    }
+    ]
 };

@@ -3,14 +3,14 @@ import React from "react";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityBottomImage from "../Common/SmartMobilityBottomImage";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
-import {Contact2025} from "@/data/contact/Contact2025";
 import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
+import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 
 export default function VisionChiangMaiBottom({lang}: { lang: string }) {
     const vision = SmartMobility[lang].chiangMai.vision
     const urbanHub = SmartMobility[lang].chiangMai.urbanHub
     const route1 = SmartMobility[lang].chiangMai.connectivityMatrix.routes[0]
-    const contact = Contact2025
+    const contact = InfoTranslation[lang].Contact
 
     return (
         <>

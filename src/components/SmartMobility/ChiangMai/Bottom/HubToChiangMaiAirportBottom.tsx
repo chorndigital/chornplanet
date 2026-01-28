@@ -2,13 +2,13 @@ import Image from "next/image";
 import React from "react";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
-import {Contact2025} from "@/data/contact/Contact2025";
+import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
 
 export default function HubToChiangMaiAirportBottom({lang}: { lang: string }) {
     const connectivityMatrix = SmartMobility[lang].chiangMai.connectivityMatrix
     const route = connectivityMatrix.routes[0]
-    const contact = Contact2025
+    const contact = InfoTranslation[lang].Contact
 
     return (
         <div className={`portfolio-details-desc portfolio-details-desc-custom`}>

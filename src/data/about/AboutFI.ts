@@ -1,64 +1,53 @@
 import {IAbout} from "@/data/about/model/IAbout";
 
 export const AboutFI: IAbout = {
-    title: "Tietoja",
-    "span": "Teknologista innovointia liiketoiminnan menestykseen",
-    "subTitle": "CHORN – CEO | CTO Consultant — Auttaa perustajia skaalaamaan teknologiaa, tiimejä ja strategiaa",
+    title: "Tietoa",
+    span: "Tulevien liikkumis- ja älykaupunkijärjestelmien suunnittelu",
+    subTitle: "CHORN Digital — Tulevat liikkumis- ja älykaupunkijärjestelmät | Yhdistetyt järjestelmät & varhaiset IoT-alustat",
+
     description: [
         {
-            title: "Järjestelmäkehitysratkaisut (System Development Solutions)",
-            description: "CHORN tarjoaa joustavia järjestelmäkehitysratkaisuja etä-, hybridi- ja paikan päällä tapahtuvan yhteistyön kautta Chiang Maissa ja Bangkokissa. Työ kattaa Proof of Concept (PoC) - ja Minimum Viable Product (MVP) -sovellusten kehittämisen, ratkaisuarkkitehtuurin, skaalauksen, järjestelmäanalyysit sekä olemassa olevien alustojen kehittämisen vastaamaan muuttuvia liiketoiminta- ja teknologiavaatimuksia."
+            title: "Tulevat liikkumis- ja älykaupunkijärjestelmät",
+            description:
+                "CHORN Digital suunnittelee havainnollistavia, ei-sitovia skenaarioita ja konseptuaalisia arkkitehtuureja, jotka tarkastelevat, miten tulevat liikkumis- ja älykaupunkijärjestelmät voisivat kehittyä. Tämä työ tukee strategista ajattelua, politiikkakeskustelua ja pitkän aikavälin investointien arviointia ilman käyttöönottoa tai toteutusta koskevia sitoumuksia."
         },
         {
-            title: "Nykyinen painopiste: tekoälyn ohjaama innovaatio (AI-Powered Innovation)",
-            description: "Nykyään CHORN keskittyy tekoälypohjaiseen kehitykseen, jossa yhdistetään Large Language Models (LLMs) ja älykkäät AI-agentit digitaalisten alustojen kyvykkyyden vahvistamiseksi. Tämä lähestymistapa nopeuttaa ohjelmistokehitystä, parantaa tehokkuutta ja tuo uusia tasoja automaatioon ja älykkyyteen — heijastaen suurta muutosta digitaalisessa maisemassa OpenAI-alustan julkaisun jälkeen vuoden 2022 lopussa."
+            title: "Tekoälypohjainen älykäs ruokajärjestelmä (käynnissä)",
+            description:
+                "CHORN Digital kehittää aktiivisesti tekoälypohjaista älykästä ruokajärjestelmää, joka yhdistää yhdistetyn järjestelmäarkkitehtuurin, NLP-pohjaiset tilausprosessit sekä taustajärjestelmien työnkulkujen automaation. Alusta toimii perustana varhaisen vaiheen IoT- ja tekoälyintegraatiolle ja tarjoaa viitekehyksen tulevia skaalautuvia käyttöönottoja varten."
         },
         {
-            title: "Manufacturing Execution Systems (MES)",
-            description: "CHORN aloitti vuonna 2001 ja perustuu laajaan asiantuntemukseen IT-, ohjelmisto- ja laiteinsinööriratkaisuista suurivolyymisessa elektroniikan valmistuksessa. Työ sisälsi integroidun laitteisto-, ohjelmisto- ja mekaanisen suunnittelun yhteistyössä tutkimus- ja kehitystiimien kanssa. Erikoisalueisiin kuuluvat Manufacturing Execution Systems (MES), teollisuuslaitteet, tarkkuusinstrumentit, teollisuusprotokollat sekä mukautettu laitteisto-/ohjelmistointegraatio. Projektit saavuttivat yli 10 miljoonan yksikön kuukausituotantokapasiteetin, keskittyen tehokkuuteen, luotettavuuteen ja tuotteen laatuun jatkuvan parantamisen ja tehokkaan asiakasviestinnän kautta."
+            title: "Yhdistetyt järjestelmät & varhaiset IoT-alustat",
+            description:
+                "Samanaikaisesti nykyinen työ kattaa yhdistettyjen järjestelmien perusarkkitehtuurien ja varhaisten IoT-alustojen suunnittelun, jota ohjaavat todelliset tekniset reunaehdot. Näissä tarkasteluissa tutkitaan, miten fyysiset järjestelmät ja digitaaliset palvelut voivat toimia yhdessä silloin, kun hallintomallit, rahoitus ja valmius ovat linjassa."
         },
         {
-            title: "Digital Platform Development",
-            description: "Vuonna 2012 CHORN laajensi toimintaansa digitaalisten alustojen kehittämiseen, tavoitteena rakentaa skaalautuvia web- ja mobiilisovelluksia nykyaikaisten kehysten ja pilviarkkitehtuurien avulla. Kehitystyö tukee käyttäjiä eri toimialoilla, kuten verkkokaupassa, kiinteistöissä, myynnin esivaiheissa, CRM, Web3, Blockchain:ssä sekä yritysjärjestelmissä, kuten SAP ERP ja S/4HANA. Jokainen ratkaisu suunnitellaan skaalautuvalla arkkitehtuurilla ja mukautuvuudella liiketoiminnan muuttuviin tarpeisiin."
+            title: "Teollisen mittakaavan tekninen perusta",
+            description:
+                "Työ pohjautuu aiempaan kokemukseen teollisen mittakaavan laite- ja elektroniikkavalmistuksesta, joka ylittää 10 miljoonaa yksikköä kuukaudessa, sekä ratkaisujen arkkitehtuurikokemukseen suurta liikennettä käsittelevillä verkkopalveluilla. Tämä tausta korostaa järjestelmien luotettavuutta, elinkaariajattelua ja arkkitehtonista toteuttamiskelpoisuutta ja muodostaa vahvan perustan yhdistetyille ja IoT-valmiille järjestelmille."
+        },
+        {
+            title: "Järjestelmäsuunnittelu & digitaaliset alustat",
+            description:
+                "CHORN Digitalilla on myös kokemusta järjestelmäarkkitehtuurista, frontend- ja backend-kehityksestä, pilviarkkitehtuurista sekä automaatiosta digitaalisilla alustoilla. Tämä varmistaa, että sekä konseptuaaliset että käynnissä olevat projektit pysyvät teknisesti realistisina ja toiminnallisesti perusteltuina."
         }
     ],
+
     stacks: [
         {
-            title: "Ohjelmistokehitys ja yritysjärjestelmien integrointi",
-            description: "Tarjoamme end-to-end-ohjelmistokehitystä ja yritysjärjestelmäintegraatioita, jotka on räätälöity nopeasti kasvaville startupeille ja digital-first-yrityksille. Hyödyntämällä moderneja kehyksiä rakennamme skaalautuvia front-end- ja back-end-järjestelmiä sekä toteutamme, konfiguroimme ja integroimme kriittisiä alustoja, kuten SAP ERP, S/4HANA, ABAP, CRM, MES ja verkkokauppa."
+            title: "Konseptuaalinen arkkitehtuuri & järjestelmäsuunnittelu",
+            description:
+                "Skenaariopohjainen järjestelmäsuunnittelu, konseptuaalinen arkkitehtuuri ja alustaratkaisut tulevaa liikkumista, älykaupunkien infrastruktuuria ja yhdistettyjä järjestelmiä varten."
         },
         {
-            title: "Järjestelmäanalyysi ja Tekninen Tuki",
-            description: "Perusteellinen järjestelmäanalyysi ja tekniset suositukset kriittisten sovellusten ja järjestelmien parantamiseksi. Varmistaa luotettavuuden, laadunvalvonnan, ohjelmistotestauksen ja modernien teknologioiden käyttöönoton jatkuvaa liiketoimintaa ja kehitystä varten."
+            title: "Yhdistetyt järjestelmät & varhainen IoT",
+            description:
+                "Yhdistettyjen järjestelmäarkkitehtuurien ja varhaisten IoT-alustojen suunnittelu ja kehitys, kattaen sekä käynnissä olevat projektit että tutkivat järjestelmäkonseptit."
         },
         {
-            title: "Ketterä Ohjelmistokehitys ja Liiketoimintatiimien Koordinointi",
-            description: "Ketterä ohjelmistokehitys liiketoimintatiimien koordinoinnilla. Tiivis yhteistyö kotimaisten ja kansainvälisten tiimien, sisäisten ja ulkoisten asiakkaiden sekä liiketoimintakäyttäjien kanssa. Työmenetelmät sisältävät ketteriä, vesiputous- ja hybridilähestymistapoja."
+            title: "Ohjelmisto- & pilviarkkitehtuuri",
+            description:
+                "Frontend- ja backend-järjestelmäsuunnittelu, pilviarkkitehtuuri, NLP-integraatio ja työnkulkujen automaatio tukemaan skaalautuvia ja hyvin hallittuja digitaalisia alustoja."
         }
-    ],
-    contact: {
-        title: "Liiketoimintakyselyt ja yhteistyömahdollisuudet",
-        description: "Tervetullut yhteydenotto muilta perustajilta, toimitusjohtajilta, teknologiajohtajilta ja tuotejohtajilta.",
-        header: "Yhteystiedot",
-        roles: [
-            {
-                title: "Project Manager",
-                span: "asiakasprojektien koordinointiin",
-                email: "pm@chorn.in.th"
-            },
-            {
-                title: "CEO | CTO Consultant",
-                span: "Autan perustajia skaalaamaan teknologiaa, tiimejä ja strategiaa",
-                email: "cto@chorn.in.th"
-            },
-            {
-                title: "Lähistön paikat",
-                span: "",
-                nearbyShopping: "Central Festival Chiang Mai - 20 minuuttia",
-                nearbyUniversity1: "Maejo-yliopisto - 22 minuuttia",
-                nearbyUniversity2: "Chiang Mai -yliopisto - 29 minuuttia",
-                nearbyAirport: "Chiang Main kansainvälinen lentoasema - 30 minuuttia"
-            }
-        ]
-    }
+    ]
 };

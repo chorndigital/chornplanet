@@ -1,6 +1,5 @@
 import {IInfo} from "@/data/info/model/IInfo";
 import {Recommend2025} from "@/data/recommend/Recommend2025";
-import {Contact2025} from "@/data/contact/Contact2025";
 import {LanguageOptions} from "@/data/translate/LanguageOptions";
 import {AboutFR} from "@/data/about/AboutFR";
 import {GalleryFR} from "@/data/gallery/GalleryFR";
@@ -23,6 +22,7 @@ import {TransformBusinessFR} from "@/data/transform-business/TransformBusinessFR
 import {AiFahCoverFR} from "@/data/ai/fah-cover/AiFahCoverFR";
 import {AiCompanionFR} from "@/data/ai/companions/AiCompanionFR";
 import {ServicePackagesFR} from "@/data/service-packages/ServicePackagesFR";
+import {ContactFR} from "../contact/ContactFR";
 
 export const InfoFR: IInfo = {
     AiCompanions: AiCompanionFR,
@@ -46,7 +46,7 @@ export const InfoFR: IInfo = {
     TermOfService: TermOfServiceFR,
     WorkplacePolicy: WorkplacePolicyFR,
 
-    Contact: Contact2025,
+    Contact: ContactFR,
     Consent: ConsentFR,
 
     Gallery: GalleryFR,
