@@ -2,7 +2,7 @@
 
 import React, {useState} from "react";
 import Link from "next/link";
-import {IAboutContent} from "@/data/about/model/IAboutContent";
+import {IAboutContent} from "@/data/about/model/IAbout";
 import {useLanguage} from "@/provider/hooks/hookStateApp";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 

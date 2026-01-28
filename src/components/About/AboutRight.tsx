@@ -1,14 +1,16 @@
 import "@/styles/about.scss"
 
 import React from "react";
-import {IAboutContent} from "@/data/about/model/IAboutContent";
+import {IAboutContent} from "@/data/about/model/IAbout";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 
 export default function AboutRight({lang}: { lang: string }) {
+    const about = InfoTranslation[lang].About
+
     return (
         <div className="col-lg-8">
             <div className="about-content">
-                {InfoTranslation[lang].About.description.map((item: IAboutContent, index: number) => (
+                {about.description.map((item: IAboutContent, index: number) => (
                     <div key={index}>
                         {item.description != undefined && (
                             <p className="mt-0 mb-3"

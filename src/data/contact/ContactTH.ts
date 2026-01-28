@@ -3,7 +3,7 @@ import {IContact} from "@/data/contact/model/IContact";
 export const ContactTH: IContact = {
     location: {
         icon: "flaticon-pin",
-        label: "Location",
+        label: "ที่ตั้งสำนักงาน",
         isLink: true,
         link: "https://www.google.com/maps/place/CHORN/@18.84633,99.059526,17z/data=!4m6!3m5!1s0x42b952d661374a4f:0x924779e8f9fe3248!8m2!3d18.8463263!4d99.0594875!16s%2Fg%2F11kp_0g9hq?hl=th-TH&entry=ttu",
         linkText: "Chiang Mai, Thailand",

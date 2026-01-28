@@ -14,11 +14,13 @@ import {
 } from "react-icons/fa";
 
 export default function ContactRight({lang}: { lang: string }) {
+    const contact = InfoTranslation[lang].Contact
+
     return (
         <div className="col-lg-8 contact-col-right">
             <div className="about-content about-contact">
                 <div className="roles">
-                    {InfoTranslation[lang].Contact.contactInfo.roles.map((item, index) => {
+                    {contact.contactInfo.roles.map((item, index) => {
                         return (
                             <div key={index} className="role">
                                 <h3>{item.title}<span>{item.span}</span></h3>
@@ -52,7 +54,7 @@ export default function ContactRight({lang}: { lang: string }) {
                                     }
 
                                     {
-                                        item.locations &&
+                                        contact.location &&
                                         <div className="item">
                                             <div className="icon-container">
                                                 <div className="icon">
@@ -60,8 +62,8 @@ export default function ContactRight({lang}: { lang: string }) {
                                                 </div>
                                             </div>
                                             <div className="label">
-                                                <a target={"_blank"} href={item.location.link}>
-                                                    {item.locations.office}
+                                                <a target={"_blank"} href={contact.location.link}>
+                                                    {contact.location.label}
                                                 </a>
                                             </div>
                                         </div>

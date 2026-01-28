@@ -19,8 +19,6 @@ export default function ContactContent({lang}: { lang: string }) {
 
                 <ContactGalleryBottom/>
             </div>
-
-            <DefaultShape/>
         </>
     );
 }
