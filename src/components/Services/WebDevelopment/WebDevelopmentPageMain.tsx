@@ -27,12 +27,11 @@ export default function WebDevelopmentPageMain({lang}: { lang: string }) {
                     </div>
                 </div>
 
-                <AiSolutionsMain lang={lang}/>
                 <div className="container pt-3">
                     <WebDevelopmentDevOps lang={lang}/>
                 </div>
+
                 <CloudInfraPageMain lang={lang}/>
-                <AiFahLandingPage lang={lang}/>
                 <Web3PageMain lang={lang}/>
             </div>
 

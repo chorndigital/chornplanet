@@ -5,10 +5,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function WebDevelopmentBackEnd({lang}: { lang: string }) {
+    const fullstack = InfoTranslation[lang].FullStack
+    const displayItems = [
+        fullstack.stacks[3],
+        fullstack.stacks[0],
+        fullstack.stacks[2]
+    ]
+
     return (
         <div className="services-area bg-fafafa pt-100 pb-70 addition-ptb-0">
             <div className="row">
-                {InfoTranslation[lang].FullStack.stacks.slice(0, 6).map((item: IFrontEndStack, index: number) => (
+                {displayItems.map((item: IFrontEndStack, index: number) => (
                     <div key={index} className="col-lg-4 col-md-6">
                         <Link href={'/' + lang + item.link}>
                             <div className="home-frontend-box">

@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import {DefaultShape} from "@/components/Shape/DefaultShape";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import HubToDoiSuthepBottom from "../Bottom/HubToDoiSuthepBottom";
 import SmartMobilityChiangMaiRight from "../Common/SmartMobilityChiangMaiRight";
 import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
+import SmartCityBottomImage from "@/components/SmartCity/ChiangMai/SmartCityBottomImage";
 
 export default function HubToDoiSuthepMain({lang}: { lang: string }) {
     const connectivityMatrix = SmartMobility[lang].chiangMai.connectivityMatrix
@@ -35,6 +35,7 @@ export default function HubToDoiSuthepMain({lang}: { lang: string }) {
                         </div>
 
                         <HubToDoiSuthepBottom lang={lang}/>
+                        <SmartCityBottomImage lang={lang}/>
                     </div>
                     <SmartMobilityChiangMaiRight
                         lang={lang}

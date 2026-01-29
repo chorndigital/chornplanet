@@ -10,6 +10,10 @@ export const NavbarGroups: INavbarGroup[] = [
         firstPathname: "smart-mobility",
     },
     {
+        group: "Smart City",
+        firstPathname: "smart-city",
+    },
+    {
         group: "Technology",
         firstPathname: "technology",
     },

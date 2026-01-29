@@ -1,14 +1,11 @@
+import React from "react";
 import AboutContent from "@/components/About/AboutContent";
 import type {Metadata} from "next";
 import {SchemaMarkupServicePage} from "@/components/GoogleSchemaMarkup/SchemaMarkupServicePage";
 import {headers} from "next/headers";
 import {MetadataAbout} from "@/metadata/main/MetadataAbout";
-import AiSolutionsMain from "@/components/AiSolutions/AiSolutionsMain";
-import React from "react";
 import HomeBackEndContainer from "@/components/Common/HomeBackEnd/HomeBackEndContainer";
-import Web3PageMain from "@/components/Services/web3-blockchain-development/Web3PageMain";
 import HomeFrontEndContainer from "@/components/Common/HomeFrontEnd/HomeFrontEndContainer";
-import AiFahLandingPage from "@/components/AiCompanions/Main/AiFahLandingPage";
 import CloudInfraPageMain from "@/components/Services/cloud-infrastructure-systems-architecture/CloudInfraPageMain";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -24,12 +21,9 @@ export default async function Page() {
     return (
         <div className="smart-container-top">
             <AboutContent lang={lang}/>
-            <AiSolutionsMain lang={lang}/>
             <CloudInfraPageMain lang={lang}/>
             <HomeBackEndContainer lang={lang} isRemoveTopSpace={true}/>
             <HomeFrontEndContainer lang={lang}/>
-            <AiFahLandingPage lang={lang}/>
-            <Web3PageMain lang={lang}/>
 
             <SchemaMarkupServicePage
                 name="About Us | CHORN - Custom Software Development Experts"

@@ -20,19 +20,32 @@ const nextConfig = {
     trailingSlash: true, basePath: '', // Add the base path if your app is hosted in a subpath
 
     async headers() {
-        return [{
-            source: "/images/:path*", headers: [{
-                key: "Cache-Control", value: "public, max-age=31536000, immutable"
-            }]
-        }, {
-            source: "/smart-mobility/:path*", headers: [{
-                key: "Cache-Control", value: "public, max-age=31536000, immutable"
-            }]
-        }, {
-            source: "/images-opengraph/:path*", headers: [{
-                key: "Cache-Control", value: "public, max-age=86400, s-maxage=86400"
-            }]
-        }]
+        return [
+            {
+                source: "/images/:path*",
+                headers: [{
+                    key: "Cache-Control", value: "public, max-age=31536000, immutable"
+                }]
+            },
+            {
+                source: "/smart-mobility/:path*",
+                headers: [{
+                    key: "Cache-Control", value: "public, max-age=31536000, immutable"
+                }]
+            },
+            {
+                source: "/smart-city/:path*",
+                headers: [{
+                    key: "Cache-Control", value: "public, max-age=31536000, immutable"
+                }]
+            },
+            {
+                source: "/images-opengraph/:path*",
+                headers: [{
+                    key: "Cache-Control", value: "public, max-age=86400, s-maxage=86400"
+                }]
+            }
+        ]
     },
 
     images: {
@@ -50,12 +63,20 @@ const nextConfig = {
 
     // Use rewrite for OpenGraph images only
     async rewrites() {
-        return [{
-            source: '/images-opengraph/smart-mobility/:path*',
-            destination: 'https://cdn.chorndigital.com/smart-mobility/:path*'
-        }, {
-            source: '/images-opengraph/:path*', destination: 'https://cdn.chorndigital.com/images-opengraph/:path*'
-        },];
+        return [
+            {
+                source: '/images-opengraph/smart-mobility/:path*',
+                destination: 'https://cdn.chorndigital.com/smart-mobility/:path*'
+            },
+            {
+                source: '/images-opengraph/smart-city/:path*',
+                destination: 'https://cdn.chorndigital.com/smart-mobility/:path*'
+            },
+            {
+                source: '/images-opengraph/:path*',
+                destination: 'https://cdn.chorndigital.com/images-opengraph/:path*'
+            },
+        ];
     },
 
     // Use redirects for general images
@@ -66,6 +87,8 @@ const nextConfig = {
                 destination: 'https://cdn.chorndigital.com/images/:path*',
                 permanent: true,
             },
+
+            // Smart Mobility
             {
                 source: '/:lang/smart-mobility/',
                 destination: '/:lang/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway',
@@ -76,16 +99,34 @@ const nextConfig = {
                 destination: 'https://cdn.chorndigital.com/smart-mobility/:path*',
                 permanent: true,
             },
+
+            // Smart City
+            {
+                source: '/:lang/smart-city/',
+                destination: '/:lang/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/',
+                permanent: true,
+            },
+            {
+                source: '/smart-city/:path*',
+                destination: 'https://cdn.chorndigital.com/smart-city/:path*',
+                permanent: true,
+            },
+
+            // Technology
             {
                 source: '/:lang/technology/',
                 destination: '/:lang/technical-expertise/web-development/',
                 permanent: true,
             },
+
+            // AI Integration
             {
                 source: '/:lang/ai-integration/',
                 destination: '/:lang/ai-companions/fah/',
                 permanent: true,
             },
+
+            //  About
             {
                 source: '/:lang/about/',
                 destination: '/:lang/about-chorn/',

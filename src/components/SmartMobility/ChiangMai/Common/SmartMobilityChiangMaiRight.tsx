@@ -74,8 +74,8 @@ export default function SmartMobilityChiangMaiRight(
                                         <div className="smart-right-caption">
                                             <strong>
                                                 {
-                                                    item.title.length > 42 ?
-                                                        item.title.slice(0, 42) + "..." : item.title
+                                                    item.title.length > 35 ?
+                                                        item.title.slice(0, 35) + "..." : item.title
                                                 }</strong>
                                         </div>
                                     </div>

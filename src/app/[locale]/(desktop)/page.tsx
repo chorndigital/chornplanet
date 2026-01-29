@@ -1,9 +1,5 @@
 // src/app/[locale]/AiBannerFahMain.tsx
 
-import HomeFeatureMain from "../../../components/Features/HomeFeatureMain";
-import HomeFrontEndContainer from "@/components/Common/HomeFrontEnd/HomeFrontEndContainer";
-import HomeBackEndContainer from "../../../components/Common/HomeBackEnd/HomeBackEndContainer";
-import CloudExperience from "../../../components/Common/CloudExperience";
 import React from "react";
 import {SchemaMarkupHomePage} from "@/components/GoogleSchemaMarkup/SchemaMarkupHomePage";
 import type {Metadata} from "next";
@@ -11,7 +7,6 @@ import HomeWorkspace from "@/components/Home/HomeWorkspace";
 import {MetadataHome} from "@/metadata/main/MetadataHome";
 import {headers} from "next/headers";
 import AiPloyLandingPage from "@/components/AiCompanions/Main/AiPloyLandingPage";
-import AiSolutionsMain from "@/components/AiSolutions/AiSolutionsMain";
 import Web3PageMain from "@/components/Services/web3-blockchain-development/Web3PageMain";
 import HomeSlideFull from "@/components/Home/HomeSlideFull";
 import VertiportDesignMain from "@/components/SmartMobility/ChiangMai/Main/VertiportDesignMain";
@@ -63,11 +58,6 @@ export default async function Home() {
         <>
             <HomeSlideFull lang={lang}/>
             <VertiportDesignMain lang={lang}/>
-            <HomeFeatureMain lang={lang} isTopSpace={true}/>
-            <CloudExperience lang={lang} isHome={true}/>
-            <HomeFrontEndContainer lang={lang}/>
-            <AiSolutionsMain lang={lang}/>
-            <HomeBackEndContainer lang={lang}/>
             <AiPloyLandingPage lang={lang}/>
             <Web3PageMain lang={lang}/>
             <SchemaMarkupHomePage/>

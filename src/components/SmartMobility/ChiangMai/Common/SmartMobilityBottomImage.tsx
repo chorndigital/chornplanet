@@ -1,11 +1,8 @@
-import Image from "next/image";
 import React from "react";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import Link from "next/link"
 
 export default function SmartMobilityBottomImage({lang}: { lang: string }) {
-    const vision = SmartMobility[lang].chiangMai.vision
     const urbanHub = SmartMobility[lang].chiangMai.urbanHub
     const route1 = SmartMobility[lang].chiangMai.connectivityMatrix.routes[0]
 

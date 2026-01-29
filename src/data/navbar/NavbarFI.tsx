@@ -13,6 +13,14 @@ export const NavbarFI: INavbar[] = [
         submenu: [],
     },
     {
+        group: "Smart City",
+        label: "Älykaupunki",
+        level: 1,
+        link: "/smart-city/",
+        isSubmenu: false,
+        submenu: [],
+    },
+    {
         group: "Smart Mobility",
         label: "Älykäs Liikenne",
         level: 1,

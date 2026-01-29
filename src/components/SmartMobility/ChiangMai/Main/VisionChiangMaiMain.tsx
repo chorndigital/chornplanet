@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import {DefaultShape} from "@/components/Shape/DefaultShape";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import VisionChiangMaiBottom from "../Bottom/VisionChiangMaiBottom";
 import SmartMobilityChiangMaiRight from "../Common/SmartMobilityChiangMaiRight";
 import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
+import SmartCityBottomImage from "@/components/SmartCity/ChiangMai/SmartCityBottomImage";
 
 export default function VisionChiangMaiMain({lang}: { lang: string }) {
     const vision = SmartMobility[lang].chiangMai.vision
@@ -34,11 +34,13 @@ export default function VisionChiangMaiMain({lang}: { lang: string }) {
                         </div>
 
                         <VisionChiangMaiBottom lang={lang}/>
+                        <SmartCityBottomImage lang={lang}/>
                     </div>
+
                     <SmartMobilityChiangMaiRight
                         lang={lang}
                         currentIdx={SmartVisibilityIndex.Vision}
-                        imageQty={3}
+                        imageQty={4}
                     />
                 </div>
             </div>

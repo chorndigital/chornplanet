@@ -13,6 +13,14 @@ export const NavbarDA: INavbar[] = [
         submenu: [],
     },
     {
+        group: "Smart City",
+        label: "Smart by",
+        level: 1,
+        link: "/smart-city/",
+        isSubmenu: false,
+        submenu: [],
+    },
+    {
         group: "Smart Mobility",
         label: "Smart Mobilitet",
         level: 1,

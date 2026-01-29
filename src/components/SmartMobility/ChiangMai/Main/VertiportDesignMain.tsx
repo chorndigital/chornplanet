@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import {DefaultShape} from "@/components/Shape/DefaultShape";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import VertiportDesignBottom from "../Bottom/VertiportDesignBottom";
 import SmartMobilityChiangMaiRight from "../Common/SmartMobilityChiangMaiRight";
 import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
+import SmartCityBottomImage from "@/components/SmartCity/ChiangMai/SmartCityBottomImage";
 
 export default function VertiportDesignMain({lang}: { lang: string }) {
     const vertiportDesign = SmartMobility[lang].chiangMai.vertiportDesign
@@ -34,6 +34,7 @@ export default function VertiportDesignMain({lang}: { lang: string }) {
                         </div>
 
                         <VertiportDesignBottom lang={lang}/>
+                        <SmartCityBottomImage lang={lang}/>
                     </div>
                     <SmartMobilityChiangMaiRight
                         lang={lang}

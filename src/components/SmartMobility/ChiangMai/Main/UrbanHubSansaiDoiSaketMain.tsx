@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import {DefaultShape} from "@/components/Shape/DefaultShape";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import UrbanHubSansaiDoiSaketBottom from "../Bottom/UrbanHubSansaiDoiSaketBottom";
 import SmartMobilityChiangMaiRight from "../Common/SmartMobilityChiangMaiRight";
 import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
+import SmartCityBottomImage from "@/components/SmartCity/ChiangMai/SmartCityBottomImage";
 
 export default function UrbanHubSansaiDoiSaketMain({lang}: { lang: string }) {
     const urbanHub = SmartMobility[lang].chiangMai.urbanHub
@@ -34,6 +34,7 @@ export default function UrbanHubSansaiDoiSaketMain({lang}: { lang: string }) {
                         </div>
 
                         <UrbanHubSansaiDoiSaketBottom lang={lang}/>
+                        <SmartCityBottomImage lang={lang}/>
                     </div>
                     <SmartMobilityChiangMaiRight
                         lang={lang}

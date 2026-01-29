@@ -13,6 +13,14 @@ export const NavbarDE: INavbar[] = [
         submenu: [],
     },
     {
+        group: "Smart City",
+        label: "Intelligente Stadt",
+        level: 1,
+        link: "/smart-city/",
+        isSubmenu: false,
+        submenu: [],
+    },
+    {
         group: "Smart Mobility",
         label: "Intelligente Mobilität",
         level: 1,

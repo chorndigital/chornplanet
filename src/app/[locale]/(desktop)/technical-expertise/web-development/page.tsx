@@ -19,8 +19,8 @@ export default async function Page() {
 
     return (
         <div className="smart-container-top">
-            <HomeFeatureMain lang={lang} isHideTopTitle={true}/>
             <WebDevelopmentPageMain lang={lang}/>
+            <HomeFeatureMain lang={lang} isHideTopTitle={true}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
                 name="Web Development Services | CHORN | Custom Software & Technology Solutions"
