@@ -70,7 +70,7 @@ const nextConfig = {
             },
             {
                 source: '/images-opengraph/smart-city/:path*',
-                destination: 'https://cdn.chorndigital.com/smart-mobility/:path*'
+                destination: 'https://cdn.chorndigital.com/smart-city/:path*'
             },
             {
                 source: '/images-opengraph/:path*',
