@@ -1,205 +1,163 @@
-import { IFooter } from "@/data/footer/model/IFooter";
+import {IFooter} from "@/data/footer/model/IFooter";
 
 export const FooterJA: IFooter = {
-    title: "CHORN",
+    title: "CHORN Digital",
     link: "https://chorndigital.com/",
     www: "www.chorndigital.com",
-    description: "CHORNは、現代の急速に変化するテクノロジー、ソフトウェア開発、様々なビジネスドメイン産業向けの情報技術、そして興味深いニュースに関する最新情報をフォローしています。",
-    importantTitle: "重要リンク",
-    featureTitle: "技術的専門知識",
-    infoTitle: "情報",
-    termOfService: {
-        label: "利用規約",
-        link: "/terms-of-service"
-    },
-    privacyPolicy: {
-        label: "プライバシーポリシー",
-        link: "/privacy-policy"
-    },
-    workplacePolicy: {
-        label: "職場ポリシー",
-        link: "/workplace-policy"
-    },
-    socialLinks: [
-        {
-            label: "LinkedIn",
-            link: "https://www.linkedin.com/company/chorn",
-            icon: "bx bxl-linkedin hover-rotate",
-            iconClass: "linkedin",
-            ariaLabel: "LinkedInで接続"
-        },
-        {
-            label: "GitHub",
-            link: "https://github.com/chorndigital",
-            icon: "bx bxl-github hover-rotate",
-            iconClass: "github",
-            ariaLabel: "Follow us on GitHub"
-        },
-        {
-            label: "Facebook",
-            link: "https://www.facebook.com/chorndigital",
-            icon: "bx bxl-facebook hover-rotate",
-            iconClass: "facebook",
-            ariaLabel: "Follow us on GitHub"
-        },
-    ],
-    importantLinks: [
-        {
-            label: "会社情報",
-            link: "/about-chorn"
-        },
-        {
-            label: "お問い合わせ",
-            link: "/contact"
-        },
-        {
-            label: "利用規約",
-            link: "/terms-of-service"
-        },
-        {
-            label: "プライバシーポリシー",
-            link: "/privacy-policy"
-        },
-        {
-            label: "職場ポリシー",
-            link: "/workplace-policy"
-        },
-        {
-            label: "お問い合わせ",
-            link: "/contact/",
-        },
-    ],
-    featuredLinks: [
-        {
-            label: "ウェブ開発",
-            link: "/technical-expertise/web-development"
-        },
-        {
-            label: "フロントエンド開発",
-            link: "/technical-expertise/front-end-developer/"
-        },
-        {
-            label: "バックエンド開発",
-            link: "/technical-expertise/full-stack-developer/"
-        },
-        {
-            label: "DevOpsとクラウド",
-            link: "/technical-expertise/cloud-devops/"
-        },
-        {
-            label: "LLM-AI LINE 統合",
-            link: "/ai-companions/fah/",
-        },
-        {
-            label: "LLM-AI 統合",
-            link: "/technical-expertise/ai-solutions"
-        },
-        {
-            label: "Web3およびスマートコントラクト",
-            link: "/technical-expertise/web3-blockchain-smart-contract-development",
-        },
-    ],
-    infoLinks: [
-        {
-            label: "勤務形態",
-            linkText: "リモート、オフィス、ハイブリッド",
-            link: "/",
-            icon: "flaticon-speed hover-rotate",
-        }
-    ],
-    frontend: {
-        title: "Front-End",
+    description:
+        "CHORN Digital: 将来のモビリティおよびスマートシティの文脈におけるシステム設計、接続型システムと初期IoTプラットフォーム、コンセプトからアーキテクチャ、システム設計および開発まで",
+    social: {
+        title: "ソーシャルリンク",
         items: [
             {
-                label: "Next.js",
-                link: '/technical-expertise/front-end-developer/nextjs-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "React.js",
-                link: '/technical-expertise/front-end-developer/react-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Vue.js",
-                link: '/technical-expertise/front-end-developer/vue-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Angular",
-                link: '/technical-expertise/front-end-developer/angular-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "JavaScript",
-                link: '/technical-expertise/front-end-developer/javascript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "TypeScript",
-                link: '/technical-expertise/front-end-developer/typescript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "CSS3",
-                link: '/technical-expertise/front-end-developer/css3-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "HTML5",
-                link: '/technical-expertise/front-end-developer/html5-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-        ]
-    },
-    backend: {
-        title: "Back-End",
-        items: [
-            {
-                label: "Java",
-                link: '/technical-expertise/full-stack-developer/java-spring-boot-developer',
-            },
-            {
-                label: "Node.js",
-                link: '/technical-expertise/full-stack-developer/nodejs-developer',
-            },
-            {
-                label: "Python",
-                link: '/technical-expertise/full-stack-developer/python-developer',
-            },
-            {
-                label: "Go",
-                link: '/technical-expertise/full-stack-developer/go-developer',
-            },
-            {
-                label: "PHP",
-                link: '/technical-expertise/full-stack-developer/php-developer',
-            },
-            {
-                label: "DotNet Core",
-                link: '/technical-expertise/full-stack-developer/dotnetcore-developer',
-            },
-        ]
-    },
-    devops: {
-        title: "DevOps",
-        items: [
-            {
-                label: "Docker",
-                link: '/technical-expertise/cloud-devops/docker',
-            },
-            {
-                label: "Kubernetes",
-                link: '/technical-expertise/cloud-devops/kubernetes',
+                label: "LinkedIn",
+                link: "https://www.linkedin.com/company/chorn",
+                icon: "bx bxl-linkedin hover-rotate",
+                iconClass: "linkedin",
+                ariaLabel: "LinkedInでつながる"
             },
             {
                 label: "GitHub",
-                link: '/technical-expertise/cloud-devops/github',
+                link: "https://github.com/chorndigital",
+                icon: "bx bxl-github hover-rotate",
+                iconClass: "github",
+                ariaLabel: "GitHubでフォローする"
             },
             {
-                label: "GitLab",
-                link: '/technical-expertise/cloud-devops/gitlab',
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital",
+                icon: "bx bxl-facebook hover-rotate",
+                iconClass: "facebook",
+                ariaLabel: "Facebookでフォローする"
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+                icon: "bx bxl-tiktok hover-rotate",
+                iconClass: "tiktok",
+                ariaLabel: "TikTokでフォローする"
+            },
+        ],
+    },
+    important: {
+        title: "重要なリンク",
+        items: [
+            {
+                label: "概要",
+                link: "/about-chorn"
+            },
+            {
+                label: "お問い合わせ",
+                link: "/contact"
+            },
+            {
+                label: "利用規約",
+                link: "/terms-of-service"
+            },
+            {
+                label: "プライバシーポリシー",
+                link: "/privacy-policy"
+            },
+            {
+                label: "職場ポリシー",
+                link: "/workplace-policy"
+            }
+        ],
+    },
+    project: {
+        title: "プロジェクト",
+        items: [
+            // {
+            //     label: "Smart Food System",
+            //     link: "/smart-food"
+            // },
+            {
+                label: "将来のモビリティに関するシナリオ",
+                link: "/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway/"
+            },
+            {
+                label: "将来のスマートシティに関するシナリオ",
+                link: "/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/"
+            },
+            {
+                label: "Lanna Style Content",
+                link: "https://tiktok.com/@chorndigital"
             }
         ]
-    }
-};
+    },
+    smartCity: {
+        title: "Smart City",
+        items: [
+            {
+                label: "Smart City 概要",
+                link: "/smart-city/when-human-life-shapes-the-city",
+            },
+            {
+                label: "Human Daily Flow",
+                link: "/smart-city/human-daily-flow/morning",
+            },
+            {
+                label: "Local to Global",
+                link: "/smart-city/from-local-life-to-global-pattern",
+            },
+            {
+                label: "Global Patterns",
+                link: "/smart-city/global-patterns/predictable-shared-street",
+            },
+            {
+                label: "Urban Signals",
+                link: "/smart-city/urban-signals/predictable-street",
+            },
+        ]
+    },
+    technology: {
+        title: "テクノロジー",
+        items: [
+            {
+                label: "AI統合",
+                link: "/technical-expertise/ai-solutions"
+            },
+            {
+                label: "Web開発",
+                link: "/technical-expertise/web-development"
+            },
+            {
+                label: "フロントエンド開発",
+                link: "/technical-expertise/front-end-developer/"
+            },
+            {
+                label: "バックエンド開発",
+                link: "/technical-expertise/full-stack-developer/"
+            },
+            {
+                label: "DevOps とクラウド",
+                link: "/technical-expertise/cloud-devops/"
+            },
+        ]
+    },
+    connect: {
+        title: "連絡先",
+        items: [
+            {
+                label: "お問い合わせ",
+                link: "/contact/",
+            },
+            {
+                label: "LinkedIn",
+                link: "https://linkedin.com/in/khachornchit",
+            },
+            {
+                label: "GitHub",
+                link: "https://github.com/chorndigital",
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+            },
+            {
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital"
+            },
+        ]
+    },
+}

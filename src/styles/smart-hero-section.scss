@@ -1,0 +1,84 @@
+.smart-hero {
+  padding: 3rem 0 1.5rem;
+}
+
+.smart-hero__headline {
+  font-size: 2.75rem;
+  line-height: 1.15;
+  font-weight: 600;
+
+  @media (max-width: 768px) {
+    font-size: 2.2rem;
+  }
+}
+
+.smart-hero__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  align-items: center;
+  max-width: 1360px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.smart-hero__content {
+  margin: 0 auto;
+}
+
+.smart-hero__paragraph {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.smart-hero__soft-texts {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 1.75rem;
+}
+
+.smart-hero__soft-text {
+  h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-text-soft);
+  }
+
+  p {
+    margin-top: 0.4rem;
+    font-size: 1rem;
+    color: var(--color-text-muted);
+  }
+}
+
+.smart-hero__cta {
+  margin-top: 3rem;
+
+  a {
+    font-size: 1rem;
+    text-decoration: underline;
+    color: inherit;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.smart-hero__image {
+  margin-top: 1.5rem;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+
+  @media (max-width: 900px) {
+    aspect-ratio: 4 / 3;
+  }
+}

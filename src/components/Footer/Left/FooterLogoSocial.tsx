@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {IFooterDetail} from "@/data/footer/model/IFooterDetail";
+import {IFooterDetail} from "@/data/footer/model/IFooter";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {ImageUrl} from "@/image/ImageUrl";
 
@@ -23,7 +23,7 @@ export default function FooterLogoSocial({lang}: { lang: string }) {
                 </p>
 
                 <ul className="social">
-                    {InfoTranslation[lang].Footer.socialLinks.map((item: IFooterDetail, index: number) => (
+                    {InfoTranslation[lang].Footer.social.items.map((item: IFooterDetail, index: number) => (
                         <li key={index}>
                             <a
                                 href={item.link}

@@ -3,6 +3,18 @@
 // Tailwind first (important for avoiding overrides)
 // import "@/styles/tailwind.scss";
 
+// React and components
+import {DM_Sans} from "next/font/google";
+import GoTop from "@/components/Layouts/GoTop";
+import React from "react";
+import AppProvider from "@/provider/AppProvider";
+import {headers} from "next/headers";
+import FooterMain from "@/components/Footer/FooterMain";
+import NavbarContainer from "@/components/Navbar/NavbarContainer";
+import CookieConsentChecking from "@/components/Consent/CookieConsentChecking";
+import AosAnimation from "@/components/Layouts/AosAnimation";
+import {Metadata} from "next";
+
 // SCSS Fundamental
 import "@/styles/globals.scss"
 import "@/styles/bootstrap.min.css";
@@ -29,21 +41,20 @@ import "@/styles/smart-bottom.scss";
 import "@/styles/smart-right.scss";
 import "@/styles/home-slide-full.scss";
 import "@/styles/smart-privacy.scss";
+import "@/styles/smart-hero-section.scss"
+import "@/styles/human-daily-flow.sass.scss"
+import "@/styles/local-to-global.scss"
+import "@/styles/system-explainers.scss"
+import "@/styles/mobility-focus.scss"
+import "@/styles/city-systems.scss"
+import "@/styles/global-patterns.scss"
+import "@/styles/urban-signals.scss"
+import "@/styles/editorial-positioning.scss"
+import "@/styles/smart-city-slug.scss"
+import "@/styles/smart-city-main.scss"
+import "@/styles/footer.scss"
 
-// React and components
-import {DM_Sans} from "next/font/google";
-import GoTop from "@/components/Layouts/GoTop";
-import React from "react";
-import AppProvider from "@/provider/AppProvider";
-import {headers} from "next/headers";
-import SubscribeForm from "@/components/Common/SubscribeForm";
-import WeWorkForIndustries from "@/components/Common/WeWorkForIndustries";
-import FooterMain from "@/components/Footer/FooterMain";
-import NavbarContainer from "@/components/Navbar/NavbarContainer";
-import CookieConsentChecking from "@/components/Consent/CookieConsentChecking";
-import AosAnimation from "@/components/Layouts/AosAnimation";
-import {Metadata} from "next";
-
+// Start
 const dm_sans = DM_Sans({subsets: ["latin"]});
 
 export const metadata: Metadata = {
@@ -64,8 +75,6 @@ export default async function RootLayout({children,}: Readonly<{ children: React
                 <NavbarContainer lang={lang}/>
                 {children}
                 <div>
-                    <SubscribeForm lang={lang}/>
-                    <WeWorkForIndustries lang={lang}/>
                     <FooterMain lang={lang}/>
                 </div>
             </AppProvider>

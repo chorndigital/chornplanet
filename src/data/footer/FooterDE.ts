@@ -1,205 +1,163 @@
-import { IFooter } from "@/data/footer/model/IFooter";
+import {IFooter} from "@/data/footer/model/IFooter";
 
 export const FooterDE: IFooter = {
-    title: "CHORN",
+    title: "CHORN Digital",
     link: "https://chorndigital.com/",
     www: "www.chorndigital.com",
-    description: "CHORN verfolgt die neuesten Informationen über die sich schnell verändernden Technologien von heute, Softwareentwicklung, Informationstechnologie für verschiedene Geschäftsdomänen und interessante Nachrichten.",
-    importantTitle: "Wichtige Links",
-    featureTitle: "Technische Expertise",
-    infoTitle: "Informationen",
-    termOfService: {
-        label: "Nutzungsbedingungen",
-        link: "/terms-of-service"
-    },
-    privacyPolicy: {
-        label: "Datenschutzrichtlinie",
-        link: "/privacy-policy"
-    },
-    workplacePolicy: {
-        label: "Arbeitsplatzrichtlinie",
-        link: "/workplace-policy"
-    },
-    socialLinks: [
-        {
-            label: "LinkedIn",
-            link: "https://www.linkedin.com/company/chorn",
-            icon: "bx bxl-linkedin hover-rotate",
-            iconClass: "linkedin",
-            ariaLabel: "Vernetzen Sie sich mit uns auf LinkedIn"
-        },
-        {
-            label: "GitHub",
-            link: "https://github.com/chorndigital",
-            icon: "bx bxl-github hover-rotate",
-            iconClass: "github",
-            ariaLabel: "Follow us on GitHub"
-        },
-        {
-            label: "Facebook",
-            link: "https://www.facebook.com/chorndigital",
-            icon: "bx bxl-facebook hover-rotate",
-            iconClass: "facebook",
-            ariaLabel: "Follow us on GitHub"
-        },
-    ],
-    importantLinks: [
-        {
-            label: "Über uns",
-            link: "/about-chorn"
-        },
-        {
-            label: "Kontakt",
-            link: "/contact"
-        },
-        {
-            label: "Nutzungsbedingungen",
-            link: "/terms-of-service"
-        },
-        {
-            label: "Datenschutzrichtlinie",
-            link: "/privacy-policy"
-        },
-        {
-            label: "Arbeitsplatzrichtlinie",
-            link: "/workplace-policy"
-        },
-        {
-            label: "Kontakt",
-            link: "/contact/",
-        },
-    ],
-    featuredLinks: [
-        {
-            label: "Webentwicklung",
-            link: "/technical-expertise/web-development"
-        },
-        {
-            label: "Front-End-Entwicklung",
-            link: "/technical-expertise/front-end-developer/"
-        },
-        {
-            label: "Back-End-Entwicklung",
-            link: "/technical-expertise/full-stack-developer/"
-        },
-        {
-            label: "DevOps und Cloud",
-            link: "/technical-expertise/cloud-devops/"
-        },
-        {
-            label: "LLM/KI LINE-Chat-Freund",
-            link: "/ai-companions/fah/",
-        },
-        {
-            label: "LLM-AI-Beratung",
-            link: "/technical-expertise/ai-solutions"
-        },
-        {
-            label: "Web3 und Smart Contracts",
-            link: "/technical-expertise/web3-blockchain-smart-contract-development",
-        },
-    ],
-    infoLinks: [
-        {
-            label: "Arbeitsmodelle",
-            linkText: "Remote, Büro, Hybrid",
-            link: "/",
-            icon: "flaticon-speed hover-rotate",
-        }
-    ],
-    frontend: {
-        title: "Front-End",
+    description:
+        "CHORN Digital: Systemdesign für Kontexte zukünftiger Mobilität und Smart-City-Anwendungen, vernetzte Systeme und frühe IoT-Plattformen, von Konzept bis Architektur, Systemdesign und Entwicklung",
+    social: {
+        title: "Social Links",
         items: [
             {
-                label: "Next.js",
-                link: '/technical-expertise/front-end-developer/nextjs-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "React.js",
-                link: '/technical-expertise/front-end-developer/react-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Vue.js",
-                link: '/technical-expertise/front-end-developer/vue-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Angular",
-                link: '/technical-expertise/front-end-developer/angular-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "JavaScript",
-                link: '/technical-expertise/front-end-developer/javascript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "TypeScript",
-                link: '/technical-expertise/front-end-developer/typescript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "CSS3",
-                link: '/technical-expertise/front-end-developer/css3-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "HTML5",
-                link: '/technical-expertise/front-end-developer/html5-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-        ]
-    },
-    backend: {
-        title: "Back-End",
-        items: [
-            {
-                label: "Java",
-                link: '/technical-expertise/full-stack-developer/java-spring-boot-developer',
-            },
-            {
-                label: "Node.js",
-                link: '/technical-expertise/full-stack-developer/nodejs-developer',
-            },
-            {
-                label: "Python",
-                link: '/technical-expertise/full-stack-developer/python-developer',
-            },
-            {
-                label: "Go",
-                link: '/technical-expertise/full-stack-developer/go-developer',
-            },
-            {
-                label: "PHP",
-                link: '/technical-expertise/full-stack-developer/php-developer',
-            },
-            {
-                label: "DotNet Core",
-                link: '/technical-expertise/full-stack-developer/dotnetcore-developer',
-            },
-        ]
-    },
-    devops: {
-        title: "DevOps",
-        items: [
-            {
-                label: "Docker",
-                link: '/technical-expertise/cloud-devops/docker',
-            },
-            {
-                label: "Kubernetes",
-                link: '/technical-expertise/cloud-devops/kubernetes',
+                label: "LinkedIn",
+                link: "https://www.linkedin.com/company/chorn",
+                icon: "bx bxl-linkedin hover-rotate",
+                iconClass: "linkedin",
+                ariaLabel: "Verbinden Sie sich mit uns auf LinkedIn"
             },
             {
                 label: "GitHub",
-                link: '/technical-expertise/cloud-devops/github',
+                link: "https://github.com/chorndigital",
+                icon: "bx bxl-github hover-rotate",
+                iconClass: "github",
+                ariaLabel: "Folgen Sie uns auf GitHub"
             },
             {
-                label: "GitLab",
-                link: '/technical-expertise/cloud-devops/gitlab',
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital",
+                icon: "bx bxl-facebook hover-rotate",
+                iconClass: "facebook",
+                ariaLabel: "Folgen Sie uns auf Facebook"
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+                icon: "bx bxl-tiktok hover-rotate",
+                iconClass: "tiktok",
+                ariaLabel: "Folgen Sie uns auf TikTok"
+            },
+        ],
+    },
+    important: {
+        title: "Wichtige Links",
+        items: [
+            {
+                label: "Über uns",
+                link: "/about-chorn"
+            },
+            {
+                label: "Kontakt",
+                link: "/contact"
+            },
+            {
+                label: "Nutzungsbedingungen",
+                link: "/terms-of-service"
+            },
+            {
+                label: "Datenschutzerklärung",
+                link: "/privacy-policy"
+            },
+            {
+                label: "Arbeitsplatzrichtlinie",
+                link: "/workplace-policy"
+            }
+        ],
+    },
+    project: {
+        title: "Projekte",
+        items: [
+            // {
+            //     label: "Smart Food System",
+            //     link: "/smart-food"
+            // },
+            {
+                label: "Szenario für zukünftige Mobilität",
+                link: "/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway/"
+            },
+            {
+                label: "Szenario für zukünftige Smart City",
+                link: "/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/"
+            },
+            {
+                label: "Lanna Style Content",
+                link: "https://tiktok.com/@chorndigital"
             }
         ]
-    }
-};
+    },
+    smartCity: {
+        title: "Smart City",
+        items: [
+            {
+                label: "Smart-City-Überblick",
+                link: "/smart-city/when-human-life-shapes-the-city",
+            },
+            {
+                label: "Human Daily Flow",
+                link: "/smart-city/human-daily-flow/morning",
+            },
+            {
+                label: "Local to Global",
+                link: "/smart-city/from-local-life-to-global-pattern",
+            },
+            {
+                label: "Global Patterns",
+                link: "/smart-city/global-patterns/predictable-shared-street",
+            },
+            {
+                label: "Urban Signals",
+                link: "/smart-city/urban-signals/predictable-street",
+            },
+        ]
+    },
+    technology: {
+        title: "Technologie",
+        items: [
+            {
+                label: "KI-Integration",
+                link: "/technical-expertise/ai-solutions"
+            },
+            {
+                label: "Webentwicklung",
+                link: "/technical-expertise/web-development"
+            },
+            {
+                label: "Front-End-Entwicklung",
+                link: "/technical-expertise/front-end-developer/"
+            },
+            {
+                label: "Back-End-Entwicklung",
+                link: "/technical-expertise/full-stack-developer/"
+            },
+            {
+                label: "DevOps und Cloud",
+                link: "/technical-expertise/cloud-devops/"
+            },
+        ]
+    },
+    connect: {
+        title: "Kontakt",
+        items: [
+            {
+                label: "Kontakt",
+                link: "/contact/",
+            },
+            {
+                label: "LinkedIn",
+                link: "https://linkedin.com/in/khachornchit",
+            },
+            {
+                label: "GitHub",
+                link: "https://github.com/chorndigital",
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+            },
+            {
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital"
+            },
+        ]
+    },
+}

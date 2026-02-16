@@ -1,33 +1,45 @@
-import {IFooterDetail} from "@/data/footer/model/IFooterDetail";
-
 export interface IFooter {
     title: string;
     link: string;
     www: string;
     description: string;
-    importantTitle: string;
-    featureTitle: string;
-    infoTitle: string;
 
-    termOfService: IFooterDetail;
-    privacyPolicy: IFooterDetail;
-    workplacePolicy: IFooterDetail;
+    social: {
+        title: string;
+        items: IFooterDetail[];
+    }
 
-    socialLinks: IFooterDetail[]
-    importantLinks: IFooterDetail[]
-    featuredLinks: IFooterDetail[]
-    infoLinks: IFooterDetail[]
+    important: {
+        title: string;
+        items: IFooterDetail[];
+    }
 
-    frontend: {
+    project: {
         title: string,
         items: IFooterDetail[]
-    },
-    backend: {
+    }
+
+    smartCity: {
         title: string,
         items: IFooterDetail[]
-    },
-    devops: {
+    }
+
+    technology: {
         title: string,
         items: IFooterDetail[]
-    },
+    }
+
+    connect: {
+        title: string,
+        items: IFooterDetail[]
+    }
+}
+
+export interface IFooterDetail {
+    label: string;
+    linkText?: string,
+    link: string;
+    icon?: string;
+    iconClass?: string;
+    ariaLabel?: string;
 }

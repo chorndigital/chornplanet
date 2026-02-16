@@ -71,7 +71,7 @@ export const MetaLinks: IMetaLinks = {
     home: {
         canonical: "/",
         image: {
-            url: "/images-opengraph/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway.png" + MetadataImageVersion,
+            url: "/images-opengraph/smart-city/hero-section/city-shaped-by-people-move.png"+ MetadataImageVersion,
             alt: "Open graph image for home flexible workplace"
         }
     },

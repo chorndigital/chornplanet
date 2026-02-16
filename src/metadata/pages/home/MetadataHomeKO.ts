@@ -4,60 +4,34 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHomeKO: Metadata = {
-    title: "CHORN | 기업용 소프트웨어 개발 및 시스템 통합",
-    description: "전문적인 시스템 분석과 최첨단 소프트웨어 솔루션으로 비즈니스를 강화하세요. CHORN은 풀스택 개발, AI 기반 자동화, 클라우드 컴퓨팅 및 시스템 현대화에 특화되어 혁신과 효율성을 증진시킵니다.",
+    title: "CHORN | 시스템 및 응용 기술을 위한 미디어 플랫폼",
+    description:
+        "CHORN은 시스템 분석, 소프트웨어 엔지니어링, 통합 실무, 그리고 응용 기술 주제를 구조적으로 설명하는 미디어 플랫폼이다. AI 기반 자동화, 클라우드 시스템, 시스템 현대화 접근을 포함하며, 공공, 투자자, 정책 관련 맥락에서 활용할 수 있는 정보를 제공한다.",
     icons: {
         icon: '/favicon.ico',
     },
-    alternates: metadataLink(LanguageCode.ko, MetaLinks.home).alternates,
+    alternates: metadataLink(LanguageCode.en, MetaLinks.home).alternates,
     authors: [
-        {
-            name: "CHORN"
-        }
+        { name: "CHORN Digital" }
     ],
     openGraph: {
-        title: "CHORN | 기업용 소프트웨어 개발 및 시스템 통합",
-        description: "전문적인 시스템 분석과 최첨단 소프트웨어 솔루션으로 비즈니스를 강화하세요. CHORN은 풀스택 개발, AI 기반 자동화, 클라우드 컴퓨팅 및 시스템 현대화에 특화되어 혁신과 효율성을 증진시킵니다.",
-        images: metadataLink(LanguageCode.ko, MetaLinks.home).openGraph.images,
-        url: metadataLink(LanguageCode.ko, MetaLinks.home).alternates.canonical,
+        title: "CHORN | 시스템 및 응용 기술을 위한 미디어 플랫폼",
+        description:
+            "CHORN은 시스템 분석, 소프트웨어 엔지니어링, 통합 실무, 그리고 응용 기술 주제를 구조적으로 설명하는 미디어 플랫폼이다. AI 기반 자동화, 클라우드 시스템, 시스템 현대화 접근을 포함하며, 공공, 투자자, 정책 관련 맥락에서 활용할 수 있는 정보를 제공한다.",
+        images: metadataLink(LanguageCode.en, MetaLinks.home).openGraph.images,
+        url: metadataLink(LanguageCode.en, MetaLinks.home).alternates.canonical,
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN | 기업용 소프트웨어 개발 및 시스템 통합",
-        description: "전문적인 시스템 분석과 최첨단 소프트웨어 솔루션으로 비즈니스를 강화하세요. CHORN은 풀스택 개발, AI 기반 자동화, 클라우드 컴퓨팅 및 시스템 현대화에 특화되어 혁신과 효율성을 증진시킵니다.",
-        images: metadataLink(LanguageCode.ko, MetaLinks.home).twitter.images,
+        title: "CHORN | 시스템 및 응용 기술을 위한 미디어 플랫폼",
+        description:
+            "CHORN은 시스템 분석, 소프트웨어 엔지니어링, 통합 실무, 그리고 응용 기술 주제를 구조적으로 설명하는 미디어 플랫폼이다. AI 기반 자동화, 클라우드 시스템, 시스템 현대화 접근을 포함하며, 공공, 투자자, 정책 관련 맥락에서 활용할 수 있는 정보를 제공한다.",
+        images: metadataLink(LanguageCode.en, MetaLinks.home).twitter.images,
     },
     keywords: [
-        "CHORN", "CHORN 맞춤형 소프트웨어 개발", "CHORN 소프트웨어 아웃소싱", "CHORN이란 무엇인가",
-        "CHORN 소프트웨어 개발 태국", "CHORN 소프트웨어 개발자 치앙마이", "CHORN 소프트웨어 개발자 방콕",
-
-        "맞춤형 소프트웨어 개발", "소프트웨어 개발 회사", "소프트웨어 아웃소싱",
-        "소프트웨어 아웃소싱 기술 전문성", "소프트웨어 개발 아웃소싱", "소프트웨어 개발 아웃소싱 회사",
-        "최고의 소프트웨어 아웃소싱 회사", "웹 개발 아웃소싱 회사", "IT 개발 회사",
-        "아웃소싱 개발 회사", "태국 아웃소싱", "태국의 아웃소싱 회사",
-        "소프트웨어 개발 치앙마이", "소프트웨어 아웃소싱 치앙마이", "소프트웨어 아웃소싱 방콕",
-
-        "소프트웨어 엔지니어", "소프트웨어 개발자", "프론트엔드 개발자", "백엔드 개발자", "풀스택 개발자",
-        "웹 개발자", "모바일 개발자", "리액트 개발자", "앵귤러 개발자", "자바 개발자",
-        "Node.js 개발자", ".NET Core 개발자", "PHP 개발자", "API 개발자", "블록체인 개발자",
-        "Web3 개발자", "마이크로서비스 개발자", "디지털 혁신", "엔터프라이즈 소프트웨어", "확장 가능한 웹사이트",
-
-        "소프트웨어 개발자 태국", "소프트웨어 개발자 치앙마이", "소프트웨어 개발자 방콕",
-        "소프트웨어 엔지니어 태국", "프론트엔드 개발자 태국", "백엔드 개발자 태국",
-        "풀스택 개발자 태국", "웹 개발자 태국", "모바일 개발자 태국",
-        "풀스택 개발자 치앙마이", "소프트웨어 개발자 원격 근무", "아웃소싱 프로그래머 태국",
-
-        "기술 부서장", "기술 부서장 태국", "기술 이사",
-        "기술 이사 태국", "소프트웨어 개발 책임자", "소프트웨어 개발 책임자 태국",
-        "소프트웨어 엔지니어링 책임자", "소프트웨어 엔지니어링 책임자 태국", "IT 프로젝트 매니저",
-        "소프트웨어 개발 매니저", "기술 책임자", "시스템 분석가",
-
-        "Next.js 개발자", "React.js 개발자", "Spring Boot", "프론트엔드 프레임워크", "프론트엔드 아키텍처",
-        "풀스택 웹 개발자", "프론트엔드 백엔드 개발", "마이크로서비스",
-
-        "아웃소싱 개발", "태국의 아웃소싱 회사", "프로그래밍 아웃소싱",
-        "프로그래밍 작업 아웃소싱", "프로그래밍 작업 아웃소싱", "프로그래밍 업무 아웃소싱",
-        "온라인 아웃소싱 프로그램"
+        "CHORN", "CHORN Digital", "미디어 플랫폼", "시스템 분석",
+        "소프트웨어 엔지니어링", "시스템 통합", "클라우드 시스템",
+        "AI 통합", "DevOps", "마이크로서비스", "기술 아키텍처"
     ]
 }

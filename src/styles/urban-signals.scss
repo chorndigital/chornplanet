@@ -1,0 +1,78 @@
+/* src/styles/urban-signals.scss */
+
+.urban-signals {
+  padding: 4rem 0;
+  background: var(--color-bg);
+}
+
+.urban-signals__intro {
+  max-width: 1360px;
+  margin-bottom: 2rem;
+
+  h2 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  p {
+    margin-top: 1.2rem;
+    font-size: 1.05rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    max-width: 860px;
+  }
+}
+
+.urban-signals__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 1360px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+.urban-signals__item {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
+
+.urban-signals__image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+
+  @media (max-width: 900px) {
+    aspect-ratio: 4 / 3;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.urban-signals__content {
+  margin-top: 1.25rem;
+
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 0.6rem;
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+  }
+}

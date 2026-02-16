@@ -1,205 +1,163 @@
 import {IFooter} from "@/data/footer/model/IFooter";
 
 export const FooterZH: IFooter = {
-    title: "CHORN",
+    title: "CHORN Digital",
     link: "https://chorndigital.com/",
     www: "www.chorndigital.com",
-    description: "CHORN 跟踪当今快速变化的技术、软件开发、各种商业领域行业的信息技术以及有趣新闻的最新信息。",
-    importantTitle: "重要链接",
-    featureTitle: "技术专长",
-    infoTitle: "信息",
-    termOfService: {
-        label: "服务条款",
-        link: "/terms-of-service"
-    },
-    privacyPolicy: {
-        label: "隐私政策",
-        link: "/privacy-policy"
-    },
-    workplacePolicy: {
-        label: "工作场所政策",
-        link: "/workplace-policy"
-    },
-    socialLinks: [
-        {
-            label: "LinkedIn",
-            link: "https://www.linkedin.com/company/chorn",
-            icon: "bx bxl-linkedin hover-rotate",
-            iconClass: "linkedin",
-            ariaLabel: "在 LinkedIn 上与我们联系"
-        },
-        {
-            label: "GitHub",
-            link: "https://github.com/chorndigital",
-            icon: "bx bxl-github hover-rotate",
-            iconClass: "github",
-            ariaLabel: "Follow us on GitHub"
-        },
-        {
-            label: "Facebook",
-            link: "https://www.facebook.com/chorndigital",
-            icon: "bx bxl-facebook hover-rotate",
-            iconClass: "facebook",
-            ariaLabel: "Follow us on GitHub"
-        },
-    ],
-    importantLinks: [
-        {
-            label: "关于我们",
-            link: "/about-chorn"
-        },
-        {
-            label: "联系我们",
-            link: "/contact"
-        },
-        {
-            label: "服务条款",
-            link: "/terms-of-service"
-        },
-        {
-            label: "隐私政策",
-            link: "/privacy-policy"
-        },
-        {
-            label: "工作场所政策",
-            link: "/workplace-policy"
-        },
-        {
-            label: "联系我们",
-            link: "/contact/",
-        },
-    ],
-    featuredLinks: [
-        {
-            label: "网站开发",
-            link: "/technical-expertise/web-development"
-        },
-        {
-            label: "前端开发",
-            link: "/technical-expertise/front-end-developer/"
-        },
-        {
-            label: "后端开发",
-            link: "/technical-expertise/full-stack-developer/"
-        },
-        {
-            label: "DevOps 和云计算",
-            link: "/technical-expertise/cloud-devops/"
-        },
-        {
-            label: "LLM-AI LINE 集成",
-            link: "/ai-companions/fah/",
-        },
-        {
-            label: "LLM-AI 集成",
-            link: "/technical-expertise/ai-solutions"
-        },
-        {
-            label: "Web3 和智能合约",
-            link: "/technical-expertise/web3-blockchain-smart-contract-development",
-        },
-    ],
-    infoLinks: [
-        {
-            label: "工作模式",
-            linkText: "远程、办公室、混合",
-            link: "/",
-            icon: "flaticon-speed hover-rotate",
-        }
-    ],
-    frontend: {
-        title: "Front-End",
+    description:
+        "CHORN Digital: 面向未来出行与智慧城市语境的系统设计，连接型系统与早期物联网平台，从概念到架构、系统设计与开发",
+    social: {
+        title: "社交链接",
         items: [
             {
-                label: "Next.js",
-                link: '/technical-expertise/front-end-developer/nextjs-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "React.js",
-                link: '/technical-expertise/front-end-developer/react-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Vue.js",
-                link: '/technical-expertise/front-end-developer/vue-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Angular",
-                link: '/technical-expertise/front-end-developer/angular-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "JavaScript",
-                link: '/technical-expertise/front-end-developer/javascript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "TypeScript",
-                link: '/technical-expertise/front-end-developer/typescript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "CSS3",
-                link: '/technical-expertise/front-end-developer/css3-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "HTML5",
-                link: '/technical-expertise/front-end-developer/html5-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-        ]
-    },
-    backend: {
-        title: "Back-End",
-        items: [
-            {
-                label: "Java",
-                link: '/technical-expertise/full-stack-developer/java-spring-boot-developer',
-            },
-            {
-                label: "Node.js",
-                link: '/technical-expertise/full-stack-developer/nodejs-developer',
-            },
-            {
-                label: "Python",
-                link: '/technical-expertise/full-stack-developer/python-developer',
-            },
-            {
-                label: "Go",
-                link: '/technical-expertise/full-stack-developer/go-developer',
-            },
-            {
-                label: "PHP",
-                link: '/technical-expertise/full-stack-developer/php-developer',
-            },
-            {
-                label: "DotNet Core",
-                link: '/technical-expertise/full-stack-developer/dotnetcore-developer',
-            },
-        ]
-    },
-    devops: {
-        title: "DevOps",
-        items: [
-            {
-                label: "Docker",
-                link: '/technical-expertise/cloud-devops/docker',
-            },
-            {
-                label: "Kubernetes",
-                link: '/technical-expertise/cloud-devops/kubernetes',
+                label: "LinkedIn",
+                link: "https://www.linkedin.com/company/chorn",
+                icon: "bx bxl-linkedin hover-rotate",
+                iconClass: "linkedin",
+                ariaLabel: "在 LinkedIn 上与我们联系"
             },
             {
                 label: "GitHub",
-                link: '/technical-expertise/cloud-devops/github',
+                link: "https://github.com/chorndigital",
+                icon: "bx bxl-github hover-rotate",
+                iconClass: "github",
+                ariaLabel: "在 GitHub 上关注我们"
             },
             {
-                label: "GitLab",
-                link: '/technical-expertise/cloud-devops/gitlab',
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital",
+                icon: "bx bxl-facebook hover-rotate",
+                iconClass: "facebook",
+                ariaLabel: "在 Facebook 上关注我们"
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+                icon: "bx bxl-tiktok hover-rotate",
+                iconClass: "tiktok",
+                ariaLabel: "在 TikTok 上关注我们"
+            },
+        ],
+    },
+    important: {
+        title: "重要链接",
+        items: [
+            {
+                label: "关于",
+                link: "/about-chorn"
+            },
+            {
+                label: "联系",
+                link: "/contact"
+            },
+            {
+                label: "服务条款",
+                link: "/terms-of-service"
+            },
+            {
+                label: "隐私政策",
+                link: "/privacy-policy"
+            },
+            {
+                label: "工作场所政策",
+                link: "/workplace-policy"
+            }
+        ],
+    },
+    project: {
+        title: "项目",
+        items: [
+            // {
+            //     label: "Smart Food System",
+            //     link: "/smart-food"
+            // },
+            {
+                label: "未来出行情境",
+                link: "/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway/"
+            },
+            {
+                label: "未来智慧城市情境",
+                link: "/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/"
+            },
+            {
+                label: "Lanna Style Content",
+                link: "https://tiktok.com/@chorndigital"
             }
         ]
-    }
-};
+    },
+    smartCity: {
+        title: "Smart City",
+        items: [
+            {
+                label: "Smart City 概览",
+                link: "/smart-city/when-human-life-shapes-the-city",
+            },
+            {
+                label: "Human Daily Flow",
+                link: "/smart-city/human-daily-flow/morning",
+            },
+            {
+                label: "Local to Global",
+                link: "/smart-city/from-local-life-to-global-pattern",
+            },
+            {
+                label: "Global Patterns",
+                link: "/smart-city/global-patterns/predictable-shared-street",
+            },
+            {
+                label: "Urban Signals",
+                link: "/smart-city/urban-signals/predictable-street",
+            },
+        ]
+    },
+    technology: {
+        title: "技术",
+        items: [
+            {
+                label: "AI 集成",
+                link: "/technical-expertise/ai-solutions"
+            },
+            {
+                label: "Web 开发",
+                link: "/technical-expertise/web-development"
+            },
+            {
+                label: "前端开发",
+                link: "/technical-expertise/front-end-developer/"
+            },
+            {
+                label: "后端开发",
+                link: "/technical-expertise/full-stack-developer/"
+            },
+            {
+                label: "DevOps 与云",
+                link: "/technical-expertise/cloud-devops/"
+            },
+        ]
+    },
+    connect: {
+        title: "联系",
+        items: [
+            {
+                label: "联系",
+                link: "/contact/",
+            },
+            {
+                label: "LinkedIn",
+                link: "https://linkedin.com/in/khachornchit",
+            },
+            {
+                label: "GitHub",
+                link: "https://github.com/chorndigital",
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+            },
+            {
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital"
+            },
+        ]
+    },
+}

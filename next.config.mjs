@@ -102,11 +102,6 @@ const nextConfig = {
 
             // Smart City
             {
-                source: '/:lang/smart-city/',
-                destination: '/:lang/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/',
-                permanent: true,
-            },
-            {
                 source: '/smart-city/:path*',
                 destination: 'https://cdn.chorndigital.com/smart-city/:path*',
                 permanent: true,

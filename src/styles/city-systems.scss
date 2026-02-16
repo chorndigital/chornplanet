@@ -1,0 +1,80 @@
+// src/components/smart-city-media/city-systems.scss
+
+.city-systems {
+  padding: 1.5rem 0;
+}
+
+.city-systems__intro {
+  max-width: 1360px;
+  margin: 0 auto 1.5rem auto;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    max-width: 920px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #444;
+  }
+}
+
+.city-systems__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.city-systems__item {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.city-systems__image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.city-systems__item:hover {
+  transform: translateY(-4px);
+}
+
+.city-systems__item:hover .city-systems__image {
+  transform: scale(1.05);
+}
+
+.city-systems__content {
+  margin-top: 1.25rem;
+
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #555;
+  }
+}
+
+.city-systems__signals {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  padding: 0;
+  list-style: none;
+
+  li {
+    font-size: 0.75rem;
+    color: #777;
+  }
+}

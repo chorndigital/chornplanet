@@ -57,10 +57,10 @@ export default async function Page(
     }
 
     return (
-        <>
+        <div className="container">
             <SmartCityMain lang={lang} smartCityItem={smartCityItem}/>
             <AiSolutionsMain lang={lang}/>
             <HomeFeatureMain lang={lang} isHideTopTitle={true}/>
-        </>
+        </div>
     );
 }

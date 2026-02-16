@@ -1,4 +1,4 @@
-// src/model/pages/cloud-solution/MetadataCloudSolutionEN.ts
+// src/_model/pages/cloud-solution/MetadataCloudSolutionEN.ts
 
 import {Metadata} from "next";
 import {LanguageCode} from "@/data/translate/LanguageCode";

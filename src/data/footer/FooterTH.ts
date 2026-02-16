@@ -1,205 +1,163 @@
 import {IFooter} from "@/data/footer/model/IFooter";
 
 export const FooterTH: IFooter = {
-    title: "ชอร์น",
+    title: "CHORN Digital",
     link: "https://chorndigital.com/",
     www: "www.chorndigital.com",
-    description: "CHORN ติดตามข้อมูลล่าสุดเกี่ยวกับเทคโนโลยีที่เปลี่ยนแปลงอย่างรวดเร็วในปัจจุบัน การพัฒนาซอฟต์แวร์ เทคโนโลยีสารสนเทศสำหรับอุตสาหกรรมโดเมนธุรกิจต่างๆ และข้อมูลข่าวสารที่น่าสนใจ",
-    importantTitle: "ลิงก์สำคัญ",
-    featureTitle: "ความเชี่ยวชาญเทคนิค",
-    infoTitle: "ข้อมูล",
-    termOfService: {
-        label: "เงื่อนไขการให้บริการ",
-        link: "/terms-of-service"
-    },
-    privacyPolicy: {
-        label: "นโยบายความเป็นส่วนตัว",
-        link: "/privacy-policy"
-    },
-    workplacePolicy: {
-        label: "นโยบายสถานที่ทำงาน",
-        link: "/workplace-policy"
-    },
-    socialLinks: [
-        {
-            label: "LinkedIn",
-            link: "https://www.linkedin.com/company/chorn",
-            icon: "bx bxl-linkedin hover-rotate",
-            iconClass: "linkedin",
-            ariaLabel: "เชื่อมต่อกับเราบน LinkedIn"
-        },
-        {
-            label: "GitHub",
-            link: "https://github.com/chorndigital",
-            icon: "bx bxl-github hover-rotate",
-            iconClass: "github",
-            ariaLabel: "Follow us on GitHub"
-        },
-        {
-            label: "Facebook",
-            link: "https://www.facebook.com/chorndigital",
-            icon: "bx bxl-facebook hover-rotate",
-            iconClass: "facebook",
-            ariaLabel: "Follow us on GitHub"
-        },
-    ],
-    importantLinks: [
-        {
-            label: "เกี่ยวกับ",
-            link: "/about-chorn"
-        },
-        {
-            label: "ติดต่อ",
-            link: "/contact"
-        },
-        {
-            label: "เงื่อนไขการให้บริการ",
-            link: "/terms-of-service"
-        },
-        {
-            label: "นโยบายความเป็นส่วนตัว",
-            link: "/privacy-policy"
-        },
-        {
-            label: "นโยบายสถานที่ทำงาน",
-            link: "/workplace-policy"
-        },
-        {
-            label: "ติดต่อ",
-            link: "/contact/",
-        },
-    ],
-    featuredLinks: [
-        {
-            label: "พัฒนาเว็บไซต์",
-            link: "/technical-expertise/web-development"
-        },
-        {
-            label: "การพัฒนาฝั่งหน้าบ้าน",
-            link: "/technical-expertise/front-end-developer/"
-        },
-        {
-            label: "การพัฒนาฝั่งหลังบ้าน",
-            link: "/technical-expertise/full-stack-developer/"
-        },
-        {
-            label: "ปฏิบัติการพัฒนาบนคลาวด์",
-            link: "/technical-expertise/cloud-devops/"
-        },
-        {
-            label: "การผสาน LLM-AI กับ LINE",
-            link: "/ai-companions/fah/",
-        },
-        {
-            label: "การผสานเทคโนโลยี LLM-AI",
-            link: "/technical-expertise/ai-solutions"
-        },
-        {
-            label: "Web3 บล็อกเชน",
-            link: "/technical-expertise/web3-blockchain-smart-contract-development",
-        },
-    ],
-    infoLinks: [
-        {
-            label: "รูปแบบการทำงาน",
-            linkText: "ระยะไกล ออฟฟิศ แบบผสม",
-            link: "/",
-            icon: "flaticon-speed hover-rotate",
-        }
-    ],
-    frontend: {
-        title: "Front-End",
+    description:
+        "CHORN Digital: การออกแบบระบบสำหรับบริบทการเดินทางแห่งอนาคตและสมาร์ตซิตี้ ระบบเชื่อมต่อและแพลตฟอร์ม IoT ระยะเริ่มต้น ตั้งแต่แนวคิดสู่สถาปัตยกรรม การออกแบบระบบ และการพัฒนา",
+    social: {
+        title: "ลิงก์โซเชียล",
         items: [
             {
-                label: "Next.js",
-                link: '/technical-expertise/front-end-developer/nextjs-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "React.js",
-                link: '/technical-expertise/front-end-developer/react-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Vue.js",
-                link: '/technical-expertise/front-end-developer/vue-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Angular",
-                link: '/technical-expertise/front-end-developer/angular-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "JavaScript",
-                link: '/technical-expertise/front-end-developer/javascript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "TypeScript",
-                link: '/technical-expertise/front-end-developer/typescript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "CSS3",
-                link: '/technical-expertise/front-end-developer/css3-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "HTML5",
-                link: '/technical-expertise/front-end-developer/html5-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-        ]
-    },
-    backend: {
-        title: "Back-End",
-        items: [
-            {
-                label: "Java",
-                link: '/technical-expertise/full-stack-developer/java-spring-boot-developer',
-            },
-            {
-                label: "Node.js",
-                link: '/technical-expertise/full-stack-developer/nodejs-developer',
-            },
-            {
-                label: "Python",
-                link: '/technical-expertise/full-stack-developer/python-developer',
-            },
-            {
-                label: "Go",
-                link: '/technical-expertise/full-stack-developer/go-developer',
-            },
-            {
-                label: "PHP",
-                link: '/technical-expertise/full-stack-developer/php-developer',
-            },
-            {
-                label: "DotNet Core",
-                link: '/technical-expertise/full-stack-developer/dotnetcore-developer',
-            },
-        ]
-    },
-    devops: {
-        title: "DevOps",
-        items: [
-            {
-                label: "Docker",
-                link: '/technical-expertise/cloud-devops/docker',
-            },
-            {
-                label: "Kubernetes",
-                link: '/technical-expertise/cloud-devops/kubernetes',
+                label: "LinkedIn",
+                link: "https://www.linkedin.com/company/chorn",
+                icon: "bx bxl-linkedin hover-rotate",
+                iconClass: "linkedin",
+                ariaLabel: "เชื่อมต่อกับเราบน LinkedIn"
             },
             {
                 label: "GitHub",
-                link: '/technical-expertise/cloud-devops/github',
+                link: "https://github.com/chorndigital",
+                icon: "bx bxl-github hover-rotate",
+                iconClass: "github",
+                ariaLabel: "ติดตามเราบน GitHub"
             },
             {
-                label: "GitLab",
-                link: '/technical-expertise/cloud-devops/gitlab',
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital",
+                icon: "bx bxl-facebook hover-rotate",
+                iconClass: "facebook",
+                ariaLabel: "ติดตามเราบน Facebook"
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+                icon: "bx bxl-tiktok hover-rotate",
+                iconClass: "tiktok",
+                ariaLabel: "ติดตามเราบน TikTok"
+            },
+        ],
+    },
+    important: {
+        title: "ลิงก์สำคัญ",
+        items: [
+            {
+                label: "เกี่ยวกับเรา",
+                link: "/about-chorn"
+            },
+            {
+                label: "ติดต่อ",
+                link: "/contact"
+            },
+            {
+                label: "ข้อกำหนดการให้บริการ",
+                link: "/terms-of-service"
+            },
+            {
+                label: "นโยบายความเป็นส่วนตัว",
+                link: "/privacy-policy"
+            },
+            {
+                label: "นโยบายสถานที่ทำงาน",
+                link: "/workplace-policy"
+            }
+        ],
+    },
+    project: {
+        title: "โครงการ",
+        items: [
+            // {
+            //     label: "Smart Food System",
+            //     link: "/smart-food"
+            // },
+            {
+                label: "บริบทสถานการณ์การเดินทางในอนาคต",
+                link: "/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway/"
+            },
+            {
+                label: "บริบทสถานการณ์สมาร์ตซิตี้ในอนาคต",
+                link: "/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/"
+            },
+            {
+                label: "Lanna Style Content",
+                link: "https://tiktok.com/@chorndigital"
             }
         ]
-    }
-};
+    },
+    smartCity: {
+        title: "สมาร์ตซิตี้",
+        items: [
+            {
+                label: "ภาพรวมสมาร์ตซิตี้",
+                link: "/smart-city/when-human-life-shapes-the-city",
+            },
+            {
+                label: "Human Daily Flow",
+                link: "/smart-city/human-daily-flow/morning",
+            },
+            {
+                label: "Local to Global",
+                link: "/smart-city/from-local-life-to-global-pattern",
+            },
+            {
+                label: "Global Patterns",
+                link: "/smart-city/global-patterns/predictable-shared-street",
+            },
+            {
+                label: "Urban Signals",
+                link: "/smart-city/urban-signals/predictable-street",
+            },
+        ]
+    },
+    technology: {
+        title: "เทคโนโลยี",
+        items: [
+            {
+                label: "การผสาน AI",
+                link: "/technical-expertise/ai-solutions"
+            },
+            {
+                label: "การพัฒนาเว็บ",
+                link: "/technical-expertise/web-development"
+            },
+            {
+                label: "การพัฒนา Front-End",
+                link: "/technical-expertise/front-end-developer/"
+            },
+            {
+                label: "การพัฒนา Back-End",
+                link: "/technical-expertise/full-stack-developer/"
+            },
+            {
+                label: "DevOps และคลาวด์",
+                link: "/technical-expertise/cloud-devops/"
+            },
+        ]
+    },
+    connect: {
+        title: "ติดต่อ",
+        items: [
+            {
+                label: "ติดต่อ",
+                link: "/contact/",
+            },
+            {
+                label: "LinkedIn",
+                link: "https://linkedin.com/in/khachornchit",
+            },
+            {
+                label: "GitHub",
+                link: "https://github.com/chorndigital",
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+            },
+            {
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital"
+            },
+        ]
+    },
+}

@@ -1,4 +1,4 @@
-// src/data/smart-city/model/ISmartCity.ts
+// src/data/smart-city/_model/ISmartCity.ts
 
 export interface ISmartCity {
     chiangMai: ISmartCityItem[]

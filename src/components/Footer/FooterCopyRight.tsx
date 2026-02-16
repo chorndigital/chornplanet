@@ -4,6 +4,9 @@ import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 
 export default function Information({lang}: { lang: string }) {
     const year = new Date().getFullYear()
+    const termOfService = InfoTranslation[lang].Footer.important.items[2]
+    const privacyPolicy = InfoTranslation[lang].Footer.important.items[3]
+    const workplacePolicy = InfoTranslation[lang].Footer.important.items[4]
 
     return (
         <div className="copyright-area">
@@ -12,7 +15,7 @@ export default function Information({lang}: { lang: string }) {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
                             <p>
-                                Copyright &copy; {year} by <a href={'/' + lang}>CHORN</a>
+                                Copyright &copy; {year} by <a href={'/' + lang}>CHORN Digital</a>
                             </p>
                         </div>
 
@@ -20,20 +23,20 @@ export default function Information({lang}: { lang: string }) {
                             <ul>
                                 <li>
                                     <Link
-                                        href={'/' + lang + InfoTranslation[lang].Footer.termOfService.link}>
-                                        {InfoTranslation[lang].Footer.termOfService.label}
+                                        href={'/' + lang + termOfService.link}>
+                                        {termOfService.label}
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        href={'/' + lang + InfoTranslation[lang].Footer.privacyPolicy.link}>
-                                        {InfoTranslation[lang].Footer.privacyPolicy.label}
+                                        href={'/' + lang + privacyPolicy.link}>
+                                        {privacyPolicy.label}
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        href={'/' + lang + InfoTranslation[lang].Footer.workplacePolicy.link}>
-                                        {InfoTranslation[lang].Footer.workplacePolicy.label}
+                                        href={'/' + lang + workplacePolicy.link}>
+                                        {workplacePolicy.label}
                                     </Link>
                                 </li>
                             </ul>

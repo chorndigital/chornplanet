@@ -1,15 +1,23 @@
 // src/app/[locale]/AiBannerFahMain.tsx
 
 import React from "react";
-import {SchemaMarkupHomePage} from "@/components/GoogleSchemaMarkup/SchemaMarkupHomePage";
 import type {Metadata} from "next";
-import HomeWorkspace from "@/components/Home/HomeWorkspace";
 import {MetadataHome} from "@/metadata/main/MetadataHome";
 import {headers} from "next/headers";
-import AiPloyLandingPage from "@/components/AiCompanions/Main/AiPloyLandingPage";
-import Web3PageMain from "@/components/Services/web3-blockchain-development/Web3PageMain";
-import HomeSlideFull from "@/components/Home/HomeSlideFull";
-import VertiportDesignMain from "@/components/SmartMobility/ChiangMai/Main/VertiportDesignMain";
+// ----------------------------------------------------
+import HeroSection from '@/components/Home/HeroSection'
+import HumanDailyFlow from '@/components/Home/HumanDailyFlow'
+import LocalToGlobal from '@/components/Home/LocalToGlobal'
+import SystemExplainers from '@/components/Home/SystemExplainers'
+import MobilityFocus from '@/components/Home/MobilityFocus'
+import CitySystems from '@/components/Home/CitySystems'
+import GlobalPatterns from '@/components/Home/GlobalPatterns'
+import UrbanSignals from '@/components/Home/UrbanSignals'
+import EditorialPositioning from '@/components/Home/EditorialPositioning'
+import {ISmartCityItem} from "@/data/smart-city/model/ISmartCity";
+import {SmartCity} from "@/data/smart-city/SmartCity";
+import SmartCityMain from "@/components/SmartCity/ChiangMai/SmartCityMain";
+import {Tag} from "@/data/tags/Tag";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -23,8 +31,8 @@ export default async function Home() {
     const localBusinessSchema = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "CHORN | AI & Software Solutions",
-        "logo": "https://chorndigital.com/images/logo-2025/chorn-logo-2025-circle-md.png",
+        "name": "CHORN Digital | Future Mobility & Smart City Systems Designer, Connected Systems & Early IoT Platforms, Concept to Architecture, System Design & Development",
+        "logo": "https://chorndigital.com/images/logo/chorn-logo-2025-circle-md.png",
         "@id": "https://chorndigital.com",
         "url": "https://chorndigital.com",
         "contactPoint": {
@@ -48,19 +56,35 @@ export default async function Home() {
         },
         "openingHours": "Mo-Fr 08:30-17:30",
         "sameAs": [
-            "https://www.facebook.com/chorn.digital",
+            "https://www.linkedin.com/company/chorndigital",
+            "https://www.facebook.com/chorndigital",
+            "https://tiktok.com/@chorndigital",
             "https://x.com/chorndigital",
-            "https://www.linkedin.com/company/chorn"
         ]
     };
+    const smartCityItem: ISmartCityItem = SmartCity[lang]?.chiangMai[3];
 
     return (
         <>
-            <HomeSlideFull lang={lang}/>
-            <VertiportDesignMain lang={lang}/>
-            <AiPloyLandingPage lang={lang}/>
-            <Web3PageMain lang={lang}/>
-            <SchemaMarkupHomePage/>
+            <main className="flex flex-col">
+                <div className="container">
+                    <HeroSection lang={lang}/>
+                    <SmartCityMain lang={lang} smartCityItem={smartCityItem}/>
+                    <HumanDailyFlow lang={lang}/>
+                    <LocalToGlobal lang={lang}/>
+                    <SystemExplainers lang={lang}/>
+                    <MobilityFocus lang={lang}/>
+
+                    <CitySystems lang={lang}/>
+                    <GlobalPatterns lang={lang}/>
+                    <UrbanSignals lang={lang}/>
+                    <EditorialPositioning lang={lang}/>
+
+                    <div className={'neo-tag-smart-city'}>
+                        {lang && Tag[lang].smartCity.join(", ")}
+                    </div>
+                </div>
+            </main>
 
             <script
                 type="application/ld+json"

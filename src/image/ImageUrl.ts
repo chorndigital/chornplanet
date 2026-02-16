@@ -553,7 +553,7 @@ export const ImageUrl: IImageUrl = {
     home: {
         main: {
             title: "CHORN's main banner image",
-            path: "/images/model/home.png"
+            path: "/images/_model/home.png"
         },
         slides: [
             {

@@ -1,11 +1,13 @@
+// src/components/Footer/FooterMain.tsx
+
 import React from "react";
 import FooterLogoSocial from "./Left/FooterLogoSocial";
-import FooterImportantLinks from "@/components/Footer/Right/FooterImportantLinks";
-import FooterFeatureServices from "./Right/FooterFeatureServices";
+import FooterImportantLinks from "@/components/Footer/smart-footer/FooterImportantLinks";
 import CopyRight from "./FooterCopyRight";
-import FooterFrontEnd from "@/components/Footer/Right/FooterFrontEnd";
-import FooterBackEnd from "@/components/Footer/Right/FooterBackEnd";
-import FooterDevOps from "./Right/FooterDevOps";
+import FooterProjects from "@/components/Footer/smart-footer/FooterProjects";
+import FooterSmartCity from "@/components/Footer/smart-footer/FooterSmartCity";
+import FooterConnect from "@/components/Footer/smart-footer/FooterConnect";
+import FooterTechnology from "@/components/Footer/smart-footer/FooterTechnology";
 
 export default function FooterMain({lang}: { lang: string }) {
     return (
@@ -14,12 +16,13 @@ export default function FooterMain({lang}: { lang: string }) {
                 <div className="footer-left">
                     <FooterLogoSocial lang={lang}/>
                 </div>
+
                 <div className="footer-right">
                     <FooterImportantLinks lang={lang}/>
-                    <FooterFeatureServices lang={lang}/>
-                    <FooterFrontEnd lang={lang}/>
-                    <FooterBackEnd lang={lang}/>
-                    <FooterDevOps lang={lang}/>
+                    <FooterProjects lang={lang}/>
+                    <FooterSmartCity lang={lang}/>
+                    <FooterTechnology lang={lang}/>
+                    <FooterConnect lang={lang}/>
                 </div>
             </div>
             <CopyRight lang={lang}/>

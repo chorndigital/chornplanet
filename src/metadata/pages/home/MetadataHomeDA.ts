@@ -4,60 +4,34 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHomeDA: Metadata = {
-    title: "CHORN | Udvikling af virksomhedssoftware og systemintegration",
-    description: "Styrk din virksomhed med professionel systemanalyse og avancerede softwareløsninger. CHORN er specialiseret i full-stack udvikling, AI-drevet automatisering, cloud computing og systemmodernisering for at fremme innovation og effektivitet.",
+    title: "CHORN | Medieplatform for systemer og anvendt teknologi",
+    description:
+        "CHORN er en medieplatform, der præsenterer strukturerede forklaringer af systemanalyse, softwareteknik, integrationspraksis og anvendte teknologiemner, herunder AI-automatisering, cloud-systemer og moderniseringstilgange, til brug i offentlige, investor- og policyorienterede sammenhænge.",
     icons: {
         icon: '/favicon.ico',
     },
-    alternates: metadataLink(LanguageCode.da, MetaLinks.home).alternates,
+    alternates: metadataLink(LanguageCode.en, MetaLinks.home).alternates,
     authors: [
-        {
-            name: "CHORN"
-        }
+        { name: "CHORN Digital" }
     ],
     openGraph: {
-        title: "CHORN | Udvikling af virksomhedssoftware og systemintegration",
-        description: "Styrk din virksomhed med professionel systemanalyse og avancerede softwareløsninger. CHORN er specialiseret i full-stack udvikling, AI-drevet automatisering, cloud computing og systemmodernisering for at fremme innovation og effektivitet.",
-        images: metadataLink(LanguageCode.da, MetaLinks.home).openGraph.images,
-        url: metadataLink(LanguageCode.da, MetaLinks.home).alternates.canonical,
+        title: "CHORN | Medieplatform for systemer og anvendt teknologi",
+        description:
+            "CHORN er en medieplatform, der præsenterer strukturerede forklaringer af systemanalyse, softwareteknik, integrationspraksis og anvendte teknologiemner, herunder AI-automatisering, cloud-systemer og moderniseringstilgange, til brug i offentlige, investor- og policyorienterede sammenhænge.",
+        images: metadataLink(LanguageCode.en, MetaLinks.home).openGraph.images,
+        url: metadataLink(LanguageCode.en, MetaLinks.home).alternates.canonical,
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN | Udvikling af virksomhedssoftware og systemintegration",
-        description: "Styrk din virksomhed med professionel systemanalyse og avancerede softwareløsninger. CHORN er specialiseret i full-stack udvikling, AI-drevet automatisering, cloud computing og systemmodernisering for at fremme innovation og effektivitet.",
-        images: metadataLink(LanguageCode.da, MetaLinks.home).twitter.images,
+        title: "CHORN | Medieplatform for systemer og anvendt teknologi",
+        description:
+            "CHORN er en medieplatform, der præsenterer strukturerede forklaringer af systemanalyse, softwareteknik, integrationspraksis og anvendte teknologiemner, herunder AI-automatisering, cloud-systemer og moderniseringstilgange, til brug i offentlige, investor- og policyorienterede sammenhænge.",
+        images: metadataLink(LanguageCode.en, MetaLinks.home).twitter.images,
     },
     keywords: [
-        "CHORN", "CHORN skræddersyet softwareudvikling", "CHORN software outsourcing", "Hvad er CHORN",
-        "CHORN softwareudvikling Thailand", "CHORN softwareudvikler Chiang Mai", "CHORN softwareudvikler Bangkok",
-
-        "skræddersyet softwareudvikling", "softwareudviklingsselskaber", "software outsourcing",
-        "software outsourcing teknisk ekspertise", "softwareudviklings outsourcing", "softwareudviklings outsourcing selskaber",
-        "top software outsourcing selskaber", "webudvikling outsourcing selskaber", "IT udviklingsselskaber",
-        "outsourcing udviklingsselskab", "outsourcing Thailand", "outsourcing selskab i Thailand",
-        "softwareudvikling Chiang Mai", "software outsourcing Chiang Mai", "software outsourcing Bangkok",
-
-        "softwareingeniør", "softwareudvikler", "frontend udvikler", "backend udvikler", "full stack udvikler",
-        "webudvikler", "mobil udvikler", "React udvikler", "Angular udvikler", "Java udvikler",
-        "Node.js udvikler", ".NET Core udvikler", "PHP udvikler", "API udvikler", "blockchain udvikler",
-        "Web3 udvikler", "microservices udvikler", "digital innovation", "enterprise software", "skalerbare websites",
-
-        "softwareudvikler Thailand", "softwareudvikler Chiang Mai", "softwareudvikler Bangkok",
-        "softwareingeniør Thailand", "frontend udvikler Thailand", "backend udvikler Thailand",
-        "full stack udvikler Thailand", "webudvikler jobs i Thailand", "mobil udvikler Thailand",
-        "full stack udvikler Chiang Mai", "softwareudvikler remote jobs", "outsourcing programmører Thailand",
-
-        "teknikchef", "teknikchef afdeling Thailand", "direktør for teknik",
-        "direktør for teknik Thailand", "chef for softwareudvikling", "chef for softwareudvikling Thailand",
-        "chef for software engineering", "chef for software engineering Thailand", "IT projektleder",
-        "softwareudviklingsleder", "chef for teknologi", "systemanalytiker",
-
-        "Next.js udvikler", "React.js udvikler", "Spring Boot", "frontend framework", "frontend arkitektur",
-        "full stack webudvikler", "frontend backend udvikling", "microservices",
-
-        "outsourcing udvikling", "outsourcing selskab i Thailand", "outsourcing programmering",
-        "outsourcing programmeringsopgaver", "outsourcing programmeringsjob", "outsourcing programmeringsopgaver",
-        "online outsourcing program"
+        "CHORN", "CHORN Digital", "CHORN medieplatform", "systemanalyse", "softwareteknik",
+        "systemintegration", "enterprise software", "cloud-systemer", "AI-integration",
+        "DevOps", "mikroservices", "teknisk arkitektur"
     ]
 }

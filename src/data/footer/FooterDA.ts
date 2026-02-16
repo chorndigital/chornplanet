@@ -1,201 +1,163 @@
 import {IFooter} from "@/data/footer/model/IFooter";
 
 export const FooterDA: IFooter = {
-    title: "CHORN",
+    title: "CHORN Digital",
     link: "https://chorndigital.com/",
     www: "www.chorndigital.com",
-    description: "CHORN følger de seneste oplysninger om nutidens hurtigt skiftende teknologi, softwareudvikling, informationsteknologi til forskellige forretningsdomæneindustrier og interessante nyheder.",
-    importantTitle: "Vigtige links",
-    featureTitle: "Teknisk ekspertise",
-    infoTitle: "FooterInformation",
-    termOfService: {
-        label: "Servicevilkår",
-        link: "/terms-of-service"
-    },
-    privacyPolicy: {
-        label: "Privatlivspolitik",
-        link: "/privacy-policy"
-    },
-    workplacePolicy: {
-        label: "Arbejdspladspolitik",
-        link: "/workplace-policy"
-    },
-    socialLinks: [
-        {
-            label: "LinkedIn",
-            link: "https://www.linkedin.com/company/chorn",
-            icon: "bx bxl-linkedin hover-rotate",
-            iconClass: "linkedin",
-            ariaLabel: "Forbind med os på LinkedIn"
-        },
-        {
-            label: "GitHub",
-            link: "https://github.com/chorndigital",
-            icon: "bx bxl-github hover-rotate",
-            iconClass: "github",
-            ariaLabel: "Follow us on GitHub"
-        },
-        {
-            label: "Facebook",
-            link: "https://www.facebook.com/chorndigital",
-            icon: "bx bxl-facebook hover-rotate",
-            iconClass: "facebook",
-            ariaLabel: "Follow us on GitHub"
-        },
-    ],
-    importantLinks: [
-        {
-            label: "Om",
-            link: "/about-chorn"
-        },
-        {
-            label: "Kontakt",
-            link: "/contact"
-        },
-        {
-            label: "Privatlivspolitik",
-            link: "/privacy-policy"
-        },
-        {
-            label: "Arbejdspladspolitik",
-            link: "/workplace-policy"
-        },
-        {
-            label: "Kontakt",
-            link: "/contact/",
-        },
-    ],
-    featuredLinks: [
-        {
-            label: "Webudvikling",
-            link: "/technical-expertise/web-development"
-        },
-        {
-            label: "Front-End-udvikling",
-            link: "/technical-expertise/front-end-developer/"
-        },
-        {
-            label: "Back-End Udvikling",
-            link: "/technical-expertise/full-stack-developer/"
-        },
-        {
-            label: "DevOps og Cloud",
-            link: "/technical-expertise/cloud-devops/"
-        },
-        {
-            label: "LLM-AI LINE-integration",
-            link: "/ai-companions/fah/",
-        },
-        {
-            label: "LLM-AI-integration",
-            link: "/technical-expertise/ai-solutions"
-        },
-        {
-            label: "Web3 og Smart Contracts",
-            link: "/technical-expertise/web3-blockchain-smart-contract-development",
-        },
-    ],
-    infoLinks: [
-        {
-            label: "Arbejdsmodeller",
-            linkText: "Fjernarbejde, Kontor, Hybrid",
-            link: "/",
-            icon: "flaticon-speed hover-rotate",
-        }
-    ],
-    frontend: {
-        title: "Front-End",
+    description:
+        "CHORN Digital: Systemdesign i kontekster for fremtidig mobilitet og smart city, forbundne systemer og tidlige IoT-platforme, fra koncept til arkitektur, systemdesign og udvikling",
+    social: {
+        title: "Sociale links",
         items: [
             {
-                label: "Next.js",
-                link: '/technical-expertise/front-end-developer/nextjs-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "React.js",
-                link: '/technical-expertise/front-end-developer/react-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Vue.js",
-                link: '/technical-expertise/front-end-developer/vue-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Angular",
-                link: '/technical-expertise/front-end-developer/angular-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "JavaScript",
-                link: '/technical-expertise/front-end-developer/javascript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "TypeScript",
-                link: '/technical-expertise/front-end-developer/typescript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "CSS3",
-                link: '/technical-expertise/front-end-developer/css3-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "HTML5",
-                link: '/technical-expertise/front-end-developer/html5-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-        ]
-    },
-    backend: {
-        title: "Back-End",
-        items: [
-            {
-                label: "Java",
-                link: '/technical-expertise/full-stack-developer/java-spring-boot-developer',
-            },
-            {
-                label: "Node.js",
-                link: '/technical-expertise/full-stack-developer/nodejs-developer',
-            },
-            {
-                label: "Python",
-                link: '/technical-expertise/full-stack-developer/python-developer',
-            },
-            {
-                label: "Go",
-                link: '/technical-expertise/full-stack-developer/go-developer',
-            },
-            {
-                label: "PHP",
-                link: '/technical-expertise/full-stack-developer/php-developer',
-            },
-            {
-                label: "DotNet Core",
-                link: '/technical-expertise/full-stack-developer/dotnetcore-developer',
-            },
-        ]
-    },
-    devops: {
-        title: "DevOps",
-        items: [
-            {
-                label: "Docker",
-                link: '/technical-expertise/cloud-devops/docker',
-            },
-            {
-                label: "Kubernetes",
-                link: '/technical-expertise/cloud-devops/kubernetes',
+                label: "LinkedIn",
+                link: "https://www.linkedin.com/company/chorn",
+                icon: "bx bxl-linkedin hover-rotate",
+                iconClass: "linkedin",
+                ariaLabel: "Opret forbindelse med os på LinkedIn"
             },
             {
                 label: "GitHub",
-                link: '/technical-expertise/cloud-devops/github',
+                link: "https://github.com/chorndigital",
+                icon: "bx bxl-github hover-rotate",
+                iconClass: "github",
+                ariaLabel: "Følg os på GitHub"
             },
             {
-                label: "GitLab",
-                link: '/technical-expertise/cloud-devops/gitlab',
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital",
+                icon: "bx bxl-facebook hover-rotate",
+                iconClass: "facebook",
+                ariaLabel: "Følg os på Facebook"
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+                icon: "bx bxl-tiktok hover-rotate",
+                iconClass: "tiktok",
+                ariaLabel: "Følg os på TikTok"
+            },
+        ],
+    },
+    important: {
+        title: "Vigtige links",
+        items: [
+            {
+                label: "Om",
+                link: "/about-chorn"
+            },
+            {
+                label: "Kontakt",
+                link: "/contact"
+            },
+            {
+                label: "Vilkår for service",
+                link: "/terms-of-service"
+            },
+            {
+                label: "Privatlivspolitik",
+                link: "/privacy-policy"
+            },
+            {
+                label: "Arbejdspladspolitik",
+                link: "/workplace-policy"
+            }
+        ],
+    },
+    project: {
+        title: "Projekter",
+        items: [
+            // {
+            //     label: "Smart Food System",
+            //     link: "/smart-food"
+            // },
+            {
+                label: "Scenarie for fremtidig mobilitet",
+                link: "/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway/"
+            },
+            {
+                label: "Scenarie for fremtidig smart city",
+                link: "/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/"
+            },
+            {
+                label: "Lanna Style Content",
+                link: "https://tiktok.com/@chorndigital"
             }
         ]
-    }
-};
+    },
+    smartCity: {
+        title: "Smart City",
+        items: [
+            {
+                label: "Smart City-overblik",
+                link: "/smart-city/when-human-life-shapes-the-city",
+            },
+            {
+                label: "Human Daily Flow",
+                link: "/smart-city/human-daily-flow/morning",
+            },
+            {
+                label: "Local to Global",
+                link: "/smart-city/from-local-life-to-global-pattern",
+            },
+            {
+                label: "Global Patterns",
+                link: "/smart-city/global-patterns/predictable-shared-street",
+            },
+            {
+                label: "Urban Signals",
+                link: "/smart-city/urban-signals/predictable-street",
+            },
+        ]
+    },
+    technology: {
+        title: "Teknologi",
+        items: [
+            {
+                label: "AI-integration",
+                link: "/technical-expertise/ai-solutions"
+            },
+            {
+                label: "Webudvikling",
+                link: "/technical-expertise/web-development"
+            },
+            {
+                label: "Front-end-udvikling",
+                link: "/technical-expertise/front-end-developer/"
+            },
+            {
+                label: "Back-end-udvikling",
+                link: "/technical-expertise/full-stack-developer/"
+            },
+            {
+                label: "DevOps og cloud",
+                link: "/technical-expertise/cloud-devops/"
+            },
+        ]
+    },
+    connect: {
+        title: "Kontakt",
+        items: [
+            {
+                label: "Kontakt",
+                link: "/contact/",
+            },
+            {
+                label: "LinkedIn",
+                link: "https://linkedin.com/in/khachornchit",
+            },
+            {
+                label: "GitHub",
+                link: "https://github.com/chorndigital",
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+            },
+            {
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital"
+            },
+        ]
+    },
+}

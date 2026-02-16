@@ -1,205 +1,163 @@
 import {IFooter} from "@/data/footer/model/IFooter";
 
 export const FooterFI: IFooter = {
-    title: "CHORN",
+    title: "CHORN Digital",
     link: "https://chorndigital.com/",
     www: "www.chorndigital.com",
-    description: "CHORN seuraa uusimpia tietoja nykypäivän nopeasti muuttuvasta teknologiasta, ohjelmistokehityksestä, eri liiketoiminta-alojen tietotekniikasta sekä mielenkiintoisista uutisista.",
-    importantTitle: "Tärkeät linkit",
-    featureTitle: "Tekninen asiantuntemus",
-    infoTitle: "Tietoa",
-    termOfService: {
-        label: "Käyttöehdot",
-        link: "/terms-of-service"
-    },
-    privacyPolicy: {
-        label: "Tietosuojakäytäntö",
-        link: "/privacy-policy"
-    },
-    workplacePolicy: {
-        label: "Työpaikkakäytäntö",
-        link: "/workplace-policy"
-    },
-    socialLinks: [
-        {
-            label: "Linked",
-            link: "https://www.linkedin.com/company/chorn",
-            icon: "bx bxl-linkedin hover-rotate",
-            iconClass: "linkedin",
-            ariaLabel: "Ota yhteyttä LinkedInissä"
-        },
-        {
-            label: "GitHub",
-            link: "https://github.com/chorndigital",
-            icon: "bx bxl-github hover-rotate",
-            iconClass: "github",
-            ariaLabel: "Follow us on GitHub"
-        },
-        {
-            label: "Facebook",
-            link: "https://www.facebook.com/chorndigital",
-            icon: "bx bxl-facebook hover-rotate",
-            iconClass: "facebook",
-            ariaLabel: "Follow us on GitHub"
-        },
-    ],
-    importantLinks: [
-        {
-            label: "Tietoa",
-            link: "/about-chorn"
-        },
-        {
-            label: "Yhteystiedot",
-            link: "/contact"
-        },
-        {
-            label: "Käyttöehdot",
-            link: "/terms-of-service"
-        },
-        {
-            label: "Tietosuojakäytäntö",
-            link: "/privacy-policy"
-        },
-        {
-            label: "Työpaikkakäytäntö",
-            link: "/workplace-policy"
-        },
-        {
-            label: "Yhteystiedot",
-            link: "/contact/",
-        },
-    ],
-    featuredLinks: [
-        {
-            label: "Verkkokehitys",
-            link: "/technical-expertise/web-development"
-        },
-        {
-            label: "Front End -kehitys",
-            link: "/technical-expertise/front-end-developer/"
-        },
-        {
-            label: "Back-End-kehitys",
-            link: "/technical-expertise/full-stack-developer/"
-        },
-        {
-            label: "DevOps ja pilvipalvelut",
-            link: "/technical-expertise/cloud-devops/"
-        },
-        {
-            label: "LLM-AI LINE-integraatio",
-            link: "/ai-companions/fah/",
-        },
-        {
-            label: "LLM-AI-integraatio",
-            link: "/technical-expertise/ai-solutions"
-        },
-        {
-            label: "Web3 ja älysopimukset",
-            link: "/technical-expertise/web3-blockchain-smart-contract-development",
-        },
-    ],
-    infoLinks: [
-        {
-            label: "Työmallit",
-            linkText: "Etätyö, toimisto, hybridi",
-            link: "/",
-            icon: "flaticon-speed hover-rotate", // Represents work or career
-        }
-    ],
-    frontend: {
-        title: "Front-End",
+    description:
+        "CHORN Digital: Järjestelmäsuunnittelu tulevaisuuden liikkumisen ja älykaupunkien konteksteihin, yhdistetyt järjestelmät ja varhaiset IoT-alustat, konseptista arkkitehtuuriin, järjestelmäsuunnittelu ja kehitys",
+    social: {
+        title: "Sosiaaliset linkit",
         items: [
             {
-                label: "Next.js",
-                link: '/technical-expertise/front-end-developer/nextjs-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "React.js",
-                link: '/technical-expertise/front-end-developer/react-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Vue.js",
-                link: '/technical-expertise/front-end-developer/vue-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "Angular",
-                link: '/technical-expertise/front-end-developer/angular-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "JavaScript",
-                link: '/technical-expertise/front-end-developer/javascript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "TypeScript",
-                link: '/technical-expertise/front-end-developer/typescript-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "CSS3",
-                link: '/technical-expertise/front-end-developer/css3-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-            {
-                label: "HTML5",
-                link: '/technical-expertise/front-end-developer/html5-developer',
-                icon: "flaticon-speed hover-rotate"
-            },
-        ]
-    },
-    backend: {
-        title: "Back-End",
-        items: [
-            {
-                label: "Java",
-                link: '/technical-expertise/full-stack-developer/java-spring-boot-developer',
-            },
-            {
-                label: "Node.js",
-                link: '/technical-expertise/full-stack-developer/nodejs-developer',
-            },
-            {
-                label: "Python",
-                link: '/technical-expertise/full-stack-developer/python-developer',
-            },
-            {
-                label: "Go",
-                link: '/technical-expertise/full-stack-developer/go-developer',
-            },
-            {
-                label: "PHP",
-                link: '/technical-expertise/full-stack-developer/php-developer',
-            },
-            {
-                label: "DotNet Core",
-                link: '/technical-expertise/full-stack-developer/dotnetcore-developer',
-            },
-        ]
-    },
-    devops: {
-        title: "DevOps",
-        items: [
-            {
-                label: "Docker",
-                link: '/technical-expertise/cloud-devops/docker',
-            },
-            {
-                label: "Kubernetes",
-                link: '/technical-expertise/cloud-devops/kubernetes',
+                label: "LinkedIn",
+                link: "https://www.linkedin.com/company/chorn",
+                icon: "bx bxl-linkedin hover-rotate",
+                iconClass: "linkedin",
+                ariaLabel: "Ota yhteyttä LinkedInissä"
             },
             {
                 label: "GitHub",
-                link: '/technical-expertise/cloud-devops/github',
+                link: "https://github.com/chorndigital",
+                icon: "bx bxl-github hover-rotate",
+                iconClass: "github",
+                ariaLabel: "Seuraa meitä GitHubissa"
             },
             {
-                label: "GitLab",
-                link: '/technical-expertise/cloud-devops/gitlab',
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital",
+                icon: "bx bxl-facebook hover-rotate",
+                iconClass: "facebook",
+                ariaLabel: "Seuraa meitä Facebookissa"
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+                icon: "bx bxl-tiktok hover-rotate",
+                iconClass: "tiktok",
+                ariaLabel: "Seuraa meitä TikTokissa"
+            },
+        ],
+    },
+    important: {
+        title: "Tärkeät linkit",
+        items: [
+            {
+                label: "Tietoa",
+                link: "/about-chorn"
+            },
+            {
+                label: "Yhteys",
+                link: "/contact"
+            },
+            {
+                label: "Palveluehdot",
+                link: "/terms-of-service"
+            },
+            {
+                label: "Tietosuojakäytäntö",
+                link: "/privacy-policy"
+            },
+            {
+                label: "Työpaikkakäytäntö",
+                link: "/workplace-policy"
+            }
+        ],
+    },
+    project: {
+        title: "Projektit",
+        items: [
+            // {
+            //     label: "Smart Food System",
+            //     link: "/smart-food"
+            // },
+            {
+                label: "Skenaario tulevaisuuden liikkumisesta",
+                link: "/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway/"
+            },
+            {
+                label: "Scénario de mobilité future",
+                link: "/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/"
+            },
+            {
+                label: "Lanna Style Content",
+                link: "https://tiktok.com/@chorndigital"
             }
         ]
-    }
+    },
+    smartCity: {
+        title: "Smart City",
+        items: [
+            {
+                label: "Smart City -yleiskatsaus",
+                link: "/smart-city/when-human-life-shapes-the-city",
+            },
+            {
+                label: "Human Daily Flow",
+                link: "/smart-city/human-daily-flow/morning",
+            },
+            {
+                label: "Local to Global",
+                link: "/smart-city/from-local-life-to-global-pattern",
+            },
+            {
+                label: "Global Patterns",
+                link: "/smart-city/global-patterns/predictable-shared-street",
+            },
+            {
+                label: "Urban Signals",
+                link: "/smart-city/urban-signals/predictable-street",
+            },
+        ]
+    },
+    technology: {
+        title: "Teknologia",
+        items: [
+            {
+                label: "AI-integraatio",
+                link: "/technical-expertise/ai-solutions"
+            },
+            {
+                label: "Verkkokehitys",
+                link: "/technical-expertise/web-development"
+            },
+            {
+                label: "Front-end-kehitys",
+                link: "/technical-expertise/front-end-developer/"
+            },
+            {
+                label: "Back-end-kehitys",
+                link: "/technical-expertise/full-stack-developer/"
+            },
+            {
+                label: "DevOps ja pilvi",
+                link: "/technical-expertise/cloud-devops/"
+            },
+        ]
+    },
+    connect: {
+        title: "Yhteys",
+        items: [
+            {
+                label: "Yhteys",
+                link: "/contact/",
+            },
+            {
+                label: "LinkedIn",
+                link: "https://linkedin.com/in/khachornchit",
+            },
+            {
+                label: "GitHub",
+                link: "https://github.com/chorndigital",
+            },
+            {
+                label: "TikTok",
+                link: "https://tiktok.com/@chorndigital",
+            },
+            {
+                label: "Facebook",
+                link: "https://www.facebook.com/chorndigital"
+            },
+        ]
+    },
 }
