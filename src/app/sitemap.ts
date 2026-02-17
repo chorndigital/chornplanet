@@ -4,6 +4,7 @@ import {MetadataRoute} from "next";
 import {UrlImageMaps} from "@/lib/UrlImageMaps";
 import {LOCALES, SITE_URL} from "@/lib/SiteUrlLocales";
 import {getSmartCityLandingData} from "@/data/smart-city-landing/getSmartCityLandingData";
+import {IImagePath} from "@/lib/model/IImagePath";
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const lastModified = new Date();
@@ -25,14 +26,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     // all routes
-    for (const map of UrlImageMaps) {
+    for (const urlImageMap of UrlImageMaps) {
         for (const locale of LOCALES) {
             entries.push({
-                url: `${SITE_URL}/${locale}${map.url}`,
+                url: `${SITE_URL}/${locale}${urlImageMap.url}`,
                 lastModified,
                 priority: 0.8,
-                images: map.images?.map(
-                    (img) => `${SITE_URL}${img}`
+                images: urlImageMap.images?.map(
+                    (image: IImagePath) => `${SITE_URL}${image.path}`
                 ),
             });
         }
