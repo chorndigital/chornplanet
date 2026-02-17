@@ -3,7 +3,6 @@
 import {headers} from "next/headers";
 import Link from "next/link";
 
-import {SmartCityMainEN} from "@/data/smart-city-media/SmartCityMain/SmartCityMainEN";
 import HumanDailyFlow from '@/components/Home/HumanDailyFlow'
 import LocalToGlobal from '@/components/Home/LocalToGlobal'
 import MobilityFocus from '@/components/Home/MobilityFocus'
@@ -11,33 +10,35 @@ import CitySystems from '@/components/Home/CitySystems'
 import GlobalPatterns from '@/components/Home/GlobalPatterns'
 import UrbanSignals from '@/components/Home/UrbanSignals'
 import EditorialPositioning from '@/components/Home/EditorialPositioning'
+import {SmartCityMain} from "@/data/smart-city-media/SmartCityMain/SmartCityMain";
 
 export default async function SmartCityPage() {
     const headers15 = await headers();
     const lang = headers15.get("x-locale") || "en";
+    const smartCityMain = SmartCityMain[lang]
 
     return (
         <main className="smart-city-main">
             <div className="container">
                 <section className="smart-city-main-hero">
                     <div className="smart-city-main-hero__content">
-                        <h1>{SmartCityMainEN.hero.title}</h1>
+                        <h1>{smartCityMain.hero.title}</h1>
 
-                        {SmartCityMainEN.hero.paragraphs.map((p, idx) => (
+                        {smartCityMain.hero.paragraphs.map((p, idx) => (
                             <p key={idx}>{p}</p>
                         ))}
 
                         <div className="smart-city-main-hero__cta">
-                            <Link href={`/${lang}${SmartCityMainEN.hero.cta.href}`}>
-                                {SmartCityMainEN.hero.cta.label}
+                            <Link href={`/${lang}${smartCityMain.hero.cta.href}`}>
+                                {smartCityMain.hero.cta.label}
                             </Link>
                         </div>
                     </div>
 
                     <div className="smart-city-main-hero__image">
                         <img
-                            src={SmartCityMainEN.hero.image.url}
-                            alt={SmartCityMainEN.hero.image.alt}
+                            src={smartCityMain.hero.image.url}
+                            alt={smartCityMain.hero.image.alt}
                             loading="eager"
                         />
                     </div>
@@ -45,7 +46,7 @@ export default async function SmartCityPage() {
 
                 <section className="smart-city-main-nav">
                     <div className="smart-city-main-nav__grid">
-                        {SmartCityMainEN.navigation.items.map((item, idx) => (
+                        {smartCityMain.navigation.items.map((item, idx) => (
                             <Link
                                 key={idx}
                                 href={`/${lang}${item.href}`}
