@@ -1,39 +1,29 @@
 // src/app/api/sitemap/route.ts
 
-import {Locales} from "@/lib/UrlMains";
 import {NextResponse} from "next/server";
 import {UrlImageMaps} from "@/lib/UrlImageMaps";
+import {LOCALES, SITE_URL} from "@/lib/SiteUrlLocales";
 import {IImagePath} from "@/lib/model/IImagePath";
-
-const baseUrl = "https://chorndigital.com";
-
-function getImageUrls(images: IImagePath[]) {
-    return images.map((image: IImagePath) => (
-            `<image:image>
-                 <image:loc>${baseUrl}${image.path}</image:loc>
-            </image:image>`
-        )
-    )
-}
 
 export async function GET() {
     const lastModified = new Date().toISOString().split('T')[0];
     const urlEntries: string[] = [];
 
     for (const urlImageMap of UrlImageMaps) {
-        for (const locale of Locales) {
-            const loc = `${baseUrl}/${locale}${urlImageMap.url}`;
+        for (const locale of LOCALES) {
+            const loc = `${SITE_URL}/${locale}${urlImageMap.url}`;
             const images = urlImageMap.images?.length
                 ? getImageUrls(urlImageMap.images)
                 : '';
 
             urlEntries.push(`
-        <url>
-          <loc>${loc}</loc>
-          ${images}
-          <lastmod>${lastModified}</lastmod>
-          <priority>0.8</priority>
-        </url>`);
+                <url>
+                  <loc>${loc}</loc>
+                  ${images}
+                  <lastmod>${lastModified}</lastmod>
+                  <priority>0.8</priority>
+                </url>`
+            );
         }
     }
 
@@ -49,4 +39,13 @@ export async function GET() {
             "Content-Type": "application/xml",
         },
     });
+}
+
+function getImageUrls(images: IImagePath[]) {
+    return images.map((image: IImagePath) => (
+            `<image:image>
+                 <image:loc>${SITE_URL}${image.path}</image:loc>
+            </image:image>`
+        )
+    )
 }

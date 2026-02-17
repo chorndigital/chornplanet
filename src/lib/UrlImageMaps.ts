@@ -25,6 +25,8 @@ export const UrlImageMaps: IUrlImageMap[] = [
             }
         ]
     },
+
+    //ai-companions
     {
         url: '/ai-companions/',
         images: [
@@ -57,6 +59,21 @@ export const UrlImageMaps: IUrlImageMap[] = [
             }
         ]
     },
+
+    // contact
+    {
+        url: '/contact/',
+        images: [
+            {path: ImageUrl.contact.main.image750},
+            {path: ImageUrl.contact.slides[0].image750},
+            {path: ImageUrl.contact.slides[1].image750},
+            {path: ImageUrl.contact.slides[2].image750},
+            {path: ImageUrl.contact.slides[3].image750},
+            {path: ImageUrl.contact.slides[4].image750},
+        ]
+    },
+
+    // gallery
     {
         url: '/gallery/',
         images: [
@@ -66,6 +83,71 @@ export const UrlImageMaps: IUrlImageMap[] = [
             {path: ImageUrl.gallery.slides[2].image750},
             {path: ImageUrl.gallery.slides[3].image750},
             {path: ImageUrl.gallery.slides[4].image750},
+        ]
+    },
+
+    //privacy-policy
+    {
+        url: '/privacy-policy/',
+        images: []
+    },
+
+    // smart-city
+    {
+        url: '/smart-city/',
+        images: []
+    },
+
+    // smart-city/[slug]
+    // smart-city/chiang-mai/[id]
+
+    //smart-mobility
+    {
+        url: '/smart-mobility/chiang-mai/hub-to-chiang-mai-airport/',
+        images: [
+            {
+                path: "/smart-mobility/chiang-mai/hub-to-chiang-mai-airport.png"
+            }
+        ]
+    },
+    {
+        url: '/smart-mobility/chiang-mai/hub-to-doi-inthanon/',
+        images: [
+            {
+                path: "/smart-mobility/chiang-mai/hub-to-doi-inthanon.png"
+            }
+        ]
+    },
+    {
+        url: '/smart-mobility/chiang-mai/hub-to-doi-suthep/',
+        images: [
+            {
+                path: "/smart-mobility/chiang-mai/hub-to-doi-suthep.png"
+            }
+        ]
+    },
+    {
+        url: '/smart-mobility/chiang-mai/urban-hub-san-sai-doi-saket/',
+        images: [
+            {
+                path: "/smart-mobility/chiang-mai/urban-hub-san-sai-doi-saket.png"
+            }
+        ]
+    },
+    {
+        url: '/smart-mobility/chiang-mai/vertiport-design/',
+        images: [
+            {
+                path: "/smart-mobility/chiang-mai/vertiport-design.png"
+            }
+        ]
+    },
+    {
+        url: '/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway/',
+        images: [
+            {
+                path: "/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway.png"
+            }
         ]
     },
 
@@ -91,6 +173,7 @@ export const UrlImageMaps: IUrlImageMap[] = [
             {path: ImageUrl.devops.frameworks.github.thumbnail},
         ]
     },
+
     {
         url: '/technical-expertise/cloud-devops/appium/',
         images: [
@@ -129,6 +212,12 @@ export const UrlImageMaps: IUrlImageMap[] = [
     },
     {
         url: '/technical-expertise/cloud-devops/postman/',
+        images: [
+            {path: ImageUrl.devops.frameworks.postman.image1200}
+        ]
+    },
+    {
+        url: '/technical-expertise/cloud-devops/selenium/',
         images: [
             {path: ImageUrl.devops.frameworks.postman.image1200}
         ]
@@ -262,12 +351,6 @@ export const UrlImageMaps: IUrlImageMap[] = [
         images: []
     },
 
-    //technical-expertise/web3-blockchain-smart-contract-development
-    {
-        url: '/technical-expertise/web3-blockchain-smart-contract-development/',
-        images: []
-    },
-
     //technical-expertise/web-development
     {
         url: '/technical-expertise/web-development/',
@@ -286,15 +369,15 @@ export const UrlImageMaps: IUrlImageMap[] = [
         ]
     },
 
-    //term-of-services
+    //technical-expertise/web3-blockchain-smart-contract-development
     {
-        url: '/terms-of-service/',
+        url: '/technical-expertise/web3-blockchain-smart-contract-development/',
         images: []
     },
 
-    //privacy-policy
+    //term-of-services
     {
-        url: '/privacy-policy/',
+        url: '/terms-of-service/',
         images: []
     },
 
@@ -302,24 +385,5 @@ export const UrlImageMaps: IUrlImageMap[] = [
     {
         url: '/workplace-policy/',
         images: []
-    },
-
-    //service-packages
-    {
-        url: '/service-packages/',
-        images: []
-    },
-
-    //contact
-    {
-        url: '/contact/',
-        images: [
-            {path: ImageUrl.contact.main.image750},
-            {path: ImageUrl.contact.slides[0].image750},
-            {path: ImageUrl.contact.slides[1].image750},
-            {path: ImageUrl.contact.slides[2].image750},
-            {path: ImageUrl.contact.slides[3].image750},
-            {path: ImageUrl.contact.slides[4].image750},
-        ]
     },
 ]

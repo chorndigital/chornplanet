@@ -2,7 +2,7 @@
 
 import type {NextRequest} from 'next/server';
 import {NextResponse} from 'next/server';
-import {Locales} from "@/lib/UrlMains";
+import {LOCALES} from "@/lib/SiteUrlLocales";
 
 const defaultLocale = 'en';
 
@@ -10,9 +10,10 @@ export function middleware(req: NextRequest) {
     const {pathname} = req.nextUrl;
     const cookie_consent: string = req.cookies.get("cookie_consent")?.value || 'false';
 
-    // Skip internal-images requests
+    // Skip requests
     if (
         pathname.startsWith('/_next') ||
+        pathname.startsWith('/sitemap') ||
         pathname.startsWith('/images') ||
         pathname.startsWith('/images-ai') ||
         pathname.startsWith('/chorn-images') ||
@@ -35,7 +36,7 @@ export function middleware(req: NextRequest) {
     // Redirect root ("/") to the default locale ("/en")
     if (
         pathname === '/' ||
-        !Locales.includes(locale)
+        !LOCALES.includes(locale)
     ) {
         const newPathName = `/${defaultLocale}${pathname === '/' ? '' : pathname}`;
         const url = new URL(newPathName, req.url);
