@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         for (const slug of slugs) {
             entries.push({
                 url: `${SITE_URL}/${locale}/smart-city/${slug}`,
-                lastModified: new Date(),
+                lastModified,
                 changeFrequency: "weekly",
                 priority: 0.8,
             });
