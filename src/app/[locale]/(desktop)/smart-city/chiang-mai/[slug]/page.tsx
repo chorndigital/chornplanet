@@ -1,4 +1,4 @@
-// src/app/[locale]/(desktop)/smart-city/chiang-mai/[id]/page.tsx
+// src/app/[locale]/(desktop)/smart-city/chiang-mai/[slug]/page.tsx
 
 import React from "react";
 import {Metadata} from "next";
@@ -14,13 +14,13 @@ import SmartCityMain from "@/components/SmartCity/ChiangMai/SmartCityMain";
 import {MetaSmartCityChiangMai} from "@/metadata/smart-city/MetaSmartCityChiangMai";
 
 export async function generateMetadata(
-    {params}: { params: Promise<{ id: string }> }
+    {params}: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
-    const {id} = await params;
+    const {slug} = await params;
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
 
-    return MetaSmartCityChiangMai({id, lang})
+    return MetaSmartCityChiangMai({slug, lang})
 }
 
 export async function generateStaticParams() {
@@ -37,9 +37,9 @@ export async function generateStaticParams() {
 }
 
 export default async function Page(
-    {params}: { params: Promise<{ id: string; locale: string }> }
+    {params}: { params: Promise<{ slug: string; locale: string }> }
 ) {
-    const {id, locale} = await params;
+    const {slug, locale} = await params;
 
     const headers15 = await headers();
     const headerLocale = headers15.get("x-locale");
@@ -49,7 +49,7 @@ export default async function Page(
     const normalize = (s: string) => s.replace(/\/+$/, "");
 
     const smartCityItem = items.find(item =>
-        normalize(item.link).endsWith(`/${id}`)
+        normalize(item.link).endsWith(`/${slug}`)
     );
 
     if (!smartCityItem) {

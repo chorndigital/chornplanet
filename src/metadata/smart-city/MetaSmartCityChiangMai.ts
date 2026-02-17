@@ -10,14 +10,14 @@ import {
 } from "@/metadata/smart-city/chiang-mai/MetaWhenHumanFlowAlignsWithSystemFlow";
 
 interface MetaParams {
-    id: string;
+    slug: string;
     lang: string;
 }
 
 export function MetaSmartCityChiangMai(
-    {id, lang}: MetaParams
+    {slug, lang}: MetaParams
 ): Metadata {
-    switch (id) {
+    switch (slug) {
         case "life-beneath-the-route":
             return MetaLiteBeneathTheRoute[lang];
 
