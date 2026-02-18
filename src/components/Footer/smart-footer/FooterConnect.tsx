@@ -14,7 +14,7 @@ export default function FooterConnect({lang}: { lang: string }) {
                         .filter((item: IFooterDetail) => item.link !== undefined)
                         .map((item: IFooterDetail, index: number) => {
 
-                            if (item.link.startsWith("https")) {
+                            if (item.link.startsWith("http")) {
                                 return (<li key={index}>
                                     <Link href={item.link} target={'_blank'}>
                                         {item.label}

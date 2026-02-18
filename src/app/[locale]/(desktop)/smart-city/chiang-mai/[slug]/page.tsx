@@ -25,13 +25,10 @@ export async function generateMetadata(
 
 export async function generateStaticParams() {
     return Object.entries(SmartCity).flatMap(([locale, data]) => {
-        const normalizedLocale = locale.split("-")[0];
-
         return (data.chiangMai ?? [])
             .filter(item => item.link.length > 0)
             .map(item => ({
-                locale: normalizedLocale,
-                id: item.link.replace(/\/+$/, "").split("/").pop()!,
+                slug: item.link.replace(/\/+$/, "").split("/").pop()!,
             }));
     });
 }
