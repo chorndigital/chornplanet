@@ -65,14 +65,9 @@ export const ContactZH_CN: IContact = {
         header: "联系信息",
         roles: [
             {
-                title: "项目经理",
-                span: "客户项目协调",
-                email: "pm@chorn.in.th"
-            },
-            {
-                title: "CEO | CTO Consultant",
+                title: "CHORN Digital",
                 span: "帮助创业者扩大技术、团队和战略",
-                email: "cto@chorn.in.th"
+                email: "contact@chorn.in.th"
             },
             {
                 title: "附近地点",

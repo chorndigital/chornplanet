@@ -65,14 +65,9 @@ export const ContactKO: IContact = {
         header: "연락처 정보",
         roles: [
             {
-                title: "Project Manager",
-                span: "클라이언트 프로젝트 조율",
-                email: "pm@chorn.in.th"
-            },
-            {
-                title: "CEO | CTO Consultant",
+                title: "CHORN Digital",
                 span: "창업가가 기술, 팀, 전략을 확장할 수 있도록 지원합니다",
-                email: "cto@chorn.in.th"
+                email: "contact@chorn.in.th"
             },
             {
                 title: "주변 장소",

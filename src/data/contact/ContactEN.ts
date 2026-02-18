@@ -65,14 +65,9 @@ export const ContactEN: IContact = {
         header: "Contact Information",
         roles: [
             {
-                title: "Project Manager",
-                span: "Client project coordination",
-                email: "pm@chorn.in.th"
-            },
-            {
-                title: "CEO | CTO Consultant",
+                title: "CHORN Digital",
                 span: "Helping Founders Scale Technology, Teams, and Strategy",
-                email: "cto@chorn.in.th"
+                email: "contact@chorn.in.th"
             },
             {
                 title: "Nearby places",

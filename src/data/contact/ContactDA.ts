@@ -65,14 +65,9 @@ export const ContactDA: IContact = {
         header: "Kontaktinformation",
         roles: [
             {
-                title: "Project Manager",
-                span: "koordinering af kundeprojekter",
-                email: "pm@chorn.in.th"
-            },
-            {
-                title: "CEO | CTO Consultant",
+                title: "CHORN Digital",
                 span: "Hjælper iværksættere med at skalere teknologi, teams og strategier",
-                email: "cto@chorn.in.th"
+                email: "contact@chorn.in.th"
             },
             {
                 title: "Nærliggende steder",

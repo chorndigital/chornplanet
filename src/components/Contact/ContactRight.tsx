@@ -5,12 +5,10 @@ import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {
     FaEnvelope,
     FaMapMarkedAlt,
-    FaMobileAlt,
     FaPhone,
     FaPlaneDeparture,
     FaShoppingBag,
-    FaUniversity,
-    FaWhatsapp
+    FaUniversity
 } from "react-icons/fa";
 
 export default function ContactRight({lang}: { lang: string }) {
@@ -152,21 +150,21 @@ export default function ContactRight({lang}: { lang: string }) {
                         </div>
                     </div>
 
-                    {/* Facebook */}
+                    {/* Tiktok */}
                     <div className="contact-social-item">
                         <div className="about-icon-symbol">
-                            <a href="https://www.facebook.com/chorndigital"
-                               className="facebook"
+                            <a href="https://www.tiktok.com/@chorndigital"
+                               className="github"
                                target="_blank"
                             >
-                                <i className="bx bxl-facebook hover-rotate"/>
+                                <i className="bx bxl-tiktok hover-rotate"/>
                             </a>
                         </div>
                         <div className="linkedin-text">
-                            <a href="https://www.facebook.com/chorndigital"
+                            <a href="https://www.tiktok.com/@chorndigital"
                                target="_blank"
                             >
-                                www.facebook.com/chorndigital
+                                tiktok.com/@chorndigital
                             </a>
                         </div>
                     </div>
@@ -185,7 +183,26 @@ export default function ContactRight({lang}: { lang: string }) {
                             <a href="https://github.com/chorndigital/"
                                target="_blank"
                             >
-                                www.github.com/chorndigital
+                                github.com/chorndigital
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Facebook */}
+                    <div className="contact-social-item">
+                        <div className="about-icon-symbol">
+                            <a href="https://www.facebook.com/chorndigital"
+                               className="facebook"
+                               target="_blank"
+                            >
+                                <i className="bx bxl-facebook hover-rotate"/>
+                            </a>
+                        </div>
+                        <div className="linkedin-text">
+                            <a href="https://www.facebook.com/chorndigital"
+                               target="_blank"
+                            >
+                                facebook.com/chorndigital
                             </a>
                         </div>
                     </div>
