@@ -1,9 +1,7 @@
-import Image from "next/image";
 import React from "react";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
 
 export default function VertiportDesignBottom({lang}: { lang: string }) {
     const vertiportDesign = SmartMobility[lang].chiangMai.vertiportDesign
@@ -13,16 +11,6 @@ export default function VertiportDesignBottom({lang}: { lang: string }) {
         <div className={`portfolio-details-desc portfolio-details-desc-custom`}>
             <div className={'unique-features-container'}>
                 <h3>{vertiportDesign.title}</h3>
-
-                <a href={contact.line.link}
-                   target={'_blank'}>
-                    <Image
-                        src={contact.line.button}
-                        alt="เพิ่มเพื่อน"
-                        width={120}
-                        height={36}
-                    />
-                </a>
             </div>
 
             <p>{vertiportDesign.description}</p>

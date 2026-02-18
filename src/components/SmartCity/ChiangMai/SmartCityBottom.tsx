@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import SmartMobilityClarificationStatement
@@ -16,16 +15,6 @@ export default function SmartCityBottom(
             <div className={`portfolio-details-desc portfolio-details-desc-custom`}>
                 <div className={'unique-features-container'}>
                     <h3>{smartCityItem.title}</h3>
-
-                    <a href={contact.line.link}
-                       target={'_blank'}>
-                        <Image
-                            src={contact.line.button}
-                            alt="เพิ่มเพื่อน"
-                            width={120}
-                            height={36}
-                        />
-                    </a>
                 </div>
                 <p>{smartCityItem.description}</p>
 
