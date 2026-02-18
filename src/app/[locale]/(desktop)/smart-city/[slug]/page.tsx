@@ -23,12 +23,7 @@ export async function generateMetadata(
 }
 
 export default async function Page(
-    {
-        params
-    }:
-    {
-        params: Promise<{ slug: string }>
-    }
+    {params}: { params: Promise<{ slug: string }> }
 ) {
     const headers15 = await headers();
     const lang = headers15.get("x-locale") || "en";

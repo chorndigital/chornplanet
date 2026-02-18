@@ -37,13 +37,11 @@ export async function generateStaticParams() {
 }
 
 export default async function Page(
-    {params}: { params: Promise<{ slug: string; locale: string }> }
+    {params}: { params: Promise<{ slug: string }> }
 ) {
-    const {slug, locale} = await params;
-
+    const {slug} = await params;
     const headers15 = await headers();
-    const headerLocale = headers15.get("x-locale");
-    const lang = headerLocale || locale || "en";
+    const lang = headers15.get('x-locale') || 'en';
     const items: ISmartCityItem[] = SmartCity[lang]?.chiangMai ?? [];
 
     const normalize = (s: string) => s.replace(/\/+$/, "");
