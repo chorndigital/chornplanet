@@ -24,7 +24,7 @@ export const SmartCityMainDA: ISmartCityMain = {
             {
                 title: "Human Daily Flow",
                 description: "Morgen, middag og aften indikerer systemadfærd.",
-                href: "/smart-city/human-daily-flow/morning",
+                href: "/smart-city/human-daily-flow-morning/",
             },
             {
                 title: "Local to Global",
@@ -34,27 +34,27 @@ export const SmartCityMainDA: ISmartCityMain = {
             {
                 title: "Mobility Focus",
                 description: "Mobilitet observeres, før den forstås.",
-                href: "/smart-city/mobility-focus/predictable-movement",
+                href: "/smart-city/mobility-focus-predictable-movement/",
             },
             {
                 title: "City Systems",
                 description: "Signaler, der påvirker daglige urbane forhold.",
-                href: "/smart-city/city-systems/movement-and-pause",
+                href: "/smart-city/city-systems-movement-and-pause/",
             },
             {
                 title: "Global Patterns",
                 description: "Signaler observeret på tværs af flere byer.",
-                href: "/smart-city/global-patterns/predictable-shared-street",
+                href: "/smart-city/global-patterns-predictable-shared-street/",
             },
             {
                 title: "Urban Signals",
                 description: "Adfærd på gadeplan, der indikerer systemforhold.",
-                href: "/smart-city/urban-signals/predictable-street",
+                href: "/smart-city/urban-signals-predictable-street/",
             },
             {
                 title: "Editorial Positioning",
                 description: "Perspektivet bag Smart City Media.",
-                href: "/smart-city/editorial/human-first-observation",
+                href: "/smart-city/editorial-human-first-observation/",
             },
         ],
     },

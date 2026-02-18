@@ -75,7 +75,7 @@ export const EditorialLocalAsGlobalPrototypeZH_CN: ISmartCityLanding = {
                 url: "/smart-city/global-patterns/predictable-shared-street.png",
                 alt: "在多个城市中出现的可预测共享街道模式",
             },
-            landingUrl: "/smart-city/global-patterns/predictable-shared-street",
+            landingUrl: "/smart-city/global-patterns-predictable-shared-street/",
         },
     ],
 };

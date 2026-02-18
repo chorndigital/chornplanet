@@ -75,7 +75,7 @@ export const EditorialLocalAsGlobalPrototypeKO: ISmartCityLanding = {
                 url: "/smart-city/global-patterns/predictable-shared-street.png",
                 alt: "여러 도시에서 관찰되는 예측 가능한 공유 거리 패턴",
             },
-            landingUrl: "/smart-city/global-patterns/predictable-shared-street",
+            landingUrl: "/smart-city/global-patterns-predictable-shared-street/",
         },
     ],
 };

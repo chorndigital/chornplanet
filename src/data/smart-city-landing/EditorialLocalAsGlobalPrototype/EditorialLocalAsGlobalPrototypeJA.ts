@@ -75,7 +75,7 @@ export const EditorialLocalAsGlobalPrototypeJA: ISmartCityLanding = {
                 url: "/smart-city/global-patterns/predictable-shared-street.png",
                 alt: "複数の都市で見られる予測可能な共有街路のパターン",
             },
-            landingUrl: "/smart-city/global-patterns/predictable-shared-street",
+            landingUrl: "/smart-city/global-patterns-predictable-shared-street/",
         },
     ],
 };

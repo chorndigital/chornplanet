@@ -24,7 +24,7 @@ export const SmartCityMainFI: ISmartCityMain = {
             {
                 title: "Human Daily Flow",
                 description: "Aamu, keskipäivä ja ilta kuvaavat järjestelmän käyttäytymistä.",
-                href: "/smart-city/human-daily-flow/morning",
+                href: "/smart-city/human-daily-flow-morning/",
             },
             {
                 title: "Local to Global",
@@ -34,27 +34,27 @@ export const SmartCityMainFI: ISmartCityMain = {
             {
                 title: "Mobility Focus",
                 description: "Liikkumista havainnoidaan ennen kuin se ymmärretään.",
-                href: "/smart-city/mobility-focus/predictable-movement",
+                href: "/smart-city/mobility-focus-predictable-movement/",
             },
             {
                 title: "City Systems",
                 description: "Signaalit, jotka vaikuttavat arjen kaupunkiolosuhteisiin.",
-                href: "/smart-city/city-systems/movement-and-pause",
+                href: "/smart-city/city-systems-movement-and-pause/",
             },
             {
                 title: "Global Patterns",
                 description: "Signaaleja, joita havaitaan useissa kaupungeissa.",
-                href: "/smart-city/global-patterns/predictable-shared-street",
+                href: "/smart-city/global-patterns-predictable-shared-street/",
             },
             {
                 title: "Urban Signals",
                 description: "Katutasoiset käyttäytymismallit, jotka kuvaavat järjestelmäolosuhteita.",
-                href: "/smart-city/urban-signals/predictable-street",
+                href: "/smart-city/urban-signals-predictable-street/",
             },
             {
                 title: "Editorial Positioning",
                 description: "Näkökulma Smart City Median taustalla.",
-                href: "/smart-city/editorial/human-first-observation",
+                href: "/smart-city/editorial-human-first-observation/",
             },
         ],
     },

@@ -75,7 +75,7 @@ export const EditorialLocalAsGlobalPrototypeFI: ISmartCityLanding = {
                 url: "/smart-city/global-patterns/predictable-shared-street.png",
                 alt: "Ennakoitavat jaetun kadun mallit, joita havaitaan useissa kaupungeissa",
             },
-            landingUrl: "/smart-city/global-patterns/predictable-shared-street",
+            landingUrl: "/smart-city/global-patterns-predictable-shared-street/",
         },
     ],
 };

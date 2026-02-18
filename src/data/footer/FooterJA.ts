@@ -94,7 +94,7 @@ export const FooterJA: IFooter = {
             },
             {
                 label: "Human Daily Flow",
-                link: "/smart-city/human-daily-flow/morning",
+                link: "/smart-city/human-daily-flow-morning/",
             },
             {
                 label: "Local to Global",
@@ -102,11 +102,11 @@ export const FooterJA: IFooter = {
             },
             {
                 label: "Global Patterns",
-                link: "/smart-city/global-patterns/predictable-shared-street",
+                link: "/smart-city/global-patterns-predictable-shared-street/",
             },
             {
                 label: "Urban Signals",
-                link: "/smart-city/urban-signals/predictable-street",
+                link: "/smart-city/urban-signals-predictable-street/",
             },
         ]
     },

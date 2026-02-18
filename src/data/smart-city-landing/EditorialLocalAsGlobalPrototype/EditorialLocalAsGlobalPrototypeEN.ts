@@ -77,7 +77,7 @@ export const EditorialLocalAsGlobalPrototypeEN: ISmartCityLanding = {
                 url: "/smart-city/global-patterns/predictable-shared-street.png",
                 alt: "Predictable shared street patterns appearing across multiple cities",
             },
-            landingUrl: "/smart-city/global-patterns/predictable-shared-street",
+            landingUrl: "/smart-city/global-patterns-predictable-shared-street/",
         },
     ],
 };

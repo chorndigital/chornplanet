@@ -75,7 +75,7 @@ export const EditorialLocalAsGlobalPrototypeFR: ISmartCityLanding = {
                 url: "/smart-city/global-patterns/predictable-shared-street.png",
                 alt: "Schémas de rues partagées prévisibles observés dans plusieurs villes",
             },
-            landingUrl: "/smart-city/global-patterns/predictable-shared-street",
+            landingUrl: "/smart-city/global-patterns-predictable-shared-street/",
         },
     ],
 };

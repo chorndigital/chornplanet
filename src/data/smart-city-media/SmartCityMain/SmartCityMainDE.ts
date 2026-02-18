@@ -24,7 +24,7 @@ export const SmartCityMainDE: ISmartCityMain = {
             {
                 title: "Human Daily Flow",
                 description: "Morgen, Mittag und Abend zeigen Systemverhalten an.",
-                href: "/smart-city/human-daily-flow/morning",
+                href: "/smart-city/human-daily-flow-morning/",
             },
             {
                 title: "Local to Global",
@@ -34,27 +34,27 @@ export const SmartCityMainDE: ISmartCityMain = {
             {
                 title: "Mobility Focus",
                 description: "Mobilität wird beobachtet, bevor sie verstanden wird.",
-                href: "/smart-city/mobility-focus/predictable-movement",
+                href: "/smart-city/mobility-focus-predictable-movement/",
             },
             {
                 title: "City Systems",
                 description: "Signale, die alltägliche urbane Bedingungen beeinflussen.",
-                href: "/smart-city/city-systems/movement-and-pause",
+                href: "/smart-city/city-systems-movement-and-pause/",
             },
             {
                 title: "Global Patterns",
                 description: "Signale, die in mehreren Städten beobachtet werden.",
-                href: "/smart-city/global-patterns/predictable-shared-street",
+                href: "/smart-city/global-patterns-predictable-shared-street/",
             },
             {
                 title: "Urban Signals",
                 description: "Verhalten auf Straßenebene, das Systembedingungen anzeigt.",
-                href: "/smart-city/urban-signals/predictable-street",
+                href: "/smart-city/urban-signals-predictable-street/",
             },
             {
                 title: "Editorial Positioning",
                 description: "Die Perspektive hinter Smart City Media.",
-                href: "/smart-city/editorial/human-first-observation",
+                href: "/smart-city/editorial-human-first-observation/",
             },
         ],
     },

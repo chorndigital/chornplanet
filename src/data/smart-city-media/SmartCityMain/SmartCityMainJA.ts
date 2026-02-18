@@ -24,7 +24,7 @@ export const SmartCityMainJA: ISmartCityMain = {
             {
                 title: "Human Daily Flow",
                 description: "朝、日中、夕方はシステムの挙動を示す。",
-                href: "/smart-city/human-daily-flow/morning",
+                href: "/smart-city/human-daily-flow-morning/",
             },
             {
                 title: "Local to Global",
@@ -34,27 +34,27 @@ export const SmartCityMainJA: ISmartCityMain = {
             {
                 title: "Mobility Focus",
                 description: "モビリティは理解される前に観察される。",
-                href: "/smart-city/mobility-focus/predictable-movement",
+                href: "/smart-city/mobility-focus-predictable-movement/",
             },
             {
                 title: "City Systems",
                 description: "日常の都市条件に影響を与えるシグナル。",
-                href: "/smart-city/city-systems/movement-and-pause",
+                href: "/smart-city/city-systems-movement-and-pause/",
             },
             {
                 title: "Global Patterns",
                 description: "複数の都市で観察されるシグナル。",
-                href: "/smart-city/global-patterns/predictable-shared-street",
+                href: "/smart-city/global-patterns-predictable-shared-street/",
             },
             {
                 title: "Urban Signals",
                 description: "システム状態を示す街路レベルの行動。",
-                href: "/smart-city/urban-signals/predictable-street",
+                href: "/smart-city/urban-signals-predictable-street/",
             },
             {
                 title: "Editorial Positioning",
                 description: "Smart City Mediaの背景にある視点。",
-                href: "/smart-city/editorial/human-first-observation",
+                href: "/smart-city/editorial-human-first-observation/",
             },
         ],
     },

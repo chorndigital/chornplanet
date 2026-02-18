@@ -75,7 +75,7 @@ export const EditorialLocalAsGlobalPrototypeDA: ISmartCityLanding = {
                 url: "/smart-city/global-patterns/predictable-shared-street.png",
                 alt: "Forudsigelige fælles gademønstre, der ses i flere byer",
             },
-            landingUrl: "/smart-city/global-patterns/predictable-shared-street",
+            landingUrl: "/smart-city/global-patterns-predictable-shared-street/",
         },
     ],
 };
