@@ -3,12 +3,12 @@
 import {headers} from "next/headers";
 import {notFound} from "next/navigation";
 
-import {getSmartCityLandingData} from "@/data/smart-city-landing/getSmartCityLandingData";
 import HeroObservation from "@/components/SmartCity/HeroObservation";
 import SystemExplanation from "@/components/SmartCity/SystemExplanation";
 import WhyItMatters from "@/components/SmartCity/WhyItMatters";
 import RelatesSignals from "@/components/SmartCity/RelatesSignals";
 import {Metadata} from "next";
+import {getSmartCityLandingData} from "@/data/smart-city-landing/getSmartCityLandingData";
 import {getMetaSmartCityLanding} from "@/metadata/smart-city-landing/getMetaSmartCityLanding";
 
 export async function generateMetadata(

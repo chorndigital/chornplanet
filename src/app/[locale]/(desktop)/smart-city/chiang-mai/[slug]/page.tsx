@@ -8,51 +8,31 @@ import {notFound} from "next/navigation"
 import AiSolutionsMain from "@/components/AiSolutions/AiSolutionsMain";
 import HomeFeatureMain from "@/components/Features/HomeFeatureMain";
 
-import {SmartCity} from "@/data/smart-city/SmartCity";
 import SmartCityMain from "@/components/SmartCity/ChiangMai/SmartCityMain";
-import {MetaSmartCityChiangMai} from "@/metadata/smart-city/MetaSmartCityChiangMai";
+import {getSmartCityData} from "@/data/smart-city/getSmartCityData";
+import {getMetaSmartCity} from "@/metadata/smart-city/getMetaSmartCity";
 
 export async function generateMetadata(
-    {params}: { params: { slug: string; locale: string } }
+    {params}: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
-    const {slug, locale} = params;
+    const {slug} = await params;
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
 
-    return MetaSmartCityChiangMai({
-        slug,
-        lang: locale ?? "en",
-    });
-}
-
-export async function generateStaticParams() {
-    return Object.entries(SmartCity).flatMap(([locale, data]) => {
-        return (data.chiangMai ?? [])
-            .filter(item => item.link)
-            .map(item => ({
-                locale,
-                slug: item.link.replace(/\/+$/, "").split("/").pop()!,
-            }));
-    });
+    const dataMap = getMetaSmartCity({lang})
+    return dataMap[slug];
 }
 
 export default async function Page(
-    {params}: { params: { slug: string; locale: string } }
+    {params}: { params: Promise<{ slug: string }> }
 ) {
-    const {slug, locale} = params;
-    const lang = locale ?? "en";
+    const headers15 = await headers();
+    const lang = headers15.get("x-locale") || "en";
 
-    const items = SmartCity[lang]?.chiangMai ?? [];
-
-    const normalize = (s: string) => s.replace(/\/+$/, "");
-
-    const smartCityItem = items.find(item =>
-        normalize(item.link).endsWith(`/${slug}`)
-    );
-
-    if (!smartCityItem) {
-        notFound();
-    }
+    const {slug} = await params
+    const smartCityData = getSmartCityData({lang});
+    const smartCityItem = smartCityData[slug];
+    if (!smartCityItem) notFound();
 
     return (
         <div className="container">
