@@ -21,7 +21,7 @@ export const MetaPlazaThatConnectsTheHubDA: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "Pladsen der forbinder knudepunktet – Chiang Mai smart city",

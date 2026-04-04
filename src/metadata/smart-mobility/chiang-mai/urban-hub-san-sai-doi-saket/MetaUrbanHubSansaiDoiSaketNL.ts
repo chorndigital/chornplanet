@@ -23,7 +23,7 @@ export const MetaUrbanHubSansaiDoiSaketNL: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

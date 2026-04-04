@@ -5,12 +5,12 @@ export const SchemaMarkupHomePage: React.FC = () => {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "CHORN",
-        "url": "https://chorndigital.com",
-        "logo": "https://chorndigital.com/images/logo-2025/chorn-logo-2025-circle-md.png",
+        "url": "https://chornplanet.com",
+        "logo": "https://chornplanet.com/images/logo-2025/chorn-logo-2025-circle-md.png",
         "sameAs": [
             "https://www.facebook.com/chorn",
             "https://twitter.com/chorn",
-            "https://www.linkedin.com/company/chorn"
+            "https://www.linkedin.com/company/chornplanet"
         ]
     };
 

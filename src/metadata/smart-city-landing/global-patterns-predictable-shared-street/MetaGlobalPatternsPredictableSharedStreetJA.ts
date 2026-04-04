@@ -25,7 +25,7 @@ export const MetaGlobalPatternsPredictableSharedStreetJA: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

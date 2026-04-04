@@ -21,7 +21,7 @@ export const MetaWhenHumanFlowAlignsWithSystemFlowKO: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "사람의 흐름과 시스템이 조화를 이룰 때 – 치앙마이 스마트 시티 시나리오",

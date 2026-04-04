@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Next.js Development Services | CHORN"
                 description="Expert Next.js development services by CHORN. Enhance your web applications with scalable and high-performance solutions using Next.js."
-                url="https://chorndigital.com/en/technical-expertise/front-end-developer/nextjs-developer"
+                url="https://chornplanet.com/en/technical-expertise/front-end-developer/nextjs-developer"
             />
         </div>
     );

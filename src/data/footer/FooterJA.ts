@@ -1,17 +1,17 @@
 import {IFooter} from "@/data/footer/model/IFooter";
 
 export const FooterJA: IFooter = {
-    title: "CHORN Digital",
-    link: "https://chorndigital.com/",
-    www: "www.chorndigital.com",
+    title: "Chorn Planet",
+    link: "https://chornplanet.com/",
+    www: "www.chornplanet.com",
     description:
-        "CHORN Digital: 将来のモビリティおよびスマートシティの文脈におけるシステム設計、接続型システムと初期IoTプラットフォーム、コンセプトからアーキテクチャ、システム設計および開発まで",
+        "Chorn Planet: 将来のモビリティおよびスマートシティの文脈におけるシステム設計、接続型システムと初期IoTプラットフォーム、コンセプトからアーキテクチャ、システム設計および開発まで",
     social: {
         title: "ソーシャルリンク",
         items: [
             {
                 label: "LinkedIn",
-                link: "https://www.linkedin.com/company/chorn",
+                link: "https://www.linkedin.com/company/chornplanet",
                 icon: "bx bxl-linkedin hover-rotate",
                 iconClass: "linkedin",
                 ariaLabel: "LinkedInでつながる"
@@ -25,14 +25,14 @@ export const FooterJA: IFooter = {
             },
             {
                 label: "Facebook",
-                link: "https://www.facebook.com/chorndigital",
+                link: "https://www.facebook.com/chornplanet",
                 icon: "bx bxl-facebook hover-rotate",
                 iconClass: "facebook",
                 ariaLabel: "Facebookでフォローする"
             },
             {
                 label: "TikTok",
-                link: "https://tiktok.com/@chorndigital",
+                link: "https://tiktok.com/@chornplanet",
                 icon: "bx bxl-tiktok hover-rotate",
                 iconClass: "tiktok",
                 ariaLabel: "TikTokでフォローする"
@@ -81,7 +81,7 @@ export const FooterJA: IFooter = {
             },
             {
                 label: "Lanna Style Content",
-                link: "https://tiktok.com/@chorndigital"
+                link: "https://tiktok.com/@chornplanet"
             }
         ]
     },
@@ -152,11 +152,11 @@ export const FooterJA: IFooter = {
             },
             {
                 label: "TikTok",
-                link: "https://tiktok.com/@chorndigital",
+                link: "https://tiktok.com/@chornplanet",
             },
             {
                 label: "Facebook",
-                link: "https://www.facebook.com/chorndigital"
+                link: "https://www.facebook.com/chornplanet"
             },
         ]
     },

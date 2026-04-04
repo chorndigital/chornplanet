@@ -23,7 +23,7 @@ export const MetaLifeBeneathTheRouteEN: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

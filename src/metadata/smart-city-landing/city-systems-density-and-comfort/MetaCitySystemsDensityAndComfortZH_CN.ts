@@ -12,7 +12,7 @@ export const MetaCitySystemsDensityAndComfortZH_CN: Metadata = {
         languages: {"zh-cn": "/zh-cn/smart-city/city-systems-density-and-comfort"},
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "密度与舒适 | 智慧城市系统",

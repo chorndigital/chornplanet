@@ -21,7 +21,7 @@ export const MetaVertiportReflectedInWaterJA: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "水面に映るバーティポート ― チェンマイ・スマートシティ・シナリオ",

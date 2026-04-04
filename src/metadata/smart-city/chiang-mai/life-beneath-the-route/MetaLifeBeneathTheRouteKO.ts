@@ -21,7 +21,7 @@ export const MetaLifeBeneathTheRouteKO: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "이동 경로 아래의 삶 – 치앙마이 스마트 시티",

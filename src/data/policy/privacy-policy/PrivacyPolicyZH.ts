@@ -4,7 +4,7 @@ export const PrivacyPolicyZH: IPolicy = {
     title: "隐私政策",
     subTitle: "简介",
     description:
-        "CHORN Digital 重视用户隐私，并以数据最小化原则作为基本设计理念。本隐私政策说明在使用 CHORN Digital 网站过程中，相关信息如何被处理，包括在取得用户同意的情况下，出于分析目的而有限使用的 Cookie。本网站在默认情况下不收集个人信息。",
+        "Chorn Planet 重视用户隐私，并以数据最小化原则作为基本设计理念。本隐私政策说明在使用 Chorn Planet 网站过程中，相关信息如何被处理，包括在取得用户同意的情况下，出于分析目的而有限使用的 Cookie。本网站在默认情况下不收集个人信息。",
     contents: [
         {
             title: "1. 收集的信息",
@@ -12,7 +12,7 @@ export const PrivacyPolicyZH: IPolicy = {
                 {
                     title: "1.1 个人信息",
                     description:
-                        "CHORN Digital 在原则上不收集可识别个人身份的信息。访问和使用本网站无需提供姓名、联系方式或任何其他个人识别信息。在用户同意启用分析类 Cookie 的情况下，仅会处理经过匿名化和汇总后的使用数据。"
+                        "Chorn Planet 在原则上不收集可识别个人身份的信息。访问和使用本网站无需提供姓名、联系方式或任何其他个人识别信息。在用户同意启用分析类 Cookie 的情况下，仅会处理经过匿名化和汇总后的使用数据。"
                 }
             ]
         },
@@ -28,7 +28,7 @@ export const PrivacyPolicyZH: IPolicy = {
                 {
                     title: "2.2 分析服务",
                     description:
-                        "在获得用户同意的前提下，可能通过第三方分析服务（如 Google Analytics）收集匿名化的使用数据。此类数据可能包括页面浏览量、访问路径模式以及汇总后的使用统计信息。CHORN Digital 不会将分析数据用于用户画像、营销活动或跨网站跟踪，也不会有意收集可识别个人身份的信息。"
+                        "在获得用户同意的前提下，可能通过第三方分析服务（如 Google Analytics）收集匿名化的使用数据。此类数据可能包括页面浏览量、访问路径模式以及汇总后的使用统计信息。Chorn Planet 不会将分析数据用于用户画像、营销活动或跨网站跟踪，也不会有意收集可识别个人身份的信息。"
                 },
                 {
                     title: "2.3 用户的选择",
@@ -44,7 +44,7 @@ export const PrivacyPolicyZH: IPolicy = {
                 {
                     title: "3.1 安全措施",
                     description:
-                        "CHORN Digital 采取适当的技术和组织措施，以保护在网站使用过程中处理的匿名化数据和非个人数据。除非确有必要且已取得用户的明确同意，否则不会存储个人信息。"
+                        "Chorn Planet 采取适当的技术和组织措施，以保护在网站使用过程中处理的匿名化数据和非个人数据。除非确有必要且已取得用户的明确同意，否则不会存储个人信息。"
                 }
             ]
         },
@@ -55,7 +55,7 @@ export const PrivacyPolicyZH: IPolicy = {
                 {
                     title: "4.1 外部网站",
                     description:
-                        "本网站可能包含指向第三方或外部网站的链接。CHORN Digital 不对这些外部网站的隐私实践、政策或内容承担责任。建议用户自行查阅其所访问的外部网站的隐私政策。"
+                        "本网站可能包含指向第三方或外部网站的链接。Chorn Planet 不对这些外部网站的隐私实践、政策或内容承担责任。建议用户自行查阅其所访问的外部网站的隐私政策。"
                 }
             ]
         },

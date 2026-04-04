@@ -21,7 +21,7 @@ export const MetaVertiportReflectedInWaterFI: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "Veteportti veden heijastuksessa – Chiang Main älykaupunkiskenaario",

@@ -153,7 +153,7 @@ export default function ContactRight({lang}: { lang: string }) {
                     {/* Tiktok */}
                     <div className="contact-social-item">
                         <div className="about-icon-symbol">
-                            <a href="https://www.tiktok.com/@chorndigital"
+                            <a href="https://www.tiktok.com/@chornplanet"
                                className="github"
                                target="_blank"
                             >
@@ -161,10 +161,10 @@ export default function ContactRight({lang}: { lang: string }) {
                             </a>
                         </div>
                         <div className="linkedin-text">
-                            <a href="https://www.tiktok.com/@chorndigital"
+                            <a href="https://www.tiktok.com/@chornplanet"
                                target="_blank"
                             >
-                                tiktok.com/@chorndigital
+                                tiktok.com/@chornplanet
                             </a>
                         </div>
                     </div>
@@ -191,7 +191,7 @@ export default function ContactRight({lang}: { lang: string }) {
                     {/* Facebook */}
                     <div className="contact-social-item">
                         <div className="about-icon-symbol">
-                            <a href="https://www.facebook.com/chorndigital"
+                            <a href="https://www.facebook.com/chornplanet"
                                className="facebook"
                                target="_blank"
                             >
@@ -199,10 +199,10 @@ export default function ContactRight({lang}: { lang: string }) {
                             </a>
                         </div>
                         <div className="linkedin-text">
-                            <a href="https://www.facebook.com/chorndigital"
+                            <a href="https://www.facebook.com/chornplanet"
                                target="_blank"
                             >
-                                facebook.com/chorndigital
+                                facebook.com/chornplanet
                             </a>
                         </div>
                     </div>

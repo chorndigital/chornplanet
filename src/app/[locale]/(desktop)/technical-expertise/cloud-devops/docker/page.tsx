@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Docker DevOps Services | CHORN"
                 description="CHORN offers Docker-based DevOps services for efficient containerization and scalable application deployment."
-                url="https://chorndigital.com/en/technical-expertise/cloud-devops/docker/"
+                url="https://chornplanet.com/en/technical-expertise/cloud-devops/docker/"
             />
         </div>
     );

@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="GitHub DevOps Services | CHORN"
                 description="CHORN offers DevOps services integrating GitHub for version control, continuous integration, and automated workflows."
-                url="https://chorndigital.com/en/technical-expertise/cloud-devops/github/"
+                url="https://chornplanet.com/en/technical-expertise/cloud-devops/github/"
             />
         </div>
     );

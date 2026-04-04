@@ -21,6 +21,47 @@ const nextConfig = {
 
     async headers() {
         return [
+            // Security headers applied to all routes
+            {
+                source: "/:path*",
+                headers: [
+                    {
+                        key: "X-Content-Type-Options",
+                        value: "nosniff"
+                    },
+                    {
+                        key: "X-Frame-Options",
+                        value: "DENY"
+                    },
+                    {
+                        key: "Referrer-Policy",
+                        value: "strict-origin-when-cross-origin"
+                    },
+                    {
+                        key: "Permissions-Policy",
+                        value: "camera=(), microphone=(), geolocation=()"
+                    },
+                    {
+                        key: "Strict-Transport-Security",
+                        value: "max-age=31536000; includeSubDomains"
+                    },
+                    {
+                        key: "Content-Security-Policy",
+                        value: [
+                            "default-src 'self'",
+                            "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com",
+                            "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+                            "font-src 'self' https://fonts.gstatic.com",
+                            "img-src 'self' data: blob: https://cdn.chornplanet.com https://scdn.line-apps.com https://www.google-analytics.com",
+                            "connect-src 'self' https://vitals.vercel-insights.com https://www.google-analytics.com",
+                            "frame-ancestors 'none'",
+                            "base-uri 'self'",
+                            "form-action 'self'",
+                        ].join("; ")
+                    },
+                ]
+            },
+            // Cache headers for static assets
             {
                 source: "/images/:path*",
                 headers: [{
@@ -49,10 +90,13 @@ const nextConfig = {
     },
 
     images: {
-        unoptimized: true, remotePatterns: [
+        // Images are pre-optimized WebP files served from CDN via redirects.
+        // Next.js optimizer cannot follow those redirects, so optimization is bypassed.
+        unoptimized: true,
+        remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'cdn.chorndigital.com'
+                hostname: 'cdn.chornplanet.com'
             },
             {
                 protocol: "https",
@@ -66,15 +110,15 @@ const nextConfig = {
         return [
             {
                 source: '/images-opengraph/smart-mobility/:path*',
-                destination: 'https://cdn.chorndigital.com/smart-mobility/:path*'
+                destination: 'https://cdn.chornplanet.com/smart-mobility/:path*'
             },
             {
                 source: '/images-opengraph/smart-city/:path*',
-                destination: 'https://cdn.chorndigital.com/smart-city/:path*'
+                destination: 'https://cdn.chornplanet.com/smart-city/:path*'
             },
             {
                 source: '/images-opengraph/:path*',
-                destination: 'https://cdn.chorndigital.com/images-opengraph/:path*'
+                destination: 'https://cdn.chornplanet.com/images-opengraph/:path*'
             },
         ];
     },
@@ -84,7 +128,7 @@ const nextConfig = {
         return [
             {
                 source: '/images/:path*',
-                destination: 'https://cdn.chorndigital.com/images/:path*',
+                destination: 'https://cdn.chornplanet.com/images/:path*',
                 permanent: true,
             },
 
@@ -96,14 +140,14 @@ const nextConfig = {
             },
             {
                 source: '/smart-mobility/:path*',
-                destination: 'https://cdn.chorndigital.com/smart-mobility/:path*',
+                destination: 'https://cdn.chornplanet.com/smart-mobility/:path*',
                 permanent: true,
             },
 
             // Smart City
             {
                 source: '/smart-city/:path*',
-                destination: 'https://cdn.chorndigital.com/smart-city/:path*',
+                destination: 'https://cdn.chornplanet.com/smart-city/:path*',
                 permanent: true,
             },
 

@@ -25,7 +25,7 @@ export const MetaHumanDailyFlowEveningZH_CN: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

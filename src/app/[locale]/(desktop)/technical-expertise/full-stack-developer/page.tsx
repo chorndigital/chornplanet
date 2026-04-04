@@ -25,7 +25,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Back-End & API Development Services | CHORN"
                 description="CHORN offers expert Back-End & API Development services utilizing modern technologies like Node.js, Java Spring Boot, .NET Core, Go, Python, and PHP. Build scalable and robust web applications with our custom software solutions."
-                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/"
+                url="https://chornplanet.com/en/technical-expertise/full-stack-developer/"
             />
         </div>
     );

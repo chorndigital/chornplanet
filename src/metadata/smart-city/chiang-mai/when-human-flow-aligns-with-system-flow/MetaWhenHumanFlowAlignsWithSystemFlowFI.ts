@@ -21,7 +21,7 @@ export const MetaWhenHumanFlowAlignsWithSystemFlowFI: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "Kun ihmisten liike on linjassa järjestelmän kanssa – Chiang Main älykaupunkiskenaario",

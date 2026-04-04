@@ -30,15 +30,15 @@ export const ContactEN: IContact = {
         label: "GitHub",
         isLink: true,
         link: "https://github.com/chorndigital",
-        linkText: "GitHub CHORN Digital",
+        linkText: "GitHub Chorn Planet",
         button: ""
     },
     linkedin: {
         icon: "bx bxl-linkedin",
         label: "LinkedIn",
         isLink: true,
-        link: "https://www.linkedin.com/company/chorn",
-        linkText: "LinkedIn CHORN Digital",
+        link: "https://www.linkedin.com/company/chornplanet",
+        linkText: "LinkedIn Chorn Planet",
         button: ""
     },
     line: {
@@ -46,7 +46,7 @@ export const ContactEN: IContact = {
         label: "Line OA",
         isLink: false,
         link: "https://lin.ee/YYn0ZYW",
-        linkText: "Line - CHORN Digital",
+        linkText: "Line - Chorn Planet",
         button: "https://scdn.line-apps.com/n/line_add_friends/btn/en.png",
     },
     contacts: [
@@ -65,7 +65,7 @@ export const ContactEN: IContact = {
         header: "Contact Information",
         roles: [
             {
-                title: "CHORN Digital",
+                title: "Chorn Planet",
                 span: "Helping Founders Scale Technology, Teams, and Strategy",
                 email: "contact@chorn.in.th"
             },

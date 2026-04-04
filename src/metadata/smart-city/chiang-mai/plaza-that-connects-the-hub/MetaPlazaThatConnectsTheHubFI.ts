@@ -21,7 +21,7 @@ export const MetaPlazaThatConnectsTheHubFI: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "Aukio, joka yhdistää liikenteen solmukohdan – Chiang Mai",

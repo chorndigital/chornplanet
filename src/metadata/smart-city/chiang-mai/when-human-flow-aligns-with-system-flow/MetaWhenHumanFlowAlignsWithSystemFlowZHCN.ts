@@ -21,7 +21,7 @@ export const MetaWhenHumanFlowAlignsWithSystemFlowZHCN: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "当人流与系统流动协调一致 — 清迈智慧城市情景",

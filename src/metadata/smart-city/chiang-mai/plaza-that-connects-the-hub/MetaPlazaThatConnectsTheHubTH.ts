@@ -23,7 +23,7 @@ export const MetaPlazaThatConnectsTheHubTH: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

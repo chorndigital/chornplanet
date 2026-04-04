@@ -3,18 +3,18 @@ import {IAbout} from "@/data/about/model/IAbout";
 export const AboutFI: IAbout = {
     title: "Tietoa",
     span: "Tulevien liikkumis- ja älykaupunkijärjestelmien suunnittelu",
-    subTitle: "CHORN Digital — Tulevat liikkumis- ja älykaupunkijärjestelmät | Yhdistetyt järjestelmät & varhaiset IoT-alustat",
+    subTitle: "Chorn Planet — Tulevat liikkumis- ja älykaupunkijärjestelmät | Yhdistetyt järjestelmät & varhaiset IoT-alustat",
 
     description: [
         {
             title: "Tulevat liikkumis- ja älykaupunkijärjestelmät",
             description:
-                "CHORN Digital suunnittelee havainnollistavia, ei-sitovia skenaarioita ja konseptuaalisia arkkitehtuureja, jotka tarkastelevat, miten tulevat liikkumis- ja älykaupunkijärjestelmät voisivat kehittyä. Tämä työ tukee strategista ajattelua, politiikkakeskustelua ja pitkän aikavälin investointien arviointia ilman käyttöönottoa tai toteutusta koskevia sitoumuksia."
+                "Chorn Planet suunnittelee havainnollistavia, ei-sitovia skenaarioita ja konseptuaalisia arkkitehtuureja, jotka tarkastelevat, miten tulevat liikkumis- ja älykaupunkijärjestelmät voisivat kehittyä. Tämä työ tukee strategista ajattelua, politiikkakeskustelua ja pitkän aikavälin investointien arviointia ilman käyttöönottoa tai toteutusta koskevia sitoumuksia."
         },
         {
             title: "Tekoälypohjainen älykäs ruokajärjestelmä (käynnissä)",
             description:
-                "CHORN Digital kehittää aktiivisesti tekoälypohjaista älykästä ruokajärjestelmää, joka yhdistää yhdistetyn järjestelmäarkkitehtuurin, NLP-pohjaiset tilausprosessit sekä taustajärjestelmien työnkulkujen automaation. Alusta toimii perustana varhaisen vaiheen IoT- ja tekoälyintegraatiolle ja tarjoaa viitekehyksen tulevia skaalautuvia käyttöönottoja varten."
+                "Chorn Planet kehittää aktiivisesti tekoälypohjaista älykästä ruokajärjestelmää, joka yhdistää yhdistetyn järjestelmäarkkitehtuurin, NLP-pohjaiset tilausprosessit sekä taustajärjestelmien työnkulkujen automaation. Alusta toimii perustana varhaisen vaiheen IoT- ja tekoälyintegraatiolle ja tarjoaa viitekehyksen tulevia skaalautuvia käyttöönottoja varten."
         },
         {
             title: "Yhdistetyt järjestelmät & varhaiset IoT-alustat",
@@ -29,7 +29,7 @@ export const AboutFI: IAbout = {
         {
             title: "Järjestelmäsuunnittelu & digitaaliset alustat",
             description:
-                "CHORN Digitalilla on myös kokemusta järjestelmäarkkitehtuurista, frontend- ja backend-kehityksestä, pilviarkkitehtuurista sekä automaatiosta digitaalisilla alustoilla. Tämä varmistaa, että sekä konseptuaaliset että käynnissä olevat projektit pysyvät teknisesti realistisina ja toiminnallisesti perusteltuina."
+                "Chorn Planetilla on myös kokemusta järjestelmäarkkitehtuurista, frontend- ja backend-kehityksestä, pilviarkkitehtuurista sekä automaatiosta digitaalisilla alustoilla. Tämä varmistaa, että sekä konseptuaaliset että käynnissä olevat projektit pysyvät teknisesti realistisina ja toiminnallisesti perusteltuina."
         }
     ],
 

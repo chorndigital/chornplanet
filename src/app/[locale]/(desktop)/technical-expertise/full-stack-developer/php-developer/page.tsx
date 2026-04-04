@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="PHP Full Stack Development | CHORN"
                 description="CHORN offers PHP full stack development services for building dynamic and scalable web applications."
-                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/php-developer/"
+                url="https://chornplanet.com/en/technical-expertise/full-stack-developer/php-developer/"
             />
         </div>
     );

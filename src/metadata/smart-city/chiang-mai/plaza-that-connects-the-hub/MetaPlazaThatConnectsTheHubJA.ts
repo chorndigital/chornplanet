@@ -21,7 +21,7 @@ export const MetaPlazaThatConnectsTheHubJA: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "ハブをつなぐプラザ – チェンマイ・スマートシティ",

@@ -23,7 +23,7 @@ export const MetaVertiportDesignFI: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

@@ -21,7 +21,7 @@ export const MetaLifeBeneathTheRouteTH: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "ชีวิตใต้เส้นทางคมนาคม – ฉากเมืองอัจฉริยะเชียงใหม่",

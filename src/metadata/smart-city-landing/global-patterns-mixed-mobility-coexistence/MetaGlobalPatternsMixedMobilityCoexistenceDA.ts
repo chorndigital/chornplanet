@@ -25,7 +25,7 @@ export const MetaGlobalPatternsMixedMobilityCoexistenceDA: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

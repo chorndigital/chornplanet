@@ -21,7 +21,7 @@ export const MetaWhenHumanFlowAlignsWithSystemFlowFR: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "Quand les flux humains s’alignent avec le système – Scénario de ville intelligente à Chiang Mai",

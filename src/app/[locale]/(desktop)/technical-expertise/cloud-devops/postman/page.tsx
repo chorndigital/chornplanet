@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Postman API Testing Services | CHORN"
                 description="CHORN provides API testing services using Postman to ensure the reliability and performance of your web services."
-                url="https://chorndigital.com/en/technical-expertise/cloud-devops/postman/"
+                url="https://chornplanet.com/en/technical-expertise/cloud-devops/postman/"
             />
         </div>
     )

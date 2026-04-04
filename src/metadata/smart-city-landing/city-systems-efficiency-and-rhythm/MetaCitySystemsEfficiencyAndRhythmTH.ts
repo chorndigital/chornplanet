@@ -23,7 +23,7 @@ export const MetaCitySystemsEfficiencyAndRhythmTH: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "ประสิทธิภาพและจังหวะของมนุษย์ | ระบบเมืองอัจฉริยะ",

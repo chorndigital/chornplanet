@@ -25,7 +25,7 @@ export const MetaGlobalPatternsPredictableSharedStreetFI: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

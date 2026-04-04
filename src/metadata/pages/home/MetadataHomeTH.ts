@@ -13,7 +13,7 @@ export const MetadataHomeTH: Metadata = {
     alternates: metadataLink(LanguageCode.en, MetaLinks.home).alternates,
     authors: [
         {
-            name: "CHORN Digital"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
@@ -33,7 +33,7 @@ export const MetadataHomeTH: Metadata = {
     },
     keywords: [
         // Brand Keywords
-        "CHORN", "CHORN Digital", "แพลตฟอร์มสื่อ CHORN", "สื่อระบบ CHORN", "CHORN คืออะไร",
+        "CHORN", "Chorn Planet", "แพลตฟอร์มสื่อ CHORN", "สื่อระบบ CHORN", "CHORN คืออะไร",
         "CHORN ประเทศไทย", "CHORN เชียงใหม่", "CHORN กรุงเทพ",
 
         // Core Topics (Neutral, descriptive)

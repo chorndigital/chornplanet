@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Selenium Testing Services | CHORN"
                 description="CHORN offers comprehensive Selenium testing services to ensure the quality and performance of your applications through automated testing."
-                url="https://chorndigital.com/en/technical-expertise/cloud-devops/selenium/"
+                url="https://chornplanet.com/en/technical-expertise/cloud-devops/selenium/"
             />
         </div>
     )

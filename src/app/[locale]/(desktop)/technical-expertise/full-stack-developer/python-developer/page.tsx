@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Python Full Stack Development | CHORN"
                 description="CHORN offers Python full stack development services to build dynamic and scalable web applications."
-                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/python-developer/"
+                url="https://chornplanet.com/en/technical-expertise/full-stack-developer/python-developer/"
             />
         </div>
     );

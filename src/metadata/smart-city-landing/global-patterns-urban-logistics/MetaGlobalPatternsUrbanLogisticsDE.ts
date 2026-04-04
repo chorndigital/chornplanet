@@ -25,7 +25,7 @@ export const MetaGlobalPatternsUrbanLogisticsDE: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

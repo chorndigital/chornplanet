@@ -23,7 +23,7 @@ export const MetaVertiportReflectedInWaterTH: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

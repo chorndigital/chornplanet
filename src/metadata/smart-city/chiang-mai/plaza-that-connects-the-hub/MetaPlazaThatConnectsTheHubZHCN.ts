@@ -21,7 +21,7 @@ export const MetaPlazaThatConnectsTheHubZHCN: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "连接交通枢纽的城市广场 – 清迈智慧城市",

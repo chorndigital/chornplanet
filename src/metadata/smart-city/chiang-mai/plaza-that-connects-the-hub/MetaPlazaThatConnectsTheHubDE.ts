@@ -21,7 +21,7 @@ export const MetaPlazaThatConnectsTheHubDE: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "Der Platz, der den Mobilitätsknoten verbindet – Chiang Mai",

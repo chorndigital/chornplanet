@@ -25,7 +25,7 @@ export const MetaFromLocalLifeToGlobalPatternFR: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

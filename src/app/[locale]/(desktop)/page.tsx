@@ -31,10 +31,10 @@ export default async function Home() {
     const localBusinessSchema = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "CHORN Digital | Future Mobility & Smart City Systems Designer, Connected Systems & Early IoT Platforms, Concept to Architecture, System Design & Development",
-        "logo": "https://chorndigital.com/images/logo/chorn-logo-2025-circle-md.png",
-        "@id": "https://chorndigital.com",
-        "url": "https://chorndigital.com",
+        "name": "Chorn Planet | Future Mobility & Smart City Systems Designer, Connected Systems & Early IoT Platforms, Concept to Architecture, System Design & Development",
+        "logo": "https://chornplanet.com/images/logo/chorn-logo-2025-circle-md.png",
+        "@id": "https://chornplanet.com",
+        "url": "https://chornplanet.com",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+66 (0)52 000 548",
@@ -56,10 +56,10 @@ export default async function Home() {
         },
         "openingHours": "Mo-Fr 08:30-17:30",
         "sameAs": [
-            "https://www.linkedin.com/company/chorndigital",
-            "https://www.facebook.com/chorndigital",
-            "https://tiktok.com/@chorndigital",
-            "https://x.com/chorndigital",
+            "https://www.linkedin.com/company/chornplanet",
+            "https://www.facebook.com/chornplanet",
+            "https://tiktok.com/@chornplanet",
+            "https://x.com/chornplanet",
         ]
     };
     const smartCityItem: ISmartCityItem = SmartCity[lang]?.chiangMai[3];

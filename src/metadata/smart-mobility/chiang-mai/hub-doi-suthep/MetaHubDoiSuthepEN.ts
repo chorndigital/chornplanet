@@ -23,7 +23,7 @@ export const MetaHubDoiSuthepEN: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

@@ -25,7 +25,7 @@ export const MetaEditorialLocalAsGlobalPrototypeFR: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

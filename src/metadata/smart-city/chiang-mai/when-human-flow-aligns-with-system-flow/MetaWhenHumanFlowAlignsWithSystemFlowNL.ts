@@ -21,7 +21,7 @@ export const MetaWhenHumanFlowAlignsWithSystemFlowNL: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "Wanneer menselijke stroming en systeemstroming samenvallen – Smart city-scenario Chiang Mai",

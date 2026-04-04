@@ -14,7 +14,7 @@ export const MetaCitySystemsDensityAndComfortTH: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "ความหนาแน่นและความสบาย | ระบบเมืองอัจฉริยะ",

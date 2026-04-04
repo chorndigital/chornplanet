@@ -24,7 +24,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="JavaScript | CHORN - Custom Software Development Experts"
                 description="Learn how CHORN leverages JavaScript to build scalable, robust, and efficient custom software solutions for businesses across industries."
-                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/javascript-javascript-developer/"
+                url="https://chornplanet.com/en/technical-expertise/full-stack-developer/javascript-javascript-developer/"
             />
         </div>
     );

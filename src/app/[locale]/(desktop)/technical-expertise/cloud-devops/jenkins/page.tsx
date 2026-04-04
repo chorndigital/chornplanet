@@ -25,7 +25,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Jenkins DevOps Services | CHORN"
                 description="CHORN offers Jenkins-based DevOps services for automating builds, testing, and deployment in your development pipeline."
-                url="https://chorndigital.com/en/technical-expertise/cloud-devops/jenkins/"
+                url="https://chornplanet.com/en/technical-expertise/cloud-devops/jenkins/"
             />
         </div>
     )

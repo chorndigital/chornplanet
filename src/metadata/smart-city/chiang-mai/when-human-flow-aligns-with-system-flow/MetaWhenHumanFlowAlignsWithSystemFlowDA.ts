@@ -21,7 +21,7 @@ export const MetaWhenHumanFlowAlignsWithSystemFlowDA: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "Når menneskelig bevægelse er i takt med systemet – Smart city-scenarie i Chiang Mai",

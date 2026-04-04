@@ -23,7 +23,7 @@ export const MetaCitySystemsEfficiencyAndRhythmDA: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "Effektivitet og Menneskelig Rytme | Smart City Systemer",

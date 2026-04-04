@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="React Development Services | CHORN"
                 description="CHORN provides top-tier React development services. Build dynamic and responsive user interfaces with React."
-                url="https://chorndigital.com/en/technical-expertise/front-end-developer/react-developer/"
+                url="https://chornplanet.com/en/technical-expertise/front-end-developer/react-developer/"
             />
         </div>
     );

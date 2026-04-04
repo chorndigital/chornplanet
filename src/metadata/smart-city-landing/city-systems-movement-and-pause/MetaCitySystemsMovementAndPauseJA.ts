@@ -25,7 +25,7 @@ export const MetaCitySystemsMovementAndPauseJA: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

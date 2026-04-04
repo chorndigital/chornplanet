@@ -12,7 +12,7 @@ export const MetadataHomeJA: Metadata = {
     },
     alternates: metadataLink(LanguageCode.en, MetaLinks.home).alternates,
     authors: [
-        { name: "CHORN Digital" }
+        { name: "Chorn Planet" }
     ],
     openGraph: {
         title: "CHORN | システムと応用技術のためのメディアプラットフォーム",
@@ -30,7 +30,7 @@ export const MetadataHomeJA: Metadata = {
         images: metadataLink(LanguageCode.en, MetaLinks.home).twitter.images,
     },
     keywords: [
-        "CHORN", "CHORN Digital", "メディアプラットフォーム", "システム分析",
+        "CHORN", "Chorn Planet", "メディアプラットフォーム", "システム分析",
         "ソフトウェアエンジニアリング", "システム統合", "クラウドシステム",
         "AI統合", "DevOps", "マイクロサービス", "技術アーキテクチャ"
     ]

@@ -23,7 +23,7 @@ export const MetaHubDoiInthanonDA: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

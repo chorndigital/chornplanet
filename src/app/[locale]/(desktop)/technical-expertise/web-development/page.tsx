@@ -25,7 +25,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="Web Development Services | CHORN | Custom Software & Technology Solutions"
                 description="Explore CHORN's web development services, including expertise in Next.js, React, Angular, Vue, and more. CHORN offers tailored solutions for businesses across various domains such as Digital Marketing, Blockchain, E-Commerce, and more."
-                url="https://chorndigital.com/en/technical-expertise/web-development/"
+                url="https://chornplanet.com/en/technical-expertise/web-development/"
             />
         </div>
     );

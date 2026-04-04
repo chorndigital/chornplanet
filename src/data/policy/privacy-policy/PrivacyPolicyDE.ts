@@ -4,7 +4,7 @@ export const PrivacyPolicyDE: IPolicy = {
     title: "Datenschutzerklärung",
     subTitle: "Einleitung",
     description:
-        "CHORN Digital respektiert den Schutz der Privatsphäre und verfolgt einen datensparsamen Ansatz als grundlegendes Prinzip. Diese Datenschutzerklärung erläutert, wie Informationen im Zusammenhang mit der Nutzung der Website von CHORN Digital verarbeitet werden, einschließlich der eingeschränkten und einwilligungsbasierten Verwendung von Cookies zu Analysezwecken. Die Website erhebt standardmäßig keine personenbezogenen Daten.",
+        "Chorn Planet respektiert den Schutz der Privatsphäre und verfolgt einen datensparsamen Ansatz als grundlegendes Prinzip. Diese Datenschutzerklärung erläutert, wie Informationen im Zusammenhang mit der Nutzung der Website von Chorn Planet verarbeitet werden, einschließlich der eingeschränkten und einwilligungsbasierten Verwendung von Cookies zu Analysezwecken. Die Website erhebt standardmäßig keine personenbezogenen Daten.",
     contents: [
         {
             title: "1. Erhobene Informationen",
@@ -12,7 +12,7 @@ export const PrivacyPolicyDE: IPolicy = {
                 {
                     title: "1.1 Personenbezogene Daten",
                     description:
-                        "CHORN Digital erhebt grundsätzlich keine personenbezogenen Daten von Besucherinnen und Besuchern. Für den Zugriff auf die Website ist keine Angabe von personenbezogenen Informationen wie Namen, Kontaktdaten oder sonstigen Identifikatoren erforderlich. Sofern Analyse-Cookies mit Einwilligung der Nutzer aktiviert werden, werden ausschließlich anonymisierte und aggregierte Nutzungsdaten verarbeitet."
+                        "Chorn Planet erhebt grundsätzlich keine personenbezogenen Daten von Besucherinnen und Besuchern. Für den Zugriff auf die Website ist keine Angabe von personenbezogenen Informationen wie Namen, Kontaktdaten oder sonstigen Identifikatoren erforderlich. Sofern Analyse-Cookies mit Einwilligung der Nutzer aktiviert werden, werden ausschließlich anonymisierte und aggregierte Nutzungsdaten verarbeitet."
                 }
             ]
         },
@@ -28,7 +28,7 @@ export const PrivacyPolicyDE: IPolicy = {
                 {
                     title: "2.2 Analysedienste",
                     description:
-                        "Sofern eine Einwilligung vorliegt, können anonymisierte Nutzungsdaten über Analyse-Dienste von Drittanbietern wie Google Analytics erhoben werden. Diese Daten können allgemeine Informationen wie Seitenaufrufe, Navigationsmuster und zusammengefasste Nutzungsstatistiken umfassen. CHORN Digital nutzt diese Daten weder zur Profilbildung noch zu Marketingzwecken oder zum websiteübergreifenden Tracking und erhebt nicht bewusst personenbezogene Daten."
+                        "Sofern eine Einwilligung vorliegt, können anonymisierte Nutzungsdaten über Analyse-Dienste von Drittanbietern wie Google Analytics erhoben werden. Diese Daten können allgemeine Informationen wie Seitenaufrufe, Navigationsmuster und zusammengefasste Nutzungsstatistiken umfassen. Chorn Planet nutzt diese Daten weder zur Profilbildung noch zu Marketingzwecken oder zum websiteübergreifenden Tracking und erhebt nicht bewusst personenbezogene Daten."
                 },
                 {
                     title: "2.3 Wahlmöglichkeiten der Nutzer",
@@ -44,7 +44,7 @@ export const PrivacyPolicyDE: IPolicy = {
                 {
                     title: "3.1 Sicherheitsmaßnahmen",
                     description:
-                        "Es werden angemessene technische und organisatorische Maßnahmen eingesetzt, um anonymisierte und nicht-personenbezogene Daten zu schützen, die im Zusammenhang mit der Nutzung der Website verarbeitet werden. CHORN Digital speichert keine personenbezogenen Daten, es sei denn, dies ist erforderlich und erfolgt auf Grundlage einer ausdrücklichen Einwilligung der Nutzer."
+                        "Es werden angemessene technische und organisatorische Maßnahmen eingesetzt, um anonymisierte und nicht-personenbezogene Daten zu schützen, die im Zusammenhang mit der Nutzung der Website verarbeitet werden. Chorn Planet speichert keine personenbezogenen Daten, es sei denn, dies ist erforderlich und erfolgt auf Grundlage einer ausdrücklichen Einwilligung der Nutzer."
                 }
             ]
         },
@@ -55,7 +55,7 @@ export const PrivacyPolicyDE: IPolicy = {
                 {
                     title: "4.1 Externe Websites",
                     description:
-                        "Die Website kann Links zu externen oder Drittanbieter-Websites enthalten. CHORN Digital übernimmt keine Verantwortung für die Datenschutzpraktiken, Richtlinien oder Inhalte solcher Websites. Nutzer werden aufgefordert, die Datenschutzerklärungen der jeweiligen externen Websites eigenständig zu prüfen."
+                        "Die Website kann Links zu externen oder Drittanbieter-Websites enthalten. Chorn Planet übernimmt keine Verantwortung für die Datenschutzpraktiken, Richtlinien oder Inhalte solcher Websites. Nutzer werden aufgefordert, die Datenschutzerklärungen der jeweiligen externen Websites eigenständig zu prüfen."
                 }
             ]
         },

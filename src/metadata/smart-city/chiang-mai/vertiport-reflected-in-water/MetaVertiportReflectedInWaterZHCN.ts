@@ -21,7 +21,7 @@ export const MetaVertiportReflectedInWaterZHCN: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "水中倒映的垂直起降港 – 清迈智慧城市情景",

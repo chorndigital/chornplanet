@@ -23,7 +23,7 @@ export const MetaHubChiangMaiAirportFR: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

@@ -23,7 +23,7 @@ export const MetaVertiportDesignZH_CN: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

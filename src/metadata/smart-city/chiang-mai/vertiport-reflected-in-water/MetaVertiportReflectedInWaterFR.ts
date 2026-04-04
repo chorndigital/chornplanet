@@ -21,7 +21,7 @@ export const MetaVertiportReflectedInWaterFR: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "Vertiport reflété dans l’eau – Scénario Smart City à Chiang Mai",

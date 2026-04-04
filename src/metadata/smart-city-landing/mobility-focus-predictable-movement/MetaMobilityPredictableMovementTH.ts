@@ -25,7 +25,7 @@ export const MetaMobilityPredictableMovementTH: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

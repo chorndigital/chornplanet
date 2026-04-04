@@ -12,7 +12,7 @@ export const MetaCitySystemsDensityAndComfortFI: Metadata = {
         languages: {fi: "/fi/smart-city/city-systems-density-and-comfort"},
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "Tiheys ja Mukavuus | Älykaupunkijärjestelmät",

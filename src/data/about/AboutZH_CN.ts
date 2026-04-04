@@ -3,18 +3,18 @@ import {IAbout} from "@/data/about/model/IAbout";
 export const AboutZH_CN: IAbout = {
     title: "关于",
     span: "未来出行与智慧城市系统设计",
-    subTitle: "CHORN Digital — 未来出行与智慧城市系统 | 互联系统与早期 IoT",
+    subTitle: "Chorn Planet — 未来出行与智慧城市系统 | 互联系统与早期 IoT",
 
     description: [
         {
             title: "未来出行与智慧城市系统",
             description:
-                "CHORN Digital 通过设计具有说明性质且不具约束力的情景与概念架构，探索未来出行与智慧城市系统可能的发展方向。相关工作旨在支持战略思考、政策讨论以及长期投资研究，不构成任何部署或实施承诺。"
+                "Chorn Planet 通过设计具有说明性质且不具约束力的情景与概念架构，探索未来出行与智慧城市系统可能的发展方向。相关工作旨在支持战略思考、政策讨论以及长期投资研究，不构成任何部署或实施承诺。"
         },
         {
             title: "AI 赋能的智能餐饮系统（进行中）",
             description:
-                "CHORN Digital 正在持续开发一套 AI 赋能的智能餐饮系统，集成互联系统架构、基于自然语言处理（NLP）的点餐流程，以及后台工作流自动化。该平台作为早期 IoT 与 AI 集成的基础，为未来可扩展部署提供参考模型。"
+                "Chorn Planet 正在持续开发一套 AI 赋能的智能餐饮系统，集成互联系统架构、基于自然语言处理（NLP）的点餐流程，以及后台工作流自动化。该平台作为早期 IoT 与 AI 集成的基础，为未来可扩展部署提供参考模型。"
         },
         {
             title: "互联系统与早期 IoT 平台",
@@ -29,7 +29,7 @@ export const AboutZH_CN: IAbout = {
         {
             title: "系统设计与数字平台",
             description:
-                "CHORN Digital 同时具备系统架构、前端与后端开发、云架构以及数字平台自动化方面的经验，确保无论是概念性研究还是进行中的项目，均建立在技术现实性与运营约束之上。"
+                "Chorn Planet 同时具备系统架构、前端与后端开发、云架构以及数字平台自动化方面的经验，确保无论是概念性研究还是进行中的项目，均建立在技术现实性与运营约束之上。"
         }
     ],
 

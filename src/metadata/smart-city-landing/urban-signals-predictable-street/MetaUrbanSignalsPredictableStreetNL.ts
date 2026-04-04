@@ -25,7 +25,7 @@ export const MetaUrbanSignalsPredictableStreetNL: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

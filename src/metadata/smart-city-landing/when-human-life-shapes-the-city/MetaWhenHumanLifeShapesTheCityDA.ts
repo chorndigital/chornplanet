@@ -23,7 +23,7 @@ export const MetaWhenHumanLifeShapesTheCityDA: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

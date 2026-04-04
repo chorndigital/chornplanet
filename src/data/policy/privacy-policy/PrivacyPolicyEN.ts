@@ -4,7 +4,7 @@ export const PrivacyPolicyEN: IPolicy = {
     title: "Privacy Policy",
     subTitle: "Introduction",
     description:
-        "CHORN Digital respects privacy and follows a privacy-minimal approach by design. This Privacy Policy explains how information is handled in connection with the use of the CHORN Digital website, including the limited and consent-based use of cookies for analytical purposes. The Website does not collect personal data by default.",
+        "Chorn Planet respects privacy and follows a privacy-minimal approach by design. This Privacy Policy explains how information is handled in connection with the use of the Chorn Planet website, including the limited and consent-based use of cookies for analytical purposes. The Website does not collect personal data by default.",
     contents: [
         {
             title: "1. Information Collected",
@@ -12,7 +12,7 @@ export const PrivacyPolicyEN: IPolicy = {
                 {
                     title: "1.1 Personal Information",
                     description:
-                        "CHORN Digital does not collect personally identifiable information from visitors as a default practice. No personal data such as names, contact details, or identifiers is requested or required to access the Website. Where analytics cookies are enabled with user consent, only anonymized and aggregated usage data may be processed."
+                        "Chorn Planet does not collect personally identifiable information from visitors as a default practice. No personal data such as names, contact details, or identifiers is requested or required to access the Website. Where analytics cookies are enabled with user consent, only anonymized and aggregated usage data may be processed."
                 }
             ]
         },
@@ -28,7 +28,7 @@ export const PrivacyPolicyEN: IPolicy = {
                 {
                     title: "2.2 Analytics Services",
                     description:
-                        "Where consent is given, anonymized usage data may be collected through third-party analytics services such as Google Analytics. This data may include general information such as page views, navigation patterns, and approximate usage statistics. CHORN Digital does not use analytics data for profiling, marketing, or cross-site tracking, and no personally identifiable information is intentionally collected."
+                        "Where consent is given, anonymized usage data may be collected through third-party analytics services such as Google Analytics. This data may include general information such as page views, navigation patterns, and approximate usage statistics. Chorn Planet does not use analytics data for profiling, marketing, or cross-site tracking, and no personally identifiable information is intentionally collected."
                 },
                 {
                     title: "2.3 User Choices",
@@ -44,7 +44,7 @@ export const PrivacyPolicyEN: IPolicy = {
                 {
                     title: "3.1 Security Measures",
                     description:
-                        "Appropriate technical and organizational measures are implemented to protect anonymized and non-personal data processed in connection with the Website. CHORN Digital does not store personal data unless explicitly required and consented to by the user."
+                        "Appropriate technical and organizational measures are implemented to protect anonymized and non-personal data processed in connection with the Website. Chorn Planet does not store personal data unless explicitly required and consented to by the user."
                 }
             ]
         },
@@ -55,7 +55,7 @@ export const PrivacyPolicyEN: IPolicy = {
                 {
                     title: "4.1 External Websites",
                     description:
-                        "The Website may contain links to external or third-party websites. CHORN Digital is not responsible for the privacy practices, policies, or content of such external sites. Users are encouraged to review the privacy policies of any third-party websites they choose to visit."
+                        "The Website may contain links to external or third-party websites. Chorn Planet is not responsible for the privacy practices, policies, or content of such external sites. Users are encouraged to review the privacy policies of any third-party websites they choose to visit."
                 }
             ]
         },

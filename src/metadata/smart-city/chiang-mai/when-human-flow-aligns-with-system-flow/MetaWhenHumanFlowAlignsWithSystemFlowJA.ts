@@ -21,7 +21,7 @@ export const MetaWhenHumanFlowAlignsWithSystemFlowJA: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "人の流れとシステムが調和するとき ― チェンマイ・スマートシティ・シナリオ",

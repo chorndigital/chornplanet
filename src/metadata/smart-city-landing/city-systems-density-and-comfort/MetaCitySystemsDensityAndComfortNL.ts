@@ -12,7 +12,7 @@ export const MetaCitySystemsDensityAndComfortNL: Metadata = {
         languages: {nl: "/nl/smart-city/city-systems-density-and-comfort"},
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "Dichtheid en Comfort | Slimme Stadssystemen",

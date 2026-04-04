@@ -23,7 +23,7 @@ export const MetaTheCityInBalanceTH: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

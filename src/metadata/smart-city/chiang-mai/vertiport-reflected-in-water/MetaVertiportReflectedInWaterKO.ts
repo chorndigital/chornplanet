@@ -21,7 +21,7 @@ export const MetaVertiportReflectedInWaterKO: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "물에 비친 버티포트 – 치앙마이 스마트 시티 시나리오",

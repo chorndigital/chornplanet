@@ -3,18 +3,18 @@ import {IAbout} from "@/data/about/model/IAbout";
 export const AboutDA: IAbout = {
     title: "Om",
     span: "Design af Fremtidens Mobilitet og Smarte Bysystemer",
-    subTitle: "CHORN Digital — Fremtidens Mobilitet og Smarte Bysystemer | Forbundne Systemer og Tidlige IoT-platforme",
+    subTitle: "Chorn Planet — Fremtidens Mobilitet og Smarte Bysystemer | Forbundne Systemer og Tidlige IoT-platforme",
 
     description: [
         {
             title: "Fremtidens Mobilitet og Smarte Bysystemer",
             description:
-                "CHORN Digital udvikler illustrative, ikke-bindende scenarier og konceptuelle arkitekturer, der undersøger, hvordan fremtidens mobilitet og smarte bysystemer kan udvikle sig. Arbejdet understøtter strategisk tænkning, politisk dialog og langsigtede investeringsdrøftelser uden at indebære implementerings- eller udrulningsforpligtelser."
+                "Chorn Planet udvikler illustrative, ikke-bindende scenarier og konceptuelle arkitekturer, der undersøger, hvordan fremtidens mobilitet og smarte bysystemer kan udvikle sig. Arbejdet understøtter strategisk tænkning, politisk dialog og langsigtede investeringsdrøftelser uden at indebære implementerings- eller udrulningsforpligtelser."
         },
         {
             title: "AI-Understøttet Smart Fødevaresystem (Igangværende)",
             description:
-                "CHORN Digital udvikler aktivt et AI-understøttet smart fødevaresystem, der integrerer forbundet systemarkitektur, NLP-baserede bestillingsflows og automatisering af backend-arbejdsgange. Platformen fungerer som et fundament for tidlig integration af IoT og AI og anvendes som reference for fremtidig skalerbar udvikling."
+                "Chorn Planet udvikler aktivt et AI-understøttet smart fødevaresystem, der integrerer forbundet systemarkitektur, NLP-baserede bestillingsflows og automatisering af backend-arbejdsgange. Platformen fungerer som et fundament for tidlig integration af IoT og AI og anvendes som reference for fremtidig skalerbar udvikling."
         },
         {
             title: "Forbundne Systemer og Tidlige IoT-platforme",
@@ -29,7 +29,7 @@ export const AboutDA: IAbout = {
         {
             title: "Systemdesign og Digitale Platforme",
             description:
-                "CHORN Digital har desuden erfaring med systemarkitektur, frontend- og backend-udvikling, cloud-arkitektur og automatisering, hvilket sikrer, at både konceptuelle og igangværende projekter forbliver teknisk realistiske og operationelt afstemte."
+                "Chorn Planet har desuden erfaring med systemarkitektur, frontend- og backend-udvikling, cloud-arkitektur og automatisering, hvilket sikrer, at både konceptuelle og igangværende projekter forbliver teknisk realistiske og operationelt afstemte."
         }
     ],
 

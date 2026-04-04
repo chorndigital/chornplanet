@@ -21,7 +21,7 @@ export const MetaLifeBeneathTheRouteZHCN: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "移动通道下的城市生活 – 清迈智慧城市",

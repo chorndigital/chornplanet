@@ -21,7 +21,7 @@ export const MetaLifeBeneathTheRouteJA: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "移動ルートの下で営まれる暮らし – チェンマイ・スマートシティ",

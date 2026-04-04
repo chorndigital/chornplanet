@@ -21,7 +21,7 @@ export const MetaPlazaThatConnectsTheHubKO: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "허브를 연결하는 광장 – 치앙마이 스마트 시티",

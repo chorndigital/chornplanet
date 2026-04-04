@@ -23,7 +23,7 @@ export const MetaUrbanSignalsPublicSpaceUseDE: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

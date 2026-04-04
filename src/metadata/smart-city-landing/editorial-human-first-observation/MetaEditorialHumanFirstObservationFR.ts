@@ -25,7 +25,7 @@ export const MetaEditorialHumanFirstObservationFR: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

@@ -1,17 +1,17 @@
 import {IFooter} from "@/data/footer/model/IFooter";
 
 export const FooterTH: IFooter = {
-    title: "CHORN Digital",
-    link: "https://chorndigital.com/",
-    www: "www.chorndigital.com",
+    title: "Chorn Planet",
+    link: "https://chornplanet.com/",
+    www: "www.chornplanet.com",
     description:
-        "CHORN Digital: การออกแบบระบบสำหรับบริบทการเดินทางแห่งอนาคตและสมาร์ตซิตี้ ระบบเชื่อมต่อและแพลตฟอร์ม IoT ระยะเริ่มต้น ตั้งแต่แนวคิดสู่สถาปัตยกรรม การออกแบบระบบ และการพัฒนา",
+        "Chorn Planet: การออกแบบระบบสำหรับบริบทการเดินทางแห่งอนาคตและสมาร์ตซิตี้ ระบบเชื่อมต่อและแพลตฟอร์ม IoT ระยะเริ่มต้น ตั้งแต่แนวคิดสู่สถาปัตยกรรม การออกแบบระบบ และการพัฒนา",
     social: {
         title: "ลิงก์โซเชียล",
         items: [
             {
                 label: "LinkedIn",
-                link: "https://www.linkedin.com/company/chorn",
+                link: "https://www.linkedin.com/company/chornplanet",
                 icon: "bx bxl-linkedin hover-rotate",
                 iconClass: "linkedin",
                 ariaLabel: "เชื่อมต่อกับเราบน LinkedIn"
@@ -25,14 +25,14 @@ export const FooterTH: IFooter = {
             },
             {
                 label: "Facebook",
-                link: "https://www.facebook.com/chorndigital",
+                link: "https://www.facebook.com/chornplanet",
                 icon: "bx bxl-facebook hover-rotate",
                 iconClass: "facebook",
                 ariaLabel: "ติดตามเราบน Facebook"
             },
             {
                 label: "TikTok",
-                link: "https://tiktok.com/@chorndigital",
+                link: "https://tiktok.com/@chornplanet",
                 icon: "bx bxl-tiktok hover-rotate",
                 iconClass: "tiktok",
                 ariaLabel: "ติดตามเราบน TikTok"
@@ -81,7 +81,7 @@ export const FooterTH: IFooter = {
             },
             {
                 label: "Lanna Style Content",
-                link: "https://tiktok.com/@chorndigital"
+                link: "https://tiktok.com/@chornplanet"
             }
         ]
     },
@@ -152,11 +152,11 @@ export const FooterTH: IFooter = {
             },
             {
                 label: "TikTok",
-                link: "https://tiktok.com/@chorndigital",
+                link: "https://tiktok.com/@chornplanet",
             },
             {
                 label: "Facebook",
-                link: "https://www.facebook.com/chorndigital"
+                link: "https://www.facebook.com/chornplanet"
             },
         ]
     },

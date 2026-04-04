@@ -24,7 +24,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name=".NET Core C# Full Stack Development | CHORN"
                 description="CHORN offers .NET Core C# full stack development services to build modern, scalable, and secure web applications."
-                url="https://chorndigital.com/en/technical-expertise/full-stack-developer/dotnetcore-developer/"
+                url="https://chornplanet.com/en/technical-expertise/full-stack-developer/dotnetcore-developer/"
             />
         </div>
     );

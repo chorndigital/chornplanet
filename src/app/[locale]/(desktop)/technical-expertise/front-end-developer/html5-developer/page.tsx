@@ -23,7 +23,7 @@ export default async function Page() {
             <SchemaMarkupServicePage
                 name="HTML5 Development Services | CHORN"
                 description="CHORN offers expert HTML5 development services to create responsive and engaging web applications."
-                url="https://chorndigital.com/en/technical-expertise/front-end-developer/html5-developer/"
+                url="https://chornplanet.com/en/technical-expertise/front-end-developer/html5-developer/"
             />
         </div>
     );

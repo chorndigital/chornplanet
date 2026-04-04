@@ -16,6 +16,8 @@ export function middleware(req: NextRequest) {
         pathname.startsWith('/sitemap') ||
         pathname.startsWith('/images') ||
         pathname.startsWith('/images-ai') ||
+        pathname.startsWith('/smart-city') ||
+        pathname.startsWith('/smart-mobility') ||
         pathname.startsWith('/chorn-images') ||
         pathname.startsWith('/internal-images') ||
         pathname.startsWith('/contracts') ||

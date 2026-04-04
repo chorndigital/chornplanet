@@ -21,7 +21,7 @@ export const MetaLifeBeneathTheRouteDE: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "Leben unter der Mobilitätsroute – Chiang Mai Smart City",

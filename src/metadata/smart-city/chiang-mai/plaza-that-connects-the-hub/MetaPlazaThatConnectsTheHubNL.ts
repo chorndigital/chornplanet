@@ -21,7 +21,7 @@ export const MetaPlazaThatConnectsTheHubNL: Metadata = {
         },
     },
 
-    authors: [{ name: "CHORN Digital" }],
+    authors: [{ name: "Chorn Planet" }],
 
     openGraph: {
         title: "Het plein dat de hub verbindt – Chiang Mai smart city",

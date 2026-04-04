@@ -21,7 +21,7 @@ export const MetaLifeBeneathTheRouteFI: Metadata = {
         },
     },
 
-    authors: [{name: "CHORN Digital"}],
+    authors: [{name: "Chorn Planet"}],
 
     openGraph: {
         title: "Elämää liikkumisreitin alla – Chiang Mai",

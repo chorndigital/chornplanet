@@ -12,7 +12,7 @@ export const MetadataHomeZH: Metadata = {
     },
     alternates: metadataLink(LanguageCode.en, MetaLinks.home).alternates,
     authors: [
-        {name: "CHORN Digital"}
+        {name: "Chorn Planet"}
     ],
     openGraph: {
         title: "CHORN | 面向系统与应用技术的媒体平台",
@@ -30,7 +30,7 @@ export const MetadataHomeZH: Metadata = {
         images: metadataLink(LanguageCode.en, MetaLinks.home).twitter.images,
     },
     keywords: [
-        "CHORN", "CHORN Digital", "媒体平台", "系统分析",
+        "CHORN", "Chorn Planet", "媒体平台", "系统分析",
         "软件工程", "系统集成", "云系统",
         "AI 集成", "DevOps", "微服务", "技术架构"
     ]

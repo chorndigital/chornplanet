@@ -12,7 +12,7 @@ export default function robots(): MetadataRoute.Robots {
             },
         ],
         sitemap: [
-            'https://www.chorndigital.com/api/sitemap',
+            'https://www.chornplanet.com/api/sitemap',
         ],
     };
 }

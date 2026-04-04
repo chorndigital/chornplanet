@@ -23,7 +23,7 @@ export const MetaVisionMobilityChiangMaiFR: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

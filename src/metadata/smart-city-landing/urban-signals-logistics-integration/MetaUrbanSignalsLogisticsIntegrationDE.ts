@@ -25,7 +25,7 @@ export const MetaUrbanSignalsLogisticsIntegrationDE: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

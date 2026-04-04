@@ -3,18 +3,18 @@ import {IAbout} from "@/data/about/model/IAbout";
 export const AboutDE: IAbout = {
     title: "Über uns",
     span: "Gestaltung zukünftiger Mobilitäts- und Smart-City-Systeme",
-    subTitle: "CHORN Digital — Zukünftige Mobilitäts- und Smart-City-Systeme | Vernetzte Systeme & frühe IoT-Plattformen",
+    subTitle: "Chorn Planet — Zukünftige Mobilitäts- und Smart-City-Systeme | Vernetzte Systeme & frühe IoT-Plattformen",
 
     description: [
         {
             title: "Zukünftige Mobilitäts- und Smart-City-Systeme",
             description:
-                "CHORN Digital entwickelt illustrative, unverbindliche Szenarien und konzeptionelle Architekturen, um zu untersuchen, wie sich zukünftige Mobilitäts- und Smart-City-Systeme entwickeln könnten. Diese Arbeit unterstützt strategisches Denken, politischen Dialog und langfristige Investitionsüberlegungen, ohne Implementierungs- oder Umsetzungsverpflichtungen zu implizieren."
+                "Chorn Planet entwickelt illustrative, unverbindliche Szenarien und konzeptionelle Architekturen, um zu untersuchen, wie sich zukünftige Mobilitäts- und Smart-City-Systeme entwickeln könnten. Diese Arbeit unterstützt strategisches Denken, politischen Dialog und langfristige Investitionsüberlegungen, ohne Implementierungs- oder Umsetzungsverpflichtungen zu implizieren."
         },
         {
             title: "KI-gestütztes Smart-Food-System (laufendes Projekt)",
             description:
-                "CHORN Digital entwickelt aktiv ein KI-gestütztes Smart-Food-System, das vernetzte Systemarchitektur, NLP-basierte Bestellprozesse und die Automatisierung von Backend-Workflows integriert. Die Plattform dient als Grundlage für die frühe Integration von IoT und KI und liefert Referenzen für zukünftige skalierbare Entwicklungen."
+                "Chorn Planet entwickelt aktiv ein KI-gestütztes Smart-Food-System, das vernetzte Systemarchitektur, NLP-basierte Bestellprozesse und die Automatisierung von Backend-Workflows integriert. Die Plattform dient als Grundlage für die frühe Integration von IoT und KI und liefert Referenzen für zukünftige skalierbare Entwicklungen."
         },
         {
             title: "Vernetzte Systeme & frühe IoT-Plattformen",
@@ -29,7 +29,7 @@ export const AboutDE: IAbout = {
         {
             title: "Systemdesign & Digitale Plattformen",
             description:
-                "CHORN Digital verfügt zudem über Erfahrung in Systemarchitektur, Frontend- und Backend-Entwicklung, Cloud-Architektur und Automatisierung und stellt damit sicher, dass sowohl konzeptionelle als auch laufende Projekte technisch realistisch und betrieblich abgestimmt bleiben."
+                "Chorn Planet verfügt zudem über Erfahrung in Systemarchitektur, Frontend- und Backend-Entwicklung, Cloud-Architektur und Automatisierung und stellt damit sicher, dass sowohl konzeptionelle als auch laufende Projekte technisch realistisch und betrieblich abgestimmt bleiben."
         }
     ],
 

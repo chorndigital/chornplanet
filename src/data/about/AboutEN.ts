@@ -3,18 +3,18 @@ import {IAbout} from "@/data/about/model/IAbout";
 export const AboutEN: IAbout = {
     title: "About",
     span: "Designing Future Mobility & Smart City Systems",
-    subTitle: "CHORN Digital — Future Mobility & Smart City Systems | Connected Systems & Early IoT",
+    subTitle: "Chorn Planet — Future Mobility & Smart City Systems | Connected Systems & Early IoT",
 
     description: [
         {
             title: "Future Mobility & Smart City Systems",
             description:
-                "CHORN Digital designs illustrative, non-binding scenarios and concept architectures exploring how future mobility and smart city systems could evolve. This work supports strategic thinking, policy dialogue, and long-term investment discussion without implying deployment or implementation commitments."
+                "Chorn Planet designs illustrative, non-binding scenarios and concept architectures exploring how future mobility and smart city systems could evolve. This work supports strategic thinking, policy dialogue, and long-term investment discussion without implying deployment or implementation commitments."
         },
         {
             title: "AI-Enabled Smart Food System (Ongoing)",
             description:
-                "CHORN Digital is actively developing an AI-enabled smart food system, integrating connected-system architecture, NLP-based ordering flows, and backend workflow automation. The platform serves as a foundation for early-stage IoT and AI integration, informing future scalable deployments."
+                "Chorn Planet is actively developing an AI-enabled smart food system, integrating connected-system architecture, NLP-based ordering flows, and backend workflow automation. The platform serves as a foundation for early-stage IoT and AI integration, informing future scalable deployments."
         },
         {
             title: "Connected Systems & Early IoT Platforms",
@@ -29,7 +29,7 @@ export const AboutEN: IAbout = {
         {
             title: "System Design & Digital Platforms",
             description:
-                "CHORN Digital also brings experience in system architecture, frontend and backend development, cloud architecture, and automation across digital platforms, ensuring that both conceptual and active projects remain grounded in technical realism and operational constraints."
+                "Chorn Planet also brings experience in system architecture, frontend and backend development, cloud architecture, and automation across digital platforms, ensuring that both conceptual and active projects remain grounded in technical realism and operational constraints."
         }
     ],
 

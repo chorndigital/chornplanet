@@ -7,7 +7,7 @@ export default function BottomImageLeft() {
         <div className="social left">
             <div className="left-row">
                 <div className="about-icon-symbol">
-                    <a href="https://chorndigital.com"
+                    <a href="https://chornplanet.com"
                        className="chorn"
                        target="_self"
                     >
@@ -20,10 +20,10 @@ export default function BottomImageLeft() {
                     </a>
                 </div>
                 <div className="chorn-text">
-                    <a href="https://chorndigital.com"
+                    <a href="https://chornplanet.com"
                        target="_self"
                     >
-                        www.chorndigital.com
+                        www.chornplanet.com
                     </a>
                 </div>
             </div>

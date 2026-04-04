@@ -25,7 +25,7 @@ export const MetaMobilityMixedMobilityEN: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 

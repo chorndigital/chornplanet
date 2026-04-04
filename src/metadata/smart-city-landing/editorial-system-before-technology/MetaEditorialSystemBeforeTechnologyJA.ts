@@ -25,7 +25,7 @@ export const MetaEditorialSystemBeforeTechnologyJA: Metadata = {
 
     authors: [
         {
-            name: "CHORN Digital",
+            name: "Chorn Planet",
         },
     ],
 
