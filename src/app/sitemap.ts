@@ -10,14 +10,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const lastModified = new Date();
     const entries: MetadataRoute.Sitemap = [];
 
-    // smart-city/[slug}
+    // smart-city/[slug] — deduplicate slugs, only iterate one locale for keys
+    const smartCitySlugs = Object.keys(getSmartCityLandingData({lang: 'en'}));
     for (const locale of LOCALES) {
-        const dataMap = getSmartCityLandingData({lang: locale});
-        const slugs = Object.keys(dataMap);
-
-        for (const slug of slugs) {
+        for (const slug of smartCitySlugs) {
             entries.push({
-                url: `${SITE_URL}/${locale}/smart-city/${slug}`,
+                url: `${SITE_URL}/${locale}/smart-city/${slug}/`,
                 lastModified,
                 changeFrequency: "weekly",
                 priority: 0.8,
@@ -28,8 +26,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // all routes
     for (const urlMap of UrlMaps) {
         for (const locale of LOCALES) {
+            // Normalise: ensure exactly one trailing slash
+            const path = urlMap.url ? urlMap.url : '/';
             entries.push({
-                url: `${SITE_URL}/${locale}${urlMap.url}`,
+                url: `${SITE_URL}/${locale}${path}`,
                 lastModified,
                 priority: 0.8,
                 images: urlMap.images?.map(
