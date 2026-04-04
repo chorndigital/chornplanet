@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsHtml5 lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="HTML5 Development Services | CHORN"
-                description="CHORN offers expert HTML5 development services to create responsive and engaging web applications."
+                name="HTML5 Development Services | Chorn Planet"
+                description="Chorn Planet offers expert HTML5 development services to create responsive and engaging web applications."
                 url="https://chornplanet.com/en/technical-expertise/front-end-developer/html5-developer/"
             />
         </div>

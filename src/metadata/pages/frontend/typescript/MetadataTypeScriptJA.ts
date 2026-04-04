@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataTypeScriptJA: Metadata = {
-    title: "TypeScript | CHORN - カスタムソフトウェア開発の専門家",
+    title: "TypeScript | Chorn Planet - カスタムソフトウェア開発の専門家",
     description: "TypeScriptを活用して、さまざまな業界向けにスケーラブルで堅牢かつ効率的なカスタムソフトウェアソリューションを構築します。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.frontend.typescript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - TypeScriptを使用したカスタムソフトウェア開発",
+        title: "Chorn Planet - TypeScriptを使用したカスタムソフトウェア開発",
         description: "TypeScriptの専門知識は、スケーラブルで高パフォーマンスなアプリケーションを作成するための強力なツールです。なぜ私たちがカスタムソフトウェアソリューションにTypeScriptを選ぶのかを学びましょう。",
         images: metadataLink(LanguageCode.ja, MetaLinks.frontend.typescript).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.frontend.typescript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataTypeScriptJA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - カスタムソフトウェアソリューションのためのTypeScript開発",
+        title: "Chorn Planet - カスタムソフトウェアソリューションのためのTypeScript開発",
         description: "TypeScriptを使用して、企業のニーズに合わせたスケーラブルで高品質なソフトウェアソリューションを提供します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.frontend.typescript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataTypeScriptJA: Metadata = {
         "TypeScript開発者タイ", "TypeScript開発者バンコク", "TypeScript開発者チェンマイ",
         "フロントエンド開発者タイ", "バックエンド開発者タイ", "フルスタック開発者タイ",
         "ソフトウェアエンジニア", "ソフトウェア開発者タイ",
-        "CHORN", "デジタル革新", "企業向けソフトウェア"
+        "Chorn Planet", "デジタル革新", "企業向けソフトウェア"
     ]
 }

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDockerDA: Metadata = {
-    title: "Docker DevOps Tjenester | CHORN",
+    title: "Docker DevOps Tjenester | Chorn Planet",
     description: "Docker-baseret DevOps teknisk ekspertise til effektiv containerisering og skalerbar applikationsimplementering.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.devops.docker).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Docker DevOps Tjenester | CHORN",
+        title: "Docker DevOps Tjenester | Chorn Planet",
         description: "Udnyt Docker til containerisering og skalerbar softwareimplementering med DevOps teknisk ekspertise.",
         images: metadataLink(LanguageCode.da, MetaLinks.devops.docker).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.devops.docker).alternates.canonical,
@@ -21,12 +21,12 @@ export const MetadataDockerDA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Docker DevOps Tjenester | CHORN",
+        title: "Docker DevOps Tjenester | Chorn Planet",
         description: "Docker DevOps teknisk ekspertise til containerisering og skalerbar applikationsimplementering.",
         images: metadataLink(LanguageCode.da, MetaLinks.devops.docker).twitter.images,
     },
     keywords: [
-        "Docker DevOps", "Docker teknisk ekspertise", "containerisering", "CHORN", "DevOps", "skalerbar implementering",
+        "Docker DevOps", "Docker teknisk ekspertise", "containerisering", "Chorn Planet", "DevOps", "skalerbar implementering",
         "tilpasset softwareudvikling", "cloud-baserede applikationer", "DevOps Danmark", "Docker containere"
     ]
 };

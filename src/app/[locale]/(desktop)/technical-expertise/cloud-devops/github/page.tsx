@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsGitHub lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="GitHub DevOps Services | CHORN"
-                description="CHORN offers DevOps services integrating GitHub for version control, continuous integration, and automated workflows."
+                name="GitHub DevOps Services | Chorn Planet"
+                description="Chorn Planet offers DevOps services integrating GitHub for version control, continuous integration, and automated workflows."
                 url="https://chornplanet.com/en/technical-expertise/cloud-devops/github/"
             />
         </div>

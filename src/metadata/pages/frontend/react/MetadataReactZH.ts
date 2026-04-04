@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataReactZH: Metadata = {
-    title: "React开发服务 | CHORN",
+    title: "React开发服务 | Chorn Planet",
     description: "顶级的React开发技术专长，使用React构建动态和响应式的用户界面。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.frontend.react).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "React开发 | CHORN",
+        title: "React开发 | Chorn Planet",
         description: "通过React开发专家技术提升您的Web应用，打造高性能的应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.react).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.frontend.react).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataReactZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "React开发服务 | CHORN",
+        title: "React开发服务 | Chorn Planet",
         description: "专家级React开发技术，使用React创建互动性强的用户界面。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.react).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataReactZH: Metadata = {
         "动态用户界面", "单页应用", "React.js开发人员",
         "React开发人员 中国", "React开发人员 北京", "React开发人员 上海", "前端开发人员 中国",
         "Web开发人员 北京", "软件工程师", "软件开发人员 中国",
-        "CHORN", "数字创新", "企业软件"
+        "Chorn Planet", "数字创新", "企业软件"
     ]
 }

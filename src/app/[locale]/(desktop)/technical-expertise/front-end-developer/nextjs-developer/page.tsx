@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsNextJS lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="Next.js Development Services | CHORN"
-                description="Expert Next.js development services by CHORN. Enhance your web applications with scalable and high-performance solutions using Next.js."
+                name="Next.js Development Services | Chorn Planet"
+                description="Expert Next.js development services by Chorn Planet. Enhance your web applications with scalable and high-performance solutions using Next.js."
                 url="https://chornplanet.com/en/technical-expertise/front-end-developer/nextjs-developer"
             />
         </div>

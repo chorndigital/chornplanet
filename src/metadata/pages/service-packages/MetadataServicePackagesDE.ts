@@ -7,17 +7,17 @@ export const MetadataServicePackagesDE: Metadata = {
     title: "Servicepakete | Systemanalyse & Full-Stack Softwareentwicklung",
     description: "Experten für Systemanalyse, Web2 & Web3 Entwicklung und technische Lösungen für Ihr Unternehmen.",
     keywords: [
-        "CHORN", "CHORN Softwareentwicklung", "Software Outsourcing Deutschland", "Web3 Entwickler", "NFT Entwicklung", "Blockchain Entwicklung",
+        "Chorn Planet", "Chorn Planet Softwareentwicklung", "Software Outsourcing Deutschland", "Web3 Entwickler", "NFT Entwicklung", "Blockchain Entwicklung",
         "Full-Stack Entwickler", "Frontend Entwickler", "Backend Entwickler", "Softwarefirma Deutschland", "Systemintegration", "digitale Innovation",
         "Ethereum Entwicklung", "Next.js Entwickler", "Smart Contracts"
     ],
     alternates: metadataLink(LanguageCode.en, MetaLinks.servicePackages).alternates,
     authors: [
-        {name: "CHORN"}
+        {name: "Chorn Planet"}
     ],
     openGraph: {
         title: "Servicepakete für moderne Web2 & Web3 Softwareentwicklung",
-        description: "Stärken Sie Ihr Unternehmen mit skalierbaren Softwarelösungen von CHORN.",
+        description: "Stärken Sie Ihr Unternehmen mit skalierbaren Softwarelösungen von Chorn Planet.",
         images: metadataLink(LanguageCode.de, MetaLinks.servicePackages).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.servicePackages).alternates.canonical,
         type: "website"
@@ -25,7 +25,7 @@ export const MetadataServicePackagesDE: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Führende Web2 & Web3 Entwicklerlösungen",
-        description: "CHORN bietet technische Exzellenz für skalierbare, moderne Softwareentwicklung.",
+        description: "Chorn Planet bietet technische Exzellenz für skalierbare, moderne Softwareentwicklung.",
         images: metadataLink(LanguageCode.de, MetaLinks.servicePackages).twitter.images,
     },
 };

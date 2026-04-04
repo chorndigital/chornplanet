@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCss3DA: Metadata = {
-    title: "CSS3 Udviklingstjenester | CHORN",
+    title: "CSS3 Udviklingstjenester | Chorn Planet",
     description: "Forbedr dine webapplikationer med CSS3-udvikling, teknisk ekspertise til moderne og visuelt tiltalende designs.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.frontend.css3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CSS3 Udvikling | CHORN",
+        title: "CSS3 Udvikling | Chorn Planet",
         description: "CSS3-udvikling med teknisk ekspertise for at skabe stilfulde og responsive webdesigns.",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.css3).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.frontend.css3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataCss3DA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CSS3 Udviklingstjenester | CHORN",
+        title: "CSS3 Udviklingstjenester | Chorn Planet",
         description: "Skab visuelt imponerende webdesigns med CSS3 ved at tilbyde teknisk ekspertise i CSS3-udvikling.",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.css3).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataCss3DA: Metadata = {
         "webudvikling", "højtydende webdesign", "dynamiske brugergrænseflader",
         "CSS3-udvikler Thailand", "CSS3-udvikler Bangkok", "CSS3-udvikler Chiang Mai", "frontend udvikler Thailand",
         "webudvikler Bangkok", "softwareingeniør", "softwareudvikler Thailand",
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

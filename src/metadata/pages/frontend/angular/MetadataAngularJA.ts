@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAngularJA: Metadata = {
-    title: "Angular開発サービス | CHORN",
+    title: "Angular開発サービス | Chorn Planet",
     description: "Angular開発サービス。Angularを使用して、動的でスケーラブルかつ高性能なWebアプリケーションを構築します。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.frontend.angular).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Angular開発 | CHORN",
+        title: "Angular開発 | Chorn Planet",
         description: "Angular開発の技術専門知識を活用し、高速でスケーラブルな動的Webアプリケーションを構築します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.frontend.angular).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.frontend.angular).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataAngularJA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Angular開発サービス | CHORN",
+        title: "Angular開発サービス | Chorn Planet",
         description: "専門的なAngular開発でWebアプリケーションを向上させましょう。",
         images: metadataLink(LanguageCode.ja, MetaLinks.frontend.angular).twitter.images,
     },
@@ -34,7 +34,7 @@ export const MetadataAngularJA: Metadata = {
         "Web開発者", "フルスタック開発者", "ソフトウェアエンジニア", "ソフトウェア開発者 タイ",
         "Angular開発者 タイ", "フロントエンド開発者 タイ", "Web開発者 バンコク",
         "Angular開発者 チェンマイ", "Angular開発者 バンコク", "Angular開発会社",
-        "CHORN", "デジタルイノベーション", "エンタープライズソフトウェア",
+        "Chorn Planet", "デジタルイノベーション", "エンタープライズソフトウェア",
         "AngularのレスポンシブWebデザイン", "レスポンシブWebデザイン Angular", "Angularレスポンシブデザイン"
     ]
 }

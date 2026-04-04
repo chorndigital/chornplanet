@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCss3FI: Metadata = {
-    title: "CSS3 Kehityspalvelut | CHORN",
+    title: "CSS3 Kehityspalvelut | Chorn Planet",
     description: "Paranna web-sovelluksia CSS3-kehityksellä, teknistä asiantuntemusta nykyaikaisten ja visuaalisesti houkuttelevien suunnittelujen luomiseen.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.frontend.css3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CSS3 Kehitys | CHORN",
+        title: "CSS3 Kehitys | Chorn Planet",
         description: "CSS3-kehitys teknisellä asiantuntemuksella luodaksesi tyylikkäitä ja responsiivisia verkkosivustojen suunnitteluja.",
         images: metadataLink(LanguageCode.fi, MetaLinks.frontend.css3).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.frontend.css3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataCss3FI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CSS3 Kehityspalvelut | CHORN",
+        title: "CSS3 Kehityspalvelut | Chorn Planet",
         description: "Luo visuaalisesti upeita verkkosivustojen suunnitteluja CSS3:n avulla tarjoamalla CSS3-kehityksen teknistä asiantuntemusta.",
         images: metadataLink(LanguageCode.fi, MetaLinks.frontend.css3).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataCss3FI: Metadata = {
         "web-kehitys", "korkean suorituskyvyn verkkosuunnittelu", "dynaamiset käyttöliittymät",
         "CSS3-kehittäjä Thaimaa", "CSS3-kehittäjä Bangkok", "CSS3-kehittäjä Chiang Mai", "frontend kehittäjä Thaimaa",
         "web-kehittäjä Bangkok", "ohjelmistoinsinööri", "ohjelmistokehittäjä Thaimaa",
-        "CHORN", "digitaalinen innovaatio", "yritysohjelmisto"
+        "Chorn Planet", "digitaalinen innovaatio", "yritysohjelmisto"
     ]
 }

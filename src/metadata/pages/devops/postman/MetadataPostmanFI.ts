@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPostmanFI: Metadata = {
-    title: "Postman API-testauspalvelut | CHORN",
+    title: "Postman API-testauspalvelut | Chorn Planet",
     description: "Tarjoa teknistä asiantuntemusta API-testeissä käyttäen Postmania varmistaaksesi verkkoteknologiasi luotettavuuden ja suorituskyvyn.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.devops.postman).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Postman API-testauspalvelut | CHORN",
+        title: "Postman API-testauspalvelut | Chorn Planet",
         description: "Varmista, että API:si toimivat odotetusti Postman-pohjaisen API-testauksen teknisen asiantuntemuksen avulla.",
         images: metadataLink(LanguageCode.fi, MetaLinks.devops.postman).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.devops.postman).alternates.canonical,
@@ -21,12 +21,12 @@ export const MetadataPostmanFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Postman API-testauspalvelut | CHORN",
+        title: "Postman API-testauspalvelut | Chorn Planet",
         description: "Postman-pohjainen API-testauksen asiantuntemus, joka validoi verkkoteknologiasi luotettavuuden ja suorituskyvyn.",
         images: metadataLink(LanguageCode.fi, MetaLinks.devops.postman).twitter.images,
     },
     keywords: [
-        "Postman API-testaus", "Postman tekninen asiantuntemus", "API-testaus", "DevOps", "Automaattinen API-testaus", "CHORN",
+        "Postman API-testaus", "Postman tekninen asiantuntemus", "API-testaus", "DevOps", "Automaattinen API-testaus", "Chorn Planet",
         "Verkkoteknologian testaus", "API-suorituskyky", "Mukautettu ohjelmistokehitys", "DevOps Suomi"
     ]
 }

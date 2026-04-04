@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsNodejs lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="Node.js Full Stack Development | CHORN"
-                description="CHORN offers Node.js full stack development services for building scalable and efficient applications."
+                name="Node.js Full Stack Development | Chorn Planet"
+                description="Chorn Planet offers Node.js full stack development services for building scalable and efficient applications."
                 url="https://chornplanet.com/en/technical-expertise/full-stack-developer/nodejs-developer/"
             />
         </div>

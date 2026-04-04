@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsGoLang lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="Go Full Stack Development | CHORN"
-                description="CHORN offers Go full stack development services for building efficient and scalable web applications."
+                name="Go Full Stack Development | Chorn Planet"
+                description="Chorn Planet offers Go full stack development services for building efficient and scalable web applications."
                 url="https://chornplanet.com/en/technical-expertise/full-stack-developer/go-developer/"
             />
         </div>

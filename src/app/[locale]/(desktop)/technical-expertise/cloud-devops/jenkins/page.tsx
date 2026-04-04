@@ -23,8 +23,8 @@ export default async function Page() {
             <CloudExperience lang={lang}/>
             <FooterMain lang={lang}/>
             <SchemaMarkupServicePage
-                name="Jenkins DevOps Services | CHORN"
-                description="CHORN offers Jenkins-based DevOps services for automating builds, testing, and deployment in your development pipeline."
+                name="Jenkins DevOps Services | Chorn Planet"
+                description="Chorn Planet offers Jenkins-based DevOps services for automating builds, testing, and deployment in your development pipeline."
                 url="https://chornplanet.com/en/technical-expertise/cloud-devops/jenkins/"
             />
         </div>

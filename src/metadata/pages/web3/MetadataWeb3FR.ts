@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWeb3FR: Metadata = {
-    title: "Développement de Smart Contracts Web3 Blockchain | CHORN",
+    title: "Développement de Smart Contracts Web3 Blockchain | Chorn Planet",
     description: "Développement Web3 blockchain et smart contract. Nous construisons des applications décentralisées (DApps) en utilisant Solidity, Ethereum, Polygon et intégrons des technologies telles que Hardhat, Ganache et MetaMask.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.web3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Services de développement de Smart Contracts Web3 Blockchain | CHORN",
+        title: "Services de développement de Smart Contracts Web3 Blockchain | Chorn Planet",
         description: "Expertise technique spécialisée en développement Web3 blockchain et smart contract, y compris la création de DApps avec Solidity, Ethereum, Polygon, et l'intégration avec Hardhat, Ganache et MetaMask.",
         images: metadataLink(LanguageCode.fr, MetaLinks.web3).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.web3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataWeb3FR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Développement de Smart Contracts Web3 Blockchain | CHORN",
+        title: "Développement de Smart Contracts Web3 Blockchain | Chorn Planet",
         description: "Expertise technique en développement Web3 et smart contract blockchain, avec la création d'applications décentralisées (DApps) utilisant Solidity, Ethereum, Polygon et intégration avec Hardhat, Ganache et MetaMask.",
         images: metadataLink(LanguageCode.fr, MetaLinks.web3).twitter.images,
     },
@@ -35,6 +35,6 @@ export const MetadataWeb3FR: Metadata = {
         "Développeur blockchain France", "Développeur Web3 France", "Développeur smart contract France",
         "Développeur Ethereum France", "Développeur Solidity France", "Développeur blockchain senior France",
         "Développeur principal Web3 France", "Développeur DApp France", "Ingénieur logiciel France",
-        "CHORN", "Innovation numérique", "Technologie blockchain", "Solutions blockchain évolutives"
+        "Chorn Planet", "Innovation numérique", "Technologie blockchain", "Solutions blockchain évolutives"
     ]
 };

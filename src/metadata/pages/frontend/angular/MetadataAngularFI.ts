@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAngularFI: Metadata = {
-    title: "Angular Kehityspalvelut | CHORN",
+    title: "Angular Kehityspalvelut | Chorn Planet",
     description: "Angular-kehityspalvelu, rakenna dynaamisia, skaalautuvia ja suorituskykyisiä verkkosovelluksia Angularilla.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.frontend.angular).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Angular Kehitys | CHORN",
+        title: "Angular Kehitys | Chorn Planet",
         description: "Angular-kehitys teknisellä asiantuntemuksella nopeiden, skaalautuvien ja dynaamisten verkkosovellusten luomiseen.",
         images: metadataLink(LanguageCode.fi, MetaLinks.frontend.angular).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.frontend.angular).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataAngularFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Angular Kehityspalvelut | CHORN",
+        title: "Angular Kehityspalvelut | Chorn Planet",
         description: "Paranna verkkosovelluksiasi asiantuntevalla Angular-kehityksellä.",
         images: metadataLink(LanguageCode.fi, MetaLinks.frontend.angular).twitter.images,
     },
@@ -34,7 +34,7 @@ export const MetadataAngularFI: Metadata = {
         "web-kehittäjä", "full-stack kehittäjä", "ohjelmistoinsinööri", "ohjelmistokehittäjä Thaimaa",
         "Angular kehittäjä Thaimaa", "frontend kehittäjä Thaimaa", "web-kehittäjä Bangkok",
         "Angular kehittäjä Chiang Mai", "Angular kehittäjä Bangkok", "Angular kehitysyhtiö",
-        "CHORN", "digitaalinen innovaatio", "yritysohjelmistot",
+        "Chorn Planet", "digitaalinen innovaatio", "yritysohjelmistot",
         "responsiivinen verkkosuunnittelu Angularilla", "responsiivinen verkkosuunnittelu Angular", "Angular responsiivinen suunnittelu"
     ]
 }

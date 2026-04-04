@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJenkinsJA: Metadata = {
-    title: "Jenkins DevOps サービス | CHORN",
+    title: "Jenkins DevOps サービス | Chorn Planet",
     description: "Jenkins をベースにした DevOps の技術的専門知識で、ビルド、テスト、デプロイメントを自動化し、開発パイプラインを最適化します。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.devops.jenkins).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Jenkins DevOps サービス | CHORN",
+        title: "Jenkins DevOps サービス | Chorn Planet",
         description: "Jenkins を使用した DevOps の技術的専門知識で、継続的インテグレーションとデプロイメントを自動化します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.devops.jenkins).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.devops.jenkins).alternates.canonical,
@@ -21,8 +21,8 @@ export const MetadataJenkinsJA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Jenkins DevOps サービス | CHORN",
-        description: "CI/CD の自動化のため、Jenkins をベースにした CHORN の DevOps 技術的専門知識で、ソフトウェア開発ライフサイクルを強化します。",
+        title: "Jenkins DevOps サービス | Chorn Planet",
+        description: "CI/CD の自動化のため、Jenkins をベースにした Chorn Planet の DevOps 技術的専門知識で、ソフトウェア開発ライフサイクルを強化します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.devops.jenkins).twitter.images,
     },
     keywords: [

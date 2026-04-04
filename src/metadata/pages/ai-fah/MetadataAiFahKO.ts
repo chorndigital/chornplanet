@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiFahKO: Metadata = {
-    title: "AI 채팅 친구 | CHORN AI 통합",
+    title: "AI 채팅 친구 | Chorn Planet AI 통합",
     description: "Fah는 LINE 앱에서 당신의 AI 채팅 친구입니다. 그녀는 20세의 태국에서 영감을 받은 명랑하고 친근한 동반자입니다. 한 번의 클릭으로 그녀를 추가하거나 QR 코드를 스캔하여 태국의 최고의 여행지, 요리 및 문화 보물을 발견해보세요. 그녀는 여러 언어로 대화하며 젊은 에너지로 태국 문화를 안내합니다.",
     alternates: metadataLink(LanguageCode.ko, MetaLinks.aiFah).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

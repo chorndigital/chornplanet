@@ -12,7 +12,7 @@ export const Metadata404FI: Metadata = {
     alternates: metadataLink(LanguageCode.fi, MetaLinks._404).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

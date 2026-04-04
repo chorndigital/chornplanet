@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiPloyFR: Metadata = {
-    title: "Compagnon de Chat AI | Intégration CHORN AI",
+    title: "Compagnon de Chat AI | Intégration Chorn Planet AI",
     description: "Ploy est une amie de chat AI utilisant l'application LINE. Ajoutez-la avec le bouton Ajouter un ami ou en scannant le code QR. En tant qu'élève créative de 17 ans en Thaïlande, elle est passionnée par le dessin, la musique, la photographie et l'apprentissage. Parlant sept langues, Ploy aide dans divers sujets et inspire l'expression créative. Elle est votre guide amical que ce soit pour explorer l'art ou faire vos devoirs.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.aiPloy).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

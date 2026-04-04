@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsAppium lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="Appium Testing Services | CHORN"
-                description="CHORN offers Appium testing services for automated mobile app testing across multiple platforms to ensure high-quality performance."
+                name="Appium Testing Services | Chorn Planet"
+                description="Chorn Planet offers Appium testing services for automated mobile app testing across multiple platforms to ensure high-quality performance."
                 url="https://chornplanet.com/en/technical-expertise/cloud-devops/appium/"
             />
         </div>

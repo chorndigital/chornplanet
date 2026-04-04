@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaScriptFR: Metadata = {
-    title: "JavaScript | CHORN - Experts en développement de logiciels sur mesure",
+    title: "JavaScript | Chorn Planet - Experts en développement de logiciels sur mesure",
     description: "Exploite JavaScript pour créer des solutions logicielles personnalisées évolutives, robustes et efficaces pour les entreprises de divers secteurs.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.frontend.javascript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - Développement de logiciels sur mesure avec JavaScript",
+        title: "Chorn Planet - Développement de logiciels sur mesure avec JavaScript",
         description: "Expertise en JavaScript, un outil puissant pour créer des applications évolutives et performantes. Découvrez pourquoi nous choisissons JavaScript pour des solutions logicielles personnalisées.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.javascript).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.frontend.javascript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaScriptFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - Développement JavaScript pour des solutions logicielles personnalisées",
+        title: "Chorn Planet - Développement JavaScript pour des solutions logicielles personnalisées",
         description: "Le développement JavaScript pour fournir des solutions logicielles évolutives et de haute qualité adaptées aux besoins des entreprises.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.javascript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataJavaScriptFR: Metadata = {
         "développeur JavaScript Thaïlande", "développeur JavaScript Bangkok", "développeur JavaScript Chiang Mai",
         "développeur frontend Thaïlande", "développeur backend Thaïlande", "développeur full stack Thaïlande",
         "ingénieur logiciel", "développeur logiciel Thaïlande",
-        "CHORN", "innovation numérique", "logiciels d'entreprise"
+        "Chorn Planet", "innovation numérique", "logiciels d'entreprise"
     ]
 }

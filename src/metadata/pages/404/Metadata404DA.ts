@@ -5,19 +5,19 @@ import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const Metadata404DA: Metadata = {
     title: "404 - Siden blev ikke fundet",
-    description: "Ups! Vi kunne ikke finde den side, du ledte efter. Tjek venligst URL'en eller vend tilbage til vores hjemmeside for at fortsætte med at udforske CHORN.",
+    description: "Ups! Vi kunne ikke finde den side, du ledte efter. Tjek venligst URL'en eller vend tilbage til vores hjemmeside for at fortsætte med at udforske Chorn Planet.",
     icons: {
         icon: '/favicon.ico',
     },
     alternates: metadataLink(LanguageCode.da, MetaLinks._404).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
         title: "404 - Siden blev ikke fundet",
-        description: "Ups! Vi kunne ikke finde den side, du ledte efter. Tjek venligst URL'en eller vend tilbage til vores hjemmeside for at fortsætte med at udforske CHORN.",
+        description: "Ups! Vi kunne ikke finde den side, du ledte efter. Tjek venligst URL'en eller vend tilbage til vores hjemmeside for at fortsætte med at udforske Chorn Planet.",
         images: metadataLink(LanguageCode.da, MetaLinks._404).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks._404).alternates.canonical,
         type: "website",
@@ -25,7 +25,7 @@ export const Metadata404DA: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "404 - Siden blev ikke fundet",
-        description: "Ups! Vi kunne ikke finde den side, du ledte efter. Tjek venligst URL'en eller vend tilbage til vores hjemmeside for at fortsætte med at udforske CHORN.",
+        description: "Ups! Vi kunne ikke finde den side, du ledte efter. Tjek venligst URL'en eller vend tilbage til vores hjemmeside for at fortsætte med at udforske Chorn Planet.",
         images: metadataLink(LanguageCode.da, MetaLinks._404).twitter.images,
     },
 }

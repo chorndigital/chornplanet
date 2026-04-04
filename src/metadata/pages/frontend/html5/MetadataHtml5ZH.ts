@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHtml5ZH: Metadata = {
-    title: "HTML5开发服务 | CHORN",
+    title: "HTML5开发服务 | Chorn Planet",
     description: "HTML5开发技术专长，打造响应式和互动性强的网页应用程序。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.frontend.html5).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "HTML5开发 | CHORN",
+        title: "HTML5开发 | Chorn Planet",
         description: "利用技术专长构建现代且互动性强的网页应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.html5).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.frontend.html5).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataHtml5ZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "HTML5开发服务 | CHORN",
+        title: "HTML5开发服务 | Chorn Planet",
         description: "使用HTML5技术专长创建互动网页应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.html5).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataHtml5ZH: Metadata = {
         "高性能网页设计", "响应式网页设计", "动态用户界面",
         "HTML5开发者泰国", "HTML5开发者曼谷", "HTML5开发者清迈", "前端开发者泰国",
         "网页开发者曼谷", "软件工程师", "软件开发者泰国",
-        "CHORN", "数字创新", "企业软件"
+        "Chorn Planet", "数字创新", "企业软件"
     ]
 }

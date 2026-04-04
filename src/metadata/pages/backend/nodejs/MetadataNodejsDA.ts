@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNodejsDA: Metadata = {
-    title: "Node.js Full Stack Udvikling | CHORN",
+    title: "Node.js Full Stack Udvikling | Chorn Planet",
     description: "Node.js full-stack udvikling, teknisk ekspertise til at bygge effektive og skalerbare webapplikationer.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.backend.nodejs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Node.js Udvikling | CHORN",
+        title: "Node.js Udvikling | Chorn Planet",
         description: "Byg effektive og skalerbare webapplikationer med teknisk ekspertise inden for Node.js full-stack udvikling.",
         images: metadataLink(LanguageCode.da, MetaLinks.backend.nodejs).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.backend.nodejs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNodejsDA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Node.js Full Stack Udvikling | CHORN",
+        title: "Node.js Full Stack Udvikling | Chorn Planet",
         description: "Node.js full-stack udviklingsekspertise til effektive og skalerbare webapps.",
         images: metadataLink(LanguageCode.da, MetaLinks.backend.nodejs).twitter.images
     },
@@ -32,6 +32,6 @@ export const MetadataNodejsDA: Metadata = {
         "enterprise Node.js applikationer", "API udvikling", "mikroservices udvikling", "full-stack udvikler",
         "Node.js udvikler Thailand", "Node.js udvikler Bangkok", "Node.js udvikler Chiang Mai",
         "backend udvikler Thailand", "full-stack udvikler Thailand", "software ingeniør", "software udvikler Thailand",
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

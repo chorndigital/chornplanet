@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDevOpsMainEN: Metadata = {
-    title: "Enterprise DevOps & Cloud Solutions | CHORN",
+    title: "Enterprise DevOps & Cloud Solutions | Chorn Planet",
     description: "Accelerate your digital transformation with DevOps and cloud expertise. We deliver streamlined CI/CD pipelines, infrastructure automation, and cloud-native solutions that enhance reliability and reduce time-to-market.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.devops.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Enterprise DevOps & Cloud Solutions | CHORN",
+        title: "Enterprise DevOps & Cloud Solutions | Chorn Planet",
         description: "Accelerate your digital transformation with DevOps and cloud expertise. We deliver streamlined CI/CD pipelines, infrastructure automation, and cloud-native solutions that enhance reliability and reduce time-to-market.",
         images: metadataLink(LanguageCode.en, MetaLinks.devops.main).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.devops.main).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDevOpsMainEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Enterprise DevOps & Cloud Solutions | CHORN",
+        title: "Enterprise DevOps & Cloud Solutions | Chorn Planet",
         description: "Accelerate your digital transformation with DevOps and cloud expertise. We deliver streamlined CI/CD pipelines, infrastructure automation, and cloud-native solutions that enhance reliability and reduce time-to-market.",
         images: metadataLink(LanguageCode.en, MetaLinks.devops.main).twitter.images,
     },

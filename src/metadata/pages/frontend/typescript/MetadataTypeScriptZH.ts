@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataTypeScriptZH: Metadata = {
-    title: "TypeScript | CHORN - 定制软件开发专家",
+    title: "TypeScript | Chorn Planet - 定制软件开发专家",
     description: "利用TypeScript为不同行业的企业构建可扩展、稳健且高效的定制软件解决方案。",
     alternates: metadataLink(LanguageCode.da, MetaLinks.frontend.typescript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - 使用TypeScript进行定制软件开发",
+        title: "Chorn Planet - 使用TypeScript进行定制软件开发",
         description: "TypeScript专业知识，强大的工具，用于构建可扩展和高性能的应用程序。了解为什么我们为定制软件解决方案选择TypeScript。",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.typescript).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.frontend.typescript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataTypeScriptZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - 为定制软件解决方案开发TypeScript",
+        title: "Chorn Planet - 为定制软件解决方案开发TypeScript",
         description: "使用TypeScript为企业需求提供可扩展和高质量的软件解决方案。",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.typescript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataTypeScriptZH: Metadata = {
         "TypeScript开发人员 泰国", "TypeScript开发人员 曼谷", "TypeScript开发人员 清迈",
         "前端开发人员 泰国", "后端开发人员 泰国", "全栈开发人员 泰国",
         "软件工程师", "软件开发人员 泰国",
-        "CHORN", "数字创新", "企业软件"
+        "Chorn Planet", "数字创新", "企业软件"
     ]
 }

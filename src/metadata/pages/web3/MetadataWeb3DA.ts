@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWeb3DA: Metadata = {
-    title: "Web3 Blockchain Smart Contract Udvikling | CHORN",
+    title: "Web3 Blockchain Smart Contract Udvikling | Chorn Planet",
     description: "Web3 blockchain og smart contract udvikling. Vi bygger decentrale applikationer (DApps) ved hjælp af Solidity, Ethereum, Polygon og integrerer med teknologier som Hardhat, Ganache og MetaMask.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.web3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Web3 Blockchain Smart Contract Udviklingstjenester | CHORN",
+        title: "Web3 Blockchain Smart Contract Udviklingstjenester | Chorn Planet",
         description: "Specialiseret teknisk ekspertise inden for Web3 blockchain og smart contract udvikling, herunder opbygning af DApps med Solidity, Ethereum, Polygon og integration med Hardhat, Ganache og MetaMask.",
         images: metadataLink(LanguageCode.da, MetaLinks.web3).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.web3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataWeb3DA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web3 Blockchain Smart Contract Udvikling | CHORN",
+        title: "Web3 Blockchain Smart Contract Udvikling | Chorn Planet",
         description: "Teknisk ekspertise inden for Web3 og blockchain smart contract udvikling, med oprettelse af decentrale applikationer (DApps) ved hjælp af Solidity, Ethereum, Polygon og integration med Hardhat, Ganache og MetaMask.",
         images: metadataLink(LanguageCode.da, MetaLinks.web3).twitter.images,
     },
@@ -35,6 +35,6 @@ export const MetadataWeb3DA: Metadata = {
         "blockchain udvikler Danmark", "Web3 udvikler Danmark", "smart contract udvikler Danmark",
         "Ethereum udvikler Danmark", "Solidity udvikler Danmark", "Senior blockchain udvikler Danmark",
         "Principal Web3 udvikler Danmark", "DApp udvikler Danmark", "software engineer Danmark",
-        "CHORN", "Digital innovation", "Blockchain teknologi", "Skalerbare blockchain løsninger"
+        "Chorn Planet", "Digital innovation", "Blockchain teknologi", "Skalerbare blockchain løsninger"
     ]
 };

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPhpDA: Metadata = {
-    title: "PHP Full Stack Udvikling | CHORN",
+    title: "PHP Full Stack Udvikling | Chorn Planet",
     description: "PHP full stack udvikling, teknisk ekspertise til at bygge dynamiske og skalerbare webapplikationer.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.backend.php).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "PHP Udvikling | CHORN",
+        title: "PHP Udvikling | Chorn Planet",
         description: "Udnyt PHP full stack udvikling, teknisk ekspertise til at bygge skalerbare og dynamiske webapplikationer.",
         images: metadataLink(LanguageCode.da, MetaLinks.backend.php).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.backend.php).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPhpDA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "PHP Full Stack Udvikling | CHORN",
+        title: "PHP Full Stack Udvikling | Chorn Planet",
         description: "PHP full stack udviklingsekspertise til dynamiske og skalerbare webapplikationer.",
         images: metadataLink(LanguageCode.da, MetaLinks.backend.php).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataPhpDA: Metadata = {
         "tilpassede webapplikationer", "API udvikling", "virksomhedssoftware", "PHP frameworks",
         "PHP udvikler Thailand", "PHP udvikler Bangkok", "PHP udvikler Chiang Mai",
         "Backend udvikler Thailand", "Full Stack udvikler Thailand", "Software ingeniør", "Software udvikler Thailand",
-        "CHORN", "digital innovation", "virksomhedssoftware"
+        "Chorn Planet", "digital innovation", "virksomhedssoftware"
     ]
 }

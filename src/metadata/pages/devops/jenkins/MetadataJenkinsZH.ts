@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJenkinsZH: Metadata = {
-    title: "Jenkins DevOps 服务 | CHORN",
+    title: "Jenkins DevOps 服务 | Chorn Planet",
     description: "基于 Jenkins 的 DevOps 技术专长，用于自动化构建、测试和部署，优化您的开发流水线。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.devops.jenkins).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Jenkins DevOps 服务 | CHORN",
+        title: "Jenkins DevOps 服务 | Chorn Planet",
         description: "利用 Jenkins 的 DevOps 技术专长自动化您的开发流程，实现持续集成和部署。",
         images: metadataLink(LanguageCode.zh, MetaLinks.devops.jenkins).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.devops.jenkins).alternates.canonical,
@@ -21,8 +21,8 @@ export const MetadataJenkinsZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Jenkins DevOps 服务 | CHORN",
-        description: "通过 CHORN 的 Jenkins DevOps 技术专长，增强您的软件开发生命周期，自动化 CI/CD 流程。",
+        title: "Jenkins DevOps 服务 | Chorn Planet",
+        description: "通过 Chorn Planet 的 Jenkins DevOps 技术专长，增强您的软件开发生命周期，自动化 CI/CD 流程。",
         images: metadataLink(LanguageCode.zh, MetaLinks.devops.jenkins).twitter.images,
     },
     keywords: [

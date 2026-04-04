@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaScriptKO: Metadata = {
-    title: "JavaScript | CHORN - 맞춤형 소프트웨어 개발 전문가",
+    title: "JavaScript | Chorn Planet - 맞춤형 소프트웨어 개발 전문가",
     description: "JavaScript를 활용하여 다양한 산업의 기업을 위한 확장 가능하고, 견고하며 효율적인 맞춤형 소프트웨어 솔루션을 구축합니다.",
     alternates: metadataLink(LanguageCode.ko, MetaLinks.frontend.javascript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - JavaScript 맞춤형 소프트웨어 개발",
+        title: "Chorn Planet - JavaScript 맞춤형 소프트웨어 개발",
         description: "JavaScript 전문성, 확장 가능하고 고성능 애플리케이션을 구축하는 강력한 도구입니다. 맞춤형 소프트웨어 솔루션을 위해 JavaScript를 선택하는 이유를 알아보세요.",
         images: metadataLink(LanguageCode.ko, MetaLinks.frontend.javascript).openGraph.images,
         url: metadataLink(LanguageCode.ko, MetaLinks.frontend.javascript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaScriptKO: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - 맞춤형 소프트웨어 솔루션을 위한 JavaScript 개발",
+        title: "Chorn Planet - 맞춤형 소프트웨어 솔루션을 위한 JavaScript 개발",
         description: "JavaScript를 사용하여 기업의 요구에 맞춘 확장 가능하고 고품질의 소프트웨어 솔루션을 제공합니다.",
         images: metadataLink(LanguageCode.ko, MetaLinks.frontend.javascript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataJavaScriptKO: Metadata = {
         "JavaScript 개발자 태국", "JavaScript 개발자 방콕", "JavaScript 개발자 치앙마이",
         "프론트엔드 개발자 태국", "백엔드 개발자 태국", "풀 스택 개발자 태국",
         "소프트웨어 엔지니어", "소프트웨어 개발자 태국",
-        "CHORN", "디지털 혁신", "기업용 소프트웨어"
+        "Chorn Planet", "디지털 혁신", "기업용 소프트웨어"
     ]
 }

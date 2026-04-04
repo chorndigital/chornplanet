@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaNL: Metadata = {
-    title: "Java Spring Boot Full Stack Ontwikkeling | CHORN",
+    title: "Java Spring Boot Full Stack Ontwikkeling | Chorn Planet",
     description: "Java Spring Boot full stack ontwikkeling, technische expertise om robuuste en schaalbare bedrijfstoepassingen te bouwen.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.backend.java).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Java Spring Boot Ontwikkeling | CHORN",
+        title: "Java Spring Boot Ontwikkeling | Chorn Planet",
         description: "Maak gebruik van Java Spring Boot full stack ontwikkeling met technische expertise om schaalbare, veilige en high-performance toepassingen te bouwen.",
         images: metadataLink(LanguageCode.nl, MetaLinks.backend.java).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.backend.java).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Java Spring Boot Full Stack Ontwikkeling | CHORN",
+        title: "Java Spring Boot Full Stack Ontwikkeling | Chorn Planet",
         description: "Expert Java Spring Boot full stack ontwikkeling voor veilige en schaalbare toepassingen.",
         images: metadataLink(LanguageCode.nl, MetaLinks.backend.java).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataJavaNL: Metadata = {
         "High-performance toepassingen", "Java webtoepassingen", "Microservices ontwikkeling", "API ontwikkeling",
         "Spring Boot ontwikkelaar Thailand", "Java ontwikkelaar Thailand", "Java ontwikkelaar Bangkok",
         "Java ontwikkelaar Chiang Mai", "Backend ontwikkelaar Thailand", "Software engineer", "Software ontwikkelaar Thailand",
-        "CHORN", "Digitale innovatie", "Enterprise software"
+        "Chorn Planet", "Digitale innovatie", "Enterprise software"
     ]
 }

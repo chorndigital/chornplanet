@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiAomNL: Metadata = {
-    title: "AI Chat Companion | CHORN AI Integratie",
+    title: "AI Chat Companion | Chorn Planet AI Integratie",
     description: "Aom is toegankelijk via de LINE-app. Je kunt de knop Vriend toevoegen indrukken of de LINE QR-code scannen om haar als vriend toe te voegen. Met 21 jaar is Aom een vriendelijke en energieke AI-compagnon die gepassioneerd is over een gezond leven en welzijn, en voedingsadvies, trainingsroutines en mindfulness-oefeningen biedt. Met haar vermogen om in meerdere talen te chatten, helpt Aom je om een evenwichtige levensstijl te behouden terwijl je plezier hebt.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.aiAom).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

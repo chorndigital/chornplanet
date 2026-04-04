@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNextjsJA: Metadata = {
-    title: "Next.js開発サービス | CHORN",
+    title: "Next.js開発サービス | Chorn Planet",
     description: "Next.js開発の専門技術で、高性能でスケーラブルなWebアプリケーションを構築します。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.frontend.nextjs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Next.js開発 | CHORN",
+        title: "Next.js開発 | Chorn Planet",
         description: "Next.js開発の技術専門知識で、高速でスケーラブルなWebアプリケーションを作成します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.frontend.nextjs).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.frontend.nextjs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNextjsJA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Next.js開発サービス | CHORN",
+        title: "Next.js開発サービス | Chorn Planet",
         description: "Next.js開発の専門技術でWebアプリケーションを強化します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.frontend.nextjs).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataNextjsJA: Metadata = {
         "シングルページアプリケーション", "ダイナミックユーザーインターフェース", "フルスタック開発者", "カスタムソフトウェア開発",
         "Next.js開発者 日本", "Next.js開発者 東京", "Next.js開発者 大阪", "フロントエンド開発者 日本",
         "Web開発者 東京", "ソフトウェアエンジニア", "ソフトウェア開発者 日本",
-        "CHORN", "デジタルイノベーション", "エンタープライズソフトウェア"
+        "Chorn Planet", "デジタルイノベーション", "エンタープライズソフトウェア"
     ]
 }

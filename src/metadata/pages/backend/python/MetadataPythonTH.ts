@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPythonTH: Metadata = {
-    title: "การพัฒนา Python Full Stack | CHORN",
+    title: "การพัฒนา Python Full Stack | Chorn Planet",
     description: "การพัฒนา Python Full Stack, ความเชี่ยวชาญทางเทคนิคในการสร้างแอปพลิเคชันเว็บที่มีความยืดหยุ่นและสามารถขยายได้",
     alternates: metadataLink(LanguageCode.th, MetaLinks.backend.python).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "การพัฒนา Python | CHORN",
+        title: "การพัฒนา Python | Chorn Planet",
         description: "สร้างแอปพลิเคชันเว็บที่มีความยืดหยุ่นและสามารถขยายได้ด้วยความเชี่ยวชาญในการพัฒนา Python Full Stack",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.python).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.backend.python).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPythonTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "การพัฒนา Python Full Stack | CHORN",
+        title: "การพัฒนา Python Full Stack | Chorn Planet",
         description: "ความเชี่ยวชาญในการพัฒนา Python Full Stack สำหรับแอปพลิเคชันเว็บที่มีความยืดหยุ่นและสามารถขยายได้",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.python).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataPythonTH: Metadata = {
         "แอปพลิเคชันที่มีประสิทธิภาพสูง", "แอปพลิเคชันเว็บที่ปรับแต่ง", "การพัฒนา API", "การพัฒนา machine learning",
         "นักพัฒนา Python ประเทศไทย", "นักพัฒนา Python กรุงเทพมหานคร", "นักพัฒนา Python เชียงใหม่",
         "นักพัฒนา backend ประเทศไทย", "วิศวกรซอฟต์แวร์", "นักพัฒนา software ประเทศไทย",
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับธุรกิจ"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับธุรกิจ"
     ]
 }

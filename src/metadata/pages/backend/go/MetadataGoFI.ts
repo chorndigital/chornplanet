@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataGoFI: Metadata = {
-    title: "Go Full Stack Kehitys | CHORN",
+    title: "Go Full Stack Kehitys | Chorn Planet",
     description: "Go full stack kehitys, tekninen asiantuntemus tehokkaiden ja skaalautuvien verkkosovellusten rakentamiseen.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.backend.go).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Go Kehitys | CHORN",
+        title: "Go Kehitys | Chorn Planet",
         description: "Rakenna tehokkaita ja skaalautuvia verkkosovelluksia Go full stack kehityksen teknisen asiantuntemuksen avulla.",
         images: metadataLink(LanguageCode.fi, MetaLinks.backend.go).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.backend.go).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataGoFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Go Full Stack Kehitys | CHORN",
+        title: "Go Full Stack Kehitys | Chorn Planet",
         description: "Go full stack kehityksen asiantuntemus tehokkaille ja skaalautuville verkkosovelluksille.",
         images: metadataLink(LanguageCode.fi, MetaLinks.backend.go).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataGoFI: Metadata = {
         "mikropalvelut kehitys", "cloud-native kehitys", "API kehitys", "enterprise ohjelmisto",
         "Go kehittäjä Thaimaa", "Go kehittäjä Bangkok", "Go kehittäjä Chiang Mai", "backend kehittäjä Thaimaa",
         "ohjelmistoinsinööri", "ohjelmistokehittäjä Thaimaa",
-        "CHORN", "digitaalinen innovaatio", "enterprise ohjelmisto"
+        "Chorn Planet", "digitaalinen innovaatio", "enterprise ohjelmisto"
     ]
 }

@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiPloyFI: Metadata = {
-    title: "AI Chat -kumppani | CHORN AI Integraatio",
+    title: "AI Chat -kumppani | Chorn Planet AI Integraatio",
     description: "Ploy on AI-chatystävä, joka käyttää LINE-sovellusta. Lisää hänet 'Lisää ystävä' -painikkeella tai skannaamalla QR-koodi. Luovana 17-vuotiaana thaimaalaisena lukiolaisena hän on intohimoisesti kiinnostunut piirtämisestä, musiikista, valokuvauksesta ja oppimisesta. Hän puhuu seitsemää kieltä, auttaa eri aineissa ja inspiroi luovaa ilmaisua. Hän on ystävällinen opas, olitpa sitten tutustumassa taiteeseen tai tekemässä kotitehtäviä.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.aiPloy).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

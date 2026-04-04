@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNextjsDE: Metadata = {
-    title: "Next.js Entwicklungsdienste | CHORN",
+    title: "Next.js Entwicklungsdienste | Chorn Planet",
     description: "Next.js-Entwicklungsdienstleistungen, verbessern Sie Ihre Webanwendungen mit skalierbaren und leistungsstarken Lösungen unter Verwendung von Next.js.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.frontend.nextjs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Next.js Entwicklung | CHORN",
+        title: "Next.js Entwicklung | Chorn Planet",
         description: "Next.js-Entwicklung mit technischer Expertise, um schnelle, skalierbare und dynamische Webanwendungen zu erstellen.",
         images: metadataLink(LanguageCode.de, MetaLinks.frontend.nextjs).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.frontend.nextjs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNextjsDE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Next.js Entwicklungsdienste | CHORN",
+        title: "Next.js Entwicklungsdienste | Chorn Planet",
         description: "Verbessern Sie Ihre Webanwendungen mit der Expertise in Next.js-Entwicklung.",
         images: metadataLink(LanguageCode.de, MetaLinks.frontend.nextjs).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataNextjsDE: Metadata = {
         "Single-AiBannerFahMain-Anwendungen", "dynamische Benutzeroberflächen", "Full Stack Entwickler", "maßgeschneiderte Softwareentwicklung",
         "Next.js Entwickler Deutschland", "Next.js Entwickler Berlin", "Next.js Entwickler München", "Frontend Entwickler Deutschland",
         "Web Entwickler Berlin", "Software Ingenieur", "Software Entwickler Deutschland",
-        "CHORN", "digitale Innovation", "Unternehmenssoftware"
+        "Chorn Planet", "digitale Innovation", "Unternehmenssoftware"
     ]
 }

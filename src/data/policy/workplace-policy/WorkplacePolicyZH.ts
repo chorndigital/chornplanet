@@ -7,11 +7,11 @@ export const WorkplacePolicyZH: IPolicy = {
     contents: [
         {
             title: "工作模式",
-            description: "CHORN 适应各种工作模式，包括远程办公、办公室办公和混合办公，并根据每个项目的具体需求进行调整。这种方法确保了顺畅的沟通和高效的工作。",
+            description: "Chorn Planet 适应各种工作模式，包括远程办公、办公室办公和混合办公，并根据每个项目的具体需求进行调整。这种方法确保了顺畅的沟通和高效的工作。",
         },
         {
             title: "为什么选择混合模式？",
-            description: "伟大的想法可以来自任何地方，无论是在办公室、在家还是在旅途中。通过提供混合工作模式，CHORN 提供了两全其美的方案——在结构化协作与个人和职业发展的灵活性之间取得平衡。"
+            description: "伟大的想法可以来自任何地方，无论是在办公室、在家还是在旅途中。通过提供混合工作模式，Chorn Planet 提供了两全其美的方案——在结构化协作与个人和职业发展的灵活性之间取得平衡。"
         },
         {
             title: "灵活的办公出勤",
@@ -23,7 +23,7 @@ export const WorkplacePolicyZH: IPolicy = {
         },
         {
             title: "技术驱动",
-            description: "CHORN 利用尖端的沟通和协作工具，确保团队成员之间的无缝互动，无论他们身处何地。"
+            description: "Chorn Planet 利用尖端的沟通和协作工具，确保团队成员之间的无缝互动，无论他们身处何地。"
         },
         {
             title: "工作与生活平衡",

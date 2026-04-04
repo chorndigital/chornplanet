@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaScriptDE: Metadata = {
-    title: "JavaScript | CHORN - Experten für maßgeschneiderte Softwareentwicklung",
+    title: "JavaScript | Chorn Planet - Experten für maßgeschneiderte Softwareentwicklung",
     description: "Nutzen Sie JavaScript, um skalierbare, robuste und effiziente maßgeschneiderte Softwarelösungen für Unternehmen aus verschiedenen Branchen zu erstellen.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.frontend.javascript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - JavaScript maßgeschneiderte Softwareentwicklung",
+        title: "Chorn Planet - JavaScript maßgeschneiderte Softwareentwicklung",
         description: "JavaScript-Expertise, ein leistungsstarkes Werkzeug zum Erstellen von skalierbaren und leistungsstarken Anwendungen. Erfahren Sie, warum wir JavaScript für maßgeschneiderte Softwarelösungen wählen.",
         images: metadataLink(LanguageCode.de, MetaLinks.frontend.javascript).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.frontend.javascript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaScriptDE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - JavaScript-Entwicklung für maßgeschneiderte Softwarelösungen",
+        title: "Chorn Planet - JavaScript-Entwicklung für maßgeschneiderte Softwarelösungen",
         description: "Nutzen Sie JavaScript, um skalierbare und hochwertige Softwarelösungen zu liefern, die auf die Bedürfnisse von Unternehmen zugeschnitten sind.",
         images: metadataLink(LanguageCode.de, MetaLinks.frontend.javascript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataJavaScriptDE: Metadata = {
         "JavaScript-Entwickler Thailand", "JavaScript-Entwickler Bangkok", "JavaScript-Entwickler Chiang Mai",
         "Frontend-Entwickler Thailand", "Backend-Entwickler Thailand", "Full Stack-Entwickler Thailand",
         "Softwareingenieur", "Softwareentwickler Thailand",
-        "CHORN", "digitale Innovation", "Unternehmenssoftware"
+        "Chorn Planet", "digitale Innovation", "Unternehmenssoftware"
     ]
 }

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaScriptEN: Metadata = {
-    title: "JavaScript | CHORN - Custom Software Development Experts",
+    title: "JavaScript | Chorn Planet - Custom Software Development Experts",
     description: "Leverages JavaScript to build scalable, robust, and efficient custom software solutions for businesses across industries.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.frontend.javascript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - JavaScript Custom Software Development",
+        title: "Chorn Planet - JavaScript Custom Software Development",
         description: "JavaScript expertise, a powerful tool for building scalable and high-performance applications. Learn why we choose JavaScript for custom software solutions.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.javascript).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.frontend.javascript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaScriptEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - JavaScript Development for Custom Software Solutions",
+        title: "Chorn Planet - JavaScript Development for Custom Software Solutions",
         description: "JavaScript development to deliver scalable and high-quality software solutions tailored to businesses' needs.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.javascript).twitter.images,
     },
@@ -41,6 +41,6 @@ export const MetadataJavaScriptEN: Metadata = {
         "software engineer", "software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

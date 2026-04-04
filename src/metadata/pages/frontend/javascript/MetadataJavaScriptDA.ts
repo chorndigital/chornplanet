@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaScriptDA: Metadata = {
-    title: "JavaScript | CHORN - Eksperter i tilpasset softwareudvikling",
+    title: "JavaScript | Chorn Planet - Eksperter i tilpasset softwareudvikling",
     description: "Brug JavaScript til at bygge skalerbare, robuste og effektive tilpassede softwareløsninger for virksomheder på tværs af brancher.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.frontend.javascript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - JavaScript tilpasset softwareudvikling",
+        title: "Chorn Planet - JavaScript tilpasset softwareudvikling",
         description: "JavaScript-ekspertise, et kraftfuldt værktøj til at opbygge skalerbare og højtydende applikationer. Læs hvorfor vi vælger JavaScript til tilpassede softwareløsninger.",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.javascript).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.frontend.javascript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaScriptDA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - JavaScript udvikling til tilpassede softwareløsninger",
+        title: "Chorn Planet - JavaScript udvikling til tilpassede softwareløsninger",
         description: "Brug JavaScript til at levere skalerbare og høj kvalitet softwareløsninger, der er skræddersyet til virksomhedens behov.",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.javascript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataJavaScriptDA: Metadata = {
         "JavaScript udvikler Thailand", "JavaScript udvikler Bangkok", "JavaScript udvikler Chiang Mai",
         "frontend udvikler Thailand", "backend udvikler Thailand", "full stack udvikler Thailand",
         "softwareingeniør", "softwareudvikler Thailand",
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

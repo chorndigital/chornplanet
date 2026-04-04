@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataGoZH: Metadata = {
-    title: "Go全栈开发 | CHORN",
+    title: "Go全栈开发 | Chorn Planet",
     description: "Go全栈开发，技术专长用于构建高效和可扩展的Web应用程序。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.backend.go).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Go开发 | CHORN",
+        title: "Go开发 | Chorn Planet",
         description: "通过Go全栈开发的技术专长，构建高效和可扩展的Web应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.backend.go).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.backend.go).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataGoZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Go全栈开发 | CHORN",
+        title: "Go全栈开发 | Chorn Planet",
         description: "Go全栈开发的技术专长，用于构建高效和可扩展的Web应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.backend.go).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataGoZH: Metadata = {
         "microservices development", "cloud-native development", "API development", "enterprise software",
         "Go developer Thailand", "Go developer Bangkok", "Go developer Chiang Mai", "backend developer Thailand",
         "software engineer", "software developer Thailand",
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

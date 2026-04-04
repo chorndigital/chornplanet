@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNodejsFR: Metadata = {
-    title: "Développement Full Stack Node.js | CHORN",
+    title: "Développement Full Stack Node.js | Chorn Planet",
     description: "Développement Full Stack avec Node.js, expertise technique pour créer des applications web efficaces et évolutives.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.backend.nodejs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Développement Node.js | CHORN",
+        title: "Développement Node.js | Chorn Planet",
         description: "Créez des applications web efficaces et évolutives grâce à une expertise en développement Node.js Full Stack.",
         images: metadataLink(LanguageCode.fr, MetaLinks.backend.nodejs).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.backend.nodejs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNodejsFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Développement Full Stack Node.js | CHORN",
+        title: "Développement Full Stack Node.js | Chorn Planet",
         description: "Expertise en développement Full Stack Node.js pour des applications web performantes et évolutives.",
         images: metadataLink(LanguageCode.fr, MetaLinks.backend.nodejs).twitter.images
     },
@@ -32,6 +32,6 @@ export const MetadataNodejsFR: Metadata = {
         "applications Node.js pour entreprises", "développement API", "développement microservices", "développeur full-stack",
         "développeur Node.js Thaïlande", "développeur Node.js Bangkok", "développeur Node.js Chiang Mai",
         "développeur back-end Thaïlande", "développeur full-stack Thaïlande", "ingénieur logiciel", "développeur logiciel Thaïlande",
-        "CHORN", "innovation numérique", "logiciels pour entreprises"
+        "Chorn Planet", "innovation numérique", "logiciels pour entreprises"
     ]
 }

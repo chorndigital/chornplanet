@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDevOpsMainNL: Metadata = {
-    title: "Enterprise DevOps & Cloud Oplossingen | CHORN",
+    title: "Enterprise DevOps & Cloud Oplossingen | Chorn Planet",
     description: "Versnel uw digitale transformatie met DevOps- en cloud-expertise. Wij leveren gestroomlijnde CI/CD-pijplijnen, infrastructuurautomatisering en cloud-native oplossingen die de betrouwbaarheid verbeteren en de time-to-market verkorten.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.devops.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Enterprise DevOps & Cloud Oplossingen | CHORN",
+        title: "Enterprise DevOps & Cloud Oplossingen | Chorn Planet",
         description: "Versnel uw digitale transformatie met DevOps- en cloud-expertise. Wij leveren gestroomlijnde CI/CD-pijplijnen, infrastructuurautomatisering en cloud-native oplossingen die de betrouwbaarheid verbeteren en de time-to-market verkorten.",
         images: metadataLink(LanguageCode.nl, MetaLinks.devops.main).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.devops.main).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDevOpsMainNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Enterprise DevOps & Cloud Oplossingen | CHORN",
+        title: "Enterprise DevOps & Cloud Oplossingen | Chorn Planet",
         description: "Versnel uw digitale transformatie met DevOps- en cloud-expertise. Wij leveren gestroomlijnde CI/CD-pijplijnen, infrastructuurautomatisering en cloud-native oplossingen die de betrouwbaarheid verbeteren en de time-to-market verkorten.",
         images: metadataLink(LanguageCode.nl, MetaLinks.devops.main).twitter.images,
     },

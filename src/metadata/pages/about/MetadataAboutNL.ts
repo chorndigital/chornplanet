@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAboutNL: Metadata = {
-    title: "Over CHORN | Systeemanalyse & Full-Stack Softwareontwikkelingstechniek",
-    description: "Ontdek de expertise van CHORN in systeemanalyse, full-stack ontwikkeling en moderne softwareoplossingen die zakelijk succes stimuleren.",
+    title: "Over Chorn Planet | Systeemanalyse & Full-Stack Softwareontwikkelingstechniek",
+    description: "Ontdek de expertise van Chorn Planet in systeemanalyse, full-stack ontwikkeling en moderne softwareoplossingen die zakelijk succes stimuleren.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.about).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - Experts in Systeemanalyse & Full-Stack Softwareontwikkelingstechniek",
+        title: "Chorn Planet - Experts in Systeemanalyse & Full-Stack Softwareontwikkelingstechniek",
         description: "Verken CHORNs toewijding aan het leveren van geavanceerde systeemmodernisering, full-stack ontwikkeling en technische ondersteuning voor bedrijven.",
         images: metadataLink(LanguageCode.nl, MetaLinks.about).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.about).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataAboutNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - Toonaangevend in Systeemanalyse & Full-Stack Softwareontwikkelingstechniek",
+        title: "Chorn Planet - Toonaangevend in Systeemanalyse & Full-Stack Softwareontwikkelingstechniek",
         description: "Ontgrendel zakelijk potentieel met CHORNs geavanceerde systeemanalyse, full-stack ontwikkeling en moderne softwareoplossingen.",
         images: metadataLink(LanguageCode.nl, MetaLinks.about).twitter.images,
     },

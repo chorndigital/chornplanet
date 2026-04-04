@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWeb3JA: Metadata = {
-    title: "Web3 ブロックチェーン スマートコントラクト開発 | CHORN",
+    title: "Web3 ブロックチェーン スマートコントラクト開発 | Chorn Planet",
     description: "Web3 ブロックチェーンとスマートコントラクトの開発。Solidity、Ethereum、Polygonを使用して分散型アプリケーション（DApps）を構築し、Hardhat、Ganache、MetaMaskなどの技術と統合します。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.web3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Web3 ブロックチェーン スマートコントラクト開発サービス | CHORN",
+        title: "Web3 ブロックチェーン スマートコントラクト開発サービス | Chorn Planet",
         description: "Solidity、Ethereum、PolygonでDAppsを構築し、Hardhat、Ganache、MetaMaskと統合するWeb3ブロックチェーンとスマートコントラクトの専門的な開発技術。",
         images: metadataLink(LanguageCode.ja, MetaLinks.web3).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.web3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataWeb3JA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web3 ブロックチェーン スマートコントラクト開発 | CHORN",
+        title: "Web3 ブロックチェーン スマートコントラクト開発 | Chorn Planet",
         description: "Solidity、Ethereum、Polygonで分散型アプリケーション（DApps）を作成し、Hardhat、Ganache、MetaMaskと統合するWeb3とブロックチェーンのスマートコントラクト開発技術。",
         images: metadataLink(LanguageCode.ja, MetaLinks.web3).twitter.images,
     },
@@ -35,6 +35,6 @@ export const MetadataWeb3JA: Metadata = {
         "ブロックチェーン 開発者 日本", "Web3 開発者 日本", "スマートコントラクト 開発者 日本",
         "Ethereum 開発者 日本", "Solidity 開発者 日本", "シニア ブロックチェーン 開発者 日本",
         "主任 Web3 開発者 日本", "DApp 開発者 日本", "ソフトウェアエンジニア 日本",
-        "CHORN", "デジタル革新", "ブロックチェーン技術", "スケーラブルなブロックチェーンソリューション"
+        "Chorn Planet", "デジタル革新", "ブロックチェーン技術", "スケーラブルなブロックチェーンソリューション"
     ]
 };

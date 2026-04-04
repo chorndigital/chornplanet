@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataReactFR: Metadata = {
-    title: "Services de développement React | CHORN",
+    title: "Services de développement React | Chorn Planet",
     description: "Développement React de haut niveau avec expertise technique, créez des interfaces utilisateur dynamiques et réactives avec React.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.frontend.react).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Développement React | CHORN",
+        title: "Développement React | Chorn Planet",
         description: "Améliorez vos applications web avec un développement React d'expert, une expertise technique pour des applications performantes.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.react).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.frontend.react).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataReactFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Services de développement React | CHORN",
+        title: "Services de développement React | Chorn Planet",
         description: "Développement React d'expert, expertise technique pour créer des interfaces utilisateur attrayantes avec React.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.react).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataReactFR: Metadata = {
         "Interfaces utilisateur dynamiques", "Applications à page unique", "Développeur React.js",
         "Développeur React France", "Développeur React Paris", "Développeur React Lyon", "Développeur frontend France",
         "Développeur web Paris", "Ingénieur logiciel", "Développeur logiciel France",
-        "CHORN", "Innovation numérique", "Logiciel d'entreprise"
+        "Chorn Planet", "Innovation numérique", "Logiciel d'entreprise"
     ]
 }

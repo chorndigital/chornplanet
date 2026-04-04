@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsJava lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="Java Spring Boot Full Stack Development | CHORN"
-                description="CHORN offers Java Spring Boot full stack development services to build robust and scalable enterprise applications."
+                name="Java Spring Boot Full Stack Development | Chorn Planet"
+                description="Chorn Planet offers Java Spring Boot full stack development services to build robust and scalable enterprise applications."
                 url="https://chornplanet.com/en/technical-expertise/full-stack-developer/java-spring-boot-developer/"
             />
         </div>

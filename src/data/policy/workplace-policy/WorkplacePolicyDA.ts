@@ -7,11 +7,11 @@ export const WorkplacePolicyDA: IPolicy = {
     contents: [
         {
             title: "Arbejdsmodeller",
-            description: "CHORN tilpasser sig forskellige arbejdsmodeller, herunder fjernarbejde, kontorarbejde og hybridmodeller, skræddersyet til de specifikke behov i hvert projekt. Denne tilgang sikrer problemfri kommunikation og effektivitet.",
+            description: "Chorn Planet tilpasser sig forskellige arbejdsmodeller, herunder fjernarbejde, kontorarbejde og hybridmodeller, skræddersyet til de specifikke behov i hvert projekt. Denne tilgang sikrer problemfri kommunikation og effektivitet.",
         },
         {
             title: "Hvorfor Hybrid?",
-            description: "Store ideer kan opstå overalt, uanset om det er på kontoret, derhjemme eller på farten. Ved at tilbyde en hybrid arbejdsmodel giver CHORN det bedste fra begge verdener – en balance mellem struktureret samarbejde og fleksibilitet til personlig og professionel vækst."
+            description: "Store ideer kan opstå overalt, uanset om det er på kontoret, derhjemme eller på farten. Ved at tilbyde en hybrid arbejdsmodel giver Chorn Planet det bedste fra begge verdener – en balance mellem struktureret samarbejde og fleksibilitet til personlig og professionel vækst."
         },
         {
             title: "Fleksibel Kontor Tilstedeværelse",
@@ -23,7 +23,7 @@ export const WorkplacePolicyDA: IPolicy = {
         },
         {
             title: "Teknologi-drevet",
-            description: "CHORN udnytter banebrydende kommunikations- og samarbejdsværktøjer for at sikre problemfri interaktion blandt teammedlemmer, uanset placering."
+            description: "Chorn Planet udnytter banebrydende kommunikations- og samarbejdsværktøjer for at sikre problemfri interaktion blandt teammedlemmer, uanset placering."
         },
         {
             title: "Arbejdsliv Balance",

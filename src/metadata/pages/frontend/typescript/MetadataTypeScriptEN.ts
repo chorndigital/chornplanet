@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataTypeScriptEN: Metadata = {
-    title: "TypeScript | CHORN - Custom Software Development Experts",
+    title: "TypeScript | Chorn Planet - Custom Software Development Experts",
     description: "Leverages TypeScript to build scalable, robust, and efficient custom software solutions for businesses across industries.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.frontend.typescript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - TypeScript Custom Software Development",
+        title: "Chorn Planet - TypeScript Custom Software Development",
         description: "TypeScript expertise, a powerful tool for building scalable and high-performance applications. Learn why we choose TypeScript for custom software solutions.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.typescript).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.frontend.typescript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataTypeScriptEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - TypeScript Development for Custom Software Solutions",
+        title: "Chorn Planet - TypeScript Development for Custom Software Solutions",
         description: "Use TypeScript to deliver scalable and high-quality software solutions tailored to businesses' needs.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.typescript).twitter.images,
     },
@@ -41,6 +41,6 @@ export const MetadataTypeScriptEN: Metadata = {
         "software engineer", "software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

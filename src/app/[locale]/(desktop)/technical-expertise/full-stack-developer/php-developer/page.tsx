@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsPhp lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="PHP Full Stack Development | CHORN"
-                description="CHORN offers PHP full stack development services for building dynamic and scalable web applications."
+                name="PHP Full Stack Development | Chorn Planet"
+                description="Chorn Planet offers PHP full stack development services for building dynamic and scalable web applications."
                 url="https://chornplanet.com/en/technical-expertise/full-stack-developer/php-developer/"
             />
         </div>

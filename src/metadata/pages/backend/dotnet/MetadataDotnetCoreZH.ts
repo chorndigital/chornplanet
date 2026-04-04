@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDotnetCoreZH: Metadata = {
-    title: ".NET Core C# 全栈开发 | CHORN",
+    title: ".NET Core C# 全栈开发 | Chorn Planet",
     description: ".NET Core C# 全栈开发，利用技术专长构建现代化、可扩展和安全的 Web 应用程序。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.backend.dotnetcore).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: ".NET Core C# 开发 | CHORN",
+        title: ".NET Core C# 开发 | Chorn Planet",
         description: "利用 .NET Core C# 全栈开发的技术专长，构建安全、可扩展和现代化的 Web 应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.backend.dotnetcore).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.backend.dotnetcore).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDotnetCoreZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: ".NET Core C# 全栈开发 | CHORN",
+        title: ".NET Core C# 全栈开发 | Chorn Planet",
         description: "为现代化、可扩展的 Web 应用程序提供 .NET Core C# 全栈开发技术专长。",
         images: metadataLink(LanguageCode.zh, MetaLinks.backend.dotnetcore).twitter.images,
     },
@@ -36,6 +36,6 @@ export const MetadataDotnetCoreZH: Metadata = {
         ".NET Core C# 开发者 泰国", ".NET Core C# 开发者 曼谷", ".NET Core C# 开发者 清迈",
         "后端开发者 泰国", "软件工程师", "软件开发者 泰国",
 
-        "CHORN", "数字创新", "企业软件"
+        "Chorn Planet", "数字创新", "企业软件"
     ]
 }

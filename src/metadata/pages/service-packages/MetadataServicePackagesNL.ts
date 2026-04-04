@@ -5,9 +5,9 @@ import { MetaLinks } from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataServicePackagesNL: Metadata = {
     title: "Servicepakketten | Systeemanalyse & Full-Stack Softwareontwikkeling",
-    description: "CHORN biedt flexibele servicepakketten voor innovatieve softwareontwikkeling, Web3, NFT en blockchain.",
+    description: "Chorn Planet biedt flexibele servicepakketten voor innovatieve softwareontwikkeling, Web3, NFT en blockchain.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.servicePackages).alternates,
-    authors: [{ name: "CHORN" }],
+    authors: [{ name: "Chorn Planet" }],
     openGraph: {
         title: "Servicepakketten voor Moderne Softwareontwikkeling",
         description: "Van fulltime toegewijde pakketten tot gedeelde ondersteuning voor groeiende projecten, inclusief Web3 en NFT's.",
@@ -17,14 +17,14 @@ export const MetadataServicePackagesNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN Servicepakketten voor Web3 & Softwareontwikkeling",
-        description: "Flexibele en hoogwaardige software- en blockchainontwikkeling met CHORN.",
+        title: "Chorn Planet Servicepakketten voor Web3 & Softwareontwikkeling",
+        description: "Flexibele en hoogwaardige software- en blockchainontwikkeling met Chorn Planet.",
         images: metadataLink(LanguageCode.nl, MetaLinks.servicePackages).twitter.images,
     },
     keywords: [
-        // Merken en CHORN-gerelateerde zoekwoorden
-        "CHORN", "CHORN maatwerk softwareontwikkeling", "CHORN software outsourcing", "Wat is CHORN",
-        "CHORN softwareontwikkeling Thailand", "CHORN ontwikkelaar Chiang Mai", "CHORN ontwikkelaar Bangkok",
+        // Merken en Chorn Planet-gerelateerde zoekwoorden
+        "Chorn Planet", "Chorn Planet maatwerk softwareontwikkeling", "Chorn Planet software outsourcing", "Wat is Chorn Planet",
+        "Chorn Planet softwareontwikkeling Thailand", "Chorn Planet ontwikkelaar Chiang Mai", "Chorn Planet ontwikkelaar Bangkok",
 
         // Kernservices
         "maatwerk softwareontwikkeling", "software outsourcing bedrijven", "softwareontwikkeling uitbesteden",

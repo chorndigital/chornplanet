@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAngularDA: Metadata = {
-    title: "Angular Udviklingstjenester | CHORN",
+    title: "Angular Udviklingstjenester | Chorn Planet",
     description: "Angular udviklingstjeneste, byg dynamiske, skalerbare og højtydende webapplikationer med Angular.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.frontend.angular).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Angular Udvikling | CHORN",
+        title: "Angular Udvikling | Chorn Planet",
         description: "Angular udvikling med teknisk ekspertise til at skabe hurtige, skalerbare og dynamiske webapplikationer.",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.angular).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.frontend.angular).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataAngularDA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Angular Udviklingstjenester | CHORN",
+        title: "Angular Udviklingstjenester | Chorn Planet",
         description: "Forbedr dine webapplikationer med professionel Angular udvikling.",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.angular).twitter.images,
     },
@@ -34,7 +34,7 @@ export const MetadataAngularDA: Metadata = {
         "webudvikler", "full-stack udvikler", "softwareingeniør", "softwareudvikler Thailand",
         "Angular udvikler Thailand", "frontend udvikler Thailand", "webudvikler Bangkok",
         "Angular udvikler Chiang Mai", "Angular udvikler Bangkok", "Angular udviklingsfirma",
-        "CHORN", "digital innovation", "enterprise software",
+        "Chorn Planet", "digital innovation", "enterprise software",
         "responsivt webdesign i Angular", "responsivt webdesign Angular", "Angular responsivt webdesign"
     ]
 }

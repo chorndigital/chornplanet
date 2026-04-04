@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNextjsTH: Metadata = {
-    title: "บริการพัฒนา Next.js | CHORN",
+    title: "บริการพัฒนา Next.js | Chorn Planet",
     description: "ผู้เชี่ยวชาญด้านการพัฒนา Next.js เพิ่มศักยภาพให้เว็บแอปพลิเคชันของคุณด้วยโซลูชันที่ขยายขนาดได้และมีประสิทธิภาพสูงโดยใช้ Next.js",
     alternates: metadataLink(LanguageCode.th, MetaLinks.frontend.nextjs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "การพัฒนา Next.js | CHORN",
+        title: "การพัฒนา Next.js | Chorn Planet",
         description: "บริการพัฒนา Next.js โดยผู้เชี่ยวชาญ สร้างเว็บแอปพลิเคชันที่รวดเร็วและขยายขนาดได้",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.nextjs).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.frontend.nextjs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNextjsTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการพัฒนา Next.js | CHORN",
+        title: "บริการพัฒนา Next.js | Chorn Planet",
         description: "ยกระดับเว็บแอปพลิเคชันของคุณด้วยบริการพัฒนา Next.js โดยผู้เชี่ยวชาญ",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.nextjs).twitter.images,
     },
@@ -39,6 +39,6 @@ export const MetadataNextjsTH: Metadata = {
         "นักพัฒนาเว็บ กรุงเทพ", "วิศวกรซอฟต์แวร์", "นักพัฒนาซอฟต์แวร์ ไทย",
 
         // คีย์เวิร์ดเกี่ยวกับแบรนด์และนวัตกรรม
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
     ]
 }

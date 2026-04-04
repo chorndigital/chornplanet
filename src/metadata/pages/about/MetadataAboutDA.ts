@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAboutDA: Metadata = {
-    title: "Om CHORN | Systemanalyse & Full-Stack Softwareudviklingsteknik",
+    title: "Om Chorn Planet | Systemanalyse & Full-Stack Softwareudviklingsteknik",
     description: "Opdag CHORNs ekspertise inden for systemanalyse, full-stack udvikling og moderne softwareløsninger, der driver forretningssucces.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.about).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - Eksperter i Systemanalyse & Full-Stack Softwareudviklingsteknik",
+        title: "Chorn Planet - Eksperter i Systemanalyse & Full-Stack Softwareudviklingsteknik",
         description: "Udforsk CHORNs engagement i at levere topmoderne systemmodernisering, full-stack udvikling og teknisk support til virksomheder.",
         images: metadataLink(LanguageCode.da, MetaLinks.about).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.about).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataAboutDA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - Førende inden for Systemanalyse & Full-Stack Softwareudviklingsteknik",
+        title: "Chorn Planet - Førende inden for Systemanalyse & Full-Stack Softwareudviklingsteknik",
         description: "Frigør forretningspotentiale med CHORNs avancerede systemanalyse, full-stack udvikling og moderne softwareløsninger.",
         images: metadataLink(LanguageCode.da, MetaLinks.about).twitter.images,
     },

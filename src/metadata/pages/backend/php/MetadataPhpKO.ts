@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPhpKO: Metadata = {
-    title: "PHP 풀 스택 개발 | CHORN",
+    title: "PHP 풀 스택 개발 | Chorn Planet",
     description: "PHP 풀 스택 개발, 동적이고 확장 가능한 웹 애플리케이션을 구축하기 위한 기술 전문성.",
     alternates: metadataLink(LanguageCode.ko, MetaLinks.backend.php).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "PHP 개발 | CHORN",
+        title: "PHP 개발 | Chorn Planet",
         description: "PHP 풀 스택 개발을 활용한 확장 가능하고 동적인 웹 애플리케이션 구축 기술 전문성.",
         images: metadataLink(LanguageCode.ko, MetaLinks.backend.php).openGraph.images,
         url: metadataLink(LanguageCode.ko, MetaLinks.backend.php).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPhpKO: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "PHP 풀 스택 개발 | CHORN",
+        title: "PHP 풀 스택 개발 | Chorn Planet",
         description: "동적이고 확장 가능한 웹 애플리케이션을 위한 PHP 풀 스택 개발 기술 전문성.",
         images: metadataLink(LanguageCode.ko, MetaLinks.backend.php).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataPhpKO: Metadata = {
         "맞춤형 웹 애플리케이션", "API 개발", "기업 소프트웨어", "PHP 프레임워크",
         "PHP 개발자 태국", "PHP 개발자 방콕", "PHP 개발자 치앙마이",
         "백엔드 개발자 태국", "풀 스택 개발자 태국", "소프트웨어 엔지니어", "소프트웨어 개발자 태국",
-        "CHORN", "디지털 혁신", "기업 소프트웨어"
+        "Chorn Planet", "디지털 혁신", "기업 소프트웨어"
     ]
 }

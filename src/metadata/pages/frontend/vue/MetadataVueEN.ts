@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataVueEN: Metadata = {
-    title: "Vue.js Development Services | CHORN",
+    title: "Vue.js Development Services | Chorn Planet",
     description: "Specializes in Vue.js development to create interactive and scalable web applications.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.frontend.vue).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Vue.js Development | CHORN",
+        title: "Vue.js Development | Chorn Planet",
         description: "Expert Vue.js development, technical expertise for building modern web applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.vue).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.frontend.vue).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataVueEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Vue.js Development Services | CHORN",
+        title: "Vue.js Development Services | Chorn Planet",
         description: "Enhance your web applications with Vue.js with Vue.js development technical expertise.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.vue).twitter.images,
     },
@@ -40,6 +40,6 @@ export const MetadataVueEN: Metadata = {
         "web developer Bangkok", "software engineer", "software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

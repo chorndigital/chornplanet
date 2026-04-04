@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDevOpsMainDE: Metadata = {
-    title: "Enterprise DevOps & Cloud Lösungen | CHORN",
+    title: "Enterprise DevOps & Cloud Lösungen | Chorn Planet",
     description: "Beschleunigen Sie Ihre digitale Transformation mit DevOps- und Cloud-Expertise. Wir liefern optimierte CI/CD-Pipelines, Infrastrukturautomatisierung und Cloud-native Lösungen, die die Zuverlässigkeit verbessern und die Markteinführungszeit verkürzen.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.devops.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Enterprise DevOps & Cloud Lösungen | CHORN",
+        title: "Enterprise DevOps & Cloud Lösungen | Chorn Planet",
         description: "Beschleunigen Sie Ihre digitale Transformation mit DevOps- und Cloud-Expertise. Wir liefern optimierte CI/CD-Pipelines, Infrastrukturautomatisierung und Cloud-native Lösungen, die die Zuverlässigkeit verbessern und die Markteinführungszeit verkürzen.",
         images: metadataLink(LanguageCode.de, MetaLinks.devops.main).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.devops.main).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDevOpsMainDE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Enterprise DevOps & Cloud Lösungen | CHORN",
+        title: "Enterprise DevOps & Cloud Lösungen | Chorn Planet",
         description: "Beschleunigen Sie Ihre digitale Transformation mit DevOps- und Cloud-Expertise. Wir liefern optimierte CI/CD-Pipelines, Infrastrukturautomatisierung und Cloud-native Lösungen, die die Zuverlässigkeit verbessern und die Markteinführungszeit verkürzen.",
         images: metadataLink(LanguageCode.de, MetaLinks.devops.main).twitter.images,
     },

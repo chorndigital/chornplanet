@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataVueJA: Metadata = {
-    title: "Vue.js 開発サービス | CHORN",
+    title: "Vue.js 開発サービス | Chorn Planet",
     description: "インタラクティブでスケーラブルなウェブアプリケーションを作成するための Vue.js 開発を専門としています。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.frontend.vue).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Vue.js 開発 | CHORN",
+        title: "Vue.js 開発 | Chorn Planet",
         description: "Vue.js 開発の専門技術を活用して、モダンなウェブアプリケーションを作成します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.frontend.vue).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.frontend.vue).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataVueJA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Vue.js 開発サービス | CHORN",
+        title: "Vue.js 開発サービス | Chorn Planet",
         description: "Vue.js 開発の専門技術で、ウェブアプリケーションを強化します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.frontend.vue).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataVueJA: Metadata = {
         "動的なユーザーインターフェース", "シングルページアプリケーション", "Vue.js 開発者",
         "Vue.js 開発者 タイ", "Vue.js 開発者 バンコク", "Vue.js 開発者 チェンマイ", "フロントエンド開発者 タイ",
         "ウェブ開発者 バンコク", "ソフトウェアエンジニア", "ソフトウェア開発者 タイ",
-        "CHORN", "デジタル革新", "企業向けソフトウェア"
+        "Chorn Planet", "デジタル革新", "企業向けソフトウェア"
     ]
 }

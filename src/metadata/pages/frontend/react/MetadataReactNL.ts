@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataReactNL: Metadata = {
-    title: "React Ontwikkelingsdiensten | CHORN",
+    title: "React Ontwikkelingsdiensten | Chorn Planet",
     description: "Top React-ontwikkeling met technische expertise, bouw dynamische en responsieve gebruikersinterfaces met React.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.frontend.react).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "React Ontwikkeling | CHORN",
+        title: "React Ontwikkeling | Chorn Planet",
         description: "Verbeter je webapplicaties met expert React-ontwikkeling, technische expertise voor krachtige toepassingen.",
         images: metadataLink(LanguageCode.nl, MetaLinks.frontend.react).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.frontend.react).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataReactNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "React Ontwikkelingsdiensten | CHORN",
+        title: "React Ontwikkelingsdiensten | Chorn Planet",
         description: "Expert React-ontwikkeling, technische expertise voor het creëren van aantrekkelijke gebruikersinterfaces met React.",
         images: metadataLink(LanguageCode.nl, MetaLinks.frontend.react).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataReactNL: Metadata = {
         "Dynamische gebruikersinterfaces", "Single-page toepassingen", "React.js ontwikkelaar",
         "React ontwikkelaar Nederland", "React ontwikkelaar Amsterdam", "React ontwikkelaar Rotterdam", "Frontend ontwikkelaar Nederland",
         "Webontwikkelaar Amsterdam", "Software-ingenieur", "Softwareontwikkelaar Nederland",
-        "CHORN", "Digitale innovatie", "Enterprise software"
+        "Chorn Planet", "Digitale innovatie", "Enterprise software"
     ]
 }

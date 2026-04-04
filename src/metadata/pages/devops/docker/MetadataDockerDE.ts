@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDockerDE: Metadata = {
-    title: "Docker DevOps-Dienste | CHORN",
+    title: "Docker DevOps-Dienste | Chorn Planet",
     description: "Docker-basierte DevOps-Expertise für effiziente Containerisierung und skalierbare Anwendungsbereitstellung.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.devops.docker).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Docker DevOps-Dienste | CHORN",
+        title: "Docker DevOps-Dienste | Chorn Planet",
         description: "Nutzen Sie Docker für die Containerisierung und skalierbare Softwarebereitstellung mit DevOps-Expertise.",
         images: metadataLink(LanguageCode.de, MetaLinks.devops.docker).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.devops.docker).alternates.canonical,
@@ -21,12 +21,12 @@ export const MetadataDockerDE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Docker DevOps-Dienste | CHORN",
+        title: "Docker DevOps-Dienste | Chorn Planet",
         description: "Docker DevOps-Expertise für Containerisierung und skalierbare Anwendungsbereitstellung.",
         images: metadataLink(LanguageCode.de, MetaLinks.devops.docker).twitter.images,
     },
     keywords: [
-        "Docker DevOps", "Docker-Expertise", "Containerisierung", "CHORN", "DevOps", "skalierbare Bereitstellung",
+        "Docker DevOps", "Docker-Expertise", "Containerisierung", "Chorn Planet", "DevOps", "skalierbare Bereitstellung",
         "maßgeschneiderte Softwareentwicklung", "Cloud-Anwendungen", "DevOps Deutschland", "Docker-Container"
     ]
 };

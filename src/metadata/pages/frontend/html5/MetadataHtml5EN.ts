@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHtml5EN: Metadata = {
-    title: "HTML5 Development Services | CHORN",
+    title: "HTML5 Development Services | Chorn Planet",
     description: "HTML5 development technical expertise to create responsive and engaging web applications.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.frontend.html5).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "HTML5 Development | CHORN",
+        title: "HTML5 Development | Chorn Planet",
         description: "Build modern and interactive web applications with technical expertise.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.html5).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.frontend.html5).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataHtml5EN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "HTML5 Development Services | CHORN",
+        title: "HTML5 Development Services | Chorn Planet",
         description: "Create interactive web apps with HTML5 technical-expertise.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.html5).twitter.images,
     },
@@ -40,6 +40,6 @@ export const MetadataHtml5EN: Metadata = {
         "web developer Bangkok", "software engineer", "software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

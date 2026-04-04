@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataGitHubDE: Metadata = {
-    title: "GitHub DevOps-Dienste | CHORN",
+    title: "GitHub DevOps-Dienste | Chorn Planet",
     description: "Technische Expertise in DevOps, die GitHub für Versionskontrolle, kontinuierliche Integration und automatisierte Workflows integriert.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.devops.github).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "GitHub DevOps-Dienste | CHORN",
+        title: "GitHub DevOps-Dienste | Chorn Planet",
         description: "Verbessern Sie Ihren Entwicklungsworkflow mit GitHub-basierter DevOps-Expertise für CI/CD und Versionskontrolle.",
         images: metadataLink(LanguageCode.de, MetaLinks.devops.github).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.devops.github).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataGitHubDE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "GitHub DevOps-Dienste | CHORN",
+        title: "GitHub DevOps-Dienste | Chorn Planet",
         description: "Optimieren Sie Ihre Entwicklung mit GitHub DevOps-Expertise für Versionskontrolle und CI/CD-Workflows.",
         images: metadataLink(LanguageCode.de, MetaLinks.devops.github).twitter.images,
     },

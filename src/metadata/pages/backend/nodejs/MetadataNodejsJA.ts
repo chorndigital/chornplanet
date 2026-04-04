@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNodejsJA: Metadata = {
-    title: "Node.js フルスタック開発 | CHORN",
+    title: "Node.js フルスタック開発 | Chorn Planet",
     description: "Node.js フルスタック開発、効率的でスケーラブルなウェブアプリケーションを構築する技術的専門知識。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.backend.nodejs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Node.js 開発 | CHORN",
+        title: "Node.js 開発 | Chorn Planet",
         description: "Node.js フルスタック開発の専門知識で効率的かつスケーラブルなウェブアプリケーションを構築。",
         images: metadataLink(LanguageCode.ja, MetaLinks.backend.nodejs).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.backend.nodejs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNodejsJA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Node.js フルスタック開発 | CHORN",
+        title: "Node.js フルスタック開発 | Chorn Planet",
         description: "Node.js フルスタック開発の技術的専門知識で効率的かつスケーラブルなウェブアプリを実現。",
         images: metadataLink(LanguageCode.ja, MetaLinks.backend.nodejs).twitter.images
     },
@@ -32,6 +32,6 @@ export const MetadataNodejsJA: Metadata = {
         "企業向け Node.js アプリケーション", "API 開発", "マイクロサービス開発", "フルスタック開発者",
         "Node.js 開発者 タイ", "Node.js 開発者 バンコク", "Node.js 開発者 チェンマイ",
         "バックエンド開発者 タイ", "フルスタック開発者 タイ", "ソフトウェアエンジニア", "ソフトウェア開発者 タイ",
-        "CHORN", "デジタルイノベーション", "企業向けソフトウェア"
+        "Chorn Planet", "デジタルイノベーション", "企業向けソフトウェア"
     ]
 }

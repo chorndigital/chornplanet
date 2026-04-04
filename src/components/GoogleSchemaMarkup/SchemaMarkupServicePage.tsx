@@ -18,7 +18,7 @@ export const SchemaMarkupServicePage: React.FC<SchemaMarkupServicePageProps> = (
         "url": `${url}`,
         "brand": {
             "@type": "Organization",
-            "name": "CHORN"
+            "name": "Chorn Planet"
         },
         "offers": {
             "@type": "AggregateOffer",

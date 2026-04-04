@@ -5,24 +5,24 @@ import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWebDevelopmentFI: Metadata = {
     title: "Verkkokehityspalvelut | Räätälöidyt ohjelmisto- ja teknologiakokonaisuudet",
-    description: "Tutustu CHORNin verkkokehityksen tekniseen asiantuntemukseen, mukaan lukien Next.js, React, Angular, Vue ja monia muita. CHORN tarjoaa räätälöityjä ratkaisuja yrityksille eri aloilla, kuten digitaalinen markkinointi, lohkoketjuteknologia, sähköinen kaupankäynti ja paljon muuta.",
+    description: "Tutustu CHORNin verkkokehityksen tekniseen asiantuntemukseen, mukaan lukien Next.js, React, Angular, Vue ja monia muita. Chorn Planet tarjoaa räätälöityjä ratkaisuja yrityksille eri aloilla, kuten digitaalinen markkinointi, lohkoketjuteknologia, sähköinen kaupankäynti ja paljon muuta.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.webDevelopment).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Parhaat verkkokehityspalvelut | CHORN",
-        description: "CHORN tarjoaa verkkokehityksen asiantuntemusta suosituilla kehyksillä, kuten Next.js, React, Angular ja monia muita. CHORN täyttää monenlaiset liiketoimintatarpeet, kuten digitaalinen markkinointi, sähköinen kaupankäynti, lohkoketjuteknologia ja paljon muuta.",
+        title: "Parhaat verkkokehityspalvelut | Chorn Planet",
+        description: "Chorn Planet tarjoaa verkkokehityksen asiantuntemusta suosituilla kehyksillä, kuten Next.js, React, Angular ja monia muita. Chorn Planet täyttää monenlaiset liiketoimintatarpeet, kuten digitaalinen markkinointi, sähköinen kaupankäynti, lohkoketjuteknologia ja paljon muuta.",
         images: metadataLink(LanguageCode.fi, MetaLinks.webDevelopment).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.webDevelopment).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Verkkokehityspalvelut | CHORN",
-        description: "Tutustu CHORNin verkkokehityksen asiantuntemukseen. Next.js:stä Angulariin ja moniin muihin, CHORN tarjoaa ratkaisuja kaikkiin liiketoimintatarpeisiin, kuten digitaalinen markkinointi, lohkoketjuteknologia, sähköinen kaupankäynti ja paljon muuta.",
+        title: "Verkkokehityspalvelut | Chorn Planet",
+        description: "Tutustu CHORNin verkkokehityksen asiantuntemukseen. Next.js:stä Angulariin ja moniin muihin, Chorn Planet tarjoaa ratkaisuja kaikkiin liiketoimintatarpeisiin, kuten digitaalinen markkinointi, lohkoketjuteknologia, sähköinen kaupankäynti ja paljon muuta.",
         images: metadataLink(LanguageCode.fi, MetaLinks.webDevelopment).twitter.images
     },
     keywords: [
@@ -36,6 +36,6 @@ export const MetadataWebDevelopmentFI: Metadata = {
         "PHP Laravel verkkokehitys", "räätälöity React verkkokehitys", "yritystason Angular verkkokehitys",
         "verkkokehittäjä Thaimaa", "verkkokehittäjä Bangkok", "verkkokehittäjä Chiang Mai",
         "senior verkkokehittäjä Thaimaa", "principal verkkokehittäjä Thaimaa", "backend kehittäjä Thaimaa",
-        "frontend kehittäjä Thaimaa", "ohjelmistoinsinööri Thaimaa", "CHORN", "digitaalinen innovaatio", "yritysohjelmisto", "skaalautuvat verkkosovellukset"
+        "frontend kehittäjä Thaimaa", "ohjelmistoinsinööri Thaimaa", "Chorn Planet", "digitaalinen innovaatio", "yritysohjelmisto", "skaalautuvat verkkosovellukset"
     ]
 }

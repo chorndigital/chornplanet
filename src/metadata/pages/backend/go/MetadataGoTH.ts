@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataGoTH: Metadata = {
-    title: "Go Full Stack Development | CHORN",
+    title: "Go Full Stack Development | Chorn Planet",
     description: "การพัฒนา Go full stack, ความเชี่ยวชาญทางเทคนิคในการสร้างแอปพลิเคชันเว็บที่มีประสิทธิภาพและสามารถขยายได้",
     alternates: metadataLink(LanguageCode.th, MetaLinks.backend.go).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Go Development | CHORN",
+        title: "Go Development | Chorn Planet",
         description: "สร้างแอปพลิเคชันเว็บที่มีประสิทธิภาพและสามารถขยายได้ด้วยความเชี่ยวชาญในการพัฒนา Go full stack",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.go).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.backend.go).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataGoTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Go Full Stack Development | CHORN",
+        title: "Go Full Stack Development | Chorn Planet",
         description: "ความเชี่ยวชาญในการพัฒนา Go full stack สำหรับแอปพลิเคชันเว็บที่มีประสิทธิภาพและสามารถขยายได้",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.go).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataGoTH: Metadata = {
         "microservices development", "cloud-native development", "API development", "enterprise software",
         "Go developer Thailand", "Go developer Bangkok", "Go developer Chiang Mai", "backend developer Thailand",
         "software engineer", "software developer Thailand",
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

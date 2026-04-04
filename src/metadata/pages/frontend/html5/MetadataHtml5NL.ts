@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHtml5NL: Metadata = {
-    title: "HTML5 Ontwikkelingsdiensten | CHORN",
+    title: "HTML5 Ontwikkelingsdiensten | Chorn Planet",
     description: "HTML5 ontwikkelingsdeskundigheid voor het maken van responsieve en interactieve webapplicaties.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.frontend.html5).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "HTML5 Ontwikkeling | CHORN",
+        title: "HTML5 Ontwikkeling | Chorn Planet",
         description: "Bouw moderne en interactieve webapplicaties met technische expertise.",
         images: metadataLink(LanguageCode.nl, MetaLinks.frontend.html5).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.frontend.html5).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataHtml5NL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "HTML5 Ontwikkelingsdiensten | CHORN",
+        title: "HTML5 Ontwikkelingsdiensten | Chorn Planet",
         description: "Maak interactieve webapplicaties met HTML5-technische expertise.",
         images: metadataLink(LanguageCode.nl, MetaLinks.frontend.html5).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataHtml5NL: Metadata = {
         "high-performance webdesign", "responsief webdesign", "dynamische gebruikersinterfaces",
         "HTML5 ontwikkelaar Thailand", "HTML5 ontwikkelaar Bangkok", "HTML5 ontwikkelaar Chiang Mai", "frontend ontwikkelaar Thailand",
         "webontwikkelaar Bangkok", "software engineer", "software ontwikkelaar Thailand",
-        "CHORN", "digitale innovatie", "enterprise software"
+        "Chorn Planet", "digitale innovatie", "enterprise software"
     ]
 }

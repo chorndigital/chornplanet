@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPhpJA: Metadata = {
-    title: "PHPフルスタック開発 | CHORN",
+    title: "PHPフルスタック開発 | Chorn Planet",
     description: "PHPフルスタック開発、ダイナミックでスケーラブルなウェブアプリケーションを作成するための技術的専門知識。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.backend.php).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "PHP開発 | CHORN",
+        title: "PHP開発 | Chorn Planet",
         description: "PHPフルスタック開発を活用し、スケーラブルでダイナミックなウェブアプリケーションを作成するための技術的専門知識。",
         images: metadataLink(LanguageCode.ja, MetaLinks.backend.php).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.backend.php).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPhpJA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "PHPフルスタック開発 | CHORN",
+        title: "PHPフルスタック開発 | Chorn Planet",
         description: "PHPフルスタック開発の専門知識を活用し、ダイナミックでスケーラブルなウェブアプリケーションを作成します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.backend.php).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataPhpJA: Metadata = {
         "カスタムウェブアプリケーション", "API開発", "エンタープライズソフトウェア", "PHPフレームワーク",
         "PHP開発者 タイ", "PHP開発者 バンコク", "PHP開発者 チェンマイ",
         "バックエンド開発者 タイ", "フルスタック開発者 タイ", "ソフトウェアエンジニア", "ソフトウェア開発者 タイ",
-        "CHORN", "デジタルイノベーション", "エンタープライズソフトウェア"
+        "Chorn Planet", "デジタルイノベーション", "エンタープライズソフトウェア"
     ]
 }

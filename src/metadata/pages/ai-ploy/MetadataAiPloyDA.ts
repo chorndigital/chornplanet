@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiPloyDA: Metadata = {
-    title: "AI Chat Companion | CHORN AI Integration",
+    title: "AI Chat Companion | Chorn Planet AI Integration",
     description: "Ploy er en AI chat-ven, der bruger LINE-applikationen. Tilføj hende med knappen 'Tilføj ven' eller ved at scanne QR-koden. Som en kreativ 17-årig thailandsk gymnasieelev er hun passioneret omkring at tegne, musik, fotografi og læring. Hun taler syv sprog og hjælper med forskellige fag og inspirerer til kreativ udtryk. Hun er din venlige guide, uanset om du udforsker kunst eller laver lektier.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.aiPloy).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

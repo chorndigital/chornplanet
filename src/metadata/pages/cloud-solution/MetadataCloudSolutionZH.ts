@@ -4,25 +4,25 @@ import {metadataLink} from "@/metadata/metadataLink/metadataLink";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCloudSolutionZH: Metadata = {
-    title: "云解决方案架构与系统分析 | CHORN | AWS, Azure, GCP, DigitalOcean",
-    description: "CHORN 提供专业的云解决方案架构与系统分析技术专长。我们在 AWS、Azure、GCP 和 DigitalOcean 上优化云基础架构，确保性能、可扩展性和成本效益。",
+    title: "云解决方案架构与系统分析 | Chorn Planet | AWS, Azure, GCP, DigitalOcean",
+    description: "Chorn Planet 提供专业的云解决方案架构与系统分析技术专长。我们在 AWS、Azure、GCP 和 DigitalOcean 上优化云基础架构，确保性能、可扩展性和成本效益。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.cloudSolutions).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "云解决方案架构与系统分析 | CHORN",
-        description: "探索 CHORN 的云解决方案架构与系统分析技术专长。我们设计具有弹性、可扩展且优化的云解决方案，涵盖 AWS、Azure、GCP 和 DigitalOcean。",
+        title: "云解决方案架构与系统分析 | Chorn Planet",
+        description: "探索 Chorn Planet 的云解决方案架构与系统分析技术专长。我们设计具有弹性、可扩展且优化的云解决方案，涵盖 AWS、Azure、GCP 和 DigitalOcean。",
         images: metadataLink(LanguageCode.zh, MetaLinks.cloudSolutions).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.cloudSolutions).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "云解决方案架构与系统分析 | CHORN",
-        description: "通过 CHORN 的云解决方案架构与系统分析技术专长，优化您的云基础架构，涵盖 AWS、Azure、GCP 和 DigitalOcean。",
+        title: "云解决方案架构与系统分析 | Chorn Planet",
+        description: "通过 Chorn Planet 的云解决方案架构与系统分析技术专长，优化您的云基础架构，涵盖 AWS、Azure、GCP 和 DigitalOcean。",
         images: metadataLink(LanguageCode.zh, MetaLinks.cloudSolutions).twitter.images,
     },
     keywords: [
@@ -36,6 +36,6 @@ export const MetadataCloudSolutionZH: Metadata = {
         "云架构师 中国", "AWS 架构师 中国", "Azure 架构师 中国", "GCP 架构师 中国",
         "DigitalOcean 开发者 中国", "系统分析师 中国", "云基础架构专家 中国",
 
-        "CHORN", "云解决方案", "数字创新", "云基础架构设计", "可扩展云系统"
+        "Chorn Planet", "云解决方案", "数字创新", "云基础架构设计", "可扩展云系统"
     ]
 }

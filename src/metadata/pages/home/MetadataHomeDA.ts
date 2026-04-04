@@ -4,9 +4,9 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHomeDA: Metadata = {
-    title: "CHORN | Medieplatform for systemer og anvendt teknologi",
+    title: "Chorn Planet | Medieplatform for systemer og anvendt teknologi",
     description:
-        "CHORN er en medieplatform, der præsenterer strukturerede forklaringer af systemanalyse, softwareteknik, integrationspraksis og anvendte teknologiemner, herunder AI-automatisering, cloud-systemer og moderniseringstilgange, til brug i offentlige, investor- og policyorienterede sammenhænge.",
+        "Chorn Planet er en medieplatform, der præsenterer strukturerede forklaringer af systemanalyse, softwareteknik, integrationspraksis og anvendte teknologiemner, herunder AI-automatisering, cloud-systemer og moderniseringstilgange, til brug i offentlige, investor- og policyorienterede sammenhænge.",
     icons: {
         icon: '/favicon.ico',
     },
@@ -15,22 +15,22 @@ export const MetadataHomeDA: Metadata = {
         { name: "Chorn Planet" }
     ],
     openGraph: {
-        title: "CHORN | Medieplatform for systemer og anvendt teknologi",
+        title: "Chorn Planet | Medieplatform for systemer og anvendt teknologi",
         description:
-            "CHORN er en medieplatform, der præsenterer strukturerede forklaringer af systemanalyse, softwareteknik, integrationspraksis og anvendte teknologiemner, herunder AI-automatisering, cloud-systemer og moderniseringstilgange, til brug i offentlige, investor- og policyorienterede sammenhænge.",
+            "Chorn Planet er en medieplatform, der præsenterer strukturerede forklaringer af systemanalyse, softwareteknik, integrationspraksis og anvendte teknologiemner, herunder AI-automatisering, cloud-systemer og moderniseringstilgange, til brug i offentlige, investor- og policyorienterede sammenhænge.",
         images: metadataLink(LanguageCode.en, MetaLinks.home).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.home).alternates.canonical,
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN | Medieplatform for systemer og anvendt teknologi",
+        title: "Chorn Planet | Medieplatform for systemer og anvendt teknologi",
         description:
-            "CHORN er en medieplatform, der præsenterer strukturerede forklaringer af systemanalyse, softwareteknik, integrationspraksis og anvendte teknologiemner, herunder AI-automatisering, cloud-systemer og moderniseringstilgange, til brug i offentlige, investor- og policyorienterede sammenhænge.",
+            "Chorn Planet er en medieplatform, der præsenterer strukturerede forklaringer af systemanalyse, softwareteknik, integrationspraksis og anvendte teknologiemner, herunder AI-automatisering, cloud-systemer og moderniseringstilgange, til brug i offentlige, investor- og policyorienterede sammenhænge.",
         images: metadataLink(LanguageCode.en, MetaLinks.home).twitter.images,
     },
     keywords: [
-        "CHORN", "Chorn Planet", "CHORN medieplatform", "systemanalyse", "softwareteknik",
+        "Chorn Planet", "Chorn Planet", "Chorn Planet medieplatform", "systemanalyse", "softwareteknik",
         "systemintegration", "enterprise software", "cloud-systemer", "AI-integration",
         "DevOps", "mikroservices", "teknisk arkitektur"
     ]

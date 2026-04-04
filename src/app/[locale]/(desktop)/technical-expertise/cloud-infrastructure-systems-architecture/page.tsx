@@ -24,8 +24,8 @@ export default async function Page() {
             <CloudExperience lang={lang}/>
             <HomeFeatureMain lang={lang}/>
             <SchemaMarkupServicePage
-                name="Cloud Solution Architecture & Systems Analysis | CHORN | AWS, Azure, GCP, DigitalOcean"
-                description="CHORN delivers expert cloud solution architecture and system analysis services. We optimize cloud infrastructures across AWS, Azure, GCP, and DigitalOcean, ensuring performance, scalability, and cost-efficiency."
+                name="Cloud Solution Architecture & Systems Analysis | Chorn Planet | AWS, Azure, GCP, DigitalOcean"
+                description="Chorn Planet delivers expert cloud solution architecture and system analysis services. We optimize cloud infrastructures across AWS, Azure, GCP, and DigitalOcean, ensuring performance, scalability, and cost-efficiency."
                 url="https://chornplanet.com/en/technical-expertise/cloud-solution-architecture-systems-analysis/"
             />
         </div>

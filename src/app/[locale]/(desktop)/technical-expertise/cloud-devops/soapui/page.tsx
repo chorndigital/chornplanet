@@ -23,8 +23,8 @@ export default async function Page() {
             <CloudExperience lang={lang}/>
             <FooterMain lang={lang}/>
             <SchemaMarkupServicePage
-                name="SoapUI Testing Services | CHORN"
-                description="CHORN provides expert SoapUI testing services to ensure your web services and APIs are thoroughly tested and reliable."
+                name="SoapUI Testing Services | Chorn Planet"
+                description="Chorn Planet provides expert SoapUI testing services to ensure your web services and APIs are thoroughly tested and reliable."
                 url="https://chornplanet.com/en/technical-expertise/cloud-devops/soapui/"
             />
         </div>

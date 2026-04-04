@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataVueTH: Metadata = {
-    title: "บริการพัฒนา Vue.js | CHORN",
+    title: "บริการพัฒนา Vue.js | Chorn Planet",
     description: "เชี่ยวชาญในการพัฒนา Vue.js เพื่อสร้างแอปพลิเคชันเว็บที่มีความอินเทอร์แอคทีฟและสามารถขยายได้",
     alternates: metadataLink(LanguageCode.th, MetaLinks.frontend.vue).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "พัฒนา Vue.js | CHORN",
+        title: "พัฒนา Vue.js | Chorn Planet",
         description: "พัฒนา Vue.js โดยผู้เชี่ยวชาญ ใช้ความรู้ทางเทคนิคในการสร้างแอปพลิเคชันเว็บที่ทันสมัย",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.vue).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.frontend.vue).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataVueTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการพัฒนา Vue.js | CHORN",
+        title: "บริการพัฒนา Vue.js | Chorn Planet",
         description: "ยกระดับแอปพลิเคชันเว็บของคุณด้วยการพัฒนา Vue.js โดยผู้เชี่ยวชาญ",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.vue).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataVueTH: Metadata = {
         "dynamic user interfaces", "single-page applications", "Vue.js developer",
         "Vue.js developer Thailand", "Vue.js developer Bangkok", "Vue.js developer Chiang Mai", "frontend developer Thailand",
         "web developer Bangkok", "software engineer", "software developer Thailand",
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

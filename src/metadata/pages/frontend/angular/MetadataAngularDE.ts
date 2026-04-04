@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAngularDE: Metadata = {
-    title: "Angular Entwicklungsdienstleistungen | CHORN",
+    title: "Angular Entwicklungsdienstleistungen | Chorn Planet",
     description: "Angular-Entwicklungsdienst, erstellen Sie dynamische, skalierbare und leistungsstarke Webanwendungen mit Angular.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.frontend.angular).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Angular Entwicklung | CHORN",
+        title: "Angular Entwicklung | Chorn Planet",
         description: "Angular-Entwicklung mit technischer Expertise zur Erstellung schneller, skalierbarer und dynamischer Webanwendungen.",
         images: metadataLink(LanguageCode.de, MetaLinks.frontend.angular).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.frontend.angular).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataAngularDE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Angular Entwicklungsdienstleistungen | CHORN",
+        title: "Angular Entwicklungsdienstleistungen | Chorn Planet",
         description: "Verbessern Sie Ihre Webanwendungen mit professioneller Angular-Entwicklung.",
         images: metadataLink(LanguageCode.de, MetaLinks.frontend.angular).twitter.images,
     },
@@ -34,7 +34,7 @@ export const MetadataAngularDE: Metadata = {
         "Webentwickler", "Full-Stack-Entwickler", "Softwareingenieur", "Softwareentwickler Thailand",
         "Angular Entwickler Thailand", "Frontend-Entwickler Thailand", "Webentwickler Bangkok",
         "Angular Entwickler Chiang Mai", "Angular Entwickler Bangkok", "Angular Entwicklungsfirma",
-        "CHORN", "digitale Innovation", "Unternehmenssoftware",
+        "Chorn Planet", "digitale Innovation", "Unternehmenssoftware",
         "Responsive Webdesign in Angular", "Responsive Webdesign Angular", "Angular Responsive Webdesign"
     ]
 }

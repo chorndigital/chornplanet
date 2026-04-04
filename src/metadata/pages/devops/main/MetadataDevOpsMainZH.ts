@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDevOpsMainZH: Metadata = {
-    title: "企业 DevOps 和云解决方案 | CHORN",
+    title: "企业 DevOps 和云解决方案 | Chorn Planet",
     description: "利用 DevOps 和云的专业知识加速您的数字化转型。我们提供优化的 CI/CD 管道、基础设施自动化和 Cloud-native 解决方案，增强可靠性并减少市场上市时间。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.devops.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "企业 DevOps 和云解决方案 | CHORN",
+        title: "企业 DevOps 和云解决方案 | Chorn Planet",
         description: "利用 DevOps 和云的专业知识加速您的数字化转型。我们提供优化的 CI/CD 管道、基础设施自动化和 Cloud-native 解决方案，增强可靠性并减少市场上市时间。",
         images: metadataLink(LanguageCode.zh, MetaLinks.devops.main).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.devops.main).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDevOpsMainZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "企业 DevOps 和云解决方案 | CHORN",
+        title: "企业 DevOps 和云解决方案 | Chorn Planet",
         description: "利用 DevOps 和云的专业知识加速您的数字化转型。我们提供优化的 CI/CD 管道、基础设施自动化和 Cloud-native 解决方案，增强可靠性并减少市场上市时间。",
         images: metadataLink(LanguageCode.zh, MetaLinks.devops.main).twitter.images,
     },

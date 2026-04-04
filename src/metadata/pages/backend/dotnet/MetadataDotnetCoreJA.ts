@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDotnetCoreJA: Metadata = {
-    title: ".NET Core C# フルスタック開発 | CHORN",
+    title: ".NET Core C# フルスタック開発 | Chorn Planet",
     description: ".NET Core C# フルスタック開発の技術的専門知識を活用し、現代的でスケーラブルで安全なウェブアプリケーションを構築します。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.backend.dotnetcore).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: ".NET Core C# 開発 | CHORN",
+        title: ".NET Core C# 開発 | Chorn Planet",
         description: ".NET Core C# フルスタック開発の技術的専門知識を活用して、安全でスケーラブルで現代的なウェブアプリケーションを構築します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.backend.dotnetcore).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.backend.dotnetcore).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDotnetCoreJA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: ".NET Core C# フルスタック開発 | CHORN",
+        title: ".NET Core C# フルスタック開発 | Chorn Planet",
         description: "現代的でスケーラブルなウェブアプリケーションのための .NET Core C# フルスタック開発技術の専門知識。",
         images: metadataLink(LanguageCode.ja, MetaLinks.backend.dotnetcore).twitter.images,
     },
@@ -36,6 +36,6 @@ export const MetadataDotnetCoreJA: Metadata = {
         ".NET Core C# 開発者 タイ", ".NET Core C# 開発者 バンコク", ".NET Core C# 開発者 チェンマイ",
         "バックエンド開発者 タイ", "ソフトウェアエンジニア", "ソフトウェア開発者 タイ",
 
-        "CHORN", "デジタル革新", "企業向けソフトウェア"
+        "Chorn Planet", "デジタル革新", "企業向けソフトウェア"
     ]
 }

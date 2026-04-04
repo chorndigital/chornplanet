@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataReactDE: Metadata = {
-    title: "React-Entwicklungsdienste | CHORN",
+    title: "React-Entwicklungsdienste | Chorn Planet",
     description: "Top-React-Entwicklung mit technischer Expertise, erstellen Sie dynamische und reaktionsschnelle Benutzeroberflächen mit React.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.frontend.react).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "React-Entwicklung | CHORN",
+        title: "React-Entwicklung | Chorn Planet",
         description: "Verbessern Sie Ihre Webanwendungen mit React-Entwicklungsexpertise, technische Fachkenntnisse für leistungsstarke Anwendungen.",
         images: metadataLink(LanguageCode.de, MetaLinks.frontend.react).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.frontend.react).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataReactDE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "React-Entwicklungsdienste | CHORN",
+        title: "React-Entwicklungsdienste | Chorn Planet",
         description: "Experten-React-Entwicklung, technische Expertise zur Erstellung ansprechender Benutzeroberflächen mit React.",
         images: metadataLink(LanguageCode.de, MetaLinks.frontend.react).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataReactDE: Metadata = {
         "Dynamische Benutzeroberflächen", "Einzelseitenanwendungen", "React.js-Entwickler",
         "React-Entwickler Deutschland", "React-Entwickler Berlin", "React-Entwickler München", "Frontend-Entwickler Deutschland",
         "Web-Entwickler Berlin", "Softwareingenieur", "Softwareentwickler Deutschland",
-        "CHORN", "Digitale Innovation", "Unternehmenssoftware"
+        "Chorn Planet", "Digitale Innovation", "Unternehmenssoftware"
     ]
 }

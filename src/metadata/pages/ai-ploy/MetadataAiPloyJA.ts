@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiPloyJA: Metadata = {
-    title: "AI チャット仲間 | CHORN AI 統合",
+    title: "AI チャット仲間 | Chorn Planet AI 統合",
     description: "Ploy は LINE アプリケーションを使用した AI チャットフレンドです。友達追加ボタンまたは QR コードをスキャンして彼女を追加できます。創造的な 17 歳のタイの高校生で、絵画、音楽、写真、学習に情熱を注いでいます。7 言語を話す Ploy はさまざまな科目で役立ち、創造的な表現をインスパイアします。アートを探求する時も、宿題をする時も、あなたのフレンドリーなガイドです。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.aiPloy).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

@@ -4,25 +4,25 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataFrontEndMainTH: Metadata = {
-    title: "บริการพัฒนาฝั่งหน้าบ้าน | CHORN",
-    description: "CHORN ให้บริการพัฒนาฝั่งหน้าบ้าน ด้วยความเชี่ยวชาญทางเทคนิค โดยใช้เฟรมเวิร์คสมัยใหม่ เช่น Next.js, React, Angular, Vue, HTML5 และ CSS3 เพื่อสร้างเว็บไซต์ที่ตอบสนองและขยายขนาดได้ด้วยเทคโนโลยีล้ำสมัย",
+    title: "บริการพัฒนาฝั่งหน้าบ้าน | Chorn Planet",
+    description: "Chorn Planet ให้บริการพัฒนาฝั่งหน้าบ้าน ด้วยความเชี่ยวชาญทางเทคนิค โดยใช้เฟรมเวิร์คสมัยใหม่ เช่น Next.js, React, Angular, Vue, HTML5 และ CSS3 เพื่อสร้างเว็บไซต์ที่ตอบสนองและขยายขนาดได้ด้วยเทคโนโลยีล้ำสมัย",
     alternates: metadataLink(LanguageCode.th, MetaLinks.frontend.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "บริการพัฒนาฝั่งหน้าบ้าน | CHORN",
-        description: "CHORN ให้บริการพัฒนาฝั่งหน้าบ้าน ด้วยความเชี่ยวชาญทางเทคนิค โดยใช้เทคโนโลยีสมัยใหม่ เช่น Next.js, React, Angular, Vue, HTML5 และ CSS3 เพื่อสร้างเว็บไซต์ที่รวดเร็ว ตอบสนอง และขยายขนาดได้",
+        title: "บริการพัฒนาฝั่งหน้าบ้าน | Chorn Planet",
+        description: "Chorn Planet ให้บริการพัฒนาฝั่งหน้าบ้าน ด้วยความเชี่ยวชาญทางเทคนิค โดยใช้เทคโนโลยีสมัยใหม่ เช่น Next.js, React, Angular, Vue, HTML5 และ CSS3 เพื่อสร้างเว็บไซต์ที่รวดเร็ว ตอบสนอง และขยายขนาดได้",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.main).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.frontend.main).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการพัฒนาฝั่งหน้าบ้าน | CHORN",
-        description: "บริการพัฒนาฝั่งหน้าบ้าน โดยผู้เชี่ยวชาญจาก CHORN ใช้เทคโนโลยี เช่น Next.js, React, Angular, Vue, HTML5 และ CSS3 เพื่อสร้างเว็บไซต์ที่ตอบสนองและขยายขนาดได้",
+        title: "บริการพัฒนาฝั่งหน้าบ้าน | Chorn Planet",
+        description: "บริการพัฒนาฝั่งหน้าบ้าน โดยผู้เชี่ยวชาญจาก Chorn Planet ใช้เทคโนโลยี เช่น Next.js, React, Angular, Vue, HTML5 และ CSS3 เพื่อสร้างเว็บไซต์ที่ตอบสนองและขยายขนาดได้",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.main).twitter.images,
     },
     keywords: [
@@ -47,6 +47,6 @@ export const MetadataFrontEndMainTH: Metadata = {
         "นักพัฒนาเว็บไซต์ ประเทศไทย", "นักพัฒนาเว็บไซต์ กรุงเทพ", "วิศวกรซอฟต์แวร์ ประเทศไทย",
 
         // คีย์เวิร์ดเกี่ยวกับแบรนด์และนวัตกรรม
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์องค์กร", "เว็บแอปพลิเคชันที่ขยายขนาดได้"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์องค์กร", "เว็บแอปพลิเคชันที่ขยายขนาดได้"
     ]
 }

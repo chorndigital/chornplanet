@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsVue lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="Vue.js Development Services | CHORN"
-                description="CHORN specializes in Vue.js development to create interactive and scalable web applications."
+                name="Vue.js Development Services | Chorn Planet"
+                description="Chorn Planet specializes in Vue.js development to create interactive and scalable web applications."
                 url="https://chornplanet.com/en/technical-expertise/front-end-developer/vue-developer/"
             />
         </div>

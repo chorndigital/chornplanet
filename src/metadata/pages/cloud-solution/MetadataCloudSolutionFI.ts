@@ -4,16 +4,16 @@ import {metadataLink} from "@/metadata/metadataLink/metadataLink";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCloudSolutionFI: Metadata = {
-    title: "Pilviratkaisujen arkkitehtuuri & Järjestelmäanalyysi | CHORN | AWS, Azure, GCP, DigitalOcean",
-    description: "CHORN tarjoaa asiantuntemusta pilviratkaisujen arkkitehtuurissa ja järjestelmäanalyysissä. Optimoimme pilvi-infrastruktuurit AWS:ssä, Azuren, GCP:n ja DigitalOceanin ympäristöissä suorituskyvyn, skaalautuvuuden ja kustannustehokkuuden varmistamiseksi.",
+    title: "Pilviratkaisujen arkkitehtuuri & Järjestelmäanalyysi | Chorn Planet | AWS, Azure, GCP, DigitalOcean",
+    description: "Chorn Planet tarjoaa asiantuntemusta pilviratkaisujen arkkitehtuurissa ja järjestelmäanalyysissä. Optimoimme pilvi-infrastruktuurit AWS:ssä, Azuren, GCP:n ja DigitalOceanin ympäristöissä suorituskyvyn, skaalautuvuuden ja kustannustehokkuuden varmistamiseksi.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.cloudSolutions).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Pilviratkaisujen arkkitehtuuri & Järjestelmäanalyysi | CHORN",
+        title: "Pilviratkaisujen arkkitehtuuri & Järjestelmäanalyysi | Chorn Planet",
         description: "Tutustu CHORNin asiantuntemukseen pilviratkaisujen arkkitehtuurissa ja järjestelmäanalyysissä. Suunnittelemme kestäviä, skaalautuvia ja optimoituja pilviratkaisuja AWS:ssä, Azuren, GCP:n ja DigitalOceanin ympäristöissä.",
         images: metadataLink(LanguageCode.fi, MetaLinks.cloudSolutions).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.cloudSolutions).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataCloudSolutionFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Pilviratkaisujen arkkitehtuuri & Järjestelmäanalyysi | CHORN",
+        title: "Pilviratkaisujen arkkitehtuuri & Järjestelmäanalyysi | Chorn Planet",
         description: "Optimoi pilvi-infrastruktuurisi CHORNin asiantuntemuksella pilviratkaisujen arkkitehtuurissa ja järjestelmäanalyysissä AWS:n, Azuren, GCP:n ja DigitalOceanin ympäristöissä.",
         images: metadataLink(LanguageCode.fi, MetaLinks.cloudSolutions).twitter.images,
     },
@@ -36,6 +36,6 @@ export const MetadataCloudSolutionFI: Metadata = {
         "pilviarkkitehti Suomi", "AWS-arkkitehti Suomi", "Azure-arkkitehti Suomi", "GCP-arkkitehti Suomi",
         "DigitalOcean-kehittäjä Suomi", "järjestelmäanalyytikko Suomi", "pilvi-infrastruktuurin asiantuntija Suomi",
 
-        "CHORN", "pilviratkaisut", "digitaalinen innovaatio", "pilvi-infrastruktuurin suunnittelu", "skaalautuvat pilvijärjestelmät"
+        "Chorn Planet", "pilviratkaisut", "digitaalinen innovaatio", "pilvi-infrastruktuurin suunnittelu", "skaalautuvat pilvijärjestelmät"
     ]
 }

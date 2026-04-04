@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCss3FR: Metadata = {
-    title: "Services de Développement CSS3 | CHORN",
+    title: "Services de Développement CSS3 | Chorn Planet",
     description: "Améliorez vos applications web avec le développement CSS3, expertise technique pour des conceptions modernes et visuellement attrayantes.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.frontend.css3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Développement CSS3 | CHORN",
+        title: "Développement CSS3 | Chorn Planet",
         description: "Développement CSS3 avec expertise technique pour créer des conceptions web élégantes et réactives.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.css3).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.frontend.css3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataCss3FR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Services de Développement CSS3 | CHORN",
+        title: "Services de Développement CSS3 | Chorn Planet",
         description: "Créez des conceptions web visuellement impressionnantes avec CSS3 grâce à notre expertise en développement CSS3.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.css3).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataCss3FR: Metadata = {
         "développement web", "design web haute performance", "interfaces utilisateur dynamiques",
         "développeur CSS3 Thaïlande", "développeur CSS3 Bangkok", "développeur CSS3 Chiang Mai", "développeur frontend Thaïlande",
         "développeur web Bangkok", "ingénieur logiciel", "développeur logiciel Thaïlande",
-        "CHORN", "innovation numérique", "logiciel d'entreprise"
+        "Chorn Planet", "innovation numérique", "logiciel d'entreprise"
     ]
 }

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPhpTH: Metadata = {
-    title: "การพัฒนา PHP Full Stack | CHORN",
+    title: "การพัฒนา PHP Full Stack | Chorn Planet",
     description: "การพัฒนา PHP Full Stack, ความเชี่ยวชาญทางเทคนิคในการสร้างแอปพลิเคชันเว็บที่มีความยืดหยุ่นและสามารถขยายได้.",
     alternates: metadataLink(LanguageCode.th, MetaLinks.backend.php).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "การพัฒนา PHP | CHORN",
+        title: "การพัฒนา PHP | Chorn Planet",
         description: "ใช้ประโยชน์จากการพัฒนา PHP Full Stack, ความเชี่ยวชาญทางเทคนิคในการสร้างแอปพลิเคชันเว็บที่สามารถขยายได้และมีความยืดหยุ่น.",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.php).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.backend.php).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPhpTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "การพัฒนา PHP Full Stack | CHORN",
+        title: "การพัฒนา PHP Full Stack | Chorn Planet",
         description: "ความเชี่ยวชาญการพัฒนา PHP Full Stack สำหรับแอปพลิเคชันเว็บที่มีความยืดหยุ่นและสามารถขยายได้.",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.php).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataPhpTH: Metadata = {
         "แอปพลิเคชันเว็บที่กำหนดเอง", "การพัฒนา API", "ซอฟต์แวร์สำหรับองค์กร", "เฟรมเวิร์ก PHP",
         "นักพัฒนา PHP ประเทศไทย", "นักพัฒนา PHP กรุงเทพ", "นักพัฒนา PHP เชียงใหม่",
         "นักพัฒนา backend ประเทศไทย", "นักพัฒนา full stack ประเทศไทย", "วิศวกรซอฟต์แวร์", "นักพัฒนาซอฟต์แวร์ ประเทศไทย",
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
     ]
 }

@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiFahDA: Metadata = {
-    title: "AI Chat Companion | CHORN AI Integration",
+    title: "AI Chat Companion | Chorn Planet AI Integration",
     description: "Fah er din AI-chatven på LINE-appen. Hun er en 20-årig thailandsk-inspireret ledsager, der er munter og imødekommende. Tilføj hende med ét klik eller scan hendes QR-kode for at opdage Thailands bedste destinationer, retter og kulturelle skatte. Chat på flere sprog, mens hun guider dig gennem den thailandske kultur med ungdommelig energi.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.aiFah).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

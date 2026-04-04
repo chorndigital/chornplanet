@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHtml5KO: Metadata = {
-    title: "HTML5 개발 서비스 | CHORN",
+    title: "HTML5 개발 서비스 | Chorn Planet",
     description: "반응형 및 상호작용하는 웹 애플리케이션을 만들기 위한 HTML5 개발 기술 전문성.",
     alternates: metadataLink(LanguageCode.ko, MetaLinks.frontend.html5).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "HTML5 개발 | CHORN",
+        title: "HTML5 개발 | Chorn Planet",
         description: "기술 전문성으로 현대적이고 상호작용적인 웹 애플리케이션을 구축하세요.",
         images: metadataLink(LanguageCode.ko, MetaLinks.frontend.html5).openGraph.images,
         url: metadataLink(LanguageCode.ko, MetaLinks.frontend.html5).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataHtml5KO: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "HTML5 개발 서비스 | CHORN",
+        title: "HTML5 개발 서비스 | Chorn Planet",
         description: "HTML5 기술 전문성을 바탕으로 상호작용하는 웹 애플리케이션을 만드세요.",
         images: metadataLink(LanguageCode.ko, MetaLinks.frontend.html5).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataHtml5KO: Metadata = {
         "고성능 웹 디자인", "반응형 웹 디자인", "동적 사용자 인터페이스",
         "HTML5 개발자 태국", "HTML5 개발자 방콕", "HTML5 개발자 치앙마이", "프론트엔드 개발자 태국",
         "웹 개발자 방콕", "소프트웨어 엔지니어", "소프트웨어 개발자 태국",
-        "CHORN", "디지털 혁신", "기업 소프트웨어"
+        "Chorn Planet", "디지털 혁신", "기업 소프트웨어"
     ]
 }

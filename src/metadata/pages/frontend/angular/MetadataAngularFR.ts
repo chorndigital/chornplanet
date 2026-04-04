@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAngularFR: Metadata = {
-    title: "Services de développement Angular | CHORN",
+    title: "Services de développement Angular | Chorn Planet",
     description: "Service de développement Angular, créez des applications web dynamiques, évolutives et performantes avec Angular.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.frontend.angular).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Développement Angular | CHORN",
+        title: "Développement Angular | Chorn Planet",
         description: "Développement Angular avec une expertise technique pour créer des applications web rapides, évolutives et dynamiques.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.angular).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.frontend.angular).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataAngularFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Services de développement Angular | CHORN",
+        title: "Services de développement Angular | Chorn Planet",
         description: "Améliorez vos applications web avec un développement Angular expert.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.angular).twitter.images,
     },
@@ -34,7 +34,7 @@ export const MetadataAngularFR: Metadata = {
         "développeur web", "développeur full stack", "ingénieur logiciel", "développeur de logiciels en Thaïlande",
         "développeur Angular Thaïlande", "développeur frontend Thaïlande", "développeur web Bangkok",
         "développeur Angular Chiang Mai", "développeur Angular Bangkok", "entreprise de développement Angular",
-        "CHORN", "innovation numérique", "logiciel d'entreprise",
+        "Chorn Planet", "innovation numérique", "logiciel d'entreprise",
         "conception web responsive avec Angular", "design web responsive Angular", "Angular design web responsive"
     ]
 }

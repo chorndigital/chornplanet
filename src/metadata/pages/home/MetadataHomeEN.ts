@@ -4,9 +4,9 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHomeEN: Metadata = {
-    title: "CHORN | Media Platform for Systems and Applied Technology",
+    title: "Chorn Planet | Media Platform for Systems and Applied Technology",
     description:
-        "CHORN is a media platform presenting structured explanations of system analysis, software engineering, integration practices, and applied technology topics, including AI automation, cloud systems, and modernization approaches, for public, investor, and policy-facing contexts.",
+        "Chorn Planet is a media platform presenting structured explanations of system analysis, software engineering, integration practices, and applied technology topics, including AI automation, cloud systems, and modernization approaches, for public, investor, and policy-facing contexts.",
     icons: {
         icon: '/favicon.ico',
     },
@@ -17,24 +17,24 @@ export const MetadataHomeEN: Metadata = {
         }
     ],
     openGraph: {
-        title: "CHORN | Media Platform for Systems and Applied Technology",
+        title: "Chorn Planet | Media Platform for Systems and Applied Technology",
         description:
-            "CHORN is a media platform presenting structured explanations of system analysis, software engineering, integration practices, and applied technology topics, including AI automation, cloud systems, and modernization approaches, for public, investor, and policy-facing contexts.",
+            "Chorn Planet is a media platform presenting structured explanations of system analysis, software engineering, integration practices, and applied technology topics, including AI automation, cloud systems, and modernization approaches, for public, investor, and policy-facing contexts.",
         images: metadataLink(LanguageCode.en, MetaLinks.home).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.home).alternates.canonical,
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN | Media Platform for Systems and Applied Technology",
+        title: "Chorn Planet | Media Platform for Systems and Applied Technology",
         description:
-            "CHORN is a media platform presenting structured explanations of system analysis, software engineering, integration practices, and applied technology topics, including AI automation, cloud systems, and modernization approaches, for public, investor, and policy-facing contexts.",
+            "Chorn Planet is a media platform presenting structured explanations of system analysis, software engineering, integration practices, and applied technology topics, including AI automation, cloud systems, and modernization approaches, for public, investor, and policy-facing contexts.",
         images: metadataLink(LanguageCode.en, MetaLinks.home).twitter.images,
     },
     keywords: [
         // Brand Keywords
-        "CHORN", "Chorn Planet", "CHORN media platform", "CHORN systems media", "What is CHORN",
-        "CHORN Thailand", "CHORN Chiang Mai", "CHORN Bangkok",
+        "Chorn Planet", "Chorn Planet", "Chorn Planet media platform", "Chorn Planet systems media", "What is Chorn Planet",
+        "Chorn Planet Thailand", "Chorn Planet Chiang Mai", "Chorn Planet Bangkok",
 
         // Core Topics (Neutral, descriptive)
         "system analysis", "software engineering", "system integration", "enterprise software",

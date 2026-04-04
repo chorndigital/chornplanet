@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDotnetCoreDE: Metadata = {
-    title: ".NET Core C# Full Stack Entwicklung | CHORN",
+    title: ".NET Core C# Full Stack Entwicklung | Chorn Planet",
     description: ".NET Core C# Full Stack Entwicklung mit technischer Expertise zum Erstellen moderner, skalierbarer und sicherer Webanwendungen.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.backend.dotnetcore).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: ".NET Core C# Entwicklung | CHORN",
+        title: ".NET Core C# Entwicklung | Chorn Planet",
         description: "Erstellen Sie sichere, skalierbare und moderne Webanwendungen mit technischer Expertise in der .NET Core C# Full Stack Entwicklung.",
         images: metadataLink(LanguageCode.de, MetaLinks.backend.dotnetcore).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.backend.dotnetcore).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDotnetCoreDE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: ".NET Core C# Full Stack Entwicklung | CHORN",
+        title: ".NET Core C# Full Stack Entwicklung | Chorn Planet",
         description: "Technische Expertise in der .NET Core C# Full Stack Entwicklung für moderne und skalierbare Webanwendungen.",
         images: metadataLink(LanguageCode.de, MetaLinks.backend.dotnetcore).twitter.images,
     },
@@ -36,6 +36,6 @@ export const MetadataDotnetCoreDE: Metadata = {
         ".NET Core C# Entwickler Thailand", ".NET Core C# Entwickler Bangkok", ".NET Core C# Entwickler Chiang Mai",
         "Backend-Entwickler Thailand", "Softwareingenieur", "Softwareentwickler Thailand",
 
-        "CHORN", "digitale Innovation", "Unternehmenssoftware"
+        "Chorn Planet", "digitale Innovation", "Unternehmenssoftware"
     ]
 }

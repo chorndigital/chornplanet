@@ -7,11 +7,11 @@ export const WorkplacePolicyFI: IPolicy = {
     contents: [
         {
             title: "Työmallit",
-            description: "CHORN mukautuu erilaisiin työskentelymalleihin, mukaan lukien etätyö, toimistotyö ja hybridityö, räätälöiden ne kunkin projektin erityistarpeisiin. Tämä lähestymistapa varmistaa sujuvan viestinnän ja tehokkuuden.",
+            description: "Chorn Planet mukautuu erilaisiin työskentelymalleihin, mukaan lukien etätyö, toimistotyö ja hybridityö, räätälöiden ne kunkin projektin erityistarpeisiin. Tämä lähestymistapa varmistaa sujuvan viestinnän ja tehokkuuden.",
         },
         {
             title: "Miksi hybridi?",
-            description: "Loistavia ideoita voi syntyä mistä tahansa, oli kyse sitten toimistosta, kodista tai liikkeellä olosta. Tarjoamalla hybridityömallin CHORN tarjoaa molempien maailmojen parhaat puolet – tasapainottaen jäsennellyn yhteistyön joustavuudella henkilökohtaista ja ammatillista kasvua varten."
+            description: "Loistavia ideoita voi syntyä mistä tahansa, oli kyse sitten toimistosta, kodista tai liikkeellä olosta. Tarjoamalla hybridityömallin Chorn Planet tarjoaa molempien maailmojen parhaat puolet – tasapainottaen jäsennellyn yhteistyön joustavuudella henkilökohtaista ja ammatillista kasvua varten."
         },
         {
             title: "Joustava toimistoläsnäolo",
@@ -23,7 +23,7 @@ export const WorkplacePolicyFI: IPolicy = {
         },
         {
             title: "Teknologiapainotteinen",
-            description: "CHORN hyödyntää huippuluokan viestintä- ja yhteistyötyökaluja varmistaakseen sujuvan vuorovaikutuksen tiimin jäsenten välillä, riippumatta sijainnista."
+            description: "Chorn Planet hyödyntää huippuluokan viestintä- ja yhteistyötyökaluja varmistaakseen sujuvan vuorovaikutuksen tiimin jäsenten välillä, riippumatta sijainnista."
         },
         {
             title: "Työn ja vapaa-ajan tasapaino",

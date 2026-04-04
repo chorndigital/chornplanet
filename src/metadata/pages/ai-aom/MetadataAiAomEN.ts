@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiAomEN: Metadata = {
-    title: "AI Chat Companion | CHORN AI Integration",
+    title: "AI Chat Companion | Chorn Planet AI Integration",
     description: "Aom can be accessed through the LINE Application. You can press the Add Friend button or scan the LINE QR Code to add her as a friend. At 21, she's a friendly, vibrant AI companion passionate about healthy living and wellness who provides nutritional tips, exercise routines, and mindfulness practices. With her ability to chat in multiple languages, Aom helps you maintain a balanced lifestyle while keeping things fun.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.aiAom).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

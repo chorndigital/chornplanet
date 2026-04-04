@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiAomTH: Metadata = {
-    title: "เพื่อนสนทนา AI | การเชื่อมต่อ AI ของ CHORN",
+    title: "เพื่อนสนทนา AI | การเชื่อมต่อ AI ของ Chorn Planet",
     description: "ออมสามารถเข้าถึงได้ผ่านแอปพลิเคชัน LINE คุณสามารถกดปุ่มเพิ่มเพื่อนหรือสแกน QR โค้ดของ LINE เพื่อเพิ่มเธอเป็นเพื่อน ด้วยอายุ 21 ปี เธอเป็นเพื่อนสนทนา AI ที่มีความกระตือรือร้นและมีชีวิตชีวา โดยมีความหลงใหลในชีวิตที่มีสุขภาพดีและความเป็นอยู่ที่ดี ซึ่งให้คำแนะนำเกี่ยวกับโภชนาการ, ตารางการออกกำลังกาย, และการฝึกสติ ด้วยความสามารถในการสนทนาหลายภาษา ออมช่วยให้คุณรักษาสมดุลในชีวิตประจำวันในขณะที่ทำให้ทุกอย่างสนุกสนาน",
     alternates: metadataLink(LanguageCode.th, MetaLinks.aiAom).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

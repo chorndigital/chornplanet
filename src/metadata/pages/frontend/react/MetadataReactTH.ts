@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataReactTH: Metadata = {
-    title: "บริการพัฒนา React | CHORN",
+    title: "บริการพัฒนา React | Chorn Planet",
     description: "บริการพัฒนา React ระดับมืออาชีพ พร้อมความเชี่ยวชาญด้านเทคนิค สร้างอินเตอร์เฟซผู้ใช้ที่มีพลศาสตร์และตอบสนองได้ด้วย React",
     alternates: metadataLink(LanguageCode.th, MetaLinks.frontend.react).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "การพัฒนา React | CHORN",
+        title: "การพัฒนา React | Chorn Planet",
         description: "ยกระดับแอปพลิเคชันเว็บของคุณด้วยการพัฒนา React จากผู้เชี่ยวชาญ ด้านเทคนิคเพื่อแอปพลิเคชันที่มีประสิทธิภาพสูง",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.react).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.frontend.react).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataReactTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการพัฒนา React | CHORN",
+        title: "บริการพัฒนา React | Chorn Planet",
         description: "พัฒนา React ด้วยความเชี่ยวชาญทางเทคนิค สร้างอินเตอร์เฟซผู้ใช้ที่มีส่วนร่วมด้วย React",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.react).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataReactTH: Metadata = {
         "อินเตอร์เฟซผู้ใช้ที่มีพลศาสตร์", "แอปพลิเคชันแบบหน้าเดียว", "นักพัฒนา React.js",
         "นักพัฒนา React ไทย", "นักพัฒนา React กรุงเทพ", "นักพัฒนา React เชียงใหม่", "นักพัฒนา Frontend ไทย",
         "นักพัฒนาเว็บ กรุงเทพ", "วิศวกรซอฟต์แวร์", "นักพัฒนาซอฟต์แวร์ ไทย",
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
     ]
 }

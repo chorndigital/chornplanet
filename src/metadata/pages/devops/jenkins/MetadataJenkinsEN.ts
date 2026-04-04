@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJenkinsEN: Metadata = {
-    title: "Jenkins DevOps Services | CHORN",
+    title: "Jenkins DevOps Services | Chorn Planet",
     description: "Jenkins-based DevOps technical expertise for automating builds, testing, and deployment in your development pipeline.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.devops.jenkins).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Jenkins DevOps Services | CHORN",
+        title: "Jenkins DevOps Services | Chorn Planet",
         description: "Automate your development process with Jenkins DevOps technical expertise for continuous integration and deployment.",
         images: metadataLink(LanguageCode.en, MetaLinks.devops.jenkins).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.devops.jenkins).alternates.canonical,
@@ -21,8 +21,8 @@ export const MetadataJenkinsEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Jenkins DevOps Services | CHORN",
-        description: "Enhance your software development lifecycle with Jenkins-based DevOps technical expertise from CHORN for CI/CD automation.",
+        title: "Jenkins DevOps Services | Chorn Planet",
+        description: "Enhance your software development lifecycle with Jenkins-based DevOps technical expertise from Chorn Planet for CI/CD automation.",
         images: metadataLink(LanguageCode.en, MetaLinks.devops.jenkins).twitter.images,
     },
     keywords: [

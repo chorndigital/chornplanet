@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataVueFI: Metadata = {
-    title: "Vue.js Kehityspalvelut | CHORN",
+    title: "Vue.js Kehityspalvelut | Chorn Planet",
     description: "Erikoistunut Vue.js-kehitykseen luodakseen interaktiivisia ja skaalautuvia verkkosovelluksia.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.frontend.vue).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Vue.js Kehitys | CHORN",
+        title: "Vue.js Kehitys | Chorn Planet",
         description: "Vue.js-asiantuntemus, tekninen asiantuntemus nykyaikaisten verkkosovellusten luomiseen.",
         images: metadataLink(LanguageCode.fi, MetaLinks.frontend.vue).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.frontend.vue).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataVueFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Vue.js Kehityspalvelut | CHORN",
+        title: "Vue.js Kehityspalvelut | Chorn Planet",
         description: "Paranna verkkosovelluksiasi Vue.js-kehityksen asiantuntemuksella.",
         images: metadataLink(LanguageCode.fi, MetaLinks.frontend.vue).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataVueFI: Metadata = {
         "dynaamiset käyttöliittymät", "single-page sovellukset", "Vue.js kehittäjä",
         "Vue.js kehittäjä Thaimaa", "Vue.js kehittäjä Bangkok", "Vue.js kehittäjä Chiang Mai", "frontend kehittäjä Thaimaa",
         "verkkokehittäjä Bangkok", "ohjelmistoinsinööri", "ohjelmistokehittäjä Thaimaa",
-        "CHORN", "digitaalinen innovaatio", "yritysohjelmisto"
+        "Chorn Planet", "digitaalinen innovaatio", "yritysohjelmisto"
     ]
 }

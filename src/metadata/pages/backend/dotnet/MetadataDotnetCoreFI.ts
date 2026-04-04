@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDotnetCoreFI: Metadata = {
-    title: ".NET Core C# Full Stack Kehitys | CHORN",
+    title: ".NET Core C# Full Stack Kehitys | Chorn Planet",
     description: ".NET Core C# full stack kehitys teknisellä asiantuntemuksella nykyaikaisten, skaalautuvien ja turvallisten web-sovellusten luomiseen.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.backend.dotnetcore).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: ".NET Core C# Kehitys | CHORN",
+        title: ".NET Core C# Kehitys | Chorn Planet",
         description: "Rakenna turvallisia, skaalautuvia ja moderneja web-sovelluksia .NET Core C# full stack kehityksellä teknisellä asiantuntemuksella.",
         images: metadataLink(LanguageCode.fi, MetaLinks.backend.dotnetcore).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.backend.dotnetcore).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDotnetCoreFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: ".NET Core C# Full Stack Kehitys | CHORN",
+        title: ".NET Core C# Full Stack Kehitys | Chorn Planet",
         description: "Asiantunteva .NET Core C# full stack kehitys nykyaikaisille ja skaalautuville web-sovelluksille.",
         images: metadataLink(LanguageCode.fi, MetaLinks.backend.dotnetcore).twitter.images,
     },
@@ -36,6 +36,6 @@ export const MetadataDotnetCoreFI: Metadata = {
         ".NET Core C# kehittäjä Thaimaa", ".NET Core C# kehittäjä Bangkok", ".NET Core C# kehittäjä Chiang Mai",
         "backend kehittäjä Thaimaa", "ohjelmistoinsinööri", "ohjelmistokehittäjä Thaimaa",
 
-        "CHORN", "digitaalinen innovaatio", "yritysohjelmistot"
+        "Chorn Planet", "digitaalinen innovaatio", "yritysohjelmistot"
     ]
 }

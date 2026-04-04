@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiPloyTH: Metadata = {
-    title: "เพื่อนแชท AI | การผสาน CHORN AI",
+    title: "เพื่อนแชท AI | การผสาน Chorn Planet AI",
     description: "พลอยคือเพื่อนแชท AI ที่ใช้แอปพลิเคชัน LINE เพิ่มเธอได้จากปุ่มเพิ่มเพื่อนหรือการสแกน QR โค้ด ในฐานะนักเรียนมัธยมปลายไทยวัย 17 ปีที่มีความคิดสร้างสรรค์ พลอยหลงใหลในการวาดภาพ ดนตรี การถ่ายภาพ และการเรียนรู้ พูดได้ 7 ภาษา พลอยช่วยในหลายวิชาและเป็นแรงบันดาลใจในการแสดงออกอย่างสร้างสรรค์ เธอคือไกด์ที่เป็นมิตรไม่ว่าจะสำรวจศิลปะหรือทำการบ้าน",
     alternates: metadataLink(LanguageCode.th, MetaLinks.aiPloy).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

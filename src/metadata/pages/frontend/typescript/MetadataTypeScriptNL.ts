@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataTypeScriptNL: Metadata = {
-    title: "TypeScript | CHORN - Experts in maatwerksoftwareontwikkeling",
+    title: "TypeScript | Chorn Planet - Experts in maatwerksoftwareontwikkeling",
     description: "Gebruik TypeScript om schaalbare, robuuste en efficiënte maatwerksoftware-oplossingen te ontwikkelen voor bedrijven in verschillende sectoren.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.frontend.typescript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - Maatwerksoftwareontwikkeling met TypeScript",
+        title: "Chorn Planet - Maatwerksoftwareontwikkeling met TypeScript",
         description: "Expertise in TypeScript, een krachtig hulpmiddel voor het bouwen van schaalbare en high-performance toepassingen. Leer waarom we TypeScript kiezen voor maatwerksoftware-oplossingen.",
         images: metadataLink(LanguageCode.nl, MetaLinks.frontend.typescript).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.frontend.typescript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataTypeScriptNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - TypeScript-ontwikkeling voor maatwerksoftware-oplossingen",
+        title: "Chorn Planet - TypeScript-ontwikkeling voor maatwerksoftware-oplossingen",
         description: "Gebruik TypeScript om schaalbare en hoogwaardige software-oplossingen te leveren die zijn afgestemd op de behoeften van bedrijven.",
         images: metadataLink(LanguageCode.nl, MetaLinks.frontend.typescript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataTypeScriptNL: Metadata = {
         "TypeScript-ontwikkelaar Thailand", "TypeScript-ontwikkelaar Bangkok", "TypeScript-ontwikkelaar Chiang Mai",
         "Frontend-ontwikkelaar Thailand", "Backend-ontwikkelaar Thailand", "Full Stack-ontwikkelaar Thailand",
         "Software-engineer", "Softwareontwikkelaar Thailand",
-        "CHORN", "Digitale innovatie", "Bedrijfsoftware"
+        "Chorn Planet", "Digitale innovatie", "Bedrijfsoftware"
     ]
 }

@@ -22,8 +22,8 @@ export default async function Page() {
             <ServicesDetailsTypeScript lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="TypeScript | CHORN - Custom Software Development Experts"
-                description="Learn how CHORN leverages TypeScript to build scalable, robust, and efficient custom software solutions for businesses across industries."
+                name="TypeScript | Chorn Planet - Custom Software Development Experts"
+                description="Learn how Chorn Planet leverages TypeScript to build scalable, robust, and efficient custom software solutions for businesses across industries."
                 url="https://chornplanet.com/en/technical-expertise/full-stack-developer/typescript-javascript-developer/"
             />
         </div>

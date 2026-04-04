@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataVueKO: Metadata = {
-    title: "Vue.js 개발 서비스 | CHORN",
+    title: "Vue.js 개발 서비스 | Chorn Planet",
     description: "Vue.js 개발 전문으로, 상호작용적이고 확장 가능한 웹 애플리케이션을 만듭니다.",
     alternates: metadataLink(LanguageCode.ko, MetaLinks.frontend.vue).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Vue.js 개발 | CHORN",
+        title: "Vue.js 개발 | Chorn Planet",
         description: "Vue.js 개발 전문, 최신 웹 애플리케이션을 구축하기 위한 기술적 전문성.",
         images: metadataLink(LanguageCode.ko, MetaLinks.frontend.vue).openGraph.images,
         url: metadataLink(LanguageCode.ko, MetaLinks.frontend.vue).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataVueKO: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Vue.js 개발 서비스 | CHORN",
+        title: "Vue.js 개발 서비스 | Chorn Planet",
         description: "Vue.js 개발 전문성을 통해 웹 애플리케이션을 향상시키세요.",
         images: metadataLink(LanguageCode.ko, MetaLinks.frontend.vue).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataVueKO: Metadata = {
         "동적 사용자 인터페이스", "싱글 페이지 애플리케이션", "Vue.js 개발자",
         "Vue.js 개발자 태국", "Vue.js 개발자 방콕", "Vue.js 개발자 치앙마이", "프론트엔드 개발자 태국",
         "웹 개발자 방콕", "소프트웨어 엔지니어", "소프트웨어 개발자 태국",
-        "CHORN", "디지털 혁신", "기업 소프트웨어"
+        "Chorn Planet", "디지털 혁신", "기업 소프트웨어"
     ]
 }

@@ -7,11 +7,11 @@ export const WorkplacePolicyEN: IPolicy = {
     contents: [
         {
             title: "Work Models",
-            description: "CHORN adapts to various work models, including remote, in-office, and hybrid setups, tailoring them to the specific needs of each project. This approach ensures seamless communication and efficiency.",
+            description: "Chorn Planet adapts to various work models, including remote, in-office, and hybrid setups, tailoring them to the specific needs of each project. This approach ensures seamless communication and efficiency.",
         },
         {
             title: "Why Hybrid?",
-            description: "Great ideas can emerge from anywhere, whether in the office, at home, or on the go. By offering a hybrid work metadataLink, CHORN provides the best of both worlds—balancing structured collaboration with flexibility for personal and professional growth."
+            description: "Great ideas can emerge from anywhere, whether in the office, at home, or on the go. By offering a hybrid work metadataLink, Chorn Planet provides the best of both worlds—balancing structured collaboration with flexibility for personal and professional growth."
         },
         {
             title: "Flexible Office Presence",
@@ -23,7 +23,7 @@ export const WorkplacePolicyEN: IPolicy = {
         },
         {
             title: "Technology-Driven",
-            description: "CHORN leverages cutting-edge communication and collaboration tools to ensure seamless interaction among team members, regardless of location."
+            description: "Chorn Planet leverages cutting-edge communication and collaboration tools to ensure seamless interaction among team members, regardless of location."
         },
         {
             title: "Work-Life Balance",

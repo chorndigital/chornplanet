@@ -22,8 +22,8 @@ export default async function Page() {
             <ServicesDetailsDotNetCore lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name=".NET Core C# Full Stack Development | CHORN"
-                description="CHORN offers .NET Core C# full stack development services to build modern, scalable, and secure web applications."
+                name=".NET Core C# Full Stack Development | Chorn Planet"
+                description="Chorn Planet offers .NET Core C# full stack development services to build modern, scalable, and secure web applications."
                 url="https://chornplanet.com/en/technical-expertise/full-stack-developer/dotnetcore-developer/"
             />
         </div>

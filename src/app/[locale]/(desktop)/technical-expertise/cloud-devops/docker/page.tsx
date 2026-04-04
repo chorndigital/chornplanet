@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsDocker lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="Docker DevOps Services | CHORN"
-                description="CHORN offers Docker-based DevOps services for efficient containerization and scalable application deployment."
+                name="Docker DevOps Services | Chorn Planet"
+                description="Chorn Planet offers Docker-based DevOps services for efficient containerization and scalable application deployment."
                 url="https://chornplanet.com/en/technical-expertise/cloud-devops/docker/"
             />
         </div>

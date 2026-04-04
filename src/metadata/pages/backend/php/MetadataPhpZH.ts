@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPhpZH: Metadata = {
-    title: "PHP全栈开发 | CHORN",
+    title: "PHP全栈开发 | Chorn Planet",
     description: "PHP全栈开发，技术专长于构建动态和可扩展的Web应用程序。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.backend.php).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "PHP开发 | CHORN",
+        title: "PHP开发 | Chorn Planet",
         description: "利用PHP全栈开发，技术专长构建可扩展和动态的Web应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.backend.php).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.backend.php).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPhpZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "PHP全栈开发 | CHORN",
+        title: "PHP全栈开发 | Chorn Planet",
         description: "PHP全栈开发技术专长，用于开发动态和可扩展的Web应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.backend.php).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataPhpZH: Metadata = {
         "定制Web应用程序", "API开发", "企业软件", "PHP框架",
         "PHP开发者 泰国", "PHP开发者 曼谷", "PHP开发者 清迈",
         "后端开发者 泰国", "全栈开发者 泰国", "软件工程师", "软件开发者 泰国",
-        "CHORN", "数字创新", "企业软件"
+        "Chorn Planet", "数字创新", "企业软件"
     ]
 }

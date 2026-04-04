@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataGitLabFR: Metadata = {
-    title: "Services GitLab DevOps | CHORN",
+    title: "Services GitLab DevOps | Chorn Planet",
     description: "Expertise technique DevOps intégrant GitLab pour le contrôle de version, l'intégration continue et les flux de travail automatisés.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.devops.gitlab).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Services GitLab DevOps | CHORN",
+        title: "Services GitLab DevOps | Chorn Planet",
         description: "Améliorez votre flux de développement avec l'expertise DevOps basée sur GitLab pour CI/CD et le contrôle de version.",
         images: metadataLink(LanguageCode.fr, MetaLinks.devops.gitlab).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.devops.gitlab).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataGitLabFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Services GitLab DevOps | CHORN",
+        title: "Services GitLab DevOps | Chorn Planet",
         description: "Optimisez votre développement avec l'expertise DevOps GitLab pour le contrôle de version et les flux de travail CI/CD.",
         images: metadataLink(LanguageCode.fr, MetaLinks.devops.gitlab).twitter.images,
     },

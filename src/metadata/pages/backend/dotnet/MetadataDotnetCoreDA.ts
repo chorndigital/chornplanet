@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDotnetCoreDA: Metadata = {
-    title: ".NET Core C# Full Stack Udvikling | CHORN",
+    title: ".NET Core C# Full Stack Udvikling | Chorn Planet",
     description: ".NET Core C# full stack udvikling med teknisk ekspertise til at bygge moderne, skalerbare og sikre webapplikationer.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.backend.dotnetcore).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: ".NET Core C# Udvikling | CHORN",
+        title: ".NET Core C# Udvikling | Chorn Planet",
         description: "Byg sikre, skalerbare og moderne webapplikationer med teknisk ekspertise i .NET Core C# full stack udvikling.",
         images: metadataLink(LanguageCode.da, MetaLinks.backend.dotnetcore).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.backend.dotnetcore).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDotnetCoreDA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: ".NET Core C# Full Stack Udvikling | CHORN",
+        title: ".NET Core C# Full Stack Udvikling | Chorn Planet",
         description: "Teknisk ekspertise i .NET Core C# full stack udvikling til moderne og skalerbare webapplikationer.",
         images: metadataLink(LanguageCode.da, MetaLinks.backend.dotnetcore).twitter.images,
     },
@@ -36,6 +36,6 @@ export const MetadataDotnetCoreDA: Metadata = {
         ".NET Core C# udvikler Thailand", ".NET Core C# udvikler Bangkok", ".NET Core C# udvikler Chiang Mai",
         "backend udvikler Thailand", "softwareingeniør", "softwareudvikler Thailand",
 
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

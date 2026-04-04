@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHtml5FR: Metadata = {
-    title: "Services de Développement HTML5 | CHORN",
+    title: "Services de Développement HTML5 | Chorn Planet",
     description: "Expertise en développement HTML5 pour créer des applications web interactives et réactives.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.frontend.html5).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Développement HTML5 | CHORN",
+        title: "Développement HTML5 | Chorn Planet",
         description: "Construisez des applications web modernes et interactives avec une expertise technique.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.html5).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.frontend.html5).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataHtml5FR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Services de Développement HTML5 | CHORN",
+        title: "Services de Développement HTML5 | Chorn Planet",
         description: "Créez des applications web interactives avec l'expertise en HTML5.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.html5).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataHtml5FR: Metadata = {
         "Conception web haute performance", "Conception web responsive", "Interfaces utilisateur dynamiques",
         "Développeur HTML5 Thaïlande", "Développeur HTML5 Bangkok", "Développeur HTML5 Chiang Mai", "Développeur Frontend Thaïlande",
         "Développeur web Bangkok", "Ingénieur logiciel", "Développeur logiciel Thaïlande",
-        "CHORN", "Innovation numérique", "Logiciel d'entreprise"
+        "Chorn Planet", "Innovation numérique", "Logiciel d'entreprise"
     ]
 }

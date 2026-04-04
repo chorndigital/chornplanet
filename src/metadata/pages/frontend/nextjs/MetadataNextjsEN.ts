@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNextjsEN: Metadata = {
-    title: "Next.js Development Services | CHORN",
+    title: "Next.js Development Services | Chorn Planet",
     description: "Expert Next.js development, enhance your web applications with scalable and high-performance solutions using Next.js.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.frontend.nextjs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Next.js Development | CHORN",
+        title: "Next.js Development | Chorn Planet",
         description: "Specialized Next.js development, technical expertise to create fast and scalable web applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.nextjs).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.frontend.nextjs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNextjsEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Next.js Development Services | CHORN",
+        title: "Next.js Development Services | Chorn Planet",
         description: "Elevate your web applications with expert Next.js development technical-expertise.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.nextjs).twitter.images,
     },
@@ -39,6 +39,6 @@ export const MetadataNextjsEN: Metadata = {
         "web developer Bangkok", "software engineer", "software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

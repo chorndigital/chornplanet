@@ -5,24 +5,24 @@ import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWebDevelopmentJA: Metadata = {
     title: "ウェブ開発サービス | カスタムソフトウェアとテクノロジーソリューション",
-    description: "CHORNのウェブ開発技術的専門知識を探索してください。Next.js、React、Angular、Vueなどの技術を含む専門知識を提供します。CHORNは、デジタルマーケティング、ブロックチェーン、Eコマースなどのさまざまな分野で企業向けのカスタマイズされたソリューションを提供します。",
+    description: "Chorn Planetのウェブ開発技術的専門知識を探索してください。Next.js、React、Angular、Vueなどの技術を含む専門知識を提供します。Chorn Planetは、デジタルマーケティング、ブロックチェーン、Eコマースなどのさまざまな分野で企業向けのカスタマイズされたソリューションを提供します。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.webDevelopment).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "トップウェブ開発サービス | CHORN",
-        description: "CHORNはNext.js、React、Angularなどの人気のあるフレームワークに精通した最先端のウェブ開発技術的専門知識を提供します。CHORNは、デジタルマーケティング、Eコマース、ブロックチェーンなどの多様なビジネスニーズに対応します。",
+        title: "トップウェブ開発サービス | Chorn Planet",
+        description: "Chorn PlanetはNext.js、React、Angularなどの人気のあるフレームワークに精通した最先端のウェブ開発技術的専門知識を提供します。Chorn Planetは、デジタルマーケティング、Eコマース、ブロックチェーンなどの多様なビジネスニーズに対応します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.webDevelopment).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.webDevelopment).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "ウェブ開発サービス | CHORN",
-        description: "Next.jsからAngularまで、CHORNの専門的なウェブ開発技術を発見してください。CHORNは、デジタルマーケティング、ブロックチェーン、Eコマースなど、すべてのビジネスニーズに対応するソリューションを提供します。",
+        title: "ウェブ開発サービス | Chorn Planet",
+        description: "Next.jsからAngularまで、Chorn Planetの専門的なウェブ開発技術を発見してください。Chorn Planetは、デジタルマーケティング、ブロックチェーン、Eコマースなど、すべてのビジネスニーズに対応するソリューションを提供します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.webDevelopment).twitter.images
     },
     keywords: [
@@ -36,6 +36,6 @@ export const MetadataWebDevelopmentJA: Metadata = {
         "PHP Laravelウェブ開発", "カスタムReactウェブ開発", "企業向けAngularウェブ開発",
         "タイのウェブ開発者", "バンコクのウェブ開発者", "チェンマイのウェブ開発者",
         "タイのシニアウェブ開発者", "タイのプリンシパルウェブ開発者", "タイのバックエンド開発者",
-        "タイのフロントエンド開発者", "タイのソフトウェアエンジニア", "CHORN", "デジタル革新", "企業ソフトウェア", "スケーラブルなウェブアプリケーション"
+        "タイのフロントエンド開発者", "タイのソフトウェアエンジニア", "Chorn Planet", "デジタル革新", "企業ソフトウェア", "スケーラブルなウェブアプリケーション"
     ]
 }

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDevOpsMainTH: Metadata = {
-    title: "โซลูชัน DevOps และ Cloud สำหรับองค์กร | CHORN",
+    title: "โซลูชัน DevOps และ Cloud สำหรับองค์กร | Chorn Planet",
     description: "เร่งการเปลี่ยนแปลงดิจิทัลของคุณด้วยความเชี่ยวชาญด้าน DevOps และ Cloud เรานำเสนอโซลูชัน CI/CD ที่มีประสิทธิภาพ การทำงานอัตโนมัติของโครงสร้างพื้นฐาน และโซลูชัน Cloud-native ที่ช่วยเพิ่มความน่าเชื่อถือและลดเวลาในการออกสู่ตลาด",
     alternates: metadataLink(LanguageCode.th, MetaLinks.devops.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "โซลูชัน DevOps และ Cloud สำหรับองค์กร | CHORN",
+        title: "โซลูชัน DevOps และ Cloud สำหรับองค์กร | Chorn Planet",
         description: "เร่งการเปลี่ยนแปลงดิจิทัลของคุณด้วยความเชี่ยวชาญด้าน DevOps และ Cloud เรานำเสนอโซลูชัน CI/CD ที่มีประสิทธิภาพ การทำงานอัตโนมัติของโครงสร้างพื้นฐาน และโซลูชัน Cloud-native ที่ช่วยเพิ่มความน่าเชื่อถือและลดเวลาในการออกสู่ตลาด",
         images: metadataLink(LanguageCode.th, MetaLinks.devops.main).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.devops.main).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDevOpsMainTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "โซลูชัน DevOps และ Cloud สำหรับองค์กร | CHORN",
+        title: "โซลูชัน DevOps และ Cloud สำหรับองค์กร | Chorn Planet",
         description: "เร่งการเปลี่ยนแปลงดิจิทัลของคุณด้วยความเชี่ยวชาญด้าน DevOps และ Cloud เรานำเสนอโซลูชัน CI/CD ที่มีประสิทธิภาพ การทำงานอัตโนมัติของโครงสร้างพื้นฐาน และโซลูชัน Cloud-native ที่ช่วยเพิ่มความน่าเชื่อถือและลดเวลาในการออกสู่ตลาด",
         images: metadataLink(LanguageCode.th, MetaLinks.devops.main).twitter.images,
     },

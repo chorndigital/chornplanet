@@ -4,7 +4,7 @@ export const SchemaMarkupHomePage: React.FC = () => {
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "CHORN",
+        "name": "Chorn Planet",
         "url": "https://chornplanet.com",
         "logo": "https://chornplanet.com/images/logo-2025/chorn-logo-2025-circle-md.png",
         "sameAs": [

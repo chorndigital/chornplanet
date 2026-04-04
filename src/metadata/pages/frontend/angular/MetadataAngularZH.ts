@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAngularZH: Metadata = {
-    title: "Angular开发服务 | CHORN",
+    title: "Angular开发服务 | Chorn Planet",
     description: "Angular开发服务，使用Angular构建动态、可扩展和高性能的Web应用程序。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.frontend.angular).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Angular开发 | CHORN",
+        title: "Angular开发 | Chorn Planet",
         description: "凭借技术专业知识，提供Angular开发，打造快速、可扩展、动态的Web应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.angular).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.frontend.angular).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataAngularZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Angular开发服务 | CHORN",
+        title: "Angular开发服务 | Chorn Planet",
         description: "利用专业的Angular开发提升您的Web应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.angular).twitter.images,
     },
@@ -34,7 +34,7 @@ export const MetadataAngularZH: Metadata = {
         "Web开发人员", "全栈开发人员", "软件工程师", "泰国软件开发人员",
         "泰国Angular开发人员", "泰国前端开发人员", "曼谷Web开发人员",
         "清迈Angular开发人员", "曼谷Angular开发人员", "Angular开发公司",
-        "CHORN", "数字创新", "企业软件",
+        "Chorn Planet", "数字创新", "企业软件",
         "Angular响应式网页设计", "响应式网页设计 Angular", "Angular响应式设计"
     ]
 }

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNodejsZH: Metadata = {
-    title: "Node.js 全栈开发 | CHORN",
+    title: "Node.js 全栈开发 | Chorn Planet",
     description: "Node.js 全栈开发，具备构建高效且可扩展 Web 应用的技术专长。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.backend.nodejs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Node.js 开发 | CHORN",
+        title: "Node.js 开发 | Chorn Planet",
         description: "通过 Node.js 全栈开发专业知识构建高效且可扩展的 Web 应用。",
         images: metadataLink(LanguageCode.zh, MetaLinks.backend.nodejs).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.backend.nodejs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNodejsZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Node.js 全栈开发 | CHORN",
+        title: "Node.js 全栈开发 | Chorn Planet",
         description: "提供 Node.js 全栈开发技术专长，打造高效、可扩展的 Web 应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.backend.nodejs).twitter.images
     },
@@ -32,6 +32,6 @@ export const MetadataNodejsZH: Metadata = {
         "企业级 Node.js 应用程序", "API 开发", "微服务开发", "全栈开发者",
         "Node.js 开发者 泰国", "Node.js 开发者 曼谷", "Node.js 开发者 清迈",
         "后端开发者 泰国", "全栈开发者 泰国", "软件工程师", "软件开发者 泰国",
-        "CHORN", "数字创新", "企业软件"
+        "Chorn Planet", "数字创新", "企业软件"
     ]
 }

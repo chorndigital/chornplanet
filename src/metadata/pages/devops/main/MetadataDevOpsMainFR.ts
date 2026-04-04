@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDevOpsMainFR: Metadata = {
-    title: "Solutions DevOps et Cloud pour Entreprises | CHORN",
+    title: "Solutions DevOps et Cloud pour Entreprises | Chorn Planet",
     description: "Accélérez votre transformation numérique avec l'expertise DevOps et Cloud. Nous fournissons des pipelines CI/CD optimisés, l'automatisation de l'infrastructure et des solutions Cloud-native qui améliorent la fiabilité et réduisent le temps de mise sur le marché.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.devops.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Solutions DevOps et Cloud pour Entreprises | CHORN",
+        title: "Solutions DevOps et Cloud pour Entreprises | Chorn Planet",
         description: "Accélérez votre transformation numérique avec l'expertise DevOps et Cloud. Nous fournissons des pipelines CI/CD optimisés, l'automatisation de l'infrastructure et des solutions Cloud-native qui améliorent la fiabilité et réduisent le temps de mise sur le marché.",
         images: metadataLink(LanguageCode.fr, MetaLinks.devops.main).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.devops.main).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDevOpsMainFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Solutions DevOps et Cloud pour Entreprises | CHORN",
+        title: "Solutions DevOps et Cloud pour Entreprises | Chorn Planet",
         description: "Accélérez votre transformation numérique avec l'expertise DevOps et Cloud. Nous fournissons des pipelines CI/CD optimisés, l'automatisation de l'infrastructure et des solutions Cloud-native qui améliorent la fiabilité et réduisent le temps de mise sur le marché.",
         images: metadataLink(LanguageCode.fr, MetaLinks.devops.main).twitter.images,
     },

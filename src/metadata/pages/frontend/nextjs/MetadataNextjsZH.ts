@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNextjsZH: Metadata = {
-    title: "Next.js开发服务 | CHORN",
+    title: "Next.js开发服务 | Chorn Planet",
     description: "专业的Next.js开发服务，使用Next.js提供可扩展、高性能的Web应用解决方案。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.frontend.nextjs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Next.js开发 | CHORN",
+        title: "Next.js开发 | Chorn Planet",
         description: "专业的Next.js开发技术，构建快速、可扩展的Web应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.nextjs).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.frontend.nextjs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNextjsZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Next.js开发服务 | CHORN",
+        title: "Next.js开发服务 | Chorn Planet",
         description: "通过Next.js开发专业技术提升您的Web应用。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.nextjs).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataNextjsZH: Metadata = {
         "单页应用", "动态用户界面", "全栈开发人员", "定制软件开发",
         "Next.js开发人员 中国", "Next.js开发人员 北京", "Next.js开发人员 上海", "前端开发人员 中国",
         "Web开发人员 北京", "软件工程师", "软件开发人员 中国",
-        "CHORN", "数字创新", "企业软件"
+        "Chorn Planet", "数字创新", "企业软件"
     ]
 }

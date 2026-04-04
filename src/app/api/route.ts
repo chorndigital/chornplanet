@@ -6,7 +6,7 @@ export async function GET(req: Request) {
     try {
         return NextResponse.json({
             status: 200,
-            message: 'CHORN API Service'
+            message: 'Chorn Planet API Service'
         }, {status: 200})
     } catch (error: any) {
         return NextResponse.json({error: error.message}, {status: 400});

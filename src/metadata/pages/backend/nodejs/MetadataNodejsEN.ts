@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNodejsEN: Metadata = {
-    title: "Node.js Full Stack Development | CHORN",
+    title: "Node.js Full Stack Development | Chorn Planet",
     description: "Node.js full-stack development, technical-expertise for building efficient and scalable web applications.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.backend.nodejs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Node.js Development | CHORN",
+        title: "Node.js Development | Chorn Planet",
         description: "Build efficient and scalable web applications with Node.js full-stack development technical expertise.",
         images: metadataLink(LanguageCode.en, MetaLinks.backend.nodejs).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.backend.nodejs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNodejsEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Node.js Full-Stack Development | CHORN",
+        title: "Node.js Full-Stack Development | Chorn Planet",
         description: "Node.js full-stack development technical expertise for efficient and scalable web applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.backend.nodejs).twitter.images,
     },
@@ -39,6 +39,6 @@ export const MetadataNodejsEN: Metadata = {
         "Back-End developer Thailand", "Full-Stack developer Thailand", "Software engineer", "Software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

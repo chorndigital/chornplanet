@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataTypeScriptDA: Metadata = {
-    title: "TypeScript | CHORN - Eksperter i tilpasset softwareudvikling",
+    title: "TypeScript | Chorn Planet - Eksperter i tilpasset softwareudvikling",
     description: "Brug TypeScript til at udvikle skalerbare, robuste og effektive tilpassede softwareløsninger til virksomheder på tværs af industrier.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.frontend.typescript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - Tilpasset softwareudvikling med TypeScript",
+        title: "Chorn Planet - Tilpasset softwareudvikling med TypeScript",
         description: "Ekspertise i TypeScript, et kraftfuldt værktøj til at skabe skalerbare og højtydende applikationer. Læs hvorfor vi vælger TypeScript til tilpassede softwareløsninger.",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.typescript).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.frontend.typescript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataTypeScriptDA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - TypeScript-udvikling til tilpassede softwareløsninger",
+        title: "Chorn Planet - TypeScript-udvikling til tilpassede softwareløsninger",
         description: "Brug TypeScript til at levere skalerbare og højtkvalitets softwareløsninger, der er skræddersyet til virksomhedernes behov.",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.typescript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataTypeScriptDA: Metadata = {
         "TypeScript-udvikler Thailand", "TypeScript-udvikler Bangkok", "TypeScript-udvikler Chiang Mai",
         "Frontend-udvikler Thailand", "Backend-udvikler Thailand", "Full Stack-udvikler Thailand",
         "Softwareingeniør", "Softwareudvikler Thailand",
-        "CHORN", "Digital innovation", "Virksomhedssoftware"
+        "Chorn Planet", "Digital innovation", "Virksomhedssoftware"
     ]
 }

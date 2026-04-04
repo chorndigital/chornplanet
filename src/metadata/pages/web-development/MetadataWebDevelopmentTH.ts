@@ -5,24 +5,24 @@ import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWebDevelopmentTH: Metadata = {
     title: "บริการพัฒนาเว็บไซต์ | โซลูชันซอฟต์แวร์และเทคโนโลยีแบบกำหนดเอง",
-    description: "สำรวจความเชี่ยวชาญด้านการพัฒนาเว็บไซต์ของ CHORN ซึ่งรวมถึงความเชี่ยวชาญใน Next.js, React, Angular, Vue และอื่น ๆ CHORN นำเสนอวิธีแก้ปัญหาเฉพาะสำหรับธุรกิจในหลากหลายโดเมน เช่น การตลาดดิจิทัล บล็อกเชน อีคอมเมิร์ซ และอื่น ๆ",
+    description: "สำรวจความเชี่ยวชาญด้านการพัฒนาเว็บไซต์ของ Chorn Planet ซึ่งรวมถึงความเชี่ยวชาญใน Next.js, React, Angular, Vue และอื่น ๆ Chorn Planet นำเสนอวิธีแก้ปัญหาเฉพาะสำหรับธุรกิจในหลากหลายโดเมน เช่น การตลาดดิจิทัล บล็อกเชน อีคอมเมิร์ซ และอื่น ๆ",
     alternates: metadataLink(LanguageCode.th, MetaLinks.webDevelopment).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "บริการพัฒนาเว็บไซต์ชั้นนำ | CHORN",
-        description: "CHORN มอบความเชี่ยวชาญด้านการพัฒนาเว็บไซต์ล้ำสมัย ด้วยความเชี่ยวชาญในเฟรมเวิร์กยอดนิยมอย่าง Next.js, React, Angular และอื่น ๆ CHORN รองรับความต้องการทางธุรกิจที่หลากหลาย เช่น การตลาดดิจิทัล อีคอมเมิร์ซ บล็อกเชน และอื่น ๆ",
+        title: "บริการพัฒนาเว็บไซต์ชั้นนำ | Chorn Planet",
+        description: "Chorn Planet มอบความเชี่ยวชาญด้านการพัฒนาเว็บไซต์ล้ำสมัย ด้วยความเชี่ยวชาญในเฟรมเวิร์กยอดนิยมอย่าง Next.js, React, Angular และอื่น ๆ Chorn Planet รองรับความต้องการทางธุรกิจที่หลากหลาย เช่น การตลาดดิจิทัล อีคอมเมิร์ซ บล็อกเชน และอื่น ๆ",
         images: metadataLink(LanguageCode.th, MetaLinks.webDevelopment).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.webDevelopment).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการพัฒนาเว็บไซต์ | CHORN",
-        description: "ค้นพบความเชี่ยวชาญด้านการพัฒนาเว็บไซต์ของ CHORN ตั้งแต่ Next.js ถึง Angular และอื่น ๆ CHORN เสนอวิธีแก้ปัญหาสำหรับทุกความต้องการทางธุรกิจ รวมถึงการตลาดดิจิทัล บล็อกเชน อีคอมเมิร์ซ และอื่น ๆ",
+        title: "บริการพัฒนาเว็บไซต์ | Chorn Planet",
+        description: "ค้นพบความเชี่ยวชาญด้านการพัฒนาเว็บไซต์ของ Chorn Planet ตั้งแต่ Next.js ถึง Angular และอื่น ๆ Chorn Planet เสนอวิธีแก้ปัญหาสำหรับทุกความต้องการทางธุรกิจ รวมถึงการตลาดดิจิทัล บล็อกเชน อีคอมเมิร์ซ และอื่น ๆ",
         images: metadataLink(LanguageCode.th, MetaLinks.webDevelopment).twitter.images,
     },
     keywords: [
@@ -47,6 +47,6 @@ export const MetadataWebDevelopmentTH: Metadata = {
         "นักพัฒนาฝั่งเซิร์ฟเวอร์ ไทย", "นักพัฒนาฝั่งไคลเอนต์ ไทย", "วิศวกรซอฟต์แวร์ ไทย",
 
         // คำหลักเกี่ยวกับแบรนด์และนวัตกรรม
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร", "แอปพลิเคชันเว็บไซต์ที่ปรับขนาดได้"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร", "แอปพลิเคชันเว็บไซต์ที่ปรับขนาดได้"
     ]
 }

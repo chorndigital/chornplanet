@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAngularTH: Metadata = {
-    title: "บริการพัฒนา Angular | CHORN",
+    title: "บริการพัฒนา Angular | Chorn Planet",
     description: "บริการพัฒนา Angular สร้างเว็บแอปพลิเคชันที่มีความไดนามิก ขยายขนาดได้ และมีประสิทธิภาพสูงโดยใช้ Angular",
     alternates: metadataLink(LanguageCode.th, MetaLinks.frontend.angular).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "การพัฒนา Angular | CHORN",
+        title: "การพัฒนา Angular | Chorn Planet",
         description: "บริการพัฒนา Angular โดยผู้เชี่ยวชาญ เพื่อสร้างเว็บแอปพลิเคชันที่รวดเร็ว ขยายขนาดได้ และมีความไดนามิก",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.angular).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.frontend.angular).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataAngularTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการพัฒนา Angular | CHORN",
+        title: "บริการพัฒนา Angular | Chorn Planet",
         description: "เพิ่มศักยภาพให้กับเว็บแอปพลิเคชันของคุณด้วยบริการพัฒนา Angular โดยผู้เชี่ยวชาญ",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.angular).twitter.images,
     },
@@ -41,7 +41,7 @@ export const MetadataAngularTH: Metadata = {
         "นักพัฒนา Angular ในกรุงเทพ", "บริษัทพัฒนา Angular",
 
         // คีย์เวิร์ดเกี่ยวกับแบรนด์และนวัตกรรม
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร",
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร",
 
         // คีย์เวิร์ดเกี่ยวกับ Google
         "การออกแบบเว็บแบบตอบสนองใน Angular", "การออกแบบเว็บแบบตอบสนอง Angular", "Angular การออกแบบเว็บแบบตอบสนอง"

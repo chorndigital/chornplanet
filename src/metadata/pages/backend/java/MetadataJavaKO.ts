@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaKO: Metadata = {
-    title: "Java Spring Boot Full Stack 개발 | CHORN",
+    title: "Java Spring Boot Full Stack 개발 | Chorn Planet",
     description: "Java Spring Boot full stack 개발, 강력하고 확장 가능한 기업 애플리케이션을 구축하기 위한 기술 전문성.",
     alternates: metadataLink(LanguageCode.ko, MetaLinks.backend.java).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Java Spring Boot 개발 | CHORN",
+        title: "Java Spring Boot 개발 | Chorn Planet",
         description: "Java Spring Boot full stack 개발의 기술 전문성을 활용하여 확장 가능하고 안전하며 고성능 애플리케이션을 구축하세요.",
         images: metadataLink(LanguageCode.ko, MetaLinks.backend.java).openGraph.images,
         url: metadataLink(LanguageCode.ko, MetaLinks.backend.java).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaKO: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Java Spring Boot Full Stack 개발 | CHORN",
+        title: "Java Spring Boot Full Stack 개발 | Chorn Planet",
         description: "Java Spring Boot full stack 개발의 기술 전문성으로 안전하고 확장 가능한 애플리케이션을 구축하세요.",
         images: metadataLink(LanguageCode.ko, MetaLinks.backend.java).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataJavaKO: Metadata = {
         "고성능 애플리케이션", "Java 웹 애플리케이션", "마이크로서비스 개발", "API 개발",
         "Spring Boot 개발자 태국", "Java 개발자 태국", "Java 개발자 방콕",
         "Java 개발자 치앙마이", "백엔드 개발자 태국", "소프트웨어 엔지니어", "소프트웨어 개발자 태국",
-        "CHORN", "디지털 혁신", "기업 소프트웨어"
+        "Chorn Planet", "디지털 혁신", "기업 소프트웨어"
     ]
 }

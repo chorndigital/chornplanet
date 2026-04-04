@@ -6,70 +6,70 @@ export const MetaLinkDevOps: IMetaLinkDevOps = {
         canonical: "/technical-expertise/cloud-devops/",
         image: {
             url: "/images-opengraph/devops/devops-services.png" + MetadataImageVersion,
-            alt: "CHORN's image of DevOps & Testing Services Banner"
+            alt: "Chorn Planet's image of DevOps & Testing Services Banner"
         }
     },
     appium: {
         canonical: "/technical-expertise/cloud-devops/appium/",
         image: {
             url: "/images-opengraph/devops/appium.png" + MetadataImageVersion,
-            alt: "CHORN's image of Appium Testing Banner"
+            alt: "Chorn Planet's image of Appium Testing Banner"
         }
     },
     docker: {
         canonical: "/technical-expertise/cloud-devops/docker/",
         image: {
             url: "/images-opengraph/devops/docker.png" + MetadataImageVersion,
-            alt: "CHORN's image of Docker DevOps Banner"
+            alt: "Chorn Planet's image of Docker DevOps Banner"
         }
     },
     github: {
         canonical: "/technical-expertise/cloud-devops/github/",
         image: {
             url: "/images-opengraph/devops/github.png" + MetadataImageVersion,
-            alt: "CHORN's image of GitHub DevOps Banner"
+            alt: "Chorn Planet's image of GitHub DevOps Banner"
         }
     },
     gitlab: {
         canonical: "/technical-expertise/cloud-devops/gitlab/",
         image: {
             url: "/images-opengraph/devops/gitlab.png" + MetadataImageVersion,
-            alt: "CHORN's image of GitLab DevOps Banner"
+            alt: "Chorn Planet's image of GitLab DevOps Banner"
         }
     },
     jenkins: {
         canonical: "/technical-expertise/cloud-devops/jenkins/",
         image: {
             url: "/images-opengraph/devops/jenkins.png" + MetadataImageVersion,
-            alt: "CHORN's image of Jenkins DevOps Banner"
+            alt: "Chorn Planet's image of Jenkins DevOps Banner"
         }
     },
     kube: {
         canonical: "/technical-expertise/cloud-devops/kubernetes/",
         image: {
             url: "/images-opengraph/devops/kubernetes.png" + MetadataImageVersion,
-            alt: "CHORN's image of Kubernetes DevOps Banner"
+            alt: "Chorn Planet's image of Kubernetes DevOps Banner"
         }
     },
     postman: {
         canonical: "/technical-expertise/cloud-devops/postman/",
         image: {
             url: "/images-opengraph/devops/postman.png" + MetadataImageVersion,
-            alt: "CHORN's image of Postman API Testing Banner"
+            alt: "Chorn Planet's image of Postman API Testing Banner"
         }
     },
     selenium: {
         canonical: "/technical-expertise/cloud-devops/selenium/",
         image: {
             url: "/images-opengraph/devops/selenium.png" + MetadataImageVersion,
-            alt: "CHORN's image of Selenium Testing Banner"
+            alt: "Chorn Planet's image of Selenium Testing Banner"
         }
     },
     soapui: {
         canonical: "/technical-expertise/cloud-devops/soapui/",
         image: {
             url: "/images-opengraph/devops/soapui.png" + MetadataImageVersion,
-            alt: "CHORN's image of SoapUI Testing Banner"
+            alt: "Chorn Planet's image of SoapUI Testing Banner"
         }
     },
 }

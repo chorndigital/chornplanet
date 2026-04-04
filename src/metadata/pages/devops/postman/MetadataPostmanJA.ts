@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPostmanJA: Metadata = {
-    title: "PostmanによるAPIテストサービス | CHORN",
+    title: "PostmanによるAPIテストサービス | Chorn Planet",
     description: "Postmanを使用したAPIテストの技術的専門知識を提供し、ウェブ技術の信頼性とパフォーマンスを確保します。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.devops.postman).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "PostmanによるAPIテストサービス | CHORN",
+        title: "PostmanによるAPIテストサービス | Chorn Planet",
         description: "PostmanベースのAPIテスト技術専門知識で、APIが期待通りに機能することを確認します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.devops.postman).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.devops.postman).alternates.canonical,
@@ -21,12 +21,12 @@ export const MetadataPostmanJA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "PostmanによるAPIテストサービス | CHORN",
+        title: "PostmanによるAPIテストサービス | Chorn Planet",
         description: "PostmanベースのAPIテスト技術専門知識で、ウェブ技術の信頼性とパフォーマンスを検証します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.devops.postman).twitter.images,
     },
     keywords: [
-        "Postman APIテスト", "Postman技術専門知識", "APIテスト", "DevOps", "自動化APIテスト", "CHORN",
+        "Postman APIテスト", "Postman技術専門知識", "APIテスト", "DevOps", "自動化APIテスト", "Chorn Planet",
         "ウェブ技術テスト", "APIパフォーマンス", "カスタムソフトウェア開発", "DevOps 日本"
     ]
 }

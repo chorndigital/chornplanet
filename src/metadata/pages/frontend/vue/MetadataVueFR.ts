@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataVueFR: Metadata = {
-    title: "Services de développement Vue.js | CHORN",
+    title: "Services de développement Vue.js | Chorn Planet",
     description: "Spécialisé dans le développement Vue.js pour créer des applications web interactives et évolutives.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.frontend.vue).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Développement Vue.js | CHORN",
+        title: "Développement Vue.js | Chorn Planet",
         description: "Développement Vue.js d'experts, savoir-faire technique pour créer des applications web modernes.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.vue).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.frontend.vue).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataVueFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Services de développement Vue.js | CHORN",
+        title: "Services de développement Vue.js | Chorn Planet",
         description: "Améliorez vos applications web avec Vue.js grâce à l'expertise technique du développement Vue.js.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.vue).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataVueFR: Metadata = {
         "Interfaces utilisateur dynamiques", "Applications mono-page", "Développeur Vue.js",
         "Développeur Vue.js Thaïlande", "Développeur Vue.js Bangkok", "Développeur Vue.js Chiang Mai", "Développeur frontend Thaïlande",
         "Développeur web Bangkok", "Ingénieur logiciel", "Développeur logiciel Thaïlande",
-        "CHORN", "Innovation numérique", "Logiciels d'entreprise"
+        "Chorn Planet", "Innovation numérique", "Logiciels d'entreprise"
     ]
 }

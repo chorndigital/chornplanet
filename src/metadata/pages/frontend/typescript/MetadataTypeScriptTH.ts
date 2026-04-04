@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataTypeScriptTH: Metadata = {
-    title: "TypeScript | CHORN - ผู้เชี่ยวชาญด้านการพัฒนาซอฟต์แวร์แบบกำหนดเอง",
+    title: "TypeScript | Chorn Planet - ผู้เชี่ยวชาญด้านการพัฒนาซอฟต์แวร์แบบกำหนดเอง",
     description: "ใช้ TypeScript ในการสร้างโซลูชันซอฟต์แวร์ที่สามารถขยายขนาดได้ มีความเสถียร และมีประสิทธิภาพสำหรับธุรกิจในหลายอุตสาหกรรม",
     alternates: metadataLink(LanguageCode.th, MetaLinks.frontend.typescript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - การพัฒนาซอฟต์แวร์แบบกำหนดเองด้วย TypeScript",
+        title: "Chorn Planet - การพัฒนาซอฟต์แวร์แบบกำหนดเองด้วย TypeScript",
         description: "ความเชี่ยวชาญด้าน TypeScript เครื่องมือที่มีประสิทธิภาพในการสร้างแอปพลิเคชันที่สามารถขยายขนาดและมีประสิทธิภาพสูง เรียนรู้เหตุผลที่เราคัดเลือก TypeScript สำหรับโซลูชันซอฟต์แวร์แบบกำหนดเอง",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.typescript).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.frontend.typescript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataTypeScriptTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - การพัฒนา TypeScript สำหรับโซลูชันซอฟต์แวร์แบบกำหนดเอง",
+        title: "Chorn Planet - การพัฒนา TypeScript สำหรับโซลูชันซอฟต์แวร์แบบกำหนดเอง",
         description: "ใช้ TypeScript เพื่อส่งมอบโซลูชันซอฟต์แวร์ที่สามารถขยายขนาดและมีคุณภาพสูงที่ตอบโจทย์ความต้องการของธุรกิจ",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.typescript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataTypeScriptTH: Metadata = {
         "นักพัฒนา TypeScript ไทย", "นักพัฒนา TypeScript กรุงเทพ", "นักพัฒนา TypeScript เชียงใหม่",
         "นักพัฒนา Frontend ไทย", "นักพัฒนา Backend ไทย", "นักพัฒนา Full Stack ไทย",
         "วิศวกรซอฟต์แวร์", "นักพัฒนาซอฟต์แวร์ ไทย",
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
     ]
 }

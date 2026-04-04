@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCss3ZH: Metadata = {
-    title: "CSS3 开发服务 | CHORN",
+    title: "CSS3 开发服务 | Chorn Planet",
     description: "利用 CSS3 开发技术增强您的 Web 应用程序，提供现代和视觉吸引力的设计。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.frontend.css3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CSS3 开发 | CHORN",
+        title: "CSS3 开发 | Chorn Planet",
         description: "使用 CSS3 技术开发，创建时尚且响应迅速的 Web 设计。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.css3).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.frontend.css3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataCss3ZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CSS3 开发服务 | CHORN",
+        title: "CSS3 开发服务 | Chorn Planet",
         description: "通过提供 CSS3 开发技术，创建视觉上令人惊叹的 Web 设计。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.css3).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataCss3ZH: Metadata = {
         "Web 开发", "高性能 Web 设计", "动态用户界面",
         "CSS3 开发人员 泰国", "CSS3 开发人员 曼谷", "CSS3 开发人员 清迈", "前端开发人员 泰国",
         "Web 开发人员 曼谷", "软件工程师", "软件开发人员 泰国",
-        "CHORN", "数字创新", "企业软件"
+        "Chorn Planet", "数字创新", "企业软件"
     ]
 }

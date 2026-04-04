@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDotnetCoreEN: Metadata = {
-    title: ".NET Core C# Full Stack Development | CHORN",
+    title: ".NET Core C# Full Stack Development | Chorn Planet",
     description: ".NET Core C# full stack development with technical expertise to build modern, scalable, and secure web applications.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.backend.dotnetcore).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: ".NET Core C# Development | CHORN",
+        title: ".NET Core C# Development | Chorn Planet",
         description: "Build secure, scalable, and modern web applications with .NET Core C# full stack development technical-expertise.",
         images: metadataLink(LanguageCode.en, MetaLinks.backend.dotnetcore).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.backend.dotnetcore).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDotnetCoreEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: ".NET Core C# Full Stack Development | CHORN",
+        title: ".NET Core C# Full Stack Development | Chorn Planet",
         description: "Expert .NET Core C# full stack development, technical expertise for modern and scalable web applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.backend.dotnetcore).twitter.images,
     },
@@ -40,6 +40,6 @@ export const MetadataDotnetCoreEN: Metadata = {
         "backend developer Thailand", "software engineer", "software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

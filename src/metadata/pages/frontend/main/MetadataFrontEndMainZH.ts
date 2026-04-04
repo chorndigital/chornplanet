@@ -4,25 +4,25 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataFrontEndMainZH: Metadata = {
-    title: "前端开发服务 | CHORN",
-    description: "CHORN 提供专业的前端开发技术，专注于现代框架，如 Next.js、React、Angular、Vue、HTML5 和 CSS3。利用前沿技术构建响应式、可扩展的网站。",
+    title: "前端开发服务 | Chorn Planet",
+    description: "Chorn Planet 提供专业的前端开发技术，专注于现代框架，如 Next.js、React、Angular、Vue、HTML5 和 CSS3。利用前沿技术构建响应式、可扩展的网站。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.frontend.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "前端开发服务 | CHORN",
-        description: "CHORN 提供前端开发专业技术，使用 Next.js、React、Angular、Vue、HTML5 和 CSS3 等现代技术，打造快速、响应式、可扩展的网站。",
+        title: "前端开发服务 | Chorn Planet",
+        description: "Chorn Planet 提供前端开发专业技术，使用 Next.js、React、Angular、Vue、HTML5 和 CSS3 等现代技术，打造快速、响应式、可扩展的网站。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.main).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.frontend.main).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "前端开发服务 | CHORN",
-        description: "CHORN 通过 Next.js、React、Angular、Vue、HTML5 和 CSS3 提供前端开发技术，打造响应式、可扩展的网站。",
+        title: "前端开发服务 | Chorn Planet",
+        description: "Chorn Planet 通过 Next.js、React、Angular、Vue、HTML5 和 CSS3 提供前端开发技术，打造响应式、可扩展的网站。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.main).twitter.images,
     },
     keywords: [
@@ -33,6 +33,6 @@ export const MetadataFrontEndMainZH: Metadata = {
         "React.js 开发", "定制 Angular 前端开发", "React.js 前端应用",
         "Vue.js 前端技术专家", "定制 Vue.js 开发",
         "前端开发人员中国", "网页开发人员中国", "软件工程师中国",
-        "CHORN", "数字创新", "企业软件", "可扩展的 Web 应用"
+        "Chorn Planet", "数字创新", "企业软件", "可扩展的 Web 应用"
     ]
 }

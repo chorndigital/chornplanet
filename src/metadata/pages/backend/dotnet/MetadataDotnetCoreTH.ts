@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDotnetCoreTH: Metadata = {
-    title: ".NET Core C# การพัฒนาแบบ Full Stack | CHORN",
+    title: ".NET Core C# การพัฒนาแบบ Full Stack | Chorn Planet",
     description: "การพัฒนา .NET Core C# แบบ Full Stack ด้วยความเชี่ยวชาญทางเทคนิคในการสร้างแอปพลิเคชันเว็บที่ทันสมัย ขยายได้ และปลอดภัย.",
     alternates: metadataLink(LanguageCode.th, MetaLinks.backend.dotnetcore).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: ".NET Core C# การพัฒนา | CHORN",
+        title: ".NET Core C# การพัฒนา | Chorn Planet",
         description: "สร้างแอปพลิเคชันเว็บที่ปลอดภัย ขยายได้ และทันสมัย ด้วยความเชี่ยวชาญทางเทคนิคในการพัฒนา .NET Core C# แบบ Full Stack.",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.dotnetcore).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.backend.dotnetcore).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDotnetCoreTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: ".NET Core C# การพัฒนาแบบ Full Stack | CHORN",
+        title: ".NET Core C# การพัฒนาแบบ Full Stack | Chorn Planet",
         description: "ความเชี่ยวชาญในการพัฒนา .NET Core C# แบบ Full Stack สำหรับการสร้างแอปพลิเคชันเว็บที่ทันสมัยและขยายได้.",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.dotnetcore).twitter.images,
     },
@@ -36,6 +36,6 @@ export const MetadataDotnetCoreTH: Metadata = {
         ".NET Core C# นักพัฒนา ไทย", ".NET Core C# นักพัฒนา กรุงเทพ", ".NET Core C# นักพัฒนา เชียงใหม่",
         "นักพัฒนาแบ็คเอนด์ ไทย", "วิศวกรซอฟต์แวร์", "นักพัฒนาซอฟต์แวร์ ไทย",
 
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
     ]
 }

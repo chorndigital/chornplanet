@@ -4,25 +4,25 @@ import {metadataLink} from "@/metadata/metadataLink/metadataLink";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCloudSolutionTH: Metadata = {
-    title: "สถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบ | CHORN | AWS, Azure, GCP, DigitalOcean",
-    description: "CHORN นำเสนอบริการด้านสถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบ ด้วยความเชี่ยวชาญเฉพาะทาง เราปรับแต่งโครงสร้างพื้นฐานคลาวด์บน AWS, Azure, GCP และ DigitalOcean เพื่อเพิ่มประสิทธิภาพ ความสามารถในการขยายตัว และความคุ้มค่า.",
+    title: "สถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบ | Chorn Planet | AWS, Azure, GCP, DigitalOcean",
+    description: "Chorn Planet นำเสนอบริการด้านสถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบ ด้วยความเชี่ยวชาญเฉพาะทาง เราปรับแต่งโครงสร้างพื้นฐานคลาวด์บน AWS, Azure, GCP และ DigitalOcean เพื่อเพิ่มประสิทธิภาพ ความสามารถในการขยายตัว และความคุ้มค่า.",
     alternates: metadataLink(LanguageCode.th, MetaLinks.cloudSolutions).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "สถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบ | CHORN",
-        description: "สำรวจบริการด้านสถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบจาก CHORN เราออกแบบโซลูชันคลาวด์ที่มีความยืดหยุ่น ขยายตัวได้ และมีประสิทธิภาพบน AWS, Azure, GCP และ DigitalOcean.",
+        title: "สถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบ | Chorn Planet",
+        description: "สำรวจบริการด้านสถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบจาก Chorn Planet เราออกแบบโซลูชันคลาวด์ที่มีความยืดหยุ่น ขยายตัวได้ และมีประสิทธิภาพบน AWS, Azure, GCP และ DigitalOcean.",
         images: metadataLink(LanguageCode.th, MetaLinks.cloudSolutions).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.cloudSolutions).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "สถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบ | CHORN",
-        description: "เพิ่มประสิทธิภาพโครงสร้างพื้นฐานคลาวด์ของคุณด้วยบริการสถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบจาก CHORN ครอบคลุม AWS, Azure, GCP และ DigitalOcean.",
+        title: "สถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบ | Chorn Planet",
+        description: "เพิ่มประสิทธิภาพโครงสร้างพื้นฐานคลาวด์ของคุณด้วยบริการสถาปัตยกรรมโซลูชันคลาวด์และการวิเคราะห์ระบบจาก Chorn Planet ครอบคลุม AWS, Azure, GCP และ DigitalOcean.",
         images: metadataLink(LanguageCode.th, MetaLinks.cloudSolutions).twitter.images,
     },
     keywords: [
@@ -40,6 +40,6 @@ export const MetadataCloudSolutionTH: Metadata = {
         "นักพัฒนา DigitalOcean ประเทศไทย", "นักวิเคราะห์ระบบ ประเทศไทย", "ผู้เชี่ยวชาญโครงสร้างพื้นฐานคลาวด์ ประเทศไทย",
 
         // คำสำคัญเกี่ยวกับแบรนด์และนวัตกรรม
-        "CHORN", "โซลูชันคลาวด์", "นวัตกรรมดิจิทัล", "การออกแบบโครงสร้างพื้นฐานคลาวด์", "ระบบคลาวด์ที่ขยายตัวได้"
+        "Chorn Planet", "โซลูชันคลาวด์", "นวัตกรรมดิจิทัล", "การออกแบบโครงสร้างพื้นฐานคลาวด์", "ระบบคลาวด์ที่ขยายตัวได้"
     ]
 }

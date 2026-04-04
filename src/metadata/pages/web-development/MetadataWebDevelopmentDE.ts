@@ -5,24 +5,24 @@ import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWebDevelopmentDE: Metadata = {
     title: "Webentwicklungsdienste | Maßgeschneiderte Software- und Technologielösungen",
-    description: "Entdecken Sie das technische Fachwissen von CHORN in der Webentwicklung, einschließlich Expertise in Next.js, React, Angular, Vue und mehr. CHORN bietet maßgeschneiderte Lösungen für Unternehmen in Bereichen wie Digitales Marketing, Blockchain, E-Commerce und mehr.",
+    description: "Entdecken Sie das technische Fachwissen von Chorn Planet in der Webentwicklung, einschließlich Expertise in Next.js, React, Angular, Vue und mehr. Chorn Planet bietet maßgeschneiderte Lösungen für Unternehmen in Bereichen wie Digitales Marketing, Blockchain, E-Commerce und mehr.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.webDevelopment).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Top Webentwicklungsdienste | CHORN",
-        description: "CHORN bietet fachliches Know-how in der Webentwicklung mit Expertise in beliebten Frameworks wie Next.js, React, Angular und mehr. CHORN bedient verschiedene Geschäftsanforderungen, einschließlich Digitalem Marketing, E-Commerce, Blockchain und mehr.",
+        title: "Top Webentwicklungsdienste | Chorn Planet",
+        description: "Chorn Planet bietet fachliches Know-how in der Webentwicklung mit Expertise in beliebten Frameworks wie Next.js, React, Angular und mehr. Chorn Planet bedient verschiedene Geschäftsanforderungen, einschließlich Digitalem Marketing, E-Commerce, Blockchain und mehr.",
         images: metadataLink(LanguageCode.de, MetaLinks.webDevelopment).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.webDevelopment).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Webentwicklungsdienste | CHORN",
-        description: "Entdecken Sie das technische Fachwissen von CHORN in der Webentwicklung. Von Next.js bis Angular und mehr bietet CHORN Lösungen für alle geschäftlichen Anforderungen, einschließlich Digitalem Marketing, Blockchain, E-Commerce und mehr.",
+        title: "Webentwicklungsdienste | Chorn Planet",
+        description: "Entdecken Sie das technische Fachwissen von Chorn Planet in der Webentwicklung. Von Next.js bis Angular und mehr bietet Chorn Planet Lösungen für alle geschäftlichen Anforderungen, einschließlich Digitalem Marketing, Blockchain, E-Commerce und mehr.",
         images: metadataLink(LanguageCode.de, MetaLinks.webDevelopment).twitter.images
     },
     keywords: [
@@ -36,6 +36,6 @@ export const MetadataWebDevelopmentDE: Metadata = {
         "PHP Laravel Webentwicklung", "maßgeschneiderte React Webentwicklung", "Unternehmens-Webentwicklung Angular",
         "Webentwickler Thailand", "Webentwickler Bangkok", "Webentwickler Chiang Mai",
         "Senior Webentwickler Thailand", "Principal Webentwickler Thailand", "Backend-Entwickler Thailand",
-        "Frontend-Entwickler Thailand", "Softwareingenieur Thailand", "CHORN", "digitale Innovation", "Unternehmenssoftware", "skalierbare Webanwendungen"
+        "Frontend-Entwickler Thailand", "Softwareingenieur Thailand", "Chorn Planet", "digitale Innovation", "Unternehmenssoftware", "skalierbare Webanwendungen"
     ]
 }

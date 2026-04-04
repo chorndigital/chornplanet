@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataReactFI: Metadata = {
-    title: "React-kehityspalvelut | CHORN",
+    title: "React-kehityspalvelut | Chorn Planet",
     description: "Huipputason React-kehitys teknisellä asiantuntemuksella, rakenna dynaamisia ja responsiivisia käyttöliittymiä Reactilla.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.frontend.react).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "React-kehitys | CHORN",
+        title: "React-kehitys | Chorn Planet",
         description: "Paranna verkkosovelluksiasi asiantuntevalla React-kehityksellä, tekninen asiantuntemus suorituskykyisiin sovelluksiin.",
         images: metadataLink(LanguageCode.fi, MetaLinks.frontend.react).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.frontend.react).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataReactFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "React-kehityspalvelut | CHORN",
+        title: "React-kehityspalvelut | Chorn Planet",
         description: "Asiantuntevaa React-kehitystä, teknistä asiantuntemusta houkuttelevien käyttöliittymien luomiseksi Reactilla.",
         images: metadataLink(LanguageCode.fi, MetaLinks.frontend.react).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataReactFI: Metadata = {
         "Dynaamiset käyttöliittymät", "Yksisivuiset sovellukset", "React.js-kehittäjä",
         "React-kehittäjä Suomi", "React-kehittäjä Helsinki", "React-kehittäjä Tampere", "Frontend-kehittäjä Suomi",
         "Verkkokehittäjä Helsinki", "Ohjelmistoinsinööri", "Ohjelmistokehittäjä Suomi",
-        "CHORN", "Digitaalinen innovaatio", "Yritysohjelmointi"
+        "Chorn Planet", "Digitaalinen innovaatio", "Yritysohjelmointi"
     ]
 }

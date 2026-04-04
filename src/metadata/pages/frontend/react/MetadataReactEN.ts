@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataReactEN: Metadata = {
-    title: "React Development Services | CHORN",
+    title: "React Development Services | Chorn Planet",
     description: "Top-tier React development with technical expertise, build dynamic and responsive user interfaces with React.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.frontend.react).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "React Development | CHORN",
+        title: "React Development | Chorn Planet",
         description: "Enhance your web apps with expert React development, technical expertise for high-performance applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.react).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.frontend.react).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataReactEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "React Development Services | CHORN",
+        title: "React Development Services | Chorn Planet",
         description: "Expert React development, technical expertise create engaging user interfaces with React.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.react).twitter.images,
     },
@@ -40,6 +40,6 @@ export const MetadataReactEN: Metadata = {
         "web developer Bangkok", "software engineer", "software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

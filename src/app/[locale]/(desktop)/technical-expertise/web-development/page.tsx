@@ -23,8 +23,8 @@ export default async function Page() {
             <HomeFeatureMain lang={lang} isHideTopTitle={true}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="Web Development Services | CHORN | Custom Software & Technology Solutions"
-                description="Explore CHORN's web development services, including expertise in Next.js, React, Angular, Vue, and more. CHORN offers tailored solutions for businesses across various domains such as Digital Marketing, Blockchain, E-Commerce, and more."
+                name="Web Development Services | Chorn Planet | Custom Software & Technology Solutions"
+                description="Explore Chorn Planet's web development services, including expertise in Next.js, React, Angular, Vue, and more. Chorn Planet offers tailored solutions for businesses across various domains such as Digital Marketing, Blockchain, E-Commerce, and more."
                 url="https://chornplanet.com/en/technical-expertise/web-development/"
             />
         </div>

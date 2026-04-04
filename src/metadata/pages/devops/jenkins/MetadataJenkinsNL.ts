@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJenkinsNL: Metadata = {
-    title: "Jenkins DevOps Diensten | CHORN",
+    title: "Jenkins DevOps Diensten | Chorn Planet",
     description: "DevOps technische expertise gebaseerd op Jenkins voor het automatiseren van builds, tests en implementaties in uw ontwikkel-pijplijn.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.devops.jenkins).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Jenkins DevOps Diensten | CHORN",
+        title: "Jenkins DevOps Diensten | Chorn Planet",
         description: "Automatiseer uw ontwikkelingsproces met Jenkins-gebaseerde DevOps technische expertise voor continue integratie en implementatie.",
         images: metadataLink(LanguageCode.nl, MetaLinks.devops.jenkins).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.devops.jenkins).alternates.canonical,
@@ -21,8 +21,8 @@ export const MetadataJenkinsNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Jenkins DevOps Diensten | CHORN",
-        description: "Verbeter uw softwareontwikkelingscyclus met Jenkins-gebaseerde DevOps technische expertise van CHORN voor CI/CD-automatisering.",
+        title: "Jenkins DevOps Diensten | Chorn Planet",
+        description: "Verbeter uw softwareontwikkelingscyclus met Jenkins-gebaseerde DevOps technische expertise van Chorn Planet voor CI/CD-automatisering.",
         images: metadataLink(LanguageCode.nl, MetaLinks.devops.jenkins).twitter.images,
     },
     keywords: [

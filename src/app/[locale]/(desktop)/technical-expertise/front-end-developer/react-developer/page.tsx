@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsReact lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="React Development Services | CHORN"
-                description="CHORN provides top-tier React development services. Build dynamic and responsive user interfaces with React."
+                name="React Development Services | Chorn Planet"
+                description="Chorn Planet provides top-tier React development services. Build dynamic and responsive user interfaces with React."
                 url="https://chornplanet.com/en/technical-expertise/front-end-developer/react-developer/"
             />
         </div>

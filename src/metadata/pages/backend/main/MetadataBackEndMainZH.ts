@@ -4,24 +4,24 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataBackEndMainZH: Metadata = {
-    title: "后端API开发 | CHORN",
-    description: "CHORN 提供后端API开发服务，利用现代技术（如 Node.js、Java Spring Boot、.NET Core、Go、Python 和 PHP）构建高质量、可扩展的应用程序，以满足企业需求。",
+    title: "后端API开发 | Chorn Planet",
+    description: "Chorn Planet 提供后端API开发服务，利用现代技术（如 Node.js、Java Spring Boot、.NET Core、Go、Python 和 PHP）构建高质量、可扩展的应用程序，以满足企业需求。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.backend.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "后端API开发 | CHORN",
-        description: "CHORN 提供后端API开发服务，利用 Node.js、Java Spring Boot、.NET Core、Go、Python 和 PHP 构建高质量、可扩展的应用程序。",
+        title: "后端API开发 | Chorn Planet",
+        description: "Chorn Planet 提供后端API开发服务，利用 Node.js、Java Spring Boot、.NET Core、Go、Python 和 PHP 构建高质量、可扩展的应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.backend.main).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.backend.main).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "后端API开发 | CHORN",
+        title: "后端API开发 | Chorn Planet",
         description: "使用 Node.js、Java Spring Boot、.NET Core、Go、Python 和 PHP 开发可扩展的 Web 应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.backend.main).twitter.images,
     },

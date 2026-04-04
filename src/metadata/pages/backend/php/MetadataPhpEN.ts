@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPhpEN: Metadata = {
-    title: "PHP Full Stack Development | CHORN",
+    title: "PHP Full Stack Development | Chorn Planet",
     description: "PHP full stack development, technical expertise for building dynamic and scalable web applications.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.backend.php).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "PHP Development | CHORN",
+        title: "PHP Development | Chorn Planet",
         description: "Leverage PHP full stack development, technical-expertise to build scalable and dynamic web applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.backend.php).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.backend.php).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPhpEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "PHP Full Stack Development | CHORN",
+        title: "PHP Full Stack Development | Chorn Planet",
         description: "Expert PHP full stack development for dynamic and scalable web applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.backend.php).twitter.images,
     },
@@ -43,6 +43,6 @@ export const MetadataPhpEN: Metadata = {
         "backend developer Thailand", "full stack developer Thailand", "software engineer", "software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataSeleniumTH: Metadata = {
-    title: "บริการทดสอบ Selenium | CHORN",
+    title: "บริการทดสอบ Selenium | Chorn Planet",
     description: "ความเชี่ยวชาญในการทดสอบ Selenium ครอบคลุมเพื่อรับประกันคุณภาพและประสิทธิภาพของแอปพลิเคชันของคุณผ่านการทดสอบอัตโนมัติ",
     alternates: metadataLink(LanguageCode.th, MetaLinks.devops.selenium).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "การทดสอบ Selenium | CHORN",
+        title: "การทดสอบ Selenium | Chorn Planet",
         description: "ทำให้การทดสอบแอปพลิเคชันของคุณเป็นอัตโนมัติด้วยความเชี่ยวชาญในการทดสอบ Selenium เพื่อผลลัพธ์ที่แข็งแกร่งและเชื่อถือได้",
         images: metadataLink(LanguageCode.th, MetaLinks.devops.selenium).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.devops.selenium).alternates.canonical,
@@ -21,12 +21,12 @@ export const MetadataSeleniumTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการทดสอบ Selenium | CHORN",
+        title: "บริการทดสอบ Selenium | Chorn Planet",
         description: "เพิ่มคุณภาพของแอปพลิเคชันของคุณด้วยความเชี่ยวชาญในการทดสอบ Selenium เพื่อการทดสอบอัตโนมัติที่มีประสิทธิภาพ",
         images: metadataLink(LanguageCode.th, MetaLinks.devops.selenium).twitter.images,
     },
     keywords: [
-        "การทดสอบ Selenium", "การทดสอบอัตโนมัติ", "CHORN", "Cloud DevOps",
+        "การทดสอบ Selenium", "การทดสอบอัตโนมัติ", "Chorn Planet", "Cloud DevOps",
         "การรับประกันคุณภาพแอปพลิเคชัน", "การทดสอบอัตโนมัติ", "การทดสอบซอฟต์แวร์",
         "ความเชี่ยวชาญทางเทคนิคในการรับประกันคุณภาพ", "ความเชี่ยวชาญทางเทคนิคในการทดสอบ", "สคริปต์ทดสอบ",
         "การทดสอบซอฟต์แวร์ประเทศไทย", "ความเชี่ยวชาญทางเทคนิค Selenium", "การทดสอบแอปพลิเคชันเว็บ"

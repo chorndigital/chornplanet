@@ -9,11 +9,11 @@ export const MetadataContactFI: Metadata = {
     alternates: metadataLink(LanguageCode.fi, MetaLinks.contact).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - Asiantuntijat järjestelmäanalyysissä & Full-Stack ohjelmistokehitystekniikassa",
+        title: "Chorn Planet - Asiantuntijat järjestelmäanalyysissä & Full-Stack ohjelmistokehitystekniikassa",
         description: "Tutustu CHORNin sitoutumiseen tarjota huippuluokan järjestelmämodernisointia, full-stack kehitystä ja teknistä tukea yrityksille.",
         images: metadataLink(LanguageCode.fi, MetaLinks.contact).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.contact).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataContactFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - Johtava järjestelmäanalyysin & Full-Stack ohjelmistokehitystekniikan asiantuntija",
+        title: "Chorn Planet - Johtava järjestelmäanalyysin & Full-Stack ohjelmistokehitystekniikan asiantuntija",
         description: "Vapauta liiketoimintapotentiaali CHORNin edistyksellisellä järjestelmäanalyysillä, full-stack kehityksellä ja moderneilla ohjelmistoratkaisuilla.",
         images: metadataLink(LanguageCode.fi, MetaLinks.contact).twitter.images,
     },

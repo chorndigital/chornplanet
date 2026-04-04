@@ -4,25 +4,25 @@ import {metadataLink} from "@/metadata/metadataLink/metadataLink";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCloudSolutionJA: Metadata = {
-    title: "クラウドソリューションアーキテクチャとシステム分析 | CHORN | AWS、Azure、GCP、DigitalOcean",
-    description: "CHORNは、AWS、Azure、GCP、DigitalOceanを対象に、クラウドソリューションアーキテクチャとシステム分析の専門知識を提供します。パフォーマンス、スケーラビリティ、コスト効率を最適化します。",
+    title: "クラウドソリューションアーキテクチャとシステム分析 | Chorn Planet | AWS、Azure、GCP、DigitalOcean",
+    description: "Chorn Planetは、AWS、Azure、GCP、DigitalOceanを対象に、クラウドソリューションアーキテクチャとシステム分析の専門知識を提供します。パフォーマンス、スケーラビリティ、コスト効率を最適化します。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.cloudSolutions).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "クラウドソリューションアーキテクチャとシステム分析 | CHORN",
-        description: "CHORNの最先端クラウドソリューションアーキテクチャとシステム分析を探求し、AWS、Azure、GCP、DigitalOceanで柔軟で拡張性のあるクラウドソリューションを設計します。",
+        title: "クラウドソリューションアーキテクチャとシステム分析 | Chorn Planet",
+        description: "Chorn Planetの最先端クラウドソリューションアーキテクチャとシステム分析を探求し、AWS、Azure、GCP、DigitalOceanで柔軟で拡張性のあるクラウドソリューションを設計します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.cloudSolutions).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.cloudSolutions).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "クラウドソリューションアーキテクチャとシステム分析 | CHORN",
-        description: "AWS、Azure、GCP、DigitalOcean向けのクラウドインフラを最適化するCHORNのクラウドソリューションアーキテクチャとシステム分析サービスを活用しましょう。",
+        title: "クラウドソリューションアーキテクチャとシステム分析 | Chorn Planet",
+        description: "AWS、Azure、GCP、DigitalOcean向けのクラウドインフラを最適化するChorn Planetのクラウドソリューションアーキテクチャとシステム分析サービスを活用しましょう。",
         images: metadataLink(LanguageCode.ja, MetaLinks.cloudSolutions).twitter.images,
     },
     keywords: [
@@ -33,6 +33,6 @@ export const MetadataCloudSolutionJA: Metadata = {
         "クラウド移行の専門知識", "クラウド性能チューニング", "マルチクラウド統合", "クラウドネイティブアプリケーション",
         "日本のクラウドアーキテクト", "AWSアーキテクト日本", "Azureアーキテクト日本", "GCPアーキテクト日本",
         "DigitalOcean開発者日本", "システムアナリスト日本", "クラウドインフラ専門家日本",
-        "CHORN", "クラウドソリューション", "デジタルイノベーション", "クラウドインフラ設計", "スケーラブルなクラウドシステム"
+        "Chorn Planet", "クラウドソリューション", "デジタルイノベーション", "クラウドインフラ設計", "スケーラブルなクラウドシステム"
     ]
 }

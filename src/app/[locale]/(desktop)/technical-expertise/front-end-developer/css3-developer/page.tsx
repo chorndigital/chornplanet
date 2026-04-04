@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsCss3 lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="CSS3 Development Services | CHORN"
-                description="Enhance your web applications with CHORN’s CSS3 development services for modern and visually appealing designs."
+                name="CSS3 Development Services | Chorn Planet"
+                description="Enhance your web applications with Chorn Planet’s CSS3 development services for modern and visually appealing designs."
                 url="https://chornplanet.com/en/technical-expertise/front-end-developer/css3-developer/"
             />
         </div>

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNodejsTH: Metadata = {
-    title: "พัฒนา Node.js แบบ Full Stack | CHORN",
+    title: "พัฒนา Node.js แบบ Full Stack | Chorn Planet",
     description: "การพัฒนา Node.js แบบ Full Stack ความเชี่ยวชาญทางเทคนิคในการสร้างเว็บแอปพลิเคชันที่มีประสิทธิภาพและสามารถขยายได้",
     alternates: metadataLink(LanguageCode.th, MetaLinks.backend.nodejs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "พัฒนา Node.js | CHORN",
+        title: "พัฒนา Node.js | Chorn Planet",
         description: "สร้างเว็บแอปพลิเคชันที่มีประสิทธิภาพและสามารถขยายได้ด้วยความเชี่ยวชาญด้านการพัฒนา Node.js แบบ Full Stack",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.nodejs).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.backend.nodejs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNodejsTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "พัฒนา Node.js แบบ Full Stack | CHORN",
+        title: "พัฒนา Node.js แบบ Full Stack | Chorn Planet",
         description: "ความเชี่ยวชาญด้านการพัฒนา Node.js แบบ Full Stack เพื่อสร้างเว็บแอปพลิเคชันที่มีประสิทธิภาพและสามารถขยายได้",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.nodejs).twitter.images,
     },
@@ -39,6 +39,6 @@ export const MetadataNodejsTH: Metadata = {
         "นักพัฒนา Back-End ไทย", "นักพัฒนา Full Stack ไทย", "วิศวกรซอฟต์แวร์", "นักพัฒนาซอฟต์แวร์ไทย",
 
         // Brand & Innovation Keywords
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
     ]
 }

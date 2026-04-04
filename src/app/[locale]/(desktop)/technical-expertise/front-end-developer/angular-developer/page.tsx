@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsAngular lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="Angular Development Services | CHORN"
-                description="Expert Angular development services by CHORN. Build dynamic, scalable, and high-performance web applications using Angular."
+                name="Angular Development Services | Chorn Planet"
+                description="Expert Angular development services by Chorn Planet. Build dynamic, scalable, and high-performance web applications using Angular."
                 url="https://chornplanet.com/en/technical-expertise/front-end-developer/angular-developer/"
             />
         </div>

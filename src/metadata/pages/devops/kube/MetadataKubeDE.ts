@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataKubeDE: Metadata = {
-    title: "Kubernetes DevOps Services | CHORN",
+    title: "Kubernetes DevOps Services | Chorn Planet",
     description: "Kubernetes-basierte DevOps-Technik für die Automatisierung der Bereitstellung, Skalierung und Verwaltung von containerisierten Anwendungen.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.devops.kube).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Kubernetes DevOps Services | CHORN",
+        title: "Kubernetes DevOps Services | Chorn Planet",
         description: "Optimieren Sie Ihre Infrastruktur mit Kubernetes-basierter DevOps-Technik für automatisierte Skalierung und Verwaltung von Anwendungen.",
         images: metadataLink(LanguageCode.de, MetaLinks.devops.kube).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.devops.kube).alternates.canonical,
@@ -21,12 +21,12 @@ export const MetadataKubeDE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Kubernetes DevOps Services | CHORN",
+        title: "Kubernetes DevOps Services | Chorn Planet",
         description: "Nutzen Sie Kubernetes DevOps-Expertise, um containerisierte Anwendungen automatisch zu skalieren und zu verwalten.",
         images: metadataLink(LanguageCode.de, MetaLinks.devops.kube).twitter.images,
     },
     keywords: [
-        "Kubernetes DevOps", "Kubernetes technische Expertise", "Container-Orchestrierung", "CHORN", "DevOps",
+        "Kubernetes DevOps", "Kubernetes technische Expertise", "Container-Orchestrierung", "Chorn Planet", "DevOps",
         "skalierbare Anwendungsverwaltung", "automatisierte Skalierung", "DevOps Deutschland", "Cloud-native Anwendungen"
     ]
 };

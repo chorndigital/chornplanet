@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNodejsDE: Metadata = {
-    title: "Node.js Full-Stack-Entwicklung | CHORN",
+    title: "Node.js Full-Stack-Entwicklung | Chorn Planet",
     description: "Node.js Full-Stack-Entwicklung, technische Expertise für effiziente und skalierbare Webanwendungen.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.backend.nodejs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Node.js Entwicklung | CHORN",
+        title: "Node.js Entwicklung | Chorn Planet",
         description: "Effiziente und skalierbare Webanwendungen mit Node.js Full-Stack-Entwicklungsexpertise erstellen.",
         images: metadataLink(LanguageCode.de, MetaLinks.backend.nodejs).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.backend.nodejs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNodejsDE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Node.js Full-Stack-Entwicklung | CHORN",
+        title: "Node.js Full-Stack-Entwicklung | Chorn Planet",
         description: "Node.js Full-Stack-Expertise für leistungsstarke und skalierbare Webanwendungen.",
         images: metadataLink(LanguageCode.de, MetaLinks.backend.nodejs).twitter.images
     },
@@ -32,6 +32,6 @@ export const MetadataNodejsDE: Metadata = {
         "Enterprise Node.js Anwendungen", "API-Entwicklung", "Microservices-Entwicklung", "Full-Stack-Entwickler",
         "Node.js Entwickler Thailand", "Node.js Entwickler Bangkok", "Node.js Entwickler Chiang Mai",
         "Backend-Entwickler Thailand", "Full-Stack-Entwickler Thailand", "Softwareingenieur", "Softwareentwickler Thailand",
-        "CHORN", "digitale Innovation", "Unternehmenssoftware"
+        "Chorn Planet", "digitale Innovation", "Unternehmenssoftware"
     ]
 }

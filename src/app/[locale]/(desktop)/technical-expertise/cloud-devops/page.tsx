@@ -23,8 +23,8 @@ export default async function Page() {
             <CloudExperience lang={lang}/>
             <HomeFeatureMain lang={lang}/>
             <SchemaMarkupServicePage
-                name="DevOps & Testing Services | CHORN"
-                description="CHORN offers expert DevOps and testing services to streamline your software development process. Ensure high performance and quality with our continuous integration, automated testing, and cloud-based solutions."
+                name="DevOps & Testing Services | Chorn Planet"
+                description="Chorn Planet offers expert DevOps and testing services to streamline your software development process. Ensure high performance and quality with our continuous integration, automated testing, and cloud-based solutions."
                 url="https://chornplanet.com/en/technical-expertise/cloud-devops/"
             />
         </div>

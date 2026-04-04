@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaFR: Metadata = {
-    title: "Développement Full Stack Java Spring Boot | CHORN",
+    title: "Développement Full Stack Java Spring Boot | Chorn Planet",
     description: "Développement Full Stack avec Java Spring Boot, expertise technique pour créer des applications robustes et évolutives pour les entreprises.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.backend.java).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Développement Java Spring Boot | CHORN",
+        title: "Développement Java Spring Boot | Chorn Planet",
         description: "Exploitez le développement Full Stack Java Spring Boot avec une expertise technique pour créer des applications évolutives, sécurisées et performantes.",
         images: metadataLink(LanguageCode.fr, MetaLinks.backend.java).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.backend.java).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Développement Full Stack Java Spring Boot | CHORN",
+        title: "Développement Full Stack Java Spring Boot | Chorn Planet",
         description: "Expertise en développement Full Stack Java Spring Boot pour créer des applications sécurisées et évolutives.",
         images: metadataLink(LanguageCode.fr, MetaLinks.backend.java).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataJavaFR: Metadata = {
         "Applications performantes", "Applications web Java", "Développement de microservices", "Développement d'API",
         "Développeur Spring Boot Thaïlande", "Développeur Java Thaïlande", "Développeur Java Bangkok",
         "Développeur Java Chiang Mai", "Développeur backend Thaïlande", "Ingénieur logiciel", "Développeur logiciel Thaïlande",
-        "CHORN", "Innovation numérique", "Logiciel pour entreprises"
+        "Chorn Planet", "Innovation numérique", "Logiciel pour entreprises"
     ]
 }

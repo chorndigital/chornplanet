@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaScriptNL: Metadata = {
-    title: "JavaScript | CHORN - Experts in maatwerk softwareontwikkeling",
+    title: "JavaScript | Chorn Planet - Experts in maatwerk softwareontwikkeling",
     description: "Maakt gebruik van JavaScript om schaalbare, robuuste en efficiënte maatwerk softwareoplossingen te bouwen voor bedrijven in verschillende sectoren.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.frontend.javascript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - JavaScript maatwerk softwareontwikkeling",
+        title: "Chorn Planet - JavaScript maatwerk softwareontwikkeling",
         description: "JavaScript-expertise, een krachtig hulpmiddel voor het bouwen van schaalbare en krachtige toepassingen. Leer waarom wij JavaScript kiezen voor maatwerk softwareoplossingen.",
         images: metadataLink(LanguageCode.nl, MetaLinks.frontend.javascript).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.frontend.javascript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaScriptNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - JavaScript ontwikkeling voor maatwerk softwareoplossingen",
+        title: "Chorn Planet - JavaScript ontwikkeling voor maatwerk softwareoplossingen",
         description: "Gebruik JavaScript om schaalbare en hoogwaardige softwareoplossingen te leveren die zijn afgestemd op de behoeften van bedrijven.",
         images: metadataLink(LanguageCode.nl, MetaLinks.frontend.javascript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataJavaScriptNL: Metadata = {
         "JavaScript-ontwikkelaar Thailand", "JavaScript-ontwikkelaar Bangkok", "JavaScript-ontwikkelaar Chiang Mai",
         "frontend ontwikkelaar Thailand", "backend ontwikkelaar Thailand", "full stack ontwikkelaar Thailand",
         "software engineer", "software ontwikkelaar Thailand",
-        "CHORN", "digitale innovatie", "enterprise software"
+        "Chorn Planet", "digitale innovatie", "enterprise software"
     ]
 }

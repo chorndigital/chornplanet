@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCss3DE: Metadata = {
-    title: "CSS3-Entwicklungsdienste | CHORN",
+    title: "CSS3-Entwicklungsdienste | Chorn Planet",
     description: "Verbessern Sie Ihre Webanwendungen mit CSS3-Entwicklung, technisches Fachwissen für moderne und ansprechende Designs.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.frontend.css3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CSS3-Entwicklung | CHORN",
+        title: "CSS3-Entwicklung | Chorn Planet",
         description: "CSS3-Entwicklung mit technischem Fachwissen, um stilvolle und reaktionsfähige Webdesigns zu erstellen.",
         images: metadataLink(LanguageCode.de, MetaLinks.frontend.css3).openGraph.images,
         url: metadataLink(LanguageCode.de, MetaLinks.frontend.css3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataCss3DE: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CSS3-Entwicklungsdienste | CHORN",
+        title: "CSS3-Entwicklungsdienste | Chorn Planet",
         description: "Erstellen Sie visuell beeindruckende Webdesigns mit CSS3 durch die Bereitstellung von CSS3-Entwicklungstechnischem Fachwissen.",
         images: metadataLink(LanguageCode.de, MetaLinks.frontend.css3).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataCss3DE: Metadata = {
         "Webentwicklung", "High-Performance-Webdesign", "dynamische Benutzeroberflächen",
         "CSS3-Entwickler Thailand", "CSS3-Entwickler Bangkok", "CSS3-Entwickler Chiang Mai", "Frontend-Entwickler Thailand",
         "Webentwickler Bangkok", "Software-Ingenieur", "Software-Entwickler Thailand",
-        "CHORN", "Digitale Innovation", "Unternehmenssoftware"
+        "Chorn Planet", "Digitale Innovation", "Unternehmenssoftware"
     ]
 }

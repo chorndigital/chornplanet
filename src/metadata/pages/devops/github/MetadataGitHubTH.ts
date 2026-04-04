@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataGitHubTH: Metadata = {
-    title: "บริการ GitHub DevOps | CHORN",
+    title: "บริการ GitHub DevOps | Chorn Planet",
     description: "ความเชี่ยวชาญด้าน DevOps ที่ใช้ GitHub สำหรับการควบคุมเวอร์ชัน การบูรณาการอย่างต่อเนื่อง และกระบวนการทำงานอัตโนมัติ.",
     alternates: metadataLink(LanguageCode.th, MetaLinks.devops.github).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "บริการ GitHub DevOps | CHORN",
+        title: "บริการ GitHub DevOps | Chorn Planet",
         description: "เพิ่มประสิทธิภาพการทำงานของการพัฒนาด้วยความเชี่ยวชาญ DevOps ที่ใช้ GitHub สำหรับ CI/CD และการควบคุมเวอร์ชัน.",
         images: metadataLink(LanguageCode.th, MetaLinks.devops.github).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.devops.github).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataGitHubTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการ GitHub DevOps | CHORN",
+        title: "บริการ GitHub DevOps | Chorn Planet",
         description: "ปรับปรุงกระบวนการพัฒนาด้วยความเชี่ยวชาญ DevOps ของ GitHub สำหรับการควบคุมเวอร์ชันและการทำงานของ CI/CD.",
         images: metadataLink(LanguageCode.th, MetaLinks.devops.github).twitter.images,
     },

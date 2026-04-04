@@ -9,7 +9,7 @@ export const MetadataAiCompanionTH: Metadata = {
     alternates: metadataLink(LanguageCode.th, MetaLinks.aiCompanion).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

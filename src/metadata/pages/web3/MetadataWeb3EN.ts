@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWeb3EN: Metadata = {
-    title: "Web3 Blockchain Smart Contract Development | CHORN",
+    title: "Web3 Blockchain Smart Contract Development | Chorn Planet",
     description: "Web3 blockchain and smart contract development. We build decentralized applications (DApps) using Solidity, Ethereum, Polygon, and integrate with technologies like Hardhat, Ganache, and MetaMask.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.web3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Web3 Blockchain Smart Contract Development Services | CHORN",
+        title: "Web3 Blockchain Smart Contract Development Services | Chorn Planet",
         description: "Specialized Web3 blockchain and smart contract development technical expertise, including building DApps with Solidity, Ethereum, Polygon, and integrating with Hardhat, Ganache, and MetaMask.",
         images: metadataLink(LanguageCode.en, MetaLinks.web3).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.web3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataWeb3EN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web3 Blockchain Smart Contract Development | CHORN",
+        title: "Web3 Blockchain Smart Contract Development | Chorn Planet",
         description: "Web3 and blockchain smart contract development technical expertise, with creating decentralized applications (DApps) with Solidity, Ethereum, Polygon, and integrate with Hardhat, Ganache, and MetaMask.",
         images: metadataLink(LanguageCode.en, MetaLinks.web3).twitter.images,
     },
@@ -42,6 +42,6 @@ export const MetadataWeb3EN: Metadata = {
         "Principal Web3 developer Thailand", "DApp developer Thailand", "software engineer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "blockchain technology", "scalable blockchain solutions"
+        "Chorn Planet", "digital innovation", "blockchain technology", "scalable blockchain solutions"
     ]
 }

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaScriptZH: Metadata = {
-    title: "JavaScript | CHORN - 定制软件开发专家",
+    title: "JavaScript | Chorn Planet - 定制软件开发专家",
     description: "利用JavaScript构建可扩展、强大且高效的定制软件解决方案，服务于各行业的企业。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.frontend.javascript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - JavaScript定制软件开发",
+        title: "Chorn Planet - JavaScript定制软件开发",
         description: "JavaScript专业知识，构建可扩展和高性能应用程序的强大工具。了解我们为何选择JavaScript作为定制软件解决方案的工具。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.javascript).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.frontend.javascript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaScriptZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - 定制软件解决方案的JavaScript开发",
+        title: "Chorn Planet - 定制软件解决方案的JavaScript开发",
         description: "使用JavaScript提供可扩展和高质量的定制软件解决方案，以满足企业的需求。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.javascript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataJavaScriptZH: Metadata = {
         "JavaScript开发人员 泰国", "JavaScript开发人员 曼谷", "JavaScript开发人员 清迈",
         "前端开发人员 泰国", "后端开发人员 泰国", "全栈开发人员 泰国",
         "软件工程师", "软件开发人员 泰国",
-        "CHORN", "数字创新", "企业软件"
+        "Chorn Planet", "数字创新", "企业软件"
     ]
 }

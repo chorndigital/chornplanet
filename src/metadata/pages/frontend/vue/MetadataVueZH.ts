@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataVueZH: Metadata = {
-    title: "Vue.js 开发服务 | CHORN",
+    title: "Vue.js 开发服务 | Chorn Planet",
     description: "专注于 Vue.js 开发，创建互动性强且可扩展的 Web 应用程序。",
     alternates: metadataLink(LanguageCode.zh, MetaLinks.frontend.vue).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Vue.js 开发 | CHORN",
+        title: "Vue.js 开发 | Chorn Planet",
         description: "Vue.js 开发专业技术，用于构建现代 Web 应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.vue).openGraph.images,
         url: metadataLink(LanguageCode.zh, MetaLinks.frontend.vue).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataVueZH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Vue.js 开发服务 | CHORN",
+        title: "Vue.js 开发服务 | Chorn Planet",
         description: "通过 Vue.js 开发技术增强您的 Web 应用程序。",
         images: metadataLink(LanguageCode.zh, MetaLinks.frontend.vue).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataVueZH: Metadata = {
         "动态用户界面", "单页面应用", "Vue.js 开发者",
         "Vue.js 开发者 泰国", "Vue.js 开发者 曼谷", "Vue.js 开发者 清迈", "前端开发者 泰国",
         "Web 开发者 曼谷", "软件工程师", "软件开发者 泰国",
-        "CHORN", "数字创新", "企业软件"
+        "Chorn Planet", "数字创新", "企业软件"
     ]
 }

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaScriptFI: Metadata = {
-    title: "JavaScript | CHORN - Räätälöityjen ohjelmistoratkaisujen asiantuntijat",
+    title: "JavaScript | Chorn Planet - Räätälöityjen ohjelmistoratkaisujen asiantuntijat",
     description: "Hyödyntää JavaScriptiä luodakseen skaalautuvia, kestäviä ja tehokkaita räätälöityjä ohjelmistoratkaisuja yrityksille eri toimialoilla.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.frontend.javascript).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CHORN - JavaScript räätälöity ohjelmistokehitys",
+        title: "Chorn Planet - JavaScript räätälöity ohjelmistokehitys",
         description: "JavaScript-asiantuntemus, tehokas työkalu skaalautuvien ja suorituskykyisten sovellusten rakentamiseen. Opi, miksi valitsemme JavaScriptin räätälöityihin ohjelmistoratkaisuihin.",
         images: metadataLink(LanguageCode.fi, MetaLinks.frontend.javascript).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.frontend.javascript).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaScriptFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN - JavaScript kehitys räätälöityihin ohjelmistoratkaisuihin",
+        title: "Chorn Planet - JavaScript kehitys räätälöityihin ohjelmistoratkaisuihin",
         description: "Hyödynnä JavaScriptiä toimittaaksesi skaalautuvia ja korkealaatuisia ohjelmistoratkaisuja, jotka on räätälöity yritysten tarpeiden mukaan.",
         images: metadataLink(LanguageCode.fi, MetaLinks.frontend.javascript).twitter.images,
     },
@@ -34,6 +34,6 @@ export const MetadataJavaScriptFI: Metadata = {
         "JavaScript-kehittäjä Thaimaa", "JavaScript-kehittäjä Bangkok", "JavaScript-kehittäjä Chiang Mai",
         "frontend-kehittäjä Thaimaa", "backend-kehittäjä Thaimaa", "full stack-kehittäjä Thaimaa",
         "ohjelmistoinsinööri", "ohjelmistokehittäjä Thaimaa",
-        "CHORN", "digitaalinen innovaatio", "yritysohjelmisto"
+        "Chorn Planet", "digitaalinen innovaatio", "yritysohjelmisto"
     ]
 }

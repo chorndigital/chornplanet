@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaFI: Metadata = {
-    title: "Java Spring Boot Full Stack Kehitys | CHORN",
+    title: "Java Spring Boot Full Stack Kehitys | Chorn Planet",
     description: "Java Spring Boot full stack kehitys, tekninen asiantuntemus luoda vahvoja ja skaalautuvia yrityssovelluksia.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.backend.java).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Java Spring Boot Kehitys | CHORN",
+        title: "Java Spring Boot Kehitys | Chorn Planet",
         description: "Hyödynnä Java Spring Boot full stack kehitys ja tekninen asiantuntemus rakentaaksesi skaalautuvia, turvallisia ja suorituskykyisiä sovelluksia.",
         images: metadataLink(LanguageCode.fi, MetaLinks.backend.java).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.backend.java).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Java Spring Boot Full Stack Kehitys | CHORN",
+        title: "Java Spring Boot Full Stack Kehitys | Chorn Planet",
         description: "Asiantunteva Java Spring Boot full stack kehitys turvallisten ja skaalautuvien sovellusten luomiseksi.",
         images: metadataLink(LanguageCode.fi, MetaLinks.backend.java).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataJavaFI: Metadata = {
         "Korkean suorituskyvyn sovellukset", "Java web-sovellukset", "Mikropalveluiden kehitys", "API kehitys",
         "Spring Boot kehittäjä Thaimaa", "Java kehittäjä Thaimaa", "Java kehittäjä Bangkok",
         "Java kehittäjä Chiang Mai", "Backend kehittäjä Thaimaa", "Ohjelmistoinsinööri", "Ohjelmistokehittäjä Thaimaa",
-        "CHORN", "Digitaalinen innovaatio", "Yritysohjelmisto"
+        "Chorn Planet", "Digitaalinen innovaatio", "Yritysohjelmisto"
     ]
 }

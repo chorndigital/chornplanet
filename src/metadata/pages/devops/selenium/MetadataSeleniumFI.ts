@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataSeleniumFI: Metadata = {
-    title: "Selenium Testauspalvelut | CHORN",
+    title: "Selenium Testauspalvelut | Chorn Planet",
     description: "Kattavaa Selenium-testauksen teknistä asiantuntemusta, joka varmistaa sovellustesi laadun ja suorituskyvyn automaattisten testien avulla.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.devops.selenium).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Selenium Testaus | CHORN",
+        title: "Selenium Testaus | Chorn Planet",
         description: "Automatisoi sovellustestauksesi Seleniumin teknisellä asiantuntemuksella luotettavien ja tehokkaiden tulosten saamiseksi.",
         images: metadataLink(LanguageCode.fi, MetaLinks.devops.selenium).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.devops.selenium).alternates.canonical,
@@ -21,12 +21,12 @@ export const MetadataSeleniumFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Selenium Testauspalvelut | CHORN",
+        title: "Selenium Testauspalvelut | Chorn Planet",
         description: "Paranna sovelluksesi laatua Selenium-testauksen teknisellä asiantuntemuksella tehokkaiden ja automatisoitujen testien avulla.",
         images: metadataLink(LanguageCode.fi, MetaLinks.devops.selenium).twitter.images,
     },
     keywords: [
-        "Selenium-testaus", "automaattiset testit", "CHORN", "Cloud DevOps",
+        "Selenium-testaus", "automaattiset testit", "Chorn Planet", "Cloud DevOps",
         "sovelluksen laadunvarmistus", "testien automatisointi", "ohjelmistotestaus",
         "laadunvarmistus tekninen asiantuntemus", "testaus tekninen asiantuntemus", "testiskriptit",
         "ohjelmistotestaus Suomi", "Selenium tekninen asiantuntemus", "verkkosovellustestaus"

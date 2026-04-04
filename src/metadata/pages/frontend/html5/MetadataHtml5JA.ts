@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHtml5JA: Metadata = {
-    title: "HTML5開発サービス | CHORN",
+    title: "HTML5開発サービス | Chorn Planet",
     description: "インタラクティブで反応の良いウェブアプリケーションを作成するためのHTML5開発の技術専門知識。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.frontend.html5).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "HTML5開発 | CHORN",
+        title: "HTML5開発 | Chorn Planet",
         description: "最新でインタラクティブなウェブアプリケーションを構築する技術的専門知識。",
         images: metadataLink(LanguageCode.ja, MetaLinks.frontend.html5).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.frontend.html5).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataHtml5JA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "HTML5開発サービス | CHORN",
+        title: "HTML5開発サービス | Chorn Planet",
         description: "HTML5の技術的専門知識を活かしてインタラクティブなウェブアプリケーションを作成。",
         images: metadataLink(LanguageCode.ja, MetaLinks.frontend.html5).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataHtml5JA: Metadata = {
         "高性能ウェブデザイン", "レスポンシブウェブデザイン", "動的ユーザーインターフェース",
         "HTML5開発者タイ", "HTML5開発者バンコク", "HTML5開発者チェンマイ", "フロントエンド開発者タイ",
         "ウェブ開発者バンコク", "ソフトウェアエンジニア", "ソフトウェア開発者タイ",
-        "CHORN", "デジタルイノベーション", "企業向けソフトウェア"
+        "Chorn Planet", "デジタルイノベーション", "企業向けソフトウェア"
     ]
 }

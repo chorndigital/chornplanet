@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataBackEndMainNL: Metadata = {
-    title: "Back-End API-ontwikkeling | CHORN",
+    title: "Back-End API-ontwikkeling | Chorn Planet",
     description: "Back-End API-ontwikkelingsdiensten met technische expertise, gebruikmakend van moderne technologieën zoals Node.js, Java Spring Boot, .NET Core, Go, Python en PHP om hoogwaardige en schaalbare applicaties te bouwen die aansluiten bij zakelijke behoeften.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.backend.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Back-End API-ontwikkeling | CHORN",
+        title: "Back-End API-ontwikkeling | Chorn Planet",
         description: "Back-End API-ontwikkeling met technische expertise, gebruikmakend van Node.js, Java Spring Boot, .NET Core, Go, Python en PHP om hoogwaardige en schaalbare applicaties te bouwen.",
         images: metadataLink(LanguageCode.nl, MetaLinks.backend.main).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.backend.main).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataBackEndMainNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Back-End API-ontwikkeling | CHORN",
+        title: "Back-End API-ontwikkeling | Chorn Planet",
         description: "Bouw schaalbare webapplicaties met Node.js, Java Spring Boot, .NET Core, Go, Python en PHP.",
         images: metadataLink(LanguageCode.nl, MetaLinks.backend.main).twitter.images,
     },

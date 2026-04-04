@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWeb3NL: Metadata = {
-    title: "Web3 Blockchain Smart Contract Ontwikkeling | CHORN",
+    title: "Web3 Blockchain Smart Contract Ontwikkeling | Chorn Planet",
     description: "Web3 blockchain en smart contract ontwikkeling. We bouwen gedecentraliseerde applicaties (DApps) met Solidity, Ethereum, Polygon en integreren met technologieën zoals Hardhat, Ganache en MetaMask.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.web3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Web3 Blockchain Smart Contract Ontwikkelingsdiensten | CHORN",
+        title: "Web3 Blockchain Smart Contract Ontwikkelingsdiensten | Chorn Planet",
         description: "Gespecialiseerde technische expertise in Web3 blockchain en smart contract ontwikkeling, inclusief het bouwen van DApps met Solidity, Ethereum, Polygon en integratie met Hardhat, Ganache en MetaMask.",
         images: metadataLink(LanguageCode.nl, MetaLinks.web3).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.web3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataWeb3NL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web3 Blockchain Smart Contract Ontwikkeling | CHORN",
+        title: "Web3 Blockchain Smart Contract Ontwikkeling | Chorn Planet",
         description: "Technische expertise in Web3 en blockchain smart contract ontwikkeling, met het creëren van gedecentraliseerde applicaties (DApps) met Solidity, Ethereum, Polygon en integratie met Hardhat, Ganache en MetaMask.",
         images: metadataLink(LanguageCode.nl, MetaLinks.web3).twitter.images,
     },
@@ -35,6 +35,6 @@ export const MetadataWeb3NL: Metadata = {
         "blockchain ontwikkelaar Nederland", "Web3 ontwikkelaar Nederland", "smart contract ontwikkelaar Nederland",
         "Ethereum ontwikkelaar Nederland", "Solidity ontwikkelaar Nederland", "Senior blockchain ontwikkelaar Nederland",
         "Principal Web3 ontwikkelaar Nederland", "DApp ontwikkelaar Nederland", "software engineer Nederland",
-        "CHORN", "digitale innovatie", "blockchain technologie", "schalbare blockchain oplossingen"
+        "Chorn Planet", "digitale innovatie", "blockchain technologie", "schalbare blockchain oplossingen"
     ]
 };

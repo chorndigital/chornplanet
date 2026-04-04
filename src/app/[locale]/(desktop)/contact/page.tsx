@@ -19,8 +19,8 @@ export default async function Page() {
         <div className="smart-container-top">
             <ContactContent lang={lang}/>
             <SchemaMarkupServicePage
-                name="Contact | CHORN - Software Development, AI Integration, Web3, and Blockchain"
-                description="Discover CHORN's innovative custom software development solutions and how we empower industries with cutting-edge technology."
+                name="Contact | Chorn Planet - Software Development, AI Integration, Web3, and Blockchain"
+                description="Discover Chorn Planet's innovative custom software development solutions and how we empower industries with cutting-edge technology."
                 url="https://chornplanet.com/en/contact/"
             />
         </div>

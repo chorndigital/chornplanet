@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAngularEN: Metadata = {
-    title: "Angular Development Services | CHORN",
+    title: "Angular Development Services | Chorn Planet",
     description: "Angular development services, build dynamic, scalable, and high-performance web applications using Angular.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.frontend.angular).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Angular Development | CHORN",
+        title: "Angular Development | Chorn Planet",
         description: "Angular development with technical expertise to create fast, scalable, and dynamic web applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.angular).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.frontend.angular).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataAngularEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Angular Development Services | CHORN",
+        title: "Angular Development Services | Chorn Planet",
         description: "Elevate your web applications with expert Angular development.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.angular).twitter.images,
     },
@@ -41,7 +41,7 @@ export const MetadataAngularEN: Metadata = {
         "Angular developer Bangkok", "Angular development company",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software",
+        "Chorn Planet", "digital innovation", "enterprise software",
 
         // Google
         "responsive web design in angular", "responsive web design angular", "angular responsive web design"

@@ -7,11 +7,11 @@ export const WorkplacePolicyDE: IPolicy = {
     contents: [
         {
             title: "Arbeitsmodelle",
-            description: "CHORN passt sich verschiedenen Arbeitsmodellen an, einschließlich Remote-, Büro- und Hybridarbeit, und richtet sie auf die spezifischen Anforderungen jedes Projekts aus. Dieser Ansatz gewährleistet eine nahtlose Kommunikation und Effizienz.",
+            description: "Chorn Planet passt sich verschiedenen Arbeitsmodellen an, einschließlich Remote-, Büro- und Hybridarbeit, und richtet sie auf die spezifischen Anforderungen jedes Projekts aus. Dieser Ansatz gewährleistet eine nahtlose Kommunikation und Effizienz.",
         },
         {
             title: "Warum Hybrid?",
-            description: "Große Ideen können überall entstehen, sei es im Büro, zu Hause oder unterwegs. Durch das Angebot eines hybriden Arbeitsmodells bietet CHORN das Beste aus beiden Welten – die Balance zwischen strukturierter Zusammenarbeit und Flexibilität für persönliches und berufliches Wachstum."
+            description: "Große Ideen können überall entstehen, sei es im Büro, zu Hause oder unterwegs. Durch das Angebot eines hybriden Arbeitsmodells bietet Chorn Planet das Beste aus beiden Welten – die Balance zwischen strukturierter Zusammenarbeit und Flexibilität für persönliches und berufliches Wachstum."
         },
         {
             title: "Flexible Büropräsenz",
@@ -23,7 +23,7 @@ export const WorkplacePolicyDE: IPolicy = {
         },
         {
             title: "Technologiegetrieben",
-            description: "CHORN nutzt modernste Kommunikations- und Kollaborationstools, um eine nahtlose Interaktion unter den Teammitgliedern zu gewährleisten, unabhängig vom Standort."
+            description: "Chorn Planet nutzt modernste Kommunikations- und Kollaborationstools, um eine nahtlose Interaktion unter den Teammitgliedern zu gewährleisten, unabhängig vom Standort."
         },
         {
             title: "Work-Life-Balance",

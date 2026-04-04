@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaEN: Metadata = {
-    title: "Java Spring Boot Full Stack Development | CHORN",
+    title: "Java Spring Boot Full Stack Development | Chorn Planet",
     description: "Java Spring Boot full stack development, technical expertise to build robust and scalable enterprise applications.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.backend.java).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Java Spring Boot Development | CHORN",
+        title: "Java Spring Boot Development | Chorn Planet",
         description: "Leverage Java Spring Boot full stack development with technical expertise to build scalable, secure, and high-performance applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.backend.java).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.backend.java).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Java Spring Boot Full Stack Development | CHORN",
+        title: "Java Spring Boot Full Stack Development | Chorn Planet",
         description: "Expert Java Spring Boot full stack development, technical expertise to build secure and scalable applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.backend.java).twitter.images,
     },
@@ -40,6 +40,6 @@ export const MetadataJavaEN: Metadata = {
         "Java developer Chiang Mai", "backend developer Thailand", "software engineer", "software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

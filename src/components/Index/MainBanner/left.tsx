@@ -32,7 +32,7 @@ export default function Left() {
 
                 <div className="option-item addition-pt-20">
                     <Link href="/contact-chorn" className="default-btn">
-                        Contact CHORN
+                        Contact Chorn Planet
                     </Link>
                 </div>
             </div>

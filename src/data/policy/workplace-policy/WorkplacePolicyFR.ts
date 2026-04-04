@@ -7,11 +7,11 @@ export const WorkplacePolicyFR: IPolicy = {
     contents: [
         {
             title: "Modèles de Travail",
-            description: "CHORN s'adapte à divers modèles de travail, y compris à distance, en bureau et hybride, en les ajustant aux besoins spécifiques de chaque projet. Cette approche garantit une communication fluide et une efficacité optimale.",
+            description: "Chorn Planet s'adapte à divers modèles de travail, y compris à distance, en bureau et hybride, en les ajustant aux besoins spécifiques de chaque projet. Cette approche garantit une communication fluide et une efficacité optimale.",
         },
         {
             title: "Pourquoi Hybride ?",
-            description: "Les grandes idées peuvent émerger de n'importe où, que ce soit au bureau, à domicile ou en déplacement. En offrant un modèle de travail hybride, CHORN propose le meilleur des deux mondes : un équilibre entre la collaboration structurée et la flexibilité pour la croissance personnelle et professionnelle."
+            description: "Les grandes idées peuvent émerger de n'importe où, que ce soit au bureau, à domicile ou en déplacement. En offrant un modèle de travail hybride, Chorn Planet propose le meilleur des deux mondes : un équilibre entre la collaboration structurée et la flexibilité pour la croissance personnelle et professionnelle."
         },
         {
             title: "Présence au Bureau Flexible",
@@ -23,7 +23,7 @@ export const WorkplacePolicyFR: IPolicy = {
         },
         {
             title: "Axé sur la Technologie",
-            description: "CHORN utilise des outils de communication et de collaboration de pointe pour assurer une interaction fluide entre les membres de l'équipe, quel que soit leur emplacement."
+            description: "Chorn Planet utilise des outils de communication et de collaboration de pointe pour assurer une interaction fluide entre les membres de l'équipe, quel que soit leur emplacement."
         },
         {
             title: "Équilibre Travail-Vie Personnelle",

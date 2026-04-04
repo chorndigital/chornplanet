@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDevOpsMainKO: Metadata = {
-    title: "Enterprise DevOps & Cloud 솔루션 | CHORN",
+    title: "Enterprise DevOps & Cloud 솔루션 | Chorn Planet",
     description: "DevOps 및 클라우드 전문 지식으로 디지털 혁신을 가속화하세요. 우리는 신뢰성을 높이고 시장 출시 시간을 단축하는 CI/CD 파이프라인, 인프라 자동화 및 클라우드 네이티브 솔루션을 제공합니다.",
     alternates: metadataLink(LanguageCode.ko, MetaLinks.devops.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Enterprise DevOps & Cloud 솔루션 | CHORN",
+        title: "Enterprise DevOps & Cloud 솔루션 | Chorn Planet",
         description: "DevOps 및 클라우드 전문 지식으로 디지털 혁신을 가속화하세요. 우리는 신뢰성을 높이고 시장 출시 시간을 단축하는 CI/CD 파이프라인, 인프라 자동화 및 클라우드 네이티브 솔루션을 제공합니다.",
         images: metadataLink(LanguageCode.ko, MetaLinks.devops.main).openGraph.images,
         url: metadataLink(LanguageCode.ko, MetaLinks.devops.main).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDevOpsMainKO: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Enterprise DevOps & Cloud 솔루션 | CHORN",
+        title: "Enterprise DevOps & Cloud 솔루션 | Chorn Planet",
         description: "DevOps 및 클라우드 전문 지식으로 디지털 혁신을 가속화하세요. 우리는 신뢰성을 높이고 시장 출시 시간을 단축하는 CI/CD 파이프라인, 인프라 자동화 및 클라우드 네이티브 솔루션을 제공합니다.",
         images: metadataLink(LanguageCode.ko, MetaLinks.devops.main).twitter.images,
     },

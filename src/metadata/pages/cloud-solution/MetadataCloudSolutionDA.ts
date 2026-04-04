@@ -4,25 +4,25 @@ import {metadataLink} from "@/metadata/metadataLink/metadataLink";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCloudSolutionDA: Metadata = {
-    title: "Cloudløsningsarkitektur & Systemanalyse | CHORN | AWS, Azure, GCP, DigitalOcean",
-    description: "CHORN leverer ekspertise inden for cloudløsningsarkitektur og systemanalyse. Vi optimerer cloudinfrastrukturer på AWS, Azure, GCP og DigitalOcean med fokus på ydeevne, skalerbarhed og omkostningseffektivitet.",
+    title: "Cloudløsningsarkitektur & Systemanalyse | Chorn Planet | AWS, Azure, GCP, DigitalOcean",
+    description: "Chorn Planet leverer ekspertise inden for cloudløsningsarkitektur og systemanalyse. Vi optimerer cloudinfrastrukturer på AWS, Azure, GCP og DigitalOcean med fokus på ydeevne, skalerbarhed og omkostningseffektivitet.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.cloudSolutions).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Cloudløsningsarkitektur & Systemanalyse | CHORN",
-        description: "Udforsk CHORN's ekspertise inden for cloudløsningsarkitektur og systemanalyse. Vi designer robuste, skalerbare og optimerede cloudløsninger på AWS, Azure, GCP og DigitalOcean.",
+        title: "Cloudløsningsarkitektur & Systemanalyse | Chorn Planet",
+        description: "Udforsk Chorn Planet's ekspertise inden for cloudløsningsarkitektur og systemanalyse. Vi designer robuste, skalerbare og optimerede cloudløsninger på AWS, Azure, GCP og DigitalOcean.",
         images: metadataLink(LanguageCode.da, MetaLinks.cloudSolutions).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.cloudSolutions).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Cloudløsningsarkitektur & Systemanalyse | CHORN",
-        description: "Optimer din cloudinfrastruktur med CHORN's ekspertise i cloudløsningsarkitektur og systemanalyse, herunder AWS, Azure, GCP og DigitalOcean.",
+        title: "Cloudløsningsarkitektur & Systemanalyse | Chorn Planet",
+        description: "Optimer din cloudinfrastruktur med Chorn Planet's ekspertise i cloudløsningsarkitektur og systemanalyse, herunder AWS, Azure, GCP og DigitalOcean.",
         images: metadataLink(LanguageCode.da, MetaLinks.cloudSolutions).twitter.images,
     },
     keywords: [
@@ -36,6 +36,6 @@ export const MetadataCloudSolutionDA: Metadata = {
         "cloudarkitekt Danmark", "AWS-arkitekt Danmark", "Azure-arkitekt Danmark", "GCP-arkitekt Danmark",
         "DigitalOcean-udvikler Danmark", "systemanalytiker Danmark", "cloudinfrastruktur-ekspert Danmark",
 
-        "CHORN", "cloudløsninger", "digital innovation", "cloudinfrastrukturoptimering", "skalerbare cloudsystemer"
+        "Chorn Planet", "cloudløsninger", "digital innovation", "cloudinfrastrukturoptimering", "skalerbare cloudsystemer"
     ]
 }

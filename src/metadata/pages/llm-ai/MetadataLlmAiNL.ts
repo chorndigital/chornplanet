@@ -4,16 +4,16 @@ import {metadataLink} from "@/metadata/metadataLink/metadataLink";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataLlmAiNL: Metadata = {
-    title: "LLM/AI-integratie | CHORN",
+    title: "LLM/AI-integratie | Chorn Planet",
     description: "LLM/AI-agentontwikkelingsdiensten die intelligente oplossingen bieden voor het verbeteren van automatisering, legacy-systeemintegratie en voorspellende analyses.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.llmAi).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "LLM/AI-integratie - CHORN",
+        title: "LLM/AI-integratie - Chorn Planet",
         description: "Ontdek geavanceerde LLM/AI-agentontwikkeling, op maat gemaakte LLM-oplossingen en AI-workflowautomatisering om bedrijfsprocessen te optimaliseren.",
         images: metadataLink(LanguageCode.nl, MetaLinks.llmAi).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.llmAi).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataLlmAiNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "LLM/AI-integratie - CHORN",
+        title: "LLM/AI-integratie - Chorn Planet",
         description: "Ontgrendel de kracht van AI met LLM/AI-agentontwikkeling, voorspellende analyses en intelligente workflowautomatiseringsdiensten.",
         images: metadataLink(LanguageCode.nl, MetaLinks.llmAi).twitter.images,
     },

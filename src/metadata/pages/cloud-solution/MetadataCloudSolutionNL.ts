@@ -4,25 +4,25 @@ import {metadataLink} from "@/metadata/metadataLink/metadataLink";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCloudSolutionNL: Metadata = {
-    title: "Cloudoplossingsarchitectuur & Systeemanalyse | CHORN | AWS, Azure, GCP, DigitalOcean",
-    description: "CHORN biedt deskundigheid in cloudoplossingsarchitectuur en systeemanalyse. Wij optimaliseren cloudinfrastructuren op AWS, Azure, GCP en DigitalOcean, met focus op prestaties, schaalbaarheid en kostenefficiëntie.",
+    title: "Cloudoplossingsarchitectuur & Systeemanalyse | Chorn Planet | AWS, Azure, GCP, DigitalOcean",
+    description: "Chorn Planet biedt deskundigheid in cloudoplossingsarchitectuur en systeemanalyse. Wij optimaliseren cloudinfrastructuren op AWS, Azure, GCP en DigitalOcean, met focus op prestaties, schaalbaarheid en kostenefficiëntie.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.cloudSolutions).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Cloudoplossingsarchitectuur & Systeemanalyse | CHORN",
-        description: "Ontdek de expertise van CHORN in cloudoplossingsarchitectuur en systeemanalyse. Wij ontwerpen robuuste, schaalbare en geoptimaliseerde cloudoplossingen op AWS, Azure, GCP en DigitalOcean.",
+        title: "Cloudoplossingsarchitectuur & Systeemanalyse | Chorn Planet",
+        description: "Ontdek de expertise van Chorn Planet in cloudoplossingsarchitectuur en systeemanalyse. Wij ontwerpen robuuste, schaalbare en geoptimaliseerde cloudoplossingen op AWS, Azure, GCP en DigitalOcean.",
         images: metadataLink(LanguageCode.nl, MetaLinks.cloudSolutions).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.cloudSolutions).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Cloudoplossingsarchitectuur & Systeemanalyse | CHORN",
-        description: "Optimaliseer uw cloudinfrastructuur met de expertise van CHORN in cloudoplossingsarchitectuur en systeemanalyse, inclusief AWS, Azure, GCP en DigitalOcean.",
+        title: "Cloudoplossingsarchitectuur & Systeemanalyse | Chorn Planet",
+        description: "Optimaliseer uw cloudinfrastructuur met de expertise van Chorn Planet in cloudoplossingsarchitectuur en systeemanalyse, inclusief AWS, Azure, GCP en DigitalOcean.",
         images: metadataLink(LanguageCode.nl, MetaLinks.cloudSolutions).twitter.images,
     },
     keywords: [
@@ -36,6 +36,6 @@ export const MetadataCloudSolutionNL: Metadata = {
         "cloudarchitect Nederland", "AWS-architect Nederland", "Azure-architect Nederland", "GCP-architect Nederland",
         "DigitalOcean-ontwikkelaar Nederland", "systeemanalyse-expert Nederland", "cloudinfrastructuur-expert Nederland",
 
-        "CHORN", "cloudoplossingen", "digitale innovatie", "cloudinfrastructuurontwerp", "schaalbare cloudsystemen"
+        "Chorn Planet", "cloudoplossingen", "digitale innovatie", "cloudinfrastructuurontwerp", "schaalbare cloudsystemen"
     ]
 }

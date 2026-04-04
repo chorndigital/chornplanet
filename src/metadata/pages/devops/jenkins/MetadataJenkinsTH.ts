@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJenkinsTH: Metadata = {
-    title: "บริการ DevOps Jenkins | CHORN",
+    title: "บริการ DevOps Jenkins | Chorn Planet",
     description: "ความเชี่ยวชาญด้านเทคนิค DevOps บน Jenkins สำหรับการทำงานอัตโนมัติในกระบวนการสร้าง, ทดสอบ และการปรับใช้ในสายการพัฒนาของคุณ",
     alternates: metadataLink(LanguageCode.th, MetaLinks.devops.jenkins).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "บริการ DevOps Jenkins | CHORN",
+        title: "บริการ DevOps Jenkins | Chorn Planet",
         description: "ทำให้งานพัฒนาของคุณเป็นอัตโนมัติด้วยความเชี่ยวชาญด้าน DevOps บน Jenkins สำหรับการผสานรวมและการปรับใช้ที่ต่อเนื่อง",
         images: metadataLink(LanguageCode.th, MetaLinks.devops.jenkins).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.devops.jenkins).alternates.canonical,
@@ -21,8 +21,8 @@ export const MetadataJenkinsTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการ DevOps Jenkins | CHORN",
-        description: "เพิ่มประสิทธิภาพวงจรการพัฒนาซอฟต์แวร์ของคุณด้วยความเชี่ยวชาญด้าน DevOps บน Jenkins จาก CHORN สำหรับการทำงานอัตโนมัติใน CI/CD",
+        title: "บริการ DevOps Jenkins | Chorn Planet",
+        description: "เพิ่มประสิทธิภาพวงจรการพัฒนาซอฟต์แวร์ของคุณด้วยความเชี่ยวชาญด้าน DevOps บน Jenkins จาก Chorn Planet สำหรับการทำงานอัตโนมัติใน CI/CD",
         images: metadataLink(LanguageCode.th, MetaLinks.devops.jenkins).twitter.images,
     },
     keywords: [

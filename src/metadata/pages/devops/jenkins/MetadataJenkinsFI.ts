@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJenkinsFI: Metadata = {
-    title: "Jenkins DevOps Palvelut | CHORN",
+    title: "Jenkins DevOps Palvelut | Chorn Planet",
     description: "Jenkins-pohjainen DevOps-asiantuntemus rakennusten, testien ja käyttöönoton automatisointiin kehitysputkessasi.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.devops.jenkins).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Jenkins DevOps Palvelut | CHORN",
+        title: "Jenkins DevOps Palvelut | Chorn Planet",
         description: "Automatisoi kehitysprosessisi Jenkins-pohjaisen DevOps-asiantuntemuksen avulla jatkuvaa integraatiota ja käyttöönottoa varten.",
         images: metadataLink(LanguageCode.fi, MetaLinks.devops.jenkins).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.devops.jenkins).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJenkinsFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Jenkins DevOps Palvelut | CHORN",
+        title: "Jenkins DevOps Palvelut | Chorn Planet",
         description: "Paranna ohjelmistokehityssykliäsi Jenkins-pohjaisella DevOps-asiantuntemuksella CHORNilta CI/CD-automatisointiin.",
         images: metadataLink(LanguageCode.fi, MetaLinks.devops.jenkins).twitter.images,
     },

@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataHtml5TH: Metadata = {
-    title: "บริการพัฒนา HTML5 | CHORN",
+    title: "บริการพัฒนา HTML5 | Chorn Planet",
     description: "ความเชี่ยวชาญด้านการพัฒนา HTML5 เพื่อสร้างแอปพลิเคชันเว็บที่ตอบสนองและมีส่วนร่วม",
     alternates: metadataLink(LanguageCode.th, MetaLinks.frontend.html5).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "การพัฒนา HTML5 | CHORN",
+        title: "การพัฒนา HTML5 | Chorn Planet",
         description: "สร้างแอปพลิเคชันเว็บที่ทันสมัยและมีปฏิสัมพันธ์ด้วยความเชี่ยวชาญทางเทคนิค",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.html5).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.frontend.html5).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataHtml5TH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการพัฒนา HTML5 | CHORN",
+        title: "บริการพัฒนา HTML5 | Chorn Planet",
         description: "สร้างแอปพลิเคชันเว็บที่มีปฏิสัมพันธ์ด้วยความเชี่ยวชาญด้าน HTML5",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.html5).twitter.images,
     },
@@ -33,6 +33,6 @@ export const MetadataHtml5TH: Metadata = {
         "การออกแบบเว็บที่มีประสิทธิภาพสูง", "การออกแบบเว็บที่ตอบสนอง", "ส่วนติดต่อผู้ใช้ที่มีพลศาสตร์",
         "นักพัฒนา HTML5 ประเทศไทย", "นักพัฒนา HTML5 กรุงเทพมหานคร", "นักพัฒนา HTML5 เชียงใหม่", "นักพัฒนา Frontend ประเทศไทย",
         "นักพัฒนาเว็บ กรุงเทพมหานคร", "วิศวกรซอฟต์แวร์", "นักพัฒนาซอฟต์แวร์ ประเทศไทย",
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
     ]
 }

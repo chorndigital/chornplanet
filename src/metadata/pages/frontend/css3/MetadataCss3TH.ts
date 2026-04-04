@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCss3TH: Metadata = {
-    title: "บริการพัฒนา CSS3 | CHORN",
+    title: "บริการพัฒนา CSS3 | Chorn Planet",
     description: "เสริมแอปพลิเคชันเว็บของคุณด้วยการพัฒนา CSS3 พร้อมด้วยความเชี่ยวชาญทางเทคนิคเพื่อการออกแบบที่ทันสมัยและน่าสนใจ.",
     alternates: metadataLink(LanguageCode.th, MetaLinks.frontend.css3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "การพัฒนา CSS3 | CHORN",
+        title: "การพัฒนา CSS3 | Chorn Planet",
         description: "การพัฒนา CSS3 ด้วยความเชี่ยวชาญทางเทคนิคเพื่อสร้างการออกแบบเว็บที่สวยงามและตอบสนองได้ดี.",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.css3).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.frontend.css3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataCss3TH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการพัฒนา CSS3 | CHORN",
+        title: "บริการพัฒนา CSS3 | Chorn Planet",
         description: "สร้างการออกแบบเว็บที่น่าทึ่งด้วย CSS3 พร้อมกับการให้บริการ CSS3 ด้วยความเชี่ยวชาญทางเทคนิค.",
         images: metadataLink(LanguageCode.th, MetaLinks.frontend.css3).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataCss3TH: Metadata = {
         "การพัฒนาเว็บ", "การออกแบบเว็บที่มีประสิทธิภาพสูง", "อินเทอร์เฟซผู้ใช้ที่ตอบสนองได้",
         "นักพัฒนา CSS3 ไทย", "นักพัฒนา CSS3 กรุงเทพ", "นักพัฒนา CSS3 เชียงใหม่", "นักพัฒนาเว็บ ไทย",
         "นักพัฒนาเว็บ กรุงเทพ", "วิศวกรซอฟต์แวร์", "นักพัฒนาซอฟต์แวร์ ไทย",
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
     ]
 }

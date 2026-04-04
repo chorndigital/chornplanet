@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiAomDA: Metadata = {
-    title: "AI Chat Companion | CHORN AI Integration",
+    title: "AI Chat Companion | Chorn Planet AI Integration",
     description: "Aom kan tilgås via LINE-appen. Du kan trykke på knappen Tilføj ven eller scanne LINE QR-koden for at tilføje hende som ven. I en alder af 21 år er hun en venlig og energisk AI-companion, der brænder for sund livsstil og velvære og giver ernæringsråd, træningsrutiner og mindfulness-øvelser. Med hendes evne til at chatte på flere sprog hjælper Aom dig med at opretholde en afbalanceret livsstil, samtidig med at det er sjovt.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.aiAom).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

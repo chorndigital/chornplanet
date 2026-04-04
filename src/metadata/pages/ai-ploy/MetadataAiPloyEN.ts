@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiPloyEN: Metadata = {
-    title: "AI Chat Companion | CHORN AI Integration",
+    title: "AI Chat Companion | Chorn Planet AI Integration",
     description: "Ploy is an AI chat friend using LINE Application. Add her with the Add Friend button or QR code scan. As a creative 17-year-old Thai high school student, she's passionate about drawing, music, photography, and learning. Speaking seven languages, Ploy helps with various subjects and inspires creative expression. She's your friendly guide whether exploring art or doing homework.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.aiPloy).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

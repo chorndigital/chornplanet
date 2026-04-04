@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiAomJA: Metadata = {
-    title: "AIチャットコンパニオン | CHORN AI統合",
+    title: "AIチャットコンパニオン | Chorn Planet AI統合",
     description: "アオムはLINEアプリケーションを通じてアクセスできます。「友達追加」ボタンを押すか、LINE QRコードをスキャンして友達として追加できます。21歳のアオムは、健康的な生活とウェルネスに情熱を注ぐフレンドリーで活気に満ちたAIコンパニオンで、栄養のアドバイス、エクササイズルーチン、マインドフルネスの実践を提供します。複数の言語でチャットができるアオムは、楽しい方法でバランスの取れたライフスタイルを維持する手助けをします。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.aiAom).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

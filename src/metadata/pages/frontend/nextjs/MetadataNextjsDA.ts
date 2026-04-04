@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNextjsDA: Metadata = {
-    title: "Next.js Udviklingstjenester | CHORN",
+    title: "Next.js Udviklingstjenester | Chorn Planet",
     description: "Ekspert Next.js udvikling, forbedr dine webapplikationer med skalerbare og højtydende løsninger ved hjælp af Next.js.",
     alternates: metadataLink(LanguageCode.da, MetaLinks.frontend.nextjs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Next.js Udvikling | CHORN",
+        title: "Next.js Udvikling | Chorn Planet",
         description: "Specialiseret Next.js udvikling med teknisk ekspertise til at skabe hurtige og skalerbare webapplikationer.",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.nextjs).openGraph.images,
         url: metadataLink(LanguageCode.da, MetaLinks.frontend.nextjs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNextjsDA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Next.js Udviklingstjenester | CHORN",
+        title: "Next.js Udviklingstjenester | Chorn Planet",
         description: "Hæv dine webapplikationer med ekspert Next.js udviklingsteknisk ekspertise.",
         images: metadataLink(LanguageCode.da, MetaLinks.frontend.nextjs).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataNextjsDA: Metadata = {
         "single-page applikationer", "dynamiske brugergrænseflader", "full stack udvikler", "tilpasset softwareudvikling",
         "Next.js udvikler Danmark", "Next.js udvikler København", "Next.js udvikler Aarhus", "frontend udvikler Danmark",
         "webudvikler København", "softwareingeniør", "softwareudvikler Danmark",
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

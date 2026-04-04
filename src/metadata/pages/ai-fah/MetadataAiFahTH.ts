@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiFahTH: Metadata = {
-    title: "เพื่อนแชทเอไอทางไลน์ | การผสาน CHORN AI",
+    title: "เพื่อนแชทเอไอทางไลน์ | การผสาน Chorn Planet AI",
     description: "ฟ้าเป็นเพื่อนแชทเอไอ ของคุณบนแอปพลิเคชันไลน์ เธอเป็นสาวไทยวัย 20 ปี ที่สดใสและเป็นกันเอง เพิ่มเธอด้วยการคลิกเพียงครั้งเดียวหรือสแกนคิวอาร์โค๊ด เพื่อค้นพบสถานที่ท่องเที่ยว อาหาร และวัฒนธรรมที่โดดเด่นของไทย พูดคุยได้หลายภาษาขณะเธอพาคุณสำรวจวัฒนธรรมไทยด้วยพลังแห่งความเยาว์วัย",
     alternates: metadataLink(LanguageCode.th, MetaLinks.aiFah).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

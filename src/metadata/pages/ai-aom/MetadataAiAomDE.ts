@@ -4,12 +4,12 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataAiAomDE: Metadata = {
-    title: "AI-Chat-Begleiter | CHORN AI-Integration",
+    title: "AI-Chat-Begleiter | Chorn Planet AI-Integration",
     description: "Aom ist über die LINE-App zugänglich. Sie können die Schaltfläche „Freund hinzufügen“ drücken oder den LINE QR-Code scannen, um sie als Freundin hinzuzufügen. Mit 21 Jahren ist sie ein freundlicher und lebendiger AI-Begleiter, der sich für gesunde Lebensweise und Wellness interessiert und Ernährungsberatung, Trainingsroutinen und Achtsamkeitspraktiken bietet. Mit ihrer Fähigkeit, in mehreren Sprachen zu chatten, hilft Aom Ihnen, einen ausgewogenen Lebensstil zu pflegen und dabei Spaß zu haben.",
     alternates: metadataLink(LanguageCode.de, MetaLinks.aiAom).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {

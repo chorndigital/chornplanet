@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPythonNL: Metadata = {
-    title: "Python Full Stack Ontwikkeling | CHORN",
+    title: "Python Full Stack Ontwikkeling | Chorn Planet",
     description: "Python full stack ontwikkeling, technische expertise voor het bouwen van dynamische en schaalbare webapplicaties.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.backend.python).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Python Ontwikkeling | CHORN",
+        title: "Python Ontwikkeling | Chorn Planet",
         description: "Bouw dynamische en schaalbare webapplicaties met de technische expertise van Python full stack ontwikkeling.",
         images: metadataLink(LanguageCode.nl, MetaLinks.backend.python).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.backend.python).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPythonNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Python Full Stack Ontwikkeling | CHORN",
+        title: "Python Full Stack Ontwikkeling | Chorn Planet",
         description: "Expertise in Python full stack ontwikkeling voor dynamische en schaalbare webapplicaties.",
         images: metadataLink(LanguageCode.nl, MetaLinks.backend.python).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataPythonNL: Metadata = {
         "Hoge prestaties applicaties", "Maatwerk webapplicaties", "API ontwikkeling", "Machine learning ontwikkeling",
         "Python ontwikkelaar Thailand", "Python ontwikkelaar Bangkok", "Python ontwikkelaar Chiang Mai",
         "Backend ontwikkelaar Thailand", "Software engineer", "Software ontwikkelaar Thailand",
-        "CHORN", "Digitale innovatie", "Enterprise software"
+        "Chorn Planet", "Digitale innovatie", "Enterprise software"
     ]
 }

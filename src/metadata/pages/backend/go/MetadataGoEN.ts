@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataGoEN: Metadata = {
-    title: "Go Full Stack Development | CHORN",
+    title: "Go Full Stack Development | Chorn Planet",
     description: "Go full stack development, technical expertise for building efficient and scalable web applications.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.backend.go).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Go Development | CHORN",
+        title: "Go Development | Chorn Planet",
         description: "Build efficient and scalable web applications with Go full stack development technical expertise.",
         images: metadataLink(LanguageCode.en, MetaLinks.backend.go).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.backend.go).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataGoEN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Go Full Stack Development | CHORN",
+        title: "Go Full Stack Development | Chorn Planet",
         description: "Expert Go full stack development, technical-expertise for efficient and scalable web applications.",
         images: metadataLink(LanguageCode.en, MetaLinks.backend.go).twitter.images,
     },
@@ -39,6 +39,6 @@ export const MetadataGoEN: Metadata = {
         "software engineer", "software developer Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "digital innovation", "enterprise software"
+        "Chorn Planet", "digital innovation", "enterprise software"
     ]
 }

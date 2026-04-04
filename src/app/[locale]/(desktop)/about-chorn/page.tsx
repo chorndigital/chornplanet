@@ -26,8 +26,8 @@ export default async function Page() {
             <HomeFrontEndContainer lang={lang}/>
 
             <SchemaMarkupServicePage
-                name="About Us | CHORN - Custom Software Development Experts"
-                description="Discover CHORN's innovative custom software development solutions and how we empower industries with cutting-edge technology."
+                name="About Us | Chorn Planet - Custom Software Development Experts"
+                description="Discover Chorn Planet's innovative custom software development solutions and how we empower industries with cutting-edge technology."
                 url="https://chornplanet.com/en/about-chorn/"
             />
         </div>

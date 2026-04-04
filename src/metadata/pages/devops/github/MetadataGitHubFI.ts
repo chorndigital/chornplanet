@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataGitHubFI: Metadata = {
-    title: "GitHub DevOps -palvelut | CHORN",
+    title: "GitHub DevOps -palvelut | Chorn Planet",
     description: "DevOps-tekniikan asiantuntemus, joka integroi GitHubin versionhallintaan, jatkuvaan integraatioon ja automatisoituihin työprosesseihin.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.devops.github).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "GitHub DevOps -palvelut | CHORN",
+        title: "GitHub DevOps -palvelut | Chorn Planet",
         description: "Paranna kehitystyöprosessiasi GitHub-pohjaisella DevOps-asiantuntemuksella CI/CD:lle ja versionhallintaan.",
         images: metadataLink(LanguageCode.fi, MetaLinks.devops.github).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.devops.github).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataGitHubFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "GitHub DevOps -palvelut | CHORN",
+        title: "GitHub DevOps -palvelut | Chorn Planet",
         description: "Virtaviivaista kehitystyötäsi GitHubin DevOps-asiantuntemuksella versionhallintaan ja CI/CD-työprosesseihin.",
         images: metadataLink(LanguageCode.fi, MetaLinks.devops.github).twitter.images,
     },

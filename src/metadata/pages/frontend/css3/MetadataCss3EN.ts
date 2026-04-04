@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCss3EN: Metadata = {
-    title: "CSS3 Development Services | CHORN",
+    title: "CSS3 Development Services | Chorn Planet",
     description: "Enhance your web applications with CSS3 development, technical expertise for modern and visually appealing designs.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.frontend.css3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "CSS3 Development | CHORN",
+        title: "CSS3 Development | Chorn Planet",
         description: "CSS3 development with technical expertise to create stylish and responsive web designs.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.css3).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.frontend.css3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataCss3EN: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CSS3 Development Services | CHORN",
+        title: "CSS3 Development Services | Chorn Planet",
         description: "Create visually stunning web designs with CSS3 with providing CSS3 development technical expertise.",
         images: metadataLink(LanguageCode.en, MetaLinks.frontend.css3).twitter.images,
     },

@@ -5,24 +5,24 @@ import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWebDevelopmentNL: Metadata = {
     title: "Webontwikkelingsdiensten | Aangepaste Software- en Technologieleveringen",
-    description: "Ontdek de technische expertise van CHORN op het gebied van webontwikkeling, inclusief ervaring met Next.js, React, Angular, Vue en meer. CHORN biedt op maat gemaakte oplossingen voor bedrijven in verschillende sectoren, zoals digitale marketing, blockchain, e-commerce en meer.",
+    description: "Ontdek de technische expertise van Chorn Planet op het gebied van webontwikkeling, inclusief ervaring met Next.js, React, Angular, Vue en meer. Chorn Planet biedt op maat gemaakte oplossingen voor bedrijven in verschillende sectoren, zoals digitale marketing, blockchain, e-commerce en meer.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.webDevelopment).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Top Webontwikkelingsdiensten | CHORN",
-        description: "CHORN biedt webontwikkelingsdeskundigheid met ervaring in populaire frameworks zoals Next.js, React, Angular en meer. CHORN biedt oplossingen voor verschillende zakelijke behoeften, zoals digitale marketing, e-commerce, blockchain en meer.",
+        title: "Top Webontwikkelingsdiensten | Chorn Planet",
+        description: "Chorn Planet biedt webontwikkelingsdeskundigheid met ervaring in populaire frameworks zoals Next.js, React, Angular en meer. Chorn Planet biedt oplossingen voor verschillende zakelijke behoeften, zoals digitale marketing, e-commerce, blockchain en meer.",
         images: metadataLink(LanguageCode.nl, MetaLinks.webDevelopment).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.webDevelopment).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Webontwikkelingsdiensten | CHORN",
-        description: "Ontdek de webontwikkelingsdeskundigheid van CHORN. Van Next.js tot Angular en meer biedt CHORN oplossingen voor allerlei zakelijke behoeften, waaronder digitale marketing, blockchain, e-commerce en meer.",
+        title: "Webontwikkelingsdiensten | Chorn Planet",
+        description: "Ontdek de webontwikkelingsdeskundigheid van Chorn Planet. Van Next.js tot Angular en meer biedt Chorn Planet oplossingen voor allerlei zakelijke behoeften, waaronder digitale marketing, blockchain, e-commerce en meer.",
         images: metadataLink(LanguageCode.nl, MetaLinks.webDevelopment).twitter.images
     },
     keywords: [
@@ -36,6 +36,6 @@ export const MetadataWebDevelopmentNL: Metadata = {
         "PHP Laravel webontwikkeling", "aangepaste React webontwikkeling", "enterprise Angular webontwikkeling",
         "webontwikkelaar Thailand", "webontwikkelaar Bangkok", "webontwikkelaar Chiang Mai",
         "senior webontwikkelaar Thailand", "principal webontwikkelaar Thailand", "backend ontwikkelaar Thailand",
-        "frontend ontwikkelaar Thailand", "software engineer Thailand", "CHORN", "digitale innovatie", "enterprise software", "schaalbare webapplicaties"
+        "frontend ontwikkelaar Thailand", "software engineer Thailand", "Chorn Planet", "digitale innovatie", "enterprise software", "schaalbare webapplicaties"
     ]
 }

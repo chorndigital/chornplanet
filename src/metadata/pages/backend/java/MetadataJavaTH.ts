@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataJavaTH: Metadata = {
-    title: "การพัฒนา Full Stack ด้วย Java Spring Boot | CHORN",
+    title: "การพัฒนา Full Stack ด้วย Java Spring Boot | Chorn Planet",
     description: "การพัฒนา Full Stack ด้วย Java Spring Boot, ความเชี่ยวชาญทางเทคนิคในการสร้างแอปพลิเคชันที่มีความแข็งแกร่งและสามารถขยายได้สำหรับองค์กร.",
     alternates: metadataLink(LanguageCode.th, MetaLinks.backend.java).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "การพัฒนา Java Spring Boot | CHORN",
+        title: "การพัฒนา Java Spring Boot | Chorn Planet",
         description: "ใช้ประโยชน์จากการพัฒนา Full Stack ด้วย Java Spring Boot พร้อมความเชี่ยวชาญทางเทคนิคในการสร้างแอปพลิเคชันที่สามารถขยายได้, ปลอดภัย และมีประสิทธิภาพสูง.",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.java).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.backend.java).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataJavaTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "การพัฒนา Full Stack ด้วย Java Spring Boot | CHORN",
+        title: "การพัฒนา Full Stack ด้วย Java Spring Boot | Chorn Planet",
         description: "ความเชี่ยวชาญในการพัฒนา Full Stack ด้วย Java Spring Boot เพื่อสร้างแอปพลิเคชันที่ปลอดภัยและสามารถขยายได้.",
         images: metadataLink(LanguageCode.th, MetaLinks.backend.java).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataJavaTH: Metadata = {
         "แอปพลิเคชันที่มีประสิทธิภาพสูง", "แอปพลิเคชันเว็บ Java", "การพัฒนา Microservices", "การพัฒนา API",
         "นักพัฒนา Spring Boot ประเทศไทย", "นักพัฒนา Java ประเทศไทย", "นักพัฒนา Java กรุงเทพฯ",
         "นักพัฒนา Java เชียงใหม่", "นักพัฒนาแบ็คเอนด์ ประเทศไทย", "วิศวกรซอฟต์แวร์", "นักพัฒนาซอฟต์แวร์ ประเทศไทย",
-        "CHORN", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "ซอฟต์แวร์สำหรับองค์กร"
     ]
 }

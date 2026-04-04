@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNextjsFR: Metadata = {
-    title: "Services de développement Next.js | CHORN",
+    title: "Services de développement Next.js | Chorn Planet",
     description: "Expertise en développement Next.js pour améliorer vos applications web avec des solutions évolutives et performantes.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.frontend.nextjs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Développement Next.js | CHORN",
+        title: "Développement Next.js | Chorn Planet",
         description: "Développement Next.js spécialisé pour créer des applications web rapides et évolutives.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.nextjs).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.frontend.nextjs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNextjsFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Services de développement Next.js | CHORN",
+        title: "Services de développement Next.js | Chorn Planet",
         description: "Améliorez vos applications web avec l'expertise en développement Next.js.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.nextjs).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataNextjsFR: Metadata = {
         "Applications monopages", "Interfaces utilisateur dynamiques", "Développeur full stack", "Développement de logiciels personnalisés",
         "Développeur Next.js France", "Développeur Next.js Paris", "Développeur Next.js Lyon", "Développeur frontend France",
         "Développeur web Paris", "Ingénieur logiciel", "Développeur de logiciels France",
-        "CHORN", "Innovation numérique", "Logiciels d'entreprise"
+        "Chorn Planet", "Innovation numérique", "Logiciels d'entreprise"
     ]
 }

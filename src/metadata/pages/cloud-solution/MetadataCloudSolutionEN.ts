@@ -6,25 +6,25 @@ import {metadataLink} from "@/metadata/metadataLink/metadataLink";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataCloudSolutionEN: Metadata = {
-    title: "Cloud Solution Architecture & Systems Analysis | CHORN | AWS, Azure, GCP, DigitalOcean",
-    description: "CHORN delivers expert cloud solution architecture and system analysis technical-expertise. We optimize cloud infrastructures across AWS, Azure, GCP, and DigitalOcean, ensuring performance, scalability, and cost-efficiency.",
+    title: "Cloud Solution Architecture & Systems Analysis | Chorn Planet | AWS, Azure, GCP, DigitalOcean",
+    description: "Chorn Planet delivers expert cloud solution architecture and system analysis technical-expertise. We optimize cloud infrastructures across AWS, Azure, GCP, and DigitalOcean, ensuring performance, scalability, and cost-efficiency.",
     alternates: metadataLink(LanguageCode.en, MetaLinks.cloudSolutions).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Cloud Solution Architecture & Systems Analysis | CHORN",
-        description: "Explore CHORN’s cloud solution architecture and systems analysis technical-expertise. We design resilient, scalable, and optimized cloud solutions across AWS, Azure, GCP, and DigitalOcean.",
+        title: "Cloud Solution Architecture & Systems Analysis | Chorn Planet",
+        description: "Explore Chorn Planet’s cloud solution architecture and systems analysis technical-expertise. We design resilient, scalable, and optimized cloud solutions across AWS, Azure, GCP, and DigitalOcean.",
         images: metadataLink(LanguageCode.en, MetaLinks.cloudSolutions).openGraph.images,
         url: metadataLink(LanguageCode.en, MetaLinks.cloudSolutions).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Cloud Solution Architecture & Systems Analysis | CHORN",
-        description: "Optimize your cloud infrastructure with CHORN’s cloud solution architecture and systems analysis technical-expertise, covering AWS, Azure, GCP, and DigitalOcean.",
+        title: "Cloud Solution Architecture & Systems Analysis | Chorn Planet",
+        description: "Optimize your cloud infrastructure with Chorn Planet’s cloud solution architecture and systems analysis technical-expertise, covering AWS, Azure, GCP, and DigitalOcean.",
         images: metadataLink(LanguageCode.en, MetaLinks.cloudSolutions).twitter.images,
     },
     keywords: [
@@ -42,6 +42,6 @@ export const MetadataCloudSolutionEN: Metadata = {
         "DigitalOcean developer Thailand", "system analyst Thailand", "cloud infrastructure expert Thailand",
 
         // Brand & Innovation Keywords
-        "CHORN", "cloud solutions", "digital innovation", "cloud infrastructure design", "scalable cloud systems"
+        "Chorn Planet", "cloud solutions", "digital innovation", "cloud infrastructure design", "scalable cloud systems"
     ]
 }

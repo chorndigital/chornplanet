@@ -23,8 +23,8 @@ export default async function Page() {
             <CloudExperience lang={lang}/>
             <HomeFeatureMain lang={lang}/>
             <SchemaMarkupServicePage
-                name="Web3 Blockchain Smart Contract Development | CHORN | Custom Blockchain Solutions"
-                description="Discover CHORN’s expertise in Web3 blockchain and smart contract development. CHORN build decentralized applications (DApps) using Solidity, Ethereum, Polygon, and integrate with technologies like Hardhat, Ganache, and MetaMask."
+                name="Web3 Blockchain Smart Contract Development | Chorn Planet | Custom Blockchain Solutions"
+                description="Discover Chorn Planet’s expertise in Web3 blockchain and smart contract development. Chorn Planet build decentralized applications (DApps) using Solidity, Ethereum, Polygon, and integrate with technologies like Hardhat, Ganache, and MetaMask."
                 url="https://chornplanet.com/en/technical-expertise/web3-blockchain-smart-contract-development/"
             />
         </div>

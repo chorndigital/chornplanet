@@ -5,26 +5,26 @@ import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataServicePackagesJA: Metadata = {
     title: "サービスパッケージ | システム分析・フルスタック開発",
-    description: "CHORNのサービスパッケージで、革新的なソフトウェア開発、ブロックチェーン、Web3、NFTに対応。",
+    description: "Chorn Planetのサービスパッケージで、革新的なソフトウェア開発、ブロックチェーン、Web3、NFTに対応。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.servicePackages).alternates,
-    authors: [{name: "CHORN"}],
+    authors: [{name: "Chorn Planet"}],
     openGraph: {
         title: "サービスパッケージ | システム分析・フルスタック開発",
-        description: "CHORNによる専任フルタイムと共有プロジェクト向けのパッケージで、Web3と現代的な開発ニーズに対応。",
+        description: "Chorn Planetによる専任フルタイムと共有プロジェクト向けのパッケージで、Web3と現代的な開発ニーズに対応。",
         images: metadataLink(LanguageCode.ja, MetaLinks.servicePackages).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.servicePackages).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORNの開発サービスパッケージ",
+        title: "Chorn Planetの開発サービスパッケージ",
         description: "ソフトウェア開発、Web3、NFT向けの高品質なサービスパッケージでプロジェクトを加速。",
         images: metadataLink(LanguageCode.ja, MetaLinks.servicePackages).twitter.images,
     },
     keywords: [
         // ブランド関連キーワード
-        "CHORN", "CHORN ソフトウェア開発", "CHORN ソフトウェアアウトソーシング", "CHORNとは",
-        "CHORN ソフトウェア開発 タイ", "CHORN ソフトウェア開発 チェンマイ", "CHORN ソフトウェア開発 バンコク",
+        "Chorn Planet", "Chorn Planet ソフトウェア開発", "Chorn Planet ソフトウェアアウトソーシング", "Chorn Planetとは",
+        "Chorn Planet ソフトウェア開発 タイ", "Chorn Planet ソフトウェア開発 チェンマイ", "Chorn Planet ソフトウェア開発 バンコク",
 
         // コアサービス
         "カスタムソフトウェア開発", "ソフトウェアアウトソーシング企業", "ソフトウェア開発外注",

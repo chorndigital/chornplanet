@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDotnetCoreFR: Metadata = {
-    title: "Développement Full Stack .NET Core C# | CHORN",
+    title: "Développement Full Stack .NET Core C# | Chorn Planet",
     description: "Développement Full Stack .NET Core C# avec une expertise technique pour créer des applications web modernes, évolutives et sécurisées.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.backend.dotnetcore).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Développement .NET Core C# | CHORN",
+        title: "Développement .NET Core C# | Chorn Planet",
         description: "Construisez des applications web sécurisées, évolutives et modernes grâce à l'expertise technique du développement Full Stack .NET Core C#.",
         images: metadataLink(LanguageCode.fr, MetaLinks.backend.dotnetcore).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.backend.dotnetcore).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataDotnetCoreFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Développement Full Stack .NET Core C# | CHORN",
+        title: "Développement Full Stack .NET Core C# | Chorn Planet",
         description: "Expertise technique du développement Full Stack .NET Core C# pour des applications web modernes et évolutives.",
         images: metadataLink(LanguageCode.fr, MetaLinks.backend.dotnetcore).twitter.images,
     },
@@ -36,6 +36,6 @@ export const MetadataDotnetCoreFR: Metadata = {
         ".NET Core C# développeur Thaïlande", ".NET Core C# développeur Bangkok", ".NET Core C# développeur Chiang Mai",
         "développeur backend Thaïlande", "ingénieur logiciel", "développeur logiciel Thaïlande",
 
-        "CHORN", "innovation numérique", "logiciels pour entreprises"
+        "Chorn Planet", "innovation numérique", "logiciels pour entreprises"
     ]
 }

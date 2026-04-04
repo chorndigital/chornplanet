@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataKubeNL: Metadata = {
-    title: "Kubernetes DevOps Services | CHORN",
+    title: "Kubernetes DevOps Services | Chorn Planet",
     description: "Kubernetes-gebaseerde DevOps-technische expertise voor het automatiseren van de implementatie, schaling en het beheer van containerized applicaties.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.devops.kube).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Kubernetes DevOps Services | CHORN",
+        title: "Kubernetes DevOps Services | Chorn Planet",
         description: "Optimaliseer uw infrastructuur met Kubernetes-gebaseerde DevOps-technische expertise voor geautomatiseerde schaalvergroting en beheer van applicaties.",
         images: metadataLink(LanguageCode.nl, MetaLinks.devops.kube).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.devops.kube).alternates.canonical,
@@ -21,12 +21,12 @@ export const MetadataKubeNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Kubernetes DevOps Services | CHORN",
+        title: "Kubernetes DevOps Services | Chorn Planet",
         description: "Maak gebruik van Kubernetes DevOps-expertise om containerized applicaties automatisch te schalen en te beheren.",
         images: metadataLink(LanguageCode.nl, MetaLinks.devops.kube).twitter.images,
     },
     keywords: [
-        "Kubernetes DevOps", "Kubernetes technische expertise", "containerorchestratie", "CHORN", "DevOps",
+        "Kubernetes DevOps", "Kubernetes technische expertise", "containerorchestratie", "Chorn Planet", "DevOps",
         "schalend applicatiebeheer", "geautomatiseerde schaling", "DevOps Nederland", "cloud-native applicaties"
     ]
 };

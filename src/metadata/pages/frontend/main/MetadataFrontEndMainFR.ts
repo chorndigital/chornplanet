@@ -4,25 +4,25 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataFrontEndMainFR: Metadata = {
-    title: "Services de développement Frontend | CHORN",
-    description: "CHORN propose une expertise technique en développement Frontend, spécialisée dans les frameworks modernes tels que Next.js, React, Angular, Vue, HTML5 et CSS3. Construisez des sites web réactifs et évolutifs avec des technologies de pointe.",
+    title: "Services de développement Frontend | Chorn Planet",
+    description: "Chorn Planet propose une expertise technique en développement Frontend, spécialisée dans les frameworks modernes tels que Next.js, React, Angular, Vue, HTML5 et CSS3. Construisez des sites web réactifs et évolutifs avec des technologies de pointe.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.frontend.main).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Services de développement Frontend | CHORN",
-        description: "CHORN offre une expertise technique en développement Frontend avec des technologies modernes comme Next.js, React, Angular, Vue, HTML5 et CSS3 pour créer des sites web rapides, réactifs et évolutifs.",
+        title: "Services de développement Frontend | Chorn Planet",
+        description: "Chorn Planet offre une expertise technique en développement Frontend avec des technologies modernes comme Next.js, React, Angular, Vue, HTML5 et CSS3 pour créer des sites web rapides, réactifs et évolutifs.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.main).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.frontend.main).alternates.canonical,
         type: "website"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Services de développement Frontend | CHORN",
-        description: "Expertise en développement Frontend par CHORN, utilisant Next.js, React, Angular, Vue, HTML5 et CSS3 pour des sites web réactifs et évolutifs.",
+        title: "Services de développement Frontend | Chorn Planet",
+        description: "Expertise en développement Frontend par Chorn Planet, utilisant Next.js, React, Angular, Vue, HTML5 et CSS3 pour des sites web réactifs et évolutifs.",
         images: metadataLink(LanguageCode.fr, MetaLinks.frontend.main).twitter.images,
     },
     keywords: [
@@ -33,6 +33,6 @@ export const MetadataFrontEndMainFR: Metadata = {
         "développement React.js", "développement frontend Angular sur mesure", "applications frontend React.js",
         "expertise technique Vue.js frontend", "développement Vue.js personnalisé",
         "développeur frontend France", "développeur web France", "ingénieur logiciel France",
-        "CHORN", "innovation numérique", "logiciels d'entreprise", "applications web évolutives"
+        "Chorn Planet", "innovation numérique", "logiciels d'entreprise", "applications web évolutives"
     ]
 }

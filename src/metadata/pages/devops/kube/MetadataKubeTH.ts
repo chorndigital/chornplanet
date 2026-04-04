@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataKubeTH: Metadata = {
-    title: "บริการ DevOps Kubernetes | CHORN",
+    title: "บริการ DevOps Kubernetes | Chorn Planet",
     description: "ความเชี่ยวชาญทางเทคนิคด้าน DevOps โดยใช้ Kubernetes เพื่อการติดตั้ง, การขยาย และการจัดการแอปพลิเคชันที่ใช้คอนเทนเนอร์อัตโนมัติ",
     alternates: metadataLink(LanguageCode.th, MetaLinks.devops.kube).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "บริการ DevOps Kubernetes | CHORN",
+        title: "บริการ DevOps Kubernetes | Chorn Planet",
         description: "เพิ่มประสิทธิภาพโครงสร้างพื้นฐานของคุณด้วยความเชี่ยวชาญทางเทคนิค DevOps โดยใช้ Kubernetes สำหรับการขยายและการจัดการแอปพลิเคชันแบบอัตโนมัติ",
         images: metadataLink(LanguageCode.th, MetaLinks.devops.kube).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.devops.kube).alternates.canonical,
@@ -21,12 +21,12 @@ export const MetadataKubeTH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "บริการ DevOps Kubernetes | CHORN",
+        title: "บริการ DevOps Kubernetes | Chorn Planet",
         description: "ใช้ความเชี่ยวชาญ DevOps ของ Kubernetes เพื่อการจัดการและการขยายแอปพลิเคชันที่ใช้คอนเทนเนอร์อัตโนมัติ",
         images: metadataLink(LanguageCode.th, MetaLinks.devops.kube).twitter.images,
     },
     keywords: [
-        "Kubernetes DevOps", "ความเชี่ยวชาญทางเทคนิค Kubernetes", "การจัดการคอนเทนเนอร์", "CHORN", "DevOps",
+        "Kubernetes DevOps", "ความเชี่ยวชาญทางเทคนิค Kubernetes", "การจัดการคอนเทนเนอร์", "Chorn Planet", "DevOps",
         "การจัดการแอปพลิเคชันที่ขยายได้", "การขยายอัตโนมัติ", "DevOps ประเทศไทย", "แอปพลิเคชันคลาวด์เนทีฟ"
     ]
 };

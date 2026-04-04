@@ -9,7 +9,7 @@ export default function DesktopLayout({children}: { children: React.ReactNode })
             <header className="desktop-navbar">
                 <div className="desktop-navbar-container">
                     <div className="logo">
-                        CHORN Food App
+                        Chorn Planet Food App
                     </div>
                     <nav>
                         <a href="/food">Home</a>
@@ -27,7 +27,7 @@ export default function DesktopLayout({children}: { children: React.ReactNode })
 
             <footer className="desktop-footer">
                 <div className="desktop-footer-container">
-                    © 2025 CHORN Food App Inc. All rights reserved.
+                    © 2025 Chorn Planet Food App Inc. All rights reserved.
                 </div>
             </footer>
         </div>

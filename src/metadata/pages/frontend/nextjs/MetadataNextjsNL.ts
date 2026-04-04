@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataNextjsNL: Metadata = {
-    title: "Next.js Ontwikkelingsdiensten | CHORN",
+    title: "Next.js Ontwikkelingsdiensten | Chorn Planet",
     description: "Next.js ontwikkelingsdiensten, verbeter je webapplicaties met schaalbare en high-performance oplossingen met behulp van Next.js.",
     alternates: metadataLink(LanguageCode.nl, MetaLinks.frontend.nextjs).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Next.js Ontwikkeling | CHORN",
+        title: "Next.js Ontwikkeling | Chorn Planet",
         description: "Gespecialiseerde Next.js ontwikkeling, technische expertise om snelle en schaalbare webapplicaties te creëren.",
         images: metadataLink(LanguageCode.nl, MetaLinks.frontend.nextjs).openGraph.images,
         url: metadataLink(LanguageCode.nl, MetaLinks.frontend.nextjs).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataNextjsNL: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Next.js Ontwikkelingsdiensten | CHORN",
+        title: "Next.js Ontwikkelingsdiensten | Chorn Planet",
         description: "Verhoog je webapplicaties met Next.js ontwikkelingstechnische expertise.",
         images: metadataLink(LanguageCode.nl, MetaLinks.frontend.nextjs).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataNextjsNL: Metadata = {
         "single-page applicaties", "dynamische gebruikersinterfaces", "full stack ontwikkelaar", "op maat gemaakte softwareontwikkeling",
         "Next.js ontwikkelaar Nederland", "Next.js ontwikkelaar Amsterdam", "Next.js ontwikkelaar Rotterdam", "frontend ontwikkelaar Nederland",
         "webontwikkelaar Amsterdam", "software ingenieur", "software ontwikkelaar Nederland",
-        "CHORN", "digitale innovatie", "enterprise software"
+        "Chorn Planet", "digitale innovatie", "enterprise software"
     ]
 }

@@ -9,7 +9,7 @@ export const MetadataServicePackagesTH: Metadata = {
     alternates: metadataLink(LanguageCode.en, MetaLinks.servicePackages).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
@@ -22,13 +22,13 @@ export const MetadataServicePackagesTH: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "แพ็กเกจบริการพัฒนาซอฟต์แวร์สำหรับทุกระดับธุรกิจ",
-        description: "ยกระดับธุรกิจด้วยบริการ Web2 และ Web3 จาก CHORN ครบจบในที่เดียว",
+        description: "ยกระดับธุรกิจด้วยบริการ Web2 และ Web3 จาก Chorn Planet ครบจบในที่เดียว",
         images: metadataLink(LanguageCode.th, MetaLinks.servicePackages).twitter.images,
     },
     keywords: [
         // Brand Keywords
-        "CHORN", "CHORN บริการพัฒนาซอฟต์แวร์", "CHORN outsource software", "CHORN คืออะไร",
-        "CHORN นักพัฒนาซอฟต์แวร์ไทย", "CHORN บริษัทซอฟต์แวร์ เชียงใหม่", "CHORN บริษัทซอฟต์แวร์ กรุงเทพ",
+        "Chorn Planet", "Chorn Planet บริการพัฒนาซอฟต์แวร์", "Chorn Planet outsource software", "Chorn Planet คืออะไร",
+        "Chorn Planet นักพัฒนาซอฟต์แวร์ไทย", "Chorn Planet บริษัทซอฟต์แวร์ เชียงใหม่", "Chorn Planet บริษัทซอฟต์แวร์ กรุงเทพ",
 
         // Core services Keywords
         "บริการพัฒนาซอฟต์แวร์", "พัฒนาซอฟต์แวร์ตามสั่ง", "บริษัท outsource ซอฟต์แวร์",

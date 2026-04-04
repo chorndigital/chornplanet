@@ -21,8 +21,8 @@ export default async function Page() {
             <ServicesDetailsPython lang={lang}/>
             <CloudExperience lang={lang}/>
             <SchemaMarkupServicePage
-                name="Python Full Stack Development | CHORN"
-                description="CHORN offers Python full stack development services to build dynamic and scalable web applications."
+                name="Python Full Stack Development | Chorn Planet"
+                description="Chorn Planet offers Python full stack development services to build dynamic and scalable web applications."
                 url="https://chornplanet.com/en/technical-expertise/full-stack-developer/python-developer/"
             />
         </div>

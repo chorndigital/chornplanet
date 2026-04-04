@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPythonFR: Metadata = {
-    title: "Développement Full Stack Python | CHORN",
+    title: "Développement Full Stack Python | Chorn Planet",
     description: "Développement Full Stack Python, expertise technique pour créer des applications web dynamiques et évolutives.",
     alternates: metadataLink(LanguageCode.fr, MetaLinks.backend.python).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Développement Python | CHORN",
+        title: "Développement Python | Chorn Planet",
         description: "Créez des applications web dynamiques et évolutives avec l'expertise technique du développement Full Stack Python.",
         images: metadataLink(LanguageCode.fr, MetaLinks.backend.python).openGraph.images,
         url: metadataLink(LanguageCode.fr, MetaLinks.backend.python).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPythonFR: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Développement Full Stack Python | CHORN",
+        title: "Développement Full Stack Python | Chorn Planet",
         description: "Expertise en développement Full Stack Python pour des applications web dynamiques et évolutives.",
         images: metadataLink(LanguageCode.fr, MetaLinks.backend.python).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataPythonFR: Metadata = {
         "Applications haute performance", "Applications web personnalisées", "Développement d'API", "Développement de machine learning",
         "Développeur Python Thaïlande", "Développeur Python Bangkok", "Développeur Python Chiang Mai",
         "Développeur backend Thaïlande", "Ingénieur logiciel", "Développeur logiciel Thaïlande",
-        "CHORN", "Innovation numérique", "Logiciel d'entreprise"
+        "Chorn Planet", "Innovation numérique", "Logiciel d'entreprise"
     ]
 }

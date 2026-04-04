@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWeb3KO: Metadata = {
-    title: "Web3 블록체인 스마트 계약 개발 | CHORN",
+    title: "Web3 블록체인 스마트 계약 개발 | Chorn Planet",
     description: "Web3 블록체인 및 스마트 계약 개발. Solidity, Ethereum, Polygon을 사용하여 분산 애플리케이션(DApps)을 구축하고 Hardhat, Ganache, MetaMask와 같은 기술과 통합합니다.",
     alternates: metadataLink(LanguageCode.ko, MetaLinks.web3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Web3 블록체인 스마트 계약 개발 서비스 | CHORN",
+        title: "Web3 블록체인 스마트 계약 개발 서비스 | Chorn Planet",
         description: "Solidity, Ethereum, Polygon을 사용하여 DApp을 구축하고 Hardhat, Ganache, MetaMask와 통합하는 Web3 블록체인 및 스마트 계약 개발에 대한 전문 기술.",
         images: metadataLink(LanguageCode.ko, MetaLinks.web3).openGraph.images,
         url: metadataLink(LanguageCode.ko, MetaLinks.web3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataWeb3KO: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Web3 블록체인 스마트 계약 개발 | CHORN",
+        title: "Web3 블록체인 스마트 계약 개발 | Chorn Planet",
         description: "Solidity, Ethereum, Polygon을 사용하여 분산 애플리케이션(DApps)을 만들고 Hardhat, Ganache, MetaMask와 통합하는 Web3 및 블록체인 스마트 계약 개발 전문 기술.",
         images: metadataLink(LanguageCode.ko, MetaLinks.web3).twitter.images,
     },
@@ -35,6 +35,6 @@ export const MetadataWeb3KO: Metadata = {
         "블록체인 개발자 한국", "Web3 개발자 한국", "스마트 계약 개발자 한국",
         "Ethereum 개발자 한국", "Solidity 개발자 한국", "Senior 블록체인 개발자 한국",
         "Principal Web3 개발자 한국", "DApp 개발자 한국", "소프트웨어 엔지니어 한국",
-        "CHORN", "디지털 혁신", "블록체인 기술", "확장 가능한 블록체인 솔루션"
+        "Chorn Planet", "디지털 혁신", "블록체인 기술", "확장 가능한 블록체인 솔루션"
     ]
 };

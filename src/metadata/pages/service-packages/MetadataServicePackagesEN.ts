@@ -9,7 +9,7 @@ export const MetadataServicePackagesEN: Metadata = {
     alternates: metadataLink(LanguageCode.da, MetaLinks.servicePackages).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
@@ -42,7 +42,7 @@ export const MetadataServicePackagesEN: Metadata = {
         "node.js support package", "solidity smart contract development", "web3 integration service",
 
         // Regional & Branding
-        "CHORN development package", "CHORN software plans", "CHORN nft developer thailand", "CHORN blockchain developer thailand",
+        "Chorn Planet development package", "Chorn Planet software plans", "Chorn Planet nft developer thailand", "Chorn Planet blockchain developer thailand",
         "outsourcing developer thailand", "full stack developer thailand", "nft developer Chiang Mai"
     ],
 };

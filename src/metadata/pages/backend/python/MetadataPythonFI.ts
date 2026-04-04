@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPythonFI: Metadata = {
-    title: "Python Full Stack Kehitys | CHORN",
+    title: "Python Full Stack Kehitys | Chorn Planet",
     description: "Python full stack kehitys, tekninen asiantuntemus dynaamisten ja skaalautuvien verkkosovellusten rakentamiseen.",
     alternates: metadataLink(LanguageCode.fi, MetaLinks.backend.python).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Python Kehitys | CHORN",
+        title: "Python Kehitys | Chorn Planet",
         description: "Rakenna dynaamisia ja skaalautuvia verkkosovelluksia Python full stack kehityksen teknisellä asiantuntemuksella.",
         images: metadataLink(LanguageCode.fi, MetaLinks.backend.python).openGraph.images,
         url: metadataLink(LanguageCode.fi, MetaLinks.backend.python).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPythonFI: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Python Full Stack Kehitys | CHORN",
+        title: "Python Full Stack Kehitys | Chorn Planet",
         description: "Python full stack kehityksen asiantuntemus dynaamisiin ja skaalautuviin verkkosovelluksiin.",
         images: metadataLink(LanguageCode.fi, MetaLinks.backend.python).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataPythonFI: Metadata = {
         "Suorituskykyiset sovellukset", "Räätälöidyt verkkosovellukset", "API kehitys", "Koneoppimisen kehitys",
         "Python kehittäjä Thaimaa", "Python kehittäjä Bangkok", "Python kehittäjä Chiang Mai",
         "Backend kehittäjä Thaimaa", "Ohjelmistoinsinööri", "Ohjelmistokehittäjä Thaimaa",
-        "CHORN", "Digitaalinen innovaatio", "Enterprise ohjelmisto"
+        "Chorn Planet", "Digitaalinen innovaatio", "Enterprise ohjelmisto"
     ]
 }

@@ -5,9 +5,9 @@ import { MetaLinks } from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataServicePackagesKO: Metadata = {
     title: "서비스 패키지 | 시스템 분석 및 풀스택 개발",
-    description: "CHORN의 서비스 패키지를 통해 웹3, NFT 및 블록체인 개발을 포함한 고급 소프트웨어 개발을 경험하세요.",
+    description: "Chorn Planet의 서비스 패키지를 통해 웹3, NFT 및 블록체인 개발을 포함한 고급 소프트웨어 개발을 경험하세요.",
     alternates: metadataLink(LanguageCode.ko, MetaLinks.servicePackages).alternates,
-    authors: [{ name: "CHORN" }],
+    authors: [{ name: "Chorn Planet" }],
     openGraph: {
         title: "서비스 패키지 | 시스템 분석 및 풀스택 개발",
         description: "웹3 및 커스터마이징 개발을 위한 전담 및 공유 프로젝트 서비스.",
@@ -17,14 +17,14 @@ export const MetadataServicePackagesKO: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "CHORN 개발 서비스 패키지",
+        title: "Chorn Planet 개발 서비스 패키지",
         description: "NFT, Web3, 전통 및 최신 기술에 대한 유연한 개발 서비스를 제공합니다.",
         images: metadataLink(LanguageCode.ko, MetaLinks.servicePackages).twitter.images,
     },
     keywords: [
         // 브랜드 관련 키워드
-        "CHORN", "CHORN 맞춤 소프트웨어 개발", "CHORN 소프트웨어 아웃소싱", "CHORN이란",
-        "CHORN 소프트웨어 개발 태국", "CHORN 개발자 치앙마이", "CHORN 개발자 방콕",
+        "Chorn Planet", "Chorn Planet 맞춤 소프트웨어 개발", "Chorn Planet 소프트웨어 아웃소싱", "Chorn Planet이란",
+        "Chorn Planet 소프트웨어 개발 태국", "Chorn Planet 개발자 치앙마이", "Chorn Planet 개발자 방콕",
 
         // 핵심 서비스
         "맞춤형 소프트웨어 개발", "소프트웨어 아웃소싱 회사", "웹 개발 외주", "소프트웨어 개발 외주",

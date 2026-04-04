@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataWeb3TH: Metadata = {
-    title: "การพัฒนา Web3 Blockchain Smart Contract | CHORN",
+    title: "การพัฒนา Web3 Blockchain Smart Contract | Chorn Planet",
     description: "การพัฒนา Web3 blockchain และ smart contract เราสร้างแอปพลิเคชันแบบกระจาย (DApps) โดยใช้ Solidity, Ethereum, Polygon และเชื่อมต่อกับเทคโนโลยีอย่าง Hardhat, Ganache, และ MetaMask.",
     alternates: metadataLink(LanguageCode.th, MetaLinks.web3).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "บริการพัฒนา Web3 Blockchain Smart Contract | CHORN",
+        title: "บริการพัฒนา Web3 Blockchain Smart Contract | Chorn Planet",
         description: "ความเชี่ยวชาญด้านเทคนิคการพัฒนา Web3 blockchain และ smart contract รวมถึงการสร้าง DApps ด้วย Solidity, Ethereum, Polygon และการเชื่อมต่อกับ Hardhat, Ganache, และ MetaMask.",
         images: metadataLink(LanguageCode.th, MetaLinks.web3).openGraph.images,
         url: metadataLink(LanguageCode.th, MetaLinks.web3).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataWeb3TH: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "การพัฒนา Web3 Blockchain Smart Contract | CHORN",
+        title: "การพัฒนา Web3 Blockchain Smart Contract | Chorn Planet",
         description: "ความเชี่ยวชาญด้านการพัฒนา Web3 และ blockchain smart contract โดยการสร้างแอปพลิเคชันแบบกระจาย (DApps) ด้วย Solidity, Ethereum, Polygon และเชื่อมต่อกับ Hardhat, Ganache, และ MetaMask.",
         images: metadataLink(LanguageCode.th, MetaLinks.web3).twitter.images,
     },
@@ -35,6 +35,6 @@ export const MetadataWeb3TH: Metadata = {
         "นักพัฒนา blockchain ประเทศไทย", "นักพัฒนา Web3 ประเทศไทย", "นักพัฒนา smart contract ประเทศไทย",
         "นักพัฒนา Ethereum ประเทศไทย", "นักพัฒนา Solidity ประเทศไทย", "นักพัฒนา blockchain อาวุโส ประเทศไทย",
         "นักพัฒนา Web3 หลัก ประเทศไทย", "นักพัฒนา DApp ประเทศไทย", "วิศวกรซอฟต์แวร์ ประเทศไทย",
-        "CHORN", "นวัตกรรมดิจิทัล", "เทคโนโลยี blockchain", "โซลูชัน blockchain ที่สามารถขยายได้"
+        "Chorn Planet", "นวัตกรรมดิจิทัล", "เทคโนโลยี blockchain", "โซลูชัน blockchain ที่สามารถขยายได้"
     ]
 };

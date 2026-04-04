@@ -4,16 +4,16 @@ import {LanguageCode} from "@/data/translate/LanguageCode";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataPythonJA: Metadata = {
-    title: "Python フルスタック開発 | CHORN",
+    title: "Python フルスタック開発 | Chorn Planet",
     description: "Python フルスタック開発、ダイナミックでスケーラブルなウェブアプリケーションを構築するための技術的専門知識。",
     alternates: metadataLink(LanguageCode.ja, MetaLinks.backend.python).alternates,
     authors: [
         {
-            name: "CHORN"
+            name: "Chorn Planet"
         }
     ],
     openGraph: {
-        title: "Python 開発 | CHORN",
+        title: "Python 開発 | Chorn Planet",
         description: "Python フルスタック開発の技術的専門知識を使用して、ダイナミックでスケーラブルなウェブアプリケーションを構築します。",
         images: metadataLink(LanguageCode.ja, MetaLinks.backend.python).openGraph.images,
         url: metadataLink(LanguageCode.ja, MetaLinks.backend.python).alternates.canonical,
@@ -21,7 +21,7 @@ export const MetadataPythonJA: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Python フルスタック開発 | CHORN",
+        title: "Python フルスタック開発 | Chorn Planet",
         description: "ダイナミックでスケーラブルなウェブアプリケーションのための Python フルスタック開発の技術的専門知識。",
         images: metadataLink(LanguageCode.ja, MetaLinks.backend.python).twitter.images,
     },
@@ -32,6 +32,6 @@ export const MetadataPythonJA: Metadata = {
         "高パフォーマンスアプリケーション", "カスタムウェブアプリケーション", "API 開発", "機械学習開発",
         "Python 開発者 タイ", "Python 開発者 バンコク", "Python 開発者 チェンマイ",
         "バックエンド開発者 タイ", "ソフトウェアエンジニア", "ソフトウェア開発者 タイ",
-        "CHORN", "デジタルイノベーション", "企業向けソフトウェア"
+        "Chorn Planet", "デジタルイノベーション", "企業向けソフトウェア"
     ]
 }
