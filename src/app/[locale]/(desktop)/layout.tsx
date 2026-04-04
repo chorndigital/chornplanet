@@ -67,7 +67,7 @@ export default async function RootLayout({children,}: Readonly<{ children: React
     const isCookieConsent: boolean = headers15.get('x-cookie-consent') != 'false';
 
     return (
-        <html lang={lang}>
+        <html lang={lang} data-scroll-behavior="smooth">
         <body className={`${dm_sans.className}}`}>
         <div className="main-container">
             <AppProvider language={lang}>

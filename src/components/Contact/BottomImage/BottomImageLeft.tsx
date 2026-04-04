@@ -16,6 +16,7 @@ export default function BottomImageLeft() {
                             alt={ImageUrl.logo.rec.sm.title}
                             width={30}
                             height={30}
+                            style={{ height: 'auto' }}
                         />
                     </a>
                 </div>

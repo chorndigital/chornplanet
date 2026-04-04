@@ -18,6 +18,7 @@ export default function FahBottomFeature({lang}: { lang: string }) {
                                     alt="เพิ่มเพื่อน"
                                     width={120}
                                     height={36}
+                                    style={{ height: 'auto' }}
                                 />
                             </a>
                         }
