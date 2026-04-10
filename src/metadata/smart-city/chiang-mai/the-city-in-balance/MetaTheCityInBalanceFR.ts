@@ -6,18 +6,18 @@ export const MetaTheCityInBalanceFR: Metadata = {
         "Un scénario final de ville intelligente à Chiang Mai où les systèmes de mobilité, les espaces publics et la vie quotidienne fonctionnent en équilibre, révélant l’intelligence urbaine à travers l’expérience vécue plutôt que par déclaration.",
 
     alternates: {
-        canonical: "/fr/smart-city/chiang-mai/the-city-in-balance",
+        canonical: "/fr/smart-city/chiang-mai/the-city-in-balance/",
         languages: {
-            en: "/en/smart-city/chiang-mai/the-city-in-balance",
-            th: "/th/smart-city/chiang-mai/the-city-in-balance",
-            da: "/da/smart-city/chiang-mai/the-city-in-balance",
-            de: "/de/smart-city/chiang-mai/the-city-in-balance",
-            fi: "/fi/smart-city/chiang-mai/the-city-in-balance",
-            fr: "/fr/smart-city/chiang-mai/the-city-in-balance",
-            ja: "/ja/smart-city/chiang-mai/the-city-in-balance",
-            ko: "/ko/smart-city/chiang-mai/the-city-in-balance",
-            nl: "/nl/smart-city/chiang-mai/the-city-in-balance",
-            zh: "/zh-cn/smart-city/chiang-mai/the-city-in-balance",
+            en: "/en/smart-city/chiang-mai/the-city-in-balance/",
+            th: "/th/smart-city/chiang-mai/the-city-in-balance/",
+            da: "/da/smart-city/chiang-mai/the-city-in-balance/",
+            de: "/de/smart-city/chiang-mai/the-city-in-balance/",
+            fi: "/fi/smart-city/chiang-mai/the-city-in-balance/",
+            fr: "/fr/smart-city/chiang-mai/the-city-in-balance/",
+            ja: "/ja/smart-city/chiang-mai/the-city-in-balance/",
+            ko: "/ko/smart-city/chiang-mai/the-city-in-balance/",
+            nl: "/nl/smart-city/chiang-mai/the-city-in-balance/",
+            zh: "/zh/smart-city/chiang-mai/the-city-in-balance/",
         },
     },
 
@@ -31,7 +31,7 @@ export const MetaTheCityInBalanceFR: Metadata = {
         title: "La ville en équilibre – Scénario de ville intelligente à Chiang Mai",
         description:
             "Un scénario illustratif de cadre final montrant comment la mobilité, la gouvernance et la vie urbaine quotidienne à Chiang Mai se renforcent mutuellement au sein d’un système urbain cohérent et équilibré.",
-        url: "/fr/smart-city/chiang-mai/the-city-in-balance",
+        url: "/fr/smart-city/chiang-mai/the-city-in-balance/",
         type: "website",
         images: [
             {

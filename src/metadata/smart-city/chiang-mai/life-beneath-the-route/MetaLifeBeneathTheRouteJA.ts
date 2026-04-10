@@ -6,18 +6,18 @@ export const MetaLifeBeneathTheRouteJA: Metadata = {
         "チェンマイにおけるスマートシティの想定シナリオ。移動インフラが日常生活の構造の一部として組み込まれ、人のスケールに配慮した都市環境を支えます。",
 
     alternates: {
-        canonical: "/en/smart-city/chiang-mai/life-beneath-the-route",
+        canonical: "/en/smart-city/chiang-mai/life-beneath-the-route/",
         languages: {
-            en: "/en/smart-city/chiang-mai/life-beneath-the-route",
-            th: "/th/smart-city/chiang-mai/life-beneath-the-route",
-            da: "/da/smart-city/chiang-mai/life-beneath-the-route",
-            de: "/de/smart-city/chiang-mai/life-beneath-the-route",
-            fi: "/fi/smart-city/chiang-mai/life-beneath-the-route",
-            fr: "/fr/smart-city/chiang-mai/life-beneath-the-route",
-            ja: "/ja/smart-city/chiang-mai/life-beneath-the-route",
-            ko: "/ko/smart-city/chiang-mai/life-beneath-the-route",
-            nl: "/nl/smart-city/chiang-mai/life-beneath-the-route",
-            zh: "/zh-cn/smart-city/chiang-mai/life-beneath-the-route",
+            en: "/en/smart-city/chiang-mai/life-beneath-the-route/",
+            th: "/th/smart-city/chiang-mai/life-beneath-the-route/",
+            da: "/da/smart-city/chiang-mai/life-beneath-the-route/",
+            de: "/de/smart-city/chiang-mai/life-beneath-the-route/",
+            fi: "/fi/smart-city/chiang-mai/life-beneath-the-route/",
+            fr: "/fr/smart-city/chiang-mai/life-beneath-the-route/",
+            ja: "/ja/smart-city/chiang-mai/life-beneath-the-route/",
+            ko: "/ko/smart-city/chiang-mai/life-beneath-the-route/",
+            nl: "/nl/smart-city/chiang-mai/life-beneath-the-route/",
+            zh: "/zh/smart-city/chiang-mai/life-beneath-the-route/",
         },
     },
 
@@ -27,7 +27,7 @@ export const MetaLifeBeneathTheRouteJA: Metadata = {
         title: "移動ルートの下で営まれる暮らし – チェンマイ・スマートシティ",
         description:
             "移動インフラが公共空間と日常の都市生活を静かに支えるシナリオ。",
-        url: "/en/smart-city/chiang-mai/life-beneath-the-route",
+        url: "/en/smart-city/chiang-mai/life-beneath-the-route/",
         type: "website",
         images: [
             {

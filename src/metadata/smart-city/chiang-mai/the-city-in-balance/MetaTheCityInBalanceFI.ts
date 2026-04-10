@@ -6,18 +6,18 @@ export const MetaTheCityInBalanceFI: Metadata = {
         "Chiang Main älykaupunkiskenaarion päätöskuva, jossa liikkumisjärjestelmät, julkiset tilat ja arjen elämä toimivat tasapainossa ja tuovat esiin kaupunkien älykkyyden eletyn kokemuksen kautta, ei julistusten.",
 
     alternates: {
-        canonical: "/fi/smart-city/chiang-mai/the-city-in-balance",
+        canonical: "/fi/smart-city/chiang-mai/the-city-in-balance/",
         languages: {
-            en: "/en/smart-city/chiang-mai/the-city-in-balance",
-            th: "/th/smart-city/chiang-mai/the-city-in-balance",
-            da: "/da/smart-city/chiang-mai/the-city-in-balance",
-            de: "/de/smart-city/chiang-mai/the-city-in-balance",
-            fi: "/fi/smart-city/chiang-mai/the-city-in-balance",
-            fr: "/fr/smart-city/chiang-mai/the-city-in-balance",
-            ja: "/ja/smart-city/chiang-mai/the-city-in-balance",
-            ko: "/ko/smart-city/chiang-mai/the-city-in-balance",
-            nl: "/nl/smart-city/chiang-mai/the-city-in-balance",
-            zh: "/zh-cn/smart-city/chiang-mai/the-city-in-balance",
+            en: "/en/smart-city/chiang-mai/the-city-in-balance/",
+            th: "/th/smart-city/chiang-mai/the-city-in-balance/",
+            da: "/da/smart-city/chiang-mai/the-city-in-balance/",
+            de: "/de/smart-city/chiang-mai/the-city-in-balance/",
+            fi: "/fi/smart-city/chiang-mai/the-city-in-balance/",
+            fr: "/fr/smart-city/chiang-mai/the-city-in-balance/",
+            ja: "/ja/smart-city/chiang-mai/the-city-in-balance/",
+            ko: "/ko/smart-city/chiang-mai/the-city-in-balance/",
+            nl: "/nl/smart-city/chiang-mai/the-city-in-balance/",
+            zh: "/zh/smart-city/chiang-mai/the-city-in-balance/",
         },
     },
 
@@ -31,7 +31,7 @@ export const MetaTheCityInBalanceFI: Metadata = {
         title: "Tasapainossa oleva kaupunki – Chiang Main älykaupunkiskenaario",
         description:
             "Havainnollistava loppukehys, joka osoittaa, miten liikkuminen, hallinto ja jokapäiväinen elämä Chiang Maissa muodostavat yhtenäisen ja tasapainoisen kaupunkijärjestelmän.",
-        url: "/fi/smart-city/chiang-mai/the-city-in-balance",
+        url: "/fi/smart-city/chiang-mai/the-city-in-balance/",
         type: "website",
         images: [
             {

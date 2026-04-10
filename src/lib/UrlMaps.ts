@@ -14,10 +14,6 @@ export const UrlMaps: IUrlImageMap[] = [
         ]
     },
     {
-        url: '/404/',
-        images: []
-    },
-    {
         url: '/about-chorn/',
         images: [
             {
@@ -96,49 +92,6 @@ export const UrlMaps: IUrlImageMap[] = [
     {
         url: '/smart-city/',
         images: []
-    },
-
-    // smart-city/[slug]
-    // smart-city/chiang-mai/[slug]
-    {
-        url: '/smart-city/chiang-mai/life-beneath-the-route',
-        images: [
-            {
-                path: "/smart-city/chiang-mai/life-beneath-the-route.png",
-            }
-        ]
-    },
-    {
-        url: '/smart-city/chiang-mai/plaza-that-connects-the-hub',
-        images: [
-            {
-                path: "/smart-city/chiang-mai/plaza-that-connects-the-hub.png"
-            }
-        ]
-    },
-    {
-        url: '/smart-city/chiang-mai/vertiport-reflected-in-water',
-        images: [
-            {
-                path: "/smart-city/chiang-mai/vertiport-reflected-in-water.png",
-            }
-        ]
-    },
-    {
-        url: '/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow',
-        images: [
-            {
-                path: "/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow.png",
-            }
-        ]
-    },
-    {
-        url: '/smart-city/chiang-mai/the-city-in-balance',
-        images: [
-            {
-                path: "/smart-city/chiang-mai/the-city-in-balance.png",
-            }
-        ]
     },
 
     //smart-mobility

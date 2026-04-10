@@ -6,18 +6,18 @@ export const MetaPlazaThatConnectsTheHubFI: Metadata = {
         "Havainnollistava älykaupunkiskenaario Chiang Maissa, jossa liikenteen solmukohta laajenee julkiseksi aukioksi ihmisten arkea varten.",
 
     alternates: {
-        canonical: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub",
+        canonical: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub/",
         languages: {
-            en: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            th: "/th/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            da: "/da/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            de: "/de/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            fi: "/fi/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            fr: "/fr/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            ja: "/ja/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            ko: "/ko/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            nl: "/nl/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            zh: "/zh-cn/smart-city/chiang-mai/plaza-that-connects-the-hub",
+            en: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            th: "/th/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            da: "/da/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            de: "/de/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            fi: "/fi/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            fr: "/fr/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            ja: "/ja/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            ko: "/ko/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            nl: "/nl/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            zh: "/zh/smart-city/chiang-mai/plaza-that-connects-the-hub/",
         },
     },
 
@@ -27,7 +27,7 @@ export const MetaPlazaThatConnectsTheHubFI: Metadata = {
         title: "Aukio, joka yhdistää liikenteen solmukohdan – Chiang Mai",
         description:
             "Skenaario, jossa liikkumisen infrastruktuuri tukee julkista tilaa ja kaupunkielämää.",
-        url: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub",
+        url: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub/",
         type: "website",
         images: [
             {

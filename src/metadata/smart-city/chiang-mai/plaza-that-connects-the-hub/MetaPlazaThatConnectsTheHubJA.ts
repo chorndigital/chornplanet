@@ -6,18 +6,18 @@ export const MetaPlazaThatConnectsTheHubJA: Metadata = {
         "チェンマイにおけるスマートシティの想定シナリオ。モビリティハブが公共広場へと拡張され、移動目的がなくても人々が集まる場所として機能します。",
 
     alternates: {
-        canonical: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub",
+        canonical: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub/",
         languages: {
-            en: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            th: "/th/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            da: "/da/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            de: "/de/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            fi: "/fi/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            fr: "/fr/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            ja: "/ja/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            ko: "/ko/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            nl: "/nl/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            zh: "/zh-cn/smart-city/chiang-mai/plaza-that-connects-the-hub",
+            en: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            th: "/th/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            da: "/da/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            de: "/de/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            fi: "/fi/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            fr: "/fr/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            ja: "/ja/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            ko: "/ko/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            nl: "/nl/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            zh: "/zh/smart-city/chiang-mai/plaza-that-connects-the-hub/",
         },
     },
 
@@ -27,7 +27,7 @@ export const MetaPlazaThatConnectsTheHubJA: Metadata = {
         title: "ハブをつなぐプラザ – チェンマイ・スマートシティ",
         description:
             "モビリティインフラが公共空間を生み出し、都市生活を支える様子を示すシナリオ。",
-        url: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub",
+        url: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub/",
         type: "website",
         images: [
             {

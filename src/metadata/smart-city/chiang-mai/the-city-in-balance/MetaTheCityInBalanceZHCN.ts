@@ -6,18 +6,18 @@ export const MetaTheCityInBalanceZHCN: Metadata = {
         "清迈智慧城市的最终情景展示，在这里，交通系统、公共空间与日常生活保持平衡运作，城市智慧通过真实的生活体验自然显现，而非通过宣示。",
 
     alternates: {
-        canonical: "/zh-cn/smart-city/chiang-mai/the-city-in-balance",
+        canonical: "/zh/smart-city/chiang-mai/the-city-in-balance/",
         languages: {
-            en: "/en/smart-city/chiang-mai/the-city-in-balance",
-            th: "/th/smart-city/chiang-mai/the-city-in-balance",
-            da: "/da/smart-city/chiang-mai/the-city-in-balance",
-            de: "/de/smart-city/chiang-mai/the-city-in-balance",
-            fi: "/fi/smart-city/chiang-mai/the-city-in-balance",
-            fr: "/fr/smart-city/chiang-mai/the-city-in-balance",
-            ja: "/ja/smart-city/chiang-mai/the-city-in-balance",
-            ko: "/ko/smart-city/chiang-mai/the-city-in-balance",
-            nl: "/nl/smart-city/chiang-mai/the-city-in-balance",
-            "zh-cn": "/zh-cn/smart-city/chiang-mai/the-city-in-balance",
+            en: "/en/smart-city/chiang-mai/the-city-in-balance/",
+            th: "/th/smart-city/chiang-mai/the-city-in-balance/",
+            da: "/da/smart-city/chiang-mai/the-city-in-balance/",
+            de: "/de/smart-city/chiang-mai/the-city-in-balance/",
+            fi: "/fi/smart-city/chiang-mai/the-city-in-balance/",
+            fr: "/fr/smart-city/chiang-mai/the-city-in-balance/",
+            ja: "/ja/smart-city/chiang-mai/the-city-in-balance/",
+            ko: "/ko/smart-city/chiang-mai/the-city-in-balance/",
+            nl: "/nl/smart-city/chiang-mai/the-city-in-balance/",
+            "zh-cn": "/zh/smart-city/chiang-mai/the-city-in-balance/",
         },
     },
 
@@ -31,7 +31,7 @@ export const MetaTheCityInBalanceZHCN: Metadata = {
         title: "平衡之城 — 清迈智慧城市情景",
         description:
             "该最终画面情景展示了清迈如何通过交通系统、城市治理与日常生活的相互协同，形成一个连贯而平衡的城市系统。",
-        url: "/zh-cn/smart-city/chiang-mai/the-city-in-balance",
+        url: "/zh/smart-city/chiang-mai/the-city-in-balance/",
         type: "website",
         images: [
             {

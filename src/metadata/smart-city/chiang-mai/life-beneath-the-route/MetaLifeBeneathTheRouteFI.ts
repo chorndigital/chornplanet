@@ -6,18 +6,18 @@ export const MetaLifeBeneathTheRouteFI: Metadata = {
         "Havainnollistava älykaupunkiskenaario Chiang Maissa, jossa liikkumisen infrastruktuuri tukee arjen elämää ihmisen mittakaavassa.",
 
     alternates: {
-        canonical: "/en/smart-city/chiang-mai/life-beneath-the-route",
+        canonical: "/en/smart-city/chiang-mai/life-beneath-the-route/",
         languages: {
-            en: "/en/smart-city/chiang-mai/life-beneath-the-route",
-            th: "/th/smart-city/chiang-mai/life-beneath-the-route",
-            da: "/da/smart-city/chiang-mai/life-beneath-the-route",
-            de: "/de/smart-city/chiang-mai/life-beneath-the-route",
-            fi: "/fi/smart-city/chiang-mai/life-beneath-the-route",
-            fr: "/fr/smart-city/chiang-mai/life-beneath-the-route",
-            ja: "/ja/smart-city/chiang-mai/life-beneath-the-route",
-            ko: "/ko/smart-city/chiang-mai/life-beneath-the-route",
-            nl: "/nl/smart-city/chiang-mai/life-beneath-the-route",
-            zh: "/zh-cn/smart-city/chiang-mai/life-beneath-the-route",
+            en: "/en/smart-city/chiang-mai/life-beneath-the-route/",
+            th: "/th/smart-city/chiang-mai/life-beneath-the-route/",
+            da: "/da/smart-city/chiang-mai/life-beneath-the-route/",
+            de: "/de/smart-city/chiang-mai/life-beneath-the-route/",
+            fi: "/fi/smart-city/chiang-mai/life-beneath-the-route/",
+            fr: "/fr/smart-city/chiang-mai/life-beneath-the-route/",
+            ja: "/ja/smart-city/chiang-mai/life-beneath-the-route/",
+            ko: "/ko/smart-city/chiang-mai/life-beneath-the-route/",
+            nl: "/nl/smart-city/chiang-mai/life-beneath-the-route/",
+            zh: "/zh/smart-city/chiang-mai/life-beneath-the-route/",
         },
     },
 
@@ -27,7 +27,7 @@ export const MetaLifeBeneathTheRouteFI: Metadata = {
         title: "Elämää liikkumisreitin alla – Chiang Mai",
         description:
             "Liikkumisjärjestelmät osana kaupunkitilaa ja jokapäiväistä elämää.",
-        url: "/en/smart-city/chiang-mai/life-beneath-the-route",
+        url: "/en/smart-city/chiang-mai/life-beneath-the-route/",
         type: "website",
         images: [
             {

@@ -6,18 +6,18 @@ export const MetaVertiportReflectedInWaterDA: Metadata = {
         "Et illustrativt smart mobilitetsscenarie i Chiang Mai, hvor en vertiport integreres roligt i bylandskabet og formidler stabilitet, præcision og tillid gennem et afdæmpet design.",
 
     alternates: {
-        canonical: "/da/smart-city/chiang-mai/vertiport-reflected-in-water",
+        canonical: "/da/smart-city/chiang-mai/vertiport-reflected-in-water/",
         languages: {
-            en: "/en/smart-city/chiang-mai/vertiport-reflected-in-water",
-            th: "/th/smart-city/chiang-mai/vertiport-reflected-in-water",
-            da: "/da/smart-city/chiang-mai/vertiport-reflected-in-water",
-            de: "/de/smart-city/chiang-mai/vertiport-reflected-in-water",
-            fi: "/fi/smart-city/chiang-mai/vertiport-reflected-in-water",
-            fr: "/fr/smart-city/chiang-mai/vertiport-reflected-in-water",
-            ja: "/ja/smart-city/chiang-mai/vertiport-reflected-in-water",
-            ko: "/ko/smart-city/chiang-mai/vertiport-reflected-in-water",
-            nl: "/nl/smart-city/chiang-mai/vertiport-reflected-in-water",
-            zh: "/zh-cn/smart-city/chiang-mai/vertiport-reflected-in-water",
+            en: "/en/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            th: "/th/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            da: "/da/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            de: "/de/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            fi: "/fi/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            fr: "/fr/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            ja: "/ja/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            ko: "/ko/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            nl: "/nl/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            zh: "/zh/smart-city/chiang-mai/vertiport-reflected-in-water/",
         },
     },
 
@@ -27,7 +27,7 @@ export const MetaVertiportReflectedInWaterDA: Metadata = {
         title: "Vertiport spejlet i vand – Smart City-scenarie i Chiang Mai",
         description:
             "Et roligt og præcist vertiport-scenarie i Chiang Mai, der viser, hvordan avanceret luftmobilitetsinfrastruktur kan integreres diskret og tillidsfuldt i bymiljøet.",
-        url: "/da/smart-city/chiang-mai/vertiport-reflected-in-water",
+        url: "/da/smart-city/chiang-mai/vertiport-reflected-in-water/",
         type: "website",
         images: [
             {

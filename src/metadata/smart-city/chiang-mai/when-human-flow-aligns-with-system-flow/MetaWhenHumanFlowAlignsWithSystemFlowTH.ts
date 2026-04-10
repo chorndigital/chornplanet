@@ -6,18 +6,18 @@ export const MetaWhenHumanFlowAlignsWithSystemFlowTH: Metadata = {
         "ฉากทัศน์เมืองอัจฉริยะเชิงภาพประกอบในเชียงใหม่ ที่การเคลื่อนไหวของผู้คนและระบบคมนาคมทำงานอย่างสอดประสาน ช่วยให้การเดินทางเป็นธรรมชาติ ภายใต้โครงสร้างพื้นฐานที่ปรับตัวได้อย่างเงียบและมีประสิทธิภาพ",
 
     alternates: {
-        canonical: "/th/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
+        canonical: "/th/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
         languages: {
-            en: "/en/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
-            th: "/th/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
-            da: "/da/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
-            de: "/de/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
-            fi: "/fi/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
-            fr: "/fr/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
-            ja: "/ja/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
-            ko: "/ko/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
-            nl: "/nl/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
-            zh: "/zh-cn/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
+            en: "/en/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
+            th: "/th/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
+            da: "/da/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
+            de: "/de/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
+            fi: "/fi/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
+            fr: "/fr/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
+            ja: "/ja/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
+            ko: "/ko/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
+            nl: "/nl/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
+            zh: "/zh/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
         },
     },
 
@@ -31,7 +31,7 @@ export const MetaWhenHumanFlowAlignsWithSystemFlowTH: Metadata = {
         title: "เมื่อการเคลื่อนไหวของผู้คนสอดคล้องกับระบบ – ฉากทัศน์เมืองอัจฉริยะเชียงใหม่",
         description:
             "ฉากทัศน์ที่แสดงให้เห็นว่าระบบคมนาคมในเชียงใหม่สามารถปรับตัวเข้ากับการเคลื่อนไหวของผู้คนได้อย่างแนบเนียน สนับสนุนความสะดวกสบาย ความปลอดภัย และความชัดเจนในการใช้ชีวิตประจำวันของเมือง",
-        url: "/th/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow",
+        url: "/th/smart-city/chiang-mai/when-human-flow-aligns-with-system-flow/",
         type: "website",
         images: [
             {

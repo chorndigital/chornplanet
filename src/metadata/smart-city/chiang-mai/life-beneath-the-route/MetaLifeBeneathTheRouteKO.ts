@@ -6,18 +6,18 @@ export const MetaLifeBeneathTheRouteKO: Metadata = {
         "치앙마이의 스마트 시티를 가정한 시나리오로, 이동 인프라가 일상적인 도시 생활의 구조 안에 자연스럽게 통합됩니다.",
 
     alternates: {
-        canonical: "/en/smart-city/chiang-mai/life-beneath-the-route",
+        canonical: "/en/smart-city/chiang-mai/life-beneath-the-route/",
         languages: {
-            en: "/en/smart-city/chiang-mai/life-beneath-the-route",
-            th: "/th/smart-city/chiang-mai/life-beneath-the-route",
-            da: "/da/smart-city/chiang-mai/life-beneath-the-route",
-            de: "/de/smart-city/chiang-mai/life-beneath-the-route",
-            fi: "/fi/smart-city/chiang-mai/life-beneath-the-route",
-            fr: "/fr/smart-city/chiang-mai/life-beneath-the-route",
-            ja: "/ja/smart-city/chiang-mai/life-beneath-the-route",
-            ko: "/ko/smart-city/chiang-mai/life-beneath-the-route",
-            nl: "/nl/smart-city/chiang-mai/life-beneath-the-route",
-            zh: "/zh-cn/smart-city/chiang-mai/life-beneath-the-route",
+            en: "/en/smart-city/chiang-mai/life-beneath-the-route/",
+            th: "/th/smart-city/chiang-mai/life-beneath-the-route/",
+            da: "/da/smart-city/chiang-mai/life-beneath-the-route/",
+            de: "/de/smart-city/chiang-mai/life-beneath-the-route/",
+            fi: "/fi/smart-city/chiang-mai/life-beneath-the-route/",
+            fr: "/fr/smart-city/chiang-mai/life-beneath-the-route/",
+            ja: "/ja/smart-city/chiang-mai/life-beneath-the-route/",
+            ko: "/ko/smart-city/chiang-mai/life-beneath-the-route/",
+            nl: "/nl/smart-city/chiang-mai/life-beneath-the-route/",
+            zh: "/zh/smart-city/chiang-mai/life-beneath-the-route/",
         },
     },
 
@@ -27,7 +27,7 @@ export const MetaLifeBeneathTheRouteKO: Metadata = {
         title: "이동 경로 아래의 삶 – 치앙마이 스마트 시티",
         description:
             "이동 인프라가 공공 공간과 일상적인 도시 흐름을 조용히 지원하는 시나리오.",
-        url: "/en/smart-city/chiang-mai/life-beneath-the-route",
+        url: "/en/smart-city/chiang-mai/life-beneath-the-route/",
         type: "website",
         images: [
             {
