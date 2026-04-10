@@ -6,18 +6,18 @@ export const MetaVertiportReflectedInWaterJA: Metadata = {
         "チェンマイにおけるスマートモビリティの想定シナリオ。バーティポートが都市景観に静かに統合され、抑制されたデザインを通じて安定性、精度、信頼性を表現しています。",
 
     alternates: {
-        canonical: "/ja/smart-city/chiang-mai/vertiport-reflected-in-water",
+        canonical: "/ja/smart-city/chiang-mai/vertiport-reflected-in-water/",
         languages: {
-            en: "/en/smart-city/chiang-mai/vertiport-reflected-in-water",
-            th: "/th/smart-city/chiang-mai/vertiport-reflected-in-water",
-            da: "/da/smart-city/chiang-mai/vertiport-reflected-in-water",
-            de: "/de/smart-city/chiang-mai/vertiport-reflected-in-water",
-            fi: "/fi/smart-city/chiang-mai/vertiport-reflected-in-water",
-            fr: "/fr/smart-city/chiang-mai/vertiport-reflected-in-water",
-            ja: "/ja/smart-city/chiang-mai/vertiport-reflected-in-water",
-            ko: "/ko/smart-city/chiang-mai/vertiport-reflected-in-water",
-            nl: "/nl/smart-city/chiang-mai/vertiport-reflected-in-water",
-            zh: "/zh-cn/smart-city/chiang-mai/vertiport-reflected-in-water",
+            en: "/en/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            th: "/th/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            da: "/da/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            de: "/de/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            fi: "/fi/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            fr: "/fr/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            ja: "/ja/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            ko: "/ko/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            nl: "/nl/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            zh: "/zh/smart-city/chiang-mai/vertiport-reflected-in-water/",
         },
     },
 
@@ -27,7 +27,7 @@ export const MetaVertiportReflectedInWaterJA: Metadata = {
         title: "水面に映るバーティポート ― チェンマイ・スマートシティ・シナリオ",
         description:
             "高度な空のモビリティ・インフラが、チェンマイの都市環境に静かで確かな形で統合される様子を示す、落ち着いたバーティポートのシナリオです。",
-        url: "/ja/smart-city/chiang-mai/vertiport-reflected-in-water",
+        url: "/ja/smart-city/chiang-mai/vertiport-reflected-in-water/",
         type: "website",
         images: [
             {

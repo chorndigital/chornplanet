@@ -6,18 +6,18 @@ export const MetaPlazaThatConnectsTheHubDA: Metadata = {
         "Et illustrativt smart city-scenarie i Chiang Mai, hvor et mobilitetsknudepunkt udvides til en offentlig plads, som mennesker besøger – også uden rejseformål.",
 
     alternates: {
-        canonical: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub",
+        canonical: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub/",
         languages: {
-            en: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            th: "/th/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            da: "/da/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            de: "/de/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            fi: "/fi/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            fr: "/fr/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            ja: "/ja/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            ko: "/ko/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            nl: "/nl/smart-city/chiang-mai/plaza-that-connects-the-hub",
-            zh: "/zh-cn/smart-city/chiang-mai/plaza-that-connects-the-hub",
+            en: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            th: "/th/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            da: "/da/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            de: "/de/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            fi: "/fi/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            fr: "/fr/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            ja: "/ja/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            ko: "/ko/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            nl: "/nl/smart-city/chiang-mai/plaza-that-connects-the-hub/",
+            zh: "/zh/smart-city/chiang-mai/plaza-that-connects-the-hub/",
         },
     },
 
@@ -27,7 +27,7 @@ export const MetaPlazaThatConnectsTheHubDA: Metadata = {
         title: "Pladsen der forbinder knudepunktet – Chiang Mai smart city",
         description:
             "Et scenarie der viser, hvordan mobilitetsinfrastruktur kan skabe offentlige byrum og understøtte hverdagslivet.",
-        url: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub",
+        url: "/en/smart-city/chiang-mai/plaza-that-connects-the-hub/",
         type: "website",
         images: [
             {

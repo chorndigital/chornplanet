@@ -6,18 +6,18 @@ export const MetaLifeBeneathTheRouteFR: Metadata = {
         "Un scénario illustratif de ville intelligente à Chiang Mai, où les infrastructures de mobilité s’intègrent naturellement à la vie quotidienne.",
 
     alternates: {
-        canonical: "/en/smart-city/chiang-mai/life-beneath-the-route",
+        canonical: "/en/smart-city/chiang-mai/life-beneath-the-route/",
         languages: {
-            en: "/en/smart-city/chiang-mai/life-beneath-the-route",
-            th: "/th/smart-city/chiang-mai/life-beneath-the-route",
-            da: "/da/smart-city/chiang-mai/life-beneath-the-route",
-            de: "/de/smart-city/chiang-mai/life-beneath-the-route",
-            fi: "/fi/smart-city/chiang-mai/life-beneath-the-route",
-            fr: "/fr/smart-city/chiang-mai/life-beneath-the-route",
-            ja: "/ja/smart-city/chiang-mai/life-beneath-the-route",
-            ko: "/ko/smart-city/chiang-mai/life-beneath-the-route",
-            nl: "/nl/smart-city/chiang-mai/life-beneath-the-route",
-            zh: "/zh-cn/smart-city/chiang-mai/life-beneath-the-route",
+            en: "/en/smart-city/chiang-mai/life-beneath-the-route/",
+            th: "/th/smart-city/chiang-mai/life-beneath-the-route/",
+            da: "/da/smart-city/chiang-mai/life-beneath-the-route/",
+            de: "/de/smart-city/chiang-mai/life-beneath-the-route/",
+            fi: "/fi/smart-city/chiang-mai/life-beneath-the-route/",
+            fr: "/fr/smart-city/chiang-mai/life-beneath-the-route/",
+            ja: "/ja/smart-city/chiang-mai/life-beneath-the-route/",
+            ko: "/ko/smart-city/chiang-mai/life-beneath-the-route/",
+            nl: "/nl/smart-city/chiang-mai/life-beneath-the-route/",
+            zh: "/zh/smart-city/chiang-mai/life-beneath-the-route/",
         },
     },
 
@@ -27,7 +27,7 @@ export const MetaLifeBeneathTheRouteFR: Metadata = {
         title: "La vie sous l’axe de mobilité – Chiang Mai smart city",
         description:
             "La mobilité comme structure de soutien à l’espace public et au quotidien urbain.",
-        url: "/en/smart-city/chiang-mai/life-beneath-the-route",
+        url: "/en/smart-city/chiang-mai/life-beneath-the-route/",
         type: "website",
         images: [
             {

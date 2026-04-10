@@ -7,12 +7,12 @@ export default function robots(): MetadataRoute.Robots {
         rules: [
             {
                 userAgent: '*',
-                disallow: '/sitmap.xml',
-                allow: '/api/sitemap',
+                allow: '/',
+                disallow: ['/api/openai', '/_next/static/'],
             },
         ],
         sitemap: [
-            'https://www.chornplanet.com/api/sitemap',
+            'https://chornplanet.com/sitemap.xml',
         ],
     };
 }

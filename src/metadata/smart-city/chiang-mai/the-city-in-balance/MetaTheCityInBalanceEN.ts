@@ -6,18 +6,18 @@ export const MetaTheCityInBalanceEN: Metadata = {
         "A final smart city scenario in Chiang Mai where mobility systems, public spaces, and daily life operate in balance, revealing urban intelligence through lived experience rather than declaration.",
 
     alternates: {
-        canonical: "/en/smart-city/chiang-mai/the-city-in-balance",
+        canonical: "/en/smart-city/chiang-mai/the-city-in-balance/",
         languages: {
-            en: "/en/smart-city/chiang-mai/the-city-in-balance",
-            th: "/th/smart-city/chiang-mai/the-city-in-balance",
-            da: "/da/smart-city/chiang-mai/the-city-in-balance",
-            de: "/de/smart-city/chiang-mai/the-city-in-balance",
-            fi: "/fi/smart-city/chiang-mai/the-city-in-balance",
-            fr: "/fr/smart-city/chiang-mai/the-city-in-balance",
-            ja: "/ja/smart-city/chiang-mai/the-city-in-balance",
-            ko: "/ko/smart-city/chiang-mai/the-city-in-balance",
-            nl: "/nl/smart-city/chiang-mai/the-city-in-balance",
-            zh: "/zh-cn/smart-city/chiang-mai/the-city-in-balance",
+            en: "/en/smart-city/chiang-mai/the-city-in-balance/",
+            th: "/th/smart-city/chiang-mai/the-city-in-balance/",
+            da: "/da/smart-city/chiang-mai/the-city-in-balance/",
+            de: "/de/smart-city/chiang-mai/the-city-in-balance/",
+            fi: "/fi/smart-city/chiang-mai/the-city-in-balance/",
+            fr: "/fr/smart-city/chiang-mai/the-city-in-balance/",
+            ja: "/ja/smart-city/chiang-mai/the-city-in-balance/",
+            ko: "/ko/smart-city/chiang-mai/the-city-in-balance/",
+            nl: "/nl/smart-city/chiang-mai/the-city-in-balance/",
+            zh: "/zh/smart-city/chiang-mai/the-city-in-balance/",
         },
     },
 
@@ -31,7 +31,7 @@ export const MetaTheCityInBalanceEN: Metadata = {
         title: "The City in Balance – Chiang Mai Smart City Scenario",
         description:
             "An illustrative final-frame scenario showing how mobility, governance, and everyday urban life in Chiang Mai reinforce one another in a coherent and balanced city system.",
-        url: "/en/smart-city/chiang-mai/the-city-in-balance",
+        url: "/en/smart-city/chiang-mai/the-city-in-balance/",
         type: "website",
         images: [
             {

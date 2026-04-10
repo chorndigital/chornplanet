@@ -6,18 +6,18 @@ export const MetaVertiportReflectedInWaterTH: Metadata = {
         "ฉากการคมนาคมอัจฉริยะในเชียงใหม่ที่เวอร์ติพอร์ตถูกออกแบบให้ผสานเข้ากับภูมิทัศน์เมืองอย่างสงบและรอบคอบ สื่อถึงความมั่นคง ความแม่นยำ และความเชื่อมั่นผ่านงานออกแบบที่เรียบง่าย",
 
     alternates: {
-        canonical: "/th/smart-city/chiang-mai/vertiport-reflected-in-water",
+        canonical: "/th/smart-city/chiang-mai/vertiport-reflected-in-water/",
         languages: {
-            en: "/en/smart-city/chiang-mai/vertiport-reflected-in-water",
-            th: "/th/smart-city/chiang-mai/vertiport-reflected-in-water",
-            da: "/da/smart-city/chiang-mai/vertiport-reflected-in-water",
-            de: "/de/smart-city/chiang-mai/vertiport-reflected-in-water",
-            fi: "/fi/smart-city/chiang-mai/vertiport-reflected-in-water",
-            fr: "/fr/smart-city/chiang-mai/vertiport-reflected-in-water",
-            ja: "/ja/smart-city/chiang-mai/vertiport-reflected-in-water",
-            ko: "/ko/smart-city/chiang-mai/vertiport-reflected-in-water",
-            nl: "/nl/smart-city/chiang-mai/vertiport-reflected-in-water",
-            zh: "/zh-cn/smart-city/chiang-mai/vertiport-reflected-in-water",
+            en: "/en/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            th: "/th/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            da: "/da/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            de: "/de/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            fi: "/fi/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            fr: "/fr/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            ja: "/ja/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            ko: "/ko/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            nl: "/nl/smart-city/chiang-mai/vertiport-reflected-in-water/",
+            zh: "/zh/smart-city/chiang-mai/vertiport-reflected-in-water/",
         },
     },
 
@@ -31,7 +31,7 @@ export const MetaVertiportReflectedInWaterTH: Metadata = {
         title: "เวอร์ติพอร์ตสะท้อนผิวน้ำ – ฉากเมืองอัจฉริยะเชียงใหม่",
         description:
             "ภาพจำลองเชิงแนวคิดของเวอร์ติพอร์ตในเชียงใหม่ที่เน้นความสงบ ความแม่นยำ และการผสานโครงสร้างการบินเข้ากับสภาพแวดล้อมเมืองอย่างมั่นใจและไม่รบกวนบริบทโดยรอบ",
-        url: "/th/smart-city/chiang-mai/vertiport-reflected-in-water",
+        url: "/th/smart-city/chiang-mai/vertiport-reflected-in-water/",
         type: "website",
         images: [
             {
