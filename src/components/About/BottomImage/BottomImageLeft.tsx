@@ -4,7 +4,7 @@ import {ImageUrl} from "@/image/ImageUrl";
 
 export default function BottomImageLeft() {
     return (
-        <div className="social left">
+        <div className="social-left">
             <div className="left-row">
                 <div className="about-icon-symbol">
                     <a href="https://chornplanet.com"
@@ -16,7 +16,7 @@ export default function BottomImageLeft() {
                             alt={ImageUrl.logo.rec.sm.title}
                             width={30}
                             height={30}
-                            style={{ height: 'auto' }}
+                            style={{ width: 'auto', height: 'auto' }}
                         />
                     </a>
                 </div>

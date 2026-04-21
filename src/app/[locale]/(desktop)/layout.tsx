@@ -68,7 +68,7 @@ export default async function RootLayout({children,}: Readonly<{ children: React
 
     return (
         <html lang={lang} data-scroll-behavior="smooth">
-        <body className={`${dm_sans.className}}`}>
+        <body className={dm_sans.className} suppressHydrationWarning>
         <div className="main-container">
             <AppProvider language={lang}>
                 <CookieConsentChecking lang={lang} isCookieConsent={isCookieConsent}/>

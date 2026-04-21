@@ -9,16 +9,22 @@
   transform: translate3d(0, 0, 0);
   // end of fixing the icons disappears
 
-  .left {
+  .social-left {
+    width: 100%;
     margin-top: 5px;
     margin-bottom: 0;
 
     .left-row {
       margin-bottom: 20px;
       display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
 
       .about-icon-symbol {
-        display: inline-block;
+        display: flex;
+        flex: 0 0 auto;
+        align-items: center;
 
         /* LinkedIn button */
         a.linkedin {
@@ -37,13 +43,20 @@
         /* CHORN button */
         a.chorn {
           width: 30px;
-          padding: 5px 8px;
+          height: 30px;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           background-color: #25D366; /* Official WhatsApp green */
           border-color: #25D366;
           color: #ffffff;
 
           img {
-            width: 30px;
+            display: block;
+            max-width: 22px;
+            width: auto;
+            height: auto;
           }
         }
 
@@ -54,8 +67,14 @@
       }
 
       .chorn-text {
+        min-width: 0;
         color: #1DA851;
-        padding-left: 10px;
+        padding-left: 0;
+        line-height: 1.2;
+
+        a {
+          overflow-wrap: anywhere;
+        }
       }
 
       .chorn-text a:hover {
