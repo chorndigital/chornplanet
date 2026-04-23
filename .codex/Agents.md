@@ -1,6 +1,6 @@
 # Agents Guide
 
-This file is the working brief for Codex agents in the `chorndigital` project. Treat it as the first project-specific context to read before editing code.
+This file is the working brief for Codex agents in the `chornplanet` project. Treat it as the first project-specific context to read before editing code.
 
 ## Project Snapshot
 
@@ -135,10 +135,32 @@ For a new localized public page:
 - Read nearby files before editing. This project has repeated patterns; copying the closest working example is usually safer than inventing a new shape.
 - Keep diffs scoped. Do not reformat large generated-looking locale or metadata files unless the task requires it.
 - Preserve user changes in a dirty worktree. Check `git status --short` before and after meaningful edits.
+- Always create a new task branch from the latest `main` before making changes. Use a clear prefix such as `fix/...`, `feature/...`, or `docs/...`; do not work directly on long-lived or previously completed task branches.
 - Prefer `rg` for searching.
 - Use `apply_patch` for manual edits.
 - For broad locale work, audit all 10 locales and compare keys against English.
 - For route work, test at least one localized URL such as `/en/.../` and consider whether sitemap/redirects need updates.
+
+## Branch And Ship Flow
+
+Use this flow when preparing a fix, feature, docs update, or other task for production:
+
+1. Start from `main` and create a new task branch, for example `fix/contact-csp-map-embed`, `feature/<name>`, or `docs/<name>`.
+2. Implement the change on that branch and preserve any intended `.codex/` updates on the same branch.
+3. Verify the task branch with the smallest relevant checks, and run `npm run build` before merging production-facing changes.
+4. Switch back to `main`.
+5. Pull the latest main: `git pull origin main`.
+6. Merge the task branch into `main`.
+7. Run `npm run build` again on `main`.
+8. Push `main` to both remotes when the build passes: `git push origin main` and `git push origin korapak`.
+9. After shipping, return to step 1 for any new work. Always branch fresh from `main`.
+
+## Deployment And Automation
+
+- The site is deployed through the GitHub-to-Vercel integration. Vercel should automatically build and deploy from repository pushes according to the linked project settings.
+- `vercel.json` is present for Vercel-specific headers. Keep deployment-related behavior there or in Next config unless a separate workflow is clearly needed.
+- There is currently no repo-root GitHub Actions workflow. Do not add one just to duplicate Vercel builds.
+- Add a GitHub workflow only when it provides a distinct value Vercel does not already cover, such as required PR checks, scheduled audits, non-Vercel tests, or multi-environment automation.
 
 ## Pre-Ship Checks
 
