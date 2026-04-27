@@ -7,6 +7,7 @@ import {MetadataAbout} from "@/metadata/main/MetadataAbout";
 import HomeBackEndContainer from "@/components/Common/HomeBackEnd/HomeBackEndContainer";
 import HomeFrontEndContainer from "@/components/Common/HomeFrontEnd/HomeFrontEndContainer";
 import CloudInfraPageMain from "@/components/Services/cloud-infrastructure-systems-architecture/CloudInfraPageMain";
+import {getAboutContent} from "@/lib/about-content/aboutContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -17,10 +18,11 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const aboutContent = await getAboutContent(lang);
 
     return (
         <div className="smart-container-top">
-            <AboutContent lang={lang}/>
+            <AboutContent about={aboutContent.about} media={aboutContent.media}/>
             <CloudInfraPageMain lang={lang}/>
             <HomeBackEndContainer lang={lang} isRemoveTopSpace={true}/>
             <HomeFrontEndContainer lang={lang}/>

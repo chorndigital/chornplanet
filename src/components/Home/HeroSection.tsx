@@ -1,17 +1,10 @@
 //components/Home/HeroSection.tsx
 
 import Image from "next/image"
-import {HeroSectionData} from "@/data/smart-city-media/HeroSectionData/HeroSectionData"
-import {Tag} from "@/data/tags/Tag";
+import {IHeroSection} from "@/lib/model/smart-city-media";
 
-export default function HeroSection({lang}: { lang: string }) {
-    const {
-        headline,
-        paragraph,
-        softTexts,
-        image,
-        landingUrl,
-    } = HeroSectionData[lang]
+export default function HeroSection({lang, data}: { lang: string; data: IHeroSection }) {
+    const {headline, paragraph, softTexts, image, landingUrl} = data
 
     return (
         <section className="smart-hero">

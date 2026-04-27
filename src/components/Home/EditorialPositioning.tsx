@@ -1,10 +1,13 @@
 // src/components/Home/EditorialPositioning.tsx
 
 import Image from "next/image"
-import {EditorialPositioningData} from "@/data/smart-city-media/EditorialPositioningData/EditorialPositioningData"
+import {IEditorialPositioning} from "@/lib/model/smart-city-media";
 
-export default function EditorialPositioning({lang}: { lang: string }) {
-    const {headline, paragraphs, principles} = EditorialPositioningData[lang]
+export default function EditorialPositioning({lang, data}: {
+    lang: string;
+    data: IEditorialPositioning;
+}) {
+    const {headline, paragraphs, principles} = data
 
     return (
         <section className="editorial-positioning">

@@ -3,9 +3,15 @@ import Image from "next/image";
 import SmartCityRight from "./SmartCityRight";
 import SmartCityBottom from "./SmartCityBottom";
 import {ISmartCityItem} from "@/data/smart-city/model/ISmartCity";
+import {SmartCityChiangMaiBottomContent} from "@/lib/model/smart-city-chiang-mai";
 
 export default function SmartCityMain(
-    {lang, smartCityItem}: { lang: string, smartCityItem: ISmartCityItem }
+    {lang, smartCityItem, relatedItems, bottomContent}: {
+        lang: string,
+        smartCityItem: ISmartCityItem,
+        relatedItems?: ISmartCityItem[],
+        bottomContent?: SmartCityChiangMaiBottomContent
+    }
 ) {
 
     return (
@@ -29,12 +35,17 @@ export default function SmartCityMain(
                         }
                     </div>
 
-                    <SmartCityBottom lang={lang} smartCityItem={smartCityItem}/>
+                    <SmartCityBottom
+                        lang={lang}
+                        smartCityItem={smartCityItem}
+                        bottomContent={bottomContent}
+                    />
                 </div>
                 <SmartCityRight
                     lang={lang}
                     imageQty={4}
                     selectedSmartCityItem={smartCityItem}
+                    relatedItems={relatedItems}
                 />
             </div>
         </div>

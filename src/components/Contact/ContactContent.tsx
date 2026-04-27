@@ -1,19 +1,24 @@
 import React from "react";
-import {DefaultShape} from "@/components/Shape/DefaultShape";
 import ContactLeft from "@/components/Contact/ContactLeft";
 import ContactRight from "@/components/Contact/ContactRight";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {ContactGalleryBottom} from "@/components/Contact/ContactGalleryBottom";
+import {IContact, IContactSocialLink} from "@/lib/model/contact";
 
-export default function ContactContent({lang}: { lang: string }) {
+export default function ContactContent({
+    contact,
+    socialLinks,
+}: {
+    contact: IContact;
+    socialLinks: IContactSocialLink[];
+}) {
     return (
         <>
             <div className="about-area pb-70">
                 <div className="container">
-                    <h1>{InfoTranslation[lang].Contact.contactInfo.title}</h1>
+                    <h1>{contact.contactInfo.title}</h1>
                     <div className="row">
-                        <ContactLeft lang={lang}/>
-                        <ContactRight lang={lang}/>
+                        <ContactLeft/>
+                        <ContactRight contact={contact} socialLinks={socialLinks}/>
                     </div>
                 </div>
 

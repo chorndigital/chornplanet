@@ -1,8 +1,8 @@
 import Image from "next/image"
-import {LocalToGlobalData} from "@/data/smart-city-media/LocalToGlobalData/LocalToGlobalData"
+import {ILocalToGlobal} from "@/lib/model/smart-city-media";
 
-export default function LocalToGlobal({lang}: { lang: string }) {
-    const {headline, paragraph, items, landingUrl} = LocalToGlobalData[lang]
+export default function LocalToGlobal({lang, data}: { lang: string; data: ILocalToGlobal }) {
+    const {headline, paragraph, items, landingUrl} = data
 
     return (
         <section className="local-to-global">

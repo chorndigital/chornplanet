@@ -1,14 +1,10 @@
 // src/components/smart-city-media/CitySystems.tsx
 
 import Image from "next/image";
-import {CitySystemsData} from "@/data/smart-city-media/CitySystemsData/CitySystemsData";
+import {ICitySystems} from "@/lib/model/smart-city-media";
 
-export default function CitySystems({lang}: { lang: string }) {
-    const {
-        headline,
-        paragraph,
-        systems,
-    } = CitySystemsData[lang]
+export default function CitySystems({lang, data}: { lang: string; data: ICitySystems }) {
+    const {headline, paragraph, systems} = data
 
     return (
         <section className="city-systems">

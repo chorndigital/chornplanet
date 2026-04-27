@@ -1,10 +1,10 @@
 // src/components/smart-city-media/GlobalPatterns.tsx
 
 import Image from "next/image"
-import {GlobalPatternsData} from "@/data/smart-city-media/GlobalPatternsData/GlobalPatternsData"
+import {IGlobalPatterns} from "@/lib/model/smart-city-media";
 
-export default function GlobalPatterns({lang}: { lang: string }) {
-    const {headline, paragraph, signals} = GlobalPatternsData[lang]
+export default function GlobalPatterns({lang, data}: { lang: string; data: IGlobalPatterns }) {
+    const {headline, paragraph, signals} = data
 
     return (
         <section className="global-patterns">

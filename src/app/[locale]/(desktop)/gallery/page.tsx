@@ -8,6 +8,7 @@ import AiSolutionsMain from "@/components/AiSolutions/AiSolutionsMain";
 import React from "react";
 import CloudExperience from "@/components/Common/CloudExperience";
 import HomeFeatureMain from "@/components/Features/HomeFeatureMain";
+import {getGalleryContent} from "@/lib/gallery-content/galleryContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -18,11 +19,12 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const galleryContent = await getGalleryContent(lang);
 
     return (
         <div className="smart-container-top">
-            <GalleryPageMain lang={lang}/>
-            <GalleryModuleBottom/>
+            <GalleryPageMain global={galleryContent.gallery.global}/>
+            <GalleryModuleBottom slides={galleryContent.media.bottomSlides}/>
             <CloudExperience lang={lang}/>
             <AiAomLandingPage lang={lang}/>
             <HomeFeatureMain lang={lang} isTopSpace={true} isHideTopTitle={true}/>

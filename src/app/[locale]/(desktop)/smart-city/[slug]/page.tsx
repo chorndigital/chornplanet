@@ -8,8 +8,8 @@ import SystemExplanation from "@/components/SmartCity/SystemExplanation";
 import WhyItMatters from "@/components/SmartCity/WhyItMatters";
 import RelatesSignals from "@/components/SmartCity/RelatesSignals";
 import {Metadata} from "next";
-import {getSmartCityLandingData} from "@/data/smart-city-landing/getSmartCityLandingData";
 import {getMetaSmartCityLanding} from "@/metadata/smart-city-landing/getMetaSmartCityLanding";
+import {getSmartCityLandingContent} from "@/lib/smart-city-landing-content/smartCityLandingContent.service";
 
 export async function generateMetadata(
     {params}: { params: Promise<{ slug: string }> }
@@ -29,25 +29,24 @@ export default async function Page(
     const lang = headers15.get("x-locale") || "en";
 
     const {slug} = await params
-    const dataMap = getSmartCityLandingData({lang});
-    const data = dataMap[slug];
+    const data = await getSmartCityLandingContent(lang, slug).catch(() => null);
 
-    if (!data) notFound();
+    if (!data?.content) notFound();
 
     return (
         <>
-            <HeroObservation lang={lang} {...data.heroObservation} />
+            <HeroObservation lang={lang} {...data.content.heroObservation} />
 
-            {data.systemExplanation && (
-                <SystemExplanation lang={lang} {...data.systemExplanation} />
+            {data.content.systemExplanation && (
+                <SystemExplanation lang={lang} {...data.content.systemExplanation} />
             )}
 
-            {data.whyItMatters && (
-                <WhyItMatters lang={lang} {...data.whyItMatters} />
+            {data.content.whyItMatters && (
+                <WhyItMatters lang={lang} {...data.content.whyItMatters} />
             )}
 
-            {data.relatedSignals && (
-                <RelatesSignals lang={lang} signals={data.relatedSignals}/>
+            {data.content.relatedSignals && (
+                <RelatesSignals lang={lang} signals={data.content.relatedSignals}/>
             )}
         </>
     );

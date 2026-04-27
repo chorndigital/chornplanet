@@ -1,20 +1,22 @@
 import React from "react";
-import MainBannerAiFah from "@/components/AiFahBanner/AiBannerFahMain";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {DefaultShape} from "@/components/Shape/DefaultShape";
+import {AiCompanionsDemo} from "@/lib/model/ai-companions";
+import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 
-export default function AiCompanionsPage({lang}: { lang: string }) {
+export default function AiCompanionsPage({lang = 'en', demo}: { lang?: string; demo?: AiCompanionsDemo }) {
+    const content = demo ?? InfoTranslation[lang].Service.demo;
+
     return (
         <div className="portfolio-area pt-4 pb-5">
             <div className="container">
                 <div className="row">
                     <div className={"add-web-content"}>
-                        <h1>{InfoTranslation[lang].Service.demo.title}</h1>
-                        <p>{InfoTranslation[lang].Service.demo.description}</p>
+                        <h1>{content.title}</h1>
+                        <p>{content.description}</p>
 
                         <div>
                             <ul className="feature-list">
-                                {InfoTranslation[lang].Service.demo.procedure.steps.map((item, index) => (
+                                {content.procedure.steps.map((item, index) => (
                                     <li key={index} className="feature-item">
                                         <div className="feature-icon-container">
                                             <div className="feature-icon">

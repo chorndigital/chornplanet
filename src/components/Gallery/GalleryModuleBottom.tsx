@@ -4,9 +4,9 @@ import React from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Pagination, Autoplay} from "swiper/modules";
 import Image from "next/image";
-import {ImageUrl} from "@/image/ImageUrl";
+import {IImageResponsiveUnit} from "@/image/model/IImageResponsiveUnit";
 
-const GalleryModuleBottom: React.FC = () => {
+const GalleryModuleBottom: React.FC<{ slides: IImageResponsiveUnit[] }> = ({slides}) => {
 
     return (
         <>
@@ -40,7 +40,7 @@ const GalleryModuleBottom: React.FC = () => {
                         modules={[Pagination, Autoplay]}
                         className="portfolio-slider"
                     >
-                        {ImageUrl.gallery.slides.map((image, index) => (
+                        {slides.map((image, index) => (
                             <SwiperSlide key={index}>
                                 <div className="single-portfolio-item">
                                     <div className="portfolio-image">

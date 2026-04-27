@@ -1,9 +1,9 @@
 import React from "react";
-import {IPolicyContent} from "@/data/policy/model/IPolicy";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {IPolicyContent} from "@/lib/model/policy";
 import type {Metadata} from "next";
 import {headers} from "next/headers";
 import {MetadataPrivacyPolicy} from "@/metadata/main/MetadataPrivacyPolicy";
+import {getPolicyContent} from "@/lib/policy-content/policyContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
-    const privacyPolicy = InfoTranslation[lang].PrivacyPolicy
+    const {privacyPolicy} = await getPolicyContent(lang);
 
     return (
         <div className="terms-of-service-area smart-container-top">

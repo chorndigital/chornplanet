@@ -2,14 +2,15 @@ import "@/styles/about.scss"
 import Image from "next/image"
 import React from "react";
 import BottomImageLeft from "@/components/About/BottomImage/BottomImageLeft";
+import {AboutContentMedia} from "@/lib/model/about";
 
-export default function AboutLeft({lang}: { lang: string }) {
+export default function AboutLeft({media}: { media: AboutContentMedia }) {
     return (
         <div className="col-lg-4">
             <div className="about-image-warp contact-image about-image-wrapper">
                 <Image
-                    src="/images/about/about-chorn-image-750.webp"
-                    alt="About Image"
+                    src={media.mainImage.image750}
+                    alt={media.mainImage.title}
                     fill
                     sizes="(min-width: 1024px) 1200px, 750px"
                     className="about-cover-image"

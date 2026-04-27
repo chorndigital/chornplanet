@@ -2,7 +2,7 @@ import "@/styles/about.scss"
 import React from "react";
 import BottomImageLeft from "@/components/Contact/BottomImage/BottomImageLeft";
 
-export default function ContactLeft({lang}: { lang: string }) {
+export default function ContactLeft() {
     return (
         <div className="col-lg-4 contact-col-left">
 

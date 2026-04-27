@@ -5,6 +5,8 @@ import AiSolutionsMain from "@/components/AiSolutions/AiSolutionsMain";
 import HomeFeatureMain from "@/components/Features/HomeFeatureMain";
 import HubToDoiSuthepMain from "@/components/SmartMobility/ChiangMai/Main/HubToDoiSuthepMain";
 import {MetaHubDoiSuthep} from "@/metadata/smart-mobility/chiang-mai/MetaHubDoiSuthep";
+import {getSmartMobilityChiangMaiContent} from "@/lib/smart-mobility-chiang-mai-content/smartMobilityChiangMaiContent.service";
+import {getAiCompanionsContent} from "@/lib/ai-companions-content/aiCompanionsContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -15,12 +17,25 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const [content, aiContent] = await Promise.all([
+        getSmartMobilityChiangMaiContent(lang, 'hub-to-doi-suthep'),
+        getAiCompanionsContent(lang),
+    ]);
 
     return (
         <>
-            <HubToDoiSuthepMain lang={lang}/>
-            <AiSolutionsMain lang={lang}/>
-            <HomeFeatureMain lang={lang} isHideTopTitle={true}/>
+            <HubToDoiSuthepMain lang={lang} content={content}/>
+            <AiSolutionsMain
+                lang={lang}
+                service={aiContent.service}
+                llmSlides={aiContent.media.llmSlides}
+            />
+            <HomeFeatureMain
+                lang={lang}
+                feature={aiContent.feature}
+                featureImage={aiContent.media.featureImage}
+                isHideTopTitle={true}
+            />
         </>
     )
 }

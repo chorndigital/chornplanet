@@ -3,12 +3,15 @@ import {IFeatureStack} from "@/data/feature/model/IFeatureStack";
 import Link from "next/link";
 import {truncateText} from "@/lib/truncateText";
 import React from "react";
+import {IFeature} from "@/data/feature/model/IFeature";
 
-export default function HomeFeatureRight({lang}: { lang: string }) {
+export default function HomeFeatureRight({lang, feature}: { lang: string; feature?: IFeature }) {
+    const content = feature ?? InfoTranslation[lang].Feature;
+
     return (
         <div className="col-lg-6">
             <div className="row">
-                {InfoTranslation[lang].Feature.stacks.map((stack: IFeatureStack, index: number) => (
+                {content.stacks.map((stack: IFeatureStack, index: number) => (
                     <div key={index} className="home-feature-container">
                         <Link href={'/' + lang + stack.link}>
                             <div className="custom-single-features-box feature-box">
