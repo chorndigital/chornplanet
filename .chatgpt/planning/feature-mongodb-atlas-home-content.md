@@ -8,6 +8,8 @@ Owner: ChatGPT planning → Codex review/implementation/testing
 
 ChornPlanet currently has many Next.js desktop pages with hardcoded page content. The active feature branch is migrating page content to MongoDB Atlas so the application can load content from database-backed services instead of repository hardcode.
 
+The branch already follows a **hexagonal architecture** structure under `server/`. This structure must be preserved and extended as-is, not replaced with a new generic `server/content/*` layout.
+
 The migration status is tracked in:
 
 ```text
@@ -82,17 +84,122 @@ src/app/[locale]/(desktop)/technical-expertise/full-stack-developer/php-develope
 src/app/[locale]/(desktop)/technical-expertise/full-stack-developer/python-developer
 ```
 
+## Existing Hexagonal Architecture Review
+
+The active branch already uses this architecture pattern:
+
+```text
+server/
+  adapters/
+    outbound/
+      mongo.repository/
+        about-content.repository.ts
+        ...
+  core/
+    domain/
+      about-content.entity.ts
+      ...
+    ports/
+      about-content.interface.ts
+      ...
+    services/
+      about-content.service.ts
+      ...
+  infrastructure/
+    db/
+      infra.mongodb.ts
+      ...
+```
+
+This should remain the governing structure for MongoDB content migration.
+
+Example current files:
+
+```text
+server/adapters/outbound/mongo.repository/about-content.repository.ts
+server/core/domain/about-content.entity.ts
+server/core/ports/about-content.interface.ts
+server/core/services/about-content.service.ts
+server/infrastructure/db/infra.mongodb.ts
+```
+
+### Current Layer Responsibilities
+
+#### Domain Layer
+
+```text
+server/core/domain/*-content.entity.ts
+```
+
+Responsibilities:
+
+- Define content payloads, records, responses, locale types, and mapping functions.
+- Normalize locale when needed.
+- Keep domain shape independent from the page component implementation.
+
+#### Port Layer
+
+```text
+server/core/ports/*-content.interface.ts
+```
+
+Responsibilities:
+
+- Define repository/service contracts.
+- Keep core services independent from MongoDB implementation.
+- Allow outbound adapters to be swapped or tested.
+
+#### Service Layer
+
+```text
+server/core/services/*-content.service.ts
+```
+
+Responsibilities:
+
+- Own application/domain operations.
+- Call the port interface, not MongoDB directly.
+- Keep page/server callers from depending on outbound repository details.
+
+#### Outbound Mongo Adapter Layer
+
+```text
+server/adapters/outbound/mongo.repository/*-content.repository.ts
+```
+
+Responsibilities:
+
+- Implement the corresponding port/interface.
+- Use MongoDB collections from `server/infrastructure/db/infra.mongodb.ts`.
+- Own indexes, queries, upsert/delete operations, and document-to-domain mapping.
+
+#### Infrastructure DB Layer
+
+```text
+server/infrastructure/db/infra.mongodb.ts
+```
+
+Responsibilities:
+
+- Create/reuse MongoDB client.
+- Resolve database and collection names from environment variables.
+- Export typed MongoDB collections.
+- Avoid page-specific business logic.
+
 ## Expected Final State
 
 After this feature is complete:
 
 - Next.js pages load content from MongoDB Atlas instead of hardcoded page data.
 - Hardcoded content can be deprecated and removed from the repository after all dependent modules are migrated.
-- MongoDB connection and content loading should use the existing/new code under:
+- MongoDB connection and content loading must use the existing hexagonal architecture under:
 
 ```text
-src/lib
-server
+server/core/domain
+server/core/ports
+server/core/services
+server/adapters/outbound/mongo.repository
+server/infrastructure/db
 ```
 
 - Page components should become reusable renderers driven by database content.
@@ -111,12 +218,14 @@ Benefits:
 - Future daily posts and premium eCommerce media can be added as database records.
 - The codebase becomes cleaner and easier to scale.
 - Hardcoded data can be removed safely after migration completion.
+- The existing hexagonal architecture keeps domain logic, ports, services, adapters, and infrastructure cleanly separated.
 
 ## Goals
 
 - Complete migration of pending hardcoded desktop page content to MongoDB Atlas.
 - Preserve all current page rendering behavior during migration.
-- Use `src/lib` and `server` for MongoDB connection, content repositories, and server-side loading.
+- Preserve the existing hexagonal architecture exactly as the target server-side pattern.
+- Use `server/core/domain`, `server/core/ports`, `server/core/services`, `server/adapters/outbound/mongo.repository`, and `server/infrastructure/db` for MongoDB content access.
 - Add/keep typed content schemas for page content.
 - Avoid removing hardcoded data until all dependent code paths are migrated and verified.
 - Update `migrated-target-pages.log` as pages move from pending to done.
@@ -126,6 +235,8 @@ Benefits:
 
 - Do not start the premium eCommerce daily post feature in this branch.
 - Do not redesign the full visual UI unless required for data-driven rendering.
+- Do not replace the existing hexagonal server architecture with another folder structure.
+- Do not add a new generic `server/content/*` architecture that bypasses domain/ports/services/adapters.
 - Do not remove hardcoded content prematurely if other modules still reference it.
 - Do not change public routes or URL structure unless explicitly required.
 - Do not mix unrelated media/eCommerce schemas into this home-content migration unless needed for future compatibility.
@@ -135,13 +246,19 @@ Benefits:
 ```text
 Next.js Route / Page
    ↓
-Page Content Loader
+Server-side Page Loader / Composition Function
    ↓
-Server Content Service
+server/core/services/<page>-content.service.ts
    ↓
-MongoDB Atlas Repository
+server/core/ports/<page>-content.interface.ts
    ↓
-Typed Content Schema
+server/adapters/outbound/mongo.repository/<page>-content.repository.ts
+   ↓
+server/infrastructure/db/infra.mongodb.ts
+   ↓
+MongoDB Atlas Collection
+   ↓
+server/core/domain/<page>-content.entity.ts
    ↓
 Reusable Page Renderer / Components
 ```
@@ -151,67 +268,102 @@ Recommended request/runtime direction:
 ```text
 src/app/[locale]/(desktop)/.../page.tsx
    ↓
-server/content/<domain>.service.ts
+instantiate/use content service
    ↓
-server/content/<domain>.repository.ts
+service calls port/interface
    ↓
-src/lib/mongodb.ts or equivalent MongoDB client helper
+Mongo repository implements port
+   ↓
+infra.mongodb exports typed collection
    ↓
 MongoDB Atlas
 ```
 
 ## Project Structure Guideline
 
-Codex should review the existing branch structure and align new code to the current implementation under `src/lib` and `server`.
+Codex should align all new and migrated content modules to the existing hexagonal architecture.
 
-Recommended structure:
+### Required Structure Pattern
+
+For each content domain, use this pattern:
 
 ```text
-src/lib/
-  mongodb/
-    client.ts
-    database.ts
-  content/
-    content-types.ts
-    locale.ts
-    slug.ts
-
-server/
-  content/
-    content.repository.ts
-    content.service.ts
-    page-content.service.ts
-    page-content.mapper.ts
-  home/
-    home.repository.ts
-    home.service.ts
-  smart-city/
-    smart-city.repository.ts
-    smart-city.service.ts
-  smart-mobility/
-    smart-mobility.repository.ts
-    smart-mobility.service.ts
-  technical-expertise/
-    technical-expertise.repository.ts
-    technical-expertise.service.ts
-  legal/
-    legal.repository.ts
-    legal.service.ts
-  media/
-    daily-post.repository.ts      # future feature placeholder only
-    daily-post.service.ts         # future feature placeholder only
+server/core/domain/<domain>-content.entity.ts
+server/core/ports/<domain>-content.interface.ts
+server/core/services/<domain>-content.service.ts
+server/adapters/outbound/mongo.repository/<domain>-content.repository.ts
+server/infrastructure/db/infra.mongodb.ts
 ```
 
-Page layer pattern:
+### Example Existing Pattern
+
+```text
+server/core/domain/about-content.entity.ts
+server/core/ports/about-content.interface.ts
+server/core/services/about-content.service.ts
+server/adapters/outbound/mongo.repository/about-content.repository.ts
+server/infrastructure/db/infra.mongodb.ts
+```
+
+### Recommended New Content Domains
+
+For pending pages, Codex should create or extend modules using the same pattern.
+
+Suggested domains:
+
+```text
+legal-content
+technical-expertise-content
+technical-expertise-category-content
+technical-expertise-detail-content
+```
+
+Potential files:
+
+```text
+server/core/domain/legal-content.entity.ts
+server/core/ports/legal-content.interface.ts
+server/core/services/legal-content.service.ts
+server/adapters/outbound/mongo.repository/legal-content.repository.ts
+
+server/core/domain/technical-expertise-content.entity.ts
+server/core/ports/technical-expertise-content.interface.ts
+server/core/services/technical-expertise-content.service.ts
+server/adapters/outbound/mongo.repository/technical-expertise-content.repository.ts
+```
+
+### Infrastructure DB Guideline
+
+All new MongoDB collections should be declared and typed in:
+
+```text
+server/infrastructure/db/infra.mongodb.ts
+```
+
+Collection names should be environment-driven with safe defaults where appropriate, following the existing pattern:
+
+```ts
+const aboutContentCollectionName =
+  process.env.MONGODB_COLLECTION_ABOUT_CONTENT || 'about_content';
+
+export const aboutContentCollection: Collection<AboutContentRecord> =
+  db.collection(aboutContentCollectionName);
+```
+
+### Page Layer Pattern
 
 ```text
 src/app/[locale]/(desktop)/<page>/page.tsx
-   → calls server service
-   → receives typed content
+   → uses service/repository composition following current project convention
+   → receives typed content response
    → renders reusable component
 ```
 
-Component layer pattern:
+Page files should not directly call MongoDB collections.
+
+### Component Layer Pattern
+
+Reusable rendering components may live under the current component structure. If new shared content components are needed, use a consistent structure such as:
 
 ```text
 src/components/content/
@@ -227,27 +379,33 @@ Do not create future media/eCommerce implementation in this branch; only keep na
 
 ## Content Model Guideline
 
-Use a flexible but typed schema that supports multiple page families.
+Follow the existing domain entity pattern rather than introducing one generic `PageContent` type for all pages.
 
-Suggested high-level schema:
+Each page family should have a typed domain record/response/payload shape:
 
-```ts
-type PageContent = {
-  locale: string;
-  route: string;
-  slug?: string;
-  pageType: string;
-  title: string;
-  description?: string;
-  hero?: unknown;
-  sections: unknown[];
-  seo?: unknown;
-  status: 'draft' | 'published';
-  updatedAt: Date;
-};
+```text
+<Domain>ContentPayload
+Partial<Domain>ContentPayload
+<Domain>ContentRecord
+<Domain>ContentResponse
+normalize<Domain>ContentLocale()
+map<Domain>ContentResponse()
 ```
 
-Recommended page types:
+Example from existing pattern:
+
+```text
+AboutContentPayload
+PartialAboutContentPayload
+AboutContentRecord
+AboutContentResponse
+normalizeAboutContentLocale()
+mapAboutContentResponse()
+```
+
+For technical expertise pages, Codex may use a shared technical-expertise domain if the content structure is common across root/category/detail pages. If structures differ significantly, split into separate domain entities while keeping the same hexagonal layers.
+
+Recommended page families:
 
 ```text
 home
@@ -268,7 +426,7 @@ technical-expertise
 - Review pages already marked done.
 - Confirm they load from MongoDB Atlas.
 - Confirm fallback behavior, if any, is intentional and documented.
-- Ensure content loading uses `src/lib` and `server` instead of direct MongoDB calls inside page components.
+- Ensure content loading uses the existing hexagonal `server` layers instead of direct MongoDB calls inside page components.
 
 ### Phase 2: Migrate pending legal/policy pages
 
@@ -282,7 +440,17 @@ workplace-policy
 Reason:
 
 - Usually simpler static content.
-- Good validation target for reusable legal/page content schema.
+- Good validation target for legal content schema and repository pattern.
+
+Suggested architecture:
+
+```text
+server/core/domain/legal-content.entity.ts
+server/core/ports/legal-content.interface.ts
+server/core/services/legal-content.service.ts
+server/adapters/outbound/mongo.repository/legal-content.repository.ts
+server/infrastructure/db/infra.mongodb.ts
+```
 
 ### Phase 3: Migrate technical expertise root pages
 
@@ -312,7 +480,7 @@ technical-expertise/full-stack-developer/*
 
 Reason:
 
-- These pages likely share repeatable structure and can benefit most from reusable page renderer.
+- These pages likely share repeatable structure and can benefit most from reusable domain/entity + renderer patterns.
 
 ### Phase 5: Hardcode deprecation pass
 
@@ -339,16 +507,18 @@ Safe removal requires:
 
 Codex should consider the following improvements while implementing:
 
-1. Add a single content-loading abstraction instead of page-specific MongoDB logic in every page.
-2. Use typed schemas for page content and avoid `any` where possible.
-3. Create reusable page rendering components for technical-expertise pages.
-4. Add clear fallback behavior:
+1. Keep the existing hexagonal architecture as-is.
+2. Add new content modules using domain → port → service → Mongo repository → infrastructure DB pattern.
+3. Avoid direct MongoDB usage inside Next.js page files.
+4. Use typed schemas for page content and avoid `any` where possible.
+5. Create reusable page rendering components for technical-expertise pages.
+6. Add clear fallback behavior:
    - prefer MongoDB content
    - optionally fallback to temporary hardcoded content only while migration is incomplete
    - log fallback usage during development
-5. Add a validation script or developer command to check all target routes have MongoDB content.
-6. Keep `migrated-target-pages.log` accurate after each page migration.
-7. Prepare collection naming and schema direction for the next feature: premium eCommerce civilization media with daily posts.
+7. Add a validation script or developer command to check all target routes have MongoDB content.
+8. Keep `migrated-target-pages.log` accurate after each page migration.
+9. Prepare collection naming and schema direction for the next feature: premium eCommerce civilization media with daily posts, without implementing that feature in this branch.
 
 ## Testing Plan
 
@@ -360,6 +530,8 @@ Minimum validation:
 - Verify pending pages still render correctly during migration.
 - Verify locale handling still works.
 - Verify missing MongoDB content behavior is controlled and does not crash production pages.
+- Verify new repositories create indexes consistently where needed.
+- Verify page files do not directly import Mongo collections from `infra.mongodb.ts`.
 
 Suggested route validation checklist:
 
@@ -384,6 +556,7 @@ Suggested route validation checklist:
 - How should missing content be handled in production: 404, fallback, or default page?
 - Should seed scripts be added in this branch, or should MongoDB Atlas data be managed externally?
 - What is the final collection naming convention?
+- Should technical expertise pages share one collection or use separate collections by family?
 - Should daily post/media schemas be added now as placeholders or deferred to the next feature?
 
 ## Next Feature After Completion
@@ -400,13 +573,14 @@ Suggested future planning file:
 .chatgpt/planning/feature-premium-ecommerce-daily-posts.md
 ```
 
-This future feature should use MongoDB Atlas for daily post content, media metadata, premium product/story content, and publishing workflow.
+This future feature should use MongoDB Atlas for daily post content, media metadata, premium product/story content, and publishing workflow while following the same hexagonal architecture pattern.
 
 ## Completion Criteria
 
 - Planning reviewed by Codex.
+- Existing hexagonal architecture is preserved.
 - All pending pages are migrated or explicitly documented as deferred.
-- Next.js pages load content from MongoDB Atlas through `src/lib` and `server` layers.
+- Next.js pages load content from MongoDB Atlas through the existing `server` hexagonal layers.
 - Hardcoded content is removed only after all dependencies are migrated and verified.
 - `migrated-target-pages.log` is updated accurately.
 - Build/typecheck validation is completed.
