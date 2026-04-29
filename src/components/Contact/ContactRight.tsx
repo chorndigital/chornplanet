@@ -1,7 +1,6 @@
 import "@/styles/about.scss"
 
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {
     FaEnvelope,
     FaMapMarkedAlt,
@@ -10,10 +9,15 @@ import {
     FaShoppingBag,
     FaUniversity
 } from "react-icons/fa";
+import {IContact, IContactSocialLink} from "@/lib/model/contact";
 
-export default function ContactRight({lang}: { lang: string }) {
-    const contact = InfoTranslation[lang].Contact
-
+export default function ContactRight({
+    contact,
+    socialLinks,
+}: {
+    contact: IContact;
+    socialLinks: IContactSocialLink[];
+}) {
     return (
         <div className="col-lg-8 contact-col-right">
             <div className="about-content about-contact">
@@ -131,81 +135,26 @@ export default function ContactRight({lang}: { lang: string }) {
                 <div className="contact-social-container">
                     <h3>Social & GitHub</h3>
 
-                    {/* LinkedIn */}
-                    <div className="contact-social-item">
-                        <div className="about-icon-symbol">
-                            <a href="https://www.linkedin.com/in/khachornchit"
-                               className="linkedin"
-                               target="_blank"
-                            >
-                                <i className="bx bxl-linkedin hover-rotate"/>
-                            </a>
+                    {socialLinks.map((item) => (
+                        <div key={item.href} className="contact-social-item">
+                            <div className="about-icon-symbol">
+                                <a href={item.href}
+                                   className={item.linkClassName}
+                                   target="_blank"
+                                   aria-label={item.label}
+                                >
+                                    <i className={`${item.iconClassName} hover-rotate`}/>
+                                </a>
+                            </div>
+                            <div className="linkedin-text">
+                                <a href={item.href}
+                                   target="_blank"
+                                >
+                                    {item.displayText}
+                                </a>
+                            </div>
                         </div>
-                        <div className="linkedin-text">
-                            <a href="https://www.linkedin.com/in/khachornchit"
-                               target="_blank"
-                            >
-                                www.linkedin.com
-                            </a>
-                        </div>
-                    </div>
-
-                    {/* Tiktok */}
-                    <div className="contact-social-item">
-                        <div className="about-icon-symbol">
-                            <a href="https://www.tiktok.com/@chornplanet"
-                               className="github"
-                               target="_blank"
-                            >
-                                <i className="bx bxl-tiktok hover-rotate"/>
-                            </a>
-                        </div>
-                        <div className="linkedin-text">
-                            <a href="https://www.tiktok.com/@chornplanet"
-                               target="_blank"
-                            >
-                                tiktok.com/@chornplanet
-                            </a>
-                        </div>
-                    </div>
-
-                    {/* GitHub */}
-                    <div className="contact-social-item">
-                        <div className="about-icon-symbol">
-                            <a href="https://github.com/chorndigital/"
-                               className="github"
-                               target="_blank"
-                            >
-                                <i className="bx bxl-github hover-rotate"/>
-                            </a>
-                        </div>
-                        <div className="linkedin-text">
-                            <a href="https://github.com/chorndigital/"
-                               target="_blank"
-                            >
-                                github.com/chorndigital
-                            </a>
-                        </div>
-                    </div>
-
-                    {/* Facebook */}
-                    <div className="contact-social-item">
-                        <div className="about-icon-symbol">
-                            <a href="https://www.facebook.com/chornplanet"
-                               className="facebook"
-                               target="_blank"
-                            >
-                                <i className="bx bxl-facebook hover-rotate"/>
-                            </a>
-                        </div>
-                        <div className="linkedin-text">
-                            <a href="https://www.facebook.com/chornplanet"
-                               target="_blank"
-                            >
-                                facebook.com/chornplanet
-                            </a>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>

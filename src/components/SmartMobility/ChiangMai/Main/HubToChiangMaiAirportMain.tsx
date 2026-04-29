@@ -5,10 +5,15 @@ import HubToChiangMaiAirportBottom from "../Bottom/HubToChiangMaiAirportBottom";
 import SmartMobilityChiangMaiRight from "../Common/SmartMobilityChiangMaiRight";
 import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
 import SmartCityBottomImage from "@/components/SmartCity/ChiangMai/SmartCityBottomImage";
+import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/smart-mobility-chiang-mai";
+import {ISmartRoute} from "@/data/smart-mobility/model/ISmartMobility";
 
-export default function HubToChiangMaiAirportMain({lang}: { lang: string }) {
-    const connectivityMatrix = SmartMobility[lang].chiangMai.connectivityMatrix
-    const route = connectivityMatrix.routes[0]
+export default function HubToChiangMaiAirportMain(
+    {lang, content}: { lang: string; content?: SmartMobilityChiangMaiContentPayload }
+) {
+    const fallbackConnectivityMatrix = SmartMobility[lang].chiangMai.connectivityMatrix
+    const connectivityMatrix = content?.connectivityMatrix ?? fallbackConnectivityMatrix
+    const route = (content?.primaryContent as ISmartRoute | undefined) ?? fallbackConnectivityMatrix.routes[0]
 
     return (
         <div className="portfolio-details-area smart-container-top">
@@ -34,13 +39,19 @@ export default function HubToChiangMaiAirportMain({lang}: { lang: string }) {
                             }
                         </div>
 
-                        <HubToChiangMaiAirportBottom lang={lang}/>
-                        <SmartCityBottomImage lang={lang}/>
+                        <HubToChiangMaiAirportBottom
+                            lang={lang}
+                            route={route}
+                            connectivityMatrix={connectivityMatrix}
+                            safeStatement={content?.safeStatement}
+                        />
+                        <SmartCityBottomImage lang={lang} bottomCards={content?.bottomCards}/>
                     </div>
                     <SmartMobilityChiangMaiRight
                         lang={lang}
                         currentIdx={SmartVisibilityIndex.HubToChiangMaiAirport}
                         imageQty={4}
+                        rightItems={content?.rightItems}
                     />
                 </div>
             </div>

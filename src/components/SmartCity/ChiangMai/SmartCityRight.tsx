@@ -9,15 +9,17 @@ export default function SmartCityRight(
     {
         lang,
         imageQty = 4,
-        selectedSmartCityItem
+        selectedSmartCityItem,
+        relatedItems
     }:
     {
         lang: string,
         imageQty: number,
-        selectedSmartCityItem: ISmartCityItem
+        selectedSmartCityItem: ISmartCityItem,
+        relatedItems?: ISmartCityItem[]
     }
 ) {
-    const items: ISmartCityItem[] = SmartCity[lang]?.chiangMai ?? [];
+    const items: ISmartCityItem[] = relatedItems ?? SmartCity[lang]?.chiangMai ?? [];
 
     if (items.length === 0) {
         return null;
@@ -27,13 +29,14 @@ export default function SmartCityRight(
         item => item.link === selectedSmartCityItem.link
     )
 
-    // Fallback if not found
     const startIndex = currentIndex >= 0 ? currentIndex : 0;
 
-    const filteredArray: ISmartCityItem[] = Array.from(
-        {length: Math.min(imageQty, items.length)},
-        (_, i) => items[(startIndex + 1 + i) % items.length]
-    )
+    const filteredArray: ISmartCityItem[] = relatedItems
+        ? items.slice(0, imageQty)
+        : Array.from(
+            {length: Math.min(imageQty, items.length)},
+            (_, i) => items[(startIndex + 1 + i) % items.length]
+        )
 
     return (
         <div className="col-lg-4 col-md-12">

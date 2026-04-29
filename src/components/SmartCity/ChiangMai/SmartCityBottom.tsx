@@ -4,9 +4,14 @@ import SmartMobilityClarificationStatement
     from "@/components/SmartMobility/ChiangMai/Common/SmartMobilityClarificationStatement";
 import SmartMobilityBottomImage from "../../SmartMobility/ChiangMai/Common/SmartMobilityBottomImage";
 import {ISmartCityItem} from "@/data/smart-city/model/ISmartCity";
+import {SmartCityChiangMaiBottomContent} from "@/lib/model/smart-city-chiang-mai";
 
 export default function SmartCityBottom(
-    {lang, smartCityItem}: { lang: string, smartCityItem: ISmartCityItem }
+    {lang, smartCityItem, bottomContent}: {
+        lang: string,
+        smartCityItem: ISmartCityItem,
+        bottomContent?: SmartCityChiangMaiBottomContent
+    }
 ) {
     const contact = InfoTranslation[lang].Contact
 
@@ -37,10 +42,16 @@ export default function SmartCityBottom(
                 </ul>
 
                 <div className="smart-city-clarification-statement">
-                    <SmartMobilityClarificationStatement lang={lang}/>
+                    <SmartMobilityClarificationStatement
+                        lang={lang}
+                        safeStatement={bottomContent?.safeStatement}
+                    />
                 </div>
 
-                <SmartMobilityBottomImage lang={lang}/>
+                <SmartMobilityBottomImage
+                    lang={lang}
+                    bottomCards={bottomContent?.bottomCards}
+                />
             </div>
         </>
     )

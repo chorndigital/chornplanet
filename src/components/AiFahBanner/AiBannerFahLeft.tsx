@@ -23,7 +23,7 @@ export default function AiBannerFahLeft({lang}: { lang: string }) {
                             alt="เพิ่มเพื่อน"
                             width={120}
                             height={36}
-                            style={{ height: 'auto' }}
+                            style={{width: 120, height: 'auto'}}
                         />
                     </a>
                 </div>

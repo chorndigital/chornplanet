@@ -5,6 +5,7 @@ import {Metadata} from "next";
 import {SchemaMarkupServicePage} from "@/components/GoogleSchemaMarkup/SchemaMarkupServicePage";
 import {headers} from "next/headers";
 import {MetadataGo} from "@/metadata/main/backend/MetadataGo";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -15,11 +16,12 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const {fullStack, cloud} = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <ServicesDetailsGoLang lang={lang}/>
-            <CloudExperience lang={lang}/>
+            <ServicesDetailsGoLang lang={lang} stack={fullStack.go}/>
+            <CloudExperience lang={lang} cloud={cloud}/>
             <SchemaMarkupServicePage
                 name="Go Full Stack Development | Chorn Planet"
                 description="Chorn Planet offers Go full stack development services for building efficient and scalable web applications."

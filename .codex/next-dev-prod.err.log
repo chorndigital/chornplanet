@@ -1,0 +1,157 @@
+⨯ Error: Homepage content not found in MongoDB for locale "en"
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:37:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:57:20)
+    at async Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  35 | ): HomePageContentPayload {
+  36 |     if (!databaseContent) {
+> 37 |         throw new Error(`Homepage content not found in MongoDB for locale "${locale}"`);
+     |               ^
+  38 |     }
+  39 |
+  40 |     const missingFields = REQUIRED_HOME_PAGE_FIELDS.filter((field) => databaseContent[fiel... {
+  digest: '1865911765'
+}
+[browser] Uncaught Error: Homepage content not found in MongoDB for locale "en"
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:37:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:57:20)
+    at Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  35 | ): HomePageContentPayload {
+  36 |     if (!databaseContent) {
+> 37 |         throw new Error(`Homepage content not found in MongoDB for locale "${locale}"`);
+     |               ^
+  38 |     }
+  39 |
+  40 |     const missingFields = REQUIRED_HOME_PAGE_FIELDS.filter((field) => databaseContent[fiel...
+⨯ Error: Homepage content not found in MongoDB for locale "en"
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:37:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:57:20)
+    at async Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  35 | ): HomePageContentPayload {
+  36 |     if (!databaseContent) {
+> 37 |         throw new Error(`Homepage content not found in MongoDB for locale "${locale}"`);
+     |               ^
+  38 |     }
+  39 |
+  40 |     const missingFields = REQUIRED_HOME_PAGE_FIELDS.filter((field) => databaseContent[fiel... {
+  digest: '1865911765'
+}
+[browser] Uncaught Error: Homepage content not found in MongoDB for locale "en"
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:37:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:57:20)
+    at Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  35 | ): HomePageContentPayload {
+  36 |     if (!databaseContent) {
+> 37 |         throw new Error(`Homepage content not found in MongoDB for locale "${locale}"`);
+     |               ^
+  38 |     }
+  39 |
+  40 |     const missingFields = REQUIRED_HOME_PAGE_FIELDS.filter((field) => databaseContent[fiel...
+⨯ Error: Homepage content not found in MongoDB for locale "en"
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:37:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:57:20)
+    at async Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  35 | ): HomePageContentPayload {
+  36 |     if (!databaseContent) {
+> 37 |         throw new Error(`Homepage content not found in MongoDB for locale "${locale}"`);
+     |               ^
+  38 |     }
+  39 |
+  40 |     const missingFields = REQUIRED_HOME_PAGE_FIELDS.filter((field) => databaseContent[fiel... {
+  digest: '1865911765'
+}
+[browser] Uncaught Error: Homepage content not found in MongoDB for locale "en"
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:37:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:57:20)
+    at Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  35 | ): HomePageContentPayload {
+  36 |     if (!databaseContent) {
+> 37 |         throw new Error(`Homepage content not found in MongoDB for locale "${locale}"`);
+     |               ^
+  38 |     }
+  39 |
+  40 |     const missingFields = REQUIRED_HOME_PAGE_FIELDS.filter((field) => databaseContent[fiel...
+⨯ Error: Homepage content not found in MongoDB for locale "en" (database="tests", collection="homepage-content.tests")
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:37:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:60:20)
+    at async Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  35 | ): HomePageContentPayload {
+  36 |     if (!databaseContent) {
+> 37 |         throw new Error(
+     |               ^
+  38 |             `Homepage content not found in MongoDB for locale "${locale}" ` +
+  39 |             `(database="${process.env.MONGODB_DATABASE}", collection="${process.env.MONGOD...
+  40 |         ); {
+  digest: '488794261'
+}
+[browser] Uncaught Error: Homepage content not found in MongoDB for locale "en" (database="tests", collection="homepage-content.tests")
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:37:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:60:20)
+    at Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  35 | ): HomePageContentPayload {
+  36 |     if (!databaseContent) {
+> 37 |         throw new Error(
+     |               ^
+  38 |             `Homepage content not found in MongoDB for locale "${locale}" ` +
+  39 |             `(database="${process.env.MONGODB_DATABASE}", collection="${process.env.MONGOD...
+  40 |         );
+⨯ Error: Homepage content is incomplete for locale "en". Missing fields: smartCityMain
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:46:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:60:20)
+    at async Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  44 |
+  45 |     if (missingFields.length > 0) {
+> 46 |         throw new Error(
+     |               ^
+  47 |             `Homepage content is incomplete for locale "${locale}". Missing fields: ${miss...
+  48 |         );
+  49 |     } {
+  digest: '300863377'
+}
+[browser] Uncaught Error: Homepage content is incomplete for locale "en". Missing fields: smartCityMain
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:46:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:60:20)
+    at Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  44 |
+  45 |     if (missingFields.length > 0) {
+> 46 |         throw new Error(
+     |               ^
+  47 |             `Homepage content is incomplete for locale "${locale}". Missing fields: ${miss...
+  48 |         );
+  49 |     }
+⨯ Error: Homepage content is incomplete for locale "en". Missing fields: smartCityMain
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:46:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:60:20)
+    at async Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  44 |
+  45 |     if (missingFields.length > 0) {
+> 46 |         throw new Error(
+     |               ^
+  47 |             `Homepage content is incomplete for locale "${locale}". Missing fields: ${miss...
+  48 |         );
+  49 |     } {
+  digest: '300863377'
+}
+[browser] Uncaught Error: Homepage content is incomplete for locale "en". Missing fields: smartCityMain
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:46:15)
+    at getCachedContent.revalidate (src\lib\homepage-content\homePageContent.service.ts:60:20)
+    at  Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  44 |
+  45 |     if (missingFields.length > 0) {
+> 46 |         throw new Error(
+     |               ^
+  47 |             `Homepage content is incomplete for locale "${locale}". Missing fields: ${miss...
+  48 |         );
+  49 |     }
+⨯ Error: Homepage content is incomplete for locale "en". Missing fields: smartCityMain
+    at assertCompleteHomePageContent (src\lib\homepage-content\homePageContent.service.ts:47:15)
+    at getHomePageContent (src\lib\homepage-content\homePageContent.service.ts:60:16)
+    at async Home (src\app\[locale]\(desktop)\page.tsx:29:29)
+  45 |
+  46 |     if (missingFields.length > 0) {
+> 47 |         throw new Error(
+     |               ^
+  48 |             `Homepage content is incomplete for locale "${locale}". Missing fields: ${miss...
+  49 |         );
+  50 |     } {
+  digest: '2537576739'
+}

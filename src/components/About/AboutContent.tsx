@@ -1,12 +1,15 @@
 import React from "react";
 import AboutLeft from "@/components/About/AboutLeft";
 import AboutRight from "@/components/About/AboutRight";
-import {DefaultShape} from "@/components/Shape/DefaultShape";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {AboutContentMedia, IAbout} from "@/lib/model/about";
 
-export default function AboutContent({lang}: { lang: string }) {
-    const about = InfoTranslation[lang].About
-
+export default function AboutContent({
+    about,
+    media,
+}: {
+    about: IAbout;
+    media: AboutContentMedia;
+}) {
     return (
         <>
             <div className="about-area pb-70">
@@ -14,8 +17,8 @@ export default function AboutContent({lang}: { lang: string }) {
                     <h1>{about.title}</h1>
                     <strong>{about.subTitle}</strong>
                     <div className="row pt-2">
-                        <AboutLeft lang={lang}/>
-                        <AboutRight lang={lang}/>
+                        <AboutLeft media={media}/>
+                        <AboutRight about={about}/>
                     </div>
                 </div>
             </div>

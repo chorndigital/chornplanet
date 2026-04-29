@@ -10,12 +10,13 @@ import CitySystems from '@/components/Home/CitySystems'
 import GlobalPatterns from '@/components/Home/GlobalPatterns'
 import UrbanSignals from '@/components/Home/UrbanSignals'
 import EditorialPositioning from '@/components/Home/EditorialPositioning'
-import {SmartCityMain} from "@/data/smart-city-media/SmartCityMain/SmartCityMain";
+import {getHomePageContent} from "@/lib/homepage-content/homePageContent.service";
 
 export default async function SmartCityPage() {
     const headers15 = await headers();
     const lang = headers15.get("x-locale") || "en";
-    const smartCityMain = SmartCityMain[lang]
+    const homePageContent = await getHomePageContent(lang);
+    const smartCityMain = homePageContent.smartCityMain;
 
     return (
         <main className="smart-city-main">
@@ -61,13 +62,13 @@ export default async function SmartCityPage() {
 
                 <div className="smart-city-main-divider"/>
 
-                <HumanDailyFlow lang={lang}/>
-                <LocalToGlobal lang={lang}/>
-                <MobilityFocus lang={lang}/>
-                <CitySystems lang={lang}/>
-                <GlobalPatterns lang={lang}/>
-                <UrbanSignals lang={lang}/>
-                <EditorialPositioning lang={lang}/>
+                <HumanDailyFlow lang={lang} data={homePageContent.humanDailyFlow}/>
+                <LocalToGlobal lang={lang} data={homePageContent.localToGlobal}/>
+                <MobilityFocus lang={lang} data={homePageContent.mobilityFocus}/>
+                <CitySystems lang={lang} data={homePageContent.citySystems}/>
+                <GlobalPatterns lang={lang} data={homePageContent.globalPatterns}/>
+                <UrbanSignals lang={lang} data={homePageContent.urbanSignals}/>
+                <EditorialPositioning lang={lang} data={homePageContent.editorialPositioning}/>
             </div>
         </main>
     );

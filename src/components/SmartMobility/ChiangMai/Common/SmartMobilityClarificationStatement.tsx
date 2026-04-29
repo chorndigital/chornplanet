@@ -1,22 +1,26 @@
 import Image from "next/image";
 import React from "react";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
+import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
 
-export default function SmartMobilityClarificationStatement({lang}: { lang: string }) {
+export default function SmartMobilityClarificationStatement(
+    {lang, safeStatement}: { lang: string; safeStatement?: ISmartSection['safeStatement'] }
+) {
     const vision = SmartMobility[lang].chiangMai.vision
+    const statement = safeStatement ?? vision.safeStatement;
 
     return (
         <div>
             <strong>
                 {
-                    vision.safeStatement &&
-                    vision.safeStatement.title
+                    statement &&
+                    statement.title
                 }
             </strong>
             <p>
                 {
-                    vision.safeStatement &&
-                    vision.safeStatement.description
+                    statement &&
+                    statement.description
                 }
             </p>
         </div>

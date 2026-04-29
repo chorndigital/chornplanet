@@ -1,6 +1,5 @@
-// src/app/[locale]/AiBannerFahMain.tsx
+// src/app/[locale]/(desktop)/page.tsx
 
-import React from "react";
 import type {Metadata} from "next";
 import {MetadataHome} from "@/metadata/main/MetadataHome";
 import {headers} from "next/headers";
@@ -15,9 +14,8 @@ import GlobalPatterns from '@/components/Home/GlobalPatterns'
 import UrbanSignals from '@/components/Home/UrbanSignals'
 import EditorialPositioning from '@/components/Home/EditorialPositioning'
 import {ISmartCityItem} from "@/data/smart-city/model/ISmartCity";
-import {SmartCity} from "@/data/smart-city/SmartCity";
 import SmartCityMain from "@/components/SmartCity/ChiangMai/SmartCityMain";
-import {Tag} from "@/data/tags/Tag";
+import {getHomePageContent} from "@/lib/homepage-content/homePageContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -28,6 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Home() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const homePageContent = await getHomePageContent(lang);
     const localBusinessSchema = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
@@ -62,26 +61,26 @@ export default async function Home() {
             "https://x.com/chornplanet",
         ]
     };
-    const smartCityItem: ISmartCityItem = SmartCity[lang]?.chiangMai[3];
+    const smartCityItem: ISmartCityItem = homePageContent.smartCityHighlight;
 
     return (
         <>
             <main className="flex flex-col">
                 <div className="container">
-                    <HeroSection lang={lang}/>
+                    <HeroSection lang={lang} data={homePageContent.heroSection}/>
                     <SmartCityMain lang={lang} smartCityItem={smartCityItem}/>
-                    <HumanDailyFlow lang={lang}/>
-                    <LocalToGlobal lang={lang}/>
-                    <SystemExplainers lang={lang}/>
-                    <MobilityFocus lang={lang}/>
+                    <HumanDailyFlow lang={lang} data={homePageContent.humanDailyFlow}/>
+                    <LocalToGlobal lang={lang} data={homePageContent.localToGlobal}/>
+                    <SystemExplainers lang={lang} data={homePageContent.systemExplainers}/>
+                    <MobilityFocus lang={lang} data={homePageContent.mobilityFocus}/>
 
-                    <CitySystems lang={lang}/>
-                    <GlobalPatterns lang={lang}/>
-                    <UrbanSignals lang={lang}/>
-                    <EditorialPositioning lang={lang}/>
+                    <CitySystems lang={lang} data={homePageContent.citySystems}/>
+                    <GlobalPatterns lang={lang} data={homePageContent.globalPatterns}/>
+                    <UrbanSignals lang={lang} data={homePageContent.urbanSignals}/>
+                    <EditorialPositioning lang={lang} data={homePageContent.editorialPositioning}/>
 
                     <div className={'neo-tag-smart-city'}>
-                        {lang && Tag[lang].smartCity.join(", ")}
+                        {homePageContent.smartCityTags.join(", ")}
                     </div>
                 </div>
             </main>

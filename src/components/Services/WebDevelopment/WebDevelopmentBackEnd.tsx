@@ -3,9 +3,10 @@ import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {IFrontEndStack} from "@/data/frontend/model/IFrontEndStack";
 import Image from "next/image";
 import Link from "next/link";
+import {IFullStack} from "@/data/fullstack/model/IFullStack";
 
-export default function WebDevelopmentBackEnd({lang}: { lang: string }) {
-    const fullstack = InfoTranslation[lang].FullStack
+export default function WebDevelopmentBackEnd({lang, fullStack}: { lang: string, fullStack?: IFullStack }) {
+    const fullstack = fullStack ?? InfoTranslation[lang].FullStack
     const displayItems = [
         fullstack.stacks[3],
         fullstack.stacks[0],

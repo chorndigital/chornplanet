@@ -2,9 +2,16 @@ import React from "react";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
 
-export default function UrbanHubSansaiDoiSaketBottom({lang}: { lang: string }) {
-    const urbanHub = SmartMobility[lang].chiangMai.urbanHub
+export default function UrbanHubSansaiDoiSaketBottom(
+    {lang, urbanHub: injectedUrbanHub, safeStatement}: {
+        lang: string;
+        urbanHub?: ISmartSection;
+        safeStatement?: ISmartSection['safeStatement'];
+    }
+) {
+    const urbanHub = injectedUrbanHub ?? SmartMobility[lang].chiangMai.urbanHub
     const contact = InfoTranslation[lang].Contact
 
     return (
@@ -42,7 +49,7 @@ export default function UrbanHubSansaiDoiSaketBottom({lang}: { lang: string }) {
                     }
                 </ul>
 
-                <SmartMobilityClarificationStatement lang={lang}/>
+                <SmartMobilityClarificationStatement lang={lang} safeStatement={safeStatement}/>
             </div>
         </>
     )

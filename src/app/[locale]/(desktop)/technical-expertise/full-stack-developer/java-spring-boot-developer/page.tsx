@@ -5,6 +5,7 @@ import {Metadata} from "next";
 import {SchemaMarkupServicePage} from "@/components/GoogleSchemaMarkup/SchemaMarkupServicePage";
 import {headers} from "next/headers";
 import {MetadataJava} from "@/metadata/main/backend/MetadataJava";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -15,11 +16,12 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const {fullStack, cloud} = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <ServicesDetailsJava lang={lang}/>
-            <CloudExperience lang={lang}/>
+            <ServicesDetailsJava lang={lang} stack={fullStack.java}/>
+            <CloudExperience lang={lang} cloud={cloud}/>
             <SchemaMarkupServicePage
                 name="Java Spring Boot Full Stack Development | Chorn Planet"
                 description="Chorn Planet offers Java Spring Boot full stack development services to build robust and scalable enterprise applications."

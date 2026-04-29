@@ -6,6 +6,7 @@ import WebDevelopmentPageMain from "@/components/Services/WebDevelopment/WebDeve
 import {headers} from "next/headers";
 import {MetadataWebDevelopment} from "@/metadata/main/MetadataWebDevelopment";
 import HomeFeatureMain from "@/components/Features/HomeFeatureMain";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -16,12 +17,13 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const content = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <WebDevelopmentPageMain lang={lang}/>
-            <HomeFeatureMain lang={lang} isHideTopTitle={true}/>
-            <CloudExperience lang={lang}/>
+            <WebDevelopmentPageMain lang={lang} content={content}/>
+            <HomeFeatureMain lang={lang} feature={content.feature} isHideTopTitle={true}/>
+            <CloudExperience lang={lang} cloud={content.cloud}/>
             <SchemaMarkupServicePage
                 name="Web Development Services | Chorn Planet | Custom Software & Technology Solutions"
                 description="Explore Chorn Planet's web development services, including expertise in Next.js, React, Angular, Vue, and more. Chorn Planet offers tailored solutions for businesses across various domains such as Digital Marketing, Blockchain, E-Commerce, and more."

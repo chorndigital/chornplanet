@@ -1,12 +1,9 @@
 import "@/styles/about.scss"
 
 import React from "react";
-import {IAboutContent} from "@/data/about/model/IAbout";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {IAbout, IAboutContent} from "@/lib/model/about";
 
-export default function AboutRight({lang}: { lang: string }) {
-    const about = InfoTranslation[lang].About
-
+export default function AboutRight({about}: { about: IAbout }) {
     return (
         <div className="col-lg-8">
             <div className="about-content">

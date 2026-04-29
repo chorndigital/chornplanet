@@ -1,24 +1,27 @@
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import Image from "next/image";
 import React from "react";
+import {IAiLanding} from "@/data/ai/model/IAiLanding";
 
-export default function AomBottomFeature({lang}: { lang: string }) {
+export default function AomBottomFeature({lang, aom}: { lang: string; aom?: IAiLanding }) {
+    const content = aom ?? InfoTranslation[lang].AiCompanions.aom;
+
     return (
         <>
-            {InfoTranslation[lang].AiCompanions.aom.features.map((feature, index: number) => (
+            {content.features.map((feature, index: number) => (
                 <div key={index} className={`portfolio-details-desc portfolio-details-desc-custom`}>
                     <div className={'unique-features-container'}>
                         <h3>{feature.title}</h3>
 
                         {index == 0 &&
-                            <a href={InfoTranslation[lang].AiCompanions.aom.line.link}
+                            <a href={content.line.link}
                                target={'_blank'}>
                                 <Image
-                                    src={InfoTranslation[lang].AiCompanions.aom.line.button}
+                                    src={content.line.button}
                                     alt="เพิ่มเพื่อน"
                                     width={120}
                                     height={36}
-                                    style={{ height: 'auto' }}
+                                    style={{width: 120, height: 'auto'}}
                                 />
                             </a>
                         }

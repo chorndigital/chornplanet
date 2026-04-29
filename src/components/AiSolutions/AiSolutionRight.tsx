@@ -1,12 +1,15 @@
 import Image from "next/image";
 import React from "react";
 import {ImageUrl} from "@/image/ImageUrl";
+import {IImageResponsiveUnit} from "@/image/model/IImageResponsiveUnit";
 
-export default function AiSolutionRight() {
+export default function AiSolutionRight({llmSlides}: { llmSlides?: IImageResponsiveUnit[] }) {
+    const slides = llmSlides ?? ImageUrl.llm.slides;
+
     return (
         <div className="col-lg-6 frontend-images-side-container">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {ImageUrl.llm.slides.map((image, index) => (
+                {slides.map((image, index) => (
                     <Image
                         key={index}
                         src={image.image1200}

@@ -6,7 +6,12 @@ import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
 import {ISmartImage} from "@/data/smart-mobility/model/ISmartMobility";
 
 export default function SmartMobilityChiangMaiRight(
-    {lang, currentIdx, imageQty = 3}: { lang: string, currentIdx: number, imageQty: number }
+    {lang, currentIdx, imageQty = 3, rightItems}: {
+        lang: string,
+        currentIdx: number,
+        imageQty: number,
+        rightItems?: ISmartImage[]
+    }
 ) {
     const vision = SmartMobility[lang].chiangMai.vision
     const urbanHub = SmartMobility[lang].chiangMai.urbanHub
@@ -46,7 +51,7 @@ export default function SmartMobilityChiangMaiRight(
     ]
 
     // circular (rotating) selection
-    const filteredArray: ISmartImage[] = Array.from(
+    const filteredArray: ISmartImage[] = rightItems ?? Array.from(
         {length: imageQty}, (_, i) => {
             return images[(currentIdx + 1 + i) % images.length];
         }

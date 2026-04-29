@@ -2,9 +2,16 @@ import React from "react";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {ISmartSection, IVertiport} from "@/data/smart-mobility/model/ISmartMobility";
 
-export default function VertiportDesignBottom({lang}: { lang: string }) {
-    const vertiportDesign = SmartMobility[lang].chiangMai.vertiportDesign
+export default function VertiportDesignBottom(
+    {lang, vertiportDesign: injectedVertiportDesign, safeStatement}: {
+        lang: string;
+        vertiportDesign?: IVertiport;
+        safeStatement?: ISmartSection['safeStatement'];
+    }
+) {
+    const vertiportDesign = injectedVertiportDesign ?? SmartMobility[lang].chiangMai.vertiportDesign
     const contact = InfoTranslation[lang].Contact
 
     return (
@@ -38,7 +45,7 @@ export default function VertiportDesignBottom({lang}: { lang: string }) {
                 ))}
             </ul>
 
-            <SmartMobilityClarificationStatement lang={lang}/>
+            <SmartMobilityClarificationStatement lang={lang} safeStatement={safeStatement}/>
         </div>
     )
 }

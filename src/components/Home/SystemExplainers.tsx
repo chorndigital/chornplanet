@@ -1,9 +1,8 @@
 import Image from "next/image"
-import {SystemExplainersData} from "@/data/smart-city-media/SystemExplainersData/SystemExplainersData"
-import {Tag} from "@/data/tags/Tag";
+import {ISystemExplainers} from "@/lib/model/smart-city-media";
 
-export default function SystemExplainers({lang}: { lang: string }) {
-    const {headline, paragraph, systems} = SystemExplainersData[lang]
+export default function SystemExplainers({lang, data}: { lang: string; data: ISystemExplainers }) {
+    const {headline, paragraph, systems} = data
 
     return (
         <section className="system-explainers">

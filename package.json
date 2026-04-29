@@ -6,7 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "npx serve@latest out",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "migrate:homepage": "node scripts/migrate-homepage-to-mongo.cjs",
+    "migrate:contact": "node scripts/migrate-contact-to-mongo.cjs",
+    "migrate:policy": "node scripts/migrate-policy-to-mongo.cjs",
+    "migrate:gallery": "node scripts/migrate-gallery-to-mongo.cjs",
+    "migrate:about": "node scripts/migrate-about-to-mongo.cjs",
+    "migrate:ai-companions": "node scripts/migrate-ai-companions-to-mongo.cjs",
+    "migrate:technical-expertise": "node scripts/migrate-technical-expertise-to-mongo.cjs",
+    "migrate:smart-city-landing": "node scripts/migrate-smart-city-landing-to-mongo.cjs",
+    "migrate:smart-city-chiang-mai": "node scripts/migrate-smart-city-chiang-mai-to-mongo.cjs",
+    "migrate:smart-mobility-chiang-mai": "node scripts/migrate-smart-mobility-chiang-mai-to-mongo.cjs",
+    "sync:homepage-content": "node scripts/sync-homepage-content.cjs"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",

@@ -5,10 +5,15 @@ import HubToDoiSuthepBottom from "../Bottom/HubToDoiSuthepBottom";
 import SmartMobilityChiangMaiRight from "../Common/SmartMobilityChiangMaiRight";
 import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
 import SmartCityBottomImage from "@/components/SmartCity/ChiangMai/SmartCityBottomImage";
+import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/smart-mobility-chiang-mai";
+import {ISmartRoute} from "@/data/smart-mobility/model/ISmartMobility";
 
-export default function HubToDoiSuthepMain({lang}: { lang: string }) {
-    const connectivityMatrix = SmartMobility[lang].chiangMai.connectivityMatrix
-    const route = connectivityMatrix.routes[1]
+export default function HubToDoiSuthepMain(
+    {lang, content}: { lang: string; content?: SmartMobilityChiangMaiContentPayload }
+) {
+    const fallbackConnectivityMatrix = SmartMobility[lang].chiangMai.connectivityMatrix
+    const connectivityMatrix = content?.connectivityMatrix ?? fallbackConnectivityMatrix
+    const route = (content?.primaryContent as ISmartRoute | undefined) ?? fallbackConnectivityMatrix.routes[1]
 
     return (
         <div className="portfolio-details-area smart-container-top">
@@ -34,13 +39,19 @@ export default function HubToDoiSuthepMain({lang}: { lang: string }) {
                             }
                         </div>
 
-                        <HubToDoiSuthepBottom lang={lang}/>
-                        <SmartCityBottomImage lang={lang}/>
+                        <HubToDoiSuthepBottom
+                            lang={lang}
+                            route={route}
+                            connectivityMatrix={connectivityMatrix}
+                            safeStatement={content?.safeStatement}
+                        />
+                        <SmartCityBottomImage lang={lang} bottomCards={content?.bottomCards}/>
                     </div>
                     <SmartMobilityChiangMaiRight
                         lang={lang}
                         currentIdx={SmartVisibilityIndex.HubToDoiSuthep}
                         imageQty={4}
+                        rightItems={content?.rightItems}
                     />
                 </div>
             </div>

@@ -5,9 +5,13 @@ import VisionChiangMaiBottom from "../Bottom/VisionChiangMaiBottom";
 import SmartMobilityChiangMaiRight from "../Common/SmartMobilityChiangMaiRight";
 import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
 import SmartCityBottomImage from "@/components/SmartCity/ChiangMai/SmartCityBottomImage";
+import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/smart-mobility-chiang-mai";
+import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
 
-export default function VisionChiangMaiMain({lang}: { lang: string }) {
-    const vision = SmartMobility[lang].chiangMai.vision
+export default function VisionChiangMaiMain(
+    {lang, content}: { lang: string; content?: SmartMobilityChiangMaiContentPayload }
+) {
+    const vision = (content?.primaryContent as ISmartSection | undefined) ?? SmartMobility[lang].chiangMai.vision
 
     return (
         <div className="portfolio-details-area smart-container-top">
@@ -33,14 +37,19 @@ export default function VisionChiangMaiMain({lang}: { lang: string }) {
                             }
                         </div>
 
-                        <VisionChiangMaiBottom lang={lang}/>
-                        <SmartCityBottomImage lang={lang}/>
+                        <VisionChiangMaiBottom
+                            lang={lang}
+                            vision={vision}
+                            safeStatement={content?.safeStatement}
+                        />
+                        <SmartCityBottomImage lang={lang} bottomCards={content?.bottomCards}/>
                     </div>
 
                     <SmartMobilityChiangMaiRight
                         lang={lang}
                         currentIdx={SmartVisibilityIndex.Vision}
                         imageQty={4}
+                        rightItems={content?.rightItems}
                     />
                 </div>
             </div>

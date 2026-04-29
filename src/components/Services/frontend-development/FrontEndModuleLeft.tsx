@@ -1,15 +1,18 @@
 import React from "react";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {IFrontEnd} from "@/data/frontend/model/IFrontEnd";
 
-const FrontEndModuleLeft: React.FC<{ lang: string }> = ({lang}) => {
+const FrontEndModuleLeft: React.FC<{ lang: string, frontEnd?: IFrontEnd }> = ({lang, frontEnd}) => {
+    const content = frontEnd ?? InfoTranslation[lang].FrontEnd;
+
     return (
         <div className={'col-lg-6 add-web-content'}>
-            {InfoTranslation[lang].FrontEnd.services.descriptions.map((item, index) => (
+            {content.services.descriptions.map((item, index) => (
                 <p key={index}>{item}</p>
             ))}
 
             <ul className="feature-list">
-                {InfoTranslation[lang].FrontEnd.services.items.map((item, index) => (
+                {content.services.items.map((item, index) => (
                     <li key={index} className="feature-item">
                         <div className="feature-icon-container">
                             <div className="feature-icon">

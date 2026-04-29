@@ -1,10 +1,10 @@
 // src/components/Home/UrbanSignals.tsx
 
 import Image from "next/image"
-import {UrbanSignalsData} from "@/data/smart-city-media/UrbanSignalsData/UrbanSignalsData"
+import {IUrbanSignals} from "@/lib/model/smart-city-media";
 
-export default function UrbanSignals({lang}: { lang: string }) {
-    const {headline, paragraph, signals} = UrbanSignalsData[lang]
+export default function UrbanSignals({lang, data}: { lang: string; data: IUrbanSignals }) {
+    const {headline, paragraph, signals} = data
 
     return (
         <section className="urban-signals">

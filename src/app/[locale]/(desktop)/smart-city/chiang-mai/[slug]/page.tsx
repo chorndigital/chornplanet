@@ -9,8 +9,9 @@ import AiSolutionsMain from "@/components/AiSolutions/AiSolutionsMain";
 import HomeFeatureMain from "@/components/Features/HomeFeatureMain";
 
 import SmartCityMain from "@/components/SmartCity/ChiangMai/SmartCityMain";
-import {getSmartCityData} from "@/data/smart-city/getSmartCityData";
 import {getMetaSmartCity} from "@/metadata/smart-city/getMetaSmartCity";
+import {getSmartCityChiangMaiContent} from "@/lib/smart-city-chiang-mai-content/smartCityChiangMaiContent.service";
+import {getAiCompanionsContent} from "@/lib/ai-companions-content/aiCompanionsContent.service";
 
 export async function generateMetadata(
     {params}: { params: Promise<{ slug: string }> }
@@ -30,15 +31,30 @@ export default async function Page(
     const lang = headers15.get("x-locale") || "en";
 
     const {slug} = await params
-    const smartCityData = getSmartCityData({lang});
-    const smartCityItem = smartCityData[slug];
-    if (!smartCityItem) notFound();
+    const smartCityContent = await getSmartCityChiangMaiContent(lang, slug).catch(() => null);
+    if (!smartCityContent?.item) notFound();
+
+    const aiContent = await getAiCompanionsContent(lang);
 
     return (
         <div className="container">
-            <SmartCityMain lang={lang} smartCityItem={smartCityItem}/>
-            <AiSolutionsMain lang={lang}/>
-            <HomeFeatureMain lang={lang} isHideTopTitle={true}/>
+            <SmartCityMain
+                lang={lang}
+                smartCityItem={smartCityContent.item}
+                relatedItems={smartCityContent.relatedItems}
+                bottomContent={smartCityContent.bottomContent}
+            />
+            <AiSolutionsMain
+                lang={lang}
+                service={aiContent.service}
+                llmSlides={aiContent.media.llmSlides}
+            />
+            <HomeFeatureMain
+                lang={lang}
+                feature={aiContent.feature}
+                featureImage={aiContent.media.featureImage}
+                isHideTopTitle={true}
+            />
         </div>
     );
 }

@@ -2,11 +2,19 @@ import React from "react";
 import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
+import {ISmartRoute, ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
 
-export default function HubToChiangMaiAirportBottom({lang}: { lang: string }) {
-    const connectivityMatrix = SmartMobility[lang].chiangMai.connectivityMatrix
-    const route = connectivityMatrix.routes[0]
+export default function HubToChiangMaiAirportBottom(
+    {lang, route: injectedRoute, connectivityMatrix: injectedConnectivityMatrix, safeStatement}: {
+        lang: string;
+        route?: ISmartRoute;
+        connectivityMatrix?: { title: string; description: string };
+        safeStatement?: ISmartSection['safeStatement'];
+    }
+) {
+    const fallbackConnectivityMatrix = SmartMobility[lang].chiangMai.connectivityMatrix
+    const connectivityMatrix = injectedConnectivityMatrix ?? fallbackConnectivityMatrix
+    const route = injectedRoute ?? fallbackConnectivityMatrix.routes[0]
     const contact = InfoTranslation[lang].Contact
 
     return (
@@ -41,7 +49,7 @@ export default function HubToChiangMaiAirportBottom({lang}: { lang: string }) {
                 }
             </ul>
 
-            <SmartMobilityClarificationStatement lang={lang}/>
+            <SmartMobilityClarificationStatement lang={lang} safeStatement={safeStatement}/>
         </div>
     )
 }

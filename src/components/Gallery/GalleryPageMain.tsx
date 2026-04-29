@@ -1,8 +1,8 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {DefaultShape} from "@/components/Shape/DefaultShape";
+import {IGalleryItem} from "@/lib/model/gallery";
 
-const GalleryPageMain: React.FC<{ lang: string }> = ({lang}) => {
+const GalleryPageMain: React.FC<{ global: IGalleryItem }> = ({global}) => {
     return (
         <>
             <div className="about-area pb-70">
@@ -16,9 +16,9 @@ const GalleryPageMain: React.FC<{ lang: string }> = ({lang}) => {
                         <div className="col-lg-6">
                             <div className="about-content warp mx-100">
                                 <span></span>
-                                <h3>{InfoTranslation[lang].Gallery.global.title}</h3>
+                                <h3>{global.title}</h3>
                                 <div className="bar"></div>
-                                <p>{InfoTranslation[lang].Gallery.global.description}</p>
+                                <p>{global.description}</p>
                             </div>
                         </div>
                     </div>

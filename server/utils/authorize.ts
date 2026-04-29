@@ -19,7 +19,7 @@ export function setXAuthToken(req: Request): IXAuthToken {
 
 export function authorize(req: Request) {
     const token = setXAuthToken(req)
-    if (!token.isToken) return unauthorized()
+    if (!token.isToken) return false
 
     try {
         verify(token.value!, process.env.JWT_SECRET!)

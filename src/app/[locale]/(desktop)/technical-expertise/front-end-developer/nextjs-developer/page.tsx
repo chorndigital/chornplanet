@@ -5,6 +5,7 @@ import {Metadata} from "next";
 import {SchemaMarkupServicePage} from "@/components/GoogleSchemaMarkup/SchemaMarkupServicePage";
 import {headers} from "next/headers";
 import {MetadataNextjs} from "@/metadata/main/frontend/MetadataNextjs";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -15,11 +16,12 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const {frontEnd, cloud} = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <ServicesDetailsNextJS lang={lang}/>
-            <CloudExperience lang={lang}/>
+            <ServicesDetailsNextJS lang={lang} stack={frontEnd.nextjs}/>
+            <CloudExperience lang={lang} cloud={cloud}/>
             <SchemaMarkupServicePage
                 name="Next.js Development Services | Chorn Planet"
                 description="Expert Next.js development services by Chorn Planet. Enhance your web applications with scalable and high-performance solutions using Next.js."

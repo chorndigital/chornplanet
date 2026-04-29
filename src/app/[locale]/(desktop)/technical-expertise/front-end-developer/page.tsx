@@ -6,6 +6,7 @@ import {SchemaMarkupServicePage} from "@/components/GoogleSchemaMarkup/SchemaMar
 import {headers} from "next/headers";
 import {MetadataFrontEndMain} from "@/metadata/main/frontend/MetadataFrontEndMain";
 import HomeFeatureMain from "@/components/Features/HomeFeatureMain";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -16,12 +17,13 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const content = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <FrontEndPageMain lang={lang}/>
-            <CloudExperience lang={lang}/>
-            <HomeFeatureMain lang={lang}/>
+            <FrontEndPageMain lang={lang} frontEnd={content.frontEnd}/>
+            <CloudExperience lang={lang} cloud={content.cloud}/>
+            <HomeFeatureMain lang={lang} feature={content.feature}/>
             <SchemaMarkupServicePage
                 name="Frontend Development Services | Chorn Planet"
                 description="Chorn Planet provides expert frontend development services, specializing in modern frameworks like Next.js, React, Angular, Vue, HTML5, and CSS3. Build responsive and scalable websites with cutting-edge technologies."
