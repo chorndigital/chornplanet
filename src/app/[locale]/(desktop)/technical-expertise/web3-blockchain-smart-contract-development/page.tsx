@@ -6,6 +6,7 @@ import CloudExperience from "@/components/Common/CloudExperience";
 import {headers} from "next/headers";
 import {MetadataWeb3} from "@/metadata/main/MetadataWeb3";
 import HomeFeatureMain from "@/components/Features/HomeFeatureMain";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -16,12 +17,13 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const content = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <Web3PageMain lang={lang}/>
-            <CloudExperience lang={lang}/>
-            <HomeFeatureMain lang={lang}/>
+            <Web3PageMain lang={lang} web3={content.web3}/>
+            <CloudExperience lang={lang} cloud={content.cloud}/>
+            <HomeFeatureMain lang={lang} feature={content.feature}/>
             <SchemaMarkupServicePage
                 name="Web3 Blockchain Smart Contract Development | Chorn Planet | Custom Blockchain Solutions"
                 description="Discover Chorn Planet’s expertise in Web3 blockchain and smart contract development. Chorn Planet build decentralized applications (DApps) using Solidity, Ethereum, Polygon, and integrate with technologies like Hardhat, Ganache, and MetaMask."

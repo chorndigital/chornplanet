@@ -3,12 +3,15 @@ import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {IFrontEndStack} from "@/data/frontend/model/IFrontEndStack";
 import Image from "next/image";
 import Link from "next/link";
+import {IFullStack} from "@/data/fullstack/model/IFullStack";
 
-export default function FullStackModuleBottom({lang}: { lang: string }) {
+export default function FullStackModuleBottom({lang, fullStack}: { lang: string, fullStack?: IFullStack }) {
+    const content = fullStack ?? InfoTranslation[lang].FullStack;
+
     return (
         <div className="services-area bg-fafafa pt-100 pb-70 addition-ptb-0">
             <div className="row">
-                {InfoTranslation[lang].FullStack.stacks.slice(0, 6).map((item: IFrontEndStack, index: number) => (
+                {content.stacks.slice(0, 6).map((item: IFrontEndStack, index: number) => (
                     <div key={index} className="col-lg-4 col-md-6">
                         <Link href={'/' + lang + item.link}>
                             <div className="home-frontend-box">

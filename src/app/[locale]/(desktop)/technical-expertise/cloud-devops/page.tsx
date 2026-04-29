@@ -6,6 +6,7 @@ import {SchemaMarkupServicePage} from "@/components/GoogleSchemaMarkup/SchemaMar
 import {headers} from "next/headers";
 import {MetadataBackEndMain} from "@/metadata/main/backend/MetadataBackEndMain";
 import HomeFeatureMain from "@/components/Features/HomeFeatureMain";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -16,12 +17,13 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const content = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <CloudDevOpsModuleMain lang={lang}/>
-            <CloudExperience lang={lang}/>
-            <HomeFeatureMain lang={lang}/>
+            <CloudDevOpsModuleMain lang={lang} devOps={content.devOps}/>
+            <CloudExperience lang={lang} cloud={content.cloud}/>
+            <HomeFeatureMain lang={lang} feature={content.feature}/>
             <SchemaMarkupServicePage
                 name="DevOps & Testing Services | Chorn Planet"
                 description="Chorn Planet offers expert DevOps and testing services to streamline your software development process. Ensure high performance and quality with our continuous integration, automated testing, and cloud-based solutions."

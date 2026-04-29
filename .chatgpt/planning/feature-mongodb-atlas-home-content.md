@@ -33,6 +33,8 @@ From `migrated-target-pages.log`, current done pages include:
 src/app/[locale]/(desktop)/page.tsx
 src/app/[locale]/(desktop)/contact
 src/app/[locale]/(desktop)/privacy-policy
+src/app/[locale]/(desktop)/terms-of-service
+src/app/[locale]/(desktop)/workplace-policy
 src/app/[locale]/(desktop)/gallery
 src/app/[locale]/(desktop)/about-chorn
 src/app/[locale]/(desktop)/ai-companions
@@ -47,24 +49,12 @@ src/app/[locale]/(desktop)/smart-mobility/chiang-mai/hub-to-doi-Suthep
 src/app/[locale]/(desktop)/smart-mobility/chiang-mai/urban-hub-san-sai-doi-saket
 src/app/[locale]/(desktop)/smart-mobility/chiang-mai/vertiport-design
 src/app/[locale]/(desktop)/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway
-```
-
-### Pending Pages
-
-Current pending pages include:
-
-```text
-src/app/[locale]/(desktop)/terms-of-service
-src/app/[locale]/(desktop)/workplace-policy
-
 src/app/[locale]/(desktop)/technical-expertise/mobile-development
 src/app/[locale]/(desktop)/technical-expertise/web-development
 src/app/[locale]/(desktop)/technical-expertise/web3-blockchain-smart-contract-development
-
 src/app/[locale]/(desktop)/technical-expertise/ai-solutions
 src/app/[locale]/(desktop)/technical-expertise/cloud-devops
 src/app/[locale]/(desktop)/technical-expertise/cloud-infrastructure-systems-architecture
-
 src/app/[locale]/(desktop)/technical-expertise/front-end-developer
 src/app/[locale]/(desktop)/technical-expertise/front-end-developer/angular-developer
 src/app/[locale]/(desktop)/technical-expertise/front-end-developer/css3-developer
@@ -74,7 +64,6 @@ src/app/[locale]/(desktop)/technical-expertise/front-end-developer/nextjs-develo
 src/app/[locale]/(desktop)/technical-expertise/front-end-developer/react-developer
 src/app/[locale]/(desktop)/technical-expertise/front-end-developer/typescript-developer
 src/app/[locale]/(desktop)/technical-expertise/front-end-developer/vue-developer
-
 src/app/[locale]/(desktop)/technical-expertise/full-stack-developer
 src/app/[locale]/(desktop)/technical-expertise/full-stack-developer/dotnetcore-developer
 src/app/[locale]/(desktop)/technical-expertise/full-stack-developer/go-developer
@@ -82,6 +71,22 @@ src/app/[locale]/(desktop)/technical-expertise/full-stack-developer/java-spring-
 src/app/[locale]/(desktop)/technical-expertise/full-stack-developer/nodejs-developer
 src/app/[locale]/(desktop)/technical-expertise/full-stack-developer/php-developer
 src/app/[locale]/(desktop)/technical-expertise/full-stack-developer/python-developer
+```
+
+### Pending Pages - Layout
+
+Layout page: `src\app\[locale]\(desktop)\layout.tsx`
+
+The remaining should be only some components in layout page `src\app\[locale]\(desktop)\layout.tsx`.
+```
+import FooterMain from "@/components/Footer/FooterMain";
+import NavbarContainer from "@/components/Navbar/NavbarContainer";
+
+import CookieConsentChecking from "@/components/Consent/CookieConsentChecking";
+-> import CookieConsentDisplay from "@/components/Consent/modules/CookieConsentDisplay";
+-> src\components\Consent\modules\CookieConsentDisplay.tsx
+-> src\components\Consent\modules\ConsentCookieButton.tsx
+-> src\data\info\main\InfoTranslation.ts
 ```
 
 ## Existing Hexagonal Architecture Review
@@ -452,6 +457,12 @@ server/adapters/outbound/mongo.repository/legal-content.repository.ts
 server/infrastructure/db/infra.mongodb.ts
 ```
 
+Status update from Codex:
+
+- `terms-of-service` and `workplace-policy` now use the existing `policy-content` MongoDB service through `getPolicyContent`.
+- `scripts/migrate-policy-to-mongo.cjs` already seeds privacy, terms, and workplace content together by locale.
+- `migrated-target-pages.log` has been updated to move both legal pages to done.
+
 ### Phase 3: Migrate technical expertise root pages
 
 Priority:
@@ -468,6 +479,18 @@ technical-expertise/cloud-infrastructure-systems-architecture
 Reason:
 
 - Establish common technical expertise schema and renderer.
+
+Status update from Codex:
+
+- Added `technical-expertise-content` domain, port, service, Mongo repository, infrastructure collection, and cached loader.
+- Added `scripts/migrate-technical-expertise-to-mongo.cjs` and `npm run migrate:technical-expertise`.
+- Seeded all 10 locales into `technical_expertise_content`.
+- Wired `technical-expertise/mobile-development` to load its `feature` content from MongoDB Atlas through the new service.
+- Wired `technical-expertise/web-development`, `web3-blockchain-smart-contract-development`, `cloud-devops`, and `cloud-infrastructure-systems-architecture` through the same MongoDB-backed service.
+- Wired `technical-expertise/ai-solutions` through the existing AI companions MongoDB-backed service because it renders `service`, `demo`, and `media` content from that content family.
+- Wired `technical-expertise/front-end-developer` and `technical-expertise/full-stack-developer` category landing pages through `technical_expertise_content`.
+- Wired all front-end detail pages through `technical_expertise_content` and consolidated their shared renderer/FAQ path.
+- Wired all full-stack detail pages through `technical_expertise_content` and consolidated their shared renderer/FAQ path.
 
 ### Phase 4: Migrate technical expertise category pages
 

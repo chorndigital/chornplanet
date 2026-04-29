@@ -1,15 +1,18 @@
 import React from "react";
 import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {ICloudSolution} from "@/data/cloud-solutions/model/ICloudSolution";
 
-const CloudInfraModuleLeft: React.FC<{ lang: string }> = ({lang}) => {
+const CloudInfraModuleLeft: React.FC<{ lang: string, cloudSolution?: ICloudSolution }> = ({lang, cloudSolution}) => {
+    const content = cloudSolution ?? InfoTranslation[lang].CloudSolution;
+
     return (
         <div className={'cloud-infra-left add-web-content'}>
-            {InfoTranslation[lang].CloudSolution.descriptions.map((item, index) => (
+            {content.descriptions.map((item, index) => (
                 <p key={index}>{item.description}</p>
             ))}
 
             <ul className="feature-list">
-                {InfoTranslation[lang].CloudSolution.sections.map((item, index) => (
+                {content.sections.map((item, index) => (
                     <li key={index} className="feature-item">
                         <div className="feature-icon-container">
                             <div className="feature-icon">

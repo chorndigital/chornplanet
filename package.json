@@ -13,6 +13,7 @@
     "migrate:gallery": "node scripts/migrate-gallery-to-mongo.cjs",
     "migrate:about": "node scripts/migrate-about-to-mongo.cjs",
     "migrate:ai-companions": "node scripts/migrate-ai-companions-to-mongo.cjs",
+    "migrate:technical-expertise": "node scripts/migrate-technical-expertise-to-mongo.cjs",
     "migrate:smart-city-landing": "node scripts/migrate-smart-city-landing-to-mongo.cjs",
     "migrate:smart-city-chiang-mai": "node scripts/migrate-smart-city-chiang-mai-to-mongo.cjs",
     "migrate:smart-mobility-chiang-mai": "node scripts/migrate-smart-mobility-chiang-mai-to-mongo.cjs",

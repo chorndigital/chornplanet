@@ -6,6 +6,7 @@ import {Metadata} from "next";
 import {SchemaMarkupServicePage} from "@/components/GoogleSchemaMarkup/SchemaMarkupServicePage";
 import {headers} from "next/headers";
 import {MetadataReact} from "@/metadata/main/frontend/MetadataReact";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -16,11 +17,12 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const {frontEnd, cloud} = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <ServicesDetailsTypeScript lang={lang}/>
-            <CloudExperience lang={lang}/>
+            <ServicesDetailsTypeScript lang={lang} stack={frontEnd.typescript}/>
+            <CloudExperience lang={lang} cloud={cloud}/>
             <SchemaMarkupServicePage
                 name="TypeScript | Chorn Planet - Custom Software Development Experts"
                 description="Learn how Chorn Planet leverages TypeScript to build scalable, robust, and efficient custom software solutions for businesses across industries."

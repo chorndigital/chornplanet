@@ -135,11 +135,57 @@ For a new localized public page:
 - Read nearby files before editing. This project has repeated patterns; copying the closest working example is usually safer than inventing a new shape.
 - Keep diffs scoped. Do not reformat large generated-looking locale or metadata files unless the task requires it.
 - Preserve user changes in a dirty worktree. Check `git status --short` before and after meaningful edits.
-- Always create a new task branch from the latest `main` before making changes. Use a clear prefix such as `fix/...`, `feature/...`, or `docs/...`; do not work directly on long-lived or previously completed task branches.
+- For planned ChatGPT features, review the matching `.chatgpt/planning/feature-<feature-name>.md` file before implementation and keep the work on the matching `feature/<feature-name>` branch when that branch exists.
+- For unplanned fixes or docs work, create a new task branch from the latest `main` before making changes. Use a clear prefix such as `fix/...`, `feature/...`, or `docs/...`; do not work directly on long-lived or previously completed task branches.
 - Prefer `rg` for searching.
 - Use `apply_patch` for manual edits.
 - For broad locale work, audit all 10 locales and compare keys against English.
 - For route work, test at least one localized URL such as `/en/.../` and consider whether sitemap/redirects need updates.
+
+## ChatGPT And Codex Workflow
+
+ChatGPT owns discovery, planning, architectural proposals, and scope definition. Codex owns planning review, implementation, tests, validation, and code review readiness.
+
+Planned features should use:
+
+```text
+feature/<feature-name>
+.chatgpt/planning/feature-<feature-name>.md
+```
+
+Planning files should cover the problem statement, goals, non-goals, existing architecture, proposed architecture, project structure guidance, migration plan, testing plan, risks, open questions, and acceptance criteria.
+
+After a planned feature is complete and merged, move its planning file to:
+
+```text
+.chatgpt/archived/feature-<feature-name>.md
+```
+
+## MongoDB Content Architecture
+
+ChornPlanet page content should move toward database-backed content services and reusable page-rendering components. Avoid adding new hardcoded content arrays into page files unless explicitly temporary and documented in the active planning file.
+
+For MongoDB Atlas content migration, preserve the existing hexagonal structure:
+
+```text
+Next.js Page / Route
+   -> Content Loader / Server Service
+   -> MongoDB Atlas Repository
+   -> Typed Content Schema
+   -> Reusable Page Components
+```
+
+Use the existing server layers for new content domains:
+
+```text
+server/core/domain/<domain>-content.entity.ts
+server/core/ports/<domain>-content.interface.ts
+server/core/services/<domain>-content.service.ts
+server/adapters/outbound/mongo.repository/<domain>-content.repository.ts
+server/infrastructure/db/infra.mongodb.ts
+```
+
+Page files should not import MongoDB collections directly. Hardcoded content should only be removed after MongoDB content exists, dependent imports are migrated, and validation confirms no route regression.
 
 ## Branch And Ship Flow
 
