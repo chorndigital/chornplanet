@@ -1,7 +1,7 @@
 // src/components/Home/HumanDailyFlow.tsx
 
 import Image from "next/image"
-import {IHumanDailyFlow} from "@/lib/model/smart-city-media";
+import {IHumanDailyFlow} from "@/lib/model/ISmartCityMedia";
 
 export default function HumanDailyFlow({lang, data}: { lang: string; data: IHumanDailyFlow }) {
     const {headline, paragraph, morningFlow, middayFlow, eveningFlow} = data

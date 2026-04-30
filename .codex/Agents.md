@@ -2,6 +2,15 @@
 
 This file is the working brief for Codex agents in the `chornplanet` project. Treat it as the first project-specific context to read before editing code.
 
+## Project Snapshot
+
+- Product: ChornPlanet Next.js platform for content, media, civilization storytelling, premium commerce, Smart Food integration, luxury projects, outfit/clothing presentation, and future AI-assisted growth operations.
+- Framework: Next.js 16 app router, React 18, TypeScript 5.
+- Styling: SCSS and imported vendor CSS. Tailwind exists, but existing pages mostly use SCSS classes.
+- State: Redux Toolkit through `src/provider/`.
+- Server/data integrations: MongoDB, OpenAI SDK, AWS SDK, Vercel Speed Insights.
+- CDN: public image paths redirect to `https://cdn.chornplanet.com` through `next.config.mjs`.
+
 ## Shared MCP Agent Workspace
 
 Shared AI-facing project context, product direction, tool contracts, policies, resources, and workflows live in:
@@ -12,33 +21,25 @@ Shared AI-facing project context, product direction, tool contracts, policies, r
 
 Codex must treat `.mcp/` as the shared agent workspace layer for ChornPlanet.
 
-Recommended Codex startup order:
-
-1. Read this file.
-2. Read `.mcp/README.md`.
-3. Read `.mcp/manifest.yaml`.
-4. Read the relevant `.mcp/resources/`, `.mcp/policies/`, `.mcp/tools/`, and `.mcp/workflows/` files.
-5. Read the relevant `.chatgpt/planning/feature-<feature-name>.md` implementation handoff.
-6. Inspect runtime application code, scripts, schemas, and content services.
-
-Important distinction:
+Use this mental model:
 
 ```text
-.mcp/ = shared agent workspace and governance contract
-app/  = Next.js runtime application code and platform implementation
+.chatgpt/ = ChatGPT planning and architecture handoff
+.codex/   = Codex implementation and validation rules
+.mcp/     = shared agent context, resources, tool contracts, policies, workflows
+app/      = Next.js runtime application code and platform implementation
 ```
 
-When implementing Chorn DNA, StoryGenProduct, AutoScene, outfit, clothing, or civilization content features, Codex should also reference the external Chorn DNA authority described in `.mcp/resources/chorn-dna-authority.md`.
+Codex startup order:
 
-## Project Snapshot
+1. Read `.codex/Agents.md`.
+2. Read `.mcp/README.md`.
+3. Read `.mcp/manifest.yaml`.
+4. Read relevant `.mcp/resources/`, `.mcp/policies/`, `.mcp/tools/`, and `.mcp/workflows/` files.
+5. Read the relevant `.chatgpt/planning/feature-<feature-name>.md` file when the work is planned.
+6. Review runtime application code, scripts, schemas, and content services.
 
-- Product: Chorn Planet marketing/content site with localized pages for technical expertise, AI companions, smart city, and smart mobility content.
-- Strategic direction: media platform, premium commerce platform, ChornPlanet civilization platform, Smart Food evolution layer, luxury project showcase, analytics-assisted growth platform.
-- Framework: Next.js 16 app router, React 18, TypeScript 5.
-- Styling: SCSS and imported vendor CSS. Tailwind exists, but existing pages mostly use SCSS classes.
-- State: Redux Toolkit through `src/provider/`.
-- Server/data integrations: MongoDB, OpenAI SDK, AWS SDK, Vercel Speed Insights.
-- CDN: public image paths redirect to `https://cdn.chornplanet.com` through `next.config.mjs`.
+For media automation, outfit/civilization posting, commerce, Smart Food, analytics, SEO/LLM visibility, or Chorn DNA work, also read the matching `.mcp/` resource, policy, tool contract, or workflow file before implementing.
 
 ## Commands
 
@@ -50,48 +51,43 @@ When implementing Chorn DNA, StoryGenProduct, AutoScene, outfit, clothing, or ci
 
 When a change is narrow, run the smallest relevant check first. For page, metadata, routing, or i18n changes, prefer at least `npm run lint`; use `npm run build` before production-sensitive changes.
 
-## Repository Map
+## Roles
 
-- `src/app/[locale]/(desktop)/` contains the main localized website routes.
-- `src/app/[locale]/(clean)/` contains lighter localized routes such as the WhatsApp contact flow.
-- `src/app/(food)/` is a separate food route group with its own layout/styles.
-- `src/app/api/` contains API routes, including OpenAI-related endpoints.
-- `src/proxy.ts` is the Next.js 16 middleware replacement.
-- `src/components/` holds feature-organized React components.
-- `src/data/` holds localized content and typed feature data.
-- `src/metadata/` holds SEO metadata records.
-- `src/image/ImageUrl.ts` is the central image path registry for many public pages.
-- `src/lib/UrlMaps.ts` feeds sitemap entries for public routes.
-- `src/styles/` holds global and feature SCSS imported by the desktop layout.
-- `server/` holds service, repository, auth, database, OpenAI, and utility code.
-- `.claude/` contains earlier project rules, agents, and skills. Use it as reference material when a task overlaps with those workflows.
+### Khachornchit — Chief Architect
 
-## Routing Rules
+Khachornchit is the Chief Architect of ChornPlanet and owns the overall product vision, architecture direction, implementation priorities, and final decision-making authority.
 
-- Locales are path segments, not query params.
-- Supported locales are defined in `src/lib/SiteUrlLocales.ts`: `da`, `de`, `en`, `fi`, `fr`, `ja`, `ko`, `nl`, `th`, `zh`.
-- Default locale is `en`.
-- `trailingSlash: true` is set in `next.config.mjs`; all new internal links should end with `/`.
-- The proxy redirects `/` and unknown locale paths to `/en...`.
-- Do not create `src/middleware.ts`. This project uses `src/proxy.ts`; adding middleware would conflict with the current Next.js 16 setup.
-- If adding a public static route, check whether it belongs in `src/lib/UrlMaps.ts`, dynamic sitemap logic in `src/app/sitemap.ts`, and/or redirects in `next.config.mjs`.
+Khachornchit should:
 
-## Reading Request Context
+- Define the product and architecture direction for ChornPlanet.
+- Approve major feature scope, migration priorities, and architectural decisions.
+- Clarify source-of-truth rules, especially when moving from hardcoded content to MongoDB Atlas.
+- Decide when hardcoded modules can be removed, archived, or retained as seed/fixture data.
+- Review final outcomes for alignment with ChornPlanet's long-term platform direction.
 
-Pages and layouts read locale/cookie state from headers set by `src/proxy.ts`.
+### ChatGPT
 
-```ts
-const headers15 = await headers();
-const lang = headers15.get('x-locale') || 'en';
-```
+ChatGPT owns feature discovery, planning, architectural proposal, and scope definition before implementation begins.
 
-Headers currently set by proxy:
+ChatGPT should:
 
-- `x-locale`
-- `x-cookie-consent`
-- `x-pathname`
+- Create or update planning items for each feature under `.chatgpt/planning/`.
+- Use `.mcp/` as the shared source for product context, media strategy, commerce direction, Chorn DNA integration, Smart Food evolution, analytics, SEO/LLM visibility, safety policies, and workflows.
+- Keep feature plans focused, reviewable, and implementation-ready.
+- Avoid mixing multiple unrelated features in one branch or planning document.
 
-Use async `headers()` from `next/headers`; do not use older synchronous patterns.
+### Codex
+
+Codex owns implementation, tests, validation, and code review readiness.
+
+Codex should:
+
+- Review the relevant `.chatgpt/planning/feature-<feature-name>.md` file when one exists.
+- Confirm or adjust the proposed architecture before implementation.
+- Implement according to the agreed scope and Khachornchit's architecture direction.
+- Add or update tests where applicable.
+- Validate through local checks, automated tests, and review readiness.
+- Document important implementation notes in the related feature branch or pull request.
 
 ## i18n Contract
 
@@ -118,7 +114,6 @@ export async function generateMetadata(): Promise<Metadata> {
 
 - Public service-style pages commonly include `SchemaMarkupServicePage` from `src/components/GoogleSchemaMarkup/`.
 - `src/app/robots.ts` and `src/app/sitemap.ts` are source-controlled Next metadata routes; update them when SEO behavior changes.
-- For SEO/LLM visibility work, review `.mcp/workflows/seo-llm-visibility.md` and `.mcp/tools/seo-llm-tools.yaml`.
 
 ## Images
 
@@ -159,7 +154,35 @@ For a new localized public page:
 - Path alias `@/*` can resolve into `src/*`, `backend/*`, and `server/*` per `tsconfig.json`.
 - Keep secrets in environment variables. Do not commit `.env` files or new credentials.
 - OpenAI route/provider code exists in both `src/app/api/openai/...` and `server/adapters/outbound/openai/...`; inspect both before changing AI behavior.
-- For media automation, commerce, analytics, Smart Food, or external publishing features, read the relevant `.mcp/policies/` and `.mcp/workflows/` files before implementation.
+
+## Chorn DNA Authority
+
+When planning or implementing StoryGenProduct, AutoScene, ImagePrompt, VdoPrompt, StoryPostEngine, outfit, clothing, or civilization content, reference `.mcp/resources/chorn-dna-authority.md` and the external Chorn DNA authority described there.
+
+Important rule:
+
+```text
+Zone List -> Zone File -> exactly one Sub-Zone
+```
+
+Do not generate outfit or civilization scenes directly from a zone name.
+
+## Safety And Approval
+
+Follow `.mcp/policies/ai-agent-policy.md` and the relevant domain policy before implementing automation or data mutations.
+
+Do not do these without explicit approval:
+
+- Publish externally or auto-post to TikTok, Shopee, Lazada, Amazon, or other platforms.
+- Send customer messages.
+- Mutate Smart Food orders, payments, customers, or identity data.
+- Change production login/authentication behavior.
+- Change Google Analytics production configuration.
+- Expose secrets or credentials.
+- Deploy production.
+- Delete branches.
+- Change public API contracts.
+- Change production database schemas.
 
 ## Working Practice
 
@@ -177,48 +200,64 @@ For a new localized public page:
 
 ChatGPT owns discovery, planning, architectural proposals, and scope definition. Codex owns planning review, implementation, tests, validation, and code review readiness.
 
-Both agents should use `.mcp/` as the shared source for product context, media strategy, commerce direction, Chorn DNA integration, Smart Food evolution, analytics, SEO/LLM visibility, safety policies, tool contracts, and workflows.
+1. Khachornchit defines or approves the feature direction and target branch.
 
-Planned features should use:
+2. ChatGPT creates or updates a feature branch:
 
-```text
-feature/<feature-name>
-.chatgpt/planning/feature-<feature-name>.md
-```
+   ```text
+   feature/<feature-name>
+   ```
 
-Planning files should cover the problem statement, goals, non-goals, existing architecture, proposed architecture, project structure guidance, migration plan, testing plan, risks, open questions, and acceptance criteria.
+3. ChatGPT creates or updates the planning file:
 
-After a planned feature is complete and merged, move its planning file to:
+   ```text
+   .chatgpt/planning/feature-<feature-name>.md
+   ```
 
-```text
-.chatgpt/archived/feature-<feature-name>.md
-```
+4. The planning file should include:
 
-## MongoDB Content Architecture
+   - Problem statement
+   - Goals
+   - Non-goals
+   - Existing architecture review
+   - Proposed architecture
+   - Project structure guideline
+   - Migration plan
+   - Testing plan
+   - Risks and open questions
+   - Acceptance criteria
 
-ChornPlanet page content should move toward database-backed content services and reusable page-rendering components. Avoid adding new hardcoded content arrays into page files unless explicitly temporary and documented in the active planning file.
+5. Codex reviews the planning document.
 
-For MongoDB Atlas content migration, preserve the existing hexagonal structure:
+6. Codex implements and tests the feature.
+
+7. Khachornchit reviews or approves the final result when architectural or source-of-truth decisions are involved.
+
+8. After the feature is completed and merged, move the planning document to:
+
+   ```text
+   .chatgpt/archived/feature-<feature-name>.md
+   ```
+
+## Architecture Rule
+
+ChornPlanet page content should move toward database-backed content services and reusable page-rendering components.
+
+For MongoDB Atlas content migration, the target pattern is:
 
 ```text
 Next.js Page / Route
-   -> Content Loader / Server Service
-   -> MongoDB Atlas Repository
-   -> Typed Content Schema
-   -> Reusable Page Components
+   ↓
+Content Loader / Server Service
+   ↓
+MongoDB Atlas Repository
+   ↓
+Typed Content Schema
+   ↓
+Reusable Page Components
 ```
 
-Use the existing server layers for new content domains:
-
-```text
-server/core/domain/<domain>-content.entity.ts
-server/core/ports/<domain>-content.interface.ts
-server/core/services/<domain>-content.service.ts
-server/adapters/outbound/mongo.repository/<domain>-content.repository.ts
-server/infrastructure/db/infra.mongodb.ts
-```
-
-Page files should not import MongoDB collections directly. Hardcoded content should only be removed after MongoDB content exists, dependent imports are migrated, and validation confirms no route regression.
+Avoid adding new hardcoded content arrays into page files unless explicitly temporary and documented in the active planning file.
 
 ## Branch And Ship Flow
 
@@ -240,7 +279,6 @@ Use this flow when preparing a fix, feature, docs update, or other task for prod
 - `vercel.json` is present for Vercel-specific headers. Keep deployment-related behavior there or in Next config unless a separate workflow is clearly needed.
 - There is currently no repo-root GitHub Actions workflow. Do not add one just to duplicate Vercel builds.
 - Add a GitHub workflow only when it provides a distinct value Vercel does not already cover, such as required PR checks, scheduled audits, non-Vercel tests, or multi-environment automation.
-- Automated external publishing, marketplace changes, customer messages, Smart Food mutations, auth production changes, and analytics production configuration changes require explicit approval.
 
 ## Pre-Ship Checks
 

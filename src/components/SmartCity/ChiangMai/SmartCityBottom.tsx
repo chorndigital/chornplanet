@@ -1,10 +1,9 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import SmartMobilityClarificationStatement
     from "@/components/SmartMobility/ChiangMai/Common/SmartMobilityClarificationStatement";
 import SmartMobilityBottomImage from "../../SmartMobility/ChiangMai/Common/SmartMobilityBottomImage";
-import {ISmartCityItem} from "@/data/smart-city/model/ISmartCity";
-import {SmartCityChiangMaiBottomContent} from "@/lib/model/smart-city-chiang-mai";
+import {ISmartCityItem} from "@/lib/model/ISmartCity";
+import {SmartCityChiangMaiBottomContent} from "@/lib/model/ISmartCityChiangMai";
 
 export default function SmartCityBottom(
     {lang, smartCityItem, bottomContent}: {
@@ -13,7 +12,6 @@ export default function SmartCityBottom(
         bottomContent?: SmartCityChiangMaiBottomContent
     }
 ) {
-    const contact = InfoTranslation[lang].Contact
 
     return (
         <>
@@ -48,10 +46,12 @@ export default function SmartCityBottom(
                     />
                 </div>
 
-                <SmartMobilityBottomImage
-                    lang={lang}
-                    bottomCards={bottomContent?.bottomCards}
-                />
+                {bottomContent?.bottomCards && (
+                    <SmartMobilityBottomImage
+                        lang={lang}
+                        bottomCards={bottomContent.bottomCards}
+                    />
+                )}
             </div>
         </>
     )

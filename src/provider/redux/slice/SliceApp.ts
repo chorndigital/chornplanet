@@ -1,7 +1,7 @@
 // src/redux/SliceApp.ts
 import {createSlice} from '@reduxjs/toolkit';
 import {fallbackStateApp} from "@/provider/redux/state/StateApp";
-import {LanguageOptionRecord} from "@/data/translate/LanguageOptionRecord";
+import {LanguageOptionRecord} from "@/lib/constants/languageOptions";
 
 export const sliceApp = createSlice({
     name: 'app',

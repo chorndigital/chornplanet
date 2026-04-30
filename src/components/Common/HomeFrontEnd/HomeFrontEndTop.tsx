@@ -1,11 +1,11 @@
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import React from "react";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
 
-export default function HomeFrontEndTop({lang}: { lang: string }) {
+export default function HomeFrontEndTop({frontEnd}: { lang: string; frontEnd: IFrontEnd }) {
     return (
         <div className="section-title contrast-section-title">
-            <span>{InfoTranslation[lang].FrontEnd.span}</span>
-            <h2>{InfoTranslation[lang].FrontEnd.title}</h2>
+            <span>{frontEnd.span}</span>
+            <h2>{frontEnd.title}</h2>
             <div className="bar"></div>
         </div>
     )

@@ -1,16 +1,16 @@
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import Image from "next/image";
 import {ImageUrl} from "@/image/ImageUrl";
 import React from "react";
 import Link from "next/link";
+import {IFullStack} from "@/lib/model/IFullStack";
 
-export default function HomeBackEndBottom({lang}: { lang: string }) {
+export default function HomeBackEndBottom({lang, fullStack}: { lang: string; fullStack: IFullStack }) {
     return (
         <div className="row row-vertical-start pt-5">
             <div className="col-lg-6">
                 <div className="digital-experience-content">
                     <ul className="feature-list">
-                        {InfoTranslation[lang].FullStack.nodejs.features.map((item: any, index: any) => (
+                        {fullStack.nodejs.features.map((item: any, index: any) => (
                             <li key={index} className="feature-item">
                                 <div className="feature-icon-container">
                                     <div className="feature-icon">

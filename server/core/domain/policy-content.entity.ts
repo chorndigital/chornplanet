@@ -1,5 +1,5 @@
 import {ObjectId, WithId} from "mongodb";
-import {IPolicy} from "@/lib/model/policy";
+import {IPolicy} from "@/lib/model/IPolicy";
 
 export const POLICY_CONTENT_LOCALES = ['da', 'de', 'en', 'fi', 'fr', 'ja', 'ko', 'nl', 'th', 'zh'] as const;
 

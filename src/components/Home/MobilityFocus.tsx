@@ -1,7 +1,7 @@
 // src/components/Home/MobilityFocus.tsx
 
 import Image from "next/image"
-import {IMobilityFocus} from "@/lib/model/smart-city-media";
+import {IMobilityFocus} from "@/lib/model/ISmartCityMedia";
 
 export default function MobilityFocus({lang, data}: { lang: string; data: IMobilityFocus }) {
     const {headline, paragraph, signals} = data

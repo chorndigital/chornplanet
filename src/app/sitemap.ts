@@ -3,16 +3,20 @@
 import {MetadataRoute} from "next";
 import {UrlMaps} from "@/lib/UrlMaps";
 import {LOCALES, SITE_URL} from "@/lib/SiteUrlLocales";
-import {getSmartCityLandingData} from "@/data/smart-city-landing/getSmartCityLandingData";
-import {getSmartCityData} from "@/data/smart-city/getSmartCityData";
 import {IImagePath} from "@/lib/model/IImagePath";
+import {getAllSmartCityLandingContent} from "@/lib/smart-city-landing-content/smartCityLandingContent.service";
+import {getAllSmartCityChiangMaiContent} from "@/lib/smart-city-chiang-mai-content/smartCityChiangMaiContent.service";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+function getUniqueSlugs(items: Array<{ slug?: string }>): string[] {
+    return Array.from(new Set(items.map(item => item.slug).filter(Boolean))) as string[];
+}
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const lastModified = new Date();
     const entries: MetadataRoute.Sitemap = [];
 
     // smart-city/chiang-mai/[slug]
-    const smartCityChiangMaiSlugs = Object.keys(getSmartCityData({lang: 'en'}));
+    const smartCityChiangMaiSlugs = getUniqueSlugs(await getAllSmartCityChiangMaiContent());
     for (const locale of LOCALES) {
         for (const slug of smartCityChiangMaiSlugs) {
             entries.push({
@@ -25,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     // smart-city/[slug] — deduplicate slugs, only iterate one locale for keys
-    const smartCitySlugs = Object.keys(getSmartCityLandingData({lang: 'en'}));
+    const smartCitySlugs = getUniqueSlugs(await getAllSmartCityLandingContent());
     for (const locale of LOCALES) {
         for (const slug of smartCitySlugs) {
             entries.push({

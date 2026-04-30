@@ -9,7 +9,7 @@ import {
     AccordionItemPanel,
 } from "react-accessible-accordion";
 import {sanitizeUUID} from "@/lib/utils";
-import {IFrontEndFaq} from "@/data/frontend/model/IFrontEndFaq";
+import {IFrontEndFaq} from "@/lib/model/IFrontEnd";
 
 export default function FrontEndServiceFaq({faqs}: { faqs: IFrontEndFaq[] }) {
     if (faqs.length === 0) {

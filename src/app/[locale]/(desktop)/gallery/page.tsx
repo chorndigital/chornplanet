@@ -9,6 +9,8 @@ import React from "react";
 import CloudExperience from "@/components/Common/CloudExperience";
 import HomeFeatureMain from "@/components/Features/HomeFeatureMain";
 import {getGalleryContent} from "@/lib/gallery-content/galleryContent.service";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
+import {getAiCompanionsContent} from "@/lib/ai-companions-content/aiCompanionsContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -20,14 +22,21 @@ export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
     const galleryContent = await getGalleryContent(lang);
+    const technicalContent = await getTechnicalExpertiseContent(lang);
+    const aiCompanionsContent = await getAiCompanionsContent(lang);
 
     return (
         <div className="smart-container-top">
             <GalleryPageMain global={galleryContent.gallery.global}/>
             <GalleryModuleBottom slides={galleryContent.media.bottomSlides}/>
-            <CloudExperience lang={lang}/>
-            <AiAomLandingPage lang={lang}/>
-            <HomeFeatureMain lang={lang} isTopSpace={true} isHideTopTitle={true}/>
+            <CloudExperience lang={lang} cloud={technicalContent.cloud}/>
+            <AiAomLandingPage lang={lang} aom={aiCompanionsContent.aiCompanions.aom}/>
+            <HomeFeatureMain
+                lang={lang}
+                feature={technicalContent.feature}
+                isTopSpace={true}
+                isHideTopTitle={true}
+            />
         </div>
     );
 }

@@ -2,18 +2,23 @@
 
 import {setLanguageOption, toggleLanguageMenuVisible} from "@/provider/redux/slice/SliceApp";
 import {Globe} from "lucide-react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import React from "react";
 import {useDispatch} from "react-redux";
-import {useLanguageMenuVisible, useLanguageOption, useMobileMenuVisible} from "@/provider/hooks/hookStateApp";
-import {ILanguageOption} from "@/data/translate/model/ILanguageOption";
+import {useLanguageMenuVisible, useLanguageOption} from "@/provider/hooks/hookStateApp";
+import {ILanguageOption} from "@/lib/model/ILanguage";
 import {useRouter} from "next/navigation";
 
-export default function LanguageButton({lang}: { lang: string }) {
+export default function LanguageButton(
+    {lang, languageOptions}: { lang: string, languageOptions: ILanguageOption[] }
+) {
     const dispatch = useDispatch();
     const languageOption = useLanguageOption()
     const languageMenuVisible = useLanguageMenuVisible()
     const router = useRouter()
+    const selectedLanguageOption =
+        languageOptions.find((translate) => translate.language === languageOption.language) ??
+        languageOptions.find((translate) => translate.language === lang) ??
+        languageOption;
 
     const changeLanguage = (languageOption: ILanguageOption) => {
         dispatch(setLanguageOption(languageOption));
@@ -35,12 +40,12 @@ export default function LanguageButton({lang}: { lang: string }) {
                 aria-label="Select language"
             >
                 <Globe size={16} color="white" style={{marginRight: "5px"}}/>
-                {languageOption.label}
+                {selectedLanguageOption.label}
             </button>
             {
                 languageMenuVisible &&
                 <ul className="dropdown-langs">
-                    {InfoTranslation[lang].Translates.map((translate, index) =>
+                    {languageOptions.map((translate, index) =>
                         <li key={index}
                             className={translate.language == lang ? 'dropdown-active' : ''}
                             onClick={() => changeLanguage(translate)}

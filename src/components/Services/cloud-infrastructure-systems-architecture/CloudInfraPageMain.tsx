@@ -3,16 +3,15 @@ import {DefaultShape} from "@/components/Shape/DefaultShape";
 import CloudInfraModuleLeft from "@/components/Services/cloud-infrastructure-systems-architecture/CloudInfraModuleLeft";
 import CloudInfraModuleRight
     from "@/components/Services/cloud-infrastructure-systems-architecture/CloudInfraModuleRight";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {ICloud} from "@/data/cloud/model/ICloud";
-import {ICloudSolution} from "@/data/cloud-solutions/model/ICloudSolution";
+import {ICloud} from "@/lib/model/ICloud";
+import {ICloudSolution} from "@/lib/model/ICloudSolution";
 
 const CloudInfraPageMain: React.FC<{
     lang: string,
-    cloud?: ICloud,
-    cloudSolution?: ICloudSolution
+    cloud: ICloud,
+    cloudSolution: ICloudSolution
 }> = ({lang, cloud, cloudSolution}) => {
-    const cloudSolutionContent = cloudSolution ?? InfoTranslation[lang].CloudSolution;
+    const cloudSolutionContent = cloudSolution;
 
     return (
         <>

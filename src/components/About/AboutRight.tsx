@@ -1,7 +1,7 @@
 import "@/styles/about.scss"
 
 import React from "react";
-import {IAbout, IAboutContent} from "@/lib/model/about";
+import {IAbout, IAboutContent} from "@/lib/model/IAbout";
 
 export default function AboutRight({about}: { about: IAbout }) {
     return (

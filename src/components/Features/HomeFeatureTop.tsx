@@ -1,9 +1,8 @@
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import React from "react";
-import {IFeature} from "@/data/feature/model/IFeature";
+import {IFeature} from "@/lib/model/IFeature";
 
-export default function HomeFeatureTop({lang, feature}: { lang: string; feature?: IFeature }) {
-    const content = feature ?? InfoTranslation[lang].Feature;
+export default function HomeFeatureTop({feature}: { lang: string; feature: IFeature }) {
+    const content = feature;
 
     return (
         <div className="section-title contrast-section-title home-feature-top">

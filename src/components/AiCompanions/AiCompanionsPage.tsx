@@ -1,10 +1,9 @@
 import React from "react";
 import {DefaultShape} from "@/components/Shape/DefaultShape";
-import {AiCompanionsDemo} from "@/lib/model/ai-companions";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {AiCompanionsDemo} from "@/lib/model/IAiCompanionsContent";
 
-export default function AiCompanionsPage({lang = 'en', demo}: { lang?: string; demo?: AiCompanionsDemo }) {
-    const content = demo ?? InfoTranslation[lang].Service.demo;
+export default function AiCompanionsPage({demo}: { lang?: string; demo: AiCompanionsDemo }) {
+    const content = demo;
 
     return (
         <div className="portfolio-area pt-4 pb-5">

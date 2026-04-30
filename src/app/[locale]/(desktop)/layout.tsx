@@ -22,9 +22,9 @@ import "@/styles/animate.css";
 import "@/styles/boxicons.min.css";
 import "@/styles/flaticon.css";
 import "react-accessible-accordion/dist/fancy-example.css";
-import "swiper/css";
-import "swiper/css/bundle";
+import "swiper/swiper-bundle.css";
 import {SpeedInsights} from "@vercel/speed-insights/next"
+import {getLayoutContent} from "@/lib/layout-content/layoutContent.service";
 
 // SCSS Custom
 import "@/styles/style.scss";
@@ -65,17 +65,26 @@ export default async function RootLayout({children,}: Readonly<{ children: React
     const headers15 = await headers();
     const lang: string = headers15.get('x-locale') || 'en';
     const isCookieConsent: boolean = headers15.get('x-cookie-consent') != 'false';
+    const layoutContent = await getLayoutContent(lang);
 
     return (
         <html lang={lang} data-scroll-behavior="smooth">
         <body className={dm_sans.className} suppressHydrationWarning>
         <div className="main-container">
             <AppProvider language={lang}>
-                <CookieConsentChecking lang={lang} isCookieConsent={isCookieConsent}/>
-                <NavbarContainer lang={lang}/>
+                <CookieConsentChecking
+                    lang={lang}
+                    isCookieConsent={isCookieConsent}
+                    consent={layoutContent.consent}
+                />
+                <NavbarContainer
+                    lang={lang}
+                    navbar={layoutContent.navbar}
+                    languageOptions={layoutContent.languageOptions}
+                />
                 {children}
                 <div>
-                    <FooterMain lang={lang}/>
+                    <FooterMain lang={lang} footer={layoutContent.footer}/>
                 </div>
             </AppProvider>
             <AosAnimation/>

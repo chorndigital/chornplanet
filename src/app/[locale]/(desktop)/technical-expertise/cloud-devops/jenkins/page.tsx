@@ -3,6 +3,7 @@ import FooterMain from "@/components/Footer/FooterMain";
 import CloudExperience from "@/components/Common/CloudExperience";
 import ServicesDetailsJenkins from "@/components/Services/cloud-devops/jenkins/ServicesDetailsJenkins";
 import {Metadata} from "next";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 import {SchemaMarkupServicePage} from "@/components/GoogleSchemaMarkup/SchemaMarkupServicePage";
 import {headers} from "next/headers";
 import {MetadataJenkins} from "@/metadata/main/devops/MetadataJenkins";
@@ -16,11 +17,18 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const technicalContent = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <ServicesDetailsJenkins lang={lang}/>
-            <CloudExperience lang={lang}/>
+            <ServicesDetailsJenkins
+                lang={lang}
+                stack={technicalContent.devOps.jenkins}
+                frontEnd={technicalContent.frontEnd}
+                fullStack={technicalContent.fullStack}
+                devOps={technicalContent.devOps}
+            />
+            <CloudExperience lang={lang} cloud={technicalContent.cloud}/>
             <FooterMain lang={lang}/>
             <SchemaMarkupServicePage
                 name="Jenkins DevOps Services | Chorn Planet"

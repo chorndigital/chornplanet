@@ -1,16 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import {ICloudStack} from "@/data/cloud/model/ICloudStack";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {ICloud} from "@/data/cloud/model/ICloud";
+import {ICloudStack} from "@/lib/model/ICloud";
+import {ICloud} from "@/lib/model/ICloud";
 
 export default function CloudExperience(
     {lang, isHome = false, cloud}:
-    { lang: string, isHome?: boolean, cloud?: ICloud }
+    { lang: string, isHome?: boolean, cloud: ICloud }
 ) {
 
     const classes = isHome ? "fun-facts-area pb-70 pt-5" : "fun-facts-area pb-70"
-    const content = cloud ?? InfoTranslation[lang].Cloud;
+    const content = cloud;
 
     return (
         <div className={`${classes}`}>

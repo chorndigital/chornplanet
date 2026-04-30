@@ -1,5 +1,5 @@
 import Image from "next/image"
-import {ILocalToGlobal} from "@/lib/model/smart-city-media";
+import {ILocalToGlobal} from "@/lib/model/ISmartCityMedia";
 
 export default function LocalToGlobal({lang, data}: { lang: string; data: ILocalToGlobal }) {
     const {headline, paragraph, items, landingUrl} = data

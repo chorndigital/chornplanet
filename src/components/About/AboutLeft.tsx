@@ -2,7 +2,7 @@ import "@/styles/about.scss"
 import Image from "next/image"
 import React from "react";
 import BottomImageLeft from "@/components/About/BottomImage/BottomImageLeft";
-import {AboutContentMedia} from "@/lib/model/about";
+import {AboutContentMedia} from "@/lib/model/IAbout";
 
 export default function AboutLeft({media}: { media: AboutContentMedia }) {
     return (

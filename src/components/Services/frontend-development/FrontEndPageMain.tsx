@@ -3,11 +3,10 @@ import {DefaultShape} from "@/components/Shape/DefaultShape";
 import FrontEndModuleBottom from "./FrontEndModuleBottom";
 import FrontEndModuleLeft from "@/components/Services/frontend-development/FrontEndModuleLeft";
 import FrontEndRightImages from "@/components/Services/frontend-development/FrontEndModuleRight";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IFrontEnd} from "@/data/frontend/model/IFrontEnd";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
 
-const FrontEndPageMain: React.FC<{ lang: string, frontEnd?: IFrontEnd }> = ({lang, frontEnd}) => {
-    const content = frontEnd ?? InfoTranslation[lang].FrontEnd;
+const FrontEndPageMain: React.FC<{ lang: string, frontEnd: IFrontEnd }> = ({lang, frontEnd}) => {
+    const content = frontEnd;
 
     return (
         <>

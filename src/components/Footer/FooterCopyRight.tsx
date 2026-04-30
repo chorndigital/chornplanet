@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {IFooter} from "@/lib/model/IFooter";
 
-export default function Information({lang}: { lang: string }) {
+export default function Information({lang, footer}: { lang: string, footer: IFooter }) {
     const year = new Date().getFullYear()
-    const termOfService = InfoTranslation[lang].Footer.important.items[2]
-    const privacyPolicy = InfoTranslation[lang].Footer.important.items[3]
-    const workplacePolicy = InfoTranslation[lang].Footer.important.items[4]
+    const termOfService = footer.important.items[2]
+    const privacyPolicy = footer.important.items[3]
+    const workplacePolicy = footer.important.items[4]
 
     return (
         <div className="copyright-area">

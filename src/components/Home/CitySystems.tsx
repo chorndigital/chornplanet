@@ -1,7 +1,7 @@
 // src/components/smart-city-media/CitySystems.tsx
 
 import Image from "next/image";
-import {ICitySystems} from "@/lib/model/smart-city-media";
+import {ICitySystems} from "@/lib/model/ISmartCityMedia";
 
 export default function CitySystems({lang, data}: { lang: string; data: ICitySystems }) {
     const {headline, paragraph, systems} = data

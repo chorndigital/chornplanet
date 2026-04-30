@@ -1,9 +1,8 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IFullStack} from "@/data/fullstack/model/IFullStack";
+import {IFullStack} from "@/lib/model/IFullStack";
 
-const FullStackModuleLeft: React.FC<{ lang: string, fullStack?: IFullStack }> = ({lang, fullStack}) => {
-    const content = fullStack ?? InfoTranslation[lang].FullStack;
+const FullStackModuleLeft: React.FC<{ lang: string, fullStack: IFullStack }> = ({lang, fullStack}) => {
+    const content = fullStack;
 
     return (
         <div className={'col-lg-6 add-web-content'}>

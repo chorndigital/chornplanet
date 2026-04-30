@@ -1,9 +1,8 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {ICloudSolution} from "@/data/cloud-solutions/model/ICloudSolution";
+import {ICloudSolution} from "@/lib/model/ICloudSolution";
 
-const CloudInfraModuleLeft: React.FC<{ lang: string, cloudSolution?: ICloudSolution }> = ({lang, cloudSolution}) => {
-    const content = cloudSolution ?? InfoTranslation[lang].CloudSolution;
+const CloudInfraModuleLeft: React.FC<{ lang: string, cloudSolution: ICloudSolution }> = ({lang, cloudSolution}) => {
+    const content = cloudSolution;
 
     return (
         <div className={'cloud-infra-left add-web-content'}>

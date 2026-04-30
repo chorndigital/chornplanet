@@ -1,19 +1,14 @@
 import React from "react";
-import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {ISmartSection, IVertiport} from "@/data/smart-mobility/model/ISmartMobility";
+import {ISmartSection, IVertiport} from "@/lib/model/ISmartMobility";
 
 export default function VertiportDesignBottom(
-    {lang, vertiportDesign: injectedVertiportDesign, safeStatement}: {
+    {lang, vertiportDesign, safeStatement}: {
         lang: string;
-        vertiportDesign?: IVertiport;
+        vertiportDesign: IVertiport;
         safeStatement?: ISmartSection['safeStatement'];
     }
 ) {
-    const vertiportDesign = injectedVertiportDesign ?? SmartMobility[lang].chiangMai.vertiportDesign
-    const contact = InfoTranslation[lang].Contact
-
     return (
         <div className={`portfolio-details-desc portfolio-details-desc-custom`}>
             <div className={'unique-features-container'}>

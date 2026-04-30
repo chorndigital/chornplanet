@@ -1,4 +1,4 @@
-import {LanguageOptionRecord} from "@/data/translate/LanguageOptionRecord";
+import {LanguageOptionRecord} from "@/lib/constants/languageOptions";
 import {IStateApp} from "@/provider/redux/model/IStateApp";
 
 // Just a static fallback for when preloadedState isn't used

@@ -1,8 +1,7 @@
 // src/components/SmartCity/RelatesSignals.tsx
 
 import Link from "next/link";
-import {ISmartCitySection} from "@/data/smart-city-landing/_model/ISmartCitySection";
-import {Tag} from "@/data/tags/Tag";
+import {ISmartCitySection} from "@/lib/model/ISmartCityLanding";
 
 export default function RelatesSignals(
     {

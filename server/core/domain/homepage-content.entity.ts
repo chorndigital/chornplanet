@@ -8,9 +8,9 @@ import {
     IMobilityFocus,
     ISystemExplainers,
     IUrbanSignals,
-} from "@/lib/model/smart-city-media";
-import {ISmartCityMain} from "@/lib/model/smart-city-main";
-import {ISmartCityItem} from "@/data/smart-city/model/ISmartCity";
+} from "@/lib/model/ISmartCityMedia";
+import {ISmartCityMain} from "@/lib/model/ISmartCityMain";
+import {ISmartCityItem} from "@/lib/model/ISmartCity";
 import {ObjectId, WithId} from "mongodb";
 
 export const HOMEPAGE_LOCALES = ['da', 'de', 'en', 'fi', 'fr', 'ja', 'ko', 'nl', 'th', 'zh'] as const;

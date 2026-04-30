@@ -1,5 +1,5 @@
 import {ObjectId, WithId} from "mongodb";
-import {GalleryContentMedia, IGallery} from "@/lib/model/gallery";
+import {GalleryContentMedia, IGallery} from "@/lib/model/IGallery";
 
 export const GALLERY_CONTENT_LOCALES = ['da', 'de', 'en', 'fi', 'fr', 'ja', 'ko', 'nl', 'th', 'zh'] as const;
 

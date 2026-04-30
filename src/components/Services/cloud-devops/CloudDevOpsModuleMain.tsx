@@ -2,11 +2,10 @@ import React from "react";
 import CloudDevOpsModuleLeft from "@/components/Services/cloud-devops/CloudDevOpsModuleLeft";
 import CloudDevOpsModuleRight from "@/components/Services/cloud-devops/CloudDevOpsModuleRight";
 import CloudDevOpsModuleBottom from "@/components/Services/cloud-devops/CloudDevOpsModuleBottom";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IDevOps} from "@/data/devops/model/IDevOps";
+import {IDevOps} from "@/lib/model/IDevOps";
 
-export default function CloudDevOpsModuleMain({lang, devOps}: { lang: string, devOps?: IDevOps }) {
-    const content = devOps ?? InfoTranslation[lang].DevOps;
+export default function CloudDevOpsModuleMain({lang, devOps}: { lang: string, devOps: IDevOps }) {
+    const content = devOps;
 
     return (
         <>

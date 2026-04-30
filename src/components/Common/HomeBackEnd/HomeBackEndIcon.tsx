@@ -1,11 +1,11 @@
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IFullStackStack} from "@/data/fullstack/model/IFullStackStack";
+import {IFullStackStack} from "@/lib/model/IFullStack";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import {IFullStack} from "@/lib/model/IFullStack";
 
-export default function HomeBackEndIcon({lang}: { lang: string }) {
-    const fullstack = InfoTranslation[lang].FullStack
+export default function HomeBackEndIcon({lang, fullStack}: { lang: string; fullStack: IFullStack }) {
+    const fullstack = fullStack
 
     return (
         <div className="home-backend-icon-container">
