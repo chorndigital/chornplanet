@@ -1,0 +1,42 @@
+tools:
+  smartfood.plan_line_login_flow:
+    status: proposed_contract
+    risk: medium
+    mode: planning_generation
+    purpose: Draft Line OA / LINE Login user journey for Smart Food evolution.
+    approval_required: false
+
+  smartfood.plan_firebase_auth_flow:
+    status: future_planning
+    risk: medium
+    mode: planning_generation
+    purpose: Draft Firebase Authentication architecture for a later phase.
+    approval_required: false
+
+  smartfood.create_favorite_meal_ux_plan:
+    status: proposed_contract
+    risk: low
+    mode: planning_generation
+    purpose: Draft user experience for favorite meals, previous meals, and recommendations.
+    approval_required: false
+
+  smartfood.review_order_web_flow:
+    status: proposed_contract
+    risk: medium
+    mode: analysis
+    purpose: Review website-based Smart Food ordering flow and integration boundaries.
+    approval_required: false
+
+  smartfood.mutate_order_or_customer_data:
+    status: future_only
+    risk: high
+    mode: production_write
+    purpose: Modify customer, order, payment, or profile data.
+    approval_required: true
+    default_allowed: false
+
+principles:
+  - Smart Food user/order/payment data is sensitive.
+  - Planning and UX drafts are safe.
+  - Live data mutation requires explicit approval.
+  - Login/auth changes require careful security review.
