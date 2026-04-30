@@ -1,0 +1,47 @@
+tools:
+  chorn_dna.resolve_zone:
+    status: proposed_contract
+    risk: low
+    mode: external_repo_read
+    purpose: Resolve Zone List -> Zone File -> exactly one Sub-Zone before generating outfit or civilization content.
+    approval_required: false
+    authority:
+      repository: khachornchit/chorn-dna
+      zone_list_path: .chatgpt/System/World/Zones/Zone List.md
+
+  chorn_dna.create_storygenproduct_request:
+    status: proposed_contract
+    risk: low
+    mode: prompt_generation
+    purpose: Create a valid StoryGenProduct workflow request header and generation plan.
+    approval_required: false
+    command_header:
+      - StoryGenProduct: <attachments>
+      - AutoScene: [...]
+      - Mode: [Word/.../...]
+      - SkipVideo: True or False
+      - PostKeywords: []
+
+  chorn_dna.create_outfit_post_draft:
+    status: proposed_contract
+    risk: low
+    mode: content_generation
+    purpose: Create draft lady/gentleman outfit or civilization clothing post aligned with Chorn DNA.
+    approval_required: false
+
+  chorn_dna.random_zone_outfit_plan:
+    status: proposed_contract
+    risk: low
+    mode: planning_generation
+    purpose: Randomly select a valid zone and sub-zone plan for outfit/clothing content.
+    approval_required: false
+    must_follow:
+      - Zone List is only the entry point.
+      - Resolve exactly one zone file.
+      - Resolve exactly one Sub-Zone.
+      - Lock Sub-Zone identity across all six scenes.
+
+principles:
+  - Never generate directly from a zone name.
+  - Never mix multiple sub-zones in one generation.
+  - Preserve Chorn DNA workflow authority.
