@@ -4,7 +4,7 @@ import {ILanguageOptions} from "@/lib/model/ILanguage";
 export const LanguageOptionDefinition: ILanguageOptions = {
     th: {
         language: "th",
-        label: "à¸ à¸²à¸©à¸²à¹„à¸—à¸¢",
+        label: "ภาษาไทย",
         locale: "th-TH"
     },
     en: {
@@ -14,17 +14,17 @@ export const LanguageOptionDefinition: ILanguageOptions = {
     },
     fr: {
         language: "fr",
-        label: "FranÃ§ais",
+        label: "Français",
         locale: "fr-FR"
     },
     ja: {
         language: "ja",
-        label: "æ—¥æœ¬èªž",
+        label: "日本語",
         locale: "ja-JP"
     },
     zh: {
         language: "zh",
-        label: "ä¸­æ–‡",
+        label: "中文",
         locale: "zh-CN"
     },
     de: {

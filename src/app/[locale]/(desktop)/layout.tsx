@@ -22,8 +22,7 @@ import "@/styles/animate.css";
 import "@/styles/boxicons.min.css";
 import "@/styles/flaticon.css";
 import "react-accessible-accordion/dist/fancy-example.css";
-import "swiper/css";
-import "swiper/css/bundle";
+import "swiper/swiper-bundle.css";
 import {SpeedInsights} from "@vercel/speed-insights/next"
 import {getLayoutContent} from "@/lib/layout-content/layoutContent.service";
 

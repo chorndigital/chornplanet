@@ -15,6 +15,10 @@ export default function LanguageButton(
     const languageOption = useLanguageOption()
     const languageMenuVisible = useLanguageMenuVisible()
     const router = useRouter()
+    const selectedLanguageOption =
+        languageOptions.find((translate) => translate.language === languageOption.language) ??
+        languageOptions.find((translate) => translate.language === lang) ??
+        languageOption;
 
     const changeLanguage = (languageOption: ILanguageOption) => {
         dispatch(setLanguageOption(languageOption));
@@ -36,7 +40,7 @@ export default function LanguageButton(
                 aria-label="Select language"
             >
                 <Globe size={16} color="white" style={{marginRight: "5px"}}/>
-                {languageOption.label}
+                {selectedLanguageOption.label}
             </button>
             {
                 languageMenuVisible &&
