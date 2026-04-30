@@ -1,0 +1,48 @@
+tools:
+  commerce.create_product_story_draft:
+    status: proposed_contract
+    risk: low
+    mode: content_generation
+    purpose: Create premium product story drafts for outfit, clothing, grocery, Smart Food, or luxury commerce.
+    approval_required: false
+
+  commerce.create_marketplace_copy_draft:
+    status: proposed_contract
+    risk: low
+    mode: content_generation
+    purpose: Create marketplace-ready copy drafts for TikTok, Shopee, Lazada, Amazon, or owned commerce.
+    approval_required: false
+
+  commerce.link_product_to_content:
+    status: proposed_contract
+    risk: medium
+    mode: draft_mapping
+    purpose: Draft product-to-content link mappings for review.
+    approval_required: false
+
+  commerce.review_conversion_path:
+    status: proposed_contract
+    risk: low
+    mode: analysis
+    purpose: Review content -> product -> marketplace -> analytics flow.
+    approval_required: false
+
+  commerce.publish_marketplace_product:
+    status: future_only
+    risk: high
+    mode: external_write
+    purpose: Publish or update product listings on external marketplaces.
+    approval_required: true
+    default_allowed: false
+
+marketplace_priority:
+  - TikTok
+  - Shopee
+  - Lazada
+  - Amazon
+  - owned commerce
+
+principles:
+  - Product facts must be verified.
+  - Drafts are safe; publishing requires approval.
+  - Do not change price, stock, or marketplace listing state without approval.
