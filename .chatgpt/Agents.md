@@ -6,6 +6,34 @@ This document defines how Khachornchit, ChatGPT, and Codex collaborate on ChornP
 
 ChornPlanet is a Next.js application with content, media, and civilization-commerce features. Feature planning should preserve the architecture direction: content should move from hardcoded page data toward database-backed, reusable, and scalable services.
 
+## Shared MCP Agent Workspace
+
+Shared AI-facing project context, product direction, tool contracts, policies, resources, and workflows live in:
+
+```text
+.mcp/
+```
+
+ChatGPT must treat `.mcp/` as the shared agent workspace layer for ChornPlanet.
+
+Recommended ChatGPT startup order:
+
+1. Read this file.
+2. Read `.mcp/README.md`.
+3. Read `.mcp/manifest.yaml`.
+4. Read the relevant `.mcp/resources/`, `.mcp/policies/`, `.mcp/tools/`, and `.mcp/workflows/` files.
+5. Read or create the relevant `.chatgpt/planning/feature-<feature-name>.md` file.
+6. Review runtime application code, scripts, schemas, and content services.
+
+Important distinction:
+
+```text
+.mcp/ = shared agent workspace and governance contract
+app/  = Next.js runtime application code and platform implementation
+```
+
+When planning Chorn DNA, StoryGenProduct, AutoScene, outfit, clothing, or civilization content, ChatGPT should also reference the external Chorn DNA authority described in `.mcp/resources/chorn-dna-authority.md`.
+
 ## Roles
 
 ### Khachornchit — Chief Architect
@@ -30,6 +58,7 @@ ChatGPT should:
 - Use **one branch per feature**, using the pattern `feature/<feature-name>` or the branch name approved by Khachornchit.
 - Write the proposed architecture, workflow, scope, assumptions, risks, and acceptance criteria into `.chatgpt/planning/feature-<feature-name>.md`.
 - Include project-structure guidelines for each feature branch when architecture or folder layout changes are expected.
+- Use `.mcp/` as the shared source for product context, media strategy, commerce direction, Chorn DNA integration, Smart Food evolution, analytics, SEO/LLM visibility, safety policies, and workflows.
 - Keep each feature plan focused, reviewable, and implementation-ready.
 - Avoid mixing multiple unrelated features in one branch or one planning document.
 
@@ -106,6 +135,8 @@ Reusable Page Components
 ```
 
 Avoid adding new hardcoded content arrays into page files unless explicitly temporary and documented in the active planning file.
+
+When the feature relates to media automation, outfit/civilization posting, commerce, Smart Food, analytics, SEO/LLM visibility, or Chorn DNA integration, ChatGPT should reference the relevant `.mcp/` resource, policy, tool, or workflow file.
 
 ## Completion Rule
 
