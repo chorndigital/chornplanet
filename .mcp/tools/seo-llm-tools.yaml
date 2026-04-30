@@ -1,0 +1,41 @@
+tools:
+  seo.review_page_metadata:
+    status: proposed_contract
+    risk: low
+    mode: read_only_analysis
+    purpose: Review page metadata, titles, descriptions, canonical structure, and content discoverability.
+    approval_required: false
+
+  seo.create_content_cluster_plan:
+    status: proposed_contract
+    risk: low
+    mode: planning_generation
+    purpose: Create topic cluster plans for news, entertainment, technology, outfit, commerce, Smart Food, or luxury pages.
+    approval_required: false
+
+  llm.create_llm_txt_draft:
+    status: proposed_contract
+    risk: low
+    mode: content_generation
+    purpose: Draft llm.txt for LLM-friendly site discovery.
+    approval_required: false
+
+  llm.create_llm_full_txt_draft:
+    status: proposed_contract
+    risk: low
+    mode: content_generation
+    purpose: Draft llm-full.txt for richer LLM-facing site context.
+    approval_required: false
+
+  llm.review_ai_discoverability:
+    status: proposed_contract
+    risk: low
+    mode: analysis
+    purpose: Review how AI assistants and search systems may understand ChornPlanet.
+    approval_required: false
+
+principles:
+  - Improve discoverability without keyword stuffing.
+  - Keep facts accurate and current.
+  - Use structured content and clear source-of-truth pages.
+  - Treat llm.txt and llm-full.txt as public-facing summaries that must not expose secrets.
