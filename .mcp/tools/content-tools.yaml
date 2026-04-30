@@ -1,0 +1,53 @@
+tools:
+  content.search_daily_sources:
+    status: proposed_contract
+    risk: medium
+    mode: external_read
+    purpose: Search candidate daily news, entertainment, or technology sources.
+    approval_required: false
+    requirements:
+      - keep source tracking
+      - prefer reliable sources
+      - do not copy full source content
+
+  content.create_digest_draft:
+    status: proposed_contract
+    risk: low
+    mode: analysis_generation
+    purpose: Create ChornPlanet-style digest drafts from reviewed source inputs.
+    approval_required: false
+
+  content.create_post_draft:
+    status: proposed_contract
+    risk: low
+    mode: content_generation
+    purpose: Create draft post text, caption, and metadata.
+    approval_required: false
+
+  content.create_image_prompt_draft:
+    status: proposed_contract
+    risk: low
+    mode: prompt_generation
+    purpose: Create image prompt drafts for content or campaign posts.
+    approval_required: false
+
+  content.create_video_prompt_draft:
+    status: proposed_contract
+    risk: low
+    mode: prompt_generation
+    purpose: Create video prompt drafts for content or campaign posts.
+    approval_required: false
+
+  content.publish_external_post:
+    status: future_only
+    risk: high
+    mode: external_write
+    purpose: Publish approved content to an external platform.
+    approval_required: true
+    default_allowed: false
+
+principles:
+  - Draft first, publish only after approval.
+  - Keep source tracking for factual content.
+  - Avoid misleading AI-generated news visuals.
+  - Preserve ChornPlanet editorial identity.
