@@ -1,0 +1,103 @@
+project:
+  name: ChornPlanet
+  repository: khachornchit/chornplanet
+  application_type: Next.js platform
+  product_role: media, commerce, civilization, Smart Food evolution, luxury showcase, analytics-assisted growth platform
+  agent_workspace: .mcp
+
+current_architecture_direction:
+  content_migration_target: MongoDB Atlas backed content services
+  pattern:
+    - Next.js Page / Route
+    - Content Loader / Server Service
+    - MongoDB Atlas Repository
+    - Typed Content Schema
+    - Reusable Page Components
+
+product_goals:
+  traffic_growth:
+    stages:
+      - 10000_daily
+      - 100000_daily
+      - 500000_daily
+      - 1000000_daily
+  media:
+    - daily news follow-up
+    - daily entertainment follow-up
+    - daily technology follow-up
+    - AI search to digest to image/video to post workflow
+  commerce:
+    - premium commerce
+    - grocery
+    - online supermarket
+    - lady/gentleman outfit
+    - civilization clothing posting
+    - TikTok first
+    - future Shopee, Lazada, Amazon links
+  civilization:
+    - ChornPlanet world and zone presentation
+    - outfit/clothing display through Chorn DNA workflow
+    - luxury civilization storytelling
+  smart_food:
+    - Line OA user login evolution
+    - food ordering via website
+    - favorite meal and user preference experience
+    - future booking and customer self-service ideas
+  luxury:
+    - luxury project showcase
+    - premium product storytelling
+  analytics:
+    - Google Analytics integration
+    - AI assistant for growth insight
+    - SEO and LLM visibility through llm.txt and llm-full.txt
+
+external_authorities:
+  chorn_dna_agents:
+    repository: khachornchit/chorn-dna
+    path: .chatgpt/Agents.md
+    purpose: StoryGenProduct, AutoScene, ImagePrompt, VdoPrompt, StoryPostEngine workflow authority
+  chorn_dna_zone_list:
+    repository: khachornchit/chorn-dna
+    path: .chatgpt/System/World/Zones/Zone List.md
+    rule: Zone List -> Zone File -> exactly one Sub-Zone
+
+agents:
+  khachornchit:
+    role: chief architect, product owner, final approval authority
+  chatgpt:
+    role: product planning, architecture proposal, content strategy, AI workflow design, market strategy
+    startup_files:
+      - .chatgpt/Agents.md
+      - .mcp/README.md
+      - .mcp/manifest.yaml
+  codex:
+    role: implementation, tests, validation, PR readiness
+    startup_files:
+      - .codex/Agents.md
+      - .mcp/README.md
+      - .mcp/manifest.yaml
+  future_mcp_server:
+    role: expose safe tools/resources to AI clients for content, commerce, analytics, and repository workflows
+
+approval_required:
+  - production deployment
+  - automatic external posting
+  - customer message sending
+  - commerce product publication
+  - order or payment mutation
+  - Google Analytics data write/change
+  - Firebase authentication production changes
+  - Line OA production login changes
+  - TikTok/Shopee/Lazada/Amazon publication
+  - secrets or credential changes
+  - deleting branches
+  - changing public API contracts
+  - changing production data schemas
+
+phase1_scope:
+  - create shared agent workspace
+  - document product and system context
+  - define safety policies
+  - define tool contracts
+  - define workflows for media automation, outfit posting, commerce, Smart Food, analytics, SEO/LLM visibility
+  - do not implement automatic posting or external platform mutation yet
