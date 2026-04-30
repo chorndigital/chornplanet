@@ -2,9 +2,38 @@
 
 This file is the working brief for Codex agents in the `chornplanet` project. Treat it as the first project-specific context to read before editing code.
 
+## Shared MCP Agent Workspace
+
+Shared AI-facing project context, product direction, tool contracts, policies, resources, and workflows live in:
+
+```text
+.mcp/
+```
+
+Codex must treat `.mcp/` as the shared agent workspace layer for ChornPlanet.
+
+Recommended Codex startup order:
+
+1. Read this file.
+2. Read `.mcp/README.md`.
+3. Read `.mcp/manifest.yaml`.
+4. Read the relevant `.mcp/resources/`, `.mcp/policies/`, `.mcp/tools/`, and `.mcp/workflows/` files.
+5. Read the relevant `.chatgpt/planning/feature-<feature-name>.md` implementation handoff.
+6. Inspect runtime application code, scripts, schemas, and content services.
+
+Important distinction:
+
+```text
+.mcp/ = shared agent workspace and governance contract
+app/  = Next.js runtime application code and platform implementation
+```
+
+When implementing Chorn DNA, StoryGenProduct, AutoScene, outfit, clothing, or civilization content features, Codex should also reference the external Chorn DNA authority described in `.mcp/resources/chorn-dna-authority.md`.
+
 ## Project Snapshot
 
 - Product: Chorn Planet marketing/content site with localized pages for technical expertise, AI companions, smart city, and smart mobility content.
+- Strategic direction: media platform, premium commerce platform, ChornPlanet civilization platform, Smart Food evolution layer, luxury project showcase, analytics-assisted growth platform.
 - Framework: Next.js 16 app router, React 18, TypeScript 5.
 - Styling: SCSS and imported vendor CSS. Tailwind exists, but existing pages mostly use SCSS classes.
 - State: Redux Toolkit through `src/provider/`.
@@ -89,6 +118,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 - Public service-style pages commonly include `SchemaMarkupServicePage` from `src/components/GoogleSchemaMarkup/`.
 - `src/app/robots.ts` and `src/app/sitemap.ts` are source-controlled Next metadata routes; update them when SEO behavior changes.
+- For SEO/LLM visibility work, review `.mcp/workflows/seo-llm-visibility.md` and `.mcp/tools/seo-llm-tools.yaml`.
 
 ## Images
 
@@ -129,6 +159,7 @@ For a new localized public page:
 - Path alias `@/*` can resolve into `src/*`, `backend/*`, and `server/*` per `tsconfig.json`.
 - Keep secrets in environment variables. Do not commit `.env` files or new credentials.
 - OpenAI route/provider code exists in both `src/app/api/openai/...` and `server/adapters/outbound/openai/...`; inspect both before changing AI behavior.
+- For media automation, commerce, analytics, Smart Food, or external publishing features, read the relevant `.mcp/policies/` and `.mcp/workflows/` files before implementation.
 
 ## Working Practice
 
@@ -145,6 +176,8 @@ For a new localized public page:
 ## ChatGPT And Codex Workflow
 
 ChatGPT owns discovery, planning, architectural proposals, and scope definition. Codex owns planning review, implementation, tests, validation, and code review readiness.
+
+Both agents should use `.mcp/` as the shared source for product context, media strategy, commerce direction, Chorn DNA integration, Smart Food evolution, analytics, SEO/LLM visibility, safety policies, tool contracts, and workflows.
 
 Planned features should use:
 
@@ -207,6 +240,7 @@ Use this flow when preparing a fix, feature, docs update, or other task for prod
 - `vercel.json` is present for Vercel-specific headers. Keep deployment-related behavior there or in Next config unless a separate workflow is clearly needed.
 - There is currently no repo-root GitHub Actions workflow. Do not add one just to duplicate Vercel builds.
 - Add a GitHub workflow only when it provides a distinct value Vercel does not already cover, such as required PR checks, scheduled audits, non-Vercel tests, or multi-environment automation.
+- Automated external publishing, marketplace changes, customer messages, Smart Food mutations, auth production changes, and analytics production configuration changes require explicit approval.
 
 ## Pre-Ship Checks
 
