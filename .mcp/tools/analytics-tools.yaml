@@ -1,0 +1,42 @@
+tools:
+  analytics.review_traffic_summary:
+    status: proposed_contract
+    risk: low
+    mode: read_only_analysis
+    purpose: Review aggregate traffic data and identify growth movement toward 10K, 100K, 500K, and 1M daily traffic.
+    approval_required: false
+
+  analytics.review_content_performance:
+    status: proposed_contract
+    risk: low
+    mode: read_only_analysis
+    purpose: Review which posts, categories, zones, outfits, and campaigns perform best.
+    approval_required: false
+
+  analytics.review_commerce_clicks:
+    status: proposed_contract
+    risk: low
+    mode: read_only_analysis
+    purpose: Review content-to-product and marketplace click performance when tracking is available.
+    approval_required: false
+
+  analytics.create_growth_report:
+    status: proposed_contract
+    risk: low
+    mode: analysis_generation
+    purpose: Create AI-assisted daily, weekly, or campaign growth reports from approved data.
+    approval_required: false
+
+  analytics.update_tracking_config:
+    status: future_only
+    risk: high
+    mode: production_config_write
+    purpose: Change Google Analytics or tracking configuration.
+    approval_required: true
+    default_allowed: false
+
+principles:
+  - Prefer aggregate data.
+  - Do not expose personal user data.
+  - Do not invent metrics.
+  - If data is unavailable, recommend instrumentation.
