@@ -1,0 +1,45 @@
+tools:
+  repo.search_code:
+    status: proposed_contract
+    risk: low
+    mode: read_only
+    purpose: Search source code, docs, scripts, schemas, and configuration.
+    approval_required: false
+
+  repo.read_architecture:
+    status: proposed_contract
+    risk: low
+    mode: read_only
+    purpose: Read architecture documents, planning files, and source-of-truth notes.
+    approval_required: false
+
+  repo.run_lint:
+    status: proposed_contract
+    risk: medium
+    mode: local_execution
+    purpose: Run lint checks for implementation validation.
+    approval_required: false
+    example: yarn lint
+
+  repo.run_build:
+    status: proposed_contract
+    risk: medium
+    mode: local_execution
+    purpose: Run production build validation.
+    approval_required: false
+    example: yarn build
+
+  repo.sync_homepage_content:
+    status: existing_script_contract
+    risk: medium
+    mode: local_execution
+    purpose: Run existing homepage content sync script when needed.
+    approval_required: false
+    example: yarn sync:homepage-content
+
+  repo.review_content_source_of_truth:
+    status: proposed_contract
+    risk: low
+    mode: read_only
+    purpose: Detect whether new content belongs in MongoDB-backed content services instead of hardcoded page arrays.
+    approval_required: false
