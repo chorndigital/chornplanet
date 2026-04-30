@@ -1,5 +1,5 @@
 import {ObjectId, WithId} from "mongodb";
-import {SmartCityChiangMaiContentPayload} from "@/lib/model/smart-city-chiang-mai";
+import {SmartCityChiangMaiContentPayload} from "@/lib/model/ISmartCityChiangMai";
 
 export const SMART_CITY_CHIANG_MAI_CONTENT_LOCALES = ['da', 'de', 'en', 'fi', 'fr', 'ja', 'ko', 'nl', 'th', 'zh'] as const;
 

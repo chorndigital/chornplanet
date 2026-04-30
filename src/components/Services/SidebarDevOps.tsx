@@ -3,11 +3,11 @@
 import React from "react";
 import Link from "next/link";
 import {useEffect, useState} from 'react';
-import {IDevOpsStack} from "@/data/devops/model/IDevOpsStack";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {IDevOpsStack} from "@/lib/model/IDevOps";
 import Image from "next/image";
+import {IDevOps} from "@/lib/model/IDevOps";
 
-export default function SidebarDevOps({lang}: { lang: string }) {
+export default function SidebarDevOps({lang, devOps}: { lang: string; devOps: IDevOps }) {
     const [currentUrl, setCurrentUrl] = useState('');
 
     useEffect(() => {
@@ -20,7 +20,7 @@ export default function SidebarDevOps({lang}: { lang: string }) {
         <>
             <div className="services-details-information ml-10 border-top">
                 <ul className="framework-list">
-                    {InfoTranslation[lang].DevOps.stacks.map((item: IDevOpsStack, index: number) => {
+                    {devOps.stacks.map((item: IDevOpsStack, index: number) => {
                         if (currentUrl.includes(item.link)) {
                             return (
                                 <li key={index}>

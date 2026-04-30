@@ -1,6 +1,6 @@
 // src/components/SmartCity/WhyItMatters.tsx
 
-import {ISmartCitySection} from "@/data/smart-city-landing/_model/ISmartCitySection";
+import {ISmartCitySection} from "@/lib/model/ISmartCityLanding";
 
 export default function WhyItMatters({headline, points, paragraphs}: ISmartCitySection) {
     return (

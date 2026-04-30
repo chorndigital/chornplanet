@@ -48,3 +48,30 @@ src\app\[locale]\(desktop)\technical-expertise\full-stack-developer\python-devel
 Pending pages:
 
 None
+
+-----------------------
+
+Layout migration:
+
+Done:
+
+src\app\[locale]\(desktop)\layout.tsx
+src\components\Consent
+src\components\Navbar
+src\components\Footer
+
+MongoDB Atlas target:
+
+layout_content
+
+Migration command:
+
+npm run migrate:layout
+
+Migration result:
+
+2026-04-29 | migratedCount=10 | failedCount=0
+
+Remaining cleanup:
+
+Runtime imports of src\data\info\main\InfoTranslation.ts still exist outside the desktop layout chain and must be migrated before hardcoded data removal.

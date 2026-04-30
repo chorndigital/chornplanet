@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import SmartCityRight from "./SmartCityRight";
 import SmartCityBottom from "./SmartCityBottom";
-import {ISmartCityItem} from "@/data/smart-city/model/ISmartCity";
-import {SmartCityChiangMaiBottomContent} from "@/lib/model/smart-city-chiang-mai";
+import {ISmartCityItem} from "@/lib/model/ISmartCity";
+import {SmartCityChiangMaiBottomContent} from "@/lib/model/ISmartCityChiangMai";
 
 export default function SmartCityMain(
     {lang, smartCityItem, relatedItems, bottomContent}: {

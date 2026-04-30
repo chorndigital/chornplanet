@@ -17,11 +17,17 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
-    const {frontEnd, cloud} = await getTechnicalExpertiseContent(lang);
+    const {frontEnd, fullStack, devOps, cloud} = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <ServicesDetailsTypeScript lang={lang} stack={frontEnd.typescript}/>
+            <ServicesDetailsTypeScript
+                lang={lang}
+                stack={frontEnd.typescript}
+                frontEnd={frontEnd}
+                fullStack={fullStack}
+                devOps={devOps}
+            />
             <CloudExperience lang={lang} cloud={cloud}/>
             <SchemaMarkupServicePage
                 name="TypeScript | Chorn Planet - Custom Software Development Experts"

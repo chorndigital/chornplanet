@@ -1,11 +1,11 @@
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import React from "react";
+import {IFullStack} from "@/lib/model/IFullStack";
 
-export default function HomeBackEndTop({lang}: { lang: string }) {
+export default function HomeBackEndTop({fullStack}: { lang: string; fullStack: IFullStack }) {
     return (
         <div className="section-title contrast-section-title">
-            <span>{InfoTranslation[lang].FullStack.span}</span>
-            <h2>{InfoTranslation[lang].FullStack.title}</h2>
+            <span>{fullStack.span}</span>
+            <h2>{fullStack.title}</h2>
             <div className="bar"></div>
         </div>
     )

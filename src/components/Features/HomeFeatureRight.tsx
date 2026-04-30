@@ -1,12 +1,11 @@
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IFeatureStack} from "@/data/feature/model/IFeatureStack";
+import {IFeatureStack} from "@/lib/model/IFeature";
 import Link from "next/link";
 import {truncateText} from "@/lib/truncateText";
 import React from "react";
-import {IFeature} from "@/data/feature/model/IFeature";
+import {IFeature} from "@/lib/model/IFeature";
 
-export default function HomeFeatureRight({lang, feature}: { lang: string; feature?: IFeature }) {
-    const content = feature ?? InfoTranslation[lang].Feature;
+export default function HomeFeatureRight({lang, feature}: { lang: string; feature: IFeature }) {
+    const content = feature;
 
     return (
         <div className="col-lg-6">

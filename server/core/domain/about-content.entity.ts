@@ -1,5 +1,5 @@
 import {ObjectId, WithId} from "mongodb";
-import {AboutContentMedia, IAbout} from "@/lib/model/about";
+import {AboutContentMedia, IAbout} from "@/lib/model/IAbout";
 
 export const ABOUT_CONTENT_LOCALES = ['da', 'de', 'en', 'fi', 'fr', 'ja', 'ko', 'nl', 'th', 'zh'] as const;
 

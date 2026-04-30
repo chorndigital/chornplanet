@@ -1,8 +1,7 @@
 // src/components/SmartCity/HeroObservation.tsx
 
 import Link from "next/link";
-import {ISmartCitySection} from "@/data/smart-city-landing/_model/ISmartCitySection";
-import {Tag} from "@/data/tags/Tag";
+import {ISmartCitySection} from "@/lib/model/ISmartCityLanding";
 
 export default function HeroObservation(
     {
@@ -10,6 +9,7 @@ export default function HeroObservation(
         headline,
         paragraphs,
         image,
+        tags,
         cta
     }: ISmartCitySection
 ) {
@@ -40,7 +40,7 @@ export default function HeroObservation(
                 }
 
                 <div className={'neo-tag-smart-city'}>
-                    {lang && Tag[lang].smartCity.join(", ")}
+                    {tags?.join(", ")}
                 </div>
             </div>
         </section>

@@ -1,6 +1,6 @@
 import {Metadata} from "next";
 import {metadataLink} from "@/metadata/metadataLink/metadataLink";
-import {LanguageCode} from "@/data/translate/LanguageCode";
+import {LanguageCode} from "@/lib/constants/languageOptions";
 import {MetaLinks} from "@/metadata/metadataLink/MetaLinks";
 
 export const MetadataDotnetCoreZH: Metadata = {

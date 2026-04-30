@@ -1,14 +1,13 @@
 // src/component/AiCompanionTH/Main/AiFahLandingPage.tsx
 import React from "react";
 import Image from "next/image";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {DefaultShape} from "@/components/Shape/DefaultShape";
 import AomSideRight from "@/components/AiCompanions/SideRight/AomSideRight";
 import AomBottomFeature from "@/components/AiCompanions/BottomFeature/AomBottomFeature";
-import {IAiLanding} from "@/data/ai/model/IAiLanding";
+import {IAiLanding} from "@/lib/model/IAi";
 
-const AiAomLandingPage: React.FC<{ lang: string; aom?: IAiLanding }> = ({lang, aom}) => {
-    const content = aom ?? InfoTranslation[lang].AiCompanions.aom;
+const AiAomLandingPage: React.FC<{ lang: string; aom: IAiLanding }> = ({lang, aom}) => {
+    const content = aom;
 
     return (
         <>

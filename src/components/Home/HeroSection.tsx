@@ -1,7 +1,7 @@
 //components/Home/HeroSection.tsx
 
 import Image from "next/image"
-import {IHeroSection} from "@/lib/model/smart-city-media";
+import {IHeroSection} from "@/lib/model/ISmartCityMedia";
 
 export default function HeroSection({lang, data}: { lang: string; data: IHeroSection }) {
     const {headline, paragraph, softTexts, image, landingUrl} = data

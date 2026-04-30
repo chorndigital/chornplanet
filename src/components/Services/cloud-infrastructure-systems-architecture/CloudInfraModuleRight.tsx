@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {ICloud} from "@/data/cloud/model/ICloud";
+import {ICloud} from "@/lib/model/ICloud";
 
-const CloudInfraModuleRight: React.FC<{ lang: string, cloud?: ICloud }> = ({lang, cloud}) => {
-    const content = cloud ?? InfoTranslation[lang].Cloud;
+const CloudInfraModuleRight: React.FC<{ lang: string, cloud: ICloud }> = ({lang, cloud}) => {
+    const content = cloud;
 
     return (
         <div className="cloud-infra-right">

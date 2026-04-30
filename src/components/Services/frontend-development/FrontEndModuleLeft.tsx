@@ -1,9 +1,8 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IFrontEnd} from "@/data/frontend/model/IFrontEnd";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
 
-const FrontEndModuleLeft: React.FC<{ lang: string, frontEnd?: IFrontEnd }> = ({lang, frontEnd}) => {
-    const content = frontEnd ?? InfoTranslation[lang].FrontEnd;
+const FrontEndModuleLeft: React.FC<{ lang: string, frontEnd: IFrontEnd }> = ({lang, frontEnd}) => {
+    const content = frontEnd;
 
     return (
         <div className={'col-lg-6 add-web-content'}>

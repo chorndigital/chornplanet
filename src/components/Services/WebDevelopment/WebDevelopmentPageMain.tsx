@@ -2,7 +2,6 @@ import React from "react";
 import {DefaultShape} from "@/components/Shape/DefaultShape";
 import WebDevelopmentLeft from "@/components/Services/WebDevelopment/WebDevelopmentLeft";
 import WebDevelopmentRight from "@/components/Services/WebDevelopment/WebDevelopmentRight";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import WebDevelopmentBackEnd from "@/components/Services/WebDevelopment/WebDevelopmentBackEnd";
 import WevDevelopmentFrontEnd from "@/components/Services/WebDevelopment/WevDevelopmentFrontEnd";
 import WebDevelopmentDevOps from "@/components/Services/WebDevelopment/WebDevelopmentDevOps";
@@ -13,9 +12,9 @@ import CloudInfraPageMain from "@/components/Services/cloud-infrastructure-syste
 import {TechnicalExpertiseContentPayload} from "@/core/domain/technical-expertise-content.entity";
 
 export default function WebDevelopmentPageMain(
-    {lang, content}: { lang: string, content?: TechnicalExpertiseContentPayload }
+    {lang, content}: { lang: string, content: TechnicalExpertiseContentPayload }
 ) {
-    const featureContent = content?.feature ?? InfoTranslation[lang].Feature;
+    const featureContent = content.feature;
 
     return (
         <>
@@ -24,20 +23,20 @@ export default function WebDevelopmentPageMain(
                     <div className="row justify-content-md-center">
                         <div className="row align-items-center align-items-center-custom">
                             <h1>{featureContent.stacks[2].title}</h1>
-                            <WebDevelopmentLeft lang={lang} frontEnd={content?.frontEnd} fullStack={content?.fullStack}/>
+                            <WebDevelopmentLeft lang={lang} frontEnd={content.frontEnd} fullStack={content.fullStack}/>
                             <WebDevelopmentRight lang={lang}/>
                         </div>
-                        <WevDevelopmentFrontEnd lang={lang} frontEnd={content?.frontEnd}/>
-                        <WebDevelopmentBackEnd lang={lang} fullStack={content?.fullStack}/>
+                        <WevDevelopmentFrontEnd lang={lang} frontEnd={content.frontEnd}/>
+                        <WebDevelopmentBackEnd lang={lang} fullStack={content.fullStack}/>
                     </div>
                 </div>
 
                 <div className="container pt-3">
-                    <WebDevelopmentDevOps lang={lang} devOps={content?.devOps}/>
+                    <WebDevelopmentDevOps lang={lang} devOps={content.devOps}/>
                 </div>
 
-                <CloudInfraPageMain lang={lang} cloud={content?.cloud} cloudSolution={content?.cloudSolution}/>
-                <Web3PageMain lang={lang} web3={content?.web3}/>
+                <CloudInfraPageMain lang={lang} cloud={content.cloud} cloudSolution={content.cloudSolution}/>
+                <Web3PageMain lang={lang} web3={content.web3}/>
             </div>
 
             <DefaultShape/>

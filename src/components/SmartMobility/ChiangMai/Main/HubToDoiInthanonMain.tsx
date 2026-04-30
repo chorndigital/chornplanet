@@ -1,19 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import HubToDoiInthanonBottom from "../Bottom/HubToDoiInthanonBottom";
 import SmartMobilityChiangMaiRight from "../Common/SmartMobilityChiangMaiRight";
-import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
 import SmartCityBottomImage from "@/components/SmartCity/ChiangMai/SmartCityBottomImage";
-import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/smart-mobility-chiang-mai";
-import {ISmartRoute} from "@/data/smart-mobility/model/ISmartMobility";
+import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/ISmartMobilityChiangMai";
+import {ISmartRoute} from "@/lib/model/ISmartMobility";
 
 export default function HubToDoiInthanonMain(
-    {lang, content}: { lang: string; content?: SmartMobilityChiangMaiContentPayload }
+    {lang, content}: { lang: string; content: SmartMobilityChiangMaiContentPayload }
 ) {
-    const fallbackConnectivityMatrix = SmartMobility[lang].chiangMai.connectivityMatrix
-    const connectivityMatrix = content?.connectivityMatrix ?? fallbackConnectivityMatrix
-    const route = (content?.primaryContent as ISmartRoute | undefined) ?? fallbackConnectivityMatrix.routes[2]
+    const connectivityMatrix = content.connectivityMatrix!
+    const route = content.primaryContent as ISmartRoute
 
     return (
         <div className="portfolio-details-area smart-container-top">
@@ -43,15 +40,13 @@ export default function HubToDoiInthanonMain(
                             lang={lang}
                             route={route}
                             connectivityMatrix={connectivityMatrix}
-                            safeStatement={content?.safeStatement}
+                            safeStatement={content.safeStatement}
                         />
-                        <SmartCityBottomImage lang={lang} bottomCards={content?.bottomCards}/>
+                        <SmartCityBottomImage lang={lang} bottomCards={content.bottomCards}/>
                     </div>
                     <SmartMobilityChiangMaiRight
                         lang={lang}
-                        currentIdx={SmartVisibilityIndex.HubToDoiInthanon}
-                        imageQty={4}
-                        rightItems={content?.rightItems}
+                        rightItems={content.rightItems}
                     />
                 </div>
             </div>

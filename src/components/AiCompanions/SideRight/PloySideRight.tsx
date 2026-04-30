@@ -1,11 +1,10 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import Link from "next/link";
 import Image from "next/image";
-import {IAiLanding} from "@/data/ai/model/IAiLanding";
+import {IAiLanding} from "@/lib/model/IAi";
 
-export default function PloySideRight({lang, ploy}: { lang: string; ploy?: IAiLanding }) {
-    const content = ploy ?? InfoTranslation[lang].AiCompanions.ploy;
+export default function PloySideRight({lang, ploy}: { lang: string; ploy: IAiLanding }) {
+    const content = ploy;
 
     return (
         <div className="col-lg-4 col-md-12">

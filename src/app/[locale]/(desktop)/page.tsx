@@ -13,9 +13,15 @@ import CitySystems from '@/components/Home/CitySystems'
 import GlobalPatterns from '@/components/Home/GlobalPatterns'
 import UrbanSignals from '@/components/Home/UrbanSignals'
 import EditorialPositioning from '@/components/Home/EditorialPositioning'
-import {ISmartCityItem} from "@/data/smart-city/model/ISmartCity";
+import {ISmartCityItem} from "@/lib/model/ISmartCity";
 import SmartCityMain from "@/components/SmartCity/ChiangMai/SmartCityMain";
 import {getHomePageContent} from "@/lib/homepage-content/homePageContent.service";
+import {getSmartCityChiangMaiContent} from "@/lib/smart-city-chiang-mai-content/smartCityChiangMaiContent.service";
+
+function getSlugFromPath(path: string): string | null {
+    const segments = path.split('/').filter(Boolean);
+    return segments[segments.length - 1] ?? null;
+}
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -61,14 +67,23 @@ export default async function Home() {
             "https://x.com/chornplanet",
         ]
     };
-    const smartCityItem: ISmartCityItem = homePageContent.smartCityHighlight;
+    const smartCityHighlightSlug = getSlugFromPath(homePageContent.smartCityHighlight.link);
+    const smartCityContent = smartCityHighlightSlug
+        ? await getSmartCityChiangMaiContent(lang, smartCityHighlightSlug).catch(() => null)
+        : null;
+    const smartCityItem: ISmartCityItem = smartCityContent?.item ?? homePageContent.smartCityHighlight;
 
     return (
         <>
             <main className="flex flex-col">
                 <div className="container">
                     <HeroSection lang={lang} data={homePageContent.heroSection}/>
-                    <SmartCityMain lang={lang} smartCityItem={smartCityItem}/>
+                    <SmartCityMain
+                        lang={lang}
+                        smartCityItem={smartCityItem}
+                        relatedItems={smartCityContent?.relatedItems}
+                        bottomContent={smartCityContent?.bottomContent}
+                    />
                     <HumanDailyFlow lang={lang} data={homePageContent.humanDailyFlow}/>
                     <LocalToGlobal lang={lang} data={homePageContent.localToGlobal}/>
                     <SystemExplainers lang={lang} data={homePageContent.systemExplainers}/>

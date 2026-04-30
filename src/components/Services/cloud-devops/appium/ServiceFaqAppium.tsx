@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import {IDevOpsStack} from "@/lib/model/IDevOps";
 import {
     Accordion,
     AccordionItem,
@@ -9,16 +10,15 @@ import {
     AccordionItemButton,
 } from "react-accessible-accordion";
 import {sanitizeUUID} from "@/lib/utils";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 
-export default function ServiceFaqAppium({lang}: { lang: string }) {
+export default function ServiceFaqAppium({stack}: { stack: IDevOpsStack }) {
     return (
         <>
             <div className="faq-accordion mt-3">
                 <Accordion allowZeroExpanded preExpanded={[
-                    `${InfoTranslation[lang].DevOps.appium.faqs[0].question}`
+                    `${stack.faqs[0].question}`
                 ]}>
-                    {InfoTranslation[lang].DevOps.appium.faqs.map((item, index: number) => (
+                    {stack.faqs.map((item, index: number) => (
                         <AccordionItem key={index} uuid={sanitizeUUID(item.question)}>
                             <AccordionItemHeading>
                                 <AccordionItemButton>

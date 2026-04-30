@@ -1,9 +1,8 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IService} from "@/data/service/model/IService";
+import {IService} from "@/lib/model/IService";
 
-export default function AiSolutionLeft({lang, service}: { lang: string; service?: IService }) {
-    const content = service ?? InfoTranslation[lang].Service;
+export default function AiSolutionLeft({service}: { service: IService }) {
+    const content = service;
 
     return (
         <div className={'col-lg-6 add-web-content'}>

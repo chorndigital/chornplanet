@@ -96,6 +96,14 @@ export const UrlMaps: IUrlImageMap[] = [
 
     //smart-mobility
     {
+        url: '/smart-mobility/chiang-mai/',
+        images: [
+            {
+                path: "/smart-mobility/chiang-mai/vision-smart-mobility-northern-gateway.png"
+            }
+        ]
+    },
+    {
         url: '/smart-mobility/chiang-mai/hub-to-chiang-mai-airport/',
         images: [
             {

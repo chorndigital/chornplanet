@@ -8,24 +8,28 @@ import FooterProjects from "@/components/Footer/smart-footer/FooterProjects";
 import FooterSmartCity from "@/components/Footer/smart-footer/FooterSmartCity";
 import FooterConnect from "@/components/Footer/smart-footer/FooterConnect";
 import FooterTechnology from "@/components/Footer/smart-footer/FooterTechnology";
+import {IFooter} from "@/lib/model/IFooter";
+import {getLayoutContent} from "@/lib/layout-content/layoutContent.service";
 
-export default function FooterMain({lang}: { lang: string }) {
+export default async function FooterMain({lang, footer}: { lang: string, footer?: IFooter }) {
+    const resolvedFooter = footer ?? (await getLayoutContent(lang)).footer;
+
     return (
         <>
             <div className="footer-area footer-container">
                 <div className="footer-left">
-                    <FooterLogoSocial lang={lang}/>
+                    <FooterLogoSocial lang={lang} footer={resolvedFooter}/>
                 </div>
 
                 <div className="footer-right">
-                    <FooterImportantLinks lang={lang}/>
-                    <FooterProjects lang={lang}/>
-                    <FooterSmartCity lang={lang}/>
-                    <FooterTechnology lang={lang}/>
-                    <FooterConnect lang={lang}/>
+                    <FooterImportantLinks lang={lang} footer={resolvedFooter}/>
+                    <FooterProjects lang={lang} footer={resolvedFooter}/>
+                    <FooterSmartCity lang={lang} footer={resolvedFooter}/>
+                    <FooterTechnology lang={lang} footer={resolvedFooter}/>
+                    <FooterConnect lang={lang} footer={resolvedFooter}/>
                 </div>
             </div>
-            <CopyRight lang={lang}/>
+            <CopyRight lang={lang} footer={resolvedFooter}/>
         </>
     )
 }

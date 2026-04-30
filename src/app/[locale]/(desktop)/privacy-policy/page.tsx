@@ -1,5 +1,5 @@
 import React from "react";
-import {IPolicyContent} from "@/lib/model/policy";
+import {IPolicyContent} from "@/lib/model/IPolicy";
 import type {Metadata} from "next";
 import {headers} from "next/headers";
 import {MetadataPrivacyPolicy} from "@/metadata/main/MetadataPrivacyPolicy";

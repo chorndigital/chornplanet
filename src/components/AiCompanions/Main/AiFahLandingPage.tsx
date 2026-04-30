@@ -4,11 +4,10 @@ import Image from "next/image";
 import {DefaultShape} from "@/components/Shape/DefaultShape";
 import FahSideRight from "../SideRight/FahSideRight";
 import FahBottomFeature from "@/components/AiCompanions/BottomFeature/FahBottomFeature";
-import {IAiLanding} from "@/data/ai/model/IAiLanding";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {IAiLanding} from "@/lib/model/IAi";
 
-const AiFahLandingPage: React.FC<{ lang: string; fah?: IAiLanding }> = ({lang, fah}) => {
-    const content = fah ?? InfoTranslation[lang].AiCompanions.fah;
+const AiFahLandingPage: React.FC<{ lang: string; fah: IAiLanding }> = ({lang, fah}) => {
+    const content = fah;
 
     return (
         <>

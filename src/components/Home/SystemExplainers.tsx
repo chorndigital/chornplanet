@@ -1,5 +1,5 @@
 import Image from "next/image"
-import {ISystemExplainers} from "@/lib/model/smart-city-media";
+import {ISystemExplainers} from "@/lib/model/ISmartCityMedia";
 
 export default function SystemExplainers({lang, data}: { lang: string; data: ISystemExplainers }) {
     const {headline, paragraph, systems} = data

@@ -1,13 +1,13 @@
 "use client";
 
 import React from "react";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
 import Link from "next/link";
 import {useEffect, useState} from 'react';
-import {IFullStackStack} from "@/data/fullstack/model/IFullStackStack";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {IFullStackStack} from "@/lib/model/IFullStack";
 import Image from "next/image";
 
-export default function SidebarFrontEnd({lang}: { lang: string }) {
+export default function SidebarFrontEnd({lang, frontEnd}: { lang: string; frontEnd: IFrontEnd }) {
     const [currentUrl, setCurrentUrl] = useState('');
 
     useEffect(() => {
@@ -20,7 +20,7 @@ export default function SidebarFrontEnd({lang}: { lang: string }) {
         <>
             <div className="services-details-information ml-10 border-top">
                 <ul className="framework-list">
-                    {InfoTranslation[lang].FrontEnd.stacks.map((item: IFullStackStack, index: number) => {
+                    {frontEnd.stacks.map((item: IFullStackStack, index: number) => {
                         if (currentUrl.includes(item.link)) {
                             return (
                                 <li key={index}>

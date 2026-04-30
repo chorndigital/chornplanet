@@ -1,4 +1,4 @@
-import {LanguageCode} from "@/data/translate/LanguageCode";
+import {LanguageCode} from "@/lib/constants/languageOptions";
 
 const LanguageUrl = (lang: string, canonical: string) => {
     return `${process.env.NEXT_PUBLIC_URL}${lang}${canonical}`

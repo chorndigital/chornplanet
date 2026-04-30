@@ -1,17 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import VisionChiangMaiBottom from "../Bottom/VisionChiangMaiBottom";
 import SmartMobilityChiangMaiRight from "../Common/SmartMobilityChiangMaiRight";
-import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
 import SmartCityBottomImage from "@/components/SmartCity/ChiangMai/SmartCityBottomImage";
-import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/smart-mobility-chiang-mai";
-import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
+import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/ISmartMobilityChiangMai";
+import {ISmartSection} from "@/lib/model/ISmartMobility";
 
 export default function VisionChiangMaiMain(
-    {lang, content}: { lang: string; content?: SmartMobilityChiangMaiContentPayload }
+    {lang, content}: { lang: string; content: SmartMobilityChiangMaiContentPayload }
 ) {
-    const vision = (content?.primaryContent as ISmartSection | undefined) ?? SmartMobility[lang].chiangMai.vision
+    const vision = content.primaryContent as ISmartSection
 
     return (
         <div className="portfolio-details-area smart-container-top">
@@ -40,16 +38,14 @@ export default function VisionChiangMaiMain(
                         <VisionChiangMaiBottom
                             lang={lang}
                             vision={vision}
-                            safeStatement={content?.safeStatement}
+                            safeStatement={content.safeStatement}
                         />
-                        <SmartCityBottomImage lang={lang} bottomCards={content?.bottomCards}/>
+                        <SmartCityBottomImage lang={lang} bottomCards={content.bottomCards}/>
                     </div>
 
                     <SmartMobilityChiangMaiRight
                         lang={lang}
-                        currentIdx={SmartVisibilityIndex.Vision}
-                        imageQty={4}
-                        rightItems={content?.rightItems}
+                        rightItems={content.rightItems}
                     />
                 </div>
             </div>

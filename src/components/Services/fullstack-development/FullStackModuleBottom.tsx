@@ -1,12 +1,11 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IFrontEndStack} from "@/data/frontend/model/IFrontEndStack";
+import {IFrontEndStack} from "@/lib/model/IFrontEnd";
 import Image from "next/image";
 import Link from "next/link";
-import {IFullStack} from "@/data/fullstack/model/IFullStack";
+import {IFullStack} from "@/lib/model/IFullStack";
 
-export default function FullStackModuleBottom({lang, fullStack}: { lang: string, fullStack?: IFullStack }) {
-    const content = fullStack ?? InfoTranslation[lang].FullStack;
+export default function FullStackModuleBottom({lang, fullStack}: { lang: string, fullStack: IFullStack }) {
+    const content = fullStack;
 
     return (
         <div className="services-area bg-fafafa pt-100 pb-70 addition-ptb-0">

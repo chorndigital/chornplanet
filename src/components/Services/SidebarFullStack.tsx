@@ -3,11 +3,11 @@
 import React from "react";
 import Link from "next/link";
 import {useEffect, useState} from 'react';
-import {IFullStackStack} from "@/data/fullstack/model/IFullStackStack";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {IFullStackStack} from "@/lib/model/IFullStack";
 import Image from "next/image";
+import {IFullStack} from "@/lib/model/IFullStack";
 
-export default function SidebarFullStack({lang}: { lang: string }) {
+export default function SidebarFullStack({lang, fullStack}: { lang: string; fullStack: IFullStack }) {
     const [currentUrl, setCurrentUrl] = useState('');
 
     useEffect(() => {
@@ -20,7 +20,7 @@ export default function SidebarFullStack({lang}: { lang: string }) {
         <>
             <div className="services-details-information ml-10 border-top">
                 <ul className="framework-list">
-                    {InfoTranslation[lang].FullStack.stacks.map((item: IFullStackStack, index: number) => {
+                    {fullStack.stacks.map((item: IFullStackStack, index: number) => {
                         if (currentUrl.includes(item.link)) {
                             return (
                                 <li key={index}>

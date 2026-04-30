@@ -9,7 +9,7 @@ import {
     FaShoppingBag,
     FaUniversity
 } from "react-icons/fa";
-import {IContact, IContactSocialLink} from "@/lib/model/contact";
+import {IContact, IContactSocialLink} from "@/lib/model/IContact";
 
 export default function ContactRight({
     contact,

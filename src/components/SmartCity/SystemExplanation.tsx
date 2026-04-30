@@ -1,14 +1,14 @@
 // src/components/SmartCity/SystemExplanation.tsx
 
-import {ISmartCitySection} from "@/data/smart-city-landing/_model/ISmartCitySection";
-import {Tag} from "@/data/tags/Tag";
+import {ISmartCitySection} from "@/lib/model/ISmartCityLanding";
 
 export default function SystemExplanation(
     {
         lang,
         headline,
         paragraphs,
-        image
+        image,
+        tags
     }:
     ISmartCitySection
 ) {
@@ -31,7 +31,7 @@ export default function SystemExplanation(
                     />
 
                     <div className={'neo-tag-smart-city'}>
-                        {lang && Tag[lang].smartCity.join(",")}
+                        {tags?.join(", ")}
                     </div>
                 </div>
             )}

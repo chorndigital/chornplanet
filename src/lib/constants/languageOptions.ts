@@ -1,0 +1,81 @@
+import {ILanguageOption} from "@/lib/model/ILanguage";
+import {ILanguageOptions} from "@/lib/model/ILanguage";
+
+export const LanguageOptionDefinition: ILanguageOptions = {
+    th: {
+        language: "th",
+        label: "à¸ à¸²à¸©à¸²à¹„à¸—à¸¢",
+        locale: "th-TH"
+    },
+    en: {
+        language: "en",
+        label: "English",
+        locale: "en-US"
+    },
+    fr: {
+        language: "fr",
+        label: "FranÃ§ais",
+        locale: "fr-FR"
+    },
+    ja: {
+        language: "ja",
+        label: "æ—¥æœ¬èªž",
+        locale: "ja-JP"
+    },
+    zh: {
+        language: "zh",
+        label: "ä¸­æ–‡",
+        locale: "zh-CN"
+    },
+    de: {
+        language: "de",
+        label: "German",
+        locale: "de-DE"
+    },
+    nl: {
+        language: "nl",
+        label: "Dutch",
+        locale: "nl-NL"
+    },
+    da: {
+        language: "da",
+        label: "Danish",
+        locale: "da-DA"
+    },
+    fi: {
+        language: "fi",
+        label: "Finnish",
+        locale: "fi-FI"
+    },
+    ko: {
+        language: "ko",
+        label: "Korean",
+        locale: "ko-KR"
+    },
+}
+
+export const LanguageCode = {
+    en: LanguageOptionDefinition.en.language,
+    th: LanguageOptionDefinition.th.language,
+    fr: LanguageOptionDefinition.fr.language,
+    ja: LanguageOptionDefinition.ja.language,
+    zh: LanguageOptionDefinition.zh.language,
+    de: LanguageOptionDefinition.de.language,
+    nl: LanguageOptionDefinition.nl.language,
+    da: LanguageOptionDefinition.da.language,
+    fi: LanguageOptionDefinition.fi.language,
+    ko: LanguageOptionDefinition.ko.language
+}
+
+export const LanguageOptionRecord: Record<string, ILanguageOption> = {
+    'en': LanguageOptionDefinition.en,
+    'th': LanguageOptionDefinition.th,
+    'fr': LanguageOptionDefinition.fr,
+    'ja': LanguageOptionDefinition.ja,
+    'zh': LanguageOptionDefinition.zh,
+    'de': LanguageOptionDefinition.de,
+    'nl': LanguageOptionDefinition.nl,
+    'da': LanguageOptionDefinition.da,
+    'fi': LanguageOptionDefinition.fi,
+    'ko': LanguageOptionDefinition.ko
+}

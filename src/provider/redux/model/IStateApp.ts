@@ -1,4 +1,4 @@
-import {ILanguageOption} from "@/data/translate/model/ILanguageOption";
+import {ILanguageOption} from "@/lib/model/ILanguage";
 
 export interface IStateApp {
     languageOption: ILanguageOption;

@@ -3,7 +3,7 @@
 import {TypedUseSelectorHook, useSelector} from "react-redux";
 import {RootState} from "@/provider/redux/store";
 import {IStateApp} from "@/provider/redux/model/IStateApp";
-import {ILanguageOption} from "@/data/translate/model/ILanguageOption";
+import {ILanguageOption} from "@/lib/model/ILanguage";
 
 // App Selector
 export const useSelectorApp: TypedUseSelectorHook<RootState> = useSelector

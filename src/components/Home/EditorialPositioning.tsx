@@ -1,7 +1,7 @@
 // src/components/Home/EditorialPositioning.tsx
 
 import Image from "next/image"
-import {IEditorialPositioning} from "@/lib/model/smart-city-media";
+import {IEditorialPositioning} from "@/lib/model/ISmartCityMedia";
 
 export default function EditorialPositioning({lang, data}: {
     lang: string;

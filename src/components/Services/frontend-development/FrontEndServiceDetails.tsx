@@ -4,11 +4,21 @@ import {DefaultShape} from "@/components/Shape/DefaultShape";
 import SidebarDevOps from "@/components/Services/SidebarDevOps";
 import SidebarFrontEnd from "@/components/Services/SidebarFrontEnd";
 import SidebarFullStack from "@/components/Services/SidebarFullStack";
-import {IFrontEndStack} from "@/data/frontend/model/IFrontEndStack";
+import {IFrontEndStack} from "@/lib/model/IFrontEnd";
 import FrontEndServiceFaq from "@/components/Services/frontend-development/FrontEndServiceFaq";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
+import {IFullStack} from "@/lib/model/IFullStack";
+import {IDevOps} from "@/lib/model/IDevOps";
 
 export default function FrontEndServiceDetails(
-    {lang, stack, image}: { lang: string, stack: IFrontEndStack, image: string }
+    {lang, stack, image, frontEnd, fullStack, devOps}: {
+        lang: string,
+        stack: IFrontEndStack,
+        image: string,
+        frontEnd: IFrontEnd,
+        fullStack: IFullStack,
+        devOps: IDevOps,
+    }
 ) {
     return (
         <>
@@ -64,9 +74,9 @@ export default function FrontEndServiceDetails(
                         </div>
 
                         <div className="col-lg-4 col-md-12">
-                            <SidebarFrontEnd lang={lang}/>
-                            <SidebarFullStack lang={lang}/>
-                            <SidebarDevOps lang={lang}/>
+                            <SidebarFrontEnd lang={lang} frontEnd={frontEnd}/>
+                            <SidebarFullStack lang={lang} fullStack={fullStack}/>
+                            <SidebarDevOps lang={lang} devOps={devOps}/>
                         </div>
                     </div>
                 </div>

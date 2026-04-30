@@ -1,19 +1,14 @@
 import React from "react";
-import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
+import {ISmartSection} from "@/lib/model/ISmartMobility";
 
 export default function UrbanHubSansaiDoiSaketBottom(
-    {lang, urbanHub: injectedUrbanHub, safeStatement}: {
+    {lang, urbanHub, safeStatement}: {
         lang: string;
-        urbanHub?: ISmartSection;
+        urbanHub: ISmartSection;
         safeStatement?: ISmartSection['safeStatement'];
     }
 ) {
-    const urbanHub = injectedUrbanHub ?? SmartMobility[lang].chiangMai.urbanHub
-    const contact = InfoTranslation[lang].Contact
-
     return (
         <>
             <div className={`portfolio-details-desc portfolio-details-desc-custom`}>

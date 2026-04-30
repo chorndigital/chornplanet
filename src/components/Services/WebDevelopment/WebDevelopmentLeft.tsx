@@ -1,13 +1,12 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IFrontEnd} from "@/data/frontend/model/IFrontEnd";
-import {IFullStack} from "@/data/fullstack/model/IFullStack";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
+import {IFullStack} from "@/lib/model/IFullStack";
 
 export default function WebDevelopmentLeft(
-    {lang, frontEnd, fullStack}: { lang: string, frontEnd?: IFrontEnd, fullStack?: IFullStack }
+    {lang, frontEnd, fullStack}: { lang: string, frontEnd: IFrontEnd, fullStack: IFullStack }
 ) {
-    const frontEndContent = frontEnd ?? InfoTranslation[lang].FrontEnd;
-    const fullStackContent = fullStack ?? InfoTranslation[lang].FullStack;
+    const frontEndContent = frontEnd;
+    const fullStackContent = fullStack;
 
     return (
         <div className={'col-lg-6 add-web-content'}>

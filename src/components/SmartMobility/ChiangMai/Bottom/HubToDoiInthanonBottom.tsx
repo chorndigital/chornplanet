@@ -1,26 +1,19 @@
 import React from "react";
-import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {ISmartRoute, ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
+import {ISmartRoute, ISmartSection} from "@/lib/model/ISmartMobility";
 
 export default function HubToDoiInthanonBottom(
-    {lang, route: injectedRoute, connectivityMatrix: injectedConnectivityMatrix, safeStatement}: {
+    {lang, route, connectivityMatrix, safeStatement}: {
         lang: string;
-        route?: ISmartRoute;
-        connectivityMatrix?: { title: string; description: string };
+        route: ISmartRoute;
+        connectivityMatrix: { title: string; description: string };
         safeStatement?: ISmartSection['safeStatement'];
     }
 ) {
-    const fallbackConnectivityMatrix = SmartMobility[lang].chiangMai.connectivityMatrix
-    const connectivityMatrix = injectedConnectivityMatrix ?? fallbackConnectivityMatrix
-    const route = injectedRoute ?? fallbackConnectivityMatrix.routes[2]
-    const contact = InfoTranslation[lang].Contact
-
     return (
         <div className={`portfolio-details-desc portfolio-details-desc-custom`}>
             <div className={'unique-features-container'}>
-                <h3>{SmartMobility[lang].chiangMai.vision.title}</h3>
+                <h3>{connectivityMatrix.title}</h3>
             </div>
 
             <p>{connectivityMatrix.description}</p>

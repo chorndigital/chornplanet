@@ -1,9 +1,8 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IWeb3} from "@/data/web3/model/IWeb3";
+import {IWeb3} from "@/lib/model/IWeb3";
 
-const Web3ModuleLeft: React.FC<{ lang: string, web3?: IWeb3 }> = ({lang, web3}) => {
-    const content = web3 ?? InfoTranslation[lang].Web3;
+const Web3ModuleLeft: React.FC<{ lang: string, web3: IWeb3 }> = ({lang, web3}) => {
+    const content = web3;
 
     return (
         <div className={'col-lg-6 add-web-content'}>
