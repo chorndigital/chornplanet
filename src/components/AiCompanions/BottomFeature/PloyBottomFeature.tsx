@@ -1,10 +1,9 @@
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import Image from "next/image";
 import React from "react";
-import {IAiLanding} from "@/data/ai/model/IAiLanding";
+import {IAiLanding} from "@/lib/model/IAi";
 
-export default function PloyBottomFeature({lang, ploy}: { lang: string; ploy?: IAiLanding }) {
-    const content = ploy ?? InfoTranslation[lang].AiCompanions.ploy;
+export default function PloyBottomFeature({ploy}: { lang: string; ploy: IAiLanding }) {
+    const content = ploy;
 
     return (
         <>

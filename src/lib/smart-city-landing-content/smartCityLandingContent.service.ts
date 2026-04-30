@@ -4,7 +4,7 @@ import {
     PartialSmartCityLandingContentPayload,
     SmartCityLandingContentResponse,
 } from "@/core/domain/smart-city-landing-content.entity";
-import {SmartCityLandingContentPayload} from "@/lib/model/smart-city-landing";
+import {SmartCityLandingContentPayload} from "@/lib/model/ISmartCityLandingContent";
 import {SmartCityLandingContentService} from "@/core/services/smart-city-landing-content.service";
 import {SmartCityLandingContentRepository} from "@/adapters/outbound/mongo.repository/smart-city-landing-content.repository";
 

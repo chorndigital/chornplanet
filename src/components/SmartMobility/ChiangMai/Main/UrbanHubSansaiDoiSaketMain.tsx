@@ -1,17 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import UrbanHubSansaiDoiSaketBottom from "../Bottom/UrbanHubSansaiDoiSaketBottom";
 import SmartMobilityChiangMaiRight from "../Common/SmartMobilityChiangMaiRight";
-import {SmartVisibilityIndex} from "@/data/smart-mobility/SmartVisibilityIndex"
 import SmartCityBottomImage from "@/components/SmartCity/ChiangMai/SmartCityBottomImage";
-import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/smart-mobility-chiang-mai";
-import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
+import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/ISmartMobilityChiangMai";
+import {ISmartSection} from "@/lib/model/ISmartMobility";
 
 export default function UrbanHubSansaiDoiSaketMain(
-    {lang, content}: { lang: string; content?: SmartMobilityChiangMaiContentPayload }
+    {lang, content}: { lang: string; content: SmartMobilityChiangMaiContentPayload }
 ) {
-    const urbanHub = (content?.primaryContent as ISmartSection | undefined) ?? SmartMobility[lang].chiangMai.urbanHub
+    const urbanHub = content.primaryContent as ISmartSection
 
     return (
         <div className="portfolio-details-area smart-container-top">
@@ -40,15 +38,13 @@ export default function UrbanHubSansaiDoiSaketMain(
                         <UrbanHubSansaiDoiSaketBottom
                             lang={lang}
                             urbanHub={urbanHub}
-                            safeStatement={content?.safeStatement}
+                            safeStatement={content.safeStatement}
                         />
-                        <SmartCityBottomImage lang={lang} bottomCards={content?.bottomCards}/>
+                        <SmartCityBottomImage lang={lang} bottomCards={content.bottomCards}/>
                     </div>
                     <SmartMobilityChiangMaiRight
                         lang={lang}
-                        currentIdx={SmartVisibilityIndex.UrbanHub}
-                        imageQty={4}
-                        rightItems={content?.rightItems}
+                        rightItems={content.rightItems}
                     />
                 </div>
             </div>

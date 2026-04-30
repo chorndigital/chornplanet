@@ -1,0 +1,12 @@
+﻿# Active src/components files requiring hardcode/Mongo review
+Generated: 2026-04-29T16:19:11.2767032Z
+
+Source scope: src/app/[locale]/(desktop)
+Total active components requiring review: 0
+Moved to no-hardcode-mongodb-active.log: 151
+Uses InfoTranslation: 0
+Imports Mongo infra directly: 0
+
+Remaining criteria: hardcode=InfoTranslation or mongoInfra=direct
+
+

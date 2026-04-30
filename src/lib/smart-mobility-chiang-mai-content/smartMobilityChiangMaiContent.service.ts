@@ -4,7 +4,7 @@ import {
     PartialSmartMobilityChiangMaiContentPayload,
     SmartMobilityChiangMaiContentResponse,
 } from "@/core/domain/smart-mobility-chiang-mai-content.entity";
-import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/smart-mobility-chiang-mai";
+import {SmartMobilityChiangMaiContentPayload} from "@/lib/model/ISmartMobilityChiangMai";
 import {SmartMobilityChiangMaiContentService} from "@/core/services/smart-mobility-chiang-mai-content.service";
 import {SmartMobilityChiangMaiContentRepository} from "@/adapters/outbound/mongo.repository/smart-mobility-chiang-mai-content.repository";
 

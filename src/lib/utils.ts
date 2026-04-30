@@ -1,5 +1,5 @@
-import {INavbar} from "@/data/navbar/model/INavbar";
-import {NavbarGroups} from "@/data/navbar/common/NavbarGroups"
+import {INavbar} from "@/lib/model/INavbar";
+import {NavbarGroups} from "@/lib/constants/navbarGroups"
 
 export function sanitizeUUID(text: string): string {
     return text.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');

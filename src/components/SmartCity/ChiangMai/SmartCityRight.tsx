@@ -2,8 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import {SmartCity} from "@/data/smart-city/SmartCity";
-import {ISmartCityItem} from "@/data/smart-city/model/ISmartCity";
+import {ISmartCityItem} from "@/lib/model/ISmartCity";
 
 export default function SmartCityRight(
     {
@@ -19,24 +18,13 @@ export default function SmartCityRight(
         relatedItems?: ISmartCityItem[]
     }
 ) {
-    const items: ISmartCityItem[] = relatedItems ?? SmartCity[lang]?.chiangMai ?? [];
+    const items: ISmartCityItem[] = relatedItems ?? [];
 
     if (items.length === 0) {
         return null;
     }
 
-    const currentIndex = items.findIndex(
-        item => item.link === selectedSmartCityItem.link
-    )
-
-    const startIndex = currentIndex >= 0 ? currentIndex : 0;
-
-    const filteredArray: ISmartCityItem[] = relatedItems
-        ? items.slice(0, imageQty)
-        : Array.from(
-            {length: Math.min(imageQty, items.length)},
-            (_, i) => items[(startIndex + 1 + i) % items.length]
-        )
+    const filteredArray: ISmartCityItem[] = items.slice(0, imageQty)
 
     return (
         <div className="col-lg-4 col-md-12">

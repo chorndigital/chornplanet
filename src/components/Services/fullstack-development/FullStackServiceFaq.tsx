@@ -9,7 +9,7 @@ import {
     AccordionItemPanel,
 } from "react-accessible-accordion";
 import {sanitizeUUID} from "@/lib/utils";
-import {IFullStackFaq} from "@/data/fullstack/model/IFullStackFaq";
+import {IFullStackFaq} from "@/lib/model/IFullStack";
 
 export default function FullStackServiceFaq({faqs}: { faqs: IFullStackFaq[] }) {
     if (faqs.length === 0) {

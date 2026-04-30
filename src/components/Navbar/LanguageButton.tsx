@@ -2,14 +2,15 @@
 
 import {setLanguageOption, toggleLanguageMenuVisible} from "@/provider/redux/slice/SliceApp";
 import {Globe} from "lucide-react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import React from "react";
 import {useDispatch} from "react-redux";
-import {useLanguageMenuVisible, useLanguageOption, useMobileMenuVisible} from "@/provider/hooks/hookStateApp";
-import {ILanguageOption} from "@/data/translate/model/ILanguageOption";
+import {useLanguageMenuVisible, useLanguageOption} from "@/provider/hooks/hookStateApp";
+import {ILanguageOption} from "@/lib/model/ILanguage";
 import {useRouter} from "next/navigation";
 
-export default function LanguageButton({lang}: { lang: string }) {
+export default function LanguageButton(
+    {lang, languageOptions}: { lang: string, languageOptions: ILanguageOption[] }
+) {
     const dispatch = useDispatch();
     const languageOption = useLanguageOption()
     const languageMenuVisible = useLanguageMenuVisible()
@@ -40,7 +41,7 @@ export default function LanguageButton({lang}: { lang: string }) {
             {
                 languageMenuVisible &&
                 <ul className="dropdown-langs">
-                    {InfoTranslation[lang].Translates.map((translate, index) =>
+                    {languageOptions.map((translate, index) =>
                         <li key={index}
                             className={translate.language == lang ? 'dropdown-active' : ''}
                             onClick={() => changeLanguage(translate)}

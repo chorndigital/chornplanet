@@ -2,7 +2,7 @@ import React from "react";
 import ContactLeft from "@/components/Contact/ContactLeft";
 import ContactRight from "@/components/Contact/ContactRight";
 import {ContactGalleryBottom} from "@/components/Contact/ContactGalleryBottom";
-import {IContact, IContactSocialLink} from "@/lib/model/contact";
+import {IContact, IContactSocialLink} from "@/lib/model/IContact";
 
 export default function ContactContent({
     contact,

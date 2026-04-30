@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {IAiLanding} from "@/data/ai/model/IAiLanding";
+import {IAiLanding} from "@/lib/model/IAi";
 
 export default function FahSideRight({lang, fah}: { lang: string; fah: IAiLanding }) {
     return (

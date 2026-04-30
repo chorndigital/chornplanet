@@ -1,10 +1,9 @@
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import Image from "next/image";
 import React from "react";
-import {IAiLanding} from "@/data/ai/model/IAiLanding";
+import {IAiLanding} from "@/lib/model/IAi";
 
-export default function AomBottomFeature({lang, aom}: { lang: string; aom?: IAiLanding }) {
-    const content = aom ?? InfoTranslation[lang].AiCompanions.aom;
+export default function AomBottomFeature({aom}: { lang: string; aom: IAiLanding }) {
+    const content = aom;
 
     return (
         <>

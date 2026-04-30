@@ -1,19 +1,16 @@
 import React from "react";
 import Link from "next/link"
-import {ISmartCityItem} from "@/data/smart-city/model/ISmartCity";
-import {SmartCity} from "@/data/smart-city/SmartCity";
-import {ISmartRoute, ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
+import {ISmartCityItem} from "@/lib/model/ISmartCity";
+import {ISmartRoute, ISmartSection} from "@/lib/model/ISmartMobility";
 
 type BottomCard = ISmartCityItem | ISmartSection | ISmartRoute;
 
 export default function SmartCityBottomImage(
-    {lang, bottomCards}: { lang: string; bottomCards?: Array<ISmartSection | ISmartRoute> }
+    {lang, bottomCards}: { lang: string; bottomCards: Array<ISmartSection | ISmartRoute> }
 ) {
-    const items: BottomCard[] = bottomCards ?? SmartCity[lang]?.chiangMai ?? [];
-
     return (
         <div className="vision-bottom-container">
-            {items.slice(0, 2).map((smartCityItem, i) => (
+            {bottomCards.slice(0, 2).map((smartCityItem, i) => (
                 <Link key={`${smartCityItem.title}-${i}`}
                       href={"/" + lang + smartCityItem.link}
                       className="vision-card">

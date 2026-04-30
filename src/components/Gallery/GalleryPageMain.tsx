@@ -1,6 +1,6 @@
 import React from "react";
 import {DefaultShape} from "@/components/Shape/DefaultShape";
-import {IGalleryItem} from "@/lib/model/gallery";
+import {IGalleryItem} from "@/lib/model/IGallery";
 
 const GalleryPageMain: React.FC<{ global: IGalleryItem }> = ({global}) => {
     return (

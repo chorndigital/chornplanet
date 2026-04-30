@@ -3,11 +3,10 @@ import {DefaultShape} from "@/components/Shape/DefaultShape";
 import FullStackModuleBottom from "@/components/Services/fullstack-development/FullStackModuleBottom";
 import FullStackModuleLeft from "@/components/Services/fullstack-development/FullStackModuleLeft";
 import FullStackModuleRight from "@/components/Services/fullstack-development/FullStackModuleRight";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IFullStack} from "@/data/fullstack/model/IFullStack";
+import {IFullStack} from "@/lib/model/IFullStack";
 
-const FullStackPageMain: React.FC<{ lang: string, fullStack?: IFullStack }> = ({lang, fullStack}) => {
-    const content = fullStack ?? InfoTranslation[lang].FullStack;
+const FullStackPageMain: React.FC<{ lang: string, fullStack: IFullStack }> = ({lang, fullStack}) => {
+    const content = fullStack;
 
     return (
         <>

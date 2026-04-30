@@ -1,5 +1,5 @@
 import {ObjectId, WithId} from "mongodb";
-import {AiCompanionsPageContent} from "@/lib/model/ai-companions";
+import {AiCompanionsPageContent} from "@/lib/model/IAiCompanionsContent";
 
 export const AI_COMPANIONS_CONTENT_LOCALES = ['da', 'de', 'en', 'fi', 'fr', 'ja', 'ko', 'nl', 'th', 'zh'] as const;
 

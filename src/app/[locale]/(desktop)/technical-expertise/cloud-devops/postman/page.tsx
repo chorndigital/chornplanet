@@ -2,6 +2,7 @@ import React from "react";
 import CloudExperience from "@/components/Common/CloudExperience";
 import ServicesDetailsPostman from "@/components/Services/cloud-devops/postman/ServicesDetailsPostman";
 import {Metadata} from "next";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 import {SchemaMarkupServicePage} from "@/components/GoogleSchemaMarkup/SchemaMarkupServicePage";
 import {headers} from "next/headers";
 import {MetadataPostman} from "@/metadata/main/devops/MetadataPostman";
@@ -15,11 +16,18 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
+    const technicalContent = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <ServicesDetailsPostman lang={lang}/>
-            <CloudExperience lang={lang}/>
+            <ServicesDetailsPostman
+                lang={lang}
+                stack={technicalContent.devOps.postman}
+                frontEnd={technicalContent.frontEnd}
+                fullStack={technicalContent.fullStack}
+                devOps={technicalContent.devOps}
+            />
+            <CloudExperience lang={lang} cloud={technicalContent.cloud}/>
             <SchemaMarkupServicePage
                 name="Postman API Testing Services | Chorn Planet"
                 description="Chorn Planet provides API testing services using Postman to ensure the reliability and performance of your web services."

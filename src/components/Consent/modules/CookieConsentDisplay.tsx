@@ -3,12 +3,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {ImageUrl} from "@/image/ImageUrl";
 import ConsentCookieButton from "@/components/Consent/modules/ConsentCookieButton";
 import {useCookieConsent} from "@/provider/hooks/hookStateApp";
+import {IConsent} from "@/lib/model/IConsent";
 
-export default function CookieConsentDisplay({lang}: { lang: string }) {
+export default function CookieConsentDisplay({lang, consent}: { lang: string, consent: IConsent }) {
     const isCookieConsent = useCookieConsent()
 
     if (isCookieConsent) {
@@ -31,18 +31,18 @@ export default function CookieConsentDisplay({lang}: { lang: string }) {
                                 height={50}
                             />
                             <div className="text">
-                                {InfoTranslation[lang].Consent.description}
+                                {consent.description}
                                 <Link
                                     className="a-privacy"
-                                    href={'/' + lang + InfoTranslation[lang].Consent.policyLink}
+                                    href={'/' + lang + consent.policyLink}
                                 >
-                                    {InfoTranslation[lang].Consent.policyLabel}
+                                    {consent.policyLabel}
                                 </Link>
                             </div>
                         </div>
 
                         <div className="add-cookie-right">
-                            <ConsentCookieButton lang={lang}/>
+                            <ConsentCookieButton buttonText={consent.buttonText}/>
                         </div>
                     </div>
                 </div>

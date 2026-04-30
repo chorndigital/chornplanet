@@ -8,6 +8,7 @@ import HomeBackEndContainer from "@/components/Common/HomeBackEnd/HomeBackEndCon
 import HomeFrontEndContainer from "@/components/Common/HomeFrontEnd/HomeFrontEndContainer";
 import CloudInfraPageMain from "@/components/Services/cloud-infrastructure-systems-architecture/CloudInfraPageMain";
 import {getAboutContent} from "@/lib/about-content/aboutContent.service";
+import {getTechnicalExpertiseContent} from "@/lib/technical-expertise-content/technicalExpertiseContent.service";
 
 export async function generateMetadata(): Promise<Metadata> {
     const headers15 = await headers();
@@ -19,13 +20,22 @@ export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
     const aboutContent = await getAboutContent(lang);
+    const technicalContent = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
             <AboutContent about={aboutContent.about} media={aboutContent.media}/>
-            <CloudInfraPageMain lang={lang}/>
-            <HomeBackEndContainer lang={lang} isRemoveTopSpace={true}/>
-            <HomeFrontEndContainer lang={lang}/>
+            <CloudInfraPageMain
+                lang={lang}
+                cloud={technicalContent.cloud}
+                cloudSolution={technicalContent.cloudSolution}
+            />
+            <HomeBackEndContainer
+                lang={lang}
+                fullStack={technicalContent.fullStack}
+                isRemoveTopSpace={true}
+            />
+            <HomeFrontEndContainer lang={lang} frontEnd={technicalContent.frontEnd}/>
 
             <SchemaMarkupServicePage
                 name="About Us | Chorn Planet - Custom Software Development Experts"

@@ -5,8 +5,12 @@ import {ImageUrl} from "@/image/ImageUrl";
 import LanguageButton from "@/components/Navbar/LanguageButton";
 import HamburgerButton from "@/components/Navbar/HamburgerButton";
 import DesktopNavbarContainer from "@/components/Navbar/DesktopNavbarContainer";
+import {INavbar} from "@/lib/model/INavbar";
+import {ILanguageOption} from "@/lib/model/ILanguage";
 
-export default function NavbarContainer({lang}: { lang: string }) {
+export default function NavbarContainer(
+    {lang, navbar, languageOptions}: { lang: string, navbar: INavbar[], languageOptions: ILanguageOption[] }
+) {
     return (
         <div id="navbar" className="navbar-area navbar-container">
             <div className="main-navbar">
@@ -21,9 +25,9 @@ export default function NavbarContainer({lang}: { lang: string }) {
                             />
                         </Link>
 
-                        <LanguageButton lang={lang}/>
+                        <LanguageButton lang={lang} languageOptions={languageOptions}/>
                         <HamburgerButton/>
-                        <DesktopNavbarContainer lang={lang}/>
+                        <DesktopNavbarContainer lang={lang} navbar={navbar}/>
                     </nav>
                 </div>
             </div>

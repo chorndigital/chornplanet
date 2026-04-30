@@ -1,12 +1,11 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IFrontEndStack} from "@/data/frontend/model/IFrontEndStack";
+import {IFrontEndStack} from "@/lib/model/IFrontEnd";
 import Link from "next/link";
 import Image from "next/image";
-import {IDevOps} from "@/data/devops/model/IDevOps";
+import {IDevOps} from "@/lib/model/IDevOps";
 
-export default function CloudDevOpsModuleBottom({lang, devOps}: { lang: string, devOps?: IDevOps }) {
-    const content = devOps ?? InfoTranslation[lang].DevOps;
+export default function CloudDevOpsModuleBottom({lang, devOps}: { lang: string, devOps: IDevOps }) {
+    const content = devOps;
 
     return (
         <div className="services-area bg-fafafa pt-100 pb-70 addition-ptb-0">

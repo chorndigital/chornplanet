@@ -1,5 +1,5 @@
 import {ObjectId, WithId} from "mongodb";
-import {IContact, IContactSocialLink} from "@/lib/model/contact";
+import {IContact, IContactSocialLink} from "@/lib/model/IContact";
 
 export const CONTACT_CONTENT_LOCALES = ['da', 'de', 'en', 'fi', 'fr', 'ja', 'ko', 'nl', 'th', 'zh'] as const;
 

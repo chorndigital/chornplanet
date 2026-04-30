@@ -1,11 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {IFooterDetail} from "@/data/footer/model/IFooter";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
+import {IFooter, IFooterDetail} from "@/lib/model/IFooter";
 import {ImageUrl} from "@/image/ImageUrl";
 
-export default function FooterLogoSocial({lang}: { lang: string }) {
+export default function FooterLogoSocial({lang, footer}: { lang: string, footer: IFooter }) {
     return (
         <div className="footer-logo-social-container">
             <div className="single-footer-widget logo-social">
@@ -19,11 +18,11 @@ export default function FooterLogoSocial({lang}: { lang: string }) {
                 </Link>
 
                 <p className="footer-description">
-                    {InfoTranslation[lang].Footer.description}
+                    {footer.description}
                 </p>
 
                 <ul className="social">
-                    {InfoTranslation[lang].Footer.social.items.map((item: IFooterDetail, index: number) => (
+                    {footer.social.items.map((item: IFooterDetail, index: number) => (
                         <li key={index}>
                             <a
                                 href={item.link}

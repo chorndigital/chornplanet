@@ -1,15 +1,20 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {ImageUrl} from "@/image/ImageUrl";
-import {IFrontEndStack} from "@/data/frontend/model/IFrontEndStack";
+import {IFrontEndStack} from "@/lib/model/IFrontEnd";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
+import {IFullStack} from "@/lib/model/IFullStack";
+import {IDevOps} from "@/lib/model/IDevOps";
 import FrontEndServiceDetails from "@/components/Services/frontend-development/FrontEndServiceDetails";
 
-export default function ServicesDetailsAngular({lang, stack}: { lang: string, stack?: IFrontEndStack }) {
+export default function ServicesDetailsAngular({lang, stack, frontEnd, fullStack, devOps}: { lang: string, stack: IFrontEndStack, frontEnd: IFrontEnd, fullStack: IFullStack, devOps: IDevOps }) {
     return (
         <FrontEndServiceDetails
             lang={lang}
-            stack={stack ?? InfoTranslation[lang].FrontEnd.angular}
+            stack={stack}
             image={ImageUrl.frontend.frameworks.angular.image1200}
+        frontEnd={frontEnd}
+            fullStack={fullStack}
+            devOps={devOps}
         />
     );
 }

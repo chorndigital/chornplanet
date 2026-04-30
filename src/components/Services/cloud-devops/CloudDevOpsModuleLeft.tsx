@@ -1,9 +1,8 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IDevOps} from "@/data/devops/model/IDevOps";
+import {IDevOps} from "@/lib/model/IDevOps";
 
-const CloudDevOpsModuleLeft: React.FC<{ lang: string, devOps?: IDevOps }> = ({lang, devOps}) => {
-    const content = devOps ?? InfoTranslation[lang].DevOps;
+const CloudDevOpsModuleLeft: React.FC<{ lang: string, devOps: IDevOps }> = ({lang, devOps}) => {
+    const content = devOps;
 
     return (
         <div className={'col-lg-6 add-web-content'}>

@@ -1,14 +1,13 @@
 // src/component/AiCompanionTH/Main/AiFahLandingPage.tsx
 import React from "react";
 import Image from "next/image";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {DefaultShape} from "@/components/Shape/DefaultShape";
 import PloySideRight from "@/components/AiCompanions/SideRight/PloySideRight";
 import PloyBottomFeature from "@/components/AiCompanions/BottomFeature/PloyBottomFeature";
-import {IAiLanding} from "@/data/ai/model/IAiLanding";
+import {IAiLanding} from "@/lib/model/IAi";
 
-const AiPloyLandingPage: React.FC<{ lang: string; ploy?: IAiLanding }> = ({lang, ploy}) => {
-    const content = ploy ?? InfoTranslation[lang].AiCompanions.ploy;
+const AiPloyLandingPage: React.FC<{ lang: string; ploy: IAiLanding }> = ({lang, ploy}) => {
+    const content = ploy;
 
     return (
         <>

@@ -1,15 +1,15 @@
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import React from "react";
-import {IFrontEndStack} from "@/data/frontend/model/IFrontEndStack";
+import {IFrontEndStack} from "@/lib/model/IFrontEnd";
 import Image from "next/image";
 import Link from "next/link";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
 
-export default function HomeFrontEndBottom({lang}: { lang: string }) {
+export default function HomeFrontEndBottom({lang, frontEnd}: { lang: string; frontEnd: IFrontEnd }) {
     return (
         <div className="services-area bg-fafafa pt-100 pb-70 addition-ptb-0">
             <div className="container">
                 <div className="row">
-                    {InfoTranslation[lang].FrontEnd.stacks.slice(0, 6).map((item: IFrontEndStack, index: number) => (
+                    {frontEnd.stacks.slice(0, 6).map((item: IFrontEndStack, index: number) => (
                         <div key={index} className="col-lg-4 col-md-6">
                             <Link href={'/' + lang + item.link}>
                                 <div className="home-frontend-box">

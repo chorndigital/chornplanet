@@ -1,12 +1,11 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {IFrontEndStack} from "@/data/frontend/model/IFrontEndStack";
+import {IFrontEndStack} from "@/lib/model/IFrontEnd";
 import Link from "next/link";
 import Image from "next/image";
-import {IFrontEnd} from "@/data/frontend/model/IFrontEnd";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
 
-export default function WevDevelopmentFrontEnd({lang, frontEnd}: { lang: string, frontEnd?: IFrontEnd }) {
-    const content = frontEnd ?? InfoTranslation[lang].FrontEnd;
+export default function WevDevelopmentFrontEnd({lang, frontEnd}: { lang: string, frontEnd: IFrontEnd }) {
+    const content = frontEnd;
 
     return (
         <div className="services-area bg-fafafa pt-100 pb-70 addition-ptb-0">

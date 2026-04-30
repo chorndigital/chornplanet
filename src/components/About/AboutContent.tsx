@@ -1,7 +1,7 @@
 import React from "react";
 import AboutLeft from "@/components/About/AboutLeft";
 import AboutRight from "@/components/About/AboutRight";
-import {AboutContentMedia, IAbout} from "@/lib/model/about";
+import {AboutContentMedia, IAbout} from "@/lib/model/IAbout";
 
 export default function AboutContent({
     about,

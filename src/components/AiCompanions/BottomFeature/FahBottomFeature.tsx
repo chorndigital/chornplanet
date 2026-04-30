@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import {IAiLanding} from "@/data/ai/model/IAiLanding";
+import {IAiLanding} from "@/lib/model/IAi";
 
 export default function FahBottomFeature({fah}: { fah: IAiLanding }) {
     return (

@@ -1,11 +1,11 @@
 import {ObjectId, WithId} from "mongodb";
-import {IFeature} from "@/data/feature/model/IFeature";
-import {IFrontEnd} from "@/data/frontend/model/IFrontEnd";
-import {IFullStack} from "@/data/fullstack/model/IFullStack";
-import {IDevOps} from "@/data/devops/model/IDevOps";
-import {ICloud} from "@/data/cloud/model/ICloud";
-import {IWeb3} from "@/data/web3/model/IWeb3";
-import {ICloudSolution} from "@/data/cloud-solutions/model/ICloudSolution";
+import {IFeature} from "@/lib/model/IFeature";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
+import {IFullStack} from "@/lib/model/IFullStack";
+import {IDevOps} from "@/lib/model/IDevOps";
+import {ICloud} from "@/lib/model/ICloud";
+import {IWeb3} from "@/lib/model/IWeb3";
+import {ICloudSolution} from "@/lib/model/ICloudSolution";
 
 export const TECHNICAL_EXPERTISE_CONTENT_LOCALES = ['da', 'de', 'en', 'fi', 'fr', 'ja', 'ko', 'nl', 'th', 'zh'] as const;
 

@@ -1,5 +1,5 @@
 import {ObjectId, WithId} from "mongodb";
-import {SmartCityLandingContentPayload} from "@/lib/model/smart-city-landing";
+import {SmartCityLandingContentPayload} from "@/lib/model/ISmartCityLandingContent";
 
 export const SMART_CITY_LANDING_CONTENT_LOCALES = ['da', 'de', 'en', 'fi', 'fr', 'ja', 'ko', 'nl', 'th', 'zh'] as const;
 

@@ -1,7 +1,7 @@
 // src/components/smart-city-media/GlobalPatterns.tsx
 
 import Image from "next/image"
-import {IGlobalPatterns} from "@/lib/model/smart-city-media";
+import {IGlobalPatterns} from "@/lib/model/ISmartCityMedia";
 
 export default function GlobalPatterns({lang, data}: { lang: string; data: IGlobalPatterns }) {
     const {headline, paragraph, signals} = data

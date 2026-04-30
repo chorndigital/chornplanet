@@ -1,11 +1,10 @@
 "use client"
 
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {useDispatch} from "react-redux";
 import {setCookieConsent} from "@/provider/redux/slice/SliceApp";
 
 export default function ConsentCookieButton(
-    {lang}: { lang: string }) {
+    {buttonText}: { buttonText: string }) {
     const dispatch = useDispatch();
 
     const handleAccept = () => {
@@ -35,7 +34,7 @@ export default function ConsentCookieButton(
         <button
             className="btn btn-success add-button"
             onClick={handleAccept}>
-            {InfoTranslation[lang].Consent.buttonText}
+            {buttonText}
         </button>
     )
 }

@@ -1,15 +1,20 @@
 import React from "react";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
 import {ImageUrl} from "@/image/ImageUrl";
-import {IFullStackStack} from "@/data/fullstack/model/IFullStackStack";
+import {IFullStackStack} from "@/lib/model/IFullStack";
+import {IFrontEnd} from "@/lib/model/IFrontEnd";
+import {IFullStack} from "@/lib/model/IFullStack";
+import {IDevOps} from "@/lib/model/IDevOps";
 import FullStackServiceDetails from "@/components/Services/fullstack-development/FullStackServiceDetails";
 
-export default function ServicesDetailsJava({lang, stack}: { lang: string, stack?: IFullStackStack }) {
+export default function ServicesDetailsJava({lang, stack, frontEnd, fullStack, devOps}: { lang: string, stack: IFullStackStack, frontEnd: IFrontEnd, fullStack: IFullStack, devOps: IDevOps }) {
     return (
         <FullStackServiceDetails
             lang={lang}
-            stack={stack ?? InfoTranslation[lang].FullStack.java}
+            stack={stack}
             image={ImageUrl.backend.frameworks.java.image1200}
+        frontEnd={frontEnd}
+            fullStack={fullStack}
+            devOps={devOps}
         />
     );
 }

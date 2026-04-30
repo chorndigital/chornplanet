@@ -16,11 +16,17 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
-    const {fullStack, cloud} = await getTechnicalExpertiseContent(lang);
+    const {frontEnd, fullStack, devOps, cloud} = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <ServicesDetailsPython lang={lang} stack={fullStack.python}/>
+            <ServicesDetailsPython
+                lang={lang}
+                stack={fullStack.python}
+                frontEnd={frontEnd}
+                fullStack={fullStack}
+                devOps={devOps}
+            />
             <CloudExperience lang={lang} cloud={cloud}/>
             <SchemaMarkupServicePage
                 name="Python Full Stack Development | Chorn Planet"

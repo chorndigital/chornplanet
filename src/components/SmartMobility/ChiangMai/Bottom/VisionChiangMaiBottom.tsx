@@ -1,21 +1,14 @@
 import React from "react";
-import {SmartMobility} from "@/data/smart-mobility/SmartMobility";
 import SmartMobilityClarificationStatement from "../Common/SmartMobilityClarificationStatement";
-import {InfoTranslation} from "@/data/info/main/InfoTranslation";
-import {ISmartSection} from "@/data/smart-mobility/model/ISmartMobility";
+import {ISmartSection} from "@/lib/model/ISmartMobility";
 
 export default function VisionChiangMaiBottom(
-    {lang, vision: injectedVision, safeStatement}: {
+    {lang, vision, safeStatement}: {
         lang: string;
-        vision?: ISmartSection;
+        vision: ISmartSection;
         safeStatement?: ISmartSection['safeStatement'];
     }
 ) {
-    const vision = injectedVision ?? SmartMobility[lang].chiangMai.vision
-    const urbanHub = SmartMobility[lang].chiangMai.urbanHub
-    const route1 = SmartMobility[lang].chiangMai.connectivityMatrix.routes[0]
-    const contact = InfoTranslation[lang].Contact
-
     return (
         <>
             <div className={`portfolio-details-desc portfolio-details-desc-custom`}>

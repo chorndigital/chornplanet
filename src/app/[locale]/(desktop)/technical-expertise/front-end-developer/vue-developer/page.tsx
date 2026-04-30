@@ -16,11 +16,17 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
     const headers15 = await headers();
     const lang = headers15.get('x-locale') || 'en';
-    const {frontEnd, cloud} = await getTechnicalExpertiseContent(lang);
+    const {frontEnd, fullStack, devOps, cloud} = await getTechnicalExpertiseContent(lang);
 
     return (
         <div className="smart-container-top">
-            <ServicesDetailsVue lang={lang} stack={frontEnd.vue}/>
+            <ServicesDetailsVue
+                lang={lang}
+                stack={frontEnd.vue}
+                frontEnd={frontEnd}
+                fullStack={fullStack}
+                devOps={devOps}
+            />
             <CloudExperience lang={lang} cloud={cloud}/>
             <SchemaMarkupServicePage
                 name="Vue.js Development Services | Chorn Planet"
