@@ -1,7 +1,0 @@
-# Inactive src/components files not reachable from src/app/[locale]/(desktop)
-Generated: 2026-04-29T16:18:55.285Z
-
-Total: 0
-Uses InfoTranslation: 0
-Imports Mongo infra directly: 0
-
